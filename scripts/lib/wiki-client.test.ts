@@ -168,6 +168,7 @@ describe('WikiClient.bucket', () => {
     await expect(client.bucket("bucket('x').select('*').run()")).rejects.toBeInstanceOf(
       WikiApiError,
     );
+    expect(await readdir(cacheDir)).toEqual([]);
   });
 
   it('pages with limit/offset until a short page', async () => {
@@ -175,61 +176,60 @@ describe('WikiClient.bucket', () => {
     const { client, urls } = setup([json({ bucket: full }), json({ bucket: [{ i: -1 }] })], {
       minIntervalMs: 0,
     });
-    const rows = await client.bucketAll(
-      (page) => `bucket('dropsline').select('page_name')${page}.run()`,
-    );
+    const rows = await client.bucketAll("bucket('dropsline').select('page_name')");
     expect(rows).toHaveLength(BUCKET_PAGE_SIZE + 1);
     expect(urls().map((u) => u.searchParams.get('query'))).toEqual([
       `bucket('dropsline').select('page_name').limit(${BUCKET_PAGE_SIZE}).offset(0).run()`,
       `bucket('dropsline').select('page_name').limit(${BUCKET_PAGE_SIZE}).offset(${BUCKET_PAGE_SIZE}).run()`,
     ]);
   });
+
+  it('caches all pages as one result, and nothing if a page fails', async () => {
+    const full = Array.from({ length: BUCKET_PAGE_SIZE }, (_, i) => ({ i }));
+    const query = "bucket('dropsline').select('page_name')";
+
+    const failing = setup([json({ bucket: full }), json({ error: 'timeout' })], {
+      minIntervalMs: 0,
+    });
+    await expect(failing.client.bucketAll(query)).rejects.toBeInstanceOf(WikiApiError);
+    expect(await readdir(cacheDir)).toEqual([]);
+
+    await setup([json({ bucket: full }), json({ bucket: [] })], {
+      minIntervalMs: 0,
+    }).client.bucketAll(query);
+    expect(await readdir(cacheDir)).toHaveLength(1);
+
+    const warm = setup([]);
+    await expect(warm.client.bucketAll(query)).resolves.toHaveLength(BUCKET_PAGE_SIZE);
+    expect(warm.fetchMock).not.toHaveBeenCalled();
+  });
 });
 
-describe('WikiClient.wikitext', () => {
-  const page = (title: string, content: string) => ({
-    title,
-    revisions: [{ slots: { main: { content } } }],
+describe('WikiClient errors and timeouts', () => {
+  it('does not cache a MediaWiki error payload', async () => {
+    const { client } = setup([json({ error: { code: 'maxlag', info: 'Waiting for db' } })]);
+    await expect(client.get({ action: 'query' })).rejects.toThrow('Waiting for db');
+    expect(await readdir(cacheDir)).toEqual([]);
   });
 
-  it('keys results by the requested title through normalization and redirects', async () => {
-    const { client } = setup([
-      json({
-        query: {
-          normalized: [{ from: 'slayer task/nech', to: 'Slayer task/nech' }],
-          redirects: [{ from: 'Slayer task/nech', to: 'Slayer task/Nechryael' }],
-          pages: [
-            page('Slayer task/Nechryael', 'nech text'),
-            page('Vannaka', 'vannaka text'),
-            { title: 'Nope', missing: true },
-          ],
-        },
-      }),
-    ]);
-    const result = await client.wikitext(['slayer task/nech', 'Vannaka', 'Nope']);
-    expect(Object.fromEntries(result)).toEqual({
-      'slayer task/nech': 'nech text',
-      Vannaka: 'vannaka text',
-      Nope: null,
-    });
-  });
-
-  it('batches 50 titles per request and drops duplicates', async () => {
-    const titles = Array.from({ length: 120 }, (_, i) => `Page ${i}`);
-    const { client, urls } = setup(
-      [0, 1, 2].map(() => json({ query: { pages: [] } })),
-      { minIntervalMs: 0 },
-    );
-    await client.wikitext([...titles, 'Page 0']);
-    expect(urls().map((u) => u.searchParams.get('titles')!.split('|').length)).toEqual([
-      50, 50, 20,
-    ]);
+  it('gives every request a timeout signal', async () => {
+    const { client, fetchMock } = setup([json({})]);
+    await client.get({ action: 'query' });
+    const init = fetchMock.mock.calls[0] as unknown as [string, RequestInit];
+    expect(init[1].signal).toBeInstanceOf(AbortSignal);
   });
 });
 
 describe('cacheKey', () => {
+  const api = 'https://example.test/api.php';
+
   it('is independent of param order and changes with values', () => {
-    expect(cacheKey({ a: '1', b: '2' })).toBe(cacheKey({ b: '2', a: '1' }));
-    expect(cacheKey({ a: '1' })).not.toBe(cacheKey({ a: '2' }));
+    expect(cacheKey(api, { a: '1', b: '2' })).toBe(cacheKey(api, { b: '2', a: '1' }));
+    expect(cacheKey(api, { a: '1' })).not.toBe(cacheKey(api, { a: '2' }));
+  });
+
+  it('does not collide when a value contains & or =, or across API URLs', () => {
+    expect(cacheKey(api, { a: '1&b=2' })).not.toBe(cacheKey(api, { a: '1', b: '2' }));
+    expect(cacheKey(api, { a: '1' })).not.toBe(cacheKey('https://other.test/api.php', { a: '1' }));
   });
 });

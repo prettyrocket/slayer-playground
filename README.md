@@ -93,8 +93,8 @@ good citizen:
 
 - a descriptive User-Agent with the repo URL, so wiki staff can reach us
 - one request at a time, at least 1s apart, retrying 429/5xx with backoff
-- batched requests (50 titles per wikitext request, 5000 rows per Bucket page)
-- every response cached in `.cache/wiki/` (gitignored), so re-runs send nothing;
+- batched requests (5000 rows per Bucket page), each with a 30s timeout
+- every successful response cached in `.cache/wiki/` (gitignored), so re-runs send nothing;
   pass `-- --refresh` to refetch
 
 Data is © the OSRS Wiki contributors, CC BY-NC-SA 3.0.
