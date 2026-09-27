@@ -82,46 +82,72 @@ const ENTITIES: Record<string, string> = {
   lt: '<',
   gt: '>',
   nbsp: ' ',
-  thinsp: '',
+  thinsp: ' ',
+  // A marker before each of several examines; the line breaks already separate them.
   bull: '',
 };
 
 /**
- * Plain text from a Bucket value, which can hold rendered wikitext: `<br/>` and
- * bullet lists become newlines; strip markers (refs, nowiki), `[sic]` notes,
- * HTML tags, bold/italic quotes and `[[links]]` are removed; entities decoded.
+ * Plain text from a Bucket value. Bucket stores fields after templates expand,
+ * so they can hold rendered HTML and leftover wikitext. The rules are generic
+ * rather than per template (they match better-monster-examine's WikiSanitizer):
+ * every tag goes, entities decode, and line breaks survive as `\n`, since one
+ * field can pack several values.
  */
 export function plainText(value: string): string {
-  return value
-    .replace(/\x7f?'"`UNIQ--[\w-]+?-QINU`"'\x7f?/g, '')
-    .replace(/<sup\b[^>]*>.*?<\/sup>/gs, '')
-    .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<[^>]+>/g, '')
+  const decoded = value
+    // MediaWiki strip markers (refs, nowiki): U+007F-bounded, or the quoted UNIQ form.
+    .replace(/\x7f[^\x7f]*\x7f/g, '')
+    .replace(/'"`UNIQ--[\w-]+?-QINU`"'/g, '')
+    // Editorial notes kept out of print, e.g. {{sic}}'s "[sic]": dropped whole.
+    .replace(/<sup[^>]*\bnoprint\b.*?<\/sup>/gis, '')
+    // [[Magic]] -> Magic, [[a|b]] -> b; then any unbalanced brackets.
     .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1')
+    .replace(/\[\[|\]\]/g, '')
+    // <br> and a plainlist's <div> wrapper separate values.
+    .replace(/<br\s*\/?>|<\/?div[^>]*>/gi, '\n')
+    .replace(/<\/?[a-z][^>]*>/gi, '')
+    // Unrendered bold/italic quotes, and list bullets.
     .replace(/'{2,}/g, '')
-    .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
-    .replace(/&([a-z]+);/gi, (entity, name: string) => ENTITIES[name.toLowerCase()] ?? entity)
+    .replace(/^[ \t]*\*+/gm, '')
+    // Ranges use a hyphen everywhere else ("30-37").
+    .replace(/–/g, '-')
+    // Decoded after the tag pass, so an escaped "&lt;" survives as text.
+    .replace(/&#(x[0-9a-f]+|\d+);/gi, (entity, code: string) => {
+      const cp = code[0].toLowerCase() === 'x' ? parseInt(code.slice(1), 16) : Number(code);
+      return cp <= 0x10ffff ? String.fromCodePoint(cp) : entity;
+    })
+    .replace(/&([a-z]+);/gi, (entity, name: string) => ENTITIES[name.toLowerCase()] ?? entity);
+  return decoded
     .split('\n')
-    .map((line) =>
-      line
-        .replace(/^\s*\*\s*/, '')
-        .replace(/\s+/g, ' ')
-        .trim(),
-    )
+    .map((line) => line.replace(/\s+/g, ' ').trim())
     .filter(Boolean)
     .join('\n');
 }
 
+/**
+ * How the wiki writes "no value" (an attack style of "None", a max hit of "N/A").
+ * Not "No": that is a real answer.
+ */
+const isPlaceholder = (text: string) => /^(none|n\/a)$/i.test(text);
+
+/** Plain text, or null when empty or a placeholder. */
 const str = (value: unknown): string | null => {
   if (typeof value !== 'string') return null;
   const text = plainText(value);
-  return text === '' ? null : text;
+  return text === '' || isPlaceholder(text) ? null : text;
 };
 /** Every value as plain text, one entry per line (the wiki packs lists into one value with `<br/>`). */
 const strings = (value: unknown): string[] =>
   (Array.isArray(value) ? value : value === undefined ? [] : [value])
-    .flatMap((v) => str(v)?.split('\n') ?? [])
-    .filter((v) => v !== '');
+    .flatMap((v) => (typeof v === 'string' ? plainText(v).split('\n') : []))
+    .filter((v) => v !== '' && !isPlaceholder(v));
+
+/** "Zombie bone#Unpolished" -> "Zombie bone (Unpolished)": the wiki links item versions by anchor. */
+export const itemName = (name: string): string => {
+  const hash = name.indexOf('#');
+  return hash < 0 ? name : `${name.slice(0, hash).trim()} (${name.slice(hash + 1).trim()})`;
+};
 
 /** "Skeleton#Level 21, 1" -> "Level 21, 1". Nested switch infoboxes join their labels there. */
 const versionLabel = (row: RawMonster): string | null => {
@@ -297,8 +323,9 @@ export function normalizeDrop(raw: RawDrop): Drop | null {
   } catch {
     return null;
   }
-  const item = str(json['Dropped item']) ?? str(raw.item_name);
-  if (!item) return null;
+  const name = str(json['Dropped item']) ?? str(raw.item_name);
+  if (!name) return null;
+  const item = itemName(name);
 
   const from = str(json['Dropped from']) ?? '';
   const hash = from.indexOf('#');

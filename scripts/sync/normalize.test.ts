@@ -4,6 +4,7 @@ import {
   DROPS_PAGE,
   buildDrops,
   buildMonsters,
+  itemName,
   masterKey,
   normalizeDrop,
   parseRarity,
@@ -238,6 +239,13 @@ describe('plainText', () => {
       'Big, red.\nBig, purple.',
     ],
     ['Tom &amp; Jerry', 'Tom & Jerry'],
+    ['A<div class="plainlist">B</div>C', 'A\nB\nC'],
+    ['x<sup>2</sup> < 5 > 3', 'x2 < 5 > 3'],
+    ['[[Magic]] ]] and [[Fire', 'Magic and Fire'],
+    ['1&thinsp;000 &#x2014; &#8212;', '1 000 — —'],
+    ['1–12 (without Slayer gloves)', '1-12 (without Slayer gloves)'],
+    ['a\x7fstrip marker\x7fb', 'ab'],
+    ['* one\n** two', 'one\ntwo'],
   ])('%j', (input, expected) => {
     expect(plainText(input)).toBe(expected);
   });
@@ -347,5 +355,28 @@ describe('buildMonsters: repeated labels', () => {
       ['Delve 1 (3)', 'Shielded.'],
     ]);
     expect(labels([...rows].reverse())).toEqual(labels(rows));
+  });
+});
+
+describe('placeholders and item names', () => {
+  it('drops None and N/A values, but keeps No', () => {
+    const [monster] = buildMonsters(
+      [row({ attack_style: ['None'], max_hit: ['N/A<br/>12'], poison_resistance: 'No' })],
+      new Set(),
+      new Set(),
+    );
+    expect(monster.versions[0]).toMatchObject({
+      attackStyles: [],
+      maxHit: ['12'],
+      immunities: { poison: 'No' },
+    });
+  });
+
+  it('turns an item version anchor into a parenthesised version', () => {
+    expect(itemName('Zombie bone#Unpolished')).toBe('Zombie bone (Unpolished)');
+    expect(itemName('Abyssal whip')).toBe('Abyssal whip');
+    expect(normalizeDrop(dropRow({ 'Dropped item': 'Fishbowl#Water' }))?.item).toBe(
+      'Fishbowl (Water)',
+    );
   });
 });
