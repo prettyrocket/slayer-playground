@@ -75,12 +75,60 @@ const num = (value: unknown): number | null => {
   }
   return null;
 };
-const str = (value: unknown): string | null =>
-  typeof value === 'string' && value.trim() !== '' ? value.trim() : null;
+const ENTITIES: Record<string, string> = {
+  amp: '&',
+  quot: '"',
+  apos: "'",
+  lt: '<',
+  gt: '>',
+  nbsp: ' ',
+  thinsp: '',
+  bull: '',
+};
+
+/**
+ * Plain text from a Bucket value, which can hold rendered wikitext: `<br/>` and
+ * bullet lists become newlines; strip markers (refs, nowiki), `[sic]` notes,
+ * HTML tags, bold/italic quotes and `[[links]]` are removed; entities decoded.
+ */
+export function plainText(value: string): string {
+  return value
+    .replace(/\x7f?'"`UNIQ--[\w-]+?-QINU`"'\x7f?/g, '')
+    .replace(/<sup\b[^>]*>.*?<\/sup>/gs, '')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1')
+    .replace(/'{2,}/g, '')
+    .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
+    .replace(/&([a-z]+);/gi, (entity, name: string) => ENTITIES[name.toLowerCase()] ?? entity)
+    .split('\n')
+    .map((line) =>
+      line
+        .replace(/^\s*\*\s*/, '')
+        .replace(/\s+/g, ' ')
+        .trim(),
+    )
+    .filter(Boolean)
+    .join('\n');
+}
+
+const str = (value: unknown): string | null => {
+  if (typeof value !== 'string') return null;
+  const text = plainText(value);
+  return text === '' ? null : text;
+};
+/** Every value as plain text, one entry per line (the wiki packs lists into one value with `<br/>`). */
 const strings = (value: unknown): string[] =>
   (Array.isArray(value) ? value : value === undefined ? [] : [value])
-    .map(str)
-    .filter((v): v is string => v !== null);
+    .flatMap((v) => str(v)?.split('\n') ?? [])
+    .filter((v) => v !== '');
+
+/** "Skeleton#Level 21, 1" -> "Level 21, 1". Nested switch infoboxes join their labels there. */
+const versionLabel = (row: RawMonster): string | null => {
+  const sub = str(row.page_name_sub);
+  const hash = sub?.indexOf('#') ?? -1;
+  return sub && hash >= 0 ? sub.slice(hash + 1) : str(row.version_anchor);
+};
 
 /** "Immune" / "Not immune" -> boolean. */
 const immune = (value: unknown): boolean | null => {
@@ -93,7 +141,7 @@ const immune = (value: unknown): boolean | null => {
 function version(row: RawMonster): MonsterVersion {
   const element = str(row.elemental_weakness);
   return {
-    version: str(row.version_anchor),
+    version: versionLabel(row),
     isDefault: row.default_version === true,
     name: str(row.name) ?? String(row.page_name),
     npcIds: strings(row.id)
@@ -182,13 +230,23 @@ export function buildMonsters(
     ].filter((c): c is string => c !== null);
     const slug = slugs.get(page)!;
 
-    const versions = pageRows
-      .map(version)
-      .sort(
-        (a, b) =>
-          Number(b.isDefault) - Number(a.isDefault) ||
-          (a.version ?? '').localeCompare(b.version ?? ''),
-      );
+    const versions = pageRows.map(version).sort(
+      (a, b) =>
+        Number(b.isDefault) - Number(a.isDefault) ||
+        (a.version ?? '').localeCompare(b.version ?? '', 'en', { numeric: true }) ||
+        // Same label: order by content so re-syncs don't reshuffle them.
+        JSON.stringify(a).localeCompare(JSON.stringify(b)),
+    );
+    // Nested switch infoboxes flag a default in each group, and some pages flag
+    // none, so keep exactly one: the first after sorting.
+    versions.forEach((v, i) => (v.isDefault = i === 0));
+    // A few pages repeat a label for different forms ("Delve 1" x3); number the repeats.
+    const seen = new Map<string | null, number>();
+    for (const v of versions) {
+      const n = (seen.get(v.version) ?? 0) + 1;
+      seen.set(v.version, n);
+      if (n > 1) v.version = `${v.version ?? 'Version'} (${n})`;
+    }
     const main = versions[0];
     const masters = new Set(
       pageRows.flatMap((r) => strings(r.assigned_by).map(masterKey)).filter((m) => m !== null),
@@ -250,7 +308,8 @@ export function normalizeDrop(raw: RawDrop): Drop | null {
   return {
     item,
     dropVersion: hash >= 0 ? from.slice(hash + 1) : null,
-    quantity: [low ?? 1, high ?? low ?? 1],
+    // No numbers when the wiki writes "Varies" or "Unknown".
+    quantity: low === null ? null : [low, high ?? low],
     noted: /\(noted\)/i.test(json['Drop Quantity'] ?? ''),
     rarity,
     chance: parseRarity(rarity),
@@ -263,18 +322,37 @@ export function normalizeDrop(raw: RawDrop): Drop | null {
 }
 
 /**
- * Normalize drops for the given pages. Exact duplicate rows (the wiki has a
- * few dozen) are dropped. Order: drop version, then most common first, then item.
+ * Monsters whose drops live on another page, which has no monster infobox of
+ * its own: monster page -> drops page.
+ */
+export const DROPS_PAGE: Record<string, string> = {
+  Dusk: 'Grotesque Guardians',
+  Dawn: 'Grotesque Guardians',
+};
+
+/**
+ * Normalize drops for the given monster pages, keyed by monster page. Exact
+ * duplicate rows (the wiki has a few dozen) are dropped. Order: drop version,
+ * then most common first, then item.
  */
 export function buildDrops(rows: RawDrop[], pages: Set<string>): Map<string, Drop[]> {
+  const monstersOf = new Map<string, string[]>();
+  for (const page of pages) {
+    const dropsPage = DROPS_PAGE[page] ?? page;
+    monstersOf.set(dropsPage, [...(monstersOf.get(dropsPage) ?? []), page]);
+  }
+
   const byPage = new Map<string, Map<string, Drop>>();
   for (const row of rows) {
-    if (!pages.has(row.page_name)) continue;
+    const monsters = monstersOf.get(row.page_name);
+    if (!monsters) continue;
     const drop = normalizeDrop(row);
     if (!drop) continue;
-    const drops = byPage.get(row.page_name) ?? new Map<string, Drop>();
-    drops.set(JSON.stringify(drop), drop);
-    byPage.set(row.page_name, drops);
+    for (const page of monsters) {
+      const drops = byPage.get(page) ?? new Map<string, Drop>();
+      drops.set(JSON.stringify(drop), drop);
+      byPage.set(page, drops);
+    }
   }
 
   const out = new Map<string, Drop[]>();
@@ -286,7 +364,7 @@ export function buildDrops(rows: RawDrop[], pages: Set<string>): Map<string, Dro
           (a.dropVersion ?? '').localeCompare(b.dropVersion ?? '') ||
           (b.chance ?? -1) - (a.chance ?? -1) ||
           a.item.localeCompare(b.item) ||
-          a.quantity[0] - b.quantity[0],
+          (a.quantity?.[0] ?? -1) - (b.quantity?.[0] ?? -1),
       ),
     );
   }

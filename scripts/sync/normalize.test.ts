@@ -1,11 +1,13 @@
 import { describe, expect, it } from 'vitest';
 
 import {
+  DROPS_PAGE,
   buildDrops,
   buildMonsters,
   masterKey,
   normalizeDrop,
   parseRarity,
+  plainText,
   slayerCategory,
   slugify,
   uniqueSlugs,
@@ -214,5 +216,136 @@ describe('buildDrops', () => {
       [null, 'Abyssal whip'],
       ['Wild', 'Coins'],
     ]);
+  });
+});
+
+describe('plainText', () => {
+  it.each([
+    ['26 (melee)<br/> 15x2 (ranged)', '26 (melee)\n15x2 (ranged)'],
+    ['<div class="plainlist " >\n*31 (auto)\n*45 (special)\n</div>', '31 (auto)\n45 (special)'],
+    ['148&thinsp;\'"`UNIQ--ref-00000014-QINU`"\'', '148'],
+    ['\x7f\'"`UNIQ--ref-00000044-QINU`"\'\x7f Magic', 'Magic'],
+    [
+      'Zombies<sup class="noprint">&#91;<span class="fact-text" title="…">sic</span>&#93;</sup> Champion',
+      'Zombies Champion',
+    ],
+    [
+      "A juvenile vampyre.<br/>'''When bound by [[Retainer]]:''' Held in a [[Spell|spell]].",
+      'A juvenile vampyre.\nWhen bound by Retainer: Held in a spell.',
+    ],
+    [
+      "<span style=\"user-select:none;\">'''&bull;'''</span> Big, red.<br/><span>'''&bull;'''</span> Big, purple.",
+      'Big, red.\nBig, purple.',
+    ],
+    ['Tom &amp; Jerry', 'Tom & Jerry'],
+  ])('%j', (input, expected) => {
+    expect(plainText(input)).toBe(expected);
+  });
+});
+
+describe('buildMonsters: wiki quirks', () => {
+  it('splits list fields packed with <br/> and strips markup from names', () => {
+    const [monster] = buildMonsters(
+      [
+        row({
+          name: 'Abyssal demon<sup class="noprint">&#91;sic&#93;</sup>',
+          max_hit: ['26 (melee)<br/> 65 (special attack)'],
+          attack_style: ['Slash \'"`UNIQ--ref-0000006D-QINU`"\''],
+        }),
+      ],
+      new Set(),
+      new Set(),
+    );
+    expect(monster.versions[0]).toMatchObject({
+      name: 'Abyssal demon',
+      maxHit: ['26 (melee)', '65 (special attack)'],
+      attackStyles: ['Slash'],
+    });
+  });
+
+  it('labels nested versions from page_name_sub and keeps exactly one default', () => {
+    const [monster] = buildMonsters(
+      [
+        row({
+          page_name_sub: 'Abyssal demon#Level 22, 1',
+          version_anchor: '1',
+          default_version: true,
+        }),
+        row({
+          page_name_sub: 'Abyssal demon#Level 21, 2',
+          version_anchor: '2',
+          default_version: false,
+        }),
+        row({
+          page_name_sub: 'Abyssal demon#Level 21, 1',
+          version_anchor: '1',
+          default_version: true,
+        }),
+      ],
+      new Set(),
+      new Set(),
+    );
+    expect(monster.versions.map((v) => [v.version, v.isDefault])).toEqual([
+      ['Level 21, 1', true],
+      ['Level 22, 1', false],
+      ['Level 21, 2', false],
+    ]);
+  });
+
+  it('picks a default when the wiki flags none', () => {
+    const [monster] = buildMonsters(
+      [
+        row({ page_name_sub: 'Abyssal demon#Level 84', default_version: false }),
+        row({ page_name_sub: 'Abyssal demon#Level 9', default_version: false }),
+      ],
+      new Set(),
+      new Set(),
+    );
+    expect(monster.versions.map((v) => [v.version, v.isDefault])).toEqual([
+      ['Level 9', true],
+      ['Level 84', false],
+    ]);
+  });
+});
+
+describe('drops: wiki quirks', () => {
+  it('gives no quantity for "Varies" and "Unknown"', () => {
+    const drop = normalizeDrop(
+      dropRow({
+        'Dropped item': 'Raw manta ray',
+        'Drop Quantity': 'Varies',
+        'Quantity Low': undefined,
+        'Quantity High': undefined,
+      }),
+    );
+    expect(drop?.quantity).toBeNull();
+  });
+
+  it('attaches drops kept on a separate page to each of its monsters', () => {
+    const drops = buildDrops(
+      [dropRow({ 'Dropped item': 'Granite maul' }, 'Grotesque Guardians')],
+      new Set(['Dusk', 'Dawn']),
+    );
+    expect(DROPS_PAGE.Dusk).toBe('Grotesque Guardians');
+    expect([...drops.keys()].sort()).toEqual(['Dawn', 'Dusk']);
+    expect(drops.get('Dusk')!.map((d) => d.item)).toEqual(['Granite maul']);
+  });
+});
+
+describe('buildMonsters: repeated labels', () => {
+  it('numbers versions that share a label, in a stable order', () => {
+    const rows = [
+      row({ page_name_sub: 'Abyssal demon#Delve 1', default_version: false, examine: 'Shielded.' }),
+      row({ page_name_sub: 'Abyssal demon#Delve 1', default_version: true, examine: 'Digging.' }),
+      row({ page_name_sub: 'Abyssal demon#Delve 1', default_version: false, examine: 'Burrowed.' }),
+    ];
+    const labels = (input: RawMonster[]) =>
+      buildMonsters(input, new Set(), new Set())[0].versions.map((v) => [v.version, v.examine]);
+    expect(labels(rows)).toEqual([
+      ['Delve 1', 'Digging.'],
+      ['Delve 1 (2)', 'Burrowed.'],
+      ['Delve 1 (3)', 'Shielded.'],
+    ]);
+    expect(labels([...rows].reverse())).toEqual(labels(rows));
   });
 });

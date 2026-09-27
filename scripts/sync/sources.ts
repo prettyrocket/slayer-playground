@@ -68,15 +68,16 @@ const select = (fields: readonly string[]) => fields.map((f) => `'${f}'`).join('
 /** Every infobox_monster row (about 3,250, so one page). */
 export function fetchMonsters(client: WikiClient): Promise<RawMonster[]> {
   return client.bucketAll<RawMonster>(
-    (page) => `bucket('infobox_monster').select(${select(MONSTER_FIELDS)})${page}.run()`,
+    `bucket('infobox_monster').select(${select(MONSTER_FIELDS)})`,
+    'page_name_sub',
   );
 }
 
 /** Pages in the wiki's "can only be fought on task" category. */
 export async function fetchTaskOnlyPages(client: WikiClient): Promise<Set<string>> {
   const rows = await client.bucketAll<{ page_name: string }>(
-    (page) =>
-      `bucket('infobox_monster').select('page_name').where('Category:Slayer monsters that can only be fought on task')${page}.run()`,
+    "bucket('infobox_monster').select('page_name').where('Category:Slayer monsters that can only be fought on task')",
+    'page_name',
   );
   return new Set(rows.map((row) => row.page_name));
 }
@@ -88,7 +89,7 @@ export async function fetchTaskOnlyPages(client: WikiClient): Promise<Set<string
  */
 export function fetchDrops(client: WikiClient): Promise<RawDrop[]> {
   return client.bucketAll<RawDrop>(
-    (page) =>
-      `bucket('dropsline').select('page_name','page_name_sub','item_name','drop_json')${page}.run()`,
+    "bucket('dropsline').select('page_name','page_name_sub','item_name','drop_json')",
+    'page_name_sub',
   );
 }

@@ -41,11 +41,13 @@ export interface Monster {
 }
 
 export interface MonsterVersion {
-  /** Version label, e.g. "Catacombs of Kourend"; null for single-version pages. */
+  /** Version label, e.g. "Catacombs of Kourend" or "Level 21, 1" (nested); null for single-version pages. */
   version: string | null;
+  /** Exactly one version per monster is the default, and it is first. */
   isDefault: boolean;
   name: string;
   npcIds: number[];
+  /** Plain text; several examines are separated by newlines. */
   examine: string | null;
   combatLevel: number | null;
   hitpoints: number | null;
@@ -108,7 +110,8 @@ export interface Drop {
   item: string;
   /** Drop table version, e.g. "Standard" or "Drop table 1"; null when the page has one table. */
   dropVersion: string | null;
-  quantity: [number, number];
+  /** [low, high]; null when the wiki gives "Varies" or "Unknown". */
+  quantity: [number, number] | null;
   noted: boolean;
   /** Rarity as the wiki writes it: "1/512", "Always", "Rare", … */
   rarity: string;
