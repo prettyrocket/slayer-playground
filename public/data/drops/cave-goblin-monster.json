@@ -1,0 +1,293 @@
+{
+  "page": "Cave goblin (monster)",
+  "drops": [
+    {
+      "item": "Bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Lit torch",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "reward"
+    },
+    {
+      "item": "Tinderbox",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "reward"
+    },
+    {
+      "item": "Cave goblin skull",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "6/50",
+      "chance": 0.12,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": null,
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "5/50",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": false,
+      "rarity": "5/50",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "5/50",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "5/50",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "4/50",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        9,
+        9
+      ],
+      "noted": false,
+      "rarity": "4/50",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Hammer",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/50",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Tinderbox",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/50",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Brass necklace",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/64",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Goblin champion scroll",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    }
+  ]
+}

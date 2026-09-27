@@ -1,0 +1,21 @@
+{
+  "page": "Urium Shade",
+  "drops": [
+    {
+      "item": "Urium remains",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    }
+  ]
+}

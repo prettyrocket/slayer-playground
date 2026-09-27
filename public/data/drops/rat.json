@@ -1,0 +1,101 @@
+{
+  "page": "Rat",
+  "drops": [
+    {
+      "item": "Rat's tail",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Rat bone",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/15",
+      "chance": 0.06666666666666667,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Bones",
+      "dropVersion": "Stronghold of Security",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Rat's tail",
+      "dropVersion": "Stronghold of Security",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Rat bone",
+      "dropVersion": "Stronghold of Security",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    }
+  ]
+}

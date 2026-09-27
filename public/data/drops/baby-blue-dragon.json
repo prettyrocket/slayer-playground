@@ -1,0 +1,101 @@
+{
+  "page": "Baby blue dragon",
+  "drops": [
+    {
+      "item": "Babydragon bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Baby dragon bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Frozen tear",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat"
+    },
+    {
+      "item": "Scaly blue dragonhide",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/200",
+      "chance": 0.005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/640",
+      "chance": 0.0015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Tooth half of key (moon key)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,066",
+      "chance": 0.0009380863039399625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat"
+    }
+  ]
+}

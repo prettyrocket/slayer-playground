@@ -1,0 +1,485 @@
+{
+  "page": "Doom of Mokhaiotl",
+  "drops": [
+    {
+      "item": "Demon tear",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        50
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat"
+    },
+    {
+      "item": "Demon tear",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        300
+      ],
+      "noted": false,
+      "rarity": "7/104",
+      "chance": 0.0673076923076923,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat"
+    },
+    {
+      "item": "Mokhaiotl waystone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "7/104",
+      "chance": 0.0673076923076923,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6000,
+      "type": "combat"
+    },
+    {
+      "item": "Aether catalyst",
+      "dropVersion": null,
+      "quantity": [
+        151,
+        400
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        70
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        50
+      ],
+      "noted": true,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        70
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon dart tip",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        90
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon med helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60000,
+      "type": "combat"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": null,
+      "quantity": [
+        500,
+        1000
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": null,
+      "quantity": [
+        500,
+        1000
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Gold ore",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        60
+      ],
+      "noted": true,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 90,
+      "type": "combat"
+    },
+    {
+      "item": "Mystic earth staff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 25500,
+      "type": "combat"
+    },
+    {
+      "item": "Onyx bolts",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        15
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8179,
+      "type": "combat"
+    },
+    {
+      "item": "Rune pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": true,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19200,
+      "type": "combat"
+    },
+    {
+      "item": "Runite ore",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        6
+      ],
+      "noted": true,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1920,
+      "type": "combat"
+    },
+    {
+      "item": "Steel cannonball",
+      "dropVersion": null,
+      "quantity": [
+        200,
+        600
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Sun-kissed bones",
+      "dropVersion": null,
+      "quantity": [
+        18,
+        75
+      ],
+      "noted": false,
+      "rarity": "5/104",
+      "chance": 0.04807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    },
+    {
+      "item": "Raw shark",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        35
+      ],
+      "noted": true,
+      "rarity": "10/312",
+      "chance": 0.03205128205128205,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 102,
+      "type": "combat"
+    },
+    {
+      "item": "Celastrus seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/104",
+      "chance": 0.028846153846153848,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 324,
+      "type": "combat"
+    },
+    {
+      "item": "Spirit seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/104",
+      "chance": 0.028846153846153848,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/104",
+      "chance": 0.019230769230769232,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Shark lure",
+      "dropVersion": null,
+      "quantity": [
+        40,
+        70
+      ],
+      "noted": false,
+      "rarity": "5/312",
+      "chance": 0.016025641025641024,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (elite)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/75",
+      "chance": 0.013333333333333334,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/50",
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon platelegs",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": true,
+      "rarity": "1/104",
+      "chance": 0.009615384615384616,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 162000,
+      "type": "combat"
+    },
+    {
+      "item": "Tooth half of key (moon key)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/104",
+      "chance": 0.009615384615384616,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Dom",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,000",
+      "chance": 0.001,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/250",
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Avernic treads",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,350",
+      "chance": 0.0007407407407407407,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/540",
+      "value": 115200,
+      "type": "combat"
+    },
+    {
+      "item": "Eye of Ayak (uncharged)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,000",
+      "chance": 0.0005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/540",
+      "value": 3600000,
+      "type": "combat"
+    },
+    {
+      "item": "Mokhaiotl cloth",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,500",
+      "chance": 0.0004,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/540",
+      "value": 120000,
+      "type": "combat"
+    }
+  ]
+}

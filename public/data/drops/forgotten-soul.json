@@ -1,0 +1,725 @@
+{
+  "page": "Forgotten Soul",
+  "drops": [
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        40,
+        140
+      ],
+      "noted": false,
+      "rarity": "20/128",
+      "chance": 0.15625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/11.6",
+      "chance": 0.08620689655172414,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat"
+    },
+    {
+      "item": "Vial of water",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": true,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/15.5",
+      "chance": 0.06451612903225806,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat"
+    },
+    {
+      "item": "Small fishing net",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/20.7",
+      "chance": 0.04830917874396135,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        8,
+        8
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Mind rune",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        32
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/26.6",
+      "chance": 0.03759398496240601,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        50
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/33.9",
+      "chance": 0.029498525073746312,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/46.5",
+      "chance": 0.021505376344086023,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/62.1",
+      "chance": 0.01610305958132045,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        30
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        20
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Mithril bolts",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        24
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        30
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/74.5",
+      "chance": 0.013422818791946308,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy cadantine",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/93.1",
+      "chance": 0.010741138560687433,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/124.1",
+      "chance": 0.008058017727639002,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy lantadyme",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/124.1",
+      "chance": 0.008058017727639002,
+      "approx": false,
+      "rolls": 1.2,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat"
+    },
+    {
+      "item": "Air battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat"
+    },
+    {
+      "item": "Ball of wool",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Black robe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat"
+    },
+    {
+      "item": "Black skirt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Earth battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat"
+    },
+    {
+      "item": "Fire battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Snape grass",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Steel longsword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat"
+    },
+    {
+      "item": "Water battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat"
+    },
+    {
+      "item": "Wizard hat",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/260",
+      "value": 15,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,024",
+      "chance": 0.0009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/520",
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,040",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,461.33",
+      "chance": 0.00018310558050877717,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,773.33",
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,160",
+      "value": 120,
+      "type": "combat"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/262,144",
+      "chance": 0.000003814697265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/15,600",
+      "value": 12480,
+      "type": "combat"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/524,288",
+      "chance": 0.0000019073486328125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/31,200",
+      "value": 66000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/699,050.67",
+      "chance": 0.0000014305114677881647,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/41,600",
+      "value": 37440,
+      "type": "combat"
+    }
+  ]
+}

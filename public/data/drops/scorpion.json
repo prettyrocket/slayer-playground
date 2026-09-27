@@ -1,0 +1,101 @@
+{
+  "page": "Scorpion",
+  "drops": [
+    {
+      "item": "Book page 1",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/10",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Ensouled scorpion head",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 148,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/307",
+      "chance": 0.003257328990228013,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,406",
+      "chance": 0.0007112375533428165,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    }
+  ]
+}

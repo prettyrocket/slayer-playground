@@ -1,0 +1,69 @@
+{
+  "page": "Shadow spider",
+  "drops": [
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/276",
+      "chance": 0.0036231884057971015,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/335",
+      "chance": 0.0029850746268656717,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    }
+  ]
+}

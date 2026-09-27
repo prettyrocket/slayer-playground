@@ -1,0 +1,37 @@
+{
+  "page": "Thermonuclear smoke devil (Echo)",
+  "drops": [
+    {
+      "item": "Devil's element",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30000,
+      "type": "combat"
+    },
+    {
+      "item": "Shadowflame quadrant",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 45000,
+      "type": "combat"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "page": "TzHaar-Mej",
+  "drops": [
+    {
+      "item": "Tokkul",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        21
+      ],
+      "noted": false,
+      "rarity": "62/128",
+      "chance": 0.484375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        25
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        25
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        25
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Tokkul",
+      "dropVersion": null,
+      "quantity": [
+        22,
+        22
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "16/2,048",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "16/1,536",
+      "value": 15,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "8/2,048",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "8/1,536",
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/2,048",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "4/1,536",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,536",
+      "value": 120,
+      "type": "combat"
+    },
+    {
+      "item": "Obsidian cape",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat"
+    },
+    {
+      "item": "Toktz-mej-tal",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21000,
+      "type": "combat"
+    }
+  ]
+}

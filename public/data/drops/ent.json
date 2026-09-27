@@ -1,0 +1,165 @@
+{
+  "page": "Ent",
+  "drops": [
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/236",
+      "chance": 0.00423728813559322,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Bird nest (egg)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Very rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 271,
+      "type": "woodcutting"
+    },
+    {
+      "item": "Bird nest (ring)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 271,
+      "type": "woodcutting"
+    },
+    {
+      "item": "Bird nest (seeds)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 271,
+      "type": "woodcutting"
+    },
+    {
+      "item": "Logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Magic logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 192,
+      "type": "combat"
+    },
+    {
+      "item": "Maple logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 48,
+      "type": "combat"
+    },
+    {
+      "item": "Oak logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Willow logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat"
+    },
+    {
+      "item": "Yew logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    }
+  ]
+}

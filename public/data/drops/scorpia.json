@@ -1,0 +1,613 @@
+{
+  "page": "Scorpia",
+  "drops": [
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Blood rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        150,
+        200
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Ensouled scorpion head",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 148,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        25002,
+        34962
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        8
+      ],
+      "noted": true,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4200,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        20
+      ],
+      "noted": true,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted anglerfish",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        25
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted super restore(4)",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        15
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        15
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy snapdragon",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        7
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy torstol",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        15
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat"
+    },
+    {
+      "item": "Rune 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat"
+    },
+    {
+      "item": "Rune kiteshield",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 32640,
+      "type": "combat"
+    },
+    {
+      "item": "Rune pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19200,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/30",
+      "chance": 0.03333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon javelin tips",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        50
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1170,
+      "type": "combat"
+    },
+    {
+      "item": "Mystic earth staff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 25500,
+      "type": "combat"
+    },
+    {
+      "item": "Rune chainbody",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30000,
+      "type": "combat"
+    },
+    {
+      "item": "Rune platelegs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat"
+    },
+    {
+      "item": "Rune scimitar",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15360,
+      "type": "combat"
+    },
+    {
+      "item": "Rune warhammer",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24900,
+      "type": "combat"
+    },
+    {
+      "item": "Runite ore",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": true,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1920,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        15
+      ],
+      "noted": true,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat"
+    },
+    {
+      "item": "Onyx bolt tips",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        10
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat"
+    },
+    {
+      "item": "Wilderness crabs teleport",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 37,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/72",
+      "chance": 0.013888888888888888,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/75",
+      "chance": 0.013333333333333334,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/50",
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 132000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon scimitar",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60000,
+      "type": "combat"
+    },
+    {
+      "item": "Mystic robe bottom",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48000,
+      "type": "combat"
+    },
+    {
+      "item": "Mystic robe top",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 72000,
+      "type": "combat"
+    },
+    {
+      "item": "Malediction shard 3",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18600,
+      "type": "combat"
+    },
+    {
+      "item": "Odium shard 3",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18600,
+      "type": "combat"
+    },
+    {
+      "item": "Scorpia's offspring",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,015.75",
+      "chance": 0.0004960932655339203,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    }
+  ]
+}

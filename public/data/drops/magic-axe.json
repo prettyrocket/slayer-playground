@@ -1,0 +1,229 @@
+{
+  "page": "Magic axe",
+  "drops": [
+    {
+      "item": "Iron battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 109,
+      "type": "combat"
+    },
+    {
+      "item": "Iron battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "475/500",
+      "chance": 0.95,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 109,
+      "type": "combat"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Mithril battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/500",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1014,
+      "type": "combat"
+    },
+    {
+      "item": "Steel battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/500",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 390,
+      "type": "combat"
+    },
+    {
+      "item": "Adamant battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/500",
+      "chance": 0.008,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2496,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/128",
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/284",
+      "chance": 0.0035211267605633804,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient shard",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/303",
+      "chance": 0.0033003300330033004,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 122,
+      "type": "combat"
+    },
+    {
+      "item": "Dark totem base",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/455",
+      "chance": 0.002197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 123,
+      "type": "combat"
+    },
+    {
+      "item": "Dark totem middle",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/455",
+      "chance": 0.002197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 123,
+      "type": "combat"
+    },
+    {
+      "item": "Dark totem top",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/455",
+      "chance": 0.002197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 123,
+      "type": "combat"
+    },
+    {
+      "item": "Rune battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/500",
+      "chance": 0.002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24960,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/533",
+      "chance": 0.001876172607879925,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    }
+  ]
+}

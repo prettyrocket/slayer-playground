@@ -1,0 +1,501 @@
+{
+  "page": "Zombie (Sepulchre of Death)",
+  "drops": [
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "51/256",
+      "chance": 0.19921875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Fishing bait",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        50
+      ],
+      "noted": false,
+      "rarity": "40/256",
+      "chance": 0.15625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Fishing bait",
+      "dropVersion": null,
+      "quantity": [
+        27,
+        27
+      ],
+      "noted": false,
+      "rarity": "24/256",
+      "chance": 0.09375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": null,
+      "quantity": [
+        40,
+        40
+      ],
+      "noted": false,
+      "rarity": "20/256",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "20/256",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        35,
+        35
+      ],
+      "noted": false,
+      "rarity": "20/256",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Cosmic rune",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "20/256",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "15/256",
+      "chance": 0.05859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        50
+      ],
+      "noted": false,
+      "rarity": "15/256",
+      "chance": 0.05859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        26,
+        26
+      ],
+      "noted": false,
+      "rarity": "10/256",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/256",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Bones",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "5/256",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/256",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/73.14",
+      "chance": 0.013672409078479627,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/37.14",
+      "value": 15,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/146.29",
+      "chance": 0.006835737234260716,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/74.29",
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Bones",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon bones",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon bones",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/292.57",
+      "chance": 0.0034179854393820283,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/148.57",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/780.19",
+      "chance": 0.00128173906356144,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/396.19",
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,170.29",
+      "chance": 0.0008544890582676089,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/594.29",
+      "value": 120,
+      "type": "combat"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,340.57",
+      "chance": 0.00042724635452048,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,188.57",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/2,340.57",
+      "chance": 0.00042724635452048,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,188.57",
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,340.57",
+      "chance": 0.00042724635452048,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,188.57",
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/37,449.14",
+      "chance": 0.000026702882896643286,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,228.57",
+      "value": 12480,
+      "type": "combat"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/74,898.29",
+      "chance": 0.000013351439665711995,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,457.14",
+      "value": 66000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/99,864.38",
+      "chance": 0.000010013580417762569,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/5,942.86",
+      "value": 37440,
+      "type": "combat"
+    }
+  ]
+}

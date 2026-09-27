@@ -1,0 +1,757 @@
+{
+  "page": "Artio",
+  "drops": [
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        12000,
+        12000
+      ],
+      "noted": false,
+      "rarity": "21/128",
+      "chance": 0.1640625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Rune pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "12/128",
+      "chance": 0.09375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19200,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted anglerfish",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted karambwan",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted super restore(3)",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 23,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted super restore(4)",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat"
+    },
+    {
+      "item": "Ranging potion(2)",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 129,
+      "type": "combat"
+    },
+    {
+      "item": "Super combat potion(2)",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/18",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Blood rune",
+      "dropVersion": null,
+      "quantity": [
+        140,
+        140
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        300,
+        300
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        220,
+        220
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Mahogany logs",
+      "dropVersion": null,
+      "quantity": [
+        200,
+        200
+      ],
+      "noted": true,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Dark crab",
+      "dropVersion": null,
+      "quantity": [
+        9,
+        9
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 192,
+      "type": "combat"
+    },
+    {
+      "item": "Limpwurt root",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    },
+    {
+      "item": "Magic logs",
+      "dropVersion": null,
+      "quantity": [
+        60,
+        60
+      ],
+      "noted": true,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 192,
+      "type": "combat"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Snapdragon seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat"
+    },
+    {
+      "item": "Soul rune",
+      "dropVersion": null,
+      "quantity": [
+        150,
+        150
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat"
+    },
+    {
+      "item": "Super restore(4)",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/30",
+      "chance": 0.03333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Steel cannonball",
+      "dropVersion": null,
+      "quantity": [
+        190,
+        190
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Supercompost",
+      "dropVersion": null,
+      "quantity": [
+        60,
+        60
+      ],
+      "noted": true,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 51,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        17,
+        17
+      ],
+      "noted": true,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon bones",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        25
+      ],
+      "noted": true,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    },
+    {
+      "item": "Red dragonhide",
+      "dropVersion": null,
+      "quantity": [
+        55,
+        55
+      ],
+      "noted": true,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 87,
+      "type": "combat"
+    },
+    {
+      "item": "Rune 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": true,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/55",
+      "chance": 0.01818181818181818,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/56",
+      "chance": 0.017857142857142856,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Coconut",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        30
+      ],
+      "noted": true,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 52,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut dragonstone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (elite)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/50",
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Dark fishing bait",
+      "dropVersion": null,
+      "quantity": [
+        300,
+        300
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Grimy toadflax",
+      "dropVersion": null,
+      "quantity": [
+        40,
+        40
+      ],
+      "noted": true,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 11,
+      "type": "combat"
+    },
+    {
+      "item": "Magic seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 253,
+      "type": "combat"
+    },
+    {
+      "item": "Palm tree seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 152,
+      "type": "combat"
+    },
+    {
+      "item": "Yew seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 85,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/358",
+      "chance": 0.002793296089385475,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 132000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/358",
+      "chance": 0.002793296089385475,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 58770,
+      "type": "combat"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Claws of Callisto",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/618",
+      "chance": 0.0016181229773462784,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48000,
+      "type": "combat"
+    },
+    {
+      "item": "Tyrannical ring",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/716",
+      "chance": 0.0013966480446927375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30000,
+      "type": "combat"
+    },
+    {
+      "item": "Voidwaker hilt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/912",
+      "chance": 0.0010964912280701754,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 480000,
+      "type": "combat"
+    },
+    {
+      "item": "Callisto cub",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,800",
+      "chance": 0.00035714285714285714,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "page": "Vampyre Juvinate",
+  "drops": [
+    {
+      "item": "Vampyre dust",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Mithril platelegs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "22/256",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1560,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril scimitar",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "17/256",
+      "chance": 0.06640625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 624,
+      "type": "reward"
+    },
+    {
+      "item": "Steel plateskirt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "16/256",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "reward"
+    },
+    {
+      "item": "Willow logs",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": true,
+      "rarity": "16/256",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "reward"
+    },
+    {
+      "item": "Black sq shield",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "15/256",
+      "chance": 0.05859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 691,
+      "type": "reward"
+    },
+    {
+      "item": "Black full helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "14/256",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 633,
+      "type": "reward"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "12/256",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "reward"
+    },
+    {
+      "item": "Adamant axe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "10/256",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 768,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril longsword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "10/256",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 780,
+      "type": "reward"
+    },
+    {
+      "item": "Yew logs",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": true,
+      "rarity": "10/256",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "reward"
+    },
+    {
+      "item": "Adamant mace",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "9/256",
+      "chance": 0.03515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 864,
+      "type": "reward"
+    },
+    {
+      "item": "Black kiteshield",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "9/256",
+      "chance": 0.03515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 979,
+      "type": "reward"
+    },
+    {
+      "item": "Ruby ring",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "9/256",
+      "chance": 0.03515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1215,
+      "type": "reward"
+    },
+    {
+      "item": "Black chainbody",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "8/256",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 864,
+      "type": "reward"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "8/256",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril full helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "8/256",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 858,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril sq shield",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "7/256",
+      "chance": 0.02734375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 936,
+      "type": "reward"
+    },
+    {
+      "item": "Black spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "5/256",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 390,
+      "type": "reward"
+    },
+    {
+      "item": "Black 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "4/256",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1152,
+      "type": "reward"
+    },
+    {
+      "item": "Black battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "4/256",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 748,
+      "type": "reward"
+    },
+    {
+      "item": "Adamant med helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1152,
+      "type": "reward"
+    },
+    {
+      "item": "Adamant sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1248,
+      "type": "reward"
+    },
+    {
+      "item": "Amulet of magic",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 540,
+      "type": "reward"
+    },
+    {
+      "item": "Black platelegs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1152,
+      "type": "reward"
+    },
+    {
+      "item": "Black plateskirt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1152,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1560,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1014,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril chainbody",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1170,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril kiteshield",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1326,
+      "type": "reward"
+    },
+    {
+      "item": "Mithril warhammer",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 996,
+      "type": "reward"
+    },
+    {
+      "item": "Steel platebody",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "3/256",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1200,
+      "type": "reward"
+    },
+    {
+      "item": "Adamant scimitar",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "2/256",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1536,
+      "type": "reward"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/256",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "reward"
+    },
+    {
+      "item": "Staff of fire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "2/256",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 900,
+      "type": "reward"
+    },
+    {
+      "item": "Staff of water",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "2/256",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 900,
+      "type": "reward"
+    },
+    {
+      "item": "Staff of air",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 900,
+      "type": "reward"
+    },
+    {
+      "item": "Staff of earth",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 900,
+      "type": "reward"
+    }
+  ]
+}

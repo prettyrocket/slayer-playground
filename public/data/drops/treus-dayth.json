@@ -1,0 +1,21 @@
+{
+  "page": "Treus Dayth",
+  "drops": [
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/90",
+      "chance": 0.011111111111111112,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    }
+  ]
+}

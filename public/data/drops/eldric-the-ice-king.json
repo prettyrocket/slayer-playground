@@ -1,0 +1,597 @@
+{
+  "page": "Eldric the Ice King",
+  "drops": [
+    {
+      "item": "Giantsoul amulet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Avantoe seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    },
+    {
+      "item": "Blood rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Cadantine seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        200,
+        400
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        280,
+        320
+      ],
+      "noted": true,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        10000,
+        30000
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        150,
+        300
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Desiccated page",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        24
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat"
+    },
+    {
+      "item": "Dwarf weed seed",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Gold ore",
+      "dropVersion": null,
+      "quantity": [
+        60,
+        100
+      ],
+      "noted": true,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 90,
+      "type": "combat"
+    },
+    {
+      "item": "Irit seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Kwuarm seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Lantadyme seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 5,
+      "type": "combat"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat"
+    },
+    {
+      "item": "Mystic water staff",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": true,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 25500,
+      "type": "combat"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Prayer potion(4)",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 114,
+      "type": "combat"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        300
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Rune axe",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 7680,
+      "type": "combat"
+    },
+    {
+      "item": "Rune platelegs",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat"
+    },
+    {
+      "item": "Rune sq shield",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 23040,
+      "type": "combat"
+    },
+    {
+      "item": "Soul rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat"
+    },
+    {
+      "item": "Water battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": true,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat"
+    },
+    {
+      "item": "Water orb",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        40
+      ],
+      "noted": true,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": null,
+      "quantity": [
+        1500,
+        3000
+      ],
+      "noted": false,
+      "rarity": "2/56",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Maple seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/56",
+      "chance": 0.017857142857142856,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 28,
+      "type": "combat"
+    },
+    {
+      "item": "Palm tree seed",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/56",
+      "chance": 0.017857142857142856,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 152,
+      "type": "combat"
+    },
+    {
+      "item": "Rune pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/56",
+      "chance": 0.017857142857142856,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 19200,
+      "type": "combat"
+    },
+    {
+      "item": "Yew seed",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/56",
+      "chance": 0.017857142857142856,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 85,
+      "type": "combat"
+    },
+    {
+      "item": "Deadeye prayer scroll",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/75",
+      "chance": 0.013333333333333334,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "Never",
+      "value": 3000,
+      "type": "combat"
+    },
+    {
+      "item": "Ice element staff crown",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/75",
+      "chance": 0.013333333333333334,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6000,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (elite)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Bran",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,000",
+      "chance": 0.0003333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,500",
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Desiccated page",
+      "dropVersion": "Take pages",
+      "quantity": [
+        10,
+        19
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat"
+    }
+  ]
+}

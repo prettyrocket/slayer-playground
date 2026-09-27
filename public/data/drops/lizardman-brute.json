@@ -1,0 +1,485 @@
+{
+  "page": "Lizardman brute",
+  "drops": [
+    {
+      "item": "Bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Lizardman fang",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "14/67",
+      "chance": 0.208955223880597,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat"
+    },
+    {
+      "item": "Xerician fabric",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "8/67",
+      "chance": 0.11940298507462686,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Limpwurt seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34.2",
+      "chance": 0.029239766081871343,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat"
+    },
+    {
+      "item": "Strawberry seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35.7",
+      "chance": 0.028011204481792715,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat"
+    },
+    {
+      "item": "Marrentill seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/37.4",
+      "chance": 0.026737967914438502,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Jangerberry seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50.9",
+      "chance": 0.019646365422396856,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat"
+    },
+    {
+      "item": "Tarromin seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/55.1",
+      "chance": 0.018148820326678767,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat"
+    },
+    {
+      "item": "Wildblood seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/56.4",
+      "chance": 0.01773049645390071,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat"
+    },
+    {
+      "item": "Watermelon seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/74.3",
+      "chance": 0.013458950201884253,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat"
+    },
+    {
+      "item": "Harralander seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/83.6",
+      "chance": 0.011961722488038277,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat"
+    },
+    {
+      "item": "Snape grass seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/117",
+      "chance": 0.008547008547008548,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 56,
+      "type": "combat"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/120",
+      "chance": 0.008333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Whiteberry seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/137.7",
+      "chance": 0.007262164124909223,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 79,
+      "type": "combat"
+    },
+    {
+      "item": "Mushroom spore",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/161.4",
+      "chance": 0.006195786864931846,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 51,
+      "type": "combat"
+    },
+    {
+      "item": "Toadflax seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/173.4",
+      "chance": 0.0057670126874279125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/245",
+      "chance": 0.004081632653061225,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Xeric's talisman (inert)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/250",
+      "chance": 0.004,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/125",
+      "value": 210,
+      "type": "combat"
+    },
+    {
+      "item": "Belladonna seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/260.1",
+      "chance": 0.0038446751249519412,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 106,
+      "type": "combat"
+    },
+    {
+      "item": "Irit seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/260.1",
+      "chance": 0.0038446751249519412,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Poison ivy seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/360.1",
+      "chance": 0.0027770063871146904,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 99,
+      "type": "combat"
+    },
+    {
+      "item": "Avantoe seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/390.1",
+      "chance": 0.002563445270443476,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    },
+    {
+      "item": "Cactus seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/390.1",
+      "chance": 0.002563445270443476,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 59,
+      "type": "combat"
+    },
+    {
+      "item": "Kwuarm seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/520.1",
+      "chance": 0.0019227071716977503,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Potato cactus seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/585.1",
+      "chance": 0.0017091095539224063,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 84,
+      "type": "combat"
+    },
+    {
+      "item": "Snapdragon seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/936.2",
+      "chance": 0.0010681478316599017,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat"
+    },
+    {
+      "item": "Cadantine seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,170.3",
+      "chance": 0.0008544817568144921,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat"
+    },
+    {
+      "item": "Lantadyme seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,560.4",
+      "chance": 0.000640861317610869,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 5,
+      "type": "combat"
+    },
+    {
+      "item": "Dwarf weed seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,340.5",
+      "chance": 0.0004272591326639607,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat"
+    },
+    {
+      "item": "Torstol seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,681.1",
+      "chance": 0.00021362500267031251,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 42,
+      "type": "combat"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page": "Monkey Archer",
+  "drops": [
+    {
+      "item": "Small ninja monkey bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Ensouled monkey head",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35",
+      "chance": 0.02857142857142857,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 62,
+      "type": "combat"
+    }
+  ]
+}

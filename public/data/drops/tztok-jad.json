@@ -1,0 +1,21 @@
+{
+  "page": "TzTok-Jad",
+  "drops": [
+    {
+      "item": "TzRek-Jad",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/200",
+      "chance": 0.005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/100",
+      "value": 0,
+      "type": "combat"
+    }
+  ]
+}
