@@ -17295,9 +17295,7 @@
           "maxHit": [
             "0"
           ],
-          "attackStyles": [
-            "None"
-          ],
+          "attackStyles": [],
           "attackSpeed": -1,
           "size": 1,
           "attributes": [],
@@ -32569,7 +32567,7 @@
           "hitpoints": 40,
           "maxHit": [
             "4",
-            "1–12 (without Slayer gloves)"
+            "1-12 (without Slayer gloves)"
           ],
           "attackStyles": [
             "Stab"
@@ -64475,9 +64473,7 @@
           "maxHit": [
             "0"
           ],
-          "attackStyles": [
-            "None"
-          ],
+          "attackStyles": [],
           "attackSpeed": -1,
           "size": 2,
           "attributes": [
@@ -68054,9 +68050,7 @@
           "maxHit": [
             "4"
           ],
-          "attackStyles": [
-            "None"
-          ],
+          "attackStyles": [],
           "attackSpeed": 0,
           "size": 1,
           "attributes": [],
