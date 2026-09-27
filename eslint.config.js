@@ -22,6 +22,11 @@ export default defineConfig([
     },
   },
   {
+    // Build-time scripts run in Node, not the browser.
+    files: ['scripts/**'],
+    languageOptions: { globals: globals.node },
+  },
+  {
     // Test helpers export non-components; Fast Refresh does not apply to tests.
     files: ['src/test/**', '**/*.test.{ts,tsx}'],
     rules: { 'react-refresh/only-export-components': 'off' },
