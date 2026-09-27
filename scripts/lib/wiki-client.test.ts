@@ -171,36 +171,52 @@ describe('WikiClient.bucket', () => {
     expect(await readdir(cacheDir)).toEqual([]);
   });
 
-  it('pages with limit/offset until a short page', async () => {
-    const full = Array.from({ length: BUCKET_PAGE_SIZE }, (_, i) => ({ i }));
-    const { client, urls } = setup([json({ bucket: full }), json({ bucket: [{ i: -1 }] })], {
+  // A full page whose last 3 rows share the key "Kree'arra".
+  const fullPage = () => [
+    ...Array.from({ length: BUCKET_PAGE_SIZE - 3 }, (_, i) => ({ page: `A${i}` })),
+    ...[1, 2, 3].map(() => ({ page: "Kree'arra" })),
+  ];
+  const query = "bucket('dropsline').select('page')";
+
+  it('pages by key, restarting at the last key so no row is lost or repeated', async () => {
+    const tail = [1, 2, 3, 4].map(() => ({ page: "Kree'arra" }));
+    const { client, urls } = setup([json({ bucket: fullPage() }), json({ bucket: tail })], {
       minIntervalMs: 0,
     });
-    const rows = await client.bucketAll("bucket('dropsline').select('page_name')");
-    expect(rows).toHaveLength(BUCKET_PAGE_SIZE + 1);
+    const rows = await client.bucketAll<{ page: string }>(query, 'page');
+    expect(rows).toHaveLength(BUCKET_PAGE_SIZE - 3 + 4);
     expect(urls().map((u) => u.searchParams.get('query'))).toEqual([
-      `bucket('dropsline').select('page_name').limit(${BUCKET_PAGE_SIZE}).offset(0).run()`,
-      `bucket('dropsline').select('page_name').limit(${BUCKET_PAGE_SIZE}).offset(${BUCKET_PAGE_SIZE}).run()`,
+      `${query}.orderBy('page','asc').limit(${BUCKET_PAGE_SIZE}).run()`,
+      `${query}.where('page','>=','Kree\\'arra').orderBy('page','asc').limit(${BUCKET_PAGE_SIZE}).run()`,
     ]);
   });
 
-  it('caches all pages as one result, and nothing if a page fails', async () => {
-    const full = Array.from({ length: BUCKET_PAGE_SIZE }, (_, i) => ({ i }));
-    const query = "bucket('dropsline').select('page_name')";
+  it('fails rather than loop when one key fills a page', async () => {
+    const same = Array.from({ length: BUCKET_PAGE_SIZE }, () => ({ page: 'X' }));
+    const { client } = setup([json({ bucket: same })]);
+    await expect(client.bucketAll<{ page: string }>(query, 'page')).rejects.toThrow(
+      'rows share one page',
+    );
+  });
 
-    const failing = setup([json({ bucket: full }), json({ error: 'timeout' })], {
+  it('caches all pages as one result, and nothing if a page fails', async () => {
+    const failing = setup([json({ bucket: fullPage() }), json({ error: 'timeout' })], {
       minIntervalMs: 0,
     });
-    await expect(failing.client.bucketAll(query)).rejects.toBeInstanceOf(WikiApiError);
+    await expect(failing.client.bucketAll<{ page: string }>(query, 'page')).rejects.toBeInstanceOf(
+      WikiApiError,
+    );
     expect(await readdir(cacheDir)).toEqual([]);
 
-    await setup([json({ bucket: full }), json({ bucket: [] })], {
+    await setup([json({ bucket: fullPage() }), json({ bucket: [] })], {
       minIntervalMs: 0,
-    }).client.bucketAll(query);
+    }).client.bucketAll<{ page: string }>(query, 'page');
     expect(await readdir(cacheDir)).toHaveLength(1);
 
     const warm = setup([]);
-    await expect(warm.client.bucketAll(query)).resolves.toHaveLength(BUCKET_PAGE_SIZE);
+    await expect(warm.client.bucketAll<{ page: string }>(query, 'page')).resolves.toHaveLength(
+      BUCKET_PAGE_SIZE - 3,
+    );
     expect(warm.fetchMock).not.toHaveBeenCalled();
   });
 });

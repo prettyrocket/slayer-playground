@@ -116,23 +116,37 @@ export class WikiClient {
 
   /**
    * Fetch every row of a Bucket query, `BUCKET_PAGE_SIZE` at a time. `query`
-   * stops before paging, e.g. `bucket('dropsline').select('page_name').orderBy('page_name', 'asc')`,
-   * and this appends `.limit(…).offset(…).run()`. Order it, so offsets are stable.
+   * stops before ordering, e.g. `bucket('dropsline').select('page_name_sub','item_name')`,
+   * and must select `key`.
+   *
+   * Pages by key rather than offset (Bucket allows only one `orderBy`, so offsets
+   * over a non-unique key aren't stable): each page is ordered by `key`, its
+   * trailing run of the last key is dropped, and the next page starts at that
+   * key. So no more than `BUCKET_PAGE_SIZE - 1` rows may share a key.
    *
    * The pages are cached together as one result, so an interrupted run never
    * leaves a mix of pages fetched at different times.
    */
-  async bucketAll<Row>(query: string): Promise<Row[]> {
-    return this.cached(withFormat({ action: 'bucket', query, all: '1' }), async () => {
+  async bucketAll<Row extends object>(query: string, key: keyof Row & string): Promise<Row[]> {
+    return this.cached(withFormat({ action: 'bucket', query, key, all: '1' }), async () => {
       const rows: Row[] = [];
-      for (let offset = 0; ; offset += BUCKET_PAGE_SIZE) {
-        const paged = `${query}.limit(${BUCKET_PAGE_SIZE}).offset(${offset}).run()`;
-        const page = bucketRows<Row>(
+      for (let from: string | null = null; ;) {
+        const where: string = from === null ? '' : `.where('${key}','>=',${luaString(from)})`;
+        const paged: string = `${query}${where}.orderBy('${key}','asc').limit(${BUCKET_PAGE_SIZE}).run()`;
+        const page: Row[] = bucketRows<Row>(
           await this.fetchJson(withFormat({ action: 'bucket', query: paged })),
           paged,
         );
-        rows.push(...page);
-        if (page.length < BUCKET_PAGE_SIZE) return rows;
+        if (page.length < BUCKET_PAGE_SIZE) return [...rows, ...page];
+
+        // The database may compare keys case-insensitively, so match the tail the same way.
+        const last = String(page.at(-1)![key]).toLowerCase();
+        let cut = page.length;
+        while (cut > 0 && String(page[cut - 1][key]).toLowerCase() === last) cut--;
+        if (cut === 0)
+          throw new WikiApiError(`Over ${BUCKET_PAGE_SIZE} rows share one ${key}`, { query });
+        rows.push(...page.slice(0, cut));
+        from = String(page[cut][key]);
       }
     });
   }
@@ -226,6 +240,11 @@ export function cacheKey(apiUrl: string, params: Params): string {
     .update(JSON.stringify([apiUrl, sorted]))
     .digest('hex')
     .slice(0, 32);
+}
+
+/** A Lua string literal. */
+function luaString(value: string): string {
+  return `'${value.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
 }
 
 function withFormat(params: Params): Params {
