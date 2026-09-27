@@ -11,14 +11,18 @@
 import path from 'node:path';
 
 import { WikiClient } from './lib/wiki-client.ts';
+import { syncMonsters } from './sync/monsters.ts';
 
 const root = path.resolve(import.meta.dirname, '..');
 const refresh = process.argv.includes('--refresh');
+const dataDir = path.join(root, 'public', 'data');
 
 const client = new WikiClient({ cacheDir: path.join(root, '.cache', 'wiki'), refresh });
 
-// Sync steps are added in #6 (monsters, drops) and #7 (masters, tasks, superiors).
-const steps: { name: string; run: (client: WikiClient) => Promise<void> }[] = [];
+// Masters, tasks and superiors are added in #7.
+const steps: { name: string; run: (client: WikiClient) => Promise<void> }[] = [
+  { name: 'Monsters and drops', run: (c) => syncMonsters(c, dataDir) },
+];
 
 for (const step of steps) {
   console.log(`\n${step.name}`);
