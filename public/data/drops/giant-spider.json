@@ -1,0 +1,69 @@
+{
+  "page": "Giant spider",
+  "drops": [
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/15",
+      "chance": 0.06666666666666667,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/5",
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/316",
+      "chance": 0.0031645569620253164,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/295",
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,925",
+      "chance": 0.0005194805194805195,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/942",
+      "value": 54,
+      "type": "combat"
+    }
+  ]
+}

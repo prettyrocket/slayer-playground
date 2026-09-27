@@ -1,0 +1,21 @@
+{
+  "page": "Spider (Ungael)",
+  "drops": [
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "page": "Demon of Light",
+  "drops": [
+    {
+      "item": "Demon's heart (light)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat"
+    }
+  ]
+}

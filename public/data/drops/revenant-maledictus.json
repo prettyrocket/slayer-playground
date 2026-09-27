@@ -1,0 +1,949 @@
+{
+  "page": "Revenant maledictus",
+  "drops": [
+    {
+      "item": "Revenant ether",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        24
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150,
+      "type": "combat"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted entangle sack",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/5.75",
+      "chance": 0.17391304347826086,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat"
+    },
+    {
+      "item": "Bracelet of ethereum (uncharged)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6.63",
+      "chance": 0.15082956259426847,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 43200,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted anglerfish",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/7.67",
+      "chance": 0.1303780964797914,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted manta ray",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/7.67",
+      "chance": 0.1303780964797914,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted ancient ice sack",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/11.5",
+      "chance": 0.08695652173913043,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted karambwan",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/11.5",
+      "chance": 0.08695652173913043,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted teleport spell sack",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/11.5",
+      "chance": 0.08695652173913043,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted vengeance sack",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/11.5",
+      "chance": 0.08695652173913043,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat"
+    },
+    {
+      "item": "Adamantite bar",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/16.58",
+      "chance": 0.06031363088057902,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 384,
+      "type": "combat"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        60
+      ],
+      "noted": true,
+      "rarity": "1/16.58",
+      "chance": 0.06031363088057902,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat"
+    },
+    {
+      "item": "Battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/19.9",
+      "chance": 0.05025125628140704,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4200,
+      "type": "combat"
+    },
+    {
+      "item": "Blood rune",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        100
+      ],
+      "noted": false,
+      "rarity": "1/19.9",
+      "chance": 0.05025125628140704,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        60
+      ],
+      "noted": false,
+      "rarity": "1/19.9",
+      "chance": 0.05025125628140704,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        45
+      ],
+      "noted": false,
+      "rarity": "1/19.9",
+      "chance": 0.05025125628140704,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat"
+    },
+    {
+      "item": "Revenant cave teleport",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/19.9",
+      "chance": 0.05025125628140704,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted super restore(4)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/23",
+      "chance": 0.043478260869565216,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat"
+    },
+    {
+      "item": "Revenant cave teleport",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/23",
+      "chance": 0.043478260869565216,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat"
+    },
+    {
+      "item": "Black dragonhide",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/24.87",
+      "chance": 0.04020908725371934,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 90,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted manta ray",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        15
+      ],
+      "noted": false,
+      "rarity": "1/24.87",
+      "chance": 0.04020908725371934,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat"
+    },
+    {
+      "item": "Runite ore",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/24.87",
+      "chance": 0.04020908725371934,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1920,
+      "type": "combat"
+    },
+    {
+      "item": "Yew logs",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        40
+      ],
+      "noted": true,
+      "rarity": "1/24.87",
+      "chance": 0.04020908725371934,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat"
+    },
+    {
+      "item": "Blighted super restore(4)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/33.17",
+      "chance": 0.03014772384684956,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat"
+    },
+    {
+      "item": "Dragonstone bolt tips",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        40
+      ],
+      "noted": false,
+      "rarity": "1/33.17",
+      "chance": 0.03014772384684956,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 400,
+      "type": "combat"
+    },
+    {
+      "item": "Mahogany plank",
+      "dropVersion": null,
+      "quantity": [
+        8,
+        16
+      ],
+      "noted": true,
+      "rarity": "1/33.17",
+      "chance": 0.03014772384684956,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 900,
+      "type": "combat"
+    },
+    {
+      "item": "Onyx bolt tips",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/33.17",
+      "chance": 0.03014772384684956,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat"
+    },
+    {
+      "item": "Runite bar",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/33.17",
+      "chance": 0.03014772384684956,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat"
+    },
+    {
+      "item": "Magic logs",
+      "dropVersion": null,
+      "quantity": [
+        8,
+        16
+      ],
+      "noted": true,
+      "rarity": "1/49.75",
+      "chance": 0.020100502512562814,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 192,
+      "type": "combat"
+    },
+    {
+      "item": "Rune full helm",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/49.75",
+      "chance": 0.020100502512562814,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21120,
+      "type": "combat"
+    },
+    {
+      "item": "Rune kiteshield",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/49.75",
+      "chance": 0.020100502512562814,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 32640,
+      "type": "combat"
+    },
+    {
+      "item": "Rune platebody",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/49.75",
+      "chance": 0.020100502512562814,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 39000,
+      "type": "combat"
+    },
+    {
+      "item": "Rune platelegs",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/49.75",
+      "chance": 0.020100502512562814,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat"
+    },
+    {
+      "item": "Rune warhammer",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/49.75",
+      "chance": 0.020100502512562814,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24900,
+      "type": "combat"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/89",
+      "chance": 0.011235955056179775,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon dagger",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/99.5",
+      "chance": 0.010050251256281407,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon longsword",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/99.5",
+      "chance": 0.010050251256281407,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60000,
+      "type": "combat"
+    },
+    {
+      "item": "Uncut dragonstone",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/99.5",
+      "chance": 0.010050251256281407,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/196",
+      "chance": 0.00510204081632653,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon platelegs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/198.99",
+      "chance": 0.005025378159706518,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 162000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon plateskirt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/198.99",
+      "chance": 0.005025378159706518,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 162000,
+      "type": "combat"
+    },
+    {
+      "item": "Dragon med helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/615.38",
+      "chance": 0.001625012187591407,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "Never",
+      "value": 60000,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient emblem",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,333.33",
+      "chance": 0.0007500018750046876,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,400",
+      "value": 300000,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient totem",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,000",
+      "chance": 0.0005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,100",
+      "value": 600000,
+      "type": "combat"
+    },
+    {
+      "item": "Magic seed",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/2,000",
+      "chance": 0.0005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,100",
+      "value": 253,
+      "type": "combat"
+    },
+    {
+      "item": "Yew seed",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/2,000",
+      "chance": 0.0005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,100",
+      "value": 85,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient crystal",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,666.67",
+      "chance": 0.00037499953125058594,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,466.67",
+      "value": 150000,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient statuette",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,000",
+      "chance": 0.00025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,200",
+      "value": 1200000,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient effigy",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,000",
+      "chance": 0.000125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,400",
+      "value": 4800000,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient medallion",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,000",
+      "chance": 0.000125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,400",
+      "value": 2400000,
+      "type": "combat"
+    },
+    {
+      "item": "Ancient relic",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,000",
+      "chance": 0.000125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,400",
+      "value": 9600000,
+      "type": "combat"
+    },
+    {
+      "item": "Amulet of avarice",
+      "dropVersion": "Off-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/13,333.5",
+      "chance": 0.0000749990625117186,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/7,333.5",
+      "value": 27000,
+      "type": "combat"
+    },
+    {
+      "item": "Craw's bow (u)",
+      "dropVersion": "Off-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/26,667",
+      "chance": 0.0000374995312558593,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/14,667",
+      "value": 72000,
+      "type": "combat"
+    },
+    {
+      "item": "Thammaron's sceptre (u)",
+      "dropVersion": "Off-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/26,667",
+      "chance": 0.0000374995312558593,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/14,667",
+      "value": 72000,
+      "type": "combat"
+    },
+    {
+      "item": "Viggora's chainmace (u)",
+      "dropVersion": "Off-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/26,667",
+      "chance": 0.0000374995312558593,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/14,667",
+      "value": 72000,
+      "type": "combat"
+    },
+    {
+      "item": "Amulet of avarice",
+      "dropVersion": "On-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,666.5",
+      "chance": 0.0003750234389649353,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,466.5",
+      "value": 27000,
+      "type": "combat"
+    },
+    {
+      "item": "Craw's bow (u)",
+      "dropVersion": "On-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,333",
+      "chance": 0.00018751171948246765,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,933",
+      "value": 72000,
+      "type": "combat"
+    },
+    {
+      "item": "Thammaron's sceptre (u)",
+      "dropVersion": "On-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,333",
+      "chance": 0.00018751171948246765,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,933",
+      "value": 72000,
+      "type": "combat"
+    },
+    {
+      "item": "Viggora's chainmace (u)",
+      "dropVersion": "On-task",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,333",
+      "chance": 0.00018751171948246765,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,933",
+      "value": 72000,
+      "type": "combat"
+    }
+  ]
+}

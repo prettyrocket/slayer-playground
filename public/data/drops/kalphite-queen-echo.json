@@ -1,0 +1,21 @@
+{
+  "page": "Kalphite Queen (Echo)",
+  "drops": [
+    {
+      "item": "Drygore blowpipe (empty)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/20",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30000,
+      "type": "combat"
+    }
+  ]
+}

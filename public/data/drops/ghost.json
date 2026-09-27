@@ -1,0 +1,37 @@
+{
+  "page": "Ghost",
+  "drops": [
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/90",
+      "chance": 0.011111111111111112,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": "Level 19",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/7",
+      "chance": 0.14285714285714285,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat"
+    }
+  ]
+}
