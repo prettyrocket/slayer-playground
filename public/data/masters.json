@@ -1,0 +1,5850 @@
+{
+  "masters": [
+    {
+      "key": "turael",
+      "name": "Turael",
+      "page": "Turael/Slayer assignments",
+      "alternates": [
+        "Aya"
+      ],
+      "totalWeight": 172,
+      "assignments": [
+        {
+          "category": "banshees",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 15,
+          "combatLevel": 20,
+          "requirements": "15 Slayer, 20 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bats",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 5,
+          "requirements": "5 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bears",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 13,
+          "requirements": "13 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "birds",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave bugs",
+          "weight": 8,
+          "amount": [
+            10,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 7,
+          "combatLevel": null,
+          "requirements": "7 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave crawlers",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 10,
+          "combatLevel": 10,
+          "requirements": "10 Slayer, 10 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave slimes",
+          "weight": 8,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": 17,
+          "combatLevel": 15,
+          "requirements": "17 Slayer, 15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cows",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crawling hands",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 5,
+          "combatLevel": null,
+          "requirements": "5 Slayer, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dogs",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dwarves",
+          "weight": 7,
+          "amount": [
+            10,
+            25
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 6,
+          "requirements": "6 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ghosts",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 13,
+          "requirements": "13 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "goblins",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "icefiends",
+          "weight": 8,
+          "amount": [
+            15,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lizards",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 22,
+          "combatLevel": null,
+          "requirements": "22 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "minotaurs",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 7,
+          "requirements": "7 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "monkeys",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "rats",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "scorpions",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 7,
+          "requirements": "7 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "skeletons",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "spiders",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "wolves",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "zombies",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 10,
+          "requirements": "10 Combat",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "spria",
+      "name": "Spria",
+      "page": "Spria",
+      "alternates": [],
+      "totalWeight": 178,
+      "assignments": [
+        {
+          "category": "banshees",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 15,
+          "combatLevel": 20,
+          "requirements": "15 Slayer, 20 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bats",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 5,
+          "requirements": "5 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bears",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 13,
+          "requirements": "13 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "birds",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave bugs",
+          "weight": 8,
+          "amount": [
+            10,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 7,
+          "combatLevel": null,
+          "requirements": "7 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave crawlers",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 10,
+          "combatLevel": 10,
+          "requirements": "10 Slayer, 10 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave slimes",
+          "weight": 8,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": 17,
+          "combatLevel": 15,
+          "requirements": "17 Slayer, 15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cows",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 5,
+          "requirements": "5 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crawling hands",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 5,
+          "combatLevel": null,
+          "requirements": "5 Slayer, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dogs",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dwarves",
+          "weight": 7,
+          "amount": [
+            10,
+            25
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 6,
+          "requirements": "6 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ghosts",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 13,
+          "requirements": "13 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "goblins",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "icefiends",
+          "weight": 8,
+          "amount": [
+            15,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lizards",
+          "weight": 8,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 22,
+          "combatLevel": null,
+          "requirements": "22 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "minotaurs",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 7,
+          "requirements": "7 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "monkeys",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "rats",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "scorpions",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 7,
+          "requirements": "7 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "skeletons",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "sourhogs",
+          "weight": 6,
+          "amount": [
+            15,
+            25
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Completion of A Porcine of Interest",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "spiders",
+          "weight": 6,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "wolves",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "zombies",
+          "weight": 7,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 10,
+          "requirements": "10 Combat",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "mazchna",
+      "name": "Mazchna",
+      "page": "Mazchna/Slayer assignments",
+      "alternates": [
+        "Achtryn"
+      ],
+      "totalWeight": 219,
+      "assignments": [
+        {
+          "category": "banshees",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 15,
+          "combatLevel": 20,
+          "requirements": "15 Slayer, 20 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bats",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 5,
+          "requirements": "5 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bears",
+          "weight": 6,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 13,
+          "requirements": "13 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "catablepon",
+          "weight": 8,
+          "amount": [
+            20,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 35,
+          "requirements": "35 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave bugs",
+          "weight": 8,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": 7,
+          "combatLevel": null,
+          "requirements": "7 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave crawlers",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 10,
+          "combatLevel": 10,
+          "requirements": "10 Slayer, 10 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave slimes",
+          "weight": 8,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": 17,
+          "combatLevel": 15,
+          "requirements": "17 Slayer, 15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cockatrice",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 25,
+          "combatLevel": 25,
+          "requirements": "25 Slayer, 25 Combat, 20 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crabs",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 1,
+          "combatLevel": null,
+          "requirements": "1 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crawling hands",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 5,
+          "combatLevel": null,
+          "requirements": "5 Slayer, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dogs",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "flesh crawlers",
+          "weight": 7,
+          "amount": [
+            15,
+            25
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ghosts",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 13,
+          "requirements": "13 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ghouls",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 25,
+          "requirements": "25 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hill giants",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 25,
+          "requirements": "25 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hobgoblins",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ice warriors",
+          "weight": 7,
+          "amount": [
+            40,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 45,
+          "requirements": "45 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 6,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "killerwatts",
+          "weight": 6,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 37,
+          "combatLevel": 50,
+          "requirements": "37 Slayer, 50 Combat, completion of Ernest the Chicken",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lizards",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 22,
+          "combatLevel": null,
+          "requirements": "22 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "mogres",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 32,
+          "combatLevel": 30,
+          "requirements": "32 Slayer, 30 Combat, completion of Skippy and the Mogres",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "pyrefiends",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 30,
+          "combatLevel": 25,
+          "requirements": "30 Slayer, 25 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "rockslugs",
+          "weight": 8,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 20,
+          "combatLevel": 20,
+          "requirements": "20 Slayer, 20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "scorpions",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 7,
+          "requirements": "7 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "shades",
+          "weight": 8,
+          "amount": [
+            30,
+            70
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 30,
+          "requirements": "30 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "skeletons",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "vampyres",
+          "weight": 6,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 35,
+          "requirements": "35 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "wall beasts",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": null,
+          "slayerLevel": 35,
+          "combatLevel": 30,
+          "requirements": "35 Slayer, 30 Combat, 5 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "wolves",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "zombies",
+          "weight": 7,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 10,
+          "requirements": "10 Combat",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "vannaka",
+      "name": "Vannaka",
+      "page": "Vannaka",
+      "alternates": [],
+      "totalWeight": 333,
+      "assignments": [
+        {
+          "category": "aberrant spectres",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 60,
+          "combatLevel": 65,
+          "requirements": "60 Slayer, 65 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "abyssal demons",
+          "weight": 5,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": 85,
+          "requirements": "85 Slayer, 85 Combat, completion of Priest in Peril or Fairytale II - Cure a Queen",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ankou",
+          "weight": 8,
+          "amount": [
+            25,
+            35
+          ],
+          "extended": [
+            91,
+            150
+          ],
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "basilisks",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 40,
+          "combatLevel": 40,
+          "requirements": "40 Slayer, 40 Combat, 20 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bloodveld",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": 50,
+          "requirements": "50 Slayer, 50 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "blue dragons",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "brine rats",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 47,
+          "combatLevel": 45,
+          "requirements": "47 Slayer, 45 Combat, partial completion of Olaf's Quest",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cockatrice",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 25,
+          "combatLevel": 25,
+          "requirements": "25 Slayer, 25 Combat, 20 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crabs",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crocodiles",
+          "weight": 6,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 50,
+          "requirements": "50 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dagannoth",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, completion of Horror from the Deep",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dust devils",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": 70,
+          "requirements": "65 Slayer, 70 Combat, partial completion of Desert Treasure I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "elves",
+          "weight": 7,
+          "amount": [
+            30,
+            70
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 70,
+          "requirements": "70 Combat, completion of Regicide",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fever spiders",
+          "weight": 7,
+          "amount": [
+            30,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 42,
+          "combatLevel": 40,
+          "requirements": "42 Slayer, 40 Combat, partial completion of Rum Deal",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fire giants",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gargoyles",
+          "weight": 5,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 75,
+          "combatLevel": 80,
+          "requirements": "75 Slayer, 80 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ghouls",
+          "weight": 7,
+          "amount": [
+            10,
+            40
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 25,
+          "requirements": "25 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gryphons",
+          "weight": 10,
+          "amount": [
+            30,
+            80
+          ],
+          "extended": [
+            110,
+            160
+          ],
+          "slayerLevel": 51,
+          "combatLevel": null,
+          "requirements": "51 Slayer, 45 Sailing, completion of Troubled Tortugans",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "harpie bug swarms",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 33,
+          "combatLevel": 45,
+          "requirements": "33 Slayer, 45 Combat, 33 Firemaking",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hellhounds",
+          "weight": 7,
+          "amount": [
+            30,
+            60
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hill giants",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 25,
+          "requirements": "25 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hobgoblins",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 20,
+          "requirements": "20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ice giants",
+          "weight": 7,
+          "amount": [
+            30,
+            80
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 50,
+          "requirements": "50 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ice warriors",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 45,
+          "requirements": "45 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "infernal mages",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 45,
+          "combatLevel": 40,
+          "requirements": "45 Slayer, 40 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "jellies",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 52,
+          "combatLevel": 57,
+          "requirements": "52 Slayer, 57 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "jungle horrors",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, completion of Cabin Fever",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kurask",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 70,
+          "combatLevel": 65,
+          "requirements": "70 Slayer, 65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lesser demons",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "mogres",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 32,
+          "combatLevel": 30,
+          "requirements": "32 Slayer, 30 Combat, completion of Skippy and the Mogres",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "molanisks",
+          "weight": 7,
+          "amount": [
+            40,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 39,
+          "combatLevel": 50,
+          "requirements": "39 Slayer, 50 Combat, completion of Death to the Dorgeshuun",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "moss giants",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "nechryael",
+          "weight": 5,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": 85,
+          "requirements": "80 Slayer, 85 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ogres",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "otherworldly beings",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat, completion of Lost City",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "pyrefiends",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 30,
+          "combatLevel": 25,
+          "requirements": "30 Slayer, 25 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "sea snakes",
+          "weight": 6,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 40,
+          "combatLevel": 50,
+          "requirements": "40 Slayer, 50 Combat, completion of Royal Trouble",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "shades",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 30,
+          "requirements": "30 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "shadow warriors",
+          "weight": 8,
+          "amount": [
+            30,
+            80
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat, completion of Legends' Quest",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "spiritual creatures",
+          "weight": 8,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": [
+            181,
+            250
+          ],
+          "slayerLevel": 63,
+          "combatLevel": 60,
+          "requirements": "63 Slayer, 60 Combat, completion of Death Plateau, level 60 in Strength or Agility",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "terror dogs",
+          "weight": 6,
+          "amount": [
+            20,
+            45
+          ],
+          "extended": null,
+          "slayerLevel": 40,
+          "combatLevel": 60,
+          "requirements": "40 Slayer, 60 Combat, completion of Haunted Mine",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "trolls",
+          "weight": 7,
+          "amount": [
+            40,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "turoth",
+          "weight": 8,
+          "amount": [
+            30,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": 55,
+          "combatLevel": 60,
+          "requirements": "55 Slayer, 60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "vampyres",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 35,
+          "requirements": "35 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "werewolves",
+          "weight": 7,
+          "amount": [
+            30,
+            60
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "chaeldar",
+      "name": "Chaeldar",
+      "page": "Chaeldar",
+      "alternates": [],
+      "totalWeight": 360,
+      "assignments": [
+        {
+          "category": "aberrant spectres",
+          "weight": 8,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 60,
+          "combatLevel": 65,
+          "requirements": "60 Slayer, 65 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "abyssal demons",
+          "weight": 12,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": 85,
+          "requirements": "85 Slayer, 85 Combat, completion of Priest in Peril or Fairytale II - Cure a Queen",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "aviansie",
+          "weight": 9,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            130,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Watch the birdie ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Watch the Birdie"
+          ],
+          "locations": []
+        },
+        {
+          "category": "basilisks",
+          "weight": 7,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 40,
+          "combatLevel": 40,
+          "requirements": "40 Slayer, 40 Combat, 20 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "black demons",
+          "weight": 10,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bloodveld",
+          "weight": 8,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": 50,
+          "requirements": "50 Slayer, 50 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "blue dragons",
+          "weight": 8,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "brine rats",
+          "weight": 7,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": 47,
+          "combatLevel": 45,
+          "requirements": "47 Slayer, 45 Combat, completion of Olaf's Quest",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave horrors",
+          "weight": 10,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 58,
+          "combatLevel": 85,
+          "requirements": "58 Slayer, 85 Combat, completion of Cabin Fever",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave kraken",
+          "weight": 12,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 87,
+          "combatLevel": 80,
+          "requirements": "87 Slayer, 80 Combat, 50 Magic",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crabs",
+          "weight": 8,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": 1,
+          "combatLevel": null,
+          "requirements": "1 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "custodian stalker",
+          "weight": 11,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 54,
+          "combatLevel": null,
+          "requirements": "54 Slayer, completion of Shadows of Custodia",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dagannoth",
+          "weight": 11,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, completion of Horror from the Deep",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dust devils",
+          "weight": 9,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": 70,
+          "requirements": "65 Slayer, 70 Combat, partial completion of Desert Treasure I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "elves",
+          "weight": 8,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 70,
+          "requirements": "70 Combat, completion of Regicide",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fever spiders",
+          "weight": 7,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": 42,
+          "combatLevel": 40,
+          "requirements": "42 Slayer, 40 Combat, partial completion of Rum Deal",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fire giants",
+          "weight": 12,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fossil island wyverns",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            55,
+            75
+          ],
+          "slayerLevel": 66,
+          "combatLevel": 60,
+          "requirements": "66 Slayer, 60 Combat, completion of Bone Voyage and Elemental Workshop I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gargoyles",
+          "weight": 11,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 75,
+          "combatLevel": 80,
+          "requirements": "75 Slayer, 80 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "greater demons",
+          "weight": 9,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 70,
+          "requirements": "70 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gryphons",
+          "weight": 10,
+          "amount": [
+            60,
+            100
+          ],
+          "extended": [
+            140,
+            180
+          ],
+          "slayerLevel": 51,
+          "combatLevel": null,
+          "requirements": "51 Slayer, 45 Sailing, completion of Troubled Tortugans",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hellhounds",
+          "weight": 9,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "jellies",
+          "weight": 10,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": 52,
+          "combatLevel": 57,
+          "requirements": "52 Slayer, 57 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "jungle horrors",
+          "weight": 10,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, completion of Cabin Fever",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 11,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kurask",
+          "weight": 12,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": 70,
+          "combatLevel": 65,
+          "requirements": "70 Slayer, 65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lesser demons",
+          "weight": 9,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lesser nagua",
+          "weight": 4,
+          "amount": [
+            50,
+            100
+          ],
+          "extended": null,
+          "slayerLevel": 48,
+          "combatLevel": null,
+          "requirements": "48 Slayer, completion of Perilous Moons",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lizardmen",
+          "weight": 8,
+          "amount": [
+            50,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Reptile got ripped ability via spending 75 Slayer reward points",
+          "unlocks": [
+            "Reptile Got Ripped"
+          ],
+          "locations": []
+        },
+        {
+          "category": "mutated zygomites",
+          "weight": 7,
+          "amount": [
+            8,
+            15
+          ],
+          "extended": null,
+          "slayerLevel": 57,
+          "combatLevel": 60,
+          "requirements": "57 Slayer, 60 Combat, completion of Lost City",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "nechryael",
+          "weight": 12,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": 85,
+          "requirements": "80 Slayer, 85 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "shadow warriors",
+          "weight": 8,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat, completion of Legends' Quest",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "skeletal wyverns",
+          "weight": 7,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            50,
+            70
+          ],
+          "slayerLevel": 72,
+          "combatLevel": 70,
+          "requirements": "72 Slayer, 70 Combat, completion of Elemental Workshop I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "spiritual creatures",
+          "weight": 12,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": [
+            181,
+            250
+          ],
+          "slayerLevel": 63,
+          "combatLevel": 60,
+          "requirements": "63 Slayer, 60 Combat, completion of Death Plateau, level 60 in Strength or Agility",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "trolls",
+          "weight": 11,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "turoth",
+          "weight": 10,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": 55,
+          "combatLevel": 60,
+          "requirements": "55 Slayer, 60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "tzhaar",
+          "weight": 8,
+          "amount": [
+            90,
+            150
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Hot stuff ability via spending 100 Slayer reward points",
+          "unlocks": [
+            "Hot Stuff"
+          ],
+          "locations": []
+        },
+        {
+          "category": "vampyres",
+          "weight": 6,
+          "amount": [
+            80,
+            100
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Actual Vampyre Slayer ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Actual Vampyre Slayer"
+          ],
+          "locations": []
+        },
+        {
+          "category": "warped creatures",
+          "weight": 6,
+          "amount": [
+            70,
+            130
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Warped Reality ability via spending 60 Slayer reward points",
+          "unlocks": [
+            "Warped Reality"
+          ],
+          "locations": []
+        },
+        {
+          "category": "wyrms",
+          "weight": 6,
+          "amount": [
+            60,
+            100
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 62,
+          "combatLevel": null,
+          "requirements": "62 Slayer",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "konar",
+      "name": "Konar quo Maten",
+      "page": "Konar quo Maten",
+      "alternates": [],
+      "totalWeight": 250,
+      "assignments": [
+        {
+          "category": "aberrant spectres",
+          "weight": 6,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 60,
+          "combatLevel": 65,
+          "requirements": "60 Slayer, 65 Combat",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Slayer Tower",
+            "Stronghold Slayer Cave"
+          ]
+        },
+        {
+          "category": "abyssal demons",
+          "weight": 9,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": 85,
+          "requirements": "85 Slayer, 85 Combat, completion of Priest in Peril or Fairytale II - Cure a Queen",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Abyssal Area",
+            "Slayer Tower"
+          ]
+        },
+        {
+          "category": "ankou",
+          "weight": 5,
+          "amount": [
+            50,
+            50
+          ],
+          "extended": [
+            91,
+            150
+          ],
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat",
+          "unlocks": [],
+          "locations": [
+            "Stronghold of Security",
+            "Stronghold Slayer Dungeon",
+            "Catacombs of Kourend"
+          ]
+        },
+        {
+          "category": "aviansie",
+          "weight": 6,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Watch the birdie ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Watch the Birdie"
+          ],
+          "locations": [
+            "God Wars Dungeon"
+          ]
+        },
+        {
+          "category": "basilisks",
+          "weight": 5,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 40,
+          "combatLevel": null,
+          "requirements": "40 Slayer, unlocked the Basilocked ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Basilocked"
+          ],
+          "locations": [
+            "Fremennik Slayer Dungeon",
+            "Jormungand's Prison"
+          ]
+        },
+        {
+          "category": "black demons",
+          "weight": 9,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Chasm of Fire",
+            "Taverley Dungeon",
+            "Brimhaven Dungeon"
+          ]
+        },
+        {
+          "category": "black dragons",
+          "weight": 6,
+          "amount": [
+            10,
+            15
+          ],
+          "extended": [
+            40,
+            60
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Myths' Guild Dungeon",
+            "Evil Chicken's Lair",
+            "Taverley Dungeon"
+          ]
+        },
+        {
+          "category": "bloodveld",
+          "weight": 9,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": 50,
+          "requirements": "50 Slayer, 50 Combat",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "God Wars Dungeon",
+            "Iorwerth Dungeon",
+            "Meiyerditch Laboratories",
+            "Slayer Tower",
+            "Stronghold Slayer Dungeon"
+          ]
+        },
+        {
+          "category": "blue dragons",
+          "weight": 4,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, partial completion of Dragon Slayer I, completion of Watchtower for access to Ogre Enclave",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Isle of Souls Dungeon",
+            "Myths' Guild Dungeon",
+            "Ogre Enclave",
+            "Ruins of Tapoyauik",
+            "Taverley Dungeon"
+          ]
+        },
+        {
+          "category": "bosses",
+          "weight": 8,
+          "amount": [
+            3,
+            35
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Like a boss ability via spending 200 Slayer reward points, as well as various requirements for specific bosses",
+          "unlocks": [
+            "Like a Boss"
+          ],
+          "locations": []
+        },
+        {
+          "category": "brine rats",
+          "weight": 2,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": 47,
+          "combatLevel": 45,
+          "requirements": "47 Slayer, 45 Combat, completion of Olaf's Quest",
+          "unlocks": [],
+          "locations": [
+            "Brine Rat Cavern"
+          ]
+        },
+        {
+          "category": "cave kraken",
+          "weight": 9,
+          "amount": [
+            80,
+            100
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 87,
+          "combatLevel": 80,
+          "requirements": "87 Slayer, 80 Combat, 50 Magic",
+          "unlocks": [],
+          "locations": [
+            "Kraken Cove"
+          ]
+        },
+        {
+          "category": "dagannoth",
+          "weight": 8,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, completion of Horror from the Deep",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Lighthouse",
+            "Waterbirth Island",
+            "Jormungand's Prison"
+          ]
+        },
+        {
+          "category": "dark beasts",
+          "weight": 5,
+          "amount": [
+            10,
+            15
+          ],
+          "extended": [
+            110,
+            135
+          ],
+          "slayerLevel": 90,
+          "combatLevel": 90,
+          "requirements": "90 Slayer, 90 Combat, partial completion of Mourning's End Part II",
+          "unlocks": [],
+          "locations": [
+            "Mourner Tunnels",
+            "Iorwerth Dungeon"
+          ]
+        },
+        {
+          "category": "drakes",
+          "weight": 10,
+          "amount": [
+            75,
+            140
+          ],
+          "extended": null,
+          "slayerLevel": 84,
+          "combatLevel": null,
+          "requirements": "84 Slayer",
+          "unlocks": [],
+          "locations": [
+            "Karuulm Slayer Dungeon"
+          ]
+        },
+        {
+          "category": "dust devils",
+          "weight": 6,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": 70,
+          "requirements": "65 Slayer, 70 Combat, partial completion of Desert Treasure I",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Smoke Dungeon"
+          ]
+        },
+        {
+          "category": "fire giants",
+          "weight": 9,
+          "amount": [
+            120,
+            175
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat",
+          "unlocks": [],
+          "locations": [
+            "Brimhaven Dungeon",
+            "Catacombs of Kourend",
+            "Isle of Souls Dungeon",
+            "Giants' Den",
+            "Karuulm Slayer Dungeon",
+            "Stronghold Slayer Dungeon",
+            "Waterfall Dungeon"
+          ]
+        },
+        {
+          "category": "fossil island wyverns",
+          "weight": 5,
+          "amount": [
+            15,
+            30
+          ],
+          "extended": [
+            55,
+            75
+          ],
+          "slayerLevel": 66,
+          "combatLevel": 60,
+          "requirements": "66 Slayer, 60 Combat, completion of Bone Voyage and Elemental Workshop I",
+          "unlocks": [],
+          "locations": [
+            "Wyvern Cave"
+          ]
+        },
+        {
+          "category": "gargoyles",
+          "weight": 6,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 75,
+          "combatLevel": 80,
+          "requirements": "75 Slayer, 80 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": [
+            "Slayer Tower"
+          ]
+        },
+        {
+          "category": "greater demons",
+          "weight": 7,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Chasm of Fire",
+            "Isle of Souls Dungeon",
+            "Karuulm Slayer Dungeon",
+            "Brimhaven Dungeon"
+          ]
+        },
+        {
+          "category": "hellhounds",
+          "weight": 8,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": [
+            "Karuulm Slayer Dungeon",
+            "Catacombs of Kourend",
+            "Stronghold Slayer Dungeon",
+            "Taverley Dungeon",
+            "Witchaven Dungeon"
+          ]
+        },
+        {
+          "category": "hydras",
+          "weight": 10,
+          "amount": [
+            125,
+            190
+          ],
+          "extended": null,
+          "slayerLevel": 95,
+          "combatLevel": null,
+          "requirements": "95 Slayer",
+          "unlocks": [],
+          "locations": [
+            "Karuulm Slayer Dungeon"
+          ]
+        },
+        {
+          "category": "jellies",
+          "weight": 6,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": 52,
+          "combatLevel": 57,
+          "requirements": "52 Slayer, 57 Combat",
+          "unlocks": [],
+          "locations": [
+            "Fremennik Slayer Dungeon",
+            "Catacombs of Kourend",
+            "Ruins of Tapoyauik"
+          ]
+        },
+        {
+          "category": "kalphite",
+          "weight": 9,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": [
+            "Kalphite Lair",
+            "Kalphite Cave"
+          ]
+        },
+        {
+          "category": "kurask",
+          "weight": 3,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": 70,
+          "combatLevel": 65,
+          "requirements": "70 Slayer, 65 Combat, completion of Song of the Elves for access to Iorwerth Dungeon",
+          "unlocks": [],
+          "locations": [
+            "Fremennik Slayer Dungeon",
+            "Iorwerth Dungeon"
+          ]
+        },
+        {
+          "category": "lesser nagua",
+          "weight": 2,
+          "amount": [
+            55,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": 48,
+          "combatLevel": null,
+          "requirements": "48 Slayer, completion of Perilous Moons",
+          "unlocks": [],
+          "locations": [
+            "Neypotzli",
+            "Ruins of Tapoyauik",
+            "Crypt of Tonali"
+          ]
+        },
+        {
+          "category": "lizardmen",
+          "weight": 8,
+          "amount": [
+            90,
+            110
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Reptile got ripped ability via spending 75 Slayer reward points",
+          "unlocks": [
+            "Reptile Got Ripped"
+          ],
+          "locations": [
+            "Battlefront",
+            "Lizardman Canyon",
+            "Lizardman Settlement",
+            "Lizardman Caves",
+            "Kebos Swamp",
+            "Xeric's Shrine",
+            "Molch",
+            "Lizardman Temple"
+          ]
+        },
+        {
+          "category": "metal dragons",
+          "weight": 15,
+          "amount": [
+            30,
+            40
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "85 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": [
+            "Brimhaven Dungeon",
+            "Catacombs of Kourend",
+            "Isle of Souls Dungeon",
+            "Lithkren Vault"
+          ]
+        },
+        {
+          "category": "mutated zygomites",
+          "weight": 2,
+          "amount": [
+            10,
+            25
+          ],
+          "extended": null,
+          "slayerLevel": 57,
+          "combatLevel": 60,
+          "requirements": "57 Slayer, 60 Combat, completion of Lost City",
+          "unlocks": [],
+          "locations": [
+            "Fossil Island",
+            "Zanaris"
+          ]
+        },
+        {
+          "category": "nechryael",
+          "weight": 7,
+          "amount": [
+            110,
+            110
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": 85,
+          "requirements": "80 Slayer, 85 Combat",
+          "unlocks": [],
+          "locations": [
+            "Catacombs of Kourend",
+            "Iorwerth Dungeon",
+            "Slayer Tower"
+          ]
+        },
+        {
+          "category": "red dragons",
+          "weight": 5,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 68,
+          "requirements": "68 Combat, partial completion of Dragon Slayer I, unlocked the Seeing red ability via spending 50 Slayer reward points",
+          "unlocks": [
+            "Seeing Red"
+          ],
+          "locations": [
+            "Brimhaven Dungeon",
+            "Catacombs of Kourend",
+            "Forthos Dungeon",
+            "Myths' Guild Dungeon"
+          ]
+        },
+        {
+          "category": "skeletal wyverns",
+          "weight": 5,
+          "amount": [
+            5,
+            12
+          ],
+          "extended": [
+            50,
+            70
+          ],
+          "slayerLevel": 72,
+          "combatLevel": 70,
+          "requirements": "72 Slayer, 70 Combat, completion of Elemental Workshop I",
+          "unlocks": [],
+          "locations": [
+            "Asgarnian Ice Dungeon"
+          ]
+        },
+        {
+          "category": "smoke devils",
+          "weight": 7,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": 93,
+          "combatLevel": 85,
+          "requirements": "93 Slayer, 85 Combat",
+          "unlocks": [],
+          "locations": [
+            "Smoke Devil Dungeon"
+          ]
+        },
+        {
+          "category": "trolls",
+          "weight": 6,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": [
+            "Troll Stronghold (location)",
+            "Keldagrim",
+            "Death Plateau (location)",
+            "Mount Quidamortem",
+            "Fremennik Isles",
+            "Wyrmscraig Cavern"
+          ]
+        },
+        {
+          "category": "turoth",
+          "weight": 3,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": 55,
+          "combatLevel": 60,
+          "requirements": "55 Slayer, 60 Combat",
+          "unlocks": [],
+          "locations": [
+            "Fremennik Slayer Dungeon"
+          ]
+        },
+        {
+          "category": "vampyres",
+          "weight": 4,
+          "amount": [
+            100,
+            160
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Actual Vampyre Slayer ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Actual Vampyre Slayer"
+          ],
+          "locations": [
+            "Darkmeyer",
+            "Meiyerditch",
+            "Slepe",
+            "Vampyrium"
+          ]
+        },
+        {
+          "category": "warped creatures",
+          "weight": 4,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Warped Reality ability via spending 60 Slayer reward points",
+          "unlocks": [
+            "Warped Reality"
+          ],
+          "locations": [
+            "Poison Waste Dungeon"
+          ]
+        },
+        {
+          "category": "waterfiends",
+          "weight": 2,
+          "amount": [
+            120,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, Progressed the Barbarian Training miniquest up to the Pyre ships section.",
+          "unlocks": [],
+          "locations": [
+            "Ancient Cavern",
+            "Iorwerth Dungeon",
+            "Kraken Cove"
+          ]
+        },
+        {
+          "category": "wyrms",
+          "weight": 10,
+          "amount": [
+            125,
+            190
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 62,
+          "combatLevel": null,
+          "requirements": "62 Slayer",
+          "unlocks": [],
+          "locations": [
+            "Karuulm Slayer Dungeon",
+            "Neypotzli",
+            "Charred Dungeon",
+            "Wyrmscraig"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nieve",
+      "name": "Nieve",
+      "page": "Nieve/Slayer assignments",
+      "alternates": [
+        "Steve"
+      ],
+      "totalWeight": 294,
+      "assignments": [
+        {
+          "category": "aberrant spectres",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 60,
+          "combatLevel": 65,
+          "requirements": "60 Slayer, 65 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "abyssal demons",
+          "weight": 9,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": 85,
+          "requirements": "85 Slayer, 85 Combat, completion of Priest in Peril or Fairytale II - Cure a Queen",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ankou",
+          "weight": 5,
+          "amount": [
+            50,
+            90
+          ],
+          "extended": [
+            91,
+            150
+          ],
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "aquanite",
+          "weight": 5,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 78,
+          "combatLevel": null,
+          "requirements": "78 Slayer, 73 Sailing, Unlocked the Lured In ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Lured In"
+          ],
+          "locations": []
+        },
+        {
+          "category": "araxytes",
+          "weight": 8,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 92,
+          "combatLevel": null,
+          "requirements": "92 Slayer, Completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "aviansie",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Watch the birdie ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Watch the Birdie"
+          ],
+          "locations": []
+        },
+        {
+          "category": "basilisks",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 40,
+          "combatLevel": null,
+          "requirements": "40 Slayer, unlocked the Basilocked ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Basilocked"
+          ],
+          "locations": []
+        },
+        {
+          "category": "black demons",
+          "weight": 9,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "black dragons",
+          "weight": 6,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            40,
+            60
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bloodveld",
+          "weight": 9,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": 50,
+          "requirements": "50 Slayer, 50 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "blue dragons",
+          "weight": 4,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bosses",
+          "weight": 8,
+          "amount": [
+            3,
+            35
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Like a boss ability via spending 200 Slayer reward points, as well as various requirements for specific bosses",
+          "unlocks": [
+            "Like a Boss"
+          ],
+          "locations": []
+        },
+        {
+          "category": "brine rats",
+          "weight": 3,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": 47,
+          "combatLevel": 45,
+          "requirements": "47 Slayer, 45 Combat, completion of Olaf's Quest",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave horrors",
+          "weight": 5,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 58,
+          "combatLevel": 85,
+          "requirements": "58 Slayer, 85 Combat, completion of Cabin Fever",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave kraken",
+          "weight": 6,
+          "amount": [
+            100,
+            120
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 87,
+          "combatLevel": 80,
+          "requirements": "87 Slayer, 80 Combat, 50 Magic",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "custodian stalker",
+          "weight": 8,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 54,
+          "combatLevel": null,
+          "requirements": "54 Slayer, completion of Shadows of Custodia",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dagannoth",
+          "weight": 8,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, completion of Horror from the Deep",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dark beasts",
+          "weight": 5,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            110,
+            135
+          ],
+          "slayerLevel": 90,
+          "combatLevel": 90,
+          "requirements": "90 Slayer, 90 Combat, partial completion of Mourning's End Part II",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "drakes",
+          "weight": 7,
+          "amount": [
+            30,
+            95
+          ],
+          "extended": null,
+          "slayerLevel": 84,
+          "combatLevel": null,
+          "requirements": "84 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dust devils",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": 70,
+          "requirements": "65 Slayer, 70 Combat, partial completion of Desert Treasure I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "elves",
+          "weight": 4,
+          "amount": [
+            60,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 70,
+          "requirements": "70 Combat, completion of Regicide",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fire giants",
+          "weight": 9,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fossil island wyverns",
+          "weight": 5,
+          "amount": [
+            5,
+            25
+          ],
+          "extended": [
+            55,
+            75
+          ],
+          "slayerLevel": 66,
+          "combatLevel": 60,
+          "requirements": "66 Slayer, 60 Combat, completion of Bone Voyage and Elemental Workshop I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "frost dragons",
+          "weight": 5,
+          "amount": [
+            60,
+            100
+          ],
+          "extended": [
+            180,
+            240
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "87 Sailing, 85 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gargoyles",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 75,
+          "combatLevel": 80,
+          "requirements": "75 Slayer, 80 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "greater demons",
+          "weight": 7,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gryphons",
+          "weight": 7,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": [
+            190,
+            250
+          ],
+          "slayerLevel": 51,
+          "combatLevel": null,
+          "requirements": "51 Slayer, 45 Sailing, completion of Troubled Tortugans, Unlocked the Wings Spread ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Wings Spread"
+          ],
+          "locations": []
+        },
+        {
+          "category": "hellhounds",
+          "weight": 8,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 9,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kurask",
+          "weight": 3,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": 70,
+          "combatLevel": 65,
+          "requirements": "70 Slayer, 65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lizardmen",
+          "weight": 8,
+          "amount": [
+            90,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Reptile got ripped ability via spending 75 Slayer reward points",
+          "unlocks": [
+            "Reptile Got Ripped"
+          ],
+          "locations": []
+        },
+        {
+          "category": "metal dragons",
+          "weight": 12,
+          "amount": [
+            30,
+            40
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "85 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "mutated zygomites",
+          "weight": 2,
+          "amount": [
+            10,
+            25
+          ],
+          "extended": null,
+          "slayerLevel": 57,
+          "combatLevel": 60,
+          "requirements": "57 Slayer, 60 Combat, completion of Lost City",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "nechryael",
+          "weight": 7,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": 85,
+          "requirements": "80 Slayer, 85 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "red dragons",
+          "weight": 5,
+          "amount": [
+            30,
+            80
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 68,
+          "requirements": "68 Combat, partial completion of Dragon Slayer I, unlocked the Seeing red ability via spending 50 Slayer reward points",
+          "unlocks": [
+            "Seeing Red"
+          ],
+          "locations": []
+        },
+        {
+          "category": "scabarites",
+          "weight": 4,
+          "amount": [
+            30,
+            60
+          ],
+          "extended": [
+            130,
+            170
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "85 Combat, partial completion of Contact!",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "skeletal wyverns",
+          "weight": 5,
+          "amount": [
+            5,
+            15
+          ],
+          "extended": [
+            50,
+            70
+          ],
+          "slayerLevel": 72,
+          "combatLevel": 70,
+          "requirements": "72 Slayer, 70 Combat, completion of Elemental Workshop I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "smoke devils",
+          "weight": 7,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": 93,
+          "combatLevel": 85,
+          "requirements": "93 Slayer, 85 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "spiritual creatures",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            181,
+            250
+          ],
+          "slayerLevel": 63,
+          "combatLevel": 60,
+          "requirements": "63 Slayer, 60 Combat, completion of Death Plateau, level 60 in Strength or Agility",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "suqahs",
+          "weight": 8,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": [
+            186,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "85 Combat, partial completion of Lunar Diplomacy",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "trolls",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "turoth",
+          "weight": 3,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": 55,
+          "combatLevel": 60,
+          "requirements": "55 Slayer, 60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "tzhaar",
+          "weight": 10,
+          "amount": [
+            110,
+            180
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Hot stuff ability via spending 100 Slayer reward points",
+          "unlocks": [
+            "Hot Stuff"
+          ],
+          "locations": []
+        },
+        {
+          "category": "vampyres",
+          "weight": 6,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Actual Vampyre Slayer ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Actual Vampyre Slayer"
+          ],
+          "locations": []
+        },
+        {
+          "category": "warped creatures",
+          "weight": 6,
+          "amount": [
+            120,
+            185
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Warped Reality ability via spending 60 Slayer reward points",
+          "unlocks": [
+            "Warped Reality"
+          ],
+          "locations": []
+        },
+        {
+          "category": "wyrms",
+          "weight": 7,
+          "amount": [
+            80,
+            145
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 62,
+          "combatLevel": null,
+          "requirements": "62 Slayer",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "duradel",
+      "name": "Duradel",
+      "page": "Duradel/Slayer assignments",
+      "alternates": [
+        "Kuradal"
+      ],
+      "totalWeight": 327,
+      "assignments": [
+        {
+          "category": "aberrant spectres",
+          "weight": 7,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 60,
+          "combatLevel": 65,
+          "requirements": "60 Slayer, 65 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "abyssal demons",
+          "weight": 12,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": 85,
+          "requirements": "85 Slayer, 85 Combat, completion of Priest in Peril or Fairytale II - Cure a Queen",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "ankou",
+          "weight": 5,
+          "amount": [
+            50,
+            80
+          ],
+          "extended": [
+            91,
+            150
+          ],
+          "slayerLevel": null,
+          "combatLevel": 40,
+          "requirements": "40 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "aquanite",
+          "weight": 5,
+          "amount": [
+            30,
+            50
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 78,
+          "combatLevel": null,
+          "requirements": "78 Slayer, 73 Sailing, Unlocked the Lured In ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Lured In"
+          ],
+          "locations": []
+        },
+        {
+          "category": "araxytes",
+          "weight": 10,
+          "amount": [
+            60,
+            80
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 92,
+          "combatLevel": null,
+          "requirements": "92 Slayer, Completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "aviansie",
+          "weight": 8,
+          "amount": [
+            120,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Watch the birdie ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Watch the Birdie"
+          ],
+          "locations": []
+        },
+        {
+          "category": "basilisks",
+          "weight": 7,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 40,
+          "combatLevel": null,
+          "requirements": "40 Slayer, unlocked the Basilocked ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Basilocked"
+          ],
+          "locations": []
+        },
+        {
+          "category": "black demons",
+          "weight": 8,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "black dragons",
+          "weight": 9,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            40,
+            60
+          ],
+          "slayerLevel": null,
+          "combatLevel": 80,
+          "requirements": "80 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bloodveld",
+          "weight": 8,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": 50,
+          "requirements": "50 Slayer, 50 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "blue dragons",
+          "weight": 4,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bosses",
+          "weight": 12,
+          "amount": [
+            3,
+            35
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Like a boss ability via spending 200 Slayer reward points, as well as various requirements for specific bosses",
+          "unlocks": [
+            "Like a Boss"
+          ],
+          "locations": []
+        },
+        {
+          "category": "cave horrors",
+          "weight": 4,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 58,
+          "combatLevel": 85,
+          "requirements": "58 Slayer, 85 Combat, completion of Cabin Fever",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave kraken",
+          "weight": 9,
+          "amount": [
+            100,
+            120
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 87,
+          "combatLevel": 80,
+          "requirements": "87 Slayer, 80 Combat, 50 Magic",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dagannoth",
+          "weight": 9,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, completion of Horror from the Deep",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dark beasts",
+          "weight": 11,
+          "amount": [
+            10,
+            20
+          ],
+          "extended": [
+            110,
+            135
+          ],
+          "slayerLevel": 90,
+          "combatLevel": 90,
+          "requirements": "90 Slayer, 90 Combat, started Mourning's End Part II",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "drakes",
+          "weight": 8,
+          "amount": [
+            50,
+            110
+          ],
+          "extended": null,
+          "slayerLevel": 84,
+          "combatLevel": null,
+          "requirements": "84 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dust devils",
+          "weight": 5,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": 70,
+          "requirements": "65 Slayer, 70 Combat, partial completion of Desert Treasure I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "elves",
+          "weight": 4,
+          "amount": [
+            110,
+            170
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 70,
+          "requirements": "70 Combat, completion of Regicide",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fire giants",
+          "weight": 7,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 65,
+          "requirements": "65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "fossil island wyverns",
+          "weight": 7,
+          "amount": [
+            20,
+            50
+          ],
+          "extended": [
+            55,
+            75
+          ],
+          "slayerLevel": 66,
+          "combatLevel": 60,
+          "requirements": "66 Slayer, 60 Combat, completion of Bone Voyage, completion of Elemental Workshop I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "frost dragons",
+          "weight": 5,
+          "amount": [
+            70,
+            120
+          ],
+          "extended": [
+            180,
+            240
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "87 Sailing, 85 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gargoyles",
+          "weight": 8,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 75,
+          "combatLevel": 80,
+          "requirements": "75 Slayer, 80 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "greater demons",
+          "weight": 9,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gryphons",
+          "weight": 7,
+          "amount": [
+            100,
+            210
+          ],
+          "extended": [
+            180,
+            290
+          ],
+          "slayerLevel": 51,
+          "combatLevel": null,
+          "requirements": "51 Slayer, 45 Sailing, completion of Troubled Tortugans, Unlocked the Wings Spread ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Wings Spread"
+          ],
+          "locations": []
+        },
+        {
+          "category": "hellhounds",
+          "weight": 10,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kalphite",
+          "weight": 9,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 15,
+          "requirements": "15 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kurask",
+          "weight": 4,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": 70,
+          "combatLevel": 65,
+          "requirements": "70 Slayer, 65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "lizardmen",
+          "weight": 10,
+          "amount": [
+            130,
+            210
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Reptile got ripped ability via spending 75 Slayer reward points",
+          "unlocks": [
+            "Reptile Got Ripped"
+          ],
+          "locations": []
+        },
+        {
+          "category": "metal dragons",
+          "weight": 14,
+          "amount": [
+            35,
+            45
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "85 Combat, partial completion of Dragon Slayer I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "mutated zygomites",
+          "weight": 2,
+          "amount": [
+            20,
+            30
+          ],
+          "extended": null,
+          "slayerLevel": 57,
+          "combatLevel": 60,
+          "requirements": "57 Slayer, 60 Combat, completion of Lost City",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "nechryael",
+          "weight": 9,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": 85,
+          "requirements": "80 Slayer, 85 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "red dragons",
+          "weight": 8,
+          "amount": [
+            30,
+            65
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 68,
+          "requirements": "68 Combat, partial completion of Dragon Slayer I, unlocked the Seeing red ability via spending 50 Slayer reward points",
+          "unlocks": [
+            "Seeing Red"
+          ],
+          "locations": []
+        },
+        {
+          "category": "skeletal wyverns",
+          "weight": 7,
+          "amount": [
+            20,
+            40
+          ],
+          "extended": [
+            50,
+            70
+          ],
+          "slayerLevel": 72,
+          "combatLevel": 70,
+          "requirements": "72 Slayer, 70 Combat, completion of Elemental Workshop I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "smoke devils",
+          "weight": 9,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": 93,
+          "combatLevel": 85,
+          "requirements": "93 Slayer, 85 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "spiritual creatures",
+          "weight": 7,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": [
+            181,
+            250
+          ],
+          "slayerLevel": 63,
+          "combatLevel": 60,
+          "requirements": "63 Slayer, 60 Combat, completion of Death Plateau, level 60 in Strength or Agility",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "suqahs",
+          "weight": 8,
+          "amount": [
+            60,
+            90
+          ],
+          "extended": [
+            186,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": 85,
+          "requirements": "85 Combat, partial completion of Lunar Diplomacy",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "trolls",
+          "weight": 6,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 60,
+          "requirements": "60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "tzhaar",
+          "weight": 10,
+          "amount": [
+            130,
+            199
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Hot stuff ability via spending 100 Slayer reward points",
+          "unlocks": [
+            "Hot Stuff"
+          ],
+          "locations": []
+        },
+        {
+          "category": "vampyres",
+          "weight": 8,
+          "amount": [
+            100,
+            210
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Actual Vampyre Slayer ability via spending 80 Slayer reward points",
+          "unlocks": [
+            "Actual Vampyre Slayer"
+          ],
+          "locations": []
+        },
+        {
+          "category": "warped creatures",
+          "weight": 8,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Unlocked the Warped Reality ability via spending 60 Slayer reward points",
+          "unlocks": [
+            "Warped Reality"
+          ],
+          "locations": []
+        },
+        {
+          "category": "waterfiends",
+          "weight": 2,
+          "amount": [
+            130,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": 75,
+          "requirements": "75 Combat, progressed the Firemaking tasks of the Barbarian Training miniquest up to crafting Pyre ships.",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "wyrms",
+          "weight": 8,
+          "amount": [
+            100,
+            160
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 62,
+          "combatLevel": null,
+          "requirements": "62 Slayer",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    },
+    {
+      "key": "krystilia",
+      "name": "Krystilia",
+      "page": "Krystilia",
+      "alternates": [],
+      "totalWeight": 196,
+      "assignments": [
+        {
+          "category": "abyssal demons",
+          "weight": 5,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have completed the Priest in Peril quest and have at least 85 Slayer.\nSlayer task assignments of abyssal demons, dust devils, jellies, and nechryaels from Krystilia can be enabled or disabled for free. This is done via the Rewards Shop's \"I Wildy More Slayer\" unlock.",
+          "unlocks": [],
+          "locations": [
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "ankou",
+          "weight": 6,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": [
+            91,
+            150
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "The Forgotten Cemetery",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "aviansie",
+          "weight": 7,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Only assigned to players who have either 60 Agility or 60 Strength to access the Wilderness God Wars Dungeon.\nOnly assigned to players who have unlocked Watch the birdie via spending 80 Slayer reward points.\nArmadylean guards also count if fought in the Wilderness.",
+          "unlocks": [
+            "Watch the Birdie"
+          ],
+          "locations": [
+            "Wilderness God Wars Dungeon"
+          ]
+        },
+        {
+          "category": "bandits",
+          "weight": 4,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Bandit Camp (Wilderness)"
+          ]
+        },
+        {
+          "category": "bears",
+          "weight": 6,
+          "amount": [
+            65,
+            100
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Callisto and Artio also count.",
+          "unlocks": [],
+          "locations": [
+            "Ferox Enclave",
+            "Graveyard of Shadows",
+            "Ruins (west)"
+          ]
+        },
+        {
+          "category": "black demons",
+          "weight": 7,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Kolodion's final form also counts.",
+          "unlocks": [],
+          "locations": [
+            "Edgeville Dungeon",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "black dragons",
+          "weight": 4,
+          "amount": [
+            8,
+            16
+          ],
+          "extended": [
+            40,
+            60
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "The King Black Dragon and lava dragons do not count.\nOnly assigned to players who have started Dragon Slayer I.",
+          "unlocks": [],
+          "locations": [
+            "Lava Maze Dungeon",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "black knights",
+          "weight": 3,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Silk Chasm",
+            "Lava Maze"
+          ]
+        },
+        {
+          "category": "bloodveld",
+          "weight": 4,
+          "amount": [
+            70,
+            110
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have completed the quest Priest in Peril and have at least 50 Slayer.",
+          "unlocks": [],
+          "locations": [
+            "Wilderness God Wars Dungeon"
+          ]
+        },
+        {
+          "category": "chaos druids",
+          "weight": 5,
+          "amount": [
+            50,
+            90
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Edgeville Dungeon",
+            "Chaos Temple (Wilderness)"
+          ]
+        },
+        {
+          "category": "dark warriors",
+          "weight": 4,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Dark Warriors' Fortress"
+          ]
+        },
+        {
+          "category": "dust devils",
+          "weight": 5,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have completed the quest Desert Treasure I and have at least 65 Slayer.",
+          "unlocks": [],
+          "locations": [
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "earth warriors",
+          "weight": 6,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Edgeville Dungeon"
+          ]
+        },
+        {
+          "category": "ents",
+          "weight": 5,
+          "amount": [
+            35,
+            60
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Chaos Temple (Wilderness)"
+          ]
+        },
+        {
+          "category": "fire giants",
+          "weight": 7,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Deep Wilderness Dungeon"
+          ]
+        },
+        {
+          "category": "greater demons",
+          "weight": 8,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Demonic Ruins",
+            "Lava Maze Dungeon",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "green dragons",
+          "weight": 4,
+          "amount": [
+            65,
+            100
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Dark Warriors' Fortress",
+            "Graveyard of Shadows",
+            "Lava Maze",
+            "Bone Yard",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "hellhounds",
+          "weight": 7,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "(Greater) Skeleton Hellhounds also count.",
+          "unlocks": [],
+          "locations": [
+            "Deserted Keep",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "hill giants",
+          "weight": 3,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Bone Yard Hunter area",
+            "Deep Wilderness Dungeon"
+          ]
+        },
+        {
+          "category": "ice giants",
+          "weight": 6,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Frozen Waste Plateau",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "ice warriors",
+          "weight": 7,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Frozen Waste Plateau"
+          ]
+        },
+        {
+          "category": "jellies",
+          "weight": 5,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": null,
+          "slayerLevel": 52,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have at least 52 Slayer.",
+          "unlocks": [],
+          "locations": [
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "lava dragons",
+          "weight": 3,
+          "amount": [
+            35,
+            60
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Lava Dragon Isle"
+          ]
+        },
+        {
+          "category": "lesser demons",
+          "weight": 6,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Muddy chest",
+            "King Black Dragon Lair",
+            "Demonic Ruins",
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "magic axes",
+          "weight": 7,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have at least 23 Thieving",
+          "unlocks": [],
+          "locations": [
+            "Magic Axe Hut",
+            "Lockpick"
+          ]
+        },
+        {
+          "category": "mammoths",
+          "weight": 6,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Chaos Temple (Wilderness)"
+          ]
+        },
+        {
+          "category": "moss giants",
+          "weight": 4,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Lava Maze"
+          ]
+        },
+        {
+          "category": "nechryael",
+          "weight": 5,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have completed the quest Priest in Peril and have at least 80 Slayer",
+          "unlocks": [],
+          "locations": [
+            "Wilderness Slayer Cave"
+          ]
+        },
+        {
+          "category": "pirates",
+          "weight": 3,
+          "amount": [
+            62,
+            75
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have at least 39 Thieving",
+          "unlocks": [],
+          "locations": [
+            "Pirates' Hideout",
+            "Lockpick",
+            "Chaos Temple (Wilderness)"
+          ]
+        },
+        {
+          "category": "revenants",
+          "weight": 5,
+          "amount": [
+            40,
+            100
+          ],
+          "extended": [
+            100,
+            150
+          ],
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Revenant Caves"
+          ]
+        },
+        {
+          "category": "rogues",
+          "weight": 5,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Rogues' Castle",
+            "Mage Arena"
+          ]
+        },
+        {
+          "category": "scorpions",
+          "weight": 6,
+          "amount": [
+            65,
+            100
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Scorpia, her guardians, and her offspring also count.",
+          "unlocks": [],
+          "locations": [
+            "Air Obelisk",
+            "Scorpion Pit",
+            "Lava Maze"
+          ]
+        },
+        {
+          "category": "skeletons",
+          "weight": 5,
+          "amount": [
+            65,
+            100
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Vet'ion, Calvar'ion, and their (Greater) Skeleton Hellhounds also count.",
+          "unlocks": [],
+          "locations": [
+            "Southern Wilderness mine",
+            "South-west Wilderness mine",
+            "Bone Yard",
+            "Edgeville Dungeon",
+            "Wilderness Agility Course"
+          ]
+        },
+        {
+          "category": "spiders",
+          "weight": 6,
+          "amount": [
+            65,
+            100
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Venenatis and Spindel also count.",
+          "unlocks": [],
+          "locations": [
+            "Lava Dragon Isle",
+            "Ruins (east)",
+            "Edgeville Dungeon",
+            "Lava Maze Dungeon",
+            "King Black Dragon Lair"
+          ]
+        },
+        {
+          "category": "spiritual creatures",
+          "weight": 6,
+          "amount": [
+            100,
+            150
+          ],
+          "extended": [
+            181,
+            250
+          ],
+          "slayerLevel": 63,
+          "combatLevel": null,
+          "requirements": "Only assigned to players if they have completed the Death Plateau quest and have at least 63 Slayer.",
+          "unlocks": [],
+          "locations": [
+            "Wilderness God Wars Dungeon"
+          ]
+        },
+        {
+          "category": "wilderness bosses",
+          "weight": 8,
+          "amount": [
+            3,
+            35
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": "Only assigned to players who have unlocked Like a boss via spending 200 Slayer reward points.",
+          "unlocks": [
+            "Like a Boss"
+          ],
+          "locations": [
+            "Demonic Ruins",
+            "Rogues' Castle",
+            "Lava Maze",
+            "Ruins (west)",
+            "Scorpion Pit",
+            "Bone Yard"
+          ]
+        },
+        {
+          "category": "zombies",
+          "weight": 3,
+          "amount": [
+            75,
+            125
+          ],
+          "extended": null,
+          "slayerLevel": null,
+          "combatLevel": null,
+          "requirements": null,
+          "unlocks": [],
+          "locations": [
+            "Graveyard of Shadows",
+            "Ruins (east)",
+            "Chaos Temple (Wilderness)"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mortimer",
+      "name": "Mortimer",
+      "page": "Mortimer",
+      "alternates": [],
+      "totalWeight": 276,
+      "assignments": [
+        {
+          "category": "aberrant spectres",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 60,
+          "combatLevel": 65,
+          "requirements": "60 Slayer, 65 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "abyssal demons",
+          "weight": 8,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 85,
+          "combatLevel": 85,
+          "requirements": "85 Slayer, 85 Combat, completion of Priest in Peril or Fairytale II - Cure a Queen",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "aquanite",
+          "weight": 10,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": [
+            150,
+            200
+          ],
+          "slayerLevel": 78,
+          "combatLevel": null,
+          "requirements": "78 Slayer, 73 Sailing",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "araxytes",
+          "weight": 8,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 92,
+          "combatLevel": null,
+          "requirements": "92 Slayer, Completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "banshees",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 15,
+          "combatLevel": 20,
+          "requirements": "15 Slayer, 20 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "basilisks",
+          "weight": 10,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 40,
+          "combatLevel": 40,
+          "requirements": "40 Slayer, 40 Combat, 20 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "bloodveld",
+          "weight": 8,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 50,
+          "combatLevel": 50,
+          "requirements": "50 Slayer, 50 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave crawlers",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 10,
+          "combatLevel": 10,
+          "requirements": "10 Slayer, 10 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cave horrors",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 58,
+          "combatLevel": 85,
+          "requirements": "58 Slayer, 85 Combat, completion of Cabin Fever",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "cockatrice",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 25,
+          "combatLevel": 25,
+          "requirements": "25 Slayer, 25 Combat, 20 Defence",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "crawling hands",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 5,
+          "combatLevel": null,
+          "requirements": "5 Slayer, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "custodian stalker",
+          "weight": 8,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 54,
+          "combatLevel": null,
+          "requirements": "54 Slayer, completion of Shadows of Custodia",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dark beasts",
+          "weight": 10,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": [
+            110,
+            135
+          ],
+          "slayerLevel": 90,
+          "combatLevel": 90,
+          "requirements": "90 Slayer, 90 Combat, started Mourning's End Part II",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "drakes",
+          "weight": 10,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": null,
+          "slayerLevel": 84,
+          "combatLevel": null,
+          "requirements": "84 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "dust devils",
+          "weight": 8,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 65,
+          "combatLevel": 70,
+          "requirements": "65 Slayer, 70 Combat, partial completion of Desert Treasure I",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gargoyles",
+          "weight": 10,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 75,
+          "combatLevel": 80,
+          "requirements": "75 Slayer, 80 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "gryphons",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": [
+            160,
+            200
+          ],
+          "slayerLevel": 51,
+          "combatLevel": null,
+          "requirements": "51 Slayer, 45 Sailing, completion of Troubled Tortugans",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "hydras",
+          "weight": 10,
+          "amount": [
+            150,
+            200
+          ],
+          "extended": null,
+          "slayerLevel": 95,
+          "combatLevel": null,
+          "requirements": "95 Slayer",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "infernal mages",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 45,
+          "combatLevel": 40,
+          "requirements": "45 Slayer, 40 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "jellies",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": 52,
+          "combatLevel": 57,
+          "requirements": "52 Slayer, 57 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "kurask",
+          "weight": 10,
+          "amount": [
+            40,
+            60
+          ],
+          "extended": null,
+          "slayerLevel": 70,
+          "combatLevel": 65,
+          "requirements": "70 Slayer, 65 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "nechryael",
+          "weight": 8,
+          "amount": [
+            150,
+            200
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 80,
+          "combatLevel": 85,
+          "requirements": "80 Slayer, 85 Combat, completion of Priest in Peril",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "pyrefiends",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 30,
+          "combatLevel": 25,
+          "requirements": "30 Slayer, 25 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "rockslugs",
+          "weight": 10,
+          "amount": [
+            35,
+            50
+          ],
+          "extended": null,
+          "slayerLevel": 20,
+          "combatLevel": 20,
+          "requirements": "20 Slayer, 20 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "smoke devils",
+          "weight": 8,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": 93,
+          "combatLevel": 85,
+          "requirements": "93 Slayer, 85 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "turoth",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": 55,
+          "combatLevel": 60,
+          "requirements": "55 Slayer, 60 Combat",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "venators",
+          "weight": 10,
+          "amount": [
+            120,
+            180
+          ],
+          "extended": null,
+          "slayerLevel": 74,
+          "combatLevel": 60,
+          "requirements": "74 Slayer, 60 Combat, completion of The Blood Moon Rises",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "warped creatures",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": null,
+          "slayerLevel": 56,
+          "combatLevel": null,
+          "requirements": "56 Slayer, completion of The Path of Glouphrie",
+          "unlocks": [],
+          "locations": []
+        },
+        {
+          "category": "wyrms",
+          "weight": 10,
+          "amount": [
+            80,
+            120
+          ],
+          "extended": [
+            200,
+            250
+          ],
+          "slayerLevel": 62,
+          "combatLevel": null,
+          "requirements": "62 Slayer",
+          "unlocks": [],
+          "locations": []
+        }
+      ]
+    }
+  ]
+}
