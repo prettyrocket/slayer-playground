@@ -11,7 +11,9 @@ describe('routes', () => {
 
   it('renders the home page at /', () => {
     renderRoute('/');
-    expect(screen.getByRole('heading', { level: 1, name: 'Welcome' })).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { level: 1, name: "What's your Slayer task?" }),
+    ).toBeInTheDocument();
   });
 
   it('navigates via the app bar links', async () => {

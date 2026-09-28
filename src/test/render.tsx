@@ -7,7 +7,7 @@ import { type RenderOptions, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { RouterProvider, createMemoryRouter } from 'react-router';
 
-import { routes } from '@/routes';
+import { routes } from '@/routing/routes';
 import { theme } from '@/theme';
 
 /** render() wrapped in the app's providers, plus a userEvent instance. */

@@ -13,7 +13,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { RouterProvider } from 'react-router';
 
 import { createQueryClient } from '@/queryClient';
-import { createAppRouter } from '@/routes';
+import { createAppRouter } from '@/routing/routes';
 import { theme } from '@/theme';
 
 const queryClient = createQueryClient();

@@ -23,25 +23,25 @@ Requires Node 22 or newer.
 ```
 src/
 ├─ main.tsx              # providers: React Query → MUI theme → router
-├─ routes.tsx            # route table + navItems for the app bar
 ├─ theme.ts              # MUI theme; change ACCENT first
-├─ api.ts                # fetchJson + example query (useLinks)
+├─ api.ts                # fetchJson + HttpError
 ├─ queryClient.ts        # TanStack Query defaults
 ├─ layouts/RootLayout.tsx
+├─ routing/              # routes.tsx (route table + navItems), paths.ts (page URLs),
+│                        # useNavLocation (where the user is), navigation tests
 ├─ pages/                # one component per route
-├─ components/           # shared components (ErrorPage, ColorModeToggle)
+├─ components/           # shared components
+├─ data/                 # data types, masters, and the catalog that loads monsters.json
 ├─ hooks/                # useLocalStorage
 └─ test/                 # setup + renderWithProviders / renderRoute helpers
-public/                  # served as-is (favicon, links.json)
+public/                  # served as-is (favicon, data/)
 scripts/                 # build-time Node scripts (sync-data)
 ```
 
 - **App title:** `VITE_APP_TITLE` in `.env` (browser tab and app bar).
-- **Add a page:** create it in `src/pages/`, add a route in `routes.tsx`, and
+- **Add a page:** create it in `src/pages/`, add a route in `routing/routes.tsx`, and
   add it to `navItems` if it belongs in the app bar.
 - **Imports:** use `@/` for anything under `src/`.
-- **Example content:** the Home page's click counter and docs list show the
-  patterns below; delete them (and `public/links.json`) when you start.
 
 ## Theme and dark mode
 
@@ -65,7 +65,7 @@ const [favorites, setFavorites] = useLocalStorage<string[]>('favorites', []);
 
 **Fetching** — use TanStack Query with `fetchJson` from `src/api.ts` (it throws
 an `HttpError` with `.status` on non-2xx responses, so errors reach `isError`).
-Paths like `links.json` or `/data/items.json` load files from `public/`;
+Paths like `/data/items.json` load files from `public/`;
 absolute URLs call APIs directly. Queries retry network and server errors
 twice, but not 4xx responses:
 
@@ -108,8 +108,9 @@ Tests live next to the code as `*.test.ts(x)`. Helpers in `src/test/render.tsx`:
 - `renderRoute('/about')` renders the whole app (layout + routes) at a path,
   and returns the `router` so you can assert on `router.state.location`.
 
-`fetch` is stubbed in every test and answers 404 unless you mock it, so tests
-never hit the network:
+`fetch` is stubbed in every test, so tests never hit the network. It serves a
+small `monsters.json` fixture (`src/test/monsters.ts`) and answers 404 for
+anything else, unless you mock it:
 
 ```tsx
 vi.mocked(fetch).mockResolvedValueOnce(Response.json([{ id: 1 }]));
@@ -151,7 +152,7 @@ How the pieces fit:
 `vite.config.ts` puts React and MUI's styling runtime in their own chunks,
 which stay cached between deploys and keep the main chunk under Vite's 500 kB
 warning. If you add a large library (charts, editors, maps), load the page that
-uses it lazily in `routes.tsx`, and the library ships in that page's chunk:
+uses it lazily in `routing/routes.tsx`, and the library ships in that page's chunk:
 
 ```tsx
 {
