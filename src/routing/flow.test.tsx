@@ -43,7 +43,7 @@ describe('flow between pages', () => {
   });
 
   it("lists only a master's categories, with links that carry the master", async () => {
-    renderRoute('/masters/vannaka');
+    renderRoute('/masters/duradel');
     const list = await within(screen.getByRole('main')).findByRole('list', {
       name: 'Categories',
     });
@@ -51,11 +51,19 @@ describe('flow between pages', () => {
       within(list)
         .getAllByRole('link')
         .map((link) => link.textContent),
-    ).toEqual(['Abyssal demons', 'Bosses']);
+    ).toEqual(['Abyssal demons', 'Bosses', 'Dust devils']);
     expect(within(list).getByRole('link', { name: 'Bosses' })).toHaveAttribute(
       'href',
-      '/categories/bosses?master=vannaka',
+      '/categories/bosses?master=duradel',
     );
+  });
+
+  it("takes a category's masters from their tables, not from its monsters", async () => {
+    // The Sire's assignedBy lists Vannaka, who assigns abyssal demons but not bosses.
+    renderRoute('/categories/bosses');
+    const main = screen.getByRole('main');
+    expect(await within(main).findByRole('link', { name: 'Duradel' })).toBeInTheDocument();
+    expect(within(main).queryByRole('link', { name: 'Vannaka' })).not.toBeInTheDocument();
   });
 
   it.each(['/categories/nope', '/monsters/nope', '/masters/nope'])(

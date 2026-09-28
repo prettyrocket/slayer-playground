@@ -16,6 +16,8 @@ export const WIKI_API = 'https://oldschool.runescape.wiki/api.php';
 export const USER_AGENT =
   'slayer-playground/0.1 (+https://github.com/prettyrocket/slayer-playground)';
 
+/** `action=query` accepts at most 50 titles per request for normal users. */
+export const MAX_TITLES_PER_REQUEST = 50;
 /** Bucket's own maximum `limit`. */
 export const BUCKET_PAGE_SIZE = 5000;
 /** Abort a request that has not responded by then; it counts as a network failure. */
@@ -151,6 +153,46 @@ export class WikiClient {
     });
   }
 
+  /**
+   * Current wikitext of each title, `MAX_TITLES_PER_REQUEST` per request,
+   * keyed by the title as requested (following normalization and redirects).
+   * Missing pages map to null.
+   */
+  async wikitext(titles: string[]): Promise<Map<string, string | null>> {
+    const out = new Map<string, string | null>();
+    const unique = [...new Set(titles)];
+    for (let i = 0; i < unique.length; i += MAX_TITLES_PER_REQUEST) {
+      const chunk = unique.slice(i, i + MAX_TITLES_PER_REQUEST);
+      const { query } = await this.get<QueryRevisionsResponse>({
+        action: 'query',
+        prop: 'revisions',
+        rvprop: 'content',
+        rvslots: 'main',
+        redirects: '1',
+        titles: chunk.join('|'),
+      });
+
+      const renamed = new Map<string, string>();
+      for (const { from, to } of [...(query?.normalized ?? []), ...(query?.redirects ?? [])]) {
+        renamed.set(from, to);
+      }
+      const content = new Map<string, string>();
+      for (const page of query?.pages ?? []) {
+        const text = page.revisions?.[0]?.slots?.main?.content;
+        if (typeof text === 'string') content.set(page.title, text);
+      }
+      for (const title of chunk) {
+        // A title can be normalized and then redirected, so follow the chain.
+        let resolved = title;
+        for (let hops = 0; renamed.has(resolved) && hops < 5; hops++) {
+          resolved = renamed.get(resolved)!;
+        }
+        out.set(title, content.get(resolved) ?? null);
+      }
+    }
+    return out;
+  }
+
   /** Serve `params` from the disk cache, or run `produce` and cache what it returns. */
   private async cached<T>(params: Params, produce: () => Promise<T>): Promise<T> {
     const file = path.join(this.opts.cacheDir, `${cacheKey(this.opts.apiUrl, params)}.json`);
@@ -240,6 +282,18 @@ export function cacheKey(apiUrl: string, params: Params): string {
     .update(JSON.stringify([apiUrl, sorted]))
     .digest('hex')
     .slice(0, 32);
+}
+
+interface QueryRevisionsResponse {
+  query?: {
+    normalized?: { from: string; to: string }[];
+    redirects?: { from: string; to: string }[];
+    pages?: {
+      title: string;
+      missing?: boolean;
+      revisions?: { slots?: { main?: { content?: string } } }[];
+    }[];
+  };
 }
 
 /** A Lua string literal. */

@@ -82,6 +82,24 @@ export async function fetchTaskOnlyPages(client: WikiClient): Promise<Set<string
   return new Set(rows.map((row) => row.page_name));
 }
 
+/** Pages read as wikitext. Master pages are in masters.ts (MASTER_PAGES). */
+export const SUPERIORS_PAGE = 'Superior slayer monster';
+export const REWARDS_PAGE = 'Slayer Rewards';
+export const EQUIPMENT_PAGE = 'Slayer equipment';
+
+/** Titles of the wiki's "Slayer task/..." guide pages, without redirects (about 80, one request). */
+export async function fetchTaskPageTitles(client: WikiClient): Promise<string[]> {
+  const res = await client.get<{ query?: { allpages?: { title: string }[] } }>({
+    action: 'query',
+    list: 'allpages',
+    apprefix: 'Slayer task/',
+    apnamespace: '0',
+    apfilterredir: 'nonredirects',
+    aplimit: '500',
+  });
+  return (res.query?.allpages ?? []).map((page) => page.title).sort();
+}
+
 /**
  * Every dropsline row (about 40k, 8 or 9 pages). Filtering by
  * Category:Slayer monsters would halve that but missed pages in the #3 spike,

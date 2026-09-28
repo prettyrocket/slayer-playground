@@ -8,10 +8,14 @@
  * development send no requests. See scripts/lib/wiki-client.ts for the
  * request etiquette.
  */
+import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
+import type { MetaFile } from '../src/data/types.ts';
 import { WikiClient } from './lib/wiki-client.ts';
-import { syncMonsters } from './sync/monsters.ts';
+import { syncMonsters, writeJson } from './sync/monsters.ts';
+import { SUPERIORS_PAGE } from './sync/sources.ts';
+import { syncTasks } from './sync/tasks.ts';
 
 const root = path.resolve(import.meta.dirname, '..');
 const refresh = process.argv.includes('--refresh');
@@ -19,15 +23,31 @@ const dataDir = path.join(root, 'public', 'data');
 
 const client = new WikiClient({ cacheDir: path.join(root, '.cache', 'wiki'), refresh });
 
-// Masters, tasks and superiors are added in #7.
-const steps: { name: string; run: (client: WikiClient) => Promise<void> }[] = [
-  { name: 'Monsters and drops', run: (c) => syncMonsters(c, dataDir) },
-];
+console.log('\nMonsters, drops and superiors');
+const monsters = await syncMonsters(client, dataDir);
+console.log('\nMasters and tasks');
+const tasks = await syncTasks(client, dataDir, monsters.monsters);
 
-for (const step of steps) {
-  console.log(`\n${step.name}`);
-  await step.run(client);
-}
+// Only move the timestamp when the data moved, so an unchanged sync leaves no diff.
+const metaFile = path.join(dataDir, 'meta.json');
+const sources = [
+  'Bucket:Infobox_monster',
+  'Bucket:Dropsline',
+  SUPERIORS_PAGE,
+  ...tasks.sources,
+].sort();
+const old = await readFile(metaFile, 'utf8')
+  .then((text) => JSON.parse(text) as MetaFile)
+  .catch(() => null);
+const changed = monsters.changed || tasks.changed || old === null;
+const meta: MetaFile = {
+  syncedAt: changed ? new Date().toISOString() : old.syncedAt,
+  sources,
+};
+await writeJson(metaFile, meta);
 
 const { network, cached, retries } = client.stats;
-console.log(`\nDone: ${network} network requests (${retries} retries), ${cached} from cache.`);
+console.log(
+  `\nDone: ${network} network requests (${retries} retries), ${cached} from cache. ` +
+    (changed ? 'Data changed.' : 'No data changed.'),
+);

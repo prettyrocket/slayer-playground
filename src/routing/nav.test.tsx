@@ -94,7 +94,7 @@ describe('master trail', () => {
   });
 
   it("offers only the master's categories in the category switcher", async () => {
-    const { user } = renderRoute('/categories/abyssal-demons?master=vannaka');
+    const { user } = renderRoute('/categories/abyssal-demons?master=duradel');
     await user.click(within(await findCrumbs()).getByRole('button', { name: 'Abyssal demons' }));
     const popover = screen
       .getByRole('searchbox', { name: 'Switch category' })
@@ -103,7 +103,7 @@ describe('master trail', () => {
       within(popover)
         .getAllByRole('link')
         .map((link) => link.textContent),
-    ).toEqual(['Abyssal demons', 'Bosses']);
+    ).toEqual(['Abyssal demons', 'Bosses', 'Dust devils']);
   });
 });
 

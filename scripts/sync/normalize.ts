@@ -61,11 +61,16 @@ export function masterKey(raw: string): MasterKey | null {
   return MASTER_ALIASES[key] ?? null;
 }
 
+// Categories a monster page misspells, mapped to the one the masters assign.
+const CATEGORY_ALIASES: Record<string, string> = {
+  lizard: 'lizards', // Grimy Lizard
+};
+
 /** Lowercased, trimmed Slayer category; null for placeholders ("No", "None") and corrupted values. */
 export function slayerCategory(raw: string): string | null {
   const value = raw.trim().toLowerCase();
   if (!value || value === 'no' || value === 'none' || /['"`{}<>]/.test(value)) return null;
-  return value;
+  return CATEGORY_ALIASES[value] ?? value;
 }
 
 const num = (value: unknown): number | null => {
@@ -286,10 +291,39 @@ export function buildMonsters(
       taskOnly: taskOnlyPages.has(page),
       members: pageRows.some((r) => r.is_members_only === true),
       hasDrops: pagesWithDrops.has(page),
+      // Filled in by linkSuperiors.
+      superior: null,
+      superiorOf: [],
       versions,
     });
   }
   return monsters.sort((a, b) => a.slug.localeCompare(b.slug));
+}
+
+/**
+ * Titles as tables link them compare loosely: "Crawling hand" is the page
+ * "Crawling Hand", and "Rock slug" redirects to "Rockslug".
+ */
+export const pageKey = (page: string) => page.toLowerCase().replace(/\s+/g, '');
+
+/**
+ * Sets `superior` and `superiorOf` from base page -> superior page. Pages that
+ * aren't Slayer monsters here are skipped.
+ */
+export function linkSuperiors(monsters: Monster[], superiors: Map<string, string>): string[] {
+  const warnings: string[] = [];
+  const byPage = new Map(monsters.map((m) => [pageKey(m.page), m]));
+  for (const [basePage, superiorPage] of superiors) {
+    const base = byPage.get(pageKey(basePage));
+    const superior = byPage.get(pageKey(superiorPage));
+    if (!base || !superior) {
+      warnings.push(`Superior ${superiorPage} of ${basePage}: not a Slayer monster page`);
+      continue;
+    }
+    base.superior = superior.slug;
+    superior.superiorOf = [...superior.superiorOf, base.slug].sort();
+  }
+  return warnings;
 }
 
 interface DropJson {
