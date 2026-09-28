@@ -1,7 +1,7 @@
 import { column, findTables, linkTargets, parseTable, wikiPlain } from './wikitext.ts';
 
 /**
- * Parsers for single wiki pages that feed tasks.json and monsters.json:
+ * Parsers for single wiki pages that feed categories.json, unlocks.json and monsters.json:
  * Superior slayer monster, Slayer Rewards and Slayer equipment.
  */
 

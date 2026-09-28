@@ -123,7 +123,7 @@ export interface SlayerMaster {
 
 /** One row of a master's table. */
 export interface Assignment {
-  /** Key into tasks.json, and a Monster category, e.g. "abyssal demons". */
+  /** Key into categories.json, and a Monster category, e.g. "abyssal demons". */
   category: string;
   weight: number;
   /** [min, max] assigned; min === max for a fixed amount. */
@@ -134,41 +134,49 @@ export interface Assignment {
   combatLevel: number | null;
   /** Plain text as the wiki writes it, e.g. "85 Slayer, 85 Combat, completion of Priest in Peril". */
   requirements: string | null;
-  /** Unlocks (names in tasks.json `unlocks`) this master needs before assigning it. */
+  /** Unlocks (names in unlocks.json) this master needs before assigning it. */
   unlocks: string[];
   /** Wiki location pages: where Konar may send you, or where Krystilia's task is done. */
   locations: string[];
 }
 
-/** public/data/tasks.json: every category a master assigns, and the Slayer shop unlocks. */
-export interface TasksFile {
-  tasks: Task[];
-  unlocks: Unlock[];
+/**
+ * public/data/categories.json: every Slayer category, whether or not a master
+ * assigns it, plus task lists that aren't a monster category (Krystilia's
+ * "wilderness bosses").
+ */
+export interface CategoriesFile {
+  categories: SlayerCategory[];
 }
 
-export interface Task {
-  /** Lowercased, as in Monster.categories, e.g. "abyssal demons". */
+export interface SlayerCategory {
+  /** Lowercased, as in Monster.categories and Assignment.category, e.g. "abyssal demons". */
   category: string;
   /** The wiki's guide page, e.g. "Slayer task/Abyssal demons"; null when there is none. */
   page: string | null;
   /** Slugs of the monsters that count, superiors included; minigame and Deadman copies left out. */
   monsters: string[];
-  /** Masters with this task in their table, in MASTER_KEYS order. */
+  /** Masters who assign it, in MASTER_KEYS order; empty when none does. */
   masters: MasterKey[];
   /** Unlocks any master needs before assigning it (see each Assignment for which). */
   unlocks: string[];
   /** Name of the unlock that extends it, if any. */
   extend: string | null;
-  /** Slayer equipment the wiki ties to monsters of this task. */
-  equipment: TaskEquipment[];
+  /** Slayer equipment the wiki ties to its monsters. */
+  equipment: CategoryEquipment[];
 }
 
-export interface TaskEquipment {
+export interface CategoryEquipment {
   item: string;
   /** As the wiki writes it, e.g. "Protecting against Banshees". */
   use: string;
-  /** Slugs of the task's monsters it applies to. */
+  /** Slugs of the category's monsters it applies to. */
   monsters: string[];
+}
+
+/** public/data/unlocks.json: the Slayer Rewards Unlock and Extend tabs. */
+export interface UnlocksFile {
+  unlocks: Unlock[];
 }
 
 /** A Slayer Rewards purchase from the Unlock or Extend tab. */

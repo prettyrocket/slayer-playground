@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import type { MasterKey, Monster } from '../../src/data/types.ts';
-import { type BuildInput, buildTasks, resolveCategory } from './build-tasks.ts';
+import { type BuildInput, buildCategories, resolveCategory } from './build-categories.ts';
 import type { RawAssignment } from './masters.ts';
 import { linkSuperiors } from './normalize.ts';
 import type { RawUnlock } from './parsers.ts';
@@ -47,7 +47,7 @@ function build(
   assignments: Partial<Record<MasterKey, RawAssignment[]>>,
   extra: Partial<BuildInput> = {},
 ) {
-  return buildTasks({
+  return buildCategories({
     monsters: [
       monster('Abyssal demon', ['abyssal demons']),
       monster('Abyssal Sire', ['abyssal demons', 'bosses']),
@@ -87,7 +87,7 @@ describe('resolveCategory', () => {
   });
 });
 
-describe('buildTasks', () => {
+describe('buildCategories', () => {
   it("gives each master's rows their category, weights and total", () => {
     const { masters, warnings } = build({
       vannaka: [row('Abyssal Demons', { weight: 5 }), row('Kalphites', { weight: 7 })],
@@ -101,16 +101,19 @@ describe('buildTasks', () => {
     expect(warnings.filter((w) => w.includes('Vannaka'))).toEqual([]);
   });
 
-  it('lists a category task by its monsters, leaving out other game modes', () => {
-    const { tasks } = build({ duradel: [row('Abyssal demons')], nieve: [row('Abyssal demons')] });
-    expect(tasks.find((t) => t.category === 'abyssal demons')).toMatchObject({
+  it('lists a category by its monsters, leaving out other game modes', () => {
+    const { categories } = build({
+      duradel: [row('Abyssal demons')],
+      nieve: [row('Abyssal demons')],
+    });
+    expect(categories.find((c) => c.category === 'abyssal demons')).toMatchObject({
       monsters: ['abyssal-demon', 'abyssal-sire'],
       masters: ['nieve', 'duradel'],
     });
   });
 
-  it("builds a task that isn't a category from the master's listed monsters", () => {
-    const { tasks } = build(
+  it("builds a category no monster page has from the master's listed monsters", () => {
+    const { categories } = build(
       {
         krystilia: [
           row('Wilderness bosses / demi-bosses', {
@@ -122,7 +125,7 @@ describe('buildTasks', () => {
       },
       { unlocks: [unlock('Like a Boss', 'unlock')] },
     );
-    expect(tasks.find((t) => t.category === 'wilderness bosses')).toMatchObject({
+    expect(categories.find((c) => c.category === 'wilderness bosses')).toMatchObject({
       monsters: ['callisto'],
       masters: ['krystilia'],
       unlocks: ['Like a Boss'],
@@ -130,7 +133,7 @@ describe('buildTasks', () => {
   });
 
   it('links unlocks, extends, guide pages and equipment', () => {
-    const { tasks, masters, warnings } = build(
+    const { categories, masters, warnings } = build(
       {
         konar: [
           row('Abyssal demons', {
@@ -147,7 +150,7 @@ describe('buildTasks', () => {
         ],
       },
     );
-    expect(tasks[0]).toMatchObject({
+    expect(categories.find((c) => c.category === 'abyssal demons')).toMatchObject({
       page: 'Slayer task/Abyssal demons',
       extend: 'Augment my Abbies',
       unlocks: ['Made up'],
@@ -163,9 +166,14 @@ describe('buildTasks', () => {
   });
 
   it('warns about rows and categories it cannot match', () => {
-    const { warnings } = build({ turael: [row('Cows')] });
+    const { categories, warnings } = build({ turael: [row('Cows')] });
     expect(warnings).toContain('Turael: no category for "Cows"');
     expect(warnings).toContain('No master assigns the category "nothing"');
+    // Still listed, so the app can show every category from this file.
+    expect(categories.find((c) => c.category === 'nothing')).toMatchObject({
+      monsters: ['chaos-temple'],
+      masters: [],
+    });
   });
 });
 

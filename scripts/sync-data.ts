@@ -13,9 +13,9 @@ import path from 'node:path';
 
 import type { MetaFile } from '../src/data/types.ts';
 import { WikiClient } from './lib/wiki-client.ts';
+import { syncCategories } from './sync/categories.ts';
 import { syncMonsters, writeJson } from './sync/monsters.ts';
 import { SUPERIORS_PAGE } from './sync/sources.ts';
-import { syncTasks } from './sync/tasks.ts';
 
 const root = path.resolve(import.meta.dirname, '..');
 const refresh = process.argv.includes('--refresh');
@@ -25,8 +25,8 @@ const client = new WikiClient({ cacheDir: path.join(root, '.cache', 'wiki'), ref
 
 console.log('\nMonsters, drops and superiors');
 const monsters = await syncMonsters(client, dataDir);
-console.log('\nMasters and tasks');
-const tasks = await syncTasks(client, dataDir, monsters.monsters);
+console.log('\nMasters, categories and unlocks');
+const categories = await syncCategories(client, dataDir, monsters.monsters);
 
 // Only move the timestamp when the data moved, so an unchanged sync leaves no diff.
 const metaFile = path.join(dataDir, 'meta.json');
@@ -34,12 +34,12 @@ const sources = [
   'Bucket:Infobox_monster',
   'Bucket:Dropsline',
   SUPERIORS_PAGE,
-  ...tasks.sources,
+  ...categories.sources,
 ].sort();
 const old = await readFile(metaFile, 'utf8')
   .then((text) => JSON.parse(text) as MetaFile)
   .catch(() => null);
-const changed = monsters.changed || tasks.changed || old === null;
+const changed = monsters.changed || categories.changed || old === null;
 const meta: MetaFile = {
   syncedAt: changed ? new Date().toISOString() : old.syncedAt,
   sources,

@@ -1,25 +1,25 @@
 import {
   type Assignment,
+  type CategoryEquipment,
   MASTER_KEYS,
   type MasterKey,
   type Monster,
+  type SlayerCategory,
   type SlayerMaster,
-  type Task,
-  type TaskEquipment,
   type Unlock,
 } from '../../src/data/types.ts';
 import { MASTER_PAGES, type RawAssignment } from './masters.ts';
 import { pageKey } from './normalize.ts';
 import { type RawEquipment, type RawUnlock, requiredUnlocks } from './parsers.ts';
 
-/** Names (master rows, task pages) that aren't a Slayer category, mapped to their task key. */
-const TASK_ALIASES: Record<string, string> = {
+/** Names (master rows, guide pages) that don't match a category as written, mapped to one. */
+const NAME_ALIASES: Record<string, string> = {
   // Krystilia: a list of bosses rather than a category; its monsters come from her table.
   'wilderness bosses / demi-bosses': 'wilderness bosses',
   zygomites: 'mutated zygomites',
 };
 
-/** Guide pages that cover several categories rather than one task. */
+/** Guide pages that cover several categories rather than one. */
 const OVERVIEW_PAGES = new Set(['Slayer task/Dragons', 'Slayer task/Giants']);
 
 /**
@@ -39,7 +39,7 @@ export function resolveCategory(name: string, categories: Set<string>): string |
     .replace(/^slayer task\//i, '')
     .trim()
     .toLowerCase();
-  const alias = TASK_ALIASES[base];
+  const alias = NAME_ALIASES[base];
   if (alias) return alias;
   const candidates = [
     base,
@@ -62,33 +62,33 @@ export interface BuildInput {
 
 export interface BuildResult {
   masters: SlayerMaster[];
-  tasks: Task[];
+  categories: SlayerCategory[];
   unlocks: Unlock[];
   /** Things that didn't match, for the sync log. */
   warnings: string[];
 }
 
-export function buildTasks(input: BuildInput): BuildResult {
+export function buildCategories(input: BuildInput): BuildResult {
   const warnings: string[] = [];
-  const categories = new Set(input.monsters.flatMap((m) => m.categories));
+  // Categories as the monster pages give them.
+  const known = new Set(input.monsters.flatMap((m) => m.categories));
   const slugByPage = new Map(input.monsters.map((m) => [pageKey(m.page), m.slug]));
   const onTask = input.monsters.filter((m) => !NOT_ON_TASK.test(m.page));
 
   const masters: SlayerMaster[] = [];
-  // Task key -> monster pages the masters list for it, for tasks that aren't categories.
+  // Category -> monster pages a master lists for it, for ones no monster page has.
   const listed = new Map<string, string[]>();
   for (const { key, name, page, alternates } of MASTER_PAGES) {
     const rows = input.assignments.get(key) ?? [];
     const assignments: Assignment[] = [];
     for (const row of rows) {
       const category =
-        resolveCategory(row.name, categories) ??
-        (row.link ? resolveCategory(row.link, categories) : null);
+        resolveCategory(row.name, known) ?? (row.link ? resolveCategory(row.link, known) : null);
       if (!category) {
         warnings.push(`${name}: no category for "${row.name}"`);
         continue;
       }
-      if (!categories.has(category)) {
+      if (!known.has(category)) {
         listed.set(category, [...(listed.get(category) ?? []), ...row.alternatives]);
       }
       const unlocks = row.requirements ? requiredUnlocks(row.requirements, input.unlocks) : [];
@@ -124,7 +124,7 @@ export function buildTasks(input: BuildInput): BuildResult {
   const pageByCategory = new Map<string, string>();
   for (const page of input.taskPages) {
     if (OVERVIEW_PAGES.has(page)) continue;
-    const category = resolveCategory(page, categories);
+    const category = resolveCategory(page, known);
     if (category) pageByCategory.set(category, page);
     else warnings.push(`No category for ${page}`);
   }
@@ -132,37 +132,37 @@ export function buildTasks(input: BuildInput): BuildResult {
   const extendByCategory = new Map<string, string>();
   for (const unlock of input.unlocks.filter((u) => u.kind === 'extend')) {
     const category = unlock.links
-      .map((link) => resolveCategory(link, categories))
+      .map((link) => resolveCategory(link, known))
       .find((c) => c !== null);
     if (category) extendByCategory.set(category, unlock.name);
-    else warnings.push(`No task for the extend "${unlock.name}"`);
+    else warnings.push(`No category for the extend "${unlock.name}"`);
   }
 
-  const taskKeys = [
-    ...new Set(masters.flatMap((m) => m.assignments.map((a) => a.category))),
-  ].sort();
-  const tasks: Task[] = taskKeys.map((category) => {
-    const monsters = categories.has(category)
-      ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
-      : (listed.get(category) ?? [])
-          .map((page) => slugByPage.get(pageKey(page)))
-          .filter((slug) => slug !== undefined);
-    const byMaster = masters.flatMap((m) =>
-      m.assignments.filter((a) => a.category === category).map((a) => ({ key: m.key, a })),
-    );
-    return {
-      category,
-      page: pageByCategory.get(category) ?? null,
-      monsters: [...new Set(monsters)].sort(),
-      masters: MASTER_KEYS.filter((key) => byMaster.some((b) => b.key === key)),
-      unlocks: [...new Set(byMaster.flatMap((b) => b.a.unlocks))].sort(),
-      extend: extendByCategory.get(category) ?? null,
-      equipment: taskEquipment(input.equipment, new Set(monsters), slugByPage),
-    };
-  });
+  const assigned = new Set(masters.flatMap((m) => m.assignments.map((a) => a.category)));
+  const categories: SlayerCategory[] = [...new Set([...known, ...assigned])]
+    .sort()
+    .map((category) => {
+      const monsters = known.has(category)
+        ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
+        : (listed.get(category) ?? [])
+            .map((page) => slugByPage.get(pageKey(page)))
+            .filter((slug) => slug !== undefined);
+      const byMaster = masters.flatMap((m) =>
+        m.assignments.filter((a) => a.category === category).map((a) => ({ key: m.key, a })),
+      );
+      return {
+        category,
+        page: pageByCategory.get(category) ?? null,
+        monsters: [...new Set(monsters)].sort(),
+        masters: MASTER_KEYS.filter((key) => byMaster.some((b) => b.key === key)),
+        unlocks: [...new Set(byMaster.flatMap((b) => b.a.unlocks))].sort(),
+        extend: extendByCategory.get(category) ?? null,
+        equipment: categoryEquipment(input.equipment, new Set(monsters), slugByPage),
+      };
+    });
 
-  for (const category of categories) {
-    if (!taskKeys.includes(category)) warnings.push(`No master assigns the category "${category}"`);
+  for (const category of known) {
+    if (!assigned.has(category)) warnings.push(`No master assigns the category "${category}"`);
   }
 
   const unlocks: Unlock[] = input.unlocks.map(({ name, cost, kind, notes }) => ({
@@ -171,16 +171,16 @@ export function buildTasks(input: BuildInput): BuildResult {
     kind,
     notes,
   }));
-  return { masters, tasks, unlocks, warnings };
+  return { masters, categories, unlocks, warnings };
 }
 
-/** Equipment whose use links one of the task's monsters. */
-function taskEquipment(
+/** Equipment whose use links one of the category's monsters. */
+function categoryEquipment(
   equipment: RawEquipment[],
   monsters: Set<string>,
   slugByPage: Map<string, string>,
-): TaskEquipment[] {
-  const out: TaskEquipment[] = [];
+): CategoryEquipment[] {
+  const out: CategoryEquipment[] = [];
   for (const { item, use, links } of equipment) {
     const hits = links
       .map((link) => slugByPage.get(pageKey(link)))
