@@ -26,7 +26,7 @@ src/
 ├─ routes.tsx            # route table + navItems for the app bar
 ├─ theme.ts              # MUI theme; change ACCENT first
 ├─ api.ts                # fetchJson + HttpError
-├─ paths.ts              # URLs for task, monster and master pages
+├─ paths.ts              # URLs for category, monster and master pages
 ├─ queryClient.ts        # TanStack Query defaults
 ├─ layouts/RootLayout.tsx
 ├─ pages/                # one component per route
@@ -108,8 +108,9 @@ Tests live next to the code as `*.test.ts(x)`. Helpers in `src/test/render.tsx`:
 - `renderRoute('/about')` renders the whole app (layout + routes) at a path,
   and returns the `router` so you can assert on `router.state.location`.
 
-`fetch` is stubbed in every test and answers 404 unless you mock it, so tests
-never hit the network:
+`fetch` is stubbed in every test, so tests never hit the network. It serves a
+small `monsters.json` fixture (`src/test/monsters.ts`) and answers 404 for
+anything else, unless you mock it:
 
 ```tsx
 vi.mocked(fetch).mockResolvedValueOnce(Response.json([{ id: 1 }]));
