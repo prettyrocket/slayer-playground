@@ -1,5 +1,3 @@
-import { useQuery } from '@tanstack/react-query';
-
 /** A non-2xx response. `status` lets callers (and retry logic) tell 404 from 500. */
 export class HttpError extends Error {
   readonly status: number;
@@ -26,17 +24,4 @@ export async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(resolveUrl(url));
   if (!res.ok) throw new HttpError(res.status, `${res.status} ${res.statusText} loading ${url}`);
   return (await res.json()) as T;
-}
-
-export interface Link {
-  title: string;
-  url: string;
-}
-
-/** Example query: loads public/links.json. Copy this shape for real data. */
-export function useLinks() {
-  return useQuery({
-    queryKey: ['links'],
-    queryFn: () => fetchJson<Link[]>('links.json'),
-  });
 }

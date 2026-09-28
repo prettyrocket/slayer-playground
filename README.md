@@ -25,14 +25,16 @@ src/
 ├─ main.tsx              # providers: React Query → MUI theme → router
 ├─ routes.tsx            # route table + navItems for the app bar
 ├─ theme.ts              # MUI theme; change ACCENT first
-├─ api.ts                # fetchJson + example query (useLinks)
+├─ api.ts                # fetchJson + HttpError
+├─ paths.ts              # URLs for task, monster and master pages
 ├─ queryClient.ts        # TanStack Query defaults
 ├─ layouts/RootLayout.tsx
 ├─ pages/                # one component per route
-├─ components/           # shared components (ErrorPage, ColorModeToggle)
-├─ hooks/                # useLocalStorage
+├─ components/           # shared components
+├─ data/                 # data types, masters, and the catalog that loads monsters.json
+├─ hooks/                # useLocalStorage, useNavLocation
 └─ test/                 # setup + renderWithProviders / renderRoute helpers
-public/                  # served as-is (favicon, links.json)
+public/                  # served as-is (favicon, data/)
 scripts/                 # build-time Node scripts (sync-data)
 ```
 
@@ -40,8 +42,6 @@ scripts/                 # build-time Node scripts (sync-data)
 - **Add a page:** create it in `src/pages/`, add a route in `routes.tsx`, and
   add it to `navItems` if it belongs in the app bar.
 - **Imports:** use `@/` for anything under `src/`.
-- **Example content:** the Home page's click counter and docs list show the
-  patterns below; delete them (and `public/links.json`) when you start.
 
 ## Theme and dark mode
 
@@ -65,7 +65,7 @@ const [favorites, setFavorites] = useLocalStorage<string[]>('favorites', []);
 
 **Fetching** — use TanStack Query with `fetchJson` from `src/api.ts` (it throws
 an `HttpError` with `.status` on non-2xx responses, so errors reach `isError`).
-Paths like `links.json` or `/data/items.json` load files from `public/`;
+Paths like `/data/items.json` load files from `public/`;
 absolute URLs call APIs directly. Queries retry network and server errors
 twice, but not 4xx responses:
 

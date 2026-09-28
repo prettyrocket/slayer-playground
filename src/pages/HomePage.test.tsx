@@ -1,35 +1,26 @@
-import { screen } from '@testing-library/react';
-import { describe, expect, it, vi } from 'vitest';
+import { screen, within } from '@testing-library/react';
+import { describe, expect, it } from 'vitest';
 
-import { HomePage } from '@/pages/HomePage';
-import { renderWithProviders } from '@/test/render';
+import { renderRoute } from '@/test/render';
 
 describe('HomePage', () => {
-  it('counts clicks and remembers them', async () => {
-    const { user, unmount } = renderWithProviders(<HomePage />);
-    await user.click(screen.getByRole('button', { name: 'Clicked 0 times' }));
-    await user.click(screen.getByRole('button', { name: 'Clicked 1 time' }));
-    unmount();
+  it('filters the category list by name', async () => {
+    const { user } = renderRoute('/');
+    const list = await within(screen.getByRole('main')).findByRole('list', {
+      name: 'Categories',
+    });
+    expect(list).toHaveTextContent('Abyssal demons');
 
-    renderWithProviders(<HomePage />);
-    expect(screen.getByRole('button', { name: 'Clicked 2 times' })).toBeInTheDocument();
+    await user.type(screen.getByRole('searchbox', { name: 'Search tasks' }), 'zzz');
+    expect(screen.getByText(/No categories match/)).toBeInTheDocument();
   });
 
-  it('lists links loaded from links.json', async () => {
-    vi.mocked(fetch).mockResolvedValueOnce(
-      Response.json([{ title: 'Example', url: 'https://example.com/' }]),
-    );
-    renderWithProviders(<HomePage />);
+  it('links to every Slayer master', async () => {
+    const { user, router } = renderRoute('/');
+    const masters = screen.getByRole('navigation', { name: 'Slayer masters' });
+    expect(within(masters).getAllByRole('link')).toHaveLength(10);
 
-    expect(await screen.findByRole('link', { name: 'Example' })).toHaveAttribute(
-      'href',
-      'https://example.com/',
-    );
-    expect(fetch).toHaveBeenCalledWith('/links.json');
-  });
-
-  it('shows an error if links.json fails to load', async () => {
-    renderWithProviders(<HomePage />); // fetch answers 404 by default in tests
-    expect(await screen.findByRole('alert')).toHaveTextContent('404');
+    await user.click(within(masters).getByRole('link', { name: 'Duradel' }));
+    expect(router.state.location.pathname).toBe('/masters/duradel');
   });
 });

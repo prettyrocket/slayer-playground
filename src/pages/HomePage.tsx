@@ -1,57 +1,60 @@
-import Alert from '@mui/material/Alert';
-import Button from '@mui/material/Button';
-import CircularProgress from '@mui/material/CircularProgress';
-import Link from '@mui/material/Link';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
+import { useState } from 'react';
+
+import Chip from '@mui/material/Chip';
+import Stack from '@mui/material/Stack';
+import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
-import { useLinks } from '@/api';
-import { useLocalStorage } from '@/hooks/useLocalStorage';
+import { Link } from 'react-router';
+
+import { CategoryList } from '@/components/CategoryList';
+import { getMasters } from '@/data/masters';
+import { masterPath } from '@/paths';
 
 export function HomePage() {
-  const [count, setCount] = useLocalStorage('home.count', 0);
-  const links = useLinks();
+  const [query, setQuery] = useState('');
 
   return (
     <>
       <Typography variant="h4" component="h1" gutterBottom>
-        Welcome
+        What&apos;s your Slayer task?
       </Typography>
-      <Typography sx={{ mb: 2 }}>
-        Edit <code>src/pages/HomePage.tsx</code> to get started.
+      <Typography color="text.secondary" sx={{ mb: 3 }}>
+        Compare where to do it, see what to bring, and check what it drops.
       </Typography>
-
-      <Button variant="contained" onClick={() => setCount((n) => n + 1)}>
-        Clicked {count} {count === 1 ? 'time' : 'times'}
-      </Button>
-      <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-        Saved in localStorage, so it survives a reload.
+      <TextField
+        type="search"
+        label="Search tasks"
+        placeholder="Abyssal demons, dust devils, kalphite…"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        fullWidth
+      />
+      <Typography variant="subtitle2" component="h2" color="text.secondary" sx={{ mt: 3, mb: 1 }}>
+        Or start from your Slayer master
       </Typography>
-
-      <Typography variant="h6" component="h2" sx={{ mt: 4 }}>
-        Docs
+      <Stack
+        component="nav"
+        aria-label="Slayer masters"
+        direction="row"
+        useFlexGap
+        sx={{ flexWrap: 'wrap', gap: 1 }}
+      >
+        {getMasters().map((master) => (
+          <Chip
+            key={master.key}
+            label={master.name}
+            component={Link}
+            to={masterPath(master.key)}
+            clickable
+            variant="outlined"
+          />
+        ))}
+      </Stack>
+      <Typography variant="subtitle2" component="h2" color="text.secondary" sx={{ mt: 3 }}>
+        All categories
       </Typography>
-      <Typography variant="body2" color="text.secondary">
-        Loaded from <code>public/links.json</code> with TanStack Query.
-      </Typography>
-      {links.isPending && <CircularProgress size={24} sx={{ mt: 2 }} aria-label="Loading links" />}
-      {links.isError && (
-        <Alert severity="error" sx={{ mt: 2 }}>
-          {links.error.message}
-        </Alert>
-      )}
-      {links.isSuccess && (
-        <List>
-          {links.data.map((link) => (
-            <ListItem key={link.url} disableGutters>
-              <Link href={link.url} target="_blank" rel="noreferrer">
-                {link.title}
-              </Link>
-            </ListItem>
-          ))}
-        </List>
-      )}
+      <CategoryList query={query} />
     </>
   );
 }
