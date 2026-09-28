@@ -133,6 +133,21 @@ vi.mocked(fetch).mockResolvedValueOnce(Response.json([{ id: 1 }]));
 
 localStorage is cleared and mocks are restored after each test.
 
+**Wiki parsers** are tested against real wiki responses in
+`scripts/sync/fixtures/`: the master pages, Slayer Rewards, Slayer equipment
+and Superior slayer monster as wikitext, plus the Bucket rows of a few monsters
+picked for their quirks (listed in `scripts/update-fixtures.ts`). To check the
+parsers against the wiki as it is now:
+
+```sh
+node scripts/update-fixtures.ts -- --refresh   # a handful of requests
+npm test
+```
+
+A failure in `scripts/sync/fixtures.test.ts` then means the wiki changed its
+markup (fix the parser) or its data (update the expectation). Commit the
+refreshed fixtures with the fix.
+
 ## Deploying
 
 Pushing to `main` runs `.github/workflows/deploy.yml`: lint, format check,
