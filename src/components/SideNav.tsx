@@ -13,8 +13,8 @@ import { Link } from 'react-router';
 
 import { useCatalog } from '@/data/catalog';
 import { getMasters } from '@/data/masters';
-import { useNavLocation } from '@/hooks/useNavLocation';
-import { categoryPath, masterPath } from '@/paths';
+import { categoryPath, masterPath } from '@/routing/paths';
+import { useNavLocation } from '@/routing/useNavLocation';
 
 function SectionLink({
   to,

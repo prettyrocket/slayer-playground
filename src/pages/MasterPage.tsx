@@ -10,7 +10,7 @@ import { CatalogStatus } from '@/components/CatalogStatus';
 import { useCatalog } from '@/data/catalog';
 import { getMaster } from '@/data/masters';
 import { NotFoundPage } from '@/pages/NotFoundPage';
-import { categoryPath } from '@/paths';
+import { categoryPath } from '@/routing/paths';
 
 /** /masters/:slug — the categories this master assigns (#14 adds weights and amounts). */
 export function MasterPage() {

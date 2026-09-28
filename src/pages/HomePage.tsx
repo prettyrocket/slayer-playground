@@ -9,7 +9,7 @@ import { Link } from 'react-router';
 
 import { CategoryList } from '@/components/CategoryList';
 import { getMasters } from '@/data/masters';
-import { masterPath } from '@/paths';
+import { masterPath } from '@/routing/paths';
 
 export function HomePage() {
   const [query, setQuery] = useState('');

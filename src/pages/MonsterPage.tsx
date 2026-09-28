@@ -6,9 +6,9 @@ import { Link as RouterLink, useParams } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { categorySlug, findCategory, findMonster, useCatalog } from '@/data/catalog';
-import { useNavLocation } from '@/hooks/useNavLocation';
 import { NotFoundPage } from '@/pages/NotFoundPage';
-import { categoryPath } from '@/paths';
+import { categoryPath } from '@/routing/paths';
+import { useNavLocation } from '@/routing/useNavLocation';
 
 /** /monsters/:slug — everything about the monster picked for a task (#13 fills this in). */
 export function MonsterPage() {

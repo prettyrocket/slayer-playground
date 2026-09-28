@@ -11,9 +11,9 @@ import { Link as RouterLink, useParams } from 'react-router';
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { findCategory, useCatalog } from '@/data/catalog';
 import { getMaster } from '@/data/masters';
-import { useNavLocation } from '@/hooks/useNavLocation';
 import { NotFoundPage } from '@/pages/NotFoundPage';
-import { masterPath, monsterPath } from '@/paths';
+import { masterPath, monsterPath } from '@/routing/paths';
+import { useNavLocation } from '@/routing/useNavLocation';
 
 /** /categories/:slug — "I got this task": the monsters that count for it (#12 fills this in). */
 export function CategoryPage() {

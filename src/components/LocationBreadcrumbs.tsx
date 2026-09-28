@@ -18,8 +18,8 @@ import { Link as RouterLink } from 'react-router';
 import { type Category, useCatalog } from '@/data/catalog';
 import { type Master, getMasters } from '@/data/masters';
 import type { Monster } from '@/data/types';
-import { useNavLocation } from '@/hooks/useNavLocation';
-import { categoryPath, masterPath, monsterPath } from '@/paths';
+import { categoryPath, masterPath, monsterPath } from '@/routing/paths';
+import { useNavLocation } from '@/routing/useNavLocation';
 
 /** A crumb that opens a menu of the other items at its level. */
 function SwitcherButton({

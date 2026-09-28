@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { useCatalog } from '@/data/catalog';
-import { categoryPath } from '@/paths';
+import { categoryPath } from '@/routing/paths';
 
 /** Every category whose name contains `query`. Name match only; #11 adds monster names and aliases. */
 export function CategoryList({ query }: { query: string }) {

@@ -23,23 +23,23 @@ Requires Node 22 or newer.
 ```
 src/
 ├─ main.tsx              # providers: React Query → MUI theme → router
-├─ routes.tsx            # route table + navItems for the app bar
 ├─ theme.ts              # MUI theme; change ACCENT first
 ├─ api.ts                # fetchJson + HttpError
-├─ paths.ts              # URLs for category, monster and master pages
 ├─ queryClient.ts        # TanStack Query defaults
 ├─ layouts/RootLayout.tsx
+├─ routing/              # routes.tsx (route table + navItems), paths.ts (page URLs),
+│                        # useNavLocation (where the user is), navigation tests
 ├─ pages/                # one component per route
 ├─ components/           # shared components
 ├─ data/                 # data types, masters, and the catalog that loads monsters.json
-├─ hooks/                # useLocalStorage, useNavLocation
+├─ hooks/                # useLocalStorage
 └─ test/                 # setup + renderWithProviders / renderRoute helpers
 public/                  # served as-is (favicon, data/)
 scripts/                 # build-time Node scripts (sync-data)
 ```
 
 - **App title:** `VITE_APP_TITLE` in `.env` (browser tab and app bar).
-- **Add a page:** create it in `src/pages/`, add a route in `routes.tsx`, and
+- **Add a page:** create it in `src/pages/`, add a route in `routing/routes.tsx`, and
   add it to `navItems` if it belongs in the app bar.
 - **Imports:** use `@/` for anything under `src/`.
 
@@ -152,7 +152,7 @@ How the pieces fit:
 `vite.config.ts` puts React and MUI's styling runtime in their own chunks,
 which stay cached between deploys and keep the main chunk under Vite's 500 kB
 warning. If you add a large library (charts, editors, maps), load the page that
-uses it lazily in `routes.tsx`, and the library ships in that page's chunk:
+uses it lazily in `routing/routes.tsx`, and the library ships in that page's chunk:
 
 ```tsx
 {

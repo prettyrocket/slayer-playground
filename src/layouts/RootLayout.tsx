@@ -16,7 +16,7 @@ import { Link, Outlet, useLocation } from 'react-router';
 import { ColorModeToggle } from '@/components/ColorModeToggle';
 import { LocationBreadcrumbs } from '@/components/LocationBreadcrumbs';
 import { SideNav } from '@/components/SideNav';
-import { navItems } from '@/routes';
+import { navItems } from '@/routing/routes';
 
 const SIDE_NAV_WIDTH = 260;
 

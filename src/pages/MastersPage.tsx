@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import { Link } from 'react-router';
 
 import { getMasters } from '@/data/masters';
-import { masterPath } from '@/paths';
+import { masterPath } from '@/routing/paths';
 
 /** /masters — every Slayer master. */
 export function MastersPage() {
