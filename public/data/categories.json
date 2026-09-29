@@ -1564,7 +1564,15 @@
         "Reptile Got Ripped"
       ],
       "extend": null,
-      "equipment": []
+      "equipment": [
+        {
+          "item": "Shayzien armour",
+          "use": "Protecting from the poison attack of the lizardman shamans",
+          "monsters": [
+            "lizardman-shaman"
+          ]
+        }
+      ]
     },
     {
       "category": "lizards",
@@ -1757,7 +1765,16 @@
       ],
       "unlocks": [],
       "extend": null,
-      "equipment": []
+      "equipment": [
+        {
+          "item": "Fungicide spray",
+          "use": "Finishing off Mutated Zygomites (10 per refill)",
+          "monsters": [
+            "ancient-zygomite",
+            "zygomite"
+          ]
+        }
+      ]
     },
     {
       "category": "nechryael",
@@ -2447,6 +2464,7 @@
       "category": "venators",
       "page": "Slayer task/Venators",
       "monsters": [
+        "blood-starved-venator",
         "venator"
       ],
       "masters": [
