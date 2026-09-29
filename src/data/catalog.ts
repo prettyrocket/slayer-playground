@@ -1,13 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import { fetchJson } from '@/api';
-import {
-  MASTER_KEYS,
-  type MasterKey,
-  type MastersFile,
-  type Monster,
-  type MonstersFile,
-} from '@/data/types';
+import type { CategoriesFile, MasterKey, Monster, MonstersFile } from '@/data/types';
 
 /** A Slayer category, e.g. "Abyssal demons": the monsters that count for a task of it. */
 export interface Category {
@@ -29,30 +23,29 @@ export function categorySlug(name: string): string {
   return name.replaceAll(' ', '-');
 }
 
-function buildCatalog([{ monsters }, { masters }]: [MonstersFile, MastersFile]): Catalog {
-  const byName = new Map<string, Monster[]>();
-  for (const monster of monsters) {
-    for (const name of monster.categories) byName.set(name, [...(byName.get(name) ?? []), monster]);
-  }
-  // From the masters' own tables: a monster's assignedBy covers every category
-  // it's in, so it can't say who assigns one category.
-  const assigns = (key: MasterKey, category: string) =>
-    masters.some((m) => m.key === key && m.assignments.some((a) => a.category === category));
-
-  const categories = [...byName]
-    .map(([name, members]) => ({
-      slug: categorySlug(name),
-      name: name.charAt(0).toUpperCase() + name.slice(1),
-      monsters: members.toSorted((a, b) => a.page.localeCompare(b.page)),
-      masters: MASTER_KEYS.filter((key) => assigns(key, name)),
-    }))
-    .toSorted((a, b) => a.name.localeCompare(b.name));
-
-  return { categories, monsters };
+function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesFile]): Catalog {
+  const bySlug = new Map(monsters.map((m) => [m.slug, m]));
+  return {
+    // From categories.json: which monsters count (no Deadman or minigame copies),
+    // which masters assign it, and categories no monster page has, like
+    // Krystilia's wilderness bosses.
+    categories: categories
+      .map(({ category, monsters: slugs, masters }) => ({
+        slug: categorySlug(category),
+        name: category.charAt(0).toUpperCase() + category.slice(1),
+        monsters: slugs
+          .map((slug) => bySlug.get(slug))
+          .filter((m): m is Monster => m !== undefined)
+          .toSorted((a, b) => a.page.localeCompare(b.page)),
+        masters,
+      }))
+      .toSorted((a, b) => a.name.localeCompare(b.name)),
+    monsters,
+  };
 }
 
 /**
- * Loads public/data/monsters.json and masters.json and indexes them for
+ * Loads public/data/monsters.json and categories.json and indexes them for
  * navigation. A first slice of the data layer (#10): monsters.json is 2.4 MB,
  * so #10 should give the nav a slim index of its own.
  */
@@ -62,7 +55,7 @@ export function useCatalog() {
     queryFn: () =>
       Promise.all([
         fetchJson<MonstersFile>('data/monsters.json'),
-        fetchJson<MastersFile>('data/masters.json'),
+        fetchJson<CategoriesFile>('data/categories.json'),
       ]),
     select: buildCatalog,
     staleTime: Infinity, // a snapshot that only changes with a deploy

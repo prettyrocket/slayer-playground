@@ -21,7 +21,8 @@ export function skillRequirement(wikitext: string, skill: string): number | null
  */
 export function linkTargets(wikitext: string): string[] {
   const targets = [...stripRefs(wikitext).matchAll(/\[\[([^\]|#]*)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g)]
-    .map((m) => m[1].trim().replace(/_/g, ' '))
+    // A leading colon ([[:Category:X]]) links a page instead of filing this one.
+    .map((m) => m[1].trim().replace(/^:/, '').replace(/_/g, ' '))
     .filter((t) => t && !/^(file|image|category):/i.test(t))
     .map((t) => t[0].toUpperCase() + t.slice(1));
   return [...new Set(targets)];
@@ -55,6 +56,8 @@ const RENDER: Record<string, (args: string[]) => string> = {
   plink: ([page, ...rest]) => rest.find((a) => a.startsWith('txt='))?.slice(4) ?? page ?? '',
   plinkt: ([page, ...rest]) => rest.find((a) => a.startsWith('txt='))?.slice(4) ?? page ?? '',
   plinkp: () => '',
+  // An escaped pipe.
+  '!': () => '|',
 };
 
 /**
@@ -68,7 +71,7 @@ export function wikiPlain(wikitext: string): string {
   for (let prev = ''; prev !== text;) {
     prev = text;
     text = text.replace(/\{\{([^{}]*)\}\}/g, (_, body: string) => {
-      const [name, ...args] = body.split('|').map((part) => part.trim());
+      const [name, ...args] = splitTopLevel(body, '|').map((part) => part.trim());
       return RENDER[name.toLowerCase().replace(/\s+/g, '')]?.(args) ?? '';
     });
   }
@@ -143,41 +146,55 @@ interface Cell {
 
 /**
  * `rowspan="2" |25` -> the attributes and "25"; `[[a|b]]` has none. A cell
- * that is only `{{NA|rowspan=7}}` also spans: the template renders attributes.
+ * that is only `{{NA|rowspan=7}}` also spans: that template renders attributes.
  */
 function cell(raw: string): Cell {
   const [first, ...rest] = splitTopLevel(raw, '|');
   const hasAttributes = rest.length > 0 && (first.trim() === '' || first.includes('='));
   const text = (hasAttributes ? rest.join('|') : raw).trim();
-  const attrs = `${hasAttributes ? first : ''} ${/^\{\{[^{}]*\}\}$/.test(text) ? text : ''}`;
+  const attrs = `${hasAttributes ? first : ''} ${/^\{\{\s*NA\b[^{}]*\}\}$/i.test(text) ? text : ''}`;
   const span = (name: string) =>
     Number(attrs.match(new RegExp(`${name}\\s*=\\s*"?(\\d+)`))?.[1] ?? 1);
   return { text, rowspan: span('rowspan'), colspan: span('colspan') };
 }
 
-/** Net `{{`/`}}` depth change of a line, to keep multi-line templates in one cell. */
-const braceDelta = (line: string) =>
-  (line.match(/\{\{/g)?.length ?? 0) - (line.match(/\}\}/g)?.length ?? 0);
+/**
+ * Net `{{`/`}}` depth change of a line, to keep multi-line templates in one
+ * cell. Braces in comments and <nowiki> don't count.
+ */
+const braceDelta = (line: string) => {
+  const code = line.replace(/<!--.*?-->/g, '').replace(/<nowiki>.*?<\/nowiki>/gi, '');
+  return (code.match(/\{\{/g)?.length ?? 0) - (code.match(/\}\}/g)?.length ?? 0);
+};
+
+/** A row's cells: `|a||b`, or `!a!!b` (header cells may also be split by `||`). */
+const cellsOf = (line: string) =>
+  line.startsWith('!')
+    ? splitTopLevel(line.slice(1), '!!').flatMap((part) => splitTopLevel(part, '||'))
+    : splitTopLevel(line.slice(1), '||');
 
 /**
- * Parse one table into headers and a grid of cells. Header rows are the `!`
- * rows before the first data row; `!` rows after it (a "Total" footer) are
- * skipped. Lines that don't start a cell, and lines inside an open template,
+ * Parse one table into headers and a grid of cells. The header is the leading
+ * rows made only of `!` cells (several header rows join per column, e.g.
+ * "amount extended"). Later rows made only of `!` cells (a "Total" footer) are
+ * dropped; a `!` cell in a data row is a row header and kept as data. Lines
+ * that don't start a cell, lines inside an open template and nested tables
  * continue the previous cell.
  */
 export function parseTable(table: string): WikiTable {
-  const headers: string[] = [];
-  const rawRows: Cell[][] = [];
-  let row: Cell[] | null = null;
+  const rawRows: { cells: Cell[]; headerOnly: boolean }[] = [];
+  let row: { cells: Cell[]; headerOnly: boolean } | null = null;
   let current: Cell | null = null;
   let open = 0;
-  let footer = false;
+  let nested = 0;
 
   for (const line of table.split('\n').slice(1)) {
     const trimmed = line.trimStart();
-    if (open > 0 && current) {
+    if (current && (open > 0 || nested > 0 || trimmed.startsWith('{|'))) {
       current.text += `\n${line}`;
-      open += braceDelta(line);
+      open = Math.max(0, open + braceDelta(line));
+      if (trimmed.startsWith('{|')) nested++;
+      else if (trimmed.startsWith('|}') && nested > 0) nested--;
       continue;
     }
     if (trimmed.startsWith('|}')) break;
@@ -185,46 +202,35 @@ export function parseTable(table: string): WikiTable {
     if (trimmed.startsWith('|-')) {
       row = null;
       current = null;
-      footer = false;
       continue;
     }
-    if (trimmed.startsWith('!')) {
-      current = null;
-      if (rawRows.length > 0) {
-        footer = true;
-        continue;
-      }
-      for (const h of splitTopLevel(trimmed.slice(1), '!!')) {
-        const { text, colspan } = cell(h);
-        for (let i = 0; i < colspan; i++) headers.push(wikiPlain(text).toLowerCase());
-      }
-      continue;
-    }
-    if (trimmed.startsWith('|')) {
-      if (footer) continue;
+    if (trimmed.startsWith('!') || trimmed.startsWith('|')) {
+      const header = trimmed.startsWith('!');
       if (!row) {
-        row = [];
+        row = { cells: [], headerOnly: true };
         rawRows.push(row);
       }
-      for (const raw of splitTopLevel(trimmed.slice(1), '||')) {
+      if (!header) row.headerOnly = false;
+      for (const raw of cellsOf(trimmed)) {
         current = cell(raw);
-        row.push(current);
+        row.cells.push(current);
       }
-      open = braceDelta(trimmed);
+      open = Math.max(0, braceDelta(trimmed));
       continue;
     }
     if (current) {
       current.text += `\n${line}`;
-      open += braceDelta(line);
+      open = Math.max(0, open + braceDelta(line));
     }
   }
+  if (open > 0 || nested > 0) throw new Error('Table ends inside an unclosed template or table');
 
   // Lay the cells out on a grid, carrying rowspans down.
   const rows: string[][] = [];
   const spanned: boolean[][] = [];
   const carried: { text: string; left: number }[] = [];
   const carryingFrom = (col: number) => carried.slice(col).some((c) => c && c.left > 0);
-  for (const cells of rawRows) {
+  for (const { cells } of rawRows) {
     const out: string[] = [];
     const fromAbove: boolean[] = [];
     const queue = [...cells];
@@ -253,7 +259,23 @@ export function parseTable(table: string): WikiTable {
     rows.push(out);
     spanned.push(fromAbove);
   }
-  return { headers, rows, spanned };
+
+  const headerRows = rawRows.findIndex((r) => !r.headerOnly);
+  const head = headerRows < 0 ? rows.length : headerRows;
+  const width = Math.max(0, ...rows.slice(0, head).map((r) => r.length));
+  const headers = Array.from({ length: width }, (_, col) =>
+    [...new Set(rows.slice(0, head).map((r) => r[col]))]
+      .map((text) => wikiPlain(text ?? '').replace(/\s+/g, ' '))
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase(),
+  );
+  const data = rawRows.map((r, i) => (i >= head && !r.headerOnly ? i : -1)).filter((i) => i >= 0);
+  return {
+    headers,
+    rows: data.map((i) => rows[i]),
+    spanned: data.map((i) => spanned[i]),
+  };
 }
 
 /** The column whose header contains any of `names`, or -1. */

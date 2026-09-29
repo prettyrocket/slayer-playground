@@ -3,7 +3,8 @@ import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
-// Data is src/test/monsters.ts, served for data/monsters.json by setup.ts.
+// Data is src/test/monsters.ts, served for data/monsters.json and
+// data/categories.json by setup.ts.
 
 /** The breadcrumb, once the catalog has loaded. */
 function findCrumbs() {

@@ -136,7 +136,15 @@ export interface Assignment {
   requirements: string | null;
   /** Unlocks (names in unlocks.json) this master needs before assigning it. */
   unlocks: string[];
-  /** Wiki location pages: where Konar may send you, or where Krystilia's task is done. */
+  /**
+   * Slugs of the category's monsters that don't count for this master, e.g.
+   * Krystilia's black dragons leave out the King Black Dragon.
+   */
+  excludes: string[];
+  /**
+   * Wiki pages linked as places: where Konar may send you, or where Krystilia's
+   * task is done. Mostly areas, but Krystilia uses landmarks too ("Muddy chest").
+   */
   locations: string[];
 }
 
@@ -193,6 +201,8 @@ export interface Unlock {
 export interface MetaFile {
   /** ISO time of the last sync that changed any data. */
   syncedAt: string;
+  /** SHA-256 of the other data files, to tell whether a sync changed anything. */
+  dataHash: string;
   /** Wiki pages the data came from, for attribution. Monster and drop data comes from every monster page. */
   sources: string[];
 }

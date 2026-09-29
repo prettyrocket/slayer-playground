@@ -30,6 +30,7 @@ const row = (name: string, overrides: Partial<RawAssignment> = {}): RawAssignmen
   combatLevel: null,
   requirements: null,
   alternatives: [],
+  excludes: [],
   locations: [],
   wildernessLevels: null,
   ...overrides,
@@ -165,6 +166,54 @@ describe('buildCategories', () => {
     expect(warnings.some((w) => w.includes('Dragons'))).toBe(false);
   });
 
+  it("keeps a master's exclusions, and checks extends against the tables", () => {
+    const { masters, warnings } = build(
+      {
+        krystilia: [
+          row('Abyssal demons', {
+            excludes: ['Abyssal Sire', 'Not a monster'],
+            extended: [200, 250],
+          }),
+        ],
+        nieve: [row('Abyssal demons', { extended: [200, 260] })],
+      },
+      {
+        unlocks: [
+          {
+            ...unlock('Augment my Abbies', 'extend', ['Abyssal demon']),
+            notes: 'Number of abyssal demons assigned is increased to 200-250.',
+          },
+        ],
+      },
+    );
+    expect(masters.find((m) => m.key === 'krystilia')!.assignments[0].excludes).toEqual([
+      'abyssal-sire',
+    ]);
+    expect(warnings).toContain(
+      'Augment my Abbies extends abyssal demons to 200-250; tables that differ: Nieve',
+    );
+  });
+
+  it('applies equipment to linked monsters, or to the category a link names', () => {
+    const { categories, warnings } = build(
+      { vannaka: [row('Kalphites')] },
+      {
+        equipment: [
+          // "Kalphite" is no monster page here, but names the category.
+          { item: 'Spray', use: 'Finishing off Kalphites', links: ['Kalphite'] },
+          { item: 'Boots', use: 'Protecting from the floor of the Dungeon', links: ['Dungeon'] },
+          { item: 'Gloves', use: 'Protecting against Nobody', links: ['Nobody'] },
+        ],
+      },
+    );
+    expect(categories.find((c) => c.category === 'kalphite')!.equipment).toEqual([
+      { item: 'Spray', use: 'Finishing off Kalphites', monsters: ['kalphite-queen'] },
+    ]);
+    // Places are expected to match no monster; anything else is reported.
+    expect(warnings).toContain('Gloves: no monster for "Protecting against Nobody"');
+    expect(warnings.some((w) => w.startsWith('Boots'))).toBe(false);
+  });
+
   it('warns about rows and categories it cannot match', () => {
     const { categories, warnings } = build({ turael: [row('Cows')] });
     expect(warnings).toContain('Turael: no category for "Cows"');
@@ -178,10 +227,11 @@ describe('buildCategories', () => {
 });
 
 describe('linkSuperiors', () => {
-  it('links both ways, matching titles loosely', () => {
+  it('links both ways, matching titles loosely, and shares categories', () => {
     const monsters = [
       monster('Rockslug', ['rockslugs']),
-      monster('Giant rockslug', ['rockslugs']),
+      // The wiki gives this one no category; it gets its base's.
+      monster('Giant rockslug', []),
       monster('Cockatrice', ['cockatrice']),
       monster('Moonlight Cockatrice', ['cockatrice']),
       monster('Cockathrice', ['cockatrice']),
@@ -203,5 +253,6 @@ describe('linkSuperiors', () => {
       ['cockathrice', null, ['cockatrice', 'moonlight-cockatrice']],
     ]);
     expect(warnings).toEqual(['Superior Cockathrice of Nope: not a Slayer monster page']);
+    expect(monsters[1].categories).toEqual(['rockslugs']);
   });
 });

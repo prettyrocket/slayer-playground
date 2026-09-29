@@ -3,7 +3,8 @@ import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
-// Data is src/test/monsters.ts, served for data/monsters.json by setup.ts.
+// Data is src/test/monsters.ts, served for data/monsters.json and
+// data/categories.json by setup.ts.
 describe('flow between pages', () => {
   it('goes from the category list to a monster, remembering the category', async () => {
     const { user, router } = renderRoute('/');
@@ -56,6 +57,22 @@ describe('flow between pages', () => {
       'href',
       '/categories/bosses?master=duradel',
     );
+  });
+
+  it('lists only the monsters that count, and categories no monster page has', async () => {
+    renderRoute('/categories/bosses');
+    const monsters = await screen.findByRole('list', { name: 'Monsters' });
+    expect(
+      within(monsters)
+        .getAllByRole('link')
+        .map((link) => link.textContent),
+    ).toEqual(['Abyssal Sire']);
+
+    renderRoute('/masters/krystilia');
+    const list = await within(screen.getAllByRole('main').at(-1)!).findByRole('list', {
+      name: 'Categories',
+    });
+    expect(within(list).getByRole('link', { name: 'Wilderness bosses' })).toBeInTheDocument();
   });
 
   it("takes a category's masters from their tables, not from its monsters", async () => {

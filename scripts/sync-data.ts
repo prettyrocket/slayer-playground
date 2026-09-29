@@ -8,41 +8,42 @@
  * development send no requests. See scripts/lib/wiki-client.ts for the
  * request etiquette.
  */
-import { readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 
 import type { MetaFile } from '../src/data/types.ts';
 import { WikiClient } from './lib/wiki-client.ts';
 import { syncCategories } from './sync/categories.ts';
 import { syncMonsters, writeJson } from './sync/monsters.ts';
-import { SUPERIORS_PAGE } from './sync/sources.ts';
+import { SUPERIORS_PAGE, WIKITEXT_PAGES, fetchPages } from './sync/sources.ts';
 
 const root = path.resolve(import.meta.dirname, '..');
 const refresh = process.argv.includes('--refresh');
 const dataDir = path.join(root, 'public', 'data');
+const metaFile = path.join(dataDir, 'meta.json');
 
 const client = new WikiClient({ cacheDir: path.join(root, '.cache', 'wiki'), refresh });
 
+// Every page first, so a missing one fails before anything is written.
+const page = await fetchPages(client);
 console.log('\nMonsters, drops and superiors');
-const monsters = await syncMonsters(client, dataDir);
+const monsters = await syncMonsters(client, dataDir, page(SUPERIORS_PAGE));
 console.log('\nMasters, categories and unlocks');
-const categories = await syncCategories(client, dataDir, monsters.monsters);
+await syncCategories(client, dataDir, monsters, page);
 
-// Only move the timestamp when the data moved, so an unchanged sync leaves no diff.
-const metaFile = path.join(dataDir, 'meta.json');
-const sources = [
-  'Bucket:Infobox_monster',
-  'Bucket:Dropsline',
-  SUPERIORS_PAGE,
-  ...categories.sources,
-].sort();
+// The timestamp moves when the data differs from what the last meta.json
+// recorded, so an unchanged sync leaves no diff, and a sync that failed
+// halfway is still caught by the next one.
+const hash = await dataHash(dataDir);
 const old = await readFile(metaFile, 'utf8')
   .then((text) => JSON.parse(text) as MetaFile)
   .catch(() => null);
-const changed = monsters.changed || categories.changed || old === null;
+const changed = old?.dataHash !== hash;
 const meta: MetaFile = {
-  syncedAt: changed ? new Date().toISOString() : old.syncedAt,
-  sources,
+  syncedAt: changed || !old ? new Date().toISOString() : old.syncedAt,
+  dataHash: hash,
+  sources: ['Bucket:Dropsline', 'Bucket:Infobox_monster', ...WIKITEXT_PAGES].sort(),
 };
 await writeJson(metaFile, meta);
 
@@ -51,3 +52,15 @@ console.log(
   `\nDone: ${network} network requests (${retries} retries), ${cached} from cache. ` +
     (changed ? 'Data changed.' : 'No data changed.'),
 );
+
+/** SHA-256 over every data file but meta.json, by path, so any change or removal shows. */
+async function dataHash(dir: string): Promise<string> {
+  const files = (await readdir(dir, { recursive: true, withFileTypes: true }))
+    .filter((entry) => entry.isFile())
+    .map((entry) => path.relative(dir, path.join(entry.parentPath, entry.name)).replace(/\\/g, '/'))
+    .filter((file) => file !== 'meta.json')
+    .sort();
+  const hash = createHash('sha256');
+  for (const file of files) hash.update(`${file}\n`).update(await readFile(path.join(dir, file)));
+  return hash.digest('hex');
+}

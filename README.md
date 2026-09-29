@@ -98,9 +98,10 @@ the wiki itself. Node runs the TypeScript directly (22.18+).
 | `meta.json`         | when the data last changed, and the wiki pages it came from             |
 
 Types for all of them are in `src/data/types.ts`. The sync prints a `!` line
-for anything it couldn't match (a new master row, a renamed page); read them
-before committing. `meta.json`'s timestamp only moves when another file changed,
-so a sync with nothing new leaves no diff.
+for anything it couldn't match (a new master row, a renamed column, a page the
+equipment table links that isn't a monster); read them before committing.
+`meta.json` keeps a hash of the other files, and its timestamp only moves when
+that hash changes, so a sync with nothing new leaves no diff.
 
 All requests go through `scripts/lib/wiki-client.ts`, which is built to be a
 good citizen:
@@ -123,7 +124,7 @@ Tests live next to the code as `*.test.ts(x)`. Helpers in `src/test/render.tsx`:
   and returns the `router` so you can assert on `router.state.location`.
 
 `fetch` is stubbed in every test, so tests never hit the network. It serves
-small `monsters.json` and `masters.json` fixtures (`src/test/monsters.ts`) and
+small `monsters.json` and `categories.json` fixtures (`src/test/monsters.ts`) and
 answers 404 for anything else, unless you mock it:
 
 ```tsx

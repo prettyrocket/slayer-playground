@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/vitest';
 import { cleanup } from '@testing-library/react';
 import { afterEach, beforeEach, vi } from 'vitest';
 
-import { mastersFixture, monstersFixture } from '@/test/monsters';
+import { categoriesFixture, monstersFixture } from '@/test/monsters';
 
 // jsdom has no matchMedia; MUI's color scheme logic needs it. Report "light".
 window.matchMedia ??= (query: string) =>
@@ -18,12 +18,12 @@ window.matchMedia ??= (query: string) =>
   }) as MediaQueryList;
 
 // Tests never touch the network: fetch serves small monsters.json and
-// masters.json fixtures (the catalog every page's navigation uses) and answers
+// categories.json fixtures (the catalog every page's navigation uses) and answers
 // 404 for anything else, unless a test mocks it, e.g.
 //   vi.mocked(fetch).mockResolvedValueOnce(Response.json([...]))
 const fixtures: Record<string, unknown> = {
   'data/monsters.json': monstersFixture,
-  'data/masters.json': mastersFixture,
+  'data/categories.json': categoriesFixture,
 };
 
 beforeEach(() => {

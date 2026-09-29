@@ -1,6 +1,5 @@
 import {
   type Assignment,
-  type CategoryEquipment,
   MASTER_KEYS,
   type MasterKey,
   type Monster,
@@ -106,11 +105,15 @@ export function buildCategories(input: BuildInput): BuildResult {
         combatLevel: row.combatLevel,
         requirements: row.requirements,
         unlocks,
-        // Some location cells link a monster too ("Chaos Temple (Zombie pirates)").
+        excludes: row.excludes
+          .map((page) => slugByPage.get(pageKey(page)))
+          .filter((slug): slug is string => slug !== undefined)
+          .sort(),
+        // Some location cells link a monster too.
         locations: row.locations.filter((l) => !slugByPage.has(pageKey(l))),
       });
     }
-    assignments.sort((a, b) => a.category.localeCompare(b.category));
+    assignments.sort((a, b) => byCodeUnit(a.category, b.category));
     masters.push({
       key,
       name,
@@ -134,13 +137,51 @@ export function buildCategories(input: BuildInput): BuildResult {
     const category = unlock.links
       .map((link) => resolveCategory(link, known))
       .find((c) => c !== null);
-    if (category) extendByCategory.set(category, unlock.name);
-    else warnings.push(`No category for the extend "${unlock.name}"`);
+    if (!category) {
+      warnings.push(`No category for the extend "${unlock.name}"`);
+      continue;
+    }
+    extendByCategory.set(category, unlock.name);
+    // The note gives the extended amount too; say when a master's table disagrees.
+    const note = unlock.notes.replace(/,/g, '').match(/increased to (\d+)-(\d+)/);
+    const disagree = masters.filter((m) =>
+      m.assignments.some(
+        (a) =>
+          a.category === category &&
+          note &&
+          a.extended &&
+          (a.extended[0] !== Number(note[1]) || a.extended[1] !== Number(note[2])),
+      ),
+    );
+    if (note && disagree.length > 0) {
+      warnings.push(
+        `${unlock.name} extends ${category} to ${note[1]}-${note[2]}; tables that differ: ` +
+          disagree.map((m) => m.name).join(', '),
+      );
+    }
   }
+
+  // Each equipment use applies to the monsters it links, or to a category it
+  // names ("Mutated Zygomite" redirects to Zygomite, in "mutated zygomites").
+  const equipment = input.equipment.map((e) => {
+    const slugs = e.links.flatMap((link) => {
+      const slug = slugByPage.get(pageKey(link));
+      if (slug) return [slug];
+      const category = resolveCategory(link, known);
+      return category
+        ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
+        : [];
+    });
+    // Uses about a place, like boots for the Karuulm dungeon floor, name no monster.
+    if (slugs.length === 0 && !/\b(floor|dungeon)\b/i.test(e.use)) {
+      warnings.push(`${e.item}: no monster for "${e.use}"`);
+    }
+    return { item: e.item, use: e.use, slugs: new Set(slugs) };
+  });
 
   const assigned = new Set(masters.flatMap((m) => m.assignments.map((a) => a.category)));
   const categories: SlayerCategory[] = [...new Set([...known, ...assigned])]
-    .sort()
+    .sort(byCodeUnit)
     .map((category) => {
       const monsters = known.has(category)
         ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
@@ -153,11 +194,14 @@ export function buildCategories(input: BuildInput): BuildResult {
       return {
         category,
         page: pageByCategory.get(category) ?? null,
-        monsters: [...new Set(monsters)].sort(),
+        monsters: [...new Set(monsters)].sort(byCodeUnit),
         masters: MASTER_KEYS.filter((key) => byMaster.some((b) => b.key === key)),
-        unlocks: [...new Set(byMaster.flatMap((b) => b.a.unlocks))].sort(),
+        unlocks: [...new Set(byMaster.flatMap((b) => b.a.unlocks))].sort(byCodeUnit),
         extend: extendByCategory.get(category) ?? null,
-        equipment: categoryEquipment(input.equipment, new Set(monsters), slugByPage),
+        equipment: equipment.flatMap(({ item, use, slugs }) => {
+          const hits = [...new Set(monsters)].filter((slug) => slugs.has(slug)).sort(byCodeUnit);
+          return hits.length > 0 ? [{ item, use, monsters: hits }] : [];
+        }),
       };
     });
 
@@ -174,18 +218,7 @@ export function buildCategories(input: BuildInput): BuildResult {
   return { masters, categories, unlocks, warnings };
 }
 
-/** Equipment whose use links one of the category's monsters. */
-function categoryEquipment(
-  equipment: RawEquipment[],
-  monsters: Set<string>,
-  slugByPage: Map<string, string>,
-): CategoryEquipment[] {
-  const out: CategoryEquipment[] = [];
-  for (const { item, use, links } of equipment) {
-    const hits = links
-      .map((link) => slugByPage.get(pageKey(link)))
-      .filter((slug): slug is string => slug !== undefined && monsters.has(slug));
-    if (hits.length > 0) out.push({ item, use, monsters: [...new Set(hits)].sort() });
-  }
-  return out;
+/** Plain code-unit order, the same on every machine (localeCompare depends on the locale). */
+function byCodeUnit(a: string, b: string): number {
+  return a < b ? -1 : a > b ? 1 : 0;
 }

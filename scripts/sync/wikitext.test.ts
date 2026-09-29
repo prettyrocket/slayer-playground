@@ -23,6 +23,8 @@ describe('wikiPlain', () => {
     ['{{Yes|Permanent}} / {{No}}', 'Permanent / No'],
     ['[[Slayer Tower]] ({{FloorNumber|uk=2}})', 'Slayer Tower (floor 2)'],
     ['<!-- hidden -->Shown', 'Shown'],
+    ['a {{!}} b', 'a | b'],
+    ['{{Yes|[[Foo|bar]]}}', 'bar'],
   ])('%j', (input, expected) => {
     expect(wikiPlain(input)).toBe(expected);
   });
@@ -36,6 +38,7 @@ describe('linkTargets / skillRequirement / amountRange', () => {
       ),
     ).toEqual(['Abyssal demon', 'Slayer task/Crabs']);
     expect(linkTargets('[[A]]<ref>[[B]]</ref>')).toEqual(['A']);
+    expect(linkTargets('[[:Category:Bosses]] [[:Kurask]]')).toEqual(['Kurask']);
   });
 
   it('reads skill requirements', () => {
@@ -129,5 +132,61 @@ describe('findTables / parseTable', () => {
     );
     expect(table.rows[1]).toEqual(['c', '', 'w']);
     expect(table.spanned[1][2]).toBe(true);
+  });
+
+  it("doesn't count braces in comments or nowiki, and throws on an unclosed template", () => {
+    const lines = ['{|', '!A', '|-', '|[[Foo]] <!-- see {{ -->', '|-', '|<nowiki>{{</nowiki>'];
+    const table = parseTable([...lines, '|-', '|c', '|}'].join('\n'));
+    expect(table.rows.map((r) => r[0])).toEqual([
+      '[[Foo]] <!-- see {{ -->',
+      '<nowiki>{{</nowiki>',
+      'c',
+    ]);
+    expect(() => parseTable(['{|', '!A', '|-', '|{{Oops', '|-', '|b', '|}'].join('\n'))).toThrow(
+      /unclosed/,
+    );
+  });
+
+  it('keeps row-header cells as data and drops header-only rows after the data', () => {
+    const table = parseTable(
+      [
+        '{|',
+        '!Name !! Amount',
+        '|-',
+        '! scope="row" | Foo',
+        '|10-20',
+        '|-',
+        '!Total || 5',
+        '|}',
+      ].join('\n'),
+    );
+    expect(table.headers).toEqual(['name', 'amount']);
+    expect(table.rows).toEqual([['Foo', '10-20']]);
+  });
+
+  it('joins multi-row headers per column', () => {
+    const table = parseTable(
+      [
+        '{|',
+        '!rowspan="2"|Monster !! colspan="2"|Amount',
+        '|-',
+        '!Base !! Extended',
+        '|-',
+        '|Bat || 10 || 20',
+        '|}',
+      ].join('\n'),
+    );
+    expect(table.headers).toEqual(['monster', 'amount base', 'amount extended']);
+    expect(table.rows).toEqual([['Bat', '10', '20']]);
+  });
+
+  it('only lets {{NA}} carry a span, and keeps nested tables in their cell', () => {
+    // A nested table starts on its own line, inside the previous cell.
+    const lines = ['{|', '!A!!B', '|-', '|{{Note|colspan=2}}', '|x', '|-', '|', '{|', '|inner'];
+    const table = parseTable([...lines, '|}', '|y', '|}'].join('\n'));
+    expect(table.rows).toEqual([
+      ['{{Note|colspan=2}}', 'x'],
+      ['\n{|\n|inner\n|}', 'y'],
+    ]);
   });
 });

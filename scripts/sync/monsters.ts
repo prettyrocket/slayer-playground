@@ -5,34 +5,33 @@ import type { DropsFile, Monster, MonstersFile } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
 import { parseSuperiors } from './parsers.ts';
-import { SUPERIORS_PAGE, fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
+import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
 
 /**
  * Pretty-printed with a trailing newline, so commits show line-level diffs.
- * Returns whether the file changed, and leaves it untouched when it didn't.
+ * An unchanged file is left untouched.
  */
-export async function writeJson(file: string, data: unknown): Promise<boolean> {
+export async function writeJson(file: string, data: unknown): Promise<void> {
   const text = `${JSON.stringify(data, null, 2)}\n`;
   const old = await readFile(file, 'utf8').catch(() => null);
-  if (old === text) return false;
+  if (old === text) return;
   await mkdir(path.dirname(file), { recursive: true });
   await writeFile(file, text);
-  return true;
 }
 
 /**
  * Writes public/data/monsters.json and public/data/drops/<slug>.json, and
- * returns the monsters for the steps after it. `changed` is whether any file changed.
+ * returns the monsters for the steps after it. `superiorsPage` is the
+ * wikitext of Superior slayer monster.
  */
 export async function syncMonsters(
   client: WikiClient,
   dataDir: string,
-): Promise<{ monsters: Monster[]; changed: boolean }> {
+  superiorsPage: string,
+): Promise<Monster[]> {
   const rows = await fetchMonsters(client);
   const taskOnly = await fetchTaskOnlyPages(client);
   const dropRows = await fetchDrops(client);
-  const superiorsPage = (await client.wikitext([SUPERIORS_PAGE])).get(SUPERIORS_PAGE);
-  if (!superiorsPage) throw new Error(`Missing page ${SUPERIORS_PAGE}`);
 
   const slayerPages = new Set(buildMonsters(rows, taskOnly, new Set()).map((m) => m.page));
   const drops = buildDrops(dropRows, slayerPages);
@@ -42,7 +41,7 @@ export async function syncMonsters(
   }
 
   const file: MonstersFile = { monsters };
-  let changed = await writeJson(path.join(dataDir, 'monsters.json'), file);
+  await writeJson(path.join(dataDir, 'monsters.json'), file);
 
   const dropsDir = path.join(dataDir, 'drops');
   const written = new Set<string>();
@@ -52,14 +51,11 @@ export async function syncMonsters(
     const dropsFile: DropsFile = { page: monster.page, drops: list };
     const name = `${monster.slug}.json`;
     written.add(name);
-    if (await writeJson(path.join(dropsDir, name), dropsFile)) changed = true;
+    await writeJson(path.join(dropsDir, name), dropsFile);
   }
   // Remove files for monsters that are gone from the wiki or lost their drops.
   for (const name of await readdir(dropsDir).catch(() => [])) {
-    if (!written.has(name)) {
-      await rm(path.join(dropsDir, name));
-      changed = true;
-    }
+    if (!written.has(name)) await rm(path.join(dropsDir, name));
   }
 
   const versions = monsters.reduce((n, m) => n + m.versions.length, 0);
@@ -69,5 +65,5 @@ export async function syncMonsters(
     `  ${monsters.length} monsters (${versions} versions, ${monsters.filter((m) => m.taskOnly).length} task-only, ` +
       `${superiors} with a superior), ${dropCount} drops for ${drops.size} of them`,
   );
-  return { monsters, changed };
+  return monsters;
 }

@@ -47,8 +47,10 @@ export function parseRewards(wikitext: string): RawUnlock[] {
     const notes = column(table, 'notes');
     for (const cells of table.rows) {
       const unlock = wikiPlain(cells[name] ?? '');
-      const points = Number(wikiPlain(cells[cost] ?? '').replace(/,/g, ''));
-      if (!unlock || !Number.isFinite(points)) continue;
+      const costText = wikiPlain(cells[cost] ?? '').replace(/,/g, '');
+      // A blank or {{NA}} cost is not a cost of 0.
+      if (!unlock || !/^\d+$/.test(costText)) continue;
+      const points = Number(costText);
       out.push({
         name: unlock,
         cost: points,
@@ -84,7 +86,8 @@ export interface RawEquipment {
 }
 
 // Uses that tie an item to fighting a monster, not to a place or a craft.
-const MONSTER_USE = /^(protecting against|protection from|finishing off|killing|harming|luring)\b/i;
+const MONSTER_USE =
+  /^(protect(?:ing|ion) (?:against|from)|finishing off|killing|harming|luring)\b/i;
 
 /** Items on Slayer equipment whose use is tied to a monster. */
 export function parseEquipment(wikitext: string): RawEquipment[] {

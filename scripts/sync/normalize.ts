@@ -307,7 +307,9 @@ export function buildMonsters(
 export const pageKey = (page: string) => page.toLowerCase().replace(/\s+/g, '');
 
 /**
- * Sets `superior` and `superiorOf` from base page -> superior page. Pages that
+ * Sets `superior` and `superiorOf` from base page -> superior page, and gives
+ * each superior its base's categories, since it counts for the base's task
+ * (the wiki files Blood-starved venator under vampyres only). Pages that
  * aren't Slayer monsters here are skipped.
  */
 export function linkSuperiors(monsters: Monster[], superiors: Map<string, string>): string[] {
@@ -322,6 +324,7 @@ export function linkSuperiors(monsters: Monster[], superiors: Map<string, string
     }
     base.superior = superior.slug;
     superior.superiorOf = [...superior.superiorOf, base.slug].sort();
+    superior.categories = [...new Set([...superior.categories, ...base.categories])].sort();
   }
   return warnings;
 }

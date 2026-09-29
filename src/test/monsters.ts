@@ -1,10 +1,9 @@
 import type {
-  Assignment,
+  CategoriesFile,
   MasterKey,
-  MastersFile,
   Monster,
   MonstersFile,
-  SlayerMaster,
+  SlayerCategory,
 } from '@/data/types';
 
 /** A monster with just what navigation reads; everything else empty. */
@@ -34,40 +33,35 @@ export const monstersFixture: MonstersFile = {
     monster('abyssal-sire', 'Abyssal Sire', ['abyssal demons', 'bosses'], ['vannaka', 'duradel']),
     monster('dust-devil', 'Dust devil', ['dust devils'], ['duradel']),
     monster('cow', 'Cow', ['cows'], ['turael']),
+    monster('abyssal-sire-deadman', 'Abyssal Sire (Deadman)', ['bosses'], ['duradel']),
   ],
 };
 
-/** A master whose table lists `categories`, with every other field empty. */
-function master(key: MasterKey, categories: string[]): SlayerMaster {
-  const assignment = (category: string): Assignment => ({
-    category,
-    weight: 1,
-    amount: [10, 20],
-    extended: null,
-    slayerLevel: null,
-    combatLevel: null,
-    requirements: null,
-    unlocks: [],
-    locations: [],
-  });
+/** A categories.json entry with just what navigation reads. */
+function category(name: string, monsters: string[], masters: MasterKey[]): SlayerCategory {
   return {
-    key,
-    name: key,
-    page: key,
-    alternates: [],
-    totalWeight: categories.length,
-    assignments: categories.map(assignment),
+    category: name,
+    page: null,
+    monsters,
+    masters,
+    unlocks: [],
+    extend: null,
+    equipment: [],
   };
 }
 
 /**
- * Served for data/masters.json in tests. Duradel assigns three categories,
- * Vannaka only abyssal demons, and Mortimer nothing here.
+ * Served for data/categories.json in tests. Duradel assigns three categories,
+ * Vannaka only abyssal demons (though the Sire's assignedBy lists him), Mortimer
+ * nothing here. The Deadman Sire counts for nothing, and Krystilia's wilderness
+ * bosses are a category no monster page has.
  */
-export const mastersFixture: MastersFile = {
-  masters: [
-    master('turael', ['cows']),
-    master('vannaka', ['abyssal demons']),
-    master('duradel', ['abyssal demons', 'bosses', 'dust devils']),
+export const categoriesFixture: CategoriesFile = {
+  categories: [
+    category('abyssal demons', ['abyssal-demon', 'abyssal-sire'], ['vannaka', 'duradel']),
+    category('bosses', ['abyssal-sire'], ['duradel']),
+    category('cows', ['cow'], ['turael']),
+    category('dust devils', ['dust-devil'], ['duradel']),
+    category('wilderness bosses', [], ['krystilia']),
   ],
 };
