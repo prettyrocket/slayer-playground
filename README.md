@@ -140,7 +140,7 @@ picked for their quirks (listed in `scripts/update-fixtures.ts`). To check the
 parsers against the wiki as it is now:
 
 ```sh
-node scripts/update-fixtures.ts -- --refresh   # a handful of requests
+node scripts/update-fixtures.ts --refresh   # a handful of requests
 npm test
 ```
 

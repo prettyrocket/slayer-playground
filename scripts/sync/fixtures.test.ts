@@ -20,9 +20,12 @@ const json = <T>(file: string) => JSON.parse(readFileSync(path.join(dir, file), 
 
 describe('master tables', () => {
   // Parsed inside each test, so a page that stops parsing fails that master's test.
+  // An unknown column (a rename) fails too, instead of emptying a field.
   const table = (key: string) => {
     const { page: title } = MASTER_PAGES.find((m) => m.key === key)!;
-    return parseMasterTable(page(title), title);
+    return parseMasterTable(page(title), title, (warning) => {
+      throw new Error(warning);
+    });
   };
   const row = (key: string, name: string) => table(key).find((r) => r.name === name);
 
@@ -43,8 +46,34 @@ describe('master tables', () => {
     const rows = table(key);
     expect(rows).toHaveLength(tasks);
     expect(rows.reduce((sum, r) => sum + r.weight, 0)).toBe(total);
-    // Every row has an amount and a name.
-    expect(rows.filter((r) => !r.amount || !r.name)).toEqual([]);
+    // Every row has an amount, a name and a link.
+    expect(rows.filter((r) => !r.amount || !r.name || !r.link)).toEqual([]);
+  });
+
+  // How many rows fill each optional field, so a column or template the parser
+  // stops reading fails here instead of quietly emptying the field. Slayer
+  // levels were checked against the {{SCP|Slayer}} rows in the wikitext; the
+  // few extra there are levels for one alternative (Brutal black dragon 77).
+  it.each([
+    ['turael', { slayer: 6, extended: 0, requirements: 18, alternatives: 18, locations: 0 }],
+    ['spria', { slayer: 6, extended: 0, requirements: 20, alternatives: 18, locations: 0 }],
+    ['mazchna', { slayer: 13, extended: 1, requirements: 30, alternatives: 18, locations: 0 }],
+    ['vannaka', { slayer: 22, extended: 11, requirements: 45, alternatives: 29, locations: 0 }],
+    ['chaeldar', { slayer: 23, extended: 19, requirements: 40, alternatives: 32, locations: 0 }],
+    ['konar', { slayer: 21, extended: 19, requirements: 39, alternatives: 28, locations: 38 }],
+    ['nieve', { slayer: 24, extended: 28, requirements: 46, alternatives: 34, locations: 0 }],
+    ['duradel', { slayer: 21, extended: 26, requirements: 43, alternatives: 32, locations: 0 }],
+    ['krystilia', { slayer: 6, extended: 11, requirements: 13, alternatives: 8, locations: 37 }],
+    ['mortimer', { slayer: 29, extended: 14, requirements: 29, alternatives: 0, locations: 0 }],
+  ])('%s: fields filled', (key, shape) => {
+    const rows = table(key);
+    expect({
+      slayer: rows.filter((r) => r.slayerLevel !== null).length,
+      extended: rows.filter((r) => r.extended).length,
+      requirements: rows.filter((r) => r.requirements).length,
+      alternatives: rows.filter((r) => r.alternatives.length > 0).length,
+      locations: rows.filter((r) => r.locations.length > 0).length,
+    }).toEqual(shape);
   });
 
   it("reads Konar's locations, alternatives and fixed amounts", () => {
@@ -59,10 +88,13 @@ describe('master tables', () => {
       requirements: '60 Slayer, 65 Combat',
       // "*[[Catacombs of Kourend]]: [[Deviant spectre]]": the monster, not the place.
       alternatives: ['Deviant spectre'],
+      excludes: [],
       locations: ['Catacombs of Kourend', 'Slayer Tower', 'Stronghold Slayer Cave'],
       wildernessLevels: null,
     });
     expect(row('konar', 'Ankou')?.amount).toEqual([50, 50]);
+    // "*[[Fossil Island]]: [[Ancient Zygomite]] (completion of [[Bone Voyage]] required)"
+    expect(row('konar', 'Mutated Zygomites')?.alternatives).toEqual(['Ancient Zygomite']);
   });
 
   it("reads Vannaka's bare weight, missing extends and task links", () => {
@@ -83,6 +115,26 @@ describe('master tables', () => {
       locations: ['The Forgotten Cemetery', 'Wilderness Slayer Cave'],
       wildernessLevels: '27-31, 34-36',
     });
+    // A reused footnote (<ref name=dragon />) still gives the requirement.
+    expect(row('krystilia', 'Green dragons')?.requirements).toBe(
+      'Only assigned to players who have started Dragon Slayer I.',
+    );
+    // "Also count" notes are alternatives, "do not count" notes exclusions;
+    // neither is a requirement.
+    expect(row('krystilia', 'Bears')).toMatchObject({
+      requirements: null,
+      alternatives: expect.arrayContaining(['Callisto', 'Artio']),
+    });
+    expect(row('krystilia', 'Black dragons')).toMatchObject({
+      requirements: 'Only assigned to players who have started Dragon Slayer I.',
+      excludes: ['King Black Dragon', 'Lava dragon'],
+    });
+    // Asides aren't locations: "(''Bring a [[lockpick]]!'')".
+    expect(
+      table('krystilia')
+        .flatMap((r) => r.locations)
+        .filter((l) => /lockpick/i.test(l)),
+    ).toEqual([]);
     expect(row('krystilia', 'Wilderness bosses / demi-bosses')).toEqual({
       name: 'Wilderness bosses / demi-bosses',
       link: 'Wilderness boss',
@@ -105,6 +157,7 @@ describe('master tables', () => {
         "Vet'ion",
         "Calvar'ion",
       ],
+      excludes: [],
       locations: [
         'Demonic Ruins',
         "Rogues' Castle",
@@ -125,12 +178,20 @@ describe('master tables', () => {
       extended: null,
       slayerLevel: 5,
     });
-    // Turael's "Noteworthy alternative(s)" and farming locations are left out.
+    // Turael's "Noteworthy alternative(s)" (bosses) count too; his farming
+    // locations are advice, not locations.
     expect(row('turael', 'Bears')).toMatchObject({
       link: 'Slayer task/Bears',
       amount: [10, 20],
       combatLevel: 13,
-      alternatives: ['Grizzly bear cub', 'Bear cub', 'Grizzly bear', 'Reanimated bear'],
+      alternatives: [
+        'Callisto',
+        'Artio',
+        'Grizzly bear cub',
+        'Bear cub',
+        'Grizzly bear',
+        'Reanimated bear',
+      ],
       locations: [],
     });
   });
@@ -179,6 +240,18 @@ describe('Slayer Rewards', () => {
     // A toggle, not a requirement.
     expect(requiredUnlocks(requirements(krystilia, 'Abyssal demons'), rewards())).toEqual([]);
   });
+
+  it('resolves every unlock any master asks for', () => {
+    const names = MASTER_PAGES.flatMap(({ page: title }) =>
+      parseMasterTable(page(title), title).flatMap((r) =>
+        requiredUnlocks(r.requirements ?? '', rewards()),
+      ),
+    );
+    // A new wording ("unlocked via ... the X unlock") would drop this count or
+    // come back as a name the Rewards page doesn't have.
+    expect(names).toHaveLength(34);
+    expect(names.filter((n) => !rewards().some((u) => u.name === n))).toEqual([]);
+  });
 });
 
 describe('Slayer equipment', () => {
@@ -186,6 +259,8 @@ describe('Slayer equipment', () => {
   const uses = (item: string) => equipment().filter((e) => e.item === item);
 
   it('keeps uses tied to a monster, named by the linked item', () => {
+    expect(equipment()).toHaveLength(28);
+    expect(uses('Shayzien armour').map((e) => e.links)).toEqual([['Lizardman shaman']]);
     expect(uses('Earmuffs')).toEqual([
       { item: 'Earmuffs', use: 'Protecting against Banshees', links: ['Banshee'] },
     ]);
@@ -193,9 +268,10 @@ describe('Slayer equipment', () => {
     expect(uses('Lit bug lantern').map((e) => e.links)).toEqual([['Harpie Bug Swarm']]);
     expect(uses('Leaf-bladed battleaxe').map((e) => e.links)).toEqual([['Turoth', 'Kurask']]);
     expect(uses('Rock hammer').map((e) => e.links)).toEqual([['Gargoyle']]);
-    // No monster: crafting, places and the like.
+    // No monster: crafting and the like. (Boots for the Karuulm floor are kept
+    // as "Protecting from ..." uses, but link only the dungeon.)
     expect(uses('Enchanted gem')).toEqual([]);
-    expect(uses('Boots of stone')).toEqual([]);
+    expect(uses('Boots of stone').map((e) => e.links)).toEqual([['Karuulm Slayer Dungeon']]);
   });
 });
 
@@ -217,14 +293,73 @@ describe('Bucket rows', () => {
       'Dusk',
       'Grimy Lizard',
     ]);
-    for (const m of monsters) {
-      expect(m.versions.filter((v) => v.isDefault)).toHaveLength(1);
-      expect(m.versions[0].isDefault).toBe(true);
-      const labels = m.versions.map((v) => v.version);
-      expect(new Set(labels).size).toBe(labels.length);
-    }
+    // The default each page flags (the builder always puts one first, so check which).
+    expect(monsters.map((m) => [m.page, m.versions[0].version])).toEqual([
+      ['Abyssal demon', 'Standard'],
+      ['Bloodthirst rockslug', null],
+      ['Blue dragon', '1'],
+      ['Cow', '1'],
+      ['Dawn', null],
+      ['Doom of Mokhaiotl', 'Delve 1'],
+      ['Dusk', 'First form'],
+      ['Grimy Lizard', null],
+    ]);
     // No markup survives anywhere.
-    expect(JSON.stringify(monsters)).not.toMatch(/UNIQ|\x7f|<br|<sup|\[\[|'''|&#/);
+    expect(JSON.stringify(monsters)).not.toMatch(/UNIQ|\x7f|<br|<sup|\[\[|\{\{|'''|&#/);
+  });
+
+  it('reads every field of a monster and its default version', () => {
+    const { versions, ...abyssal } = monster('Abyssal demon');
+    expect(abyssal).toEqual({
+      slug: 'abyssal-demon',
+      page: 'Abyssal demon',
+      slayerLevel: 85,
+      categories: ['abyssal demons'],
+      assignedBy: ['vannaka', 'chaeldar', 'konar', 'nieve', 'duradel', 'krystilia', 'mortimer'],
+      taskOnly: false,
+      members: true,
+      hasDrops: true,
+      superior: null,
+      superiorOf: [],
+    });
+    expect(versions[0]).toEqual({
+      version: 'Standard',
+      isDefault: true,
+      name: 'Abyssal demon',
+      npcIds: [415, 416],
+      examine: 'A denizen of the Abyss!',
+      combatLevel: 124,
+      hitpoints: 150,
+      maxHit: ['8'],
+      attackStyles: ['Stab'],
+      attackSpeed: 4,
+      size: 1,
+      attributes: ['demon'],
+      slayerLevel: 85,
+      slayerXp: 150,
+      levels: { attack: 97, strength: 67, defence: 135, ranged: 1, magic: 1 },
+      offence: { attack: 0, strength: 0, magic: 0, magicDamage: 0, ranged: 0, rangedStrength: 0 },
+      // The wiki gives no single ranged defence, only light, standard and heavy.
+      defence: {
+        stab: 20,
+        slash: 20,
+        crush: 20,
+        magic: 0,
+        ranged: null,
+        lightRanged: 20,
+        standardRanged: 20,
+        heavyRanged: 20,
+      },
+      weakness: null,
+      immunities: {
+        poison: '0',
+        venom: '0',
+        cannon: false,
+        thrall: false,
+        burn: null,
+        freeze: null,
+      },
+    });
   });
 
   it('handles the quirks each page was picked for', () => {
@@ -252,10 +387,29 @@ describe('Bucket rows', () => {
 
   it('reads drops, including ones kept on another page', () => {
     const whip = drops.get('Abyssal demon')!.find((d) => d.item === 'Abyssal whip')!;
-    expect(whip).toMatchObject({ rarity: '1/512', chance: 1 / 512, value: 72000 });
+    expect(whip).toEqual({
+      item: 'Abyssal whip',
+      dropVersion: 'Standard',
+      quantity: [1, 1],
+      noted: false,
+      rarity: '1/512',
+      chance: 1 / 512,
+      approx: false,
+      rolls: 1,
+      altRarity: null,
+      value: 72000,
+      type: 'combat',
+    });
+    // Noted drops and ranges come through too.
+    expect(drops.get('Abyssal demon')!.filter((d) => d.noted).length).toBeGreaterThan(0);
+    expect(drops.get('Abyssal demon')!.filter((d) => d.quantity === null)).toEqual([]);
     expect(new Set(drops.get('Abyssal demon')!.map((d) => d.dropVersion)).size).toBe(3);
     expect(drops.get('Dusk')).toEqual(drops.get('Dawn'));
-    expect(drops.get('Dusk')!.map((d) => d.item)).toContain('Granite maul');
+    // Grotesque Guardians roll their table twice.
+    expect(drops.get('Dusk')!.find((d) => d.item === 'Granite maul')).toMatchObject({
+      rarity: '1/250',
+      rolls: 2,
+    });
     expect(monster('Dusk').hasDrops).toBe(true);
   });
 });

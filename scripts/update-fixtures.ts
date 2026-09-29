@@ -1,8 +1,8 @@
 /**
  * Refresh the parser test fixtures in scripts/sync/fixtures/ from the wiki.
  *
- *   node scripts/update-fixtures.ts               # from .cache/wiki where possible
- *   node scripts/update-fixtures.ts -- --refresh  # refetch
+ *   node scripts/update-fixtures.ts            # from .cache/wiki where possible
+ *   node scripts/update-fixtures.ts --refresh  # refetch
  *
  * Fixtures are real wiki responses: whole pages for the wikitext parsers, and
  * the Bucket rows of a few monsters picked for their quirks. After refreshing,
@@ -13,25 +13,18 @@ import { mkdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 import { WikiClient } from './lib/wiki-client.ts';
-import { MASTER_PAGES } from './sync/masters.ts';
-import {
-  EQUIPMENT_PAGE,
-  REWARDS_PAGE,
-  SUPERIORS_PAGE,
-  fetchDrops,
-  fetchMonsters,
-} from './sync/sources.ts';
+import { WIKITEXT_PAGES, fetchDrops, fetchMonsters, fetchPages } from './sync/sources.ts';
 
 /** Monster pages kept from Bucket, and why. */
 const FIXTURE_MONSTERS = [
   'Abyssal demon', // versions are locations; drops in three tables
-  'Blue dragon', // nested switch infobox ("Level 111, 1")
-  'Bloodthirst rockslug', // a [sic] note in the name
-  'Doom of Mokhaiotl', // repeated "Delve" labels; <br/>-packed max hits
-  'Dusk', // strip markers; drops kept on Grotesque Guardians
+  'Blue dragon', // nested switch infobox ("Ruins of Tapoyauik, 1")
+  'Bloodthirst rockslug', // a [sic] note in the name; one version
+  'Doom of Mokhaiotl', // repeated "Delve 1" labels, both flagged default; <br/>-packed max hits
+  'Dusk', // strip markers in attack styles; drops kept on Grotesque Guardians
   'Dawn',
   'Grimy Lizard', // category "lizard", a typo for "lizards"
-  'Cow', // one version
+  'Cow', // several versions, one of them a place (Zanaris)
   'Abyssal walker', // no Slayer category
 ];
 /** Drop pages kept from Bucket. */
@@ -44,34 +37,33 @@ const client = new WikiClient({
   refresh: process.argv.includes('--refresh'),
 });
 
-// The same batches sync-data sends, so a warm cache answers them all.
-const batches = [
-  [...MASTER_PAGES.map((m) => m.page), REWARDS_PAGE, EQUIPMENT_PAGE],
-  [SUPERIORS_PAGE],
-];
-const text = new Map<string, string | null>();
-for (const batch of batches)
-  for (const [page, t] of await client.wikitext(batch)) text.set(page, t);
-const pages = batches.flat();
-await rm(path.join(dir, 'wikitext'), { recursive: true, force: true });
-await mkdir(path.join(dir, 'wikitext'), { recursive: true });
-for (const page of pages) {
-  const wikitext = text.get(page);
-  if (!wikitext) throw new Error(`Missing page ${page}`);
-  await writeFile(path.join(dir, 'wikitext', `${page.replace(/[/:]/g, '_')}.wiki`), wikitext);
-}
-
+// The same requests sync-data sends, so a warm cache answers them all. Every
+// fetch and check happens before anything is written.
+const page = await fetchPages(client);
 const monsters = (await fetchMonsters(client)).filter((row) =>
   FIXTURE_MONSTERS.includes(String(row.page_name)),
 );
 const drops = (await fetchDrops(client)).filter((row) =>
   FIXTURE_DROP_PAGES.includes(row.page_name),
 );
+const gone = [
+  ...FIXTURE_MONSTERS.filter((p) => !monsters.some((row) => row.page_name === p)),
+  ...FIXTURE_DROP_PAGES.filter((p) => !drops.some((row) => row.page_name === p)),
+];
+if (gone.length > 0) {
+  throw new Error(`No rows for ${gone.join(', ')}: pick other pages in update-fixtures.ts`);
+}
+
+await rm(path.join(dir, 'wikitext'), { recursive: true, force: true });
+await mkdir(path.join(dir, 'wikitext'), { recursive: true });
+for (const title of WIKITEXT_PAGES) {
+  await writeFile(path.join(dir, 'wikitext', `${title.replace(/[/:]/g, '_')}.wiki`), page(title));
+}
 await writeFile(path.join(dir, 'infobox_monster.json'), `${JSON.stringify(monsters, null, 2)}\n`);
 await writeFile(path.join(dir, 'dropsline.json'), `${JSON.stringify(drops, null, 2)}\n`);
 
 const { network, cached } = client.stats;
 console.log(
-  `${pages.length} pages, ${monsters.length} monster rows, ${drops.length} drop rows ` +
+  `${WIKITEXT_PAGES.length} pages, ${monsters.length} monster rows, ${drops.length} drop rows ` +
     `(${network} requests, ${cached} from cache)`,
 );
