@@ -5,10 +5,15 @@ import { renderRoute } from '@/test/render';
 
 // Data is src/test/monsters.ts (the abyssal demon and its drops), served by setup.ts.
 
-/** The stats grid as label -> value. */
-function stats() {
-  const labels = screen.getAllByRole('term').map((t) => t.textContent);
-  const values = screen.getAllByRole('definition').map((d) => d.textContent);
+/** A stat panel (Combat, Aggressive, Defensive, Info) as label -> value. */
+function panel(name: string) {
+  const section = screen.getByRole('region', { name });
+  const labels = within(section)
+    .getAllByRole('term')
+    .map((t) => t.textContent);
+  const values = within(section)
+    .getAllByRole('definition')
+    .map((d) => d.textContent);
   return Object.fromEntries(labels.map((label, i) => [label, values[i]]));
 }
 
@@ -26,28 +31,43 @@ async function rows(name: string) {
 }
 
 describe('MonsterPage', () => {
-  it("shows the default version's stats, leaving out the missing ones", async () => {
+  it("shows the default version's stats in panels, leaving out the missing ones", async () => {
     renderRoute('/monsters/abyssal-demon');
-    expect(
-      await screen.findByRole('heading', { level: 1, name: 'Abyssal demon' }),
-    ).toBeInTheDocument();
-    expect(stats()).toEqual({
-      'Combat level': '124',
+    const heading = await screen.findByRole('heading', { level: 1, name: /^Abyssal demon/ });
+    expect(heading).toHaveTextContent('(level 124)');
+    expect(panel('Combat')).toEqual({
       Hitpoints: '150',
+      Attack: '97',
+      Strength: '67',
+      Defence: '135',
+      Magic: '1',
+      Ranged: '1',
+      Speed: '4 ticks (2.4s)',
+      Style: 'Stab',
       'Max hit': '8',
-      'Attack style': 'Stab',
-      'Attack speed': '4 ticks (2.4s)',
+    });
+    // The fixture gives no offensive bonuses, so that panel is left out.
+    expect(screen.queryByRole('region', { name: 'Aggressive' })).not.toBeInTheDocument();
+    expect(panel('Defensive')).toEqual({
+      Stab: '+20',
+      Slash: '+20',
+      Crush: '+20',
+      Magic: '0',
+      Fire: '20%',
+      Light: '+20',
+      Standard: '+20',
+      Heavy: '+20',
+    });
+    expect(panel('Info')).toEqual({
       Size: '1×1',
+      'Slayer level': '85',
       'Slayer XP': '150',
-      Weakness: 'Fire 20%',
       Poison: '0',
       Venom: '0',
       Cannon: 'Not immune',
-      Thralls: 'Immune',
-      Freeze: '33% resistance',
+      Thrall: 'Immune',
+      Freeze: '33%',
     });
-    expect(await rows('Levels')).toEqual([['97', '67', '135', '1', '1']]);
-    expect(await rows('Defence bonuses')).toEqual([['20', '20', '20', '0', '20', '20', '20']]);
   });
 
   it('links its superior', async () => {
@@ -77,8 +97,9 @@ describe('MonsterPage', () => {
     await rows('Abyssal demon drops');
     const versions = screen.getByRole('tablist', { name: 'Versions' });
     await user.click(within(versions).getByRole('tab', { name: 'Catacombs of Kourend' }));
-    // This version has only a combat level and hitpoints.
-    expect(stats()).toEqual({ 'Combat level': '124', Hitpoints: '150' });
+    // This version has only hitpoints (and the monster's Slayer level).
+    expect(panel('Combat')).toEqual({ Hitpoints: '150' });
+    expect(screen.queryByRole('region', { name: 'Defensive' })).not.toBeInTheDocument();
     expect(await rows('Abyssal demon drops')).toEqual([['Ancient shard', '1', '1/233']]);
   });
 

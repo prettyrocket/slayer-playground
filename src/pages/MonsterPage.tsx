@@ -25,66 +25,167 @@ import { NotFoundPage } from '@/pages/NotFoundPage';
 import { categoryPath, monsterPath } from '@/routing/paths';
 import { useNavLocation } from '@/routing/useNavLocation';
 
-const immune = (value: boolean | null) => (value === null ? null : value ? 'Immune' : 'Not immune');
+const ICONS = `${import.meta.env.BASE_URL}icons/stats/`;
+const RUNES: Record<string, string> = {
+  Air: 'Air_rune',
+  Water: 'Water_rune',
+  Earth: 'Earth_rune',
+  Fire: 'Fire_rune',
+};
 
-/** The stats worth showing for a version, as label and text; missing values are left out. */
-function stats(v: MonsterVersion): [string, string][] {
-  const rows: [string, string | number | null][] = [
-    ['Combat level', v.combatLevel],
-    ['Hitpoints', v.hitpoints],
-    ['Max hit', v.maxHit.join(', ') || null],
-    ['Attack style', v.attackStyles.join(', ') || null],
-    // A game tick is 0.6 seconds.
-    [
-      'Attack speed',
-      v.attackSpeed && `${v.attackSpeed} ticks (${(v.attackSpeed * 0.6).toFixed(1)}s)`,
-    ],
-    ['Size', v.size && `${v.size}×${v.size}`],
-    ['Slayer XP', v.slayerXp],
-    [
-      'Weakness',
-      v.weakness &&
-        `${v.weakness.element}${v.weakness.percent !== null ? ` ${v.weakness.percent}%` : ''}`,
-    ],
-    ['Poison', v.immunities.poison],
-    ['Venom', v.immunities.venom],
-    ['Cannon', immune(v.immunities.cannon)],
-    ['Thralls', immune(v.immunities.thrall)],
-    ['Burn', v.immunities.burn],
-    ['Freeze', v.immunities.freeze !== null ? `${v.immunities.freeze}% resistance` : null],
-  ];
-  return rows
-    .filter((r): r is [string, string | number] => r[1] !== null && r[1] !== '')
-    .map(([label, value]) => [label, String(value)]);
+/** One row of a stat panel: icon, label, value on the right; `strong` highlights it. */
+interface StatRow {
+  label: string;
+  value: string | number | null;
+  icon?: string;
+  strong?: boolean;
 }
 
-const show = (n: number | null) => (n === null ? '—' : String(n));
+const bonus = (n: number | null) => (n === null ? null : n > 0 ? `+${n}` : `${n}`);
+const immunity = (value: boolean | null) =>
+  value === null ? null : value ? 'Immune' : 'Not immune';
+// Resistances as the wiki gives them: "Immune" (or a 100% resistance) stands out.
+const isImmune = (value: string | null) => !!value && /^(immune|100)/i.test(value);
+const capitalize = (text: string) => text[0].toUpperCase() + text.slice(1);
 
-/** One row of numbers under column headings, e.g. combat levels or defence bonuses. */
-function NumberTable({ label, columns }: { label: string; columns: [string, number | null][] }) {
+/**
+ * The wiki's infobox as four panels, like better-monster-examine: combat
+ * levels, offensive bonuses, defensive bonuses, and the rest. Rows without a
+ * value are left out.
+ */
+function panels(v: MonsterVersion, monster: Monster): [string, StatRow[]][] {
+  const weakness = v.weakness;
+  const size = [v.size && `${v.size}×${v.size}`, ...v.attributes.map(capitalize)].filter(Boolean);
+  return [
+    [
+      'Combat',
+      [
+        { label: 'Hitpoints', value: v.hitpoints, icon: 'Hitpoints_icon' },
+        { label: 'Attack', value: v.levels.attack, icon: 'Attack_icon' },
+        { label: 'Strength', value: v.levels.strength, icon: 'Strength_icon' },
+        { label: 'Defence', value: v.levels.defence, icon: 'Defence_icon' },
+        { label: 'Magic', value: v.levels.magic, icon: 'Magic_icon' },
+        { label: 'Ranged', value: v.levels.ranged, icon: 'Ranged_icon' },
+        // A game tick is 0.6 seconds.
+        {
+          label: 'Speed',
+          value: v.attackSpeed && `${v.attackSpeed} ticks (${(v.attackSpeed * 0.6).toFixed(1)}s)`,
+        },
+        { label: 'Style', value: v.attackStyles.join(', ') || null },
+        { label: 'Max hit', value: v.maxHit.join('\n') || null },
+      ],
+    ],
+    [
+      'Aggressive',
+      [
+        { label: 'Attack', value: bonus(v.offence.attack), icon: 'Attack_icon' },
+        { label: 'Strength', value: bonus(v.offence.strength), icon: 'Strength_icon' },
+        { label: 'Magic', value: bonus(v.offence.magic), icon: 'Magic_icon' },
+        { label: 'Magic dmg', value: bonus(v.offence.magicDamage), icon: 'Magic_Damage_icon' },
+        { label: 'Ranged', value: bonus(v.offence.ranged), icon: 'Ranged_icon' },
+        {
+          label: 'Ranged str',
+          value: bonus(v.offence.rangedStrength),
+          icon: 'Ranged_Strength_icon',
+        },
+      ],
+    ],
+    [
+      'Defensive',
+      [
+        { label: 'Stab', value: bonus(v.defence.stab), icon: 'White_dagger' },
+        { label: 'Slash', value: bonus(v.defence.slash), icon: 'White_scimitar' },
+        { label: 'Crush', value: bonus(v.defence.crush), icon: 'White_warhammer' },
+        { label: 'Magic', value: bonus(v.defence.magic), icon: 'Magic_defence_icon' },
+        {
+          label: weakness?.element ?? 'Weakness',
+          value: weakness && (weakness.percent !== null ? `${weakness.percent}%` : 'Weak'),
+          icon: weakness ? RUNES[weakness.element] : undefined,
+          strong: true,
+        },
+        { label: 'Light', value: bonus(v.defence.lightRanged), icon: 'Steel_dart' },
+        { label: 'Standard', value: bonus(v.defence.standardRanged), icon: 'Steel_arrow_5' },
+        { label: 'Heavy', value: bonus(v.defence.heavyRanged), icon: 'Steel_bolts_5' },
+      ],
+    ],
+    [
+      'Info',
+      [
+        { label: 'Size', value: size.join(', ') || null },
+        {
+          label: 'Slayer level',
+          value: v.slayerLevel ?? monster.slayerLevel,
+          icon: 'Slayer_icon',
+        },
+        { label: 'Slayer XP', value: v.slayerXp, icon: 'Antique_lamp' },
+        { label: 'Poison', value: v.immunities.poison, strong: isImmune(v.immunities.poison) },
+        { label: 'Venom', value: v.immunities.venom, strong: isImmune(v.immunities.venom) },
+        { label: 'Cannon', value: immunity(v.immunities.cannon), strong: !!v.immunities.cannon },
+        { label: 'Thrall', value: immunity(v.immunities.thrall), strong: !!v.immunities.thrall },
+        { label: 'Burn', value: v.immunities.burn, strong: isImmune(v.immunities.burn) },
+        {
+          label: 'Freeze',
+          value: v.immunities.freeze !== null ? `${v.immunities.freeze}%` : null,
+          strong: v.immunities.freeze === 100,
+        },
+      ],
+    ],
+  ];
+}
+
+/** A titled panel of stat rows: icon, label, and the value on the right. */
+function StatPanel({ title, rows }: { title: string; rows: StatRow[] }) {
+  const shown = rows.filter((r) => r.value !== null && r.value !== '');
+  if (shown.length === 0) return null;
+  const id = `stats-${title.toLowerCase()}`;
   return (
-    <TableContainer>
-      <Table size="small" aria-label={label}>
-        <TableHead>
-          <TableRow>
-            {columns.map(([heading]) => (
-              <TableCell key={heading} align="center">
-                {heading}
-              </TableCell>
-            ))}
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          <TableRow>
-            {columns.map(([heading, value]) => (
-              <TableCell key={heading} align="center">
-                {show(value)}
-              </TableCell>
-            ))}
-          </TableRow>
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <Box
+      component="section"
+      aria-labelledby={id}
+      sx={{ border: 1, borderColor: 'divider', borderRadius: 2, p: 1.5 }}
+    >
+      <Typography id={id} variant="subtitle2" component="h2" sx={{ mb: 1 }}>
+        {title}
+      </Typography>
+      <Box component="dl" sx={{ m: 0, display: 'grid', rowGap: 0.5 }}>
+        {shown.map((row) => (
+          <Box key={row.label} sx={{ display: 'flex', alignItems: 'flex-start', gap: 1 }}>
+            <Box
+              component="dt"
+              sx={{ display: 'flex', alignItems: 'center', gap: 1, flexShrink: 0 }}
+            >
+              <Box sx={{ width: 20, display: 'grid', placeItems: 'center' }}>
+                {row.icon && (
+                  <Box
+                    component="img"
+                    src={`${ICONS}${row.icon}.png`}
+                    alt=""
+                    sx={{ maxWidth: 20, maxHeight: 20 }}
+                  />
+                )}
+              </Box>
+              <Typography variant="body2" color="text.secondary">
+                {row.label}
+              </Typography>
+            </Box>
+            <Typography
+              component="dd"
+              variant="body2"
+              sx={{
+                m: 0,
+                ml: 'auto',
+                textAlign: 'right',
+                whiteSpace: 'pre-line',
+                fontWeight: 500,
+                color: row.strong ? 'error.main' : undefined,
+              }}
+            >
+              {row.value}
+            </Typography>
+          </Box>
+        ))}
+      </Box>
+    </Box>
   );
 }
 
@@ -212,6 +313,11 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
         <Box>
           <Typography variant="h4" component="h1">
             {monster.page}
+            {version?.combatLevel != null && (
+              <Typography component="span" variant="h6" color="error.main" sx={{ ml: 1 }}>
+                (level {version.combatLevel})
+              </Typography>
+            )}
           </Typography>
           <SuperiorLinks monster={monster} catalog={catalog} category={category?.slug} />
         </Box>
@@ -232,56 +338,17 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
       )}
 
       {version && (
-        <>
-          <Box
-            component="dl"
-            sx={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))',
-              gap: 2,
-              m: 0,
-            }}
-          >
-            {stats(version).map(([label, value]) => (
-              <Box key={label}>
-                <Typography component="dt" variant="body2" color="text.secondary">
-                  {label}
-                </Typography>
-                <Typography component="dd" sx={{ m: 0, fontWeight: 500 }}>
-                  {value}
-                </Typography>
-              </Box>
-            ))}
-          </Box>
-
-          <Section title="Levels">
-            <NumberTable
-              label="Levels"
-              columns={[
-                ['Attack', version.levels.attack],
-                ['Strength', version.levels.strength],
-                ['Defence', version.levels.defence],
-                ['Magic', version.levels.magic],
-                ['Ranged', version.levels.ranged],
-              ]}
-            />
-          </Section>
-
-          <Section title="Defence">
-            <NumberTable
-              label="Defence bonuses"
-              columns={[
-                ['Stab', version.defence.stab],
-                ['Slash', version.defence.slash],
-                ['Crush', version.defence.crush],
-                ['Magic', version.defence.magic],
-                ['Light', version.defence.lightRanged],
-                ['Standard', version.defence.standardRanged],
-                ['Heavy', version.defence.heavyRanged],
-              ]}
-            />
-          </Section>
-        </>
+        <Box
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+            gap: 1.5,
+          }}
+        >
+          {panels(version, monster).map(([title, rows]) => (
+            <StatPanel key={title} title={title} rows={rows} />
+          ))}
+        </Box>
       )}
 
       <Section title="Drops">
