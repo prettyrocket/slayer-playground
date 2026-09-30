@@ -1,6 +1,9 @@
+import SearchIcon from '@mui/icons-material/Search';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
+import InputAdornment from '@mui/material/InputAdornment';
+import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
 import { Link, useSearchParams } from 'react-router';
@@ -47,22 +50,43 @@ function MasterCards() {
 }
 
 /**
- * / — find your task: masters and every task, or the results of the app bar
- * search, which lives in the URL (`?q=`) so a search can be linked.
+ * / — find your task. The search lives in the URL (`?q=`), so a search can be
+ * linked and survives a reload; typing replaces the history entry instead of
+ * adding one per keystroke.
  */
 export function HomePage() {
-  const [params] = useSearchParams();
+  const [params, setParams] = useSearchParams();
   const query = params.get('q') ?? '';
+  const setQuery = (q: string) => setParams(q ? { q } : {}, { replace: true });
 
   return (
     <>
-      <Typography
-        variant="h3"
-        component="h1"
-        sx={{ fontWeight: 700, textAlign: 'center', my: { xs: 2, sm: 4 } }}
-      >
-        What&apos;s your Slayer task?
-      </Typography>
+      <Box component="section" sx={{ textAlign: 'center', py: { xs: 2, sm: 4 } }}>
+        <Typography variant="h3" component="h1" sx={{ fontWeight: 700, mb: 3 }}>
+          What&apos;s your Slayer task?
+        </Typography>
+        <TextField
+          type="search"
+          label="Search tasks"
+          placeholder="A task or monster: abyssal demons, kalphites, Vorkath…"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          fullWidth
+          slotProps={{
+            input: {
+              startAdornment: (
+                <InputAdornment position="start">
+                  <SearchIcon />
+                </InputAdornment>
+              ),
+            },
+          }}
+          sx={{
+            maxWidth: 560,
+            '& .MuiInputBase-root': { borderRadius: 3, bgcolor: 'background.paper' },
+          }}
+        />
+      </Box>
       {/* While searching, only the results matter. */}
       {!query && (
         <Box component="section" sx={{ mb: 4 }}>

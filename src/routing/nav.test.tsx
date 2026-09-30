@@ -1,5 +1,5 @@
 import { screen, within } from '@testing-library/react';
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
@@ -127,32 +127,26 @@ describe('side nav', () => {
     );
   });
 
-  it('has no filter of its own; search is in the app bar', async () => {
-    renderRoute('/about');
+  it('filters the category list', async () => {
+    const { user } = renderRoute('/about');
     const side = screen.getByRole('navigation', { name: 'Browse' });
     await within(side).findByRole('link', { name: 'Abyssal demons' });
-    expect(within(side).queryByRole('searchbox')).not.toBeInTheDocument();
+    await user.click(within(side).getByRole('button', { name: 'Filter categories' }));
+    await user.type(within(side).getByRole('searchbox', { name: 'Filter categories' }), 'dust');
+    expect(within(side).getByRole('link', { name: 'Dust devils' })).toBeInTheDocument();
+    expect(within(side).queryByRole('link', { name: 'Abyssal demons' })).not.toBeInTheDocument();
+    // The filter fills the rest of the heading row; the Categories link stays.
     expect(within(side).getByRole('link', { name: 'Categories' })).toBeInTheDocument();
   });
-});
 
-describe('app bar search', () => {
-  it('searches from any page, showing results on Home', async () => {
-    const { user, router } = renderRoute('/monsters/cow');
-    const search = within(screen.getByRole('search')).getByRole('searchbox', {
-      name: 'Search tasks',
-    });
-    await user.type(search, 'sire');
-    expect(router.state.location.pathname).toBe('/');
-    expect(router.state.location.search).toBe('?q=sire');
-    expect(search).toHaveValue('sire');
-    expect(
-      await within(screen.getByRole('main')).findByRole('list', { name: 'Categories' }),
-    ).toHaveTextContent('Abyssal demons');
-
-    // One history entry for the whole search, so Back returns to the monster.
-    router.navigate(-1);
-    await vi.waitFor(() => expect(router.state.location.pathname).toBe('/monsters/cow'));
-    await vi.waitFor(() => expect(search).toHaveValue(''));
+  it('turns the filter back into the Categories heading and clears it on Escape', async () => {
+    const { user } = renderRoute('/about');
+    const side = screen.getByRole('navigation', { name: 'Browse' });
+    await within(side).findByRole('link', { name: 'Abyssal demons' });
+    await user.click(within(side).getByRole('button', { name: 'Filter categories' }));
+    await user.type(within(side).getByRole('searchbox', { name: 'Filter categories' }), 'dust');
+    await user.keyboard('{Escape}');
+    expect(within(side).getByRole('link', { name: 'Categories' })).toBeInTheDocument();
+    expect(within(side).getByRole('link', { name: 'Abyssal demons' })).toBeInTheDocument();
   });
 });

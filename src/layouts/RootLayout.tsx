@@ -13,7 +13,6 @@ import Typography from '@mui/material/Typography';
 
 import { Link, Outlet, useLocation } from 'react-router';
 
-import { AppBarSearch } from '@/components/AppBarSearch';
 import { ColorModeToggle } from '@/components/ColorModeToggle';
 import { LocationBreadcrumbs } from '@/components/LocationBreadcrumbs';
 import { SideNav } from '@/components/SideNav';
@@ -45,7 +44,7 @@ export function RootLayout() {
           >
             {import.meta.env.VITE_APP_TITLE}
           </Typography>
-          <Stack component="nav" direction="row" spacing={1} sx={{ flexShrink: 0 }}>
+          <Stack component="nav" direction="row" spacing={1} sx={{ flexGrow: 1 }}>
             {navItems.map(({ to, label }) => {
               const active = pathname === to;
               return (
@@ -67,11 +66,6 @@ export function RootLayout() {
               );
             })}
           </Stack>
-          <Box
-            sx={{ flexGrow: 1, minWidth: 0, display: 'flex', justifyContent: 'flex-end', mx: 1 }}
-          >
-            <AppBarSearch />
-          </Box>
           <ColorModeToggle />
         </Toolbar>
       </AppBar>
