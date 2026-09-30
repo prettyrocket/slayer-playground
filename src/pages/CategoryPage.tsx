@@ -17,6 +17,7 @@ import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconTile } from '@/components/IconCard';
 import { MasterCards } from '@/components/MasterCards';
 import { type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
+import { neededItems, protectFrom } from '@/data/combat';
 import type { Monster } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { monsterPath } from '@/routing/paths';
@@ -30,28 +31,9 @@ function combatRange(monster: Monster): [number, number] | null {
 const range = (r: [number, number] | null) =>
   !r ? '—' : r[0] === r[1] ? `${r[0]}` : `${r[0]}–${r[1]}`;
 
-// Attack styles folded into what you'd pray against; anything else (Dragonfire) as written.
-const PRAYER: Record<string, string> = {
-  stab: 'Melee',
-  slash: 'Melee',
-  crush: 'Melee',
-  melee: 'Melee',
-  magic: 'Magic',
-  ranged: 'Ranged',
-};
-function attacks(monster: Monster): string {
-  const styles = monster.versions[0]?.attackStyles ?? [];
-  const folded = styles.map((s) => PRAYER[s.toLowerCase()] ?? s);
-  return [...new Set(folded)].join(', ') || '—';
-}
-
-/** Items the category's equipment list ties to this monster ("Earmuffs"), or "—". */
+/** Items the category's equipment list ties to this monster ("Earmuffs", "Leaf-bladed spear +4"). */
 function needs(category: Category, monster: Monster): string {
-  const items = [
-    ...new Set(
-      category.equipment.filter((e) => e.monsters.includes(monster.slug)).map((e) => e.item),
-    ),
-  ];
+  const items = neededItems([category], monster);
   if (items.length === 0) return '—';
   return items.length > 1 ? `${items[0]} +${items.length - 1}` : items[0];
 }
@@ -94,7 +76,7 @@ const COLUMNS: Column[] = [
     descending: true,
   },
   { key: 'maxhit', label: 'Max hit', cell: (m) => m.versions[0]?.maxHit.join(', ') || '—' },
-  { key: 'attacks', label: 'Attacks', cell: attacks },
+  { key: 'attacks', label: 'Attacks', cell: (m) => protectFrom(m.versions[0]) ?? '—' },
 ];
 
 /**
