@@ -90,11 +90,19 @@ export function CategoryList({
             : `${plural(results.length, ...noun)} match${results.length === 1 ? 'es' : ''} “${query}”`}
       </Typography>
       {browsing && (
-        // Every letter, so the row never shifts; ones with no tasks are greyed out.
+        // Every letter, so the row never shifts; ones with no tasks are greyed out. One
+        // line: the letters share the width, and a phone too narrow for them scrolls it.
         <Box
           component="nav"
           aria-label="Jump to letter"
-          sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 1, mb: 3 }}
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: `repeat(${ALPHABET.length}, minmax(24px, 1fr))`,
+            gap: 0.5,
+            overflowX: 'auto',
+            mt: 1,
+            mb: 3,
+          }}
         >
           {ALPHABET.map((letter) => (
             <Button
@@ -111,7 +119,7 @@ export function CategoryList({
               }
               sx={{
                 minWidth: 0,
-                width: 32,
+                width: '100%',
                 height: 32,
                 p: 0,
                 borderColor: 'divider',
