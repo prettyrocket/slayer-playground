@@ -24,11 +24,17 @@ describe('HomePage', () => {
     expect(screen.getByRole('heading', { level: 3, name: 'D' })).toBeInTheDocument();
 
     const letters = screen.getByRole('navigation', { name: 'Jump to letter' });
-    expect(
-      within(letters)
-        .getAllByRole('button')
-        .map((b) => b.textContent),
-    ).toEqual(['A', 'B', 'C', 'D', 'W']);
+    const buttons = within(letters).getAllByRole('button');
+    // Every letter; only the ones with tasks are enabled.
+    expect(buttons).toHaveLength(26);
+    expect(buttons.filter((b) => !b.hasAttribute('disabled')).map((b) => b.textContent)).toEqual([
+      'A',
+      'B',
+      'C',
+      'D',
+      'W',
+    ]);
+    expect(within(letters).getByRole('button', { name: 'Jump to E' })).toBeDisabled();
     // Jumping scrolls without changing the URL (jsdom can't scroll; it mustn't throw).
     await user.click(within(letters).getByRole('button', { name: 'Jump to D' }));
   });

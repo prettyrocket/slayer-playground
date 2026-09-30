@@ -27,6 +27,8 @@ const plural = (n: number, word: string, words = `${word}s`) => `${n} ${n === 1 
 
 const letterId = (letter: string) => `tasks-${letter.toLowerCase()}`;
 
+const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+
 function CategoryCard({ result }: { result: SearchResult }) {
   const { category } = result;
   const why = reason(result);
@@ -75,44 +77,53 @@ export function CategoryList({
 
   const results = searchCategories(catalog, query);
   const browsing = query.trim() === '';
-  const letters = [...new Set(results.map((r) => r.category.name[0].toUpperCase()))];
+  const present = new Set(results.map((r) => r.category.name[0].toUpperCase()));
 
   return (
     <>
-      <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 1, mt: 1, mb: 2 }}>
-        {/* Empty while browsing; kept in place so screen readers announce search results. */}
-        <Typography role="status" color="text.secondary" sx={{ flexGrow: 1 }}>
-          {browsing
-            ? null
-            : results.length === 0
-              ? `No ${noun[1]} match “${query}”.`
-              : `${plural(results.length, ...noun)} match${results.length === 1 ? 'es' : ''} “${query}”`}
-        </Typography>
-        {browsing && (
-          <Box
-            component="nav"
-            aria-label="Jump to letter"
-            sx={{ display: 'flex', flexWrap: 'wrap' }}
-          >
-            {letters.map((letter) => (
-              <Button
-                key={letter}
-                size="small"
-                aria-label={`Jump to ${letter}`}
-                // Scroll without touching the URL, which holds the search.
-                onClick={() =>
-                  document
-                    .getElementById(letterId(letter))
-                    ?.scrollIntoView?.({ behavior: 'smooth', block: 'start' })
-                }
-                sx={{ minWidth: 28, px: 0.5 }}
-              >
-                {letter}
-              </Button>
-            ))}
-          </Box>
-        )}
-      </Box>
+      {/* Empty while browsing; kept in place so screen readers announce search results. */}
+      <Typography role="status" color="text.secondary" sx={{ my: browsing ? 0 : 1.5 }}>
+        {browsing
+          ? null
+          : results.length === 0
+            ? `No ${noun[1]} match “${query}”.`
+            : `${plural(results.length, ...noun)} match${results.length === 1 ? 'es' : ''} “${query}”`}
+      </Typography>
+      {browsing && (
+        // Every letter, so the row never shifts; ones with no tasks are greyed out.
+        <Box
+          component="nav"
+          aria-label="Jump to letter"
+          sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 1, mb: 3 }}
+        >
+          {ALPHABET.map((letter) => (
+            <Button
+              key={letter}
+              variant="outlined"
+              color="inherit"
+              disabled={!present.has(letter)}
+              aria-label={`Jump to ${letter}`}
+              // Scroll without touching the URL, which holds the search.
+              onClick={() =>
+                document
+                  .getElementById(letterId(letter))
+                  ?.scrollIntoView?.({ behavior: 'smooth', block: 'start' })
+              }
+              sx={{
+                minWidth: 0,
+                width: 32,
+                height: 32,
+                p: 0,
+                borderColor: 'divider',
+                color: 'text.secondary',
+                '&:hover': { color: 'text.primary', borderColor: 'text.secondary' },
+              }}
+            >
+              {letter}
+            </Button>
+          ))}
+        </Box>
+      )}
       {results.length > 0 && (
         <Box
           component="ul"
