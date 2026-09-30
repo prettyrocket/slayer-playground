@@ -1,5 +1,9 @@
 import { type ReactNode, useState } from 'react';
 
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
 import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
@@ -19,6 +23,7 @@ import { Link as RouterLink, useParams } from 'react-router';
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconCard, IconTile } from '@/components/IconCard';
 import { type Catalog, categorySlug, findCategory, findMonster, useCatalog } from '@/data/catalog';
+import { neededItems, protectFrom } from '@/data/combat';
 import { useDrops } from '@/data/drops';
 import type { Drop, Monster, MonsterVersion } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
@@ -130,6 +135,32 @@ function panels(v: MonsterVersion, monster: Monster): [string, StatRow[]][] {
         },
       ],
     ],
+  ];
+}
+
+/**
+ * What to know before fighting it: the prayer, max hit, weakness, the items it
+ * needs, its Slayer level, and only the immunities that apply.
+ */
+function fightRows(v: MonsterVersion, monster: Monster, catalog: Catalog): StatRow[] {
+  const weakness = v.weakness;
+  const immune = (label: string, value: boolean) =>
+    value ? [{ label, value: 'Immune', strong: true }] : [];
+  return [
+    { label: 'Protect from', value: protectFrom(v) },
+    { label: 'Max hit', value: v.maxHit.join('\n') || null },
+    {
+      label: weakness ? `Weak to ${weakness.element.toLowerCase()}` : 'Weakness',
+      value: weakness && (weakness.percent !== null ? `${weakness.percent}%` : 'Yes'),
+      icon: weakness ? RUNES[weakness.element] : undefined,
+    },
+    { label: 'Needs', value: neededItems(catalog.categories, monster).join(', ') || null },
+    { label: 'Slayer level', value: v.slayerLevel ?? monster.slayerLevel, icon: 'Slayer_icon' },
+    ...immune('Cannon', !!v.immunities.cannon),
+    ...immune('Thralls', !!v.immunities.thrall),
+    ...immune('Poison', isImmune(v.immunities.poison)),
+    ...immune('Venom', isImmune(v.immunities.venom)),
+    ...immune('Freeze', v.immunities.freeze === 100),
   ];
 }
 
@@ -337,23 +368,38 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
         </Tabs>
       )}
 
-      {version && (
-        <Box
-          sx={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-            gap: 1.5,
-          }}
-        >
-          {panels(version, monster).map(([title, rows]) => (
-            <StatPanel key={title} title={title} rows={rows} />
-          ))}
-        </Box>
-      )}
+      {version && <StatPanel title="Fight" rows={fightRows(version, monster, catalog)} />}
 
       <Section title="Drops">
         <Drops monster={monster} version={version?.version ?? null} />
       </Section>
+
+      {version && (
+        <Accordion
+          disableGutters
+          variant="outlined"
+          sx={{ mt: 4, borderRadius: 2, '&::before': { display: 'none' } }}
+        >
+          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+            <Typography variant="subtitle1" component="h2" sx={{ fontWeight: 500 }}>
+              All stats
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Box
+              sx={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+                gap: 1.5,
+              }}
+            >
+              {panels(version, monster).map(([title, rows]) => (
+                <StatPanel key={title} title={title} rows={rows} />
+              ))}
+            </Box>
+          </AccordionDetails>
+        </Accordion>
+      )}
 
       <Section title="Counts for">
         <Box

@@ -31,8 +31,24 @@ async function rows(name: string) {
 }
 
 describe('MonsterPage', () => {
-  it("shows the default version's stats in panels, leaving out the missing ones", async () => {
+  it('leads with what matters for the fight', async () => {
     renderRoute('/monsters/abyssal-demon');
+    await screen.findByRole('region', { name: 'Fight' });
+    expect(panel('Fight')).toEqual({
+      'Protect from': 'Melee',
+      'Max hit': '8',
+      'Weak to fire': '20%',
+      'Slayer level': '85',
+      // Only immunities that apply: thralls, not the cannon.
+      Thralls: 'Immune',
+    });
+    // The full stats wait behind "All stats".
+    expect(screen.queryByRole('region', { name: 'Combat' })).not.toBeInTheDocument();
+  });
+
+  it("shows the default version's full stats in panels, leaving out the missing ones", async () => {
+    const { user } = renderRoute('/monsters/abyssal-demon');
+    await user.click(await screen.findByRole('button', { name: 'All stats' }));
     const heading = await screen.findByRole('heading', { level: 1, name: /^Abyssal demon/ });
     expect(heading).toHaveTextContent('(level 124)');
     expect(panel('Combat')).toEqual({
@@ -97,9 +113,8 @@ describe('MonsterPage', () => {
     await rows('Abyssal demon drops');
     const versions = screen.getByRole('tablist', { name: 'Versions' });
     await user.click(within(versions).getByRole('tab', { name: 'Catacombs of Kourend' }));
-    // This version has only hitpoints (and the monster's Slayer level).
-    expect(panel('Combat')).toEqual({ Hitpoints: '150' });
-    expect(screen.queryByRole('region', { name: 'Defensive' })).not.toBeInTheDocument();
+    // This version has only hitpoints; the Slayer level is the monster's.
+    expect(panel('Fight')).toEqual({ 'Slayer level': '85' });
     expect(await rows('Abyssal demon drops')).toEqual([['Ancient shard', '1', '1/233']]);
   });
 
