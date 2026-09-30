@@ -76,18 +76,20 @@ describe('HomePage', () => {
     expect(router.state.location.search).toBe('');
   });
 
-  it('links to every Slayer master, with how many tasks they give', async () => {
+  it('links to every Slayer master, with their picture', async () => {
     const { user, router } = renderRoute('/');
     const masters = screen.getByRole('navigation', { name: 'Slayer masters' });
-    expect(within(masters).getAllByRole('link')).toHaveLength(10);
-    // Counts appear once the catalog loads.
-    await within(masters).findByText('3 tasks');
-    expect(within(masters).getByRole('link', { name: /^Duradel/ })).toHaveTextContent(
-      'Duradel3 tasks',
-    );
-    expect(within(masters).getByRole('link', { name: /^Krystilia/ })).toHaveTextContent('1 task');
+    const links = within(masters).getAllByRole('link');
+    expect(links).toHaveLength(10);
+    // Names only: no alternates (Nieve's is a quest spoiler).
+    expect(links.map((l) => l.textContent)).toContain('Nieve');
+    expect(
+      within(masters)
+        .getByRole('link', { name: 'Duradel' })
+        .querySelector('img[src="/data/icons/masters/duradel.png"]'),
+    ).not.toBeNull();
 
-    await user.click(within(masters).getByRole('link', { name: /^Duradel/ }));
+    await user.click(within(masters).getByRole('link', { name: 'Duradel' }));
     expect(router.state.location.pathname).toBe('/masters/duradel');
   });
 });

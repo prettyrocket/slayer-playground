@@ -5,6 +5,7 @@ import type { Monster, SlayerCategory } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { resolveCategory } from './build-categories.ts';
 import { writeFile } from './files.ts';
+import { MASTER_PAGES } from './masters.ts';
 import { pageKey } from './normalize.ts';
 import { fetchImageUrls, fetchSlayerIcons } from './sources.ts';
 
@@ -136,9 +137,34 @@ export async function syncIcons(
     written.add(name);
     category.icon = `icons/${name}`;
   }
-  for (const name of await readdir(dir)) {
-    if (!written.has(name)) await rm(path.join(dir, name));
+  // Files only: icons/masters/ is the masters' (syncMasterIcons).
+  for (const entry of await readdir(dir, { withFileTypes: true })) {
+    if (entry.isFile() && !written.has(entry.name)) await rm(path.join(dir, entry.name));
   }
   console.log(`  ${written.size} of ${categories.length} categories have an icon`);
+  return warnings;
+}
+
+/**
+ * Downloads each master's chathead (their dialogue portrait) to
+ * public/data/icons/masters/<key>.png, where the app looks for it.
+ */
+export async function syncMasterIcons(client: WikiClient, dataDir: string): Promise<string[]> {
+  const warnings: string[] = [];
+  const title = (name: string) => `File:${name} chathead.png`;
+  const urls = await fetchImageUrls(
+    client,
+    MASTER_PAGES.map((m) => title(m.name)),
+    ICON_WIDTH,
+  );
+  const dir = path.join(dataDir, 'icons', 'masters');
+  for (const { key, name } of MASTER_PAGES) {
+    const url = urls.get(title(name));
+    if (!url || !/\.png$/i.test(new URL(url).pathname)) {
+      warnings.push(`No PNG chathead for ${name}`);
+      continue;
+    }
+    await writeFile(path.join(dir, `${key}.png`), await client.download(url));
+  }
   return warnings;
 }

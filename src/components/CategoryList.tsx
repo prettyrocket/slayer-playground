@@ -1,13 +1,10 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
 import Typography from '@mui/material/Typography';
 
-import { Link } from 'react-router';
-
 import { CatalogStatus } from '@/components/CatalogStatus';
-import { type Category, useCatalog } from '@/data/catalog';
+import { IconCard } from '@/components/IconCard';
+import { useCatalog } from '@/data/catalog';
 import { searchCategories } from '@/data/search';
 import { categoryPath } from '@/routing/paths';
 
@@ -16,64 +13,6 @@ const plural = (n: number, word: string, words = `${word}s`) => `${n} ${n === 1 
 const letterId = (letter: string) => `tasks-${letter.toLowerCase()}`;
 
 const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
-
-// Synced data, including category icons (public/data/icons).
-const DATA_URL = `${import.meta.env.BASE_URL}data/`;
-
-/** A task card: its picture, then its name, left-aligned. */
-function CategoryCard({ category }: { category: Category }) {
-  return (
-    <Card component="li" variant="outlined">
-      <CardActionArea
-        component={Link}
-        to={categoryPath(category.slug)}
-        // ButtonBase centres its content; cards read from the left.
-        sx={{
-          height: '100%',
-          p: 1.5,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-start',
-          textAlign: 'left',
-          gap: 1.5,
-        }}
-      >
-        <Box
-          aria-hidden
-          sx={{
-            width: 48,
-            height: 48,
-            flexShrink: 0,
-            borderRadius: 1.5,
-            bgcolor: 'action.hover',
-            display: 'grid',
-            placeItems: 'center',
-            overflow: 'hidden',
-            color: 'text.secondary',
-            fontWeight: 600,
-          }}
-        >
-          {category.icon ? (
-            // In-game icons are about 20-30px and stay at their own size; renders
-            // (up to 64px) shrink to fit.
-            <Box
-              component="img"
-              src={`${DATA_URL}${category.icon}`}
-              alt=""
-              loading="lazy"
-              sx={{ maxWidth: 40, maxHeight: 40, objectFit: 'contain' }}
-            />
-          ) : (
-            category.name[0]
-          )}
-        </Box>
-        <Typography component="span" sx={{ fontWeight: 600, lineHeight: 1.3 }}>
-          {category.name}
-        </Typography>
-      </CardActionArea>
-    </Card>
-  );
-}
 
 /**
  * Every category matching `query` (by name, alias or monster; see
@@ -179,7 +118,12 @@ export function CategoryList({
                   </Typography>
                 </Box>
               ),
-              <CategoryCard key={result.category.slug} category={result.category} />,
+              <IconCard
+                key={result.category.slug}
+                to={categoryPath(result.category.slug)}
+                name={result.category.name}
+                icon={result.category.icon}
+              />,
             ];
           })}
         </Box>

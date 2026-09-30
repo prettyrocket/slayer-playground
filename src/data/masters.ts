@@ -5,7 +5,7 @@ export interface Master {
   name: string;
 }
 
-// masters.json has these names (and alternates like Steve), but navigation
+// masters.json has these names too (and alternate masters, which we don't show: some are quest spoilers), but navigation
 // reads them synchronously; they move there with the data layer (#10).
 const MASTER_NAMES: Record<MasterKey, string> = {
   turael: 'Turael',
@@ -14,7 +14,7 @@ const MASTER_NAMES: Record<MasterKey, string> = {
   vannaka: 'Vannaka',
   chaeldar: 'Chaeldar',
   konar: 'Konar quo Maten',
-  nieve: 'Nieve / Steve',
+  nieve: 'Nieve',
   duradel: 'Duradel',
   krystilia: 'Krystilia',
   mortimer: 'Mortimer',

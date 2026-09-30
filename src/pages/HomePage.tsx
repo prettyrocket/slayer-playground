@@ -1,49 +1,39 @@
 import SearchIcon from '@mui/icons-material/Search';
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
 import InputAdornment from '@mui/material/InputAdornment';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
-import { Link, useSearchParams } from 'react-router';
+import { useSearchParams } from 'react-router';
 
 import { CategoryList } from '@/components/CategoryList';
-import { useCatalog } from '@/data/catalog';
+import { IconCard } from '@/components/IconCard';
 import { getMasters } from '@/data/masters';
 import { masterPath } from '@/routing/paths';
 
-/** One card per master, with how many tasks they give once the catalog is loaded. */
+/** One card per master: their chathead (synced to public/data/icons/masters) and name. */
 function MasterCards() {
-  const { data: catalog } = useCatalog();
   return (
     <Box component="nav" aria-label="Slayer masters">
       <Box
         component="ul"
         sx={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))',
-          gap: 1,
+          gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+          gap: 1.5,
           listStyle: 'none',
           p: 0,
           m: 0,
         }}
       >
-        {getMasters().map((master) => {
-          const tasks = catalog?.categories.filter((c) => c.masters.includes(master.key)).length;
-          return (
-            <Card component="li" variant="outlined" key={master.key}>
-              <CardActionArea component={Link} to={masterPath(master.key)} sx={{ px: 1.5, py: 1 }}>
-                <Typography component="span" sx={{ display: 'block', fontWeight: 600 }} noWrap>
-                  {master.name}
-                </Typography>
-                <Typography variant="caption" color="text.secondary">
-                  {tasks === undefined ? ' ' : `${tasks} task${tasks === 1 ? '' : 's'}`}
-                </Typography>
-              </CardActionArea>
-            </Card>
-          );
-        })}
+        {getMasters().map((master) => (
+          <IconCard
+            key={master.key}
+            to={masterPath(master.key)}
+            name={master.name}
+            icon={`icons/masters/${master.key}.png`}
+          />
+        ))}
       </Box>
     </Box>
   );
