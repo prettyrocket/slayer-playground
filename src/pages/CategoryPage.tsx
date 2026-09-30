@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-import CheckIcon from '@mui/icons-material/Check';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Table from '@mui/material/Table';
@@ -16,11 +15,11 @@ import { Link as RouterLink, useParams } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconTile } from '@/components/IconCard';
+import { MasterCards } from '@/components/MasterCards';
 import { findCategory, findMonster, useCatalog } from '@/data/catalog';
-import { getMaster, masterIcon, useMastersFile } from '@/data/masters';
-import type { MasterKey, Monster } from '@/data/types';
+import type { Monster } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
-import { masterPath, monsterPath } from '@/routing/paths';
+import { monsterPath } from '@/routing/paths';
 import { useNavLocation } from '@/routing/useNavLocation';
 
 /** Combat level across a monster's versions: "124", or "21–84" when they differ. */
@@ -36,26 +35,17 @@ type SortBy = 'monster' | 'combat';
 /**
  * /categories/:slug — "I got this task, which monster do I kill?": one row per
  * monster that counts (superiors show on their base monster's row), with its
- * combat and Slayer level, and a column per master who assigns the task,
- * checked where that master's task counts the monster.
+ * combat and Slayer level; then the masters who assign it (the others, when
+ * the user came from one).
  */
 export function CategoryPage() {
   const { slug = '' } = useParams();
   const { data: catalog } = useCatalog();
-  const { data: masters } = useMastersFile();
   const { master: current } = useNavLocation();
   const [sortBy, setSortBy] = useState<SortBy>('monster');
   if (!catalog) return <CatalogStatus />;
   const category = findCategory(catalog, slug);
   if (!category) return <NotFoundPage />;
-
-  const key = category.name.toLowerCase();
-  // Monsters a master's task doesn't count, e.g. the King Black Dragon for Krystilia.
-  const excluded = (master: MasterKey, monster: Monster) =>
-    masters?.masters
-      .find((m) => m.key === master)
-      ?.assignments.find((a) => a.category === key)
-      ?.excludes.includes(monster.slug) ?? false;
 
   const rows = category.monsters
     .filter((m) => m.superiorOf.length === 0)
@@ -67,8 +57,7 @@ export function CategoryPage() {
       return a.page.localeCompare(b.page);
     });
   const hasSuperiors = rows.some((m) => m.superior);
-  const highlight = (master: MasterKey) =>
-    master === current?.key ? { bgcolor: 'action.selected' } : undefined;
+  const others = category.masters.filter((key) => key !== current?.key);
 
   return (
     <>
@@ -100,21 +89,6 @@ export function CategoryPage() {
               </TableCell>
               <TableCell align="right">Slayer</TableCell>
               {hasSuperiors && <TableCell>Superior</TableCell>}
-              {category.masters.map((master) => {
-                const name = getMaster(master)?.name ?? master;
-                return (
-                  <TableCell key={master} align="center" title={name} sx={highlight(master)}>
-                    <Link
-                      component={RouterLink}
-                      to={masterPath(master)}
-                      aria-label={name}
-                      sx={{ display: 'inline-flex' }}
-                    >
-                      <IconTile icon={masterIcon(master)} name={name} size={32} />
-                    </Link>
-                  </TableCell>
-                );
-              })}
             </TableRow>
           </TableHead>
           <TableBody>
@@ -155,26 +129,21 @@ export function CategoryPage() {
                       )}
                     </TableCell>
                   )}
-                  {category.masters.map((master) => (
-                    <TableCell key={master} align="center" sx={highlight(master)}>
-                      {!excluded(master, monster) && (
-                        <Link
-                          component={RouterLink}
-                          to={monsterPath(monster.slug, category.slug, master)}
-                          aria-label={`${monster.page} for ${getMaster(master)?.name ?? master}`}
-                          sx={{ display: 'inline-flex' }}
-                        >
-                          <CheckIcon fontSize="small" />
-                        </Link>
-                      )}
-                    </TableCell>
-                  ))}
                 </TableRow>
               );
             })}
           </TableBody>
         </Table>
       </TableContainer>
+
+      {others.length > 0 && (
+        <Box component="section" sx={{ mt: 4 }}>
+          <Typography variant="h6" component="h2" sx={{ mb: 1.5 }}>
+            {current ? 'Also assigned by' : 'Assigned by'}
+          </Typography>
+          <MasterCards only={others} label={current ? 'Also assigned by' : 'Assigned by'} />
+        </Box>
+      )}
     </>
   );
 }

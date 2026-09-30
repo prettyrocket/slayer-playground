@@ -142,10 +142,7 @@ export const mastersFixture: MastersFile = {
       page: 'Vannaka',
       alternates: [],
       totalWeight: 5,
-      // Not the real table: an exclusion to test with.
-      assignments: [
-        assignment('abyssal demons', 5, { amount: [40, 90], excludes: ['abyssal-sire'] }),
-      ],
+      assignments: [assignment('abyssal demons', 5, { amount: [40, 90] })],
     },
     {
       key: 'duradel',
