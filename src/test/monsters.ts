@@ -1,4 +1,10 @@
-import type { MasterKey, Monster, MonstersFile } from '@/data/types';
+import type {
+  CategoriesFile,
+  MasterKey,
+  Monster,
+  MonstersFile,
+  SlayerCategory,
+} from '@/data/types';
 
 /** A monster with just what navigation reads; everything else empty. */
 function monster(slug: string, page: string, categories: string[], assignedBy: MasterKey[]) {
@@ -11,13 +17,15 @@ function monster(slug: string, page: string, categories: string[], assignedBy: M
     taskOnly: false,
     members: true,
     hasDrops: false,
+    superior: null,
+    superiorOf: [],
     versions: [],
   } satisfies Monster;
 }
 
 /**
  * Served for data/monsters.json in tests (see setup.ts). The Sire is in two
- * categories, Mortimer assigns nothing, and Vannaka assigns only some.
+ * categories, and its assignedBy lists Vannaka, who assigns only one of them.
  */
 export const monstersFixture: MonstersFile = {
   monsters: [
@@ -25,5 +33,35 @@ export const monstersFixture: MonstersFile = {
     monster('abyssal-sire', 'Abyssal Sire', ['abyssal demons', 'bosses'], ['vannaka', 'duradel']),
     monster('dust-devil', 'Dust devil', ['dust devils'], ['duradel']),
     monster('cow', 'Cow', ['cows'], ['turael']),
+    monster('abyssal-sire-deadman', 'Abyssal Sire (Deadman)', ['bosses'], ['duradel']),
+  ],
+};
+
+/** A categories.json entry with just what navigation reads. */
+function category(name: string, monsters: string[], masters: MasterKey[]): SlayerCategory {
+  return {
+    category: name,
+    page: null,
+    monsters,
+    masters,
+    unlocks: [],
+    extend: null,
+    equipment: [],
+  };
+}
+
+/**
+ * Served for data/categories.json in tests. Duradel assigns three categories,
+ * Vannaka only abyssal demons (though the Sire's assignedBy lists him), Mortimer
+ * nothing here. The Deadman Sire counts for nothing, and Krystilia's wilderness
+ * bosses are a category no monster page has.
+ */
+export const categoriesFixture: CategoriesFile = {
+  categories: [
+    category('abyssal demons', ['abyssal-demon', 'abyssal-sire'], ['vannaka', 'duradel']),
+    category('bosses', ['abyssal-sire'], ['duradel']),
+    category('cows', ['cow'], ['turael']),
+    category('dust devils', ['dust-devil'], ['duradel']),
+    category('wilderness bosses', [], ['krystilia']),
   ],
 };

@@ -3,7 +3,8 @@ import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
-// Data is src/test/monsters.ts, served for data/monsters.json by setup.ts.
+// Data is src/test/monsters.ts, served for data/monsters.json and
+// data/categories.json by setup.ts.
 
 /** The breadcrumb, once the catalog has loaded. */
 function findCrumbs() {
@@ -94,7 +95,7 @@ describe('master trail', () => {
   });
 
   it("offers only the master's categories in the category switcher", async () => {
-    const { user } = renderRoute('/categories/abyssal-demons?master=vannaka');
+    const { user } = renderRoute('/categories/abyssal-demons?master=duradel');
     await user.click(within(await findCrumbs()).getByRole('button', { name: 'Abyssal demons' }));
     const popover = screen
       .getByRole('searchbox', { name: 'Switch category' })
@@ -103,7 +104,7 @@ describe('master trail', () => {
       within(popover)
         .getAllByRole('link')
         .map((link) => link.textContent),
-    ).toEqual(['Abyssal demons', 'Bosses']);
+    ).toEqual(['Abyssal demons', 'Bosses', 'Dust devils']);
   });
 });
 

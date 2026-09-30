@@ -5,7 +5,8 @@ export interface Master {
   name: string;
 }
 
-// Until sync-data writes the masters (#7).
+// masters.json has these names (and alternates like Steve), but navigation
+// reads them synchronously; they move there with the data layer (#10).
 const MASTER_NAMES: Record<MasterKey, string> = {
   turael: 'Turael',
   spria: 'Spria',

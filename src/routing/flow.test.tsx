@@ -3,7 +3,8 @@ import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
-// Data is src/test/monsters.ts, served for data/monsters.json by setup.ts.
+// Data is src/test/monsters.ts, served for data/monsters.json and
+// data/categories.json by setup.ts.
 describe('flow between pages', () => {
   it('goes from the category list to a monster, remembering the category', async () => {
     const { user, router } = renderRoute('/');
@@ -43,7 +44,7 @@ describe('flow between pages', () => {
   });
 
   it("lists only a master's categories, with links that carry the master", async () => {
-    renderRoute('/masters/vannaka');
+    renderRoute('/masters/duradel');
     const list = await within(screen.getByRole('main')).findByRole('list', {
       name: 'Categories',
     });
@@ -51,11 +52,35 @@ describe('flow between pages', () => {
       within(list)
         .getAllByRole('link')
         .map((link) => link.textContent),
-    ).toEqual(['Abyssal demons', 'Bosses']);
+    ).toEqual(['Abyssal demons', 'Bosses', 'Dust devils']);
     expect(within(list).getByRole('link', { name: 'Bosses' })).toHaveAttribute(
       'href',
-      '/categories/bosses?master=vannaka',
+      '/categories/bosses?master=duradel',
     );
+  });
+
+  it('lists only the monsters that count, and categories no monster page has', async () => {
+    renderRoute('/categories/bosses');
+    const monsters = await screen.findByRole('list', { name: 'Monsters' });
+    expect(
+      within(monsters)
+        .getAllByRole('link')
+        .map((link) => link.textContent),
+    ).toEqual(['Abyssal Sire']);
+
+    renderRoute('/masters/krystilia');
+    const list = await within(screen.getAllByRole('main').at(-1)!).findByRole('list', {
+      name: 'Categories',
+    });
+    expect(within(list).getByRole('link', { name: 'Wilderness bosses' })).toBeInTheDocument();
+  });
+
+  it("takes a category's masters from their tables, not from its monsters", async () => {
+    // The Sire's assignedBy lists Vannaka, who assigns abyssal demons but not bosses.
+    renderRoute('/categories/bosses');
+    const main = screen.getByRole('main');
+    expect(await within(main).findByRole('link', { name: 'Duradel' })).toBeInTheDocument();
+    expect(within(main).queryByRole('link', { name: 'Vannaka' })).not.toBeInTheDocument();
   });
 
   it.each(['/categories/nope', '/monsters/nope', '/masters/nope'])(

@@ -1,19 +1,34 @@
-import { mkdir, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-import type { DropsFile, MonstersFile } from '../../src/data/types.ts';
+import type { DropsFile, Monster, MonstersFile } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
-import { buildDrops, buildMonsters } from './normalize.ts';
+import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
+import { parseSuperiors } from './parsers.ts';
 import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
 
-/** Pretty-printed with a trailing newline, so commits show line-level diffs. */
+/**
+ * Pretty-printed with a trailing newline, so commits show line-level diffs.
+ * An unchanged file is left untouched.
+ */
 export async function writeJson(file: string, data: unknown): Promise<void> {
+  const text = `${JSON.stringify(data, null, 2)}\n`;
+  const old = await readFile(file, 'utf8').catch(() => null);
+  if (old === text) return;
   await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, `${JSON.stringify(data, null, 2)}\n`);
+  await writeFile(file, text);
 }
 
-/** Writes public/data/monsters.json and public/data/drops/<slug>.json. */
-export async function syncMonsters(client: WikiClient, dataDir: string): Promise<void> {
+/**
+ * Writes public/data/monsters.json and public/data/drops/<slug>.json, and
+ * returns the monsters for the steps after it. `superiorsPage` is the
+ * wikitext of Superior slayer monster.
+ */
+export async function syncMonsters(
+  client: WikiClient,
+  dataDir: string,
+  superiorsPage: string,
+): Promise<Monster[]> {
   const rows = await fetchMonsters(client);
   const taskOnly = await fetchTaskOnlyPages(client);
   const dropRows = await fetchDrops(client);
@@ -21,24 +36,34 @@ export async function syncMonsters(client: WikiClient, dataDir: string): Promise
   const slayerPages = new Set(buildMonsters(rows, taskOnly, new Set()).map((m) => m.page));
   const drops = buildDrops(dropRows, slayerPages);
   const monsters = buildMonsters(rows, taskOnly, new Set(drops.keys()));
+  for (const warning of linkSuperiors(monsters, parseSuperiors(superiorsPage))) {
+    console.warn(`  ! ${warning}`);
+  }
 
   const file: MonstersFile = { monsters };
   await writeJson(path.join(dataDir, 'monsters.json'), file);
 
-  // Rewrite the folder so monsters removed from the wiki don't leave stale files.
   const dropsDir = path.join(dataDir, 'drops');
-  await rm(dropsDir, { recursive: true, force: true });
+  const written = new Set<string>();
   for (const monster of monsters) {
     const list = drops.get(monster.page);
     if (!list) continue;
     const dropsFile: DropsFile = { page: monster.page, drops: list };
-    await writeJson(path.join(dropsDir, `${monster.slug}.json`), dropsFile);
+    const name = `${monster.slug}.json`;
+    written.add(name);
+    await writeJson(path.join(dropsDir, name), dropsFile);
+  }
+  // Remove files for monsters that are gone from the wiki or lost their drops.
+  for (const name of await readdir(dropsDir).catch(() => [])) {
+    if (!written.has(name)) await rm(path.join(dropsDir, name));
   }
 
   const versions = monsters.reduce((n, m) => n + m.versions.length, 0);
   const dropCount = [...drops.values()].reduce((n, d) => n + d.length, 0);
+  const superiors = monsters.filter((m) => m.superior).length;
   console.log(
-    `  ${monsters.length} monsters (${versions} versions, ${monsters.filter((m) => m.taskOnly).length} task-only), ` +
-      `${dropCount} drops for ${drops.size} of them`,
+    `  ${monsters.length} monsters (${versions} versions, ${monsters.filter((m) => m.taskOnly).length} task-only, ` +
+      `${superiors} with a superior), ${dropCount} drops for ${drops.size} of them`,
   );
+  return monsters;
 }

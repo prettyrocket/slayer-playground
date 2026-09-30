@@ -1,0 +1,2673 @@
+{
+  "categories": [
+    {
+      "category": "aberrant spectres",
+      "page": "Slayer task/Aberrant spectres",
+      "monsters": [
+        "aberrant-spectre",
+        "abhorrent-spectre",
+        "bloodthirsty-repugnant-spectre",
+        "bloodthirsty-spectre",
+        "deviant-spectre",
+        "repugnant-spectre"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Smell Ya Later",
+      "equipment": [
+        {
+          "item": "Nose peg",
+          "use": "Protecting against Aberrant spectres",
+          "monsters": [
+            "aberrant-spectre"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "abyssal demons",
+      "page": "Slayer task/Abyssal demons",
+      "monsters": [
+        "abyssal-demon",
+        "abyssal-sire",
+        "bloodthirsty-abyssal-demon",
+        "greater-abyssal-demon",
+        "reanimated-abyssal",
+        "respiratory-system"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Augment my Abbies",
+      "equipment": []
+    },
+    {
+      "category": "ankou",
+      "page": "Slayer task/Ankou",
+      "monsters": [
+        "ankou",
+        "dark-ankou"
+      ],
+      "masters": [
+        "vannaka",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": "Ankou Very Much",
+      "equipment": []
+    },
+    {
+      "category": "aquanite",
+      "page": "Slayer task/Aquanites",
+      "monsters": [
+        "aquanite",
+        "elder-aquanite"
+      ],
+      "masters": [
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [
+        "Lured In"
+      ],
+      "extend": "Let's Stay All Aquanite",
+      "equipment": []
+    },
+    {
+      "category": "araxytes",
+      "page": "Slayer task/Araxytes",
+      "monsters": [
+        "acidic-araxyte",
+        "araxxor",
+        "araxyte",
+        "dreadborn-araxyte",
+        "mirrorback-araxyte",
+        "ruptura-araxyte"
+      ],
+      "masters": [
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "More eyes than sense",
+      "equipment": []
+    },
+    {
+      "category": "aviansie",
+      "page": "Slayer task/Aviansie",
+      "monsters": [
+        "aviansie",
+        "flight-kilisa",
+        "flockleader-geerin",
+        "kreearra",
+        "reanimated-aviansie",
+        "wingman-skree"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [
+        "Watch the Birdie"
+      ],
+      "extend": "Birds of a Feather",
+      "equipment": []
+    },
+    {
+      "category": "bandits",
+      "page": "Slayer task/Bandits",
+      "monsters": [
+        "bandit",
+        "black-heather",
+        "donny-the-lad",
+        "guard-bandit",
+        "speedy-keith"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "banshees",
+      "page": "Slayer task/Banshees",
+      "monsters": [
+        "banshee",
+        "bloodthirsty-banshee",
+        "bloodthirsty-twisted-banshee",
+        "screaming-banshee",
+        "screaming-twisted-banshee",
+        "twisted-banshee"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Earmuffs",
+          "use": "Protecting against Banshees",
+          "monsters": [
+            "banshee"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "basilisks",
+      "page": "Slayer task/Basilisks",
+      "monsters": [
+        "basilisk",
+        "basilisk-knight",
+        "basilisk-sentinel",
+        "basilisk-the-fremennik-exiles",
+        "basilisk-youngling",
+        "bloodthirsty-basilisk",
+        "bloodthirsty-basilisk-sentinel",
+        "monstrous-basilisk",
+        "monstrous-basilisk-the-fremennik-exiles",
+        "the-jormungand",
+        "typhor"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [
+        "Basilocked"
+      ],
+      "extend": "Basilonger",
+      "equipment": [
+        {
+          "item": "Mirror shield",
+          "use": "Protecting against Basilisks and Cockatrice",
+          "monsters": [
+            "basilisk"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "bats",
+      "page": "Slayer task/Bats",
+      "monsters": [
+        "albino-bat",
+        "bat",
+        "death-wing",
+        "giant-bat",
+        "giant-bat-brine-rat-cavern"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "bears",
+      "page": "Slayer task/Bears",
+      "monsters": [
+        "artio",
+        "bear-cub",
+        "black-bear",
+        "callisto",
+        "grizzly-bear",
+        "grizzly-bear-cub",
+        "grizzly-bear-escape-caves",
+        "reanimated-bear"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "birds",
+      "page": "Slayer task/Birds",
+      "monsters": [
+        "baby-roc",
+        "bird",
+        "chicken",
+        "chompy-bird",
+        "duck",
+        "duckling",
+        "entrana-firebird",
+        "evil-chicken",
+        "evil-chicken-recipe-for-disaster",
+        "giant-roc",
+        "large-chicken",
+        "mounted-terrorbird-gnome",
+        "oomlie-bird",
+        "penguin-monster",
+        "rooster",
+        "seagull",
+        "seagull-icyene-graveyard",
+        "terrorbird",
+        "undead-chicken",
+        "vulture"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "black demons",
+      "page": "Slayer task/Black demons",
+      "monsters": [
+        "balfrug-kreeyath",
+        "black-demon",
+        "black-demon-the-grand-tree",
+        "black-demon-the-scar",
+        "demon-of-balance",
+        "demon-of-darkness",
+        "demon-of-light",
+        "demonic-gorilla",
+        "kolodion",
+        "porazdir",
+        "skotizo"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": "It's Dark in Here",
+      "equipment": []
+    },
+    {
+      "category": "black dragons",
+      "page": "Slayer task/Black dragons",
+      "monsters": [
+        "baby-black-dragon",
+        "black-dragon",
+        "brutal-black-dragon",
+        "king-black-dragon"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": "Fire & Darkness",
+      "equipment": []
+    },
+    {
+      "category": "black knights",
+      "page": null,
+      "monsters": [
+        "black-knight"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "bloodveld",
+      "page": "Slayer task/Bloodveld",
+      "monsters": [
+        "bloodthirsty-bloodveld",
+        "bloodthirsty-mutated-bloodveld",
+        "bloodveld",
+        "insatiable-bloodveld",
+        "insatiable-mutated-bloodveld",
+        "mutated-bloodveld",
+        "reanimated-bloodveld"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Bleed Me Dry",
+      "equipment": []
+    },
+    {
+      "category": "blue dragons",
+      "page": "Slayer task/Blue dragons",
+      "monsters": [
+        "baby-blue-dragon",
+        "blue-dragon",
+        "brutal-blue-dragon",
+        "vorkath"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "bosses",
+      "page": null,
+      "monsters": [
+        "abyssal-sire",
+        "ahrim-the-blighted",
+        "alchemical-hydra",
+        "amoxliatl",
+        "araxxor",
+        "artio",
+        "callisto",
+        "calvarion",
+        "cerberus",
+        "chaos-elemental",
+        "chaos-fanatic",
+        "commander-zilyana",
+        "crazy-archaeologist",
+        "dagannoth-prime",
+        "dagannoth-rex",
+        "dagannoth-supreme",
+        "dawn",
+        "definitely-not-dusk",
+        "deranged-archaeologist",
+        "dharok-the-wretched",
+        "doom-of-mokhaiotl",
+        "duke-sucellus",
+        "dusk",
+        "general-graardor",
+        "giant-mole",
+        "guthan-the-infested",
+        "kalphite-queen",
+        "karil-the-tainted",
+        "king-black-dragon",
+        "kraken",
+        "kreearra",
+        "kril-tsutsaroth",
+        "maggot-king",
+        "phantom-muspah",
+        "respiratory-system",
+        "sarachnis",
+        "scorpia",
+        "shellbane-gryphon",
+        "spindel",
+        "the-leviathan",
+        "the-whisperer",
+        "thermonuclear-smoke-devil",
+        "torag-the-corrupted",
+        "vardorvis",
+        "venenatis",
+        "verac-the-defiled",
+        "vetion",
+        "vorkath",
+        "zulrah"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [
+        "Like a Boss"
+      ],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Tortugan shield",
+          "use": "Protection from Dire and Shellbane gryphon's devastating attacks",
+          "monsters": [
+            "shellbane-gryphon"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "brine rats",
+      "page": null,
+      "monsters": [
+        "brine-rat"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "catablepon",
+      "page": null,
+      "monsters": [
+        "catablepon"
+      ],
+      "masters": [
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "cave bugs",
+      "page": null,
+      "monsters": [
+        "cave-bug"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "cave crawlers",
+      "page": null,
+      "monsters": [
+        "bloodthirsty-crawler",
+        "cave-crawler",
+        "chasm-crawler"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "cave horrors",
+      "page": "Slayer task/Cave horrors",
+      "monsters": [
+        "bloodthirsty-abomination",
+        "cave-abomination",
+        "cave-horror"
+      ],
+      "masters": [
+        "chaeldar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Horrorific",
+      "equipment": [
+        {
+          "item": "Witchwood icon",
+          "use": "Protecting against Cave horrors",
+          "monsters": [
+            "cave-horror"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "cave kraken",
+      "page": "Slayer task/Cave krakens",
+      "monsters": [
+        "cave-kraken",
+        "kraken"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": "Krack On",
+      "equipment": []
+    },
+    {
+      "category": "cave slimes",
+      "page": null,
+      "monsters": [
+        "cave-slime"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "chaos druids",
+      "page": null,
+      "monsters": [
+        "chaos-druid",
+        "chaos-druid-warrior",
+        "elder-chaos-druid",
+        "reanimated-chaos-druid",
+        "salarin-the-twisted"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "cockatrice",
+      "page": null,
+      "monsters": [
+        "bloodthirsty-cockathrice",
+        "cockathrice",
+        "cockatrice",
+        "moonlight-cockatrice"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Mirror shield",
+          "use": "Protecting against Basilisks and Cockatrice",
+          "monsters": [
+            "cockatrice"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "cows",
+      "page": null,
+      "monsters": [
+        "brutus",
+        "buffalo",
+        "cow",
+        "cow-calf",
+        "undead-cow"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "crabs",
+      "page": "Slayer task/Crabs",
+      "monsters": [
+        "ammonite-crab",
+        "crab",
+        "frost-crab",
+        "giant-rock-crab",
+        "king-sand-crab",
+        "rock-crab",
+        "sand-crab",
+        "swamp-crab"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka",
+        "chaeldar"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "crawling hands",
+      "page": null,
+      "monsters": [
+        "bloodthirsty-hand",
+        "crawling-hand",
+        "crushing-hand"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "crocodiles",
+      "page": null,
+      "monsters": [
+        "crocodile"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "custodian stalker",
+      "page": "Slayer task/Custodian stalker",
+      "monsters": [
+        "ancient-custodian",
+        "elder-custodian-stalker",
+        "juvenile-custodian-stalker",
+        "mature-custodian-stalker",
+        "strange-creature-shadows-of-custodia"
+      ],
+      "masters": [
+        "chaeldar",
+        "nieve",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Un-restraining Order",
+      "equipment": []
+    },
+    {
+      "category": "dagannoth",
+      "page": "Slayer task/Dagannoth",
+      "monsters": [
+        "blue-dagannoth",
+        "dagannoth",
+        "dagannoth-fledgeling",
+        "dagannoth-mother",
+        "dagannoth-prime",
+        "dagannoth-rex",
+        "dagannoth-spawn",
+        "dagannoth-supreme",
+        "dagannoth-waterbirth-island",
+        "reanimated-dagannoth"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "dark beasts",
+      "page": "Slayer task/Dark beast",
+      "monsters": [
+        "bloodthirsty-night-beast",
+        "dark-beast",
+        "night-beast"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Need More Darkness",
+      "equipment": []
+    },
+    {
+      "category": "dark warriors",
+      "page": null,
+      "monsters": [
+        "dark-warrior"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "dogs",
+      "page": "Slayer task/Dogs",
+      "monsters": [
+        "guard-dog",
+        "jackal",
+        "reanimated-dog",
+        "shadow-hound",
+        "temple-guardian",
+        "wild-dog"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "drakes",
+      "page": "Slayer task/Drakes",
+      "monsters": [
+        "bloodthirsty-drake",
+        "drake",
+        "guardian-drake"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "dust devils",
+      "page": "Slayer task/Dust devils",
+      "monsters": [
+        "bloodthirsty-choke-devil",
+        "choke-devil",
+        "dust-devil"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "To Dust You Shall Return",
+      "equipment": [
+        {
+          "item": "Facemask",
+          "use": "Protecting against the environment within the Smoke Dungeon, and against Dust devils' attacks",
+          "monsters": [
+            "dust-devil"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "dwarves",
+      "page": "Slayer task/Dwarves",
+      "monsters": [
+        "black-guard",
+        "black-guard-berserker",
+        "chaos-dwarf",
+        "dwarf",
+        "dwarf-gang-member",
+        "guard-dwarf"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "earth warriors",
+      "page": "Slayer task/Earth warriors",
+      "monsters": [
+        "earth-warrior"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "elves",
+      "page": "Slayer task/Elves",
+      "monsters": [
+        "elf-archer",
+        "elf-warrior",
+        "guard-prifddinas",
+        "iorwerth-archer",
+        "iorwerth-warrior",
+        "mourner",
+        "reanimated-elf"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "ents",
+      "page": null,
+      "monsters": [
+        "ent"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "fever spiders",
+      "page": null,
+      "monsters": [
+        "fever-spider"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Slayer gloves",
+          "use": "Protecting against Fever spiders",
+          "monsters": [
+            "fever-spider"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "fire giants",
+      "page": "Slayer task/Fire giants",
+      "monsters": [
+        "branda-the-fire-queen",
+        "fire-giant"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "flesh crawlers",
+      "page": null,
+      "monsters": [
+        "flesh-crawler"
+      ],
+      "masters": [
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "fossil island wyverns",
+      "page": "Slayer task/Fossil Island wyverns",
+      "monsters": [
+        "ancient-wyvern",
+        "long-tailed-wyvern",
+        "spitting-wyvern",
+        "taloned-wyvern"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": "Wyver-nother Two",
+      "equipment": []
+    },
+    {
+      "category": "frost dragons",
+      "page": null,
+      "monsters": [
+        "frost-dragon"
+      ],
+      "masters": [
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": "I see Dragons",
+      "equipment": []
+    },
+    {
+      "category": "gargoyles",
+      "page": "Slayer task/Gargoyles",
+      "monsters": [
+        "bloodthirsty-gargoyle",
+        "dawn",
+        "definitely-not-dusk",
+        "dusk",
+        "gargoyle",
+        "marble-gargoyle"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Get Smashed",
+      "equipment": [
+        {
+          "item": "Rock hammer",
+          "use": "Finishing off Gargoyles (this item is not equipable)",
+          "monsters": [
+            "gargoyle"
+          ]
+        },
+        {
+          "item": "Rock thrownhammer",
+          "use": "Finishing off Gargoyles (one per gargoyle - this item is not equipable)",
+          "monsters": [
+            "gargoyle"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ghosts",
+      "page": "Slayer task/Ghosts",
+      "monsters": [
+        "death-wing",
+        "forgotten-soul",
+        "ghost",
+        "ghost-grave-of-scorpius",
+        "ghost-melzars-maze",
+        "haze",
+        "nazastarool",
+        "revenant-cyclops",
+        "revenant-dark-beast",
+        "revenant-demon",
+        "revenant-dragon",
+        "revenant-goblin",
+        "revenant-hellhound",
+        "revenant-hobgoblin",
+        "revenant-imp",
+        "revenant-knight",
+        "revenant-maledictus",
+        "revenant-ork",
+        "revenant-pyrefiend",
+        "tortured-soul",
+        "tree-spirit-lost-city",
+        "treus-dayth"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "ghouls",
+      "page": null,
+      "monsters": [
+        "ghoul"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "goblins",
+      "page": "Slayer task/Goblins",
+      "monsters": [
+        "cave-goblin-guard",
+        "cave-goblin-miner",
+        "cave-goblin-monster",
+        "giant-goblin",
+        "goblin",
+        "goblin-goblin-village",
+        "goblin-god-wars-dungeon",
+        "goblin-guard",
+        "goblin-vault-of-war",
+        "guard-cave-goblin",
+        "mosschin",
+        "reanimated-goblin",
+        "redeyes",
+        "sergeant-grimspike",
+        "sergeant-steelwill",
+        "sergeant-strongstack",
+        "skoblin",
+        "snailfeet",
+        "snothead",
+        "strongbones",
+        "wormbrain"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "greater demons",
+      "page": "Slayer task/Greater demons",
+      "monsters": [
+        "greater-demon",
+        "greater-demon-the-scar",
+        "judge-of-yama-a-kingdom-divided",
+        "kril-tsutsaroth",
+        "skotizo",
+        "tormented-demon",
+        "tstanon-karlak"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": "Greater Challenge",
+      "equipment": []
+    },
+    {
+      "category": "green dragons",
+      "page": "Slayer task/Green dragons",
+      "monsters": [
+        "elvarg",
+        "green-dragon"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "gryphons",
+      "page": "Slayer task/Gryphons",
+      "monsters": [
+        "dire-gryphon",
+        "gryphon",
+        "gryphon-troubled-tortugans",
+        "shellbane-gryphon"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [
+        "Wings Spread"
+      ],
+      "extend": "Gryphon and on",
+      "equipment": [
+        {
+          "item": "Tortugan shield",
+          "use": "Protection from Dire and Shellbane gryphon's devastating attacks",
+          "monsters": [
+            "dire-gryphon",
+            "shellbane-gryphon"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "harpie bug swarms",
+      "page": null,
+      "monsters": [
+        "harpie-bug-swarm"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Lit bug lantern",
+          "use": "Harming Harpie Bug Swarms",
+          "monsters": [
+            "harpie-bug-swarm"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "hellhounds",
+      "page": "Slayer task/Hellhounds",
+      "monsters": [
+        "bouncer",
+        "cerberus",
+        "greater-skeleton-hellhound-calvarion",
+        "greater-skeleton-hellhound-vetion",
+        "hellhound",
+        "reanimated-hellhound",
+        "skeleton-hellhound",
+        "skeleton-hellhound-calvarion",
+        "skeleton-hellhound-vetion"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "hill giants",
+      "page": "Slayer task/Hill giants",
+      "monsters": [
+        "cyclops",
+        "cyclops-ardougne-zoo",
+        "cyclops-catacombs-of-kourend",
+        "cyclops-god-wars-dungeon",
+        "hill-giant",
+        "obor",
+        "reanimated-giant"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "hobgoblins",
+      "page": "Slayer task/Hobgoblins",
+      "monsters": [
+        "hobgoblin",
+        "hobgoblin-the-slug-menace"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "hydras",
+      "page": "Slayer task/Hydras",
+      "monsters": [
+        "alchemical-hydra",
+        "bloodthirsty-hydra",
+        "colossal-hydra",
+        "hydra"
+      ],
+      "masters": [
+        "konar",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "ice giants",
+      "page": "Slayer task/Ice giants",
+      "monsters": [
+        "eldric-the-ice-king",
+        "ice-giant"
+      ],
+      "masters": [
+        "vannaka",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "ice warriors",
+      "page": null,
+      "monsters": [
+        "ice-warrior",
+        "icelord",
+        "kamil"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "icefiends",
+      "page": "Slayer task/Icefiends",
+      "monsters": [
+        "icefiend"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "infernal mages",
+      "page": null,
+      "monsters": [
+        "bloodthirsty-mage",
+        "infernal-mage",
+        "malevolent-mage"
+      ],
+      "masters": [
+        "vannaka",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "jellies",
+      "page": "Slayer task/Jellies",
+      "monsters": [
+        "bloodthirsty-jelly",
+        "bloodthirsty-warped-jelly",
+        "chilled-jelly",
+        "jelly",
+        "vitreous-chilled-jelly",
+        "vitreous-jelly",
+        "vitreous-warped-jelly",
+        "warped-jelly"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "krystilia",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "jungle horrors",
+      "page": null,
+      "monsters": [
+        "jungle-horror",
+        "reanimated-horror"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "kalphite",
+      "page": "Slayer task/Kalphites",
+      "monsters": [
+        "kalphite-guardian",
+        "kalphite-queen",
+        "kalphite-soldier",
+        "kalphite-worker",
+        "reanimated-kalphite"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "killerwatts",
+      "page": null,
+      "monsters": [
+        "killerwatt"
+      ],
+      "masters": [
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Insulated boots",
+          "use": "Protecting against Killerwatts",
+          "monsters": [
+            "killerwatt"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "kurask",
+      "page": "Slayer task/Kurasks",
+      "monsters": [
+        "bloodthirsty-kurask",
+        "king-kurask",
+        "kurask"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Leaf-bladed spear",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "kurask"
+          ]
+        },
+        {
+          "item": "Leaf-bladed sword",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "kurask"
+          ]
+        },
+        {
+          "item": "Leaf-bladed battleaxe",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "kurask"
+          ]
+        },
+        {
+          "item": "Broad arrows",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "kurask"
+          ]
+        },
+        {
+          "item": "Broad bolts",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "kurask"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "lava dragons",
+      "page": null,
+      "monsters": [
+        "lava-dragon"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "lesser demons",
+      "page": "Slayer task/Lesser demon",
+      "monsters": [
+        "lesser-demon",
+        "lesser-demon-melzars-maze",
+        "lesser-demon-the-scar",
+        "reanimated-demon",
+        "zakln-gritch"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "lesser nagua",
+      "page": "Slayer task/Lesser Nagua",
+      "monsters": [
+        "amoxliatl",
+        "earthen-nagua",
+        "frost-nagua",
+        "sulphur-nagua",
+        "sulphur-nagua-perilous-moons"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "lizardmen",
+      "page": "Slayer task/Lizardmen",
+      "monsters": [
+        "corrupt-lizardman",
+        "lizardman",
+        "lizardman-brute",
+        "lizardman-shaman",
+        "lizardman-shaman-chambers-of-xeric"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [
+        "Reptile Got Ripped"
+      ],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Shayzien armour",
+          "use": "Protecting from the poison attack of the lizardman shamans",
+          "monsters": [
+            "lizardman-shaman"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "lizards",
+      "page": "Slayer task/Lizards",
+      "monsters": [
+        "desert-lizard",
+        "grimy-lizard",
+        "lizard",
+        "small-lizard",
+        "sulphur-lizard"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Ice cooler",
+          "use": "Finishing off Desert lizards (one per lizard)",
+          "monsters": [
+            "desert-lizard"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "magic axes",
+      "page": null,
+      "monsters": [
+        "magic-axe"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "mammoths",
+      "page": null,
+      "monsters": [
+        "mammoth"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "metal dragons",
+      "page": "Slayer task/Metal dragons",
+      "monsters": [
+        "adamant-dragon",
+        "bronze-dragon",
+        "iron-dragon",
+        "mithril-dragon",
+        "rune-dragon",
+        "steel-dragon"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": "Pedal to the Metals",
+      "equipment": []
+    },
+    {
+      "category": "minotaurs",
+      "page": null,
+      "monsters": [
+        "minotaur",
+        "reanimated-minotaur"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "mogres",
+      "page": null,
+      "monsters": [
+        "mogre",
+        "mogre-sea"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Fishing explosive",
+          "use": "Luring Mogres",
+          "monsters": [
+            "mogre"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "molanisks",
+      "page": "Slayer task/Molanisks",
+      "monsters": [
+        "molanisk"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Slayer bell",
+          "use": "Luring Molanisks",
+          "monsters": [
+            "molanisk"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "monkeys",
+      "page": "Slayer task/Monkeys",
+      "monsters": [
+        "demonic-gorilla",
+        "duke-monkey",
+        "maniacal-monkey",
+        "maniacal-monkey-archer",
+        "monkey-archer",
+        "monkey-guard",
+        "monkey-guard-ninja",
+        "monkey-monster",
+        "monkey-zombie",
+        "oipuis",
+        "ouhai",
+        "reanimated-monkey",
+        "tortured-gorilla",
+        "uodai",
+        "uyoro"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "moss giants",
+      "page": "Slayer task/Moss giants",
+      "monsters": [
+        "bryophyta",
+        "moss-giant",
+        "moss-giant-iorwerth-dungeon"
+      ],
+      "masters": [
+        "vannaka",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "mutated zygomites",
+      "page": "Slayer task/Zygomites",
+      "monsters": [
+        "ancient-zygomite",
+        "zygomite"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Fungicide spray",
+          "use": "Finishing off Mutated Zygomites (10 per refill)",
+          "monsters": [
+            "ancient-zygomite",
+            "zygomite"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "nechryael",
+      "page": "Slayer task/Nechryael",
+      "monsters": [
+        "bloodthirsty-nechryarch",
+        "greater-nechryael",
+        "nechryael",
+        "nechryarch"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "krystilia",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Nechs Please",
+      "equipment": []
+    },
+    {
+      "category": "ogres",
+      "page": "Slayer task/Ogres",
+      "monsters": [
+        "city-guard",
+        "enclave-guard",
+        "gorad",
+        "mogre",
+        "mogre-sea",
+        "ogre",
+        "ogre-chieftain",
+        "ogress-shaman",
+        "ogress-warrior",
+        "reanimated-ogre",
+        "skogre",
+        "zogre"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Fishing explosive",
+          "use": "Luring Mogres",
+          "monsters": [
+            "mogre"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "otherworldly beings",
+      "page": null,
+      "monsters": [
+        "otherworldly-being"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "pirates",
+      "page": "Slayer task/Pirate",
+      "monsters": [
+        "pirate",
+        "zombie-pirate"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "pyrefiends",
+      "page": "Slayer task/Pyrefiends",
+      "monsters": [
+        "bloodthirsty-infernal-pyrelord",
+        "bloodthirsty-pyrelord",
+        "flaming-pyrelord",
+        "infernal-pyrelord",
+        "pyrefiend",
+        "pyrelord"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "rats",
+      "page": "Slayer task/Rats",
+      "monsters": [
+        "blessed-giant-rat",
+        "brine-rat",
+        "crypt-rat",
+        "dungeon-rat",
+        "giant-crypt-rat",
+        "giant-rat",
+        "giant-rat-scurrius",
+        "rat",
+        "scurrius",
+        "zombie-rat"
+      ],
+      "masters": [
+        "turael",
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "red dragons",
+      "page": "Slayer task/Red dragons",
+      "monsters": [
+        "baby-red-dragon",
+        "brutal-red-dragon",
+        "red-dragon"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [
+        "Seeing Red"
+      ],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "revenants",
+      "page": null,
+      "monsters": [
+        "revenant-cyclops",
+        "revenant-dark-beast",
+        "revenant-demon",
+        "revenant-dragon",
+        "revenant-goblin",
+        "revenant-hellhound",
+        "revenant-hobgoblin",
+        "revenant-imp",
+        "revenant-knight",
+        "revenant-maledictus",
+        "revenant-ork",
+        "revenant-pyrefiend"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": "Revenenenenenants",
+      "equipment": []
+    },
+    {
+      "category": "rockslugs",
+      "page": null,
+      "monsters": [
+        "bloodthirst-rockslug",
+        "giant-rockslug",
+        "rockslug"
+      ],
+      "masters": [
+        "mazchna",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Bag of salt",
+          "use": "Finishing off Rock slugs (one per slug)",
+          "monsters": [
+            "rockslug"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "rogues",
+      "page": null,
+      "monsters": [
+        "rogue"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "scabarites",
+      "page": "Slayer task/Scabarites",
+      "monsters": [
+        "giant-scarab",
+        "locust-rider",
+        "scarab-mage",
+        "scarab-swarm",
+        "scarabs",
+        "small-scarab"
+      ],
+      "masters": [
+        "nieve"
+      ],
+      "unlocks": [],
+      "extend": "Get Scabaright on It",
+      "equipment": []
+    },
+    {
+      "category": "scorpions",
+      "page": "Slayer task/Scorpions",
+      "monsters": [
+        "giant-lobster",
+        "giant-lobster-ghosts-ahoy",
+        "grave-scorpion",
+        "king-scorpion",
+        "lobstrosity",
+        "pit-scorpion",
+        "poison-scorpion",
+        "reanimated-scorpion",
+        "scorpia",
+        "scorpias-guardian",
+        "scorpias-offspring-monster",
+        "scorpion"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "sea snakes",
+      "page": "Slayer task/Sea snakes",
+      "monsters": [
+        "giant-sea-snake",
+        "sea-snake-hatchling",
+        "sea-snake-young"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "shades",
+      "page": "Slayer task/Shades",
+      "monsters": [
+        "asyn-shade",
+        "asyn-shadow-temple-trekking",
+        "fiyr-shade",
+        "loar-shade",
+        "phrin-shade",
+        "riyl-shade",
+        "riyl-shadow-temple-trekking",
+        "shade",
+        "shade-temple-trekking",
+        "urium-shade"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "shadow warriors",
+      "page": null,
+      "monsters": [
+        "shadow-warrior"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "skeletal wyverns",
+      "page": null,
+      "monsters": [
+        "skeletal-wyvern"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": "Wyver-nother One",
+      "equipment": []
+    },
+    {
+      "category": "skeletons",
+      "page": "Slayer task/Skeletons",
+      "monsters": [
+        "calvarion",
+        "giant-skeleton-shadow-dungeon",
+        "giant-skeleton-tarns-lair",
+        "greater-skeleton-hellhound-calvarion",
+        "greater-skeleton-hellhound-vetion",
+        "mosschin",
+        "nazastarool",
+        "redeyes",
+        "skeletal-miner",
+        "skeletal-mystic",
+        "skeleton",
+        "skeleton-ape-atoll",
+        "skeleton-barrows",
+        "skeleton-brute",
+        "skeleton-catacombs-of-kourend",
+        "skeleton-draynor-manor",
+        "skeleton-forthos-ruin",
+        "skeleton-fremennik",
+        "skeleton-heavy",
+        "skeleton-hellhound-calvarion",
+        "skeleton-hellhound-vetion",
+        "skeleton-hero",
+        "skeleton-luciens-camp",
+        "skeleton-mage",
+        "skeleton-mage-a26b",
+        "skeleton-melzars-maze",
+        "skeleton-shayzien-crypts",
+        "skeleton-stronghold-of-security",
+        "skeleton-tarns-lair",
+        "skeleton-the-restless-ghost",
+        "skeleton-thug",
+        "skeleton-warlord",
+        "skeleton-wilderness-agility-course",
+        "skoblin",
+        "skogre",
+        "snailfeet",
+        "snothead",
+        "strongbones",
+        "ulfric",
+        "undead-one",
+        "vetion"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "smoke devils",
+      "page": "Slayer task/Smoke devils",
+      "monsters": [
+        "bloodthirsty-smoke-devil",
+        "nuclear-smoke-devil",
+        "smoke-devil",
+        "thermonuclear-smoke-devil"
+      ],
+      "masters": [
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "sourhogs",
+      "page": null,
+      "monsters": [
+        "sourhog"
+      ],
+      "masters": [
+        "spria"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Reinforced goggles",
+          "use": "Protecting against Sourhogs' attacks",
+          "monsters": [
+            "sourhog"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "spiders",
+      "page": "Slayer task/Spiders",
+      "monsters": [
+        "acidic-araxyte",
+        "araxxor",
+        "araxyte",
+        "blessed-spider",
+        "crypt-spider",
+        "deadly-red-spider",
+        "dreadborn-araxyte",
+        "giant-crypt-spider",
+        "giant-spider",
+        "ice-spider",
+        "jungle-spider",
+        "jungle-spider-ape-atoll",
+        "mirrorback-araxyte",
+        "poison-spider",
+        "poison-spider-escape-caves",
+        "ruptura-araxyte",
+        "sarachnis",
+        "shadow-spider",
+        "spawn-of-sarachnis",
+        "spider",
+        "spider-ape-atoll",
+        "spider-ungael",
+        "spindel",
+        "temple-spider",
+        "venenatis"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "spiritual creatures",
+      "page": "Slayer task/Spiritual creatures",
+      "monsters": [
+        "spiritual-mage",
+        "spiritual-ranger",
+        "spiritual-warrior"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "nieve",
+        "duradel",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": "Spiritual Fervour",
+      "equipment": []
+    },
+    {
+      "category": "suqahs",
+      "page": "Slayer task/Suqah",
+      "monsters": [
+        "suqah"
+      ],
+      "masters": [
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": "Suq-a-nother One",
+      "equipment": []
+    },
+    {
+      "category": "terror dogs",
+      "page": null,
+      "monsters": [
+        "terror-dog"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "trolls",
+      "page": "Slayer task/Trolls",
+      "monsters": [
+        "arrg",
+        "berry",
+        "chuck-up",
+        "dad",
+        "daddys-special-water",
+        "dinky-the-drink-troll",
+        "drink-troll",
+        "frenzied-ice-troll-female",
+        "frenzied-ice-troll-grunt",
+        "frenzied-ice-troll-male",
+        "frenzied-ice-troll-runt",
+        "ice-troll",
+        "ice-troll-female",
+        "ice-troll-grunt",
+        "ice-troll-king",
+        "ice-troll-male",
+        "ice-troll-runt",
+        "kraka",
+        "mountain-troll",
+        "pee-hat",
+        "reanimated-troll",
+        "river-troll",
+        "river-troll-random-event",
+        "rock-troll",
+        "stick",
+        "the-rocks",
+        "thrower-troll",
+        "thrower-troll-trollheim",
+        "troll-general",
+        "troll-spectator",
+        "twig"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "turoth",
+      "page": "Slayer task/Turoth",
+      "monsters": [
+        "bloodthirsty-turoth",
+        "spiked-turoth",
+        "turoth"
+      ],
+      "masters": [
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Leaf-bladed spear",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "turoth"
+          ]
+        },
+        {
+          "item": "Leaf-bladed sword",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "turoth"
+          ]
+        },
+        {
+          "item": "Leaf-bladed battleaxe",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "turoth"
+          ]
+        },
+        {
+          "item": "Broad arrows",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "turoth"
+          ]
+        },
+        {
+          "item": "Broad bolts",
+          "use": "Killing Turoths and Kurasks",
+          "monsters": [
+            "turoth"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "tzhaar",
+      "page": "Slayer task/TzHaar",
+      "monsters": [
+        "jal-ak",
+        "jal-akrek-ket",
+        "jal-akrek-mej",
+        "jal-akrek-xil",
+        "jal-imkot",
+        "jal-mejjak",
+        "jal-mejrah",
+        "jal-nib",
+        "jal-xil",
+        "jal-zek",
+        "jaltok-jad",
+        "ket-zek",
+        "reanimated-tzhaar",
+        "tok-xil",
+        "tz-kek",
+        "tz-kih",
+        "tzhaar-hur",
+        "tzhaar-ket",
+        "tzhaar-mej",
+        "tzhaar-xil",
+        "tzkal-zuk",
+        "tztok-jad",
+        "tztok-jad-rek",
+        "yt-hurkot",
+        "yt-mejkot"
+      ],
+      "masters": [
+        "chaeldar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [
+        "Hot Stuff"
+      ],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "undead druids",
+      "page": null,
+      "monsters": [
+        "undead-druid"
+      ],
+      "masters": [],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "vampyres",
+      "page": "Slayer task/Vampyres",
+      "monsters": [
+        "blood-starved-venator",
+        "count-draynor",
+        "damien-leucurte",
+        "dessous",
+        "feral-vampyre",
+        "kroy",
+        "ranis-drakan",
+        "vampyre-juvenile",
+        "vampyre-juvinate",
+        "vanstrom-klause",
+        "venator",
+        "vyrewatch",
+        "vyrewatch-sentinel"
+      ],
+      "masters": [
+        "mazchna",
+        "vannaka",
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel"
+      ],
+      "unlocks": [
+        "Actual Vampyre Slayer"
+      ],
+      "extend": "More at Stake",
+      "equipment": []
+    },
+    {
+      "category": "venators",
+      "page": "Slayer task/Venators",
+      "monsters": [
+        "blood-starved-venator",
+        "venator"
+      ],
+      "masters": [
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "wall beasts",
+      "page": "Slayer task/Wall beast",
+      "monsters": [
+        "wall-beast"
+      ],
+      "masters": [
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Spiny helmet",
+          "use": "Protecting against Wall beasts",
+          "monsters": [
+            "wall-beast"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "warped creatures",
+      "page": "Slayer task/Warped creatures",
+      "monsters": [
+        "mutated-terrorbird",
+        "mutated-tortoise",
+        "warped-terrorbird",
+        "warped-tortoise"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [
+        "Warped Reality"
+      ],
+      "extend": null,
+      "equipment": [
+        {
+          "item": "Crystal chime",
+          "use": "Killing Warped Terrorbirds and Warped Tortoises",
+          "monsters": [
+            "warped-terrorbird",
+            "warped-tortoise"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "waterfiends",
+      "page": "Slayer task/Waterfiends",
+      "monsters": [
+        "waterfiend"
+      ],
+      "masters": [
+        "konar",
+        "duradel"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "werewolves",
+      "page": null,
+      "monsters": [
+        "werewolf"
+      ],
+      "masters": [
+        "vannaka"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "wilderness bosses",
+      "page": null,
+      "monsters": [
+        "artio",
+        "callisto",
+        "calvarion",
+        "chaos-elemental",
+        "chaos-fanatic",
+        "crazy-archaeologist",
+        "scorpia",
+        "spindel",
+        "venenatis",
+        "vetion"
+      ],
+      "masters": [
+        "krystilia"
+      ],
+      "unlocks": [
+        "Like a Boss"
+      ],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "wolves",
+      "page": "Slayer task/Wolves",
+      "monsters": [
+        "big-wolf",
+        "desert-wolf",
+        "dire-wolf",
+        "dire-wolf-alpha",
+        "ice-wolf",
+        "jungle-wolf",
+        "white-wolf",
+        "wolf"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    },
+    {
+      "category": "wyrms",
+      "page": "Slayer task/Wyrms",
+      "monsters": [
+        "bloodthirsty-shadow-wyrm",
+        "lava-strykewyrm",
+        "magma-strykewyrm",
+        "shadow-wyrm",
+        "wyrm",
+        "wyrmling"
+      ],
+      "masters": [
+        "chaeldar",
+        "konar",
+        "nieve",
+        "duradel",
+        "mortimer"
+      ],
+      "unlocks": [],
+      "extend": "Can of Wyrms",
+      "equipment": []
+    },
+    {
+      "category": "zombies",
+      "page": "Slayer task/Zombies",
+      "monsters": [
+        "a-corpse",
+        "armoured-zombie-defender-of-varrock",
+        "armoured-zombie-zemouregals-base",
+        "armoured-zombie-zemouregals-fort",
+        "monkey-zombie",
+        "nazastarool",
+        "skogre",
+        "slash-bash",
+        "sorebones",
+        "summoned-zombie",
+        "undead-chicken",
+        "undead-cow",
+        "undead-druid",
+        "undead-lumberjack",
+        "undead-one",
+        "vorkath",
+        "zogre",
+        "zombie",
+        "zombie-entrana-dungeon",
+        "zombie-kourend",
+        "zombie-melzars-maze",
+        "zombie-pirate",
+        "zombie-pirate-braindeath-island",
+        "zombie-pirate-harmony-island",
+        "zombie-rat",
+        "zombie-sepulchre-of-death",
+        "zombie-shayzien-crypts",
+        "zombie-stronghold-of-security",
+        "zombie-swab",
+        "zombie-tarns-lair",
+        "zombie-temple-trekking",
+        "zombie-wilderness",
+        "zombie-zogre-flesh-eaters"
+      ],
+      "masters": [
+        "turael",
+        "spria",
+        "mazchna",
+        "krystilia"
+      ],
+      "unlocks": [],
+      "extend": null,
+      "equipment": []
+    }
+  ]
+}

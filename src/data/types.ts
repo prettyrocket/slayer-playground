@@ -37,6 +37,10 @@ export interface Monster {
   members: boolean;
   /** Whether drops/<slug>.json exists. */
   hasDrops: boolean;
+  /** Slug of the superior that can spawn on task (needs Bigger and Badder), if any. */
+  superior: string | null;
+  /** For a superior: slugs of the monsters it spawns from. Empty otherwise. */
+  superiorOf: string[];
   versions: MonsterVersion[];
 }
 
@@ -98,6 +102,109 @@ export interface MonsterVersion {
     /** Percent resistance to freezes. */
     freeze: number | null;
   };
+}
+
+/** public/data/masters.json: each master's assignment table, from their wiki page. */
+export interface MastersFile {
+  masters: SlayerMaster[];
+}
+
+export interface SlayerMaster {
+  key: MasterKey;
+  name: string;
+  /** Wiki page holding the table, e.g. "Nieve/Slayer assignments". */
+  page: string;
+  /** Alternate masters that give the same list, e.g. ["Steve"]. */
+  alternates: string[];
+  /** Sum of the assignments' weights; a task's chance is weight / totalWeight. */
+  totalWeight: number;
+  assignments: Assignment[];
+}
+
+/** One row of a master's table. */
+export interface Assignment {
+  /** Key into categories.json, and a Monster category, e.g. "abyssal demons". */
+  category: string;
+  weight: number;
+  /** [min, max] assigned; min === max for a fixed amount. */
+  amount: [number, number] | null;
+  /** [min, max] with the task's extend unlock; null when it can't be extended. */
+  extended: [number, number] | null;
+  slayerLevel: number | null;
+  combatLevel: number | null;
+  /** Plain text as the wiki writes it, e.g. "85 Slayer, 85 Combat, completion of Priest in Peril". */
+  requirements: string | null;
+  /** Unlocks (names in unlocks.json) this master needs before assigning it. */
+  unlocks: string[];
+  /**
+   * Slugs of the category's monsters that don't count for this master, e.g.
+   * Krystilia's black dragons leave out the King Black Dragon.
+   */
+  excludes: string[];
+  /**
+   * Wiki pages linked as places: where Konar may send you, or where Krystilia's
+   * task is done. Mostly areas, but Krystilia uses landmarks too ("Muddy chest").
+   */
+  locations: string[];
+}
+
+/**
+ * public/data/categories.json: every Slayer category, whether or not a master
+ * assigns it, plus task lists that aren't a monster category (Krystilia's
+ * "wilderness bosses").
+ */
+export interface CategoriesFile {
+  categories: SlayerCategory[];
+}
+
+export interface SlayerCategory {
+  /** Lowercased, as in Monster.categories and Assignment.category, e.g. "abyssal demons". */
+  category: string;
+  /** The wiki's guide page, e.g. "Slayer task/Abyssal demons"; null when there is none. */
+  page: string | null;
+  /** Slugs of the monsters that count, superiors included; minigame and Deadman copies left out. */
+  monsters: string[];
+  /** Masters who assign it, in MASTER_KEYS order; empty when none does. */
+  masters: MasterKey[];
+  /** Unlocks any master needs before assigning it (see each Assignment for which). */
+  unlocks: string[];
+  /** Name of the unlock that extends it, if any. */
+  extend: string | null;
+  /** Slayer equipment the wiki ties to its monsters. */
+  equipment: CategoryEquipment[];
+}
+
+export interface CategoryEquipment {
+  item: string;
+  /** As the wiki writes it, e.g. "Protecting against Banshees". */
+  use: string;
+  /** Slugs of the category's monsters it applies to. */
+  monsters: string[];
+}
+
+/** public/data/unlocks.json: the Slayer Rewards Unlock and Extend tabs. */
+export interface UnlocksFile {
+  unlocks: Unlock[];
+}
+
+/** A Slayer Rewards purchase from the Unlock or Extend tab. */
+export interface Unlock {
+  name: string;
+  /** Slayer reward points. */
+  cost: number;
+  kind: 'unlock' | 'extend';
+  /** Plain text of the wiki's notes. */
+  notes: string;
+}
+
+/** public/data/meta.json */
+export interface MetaFile {
+  /** ISO time of the last sync that changed any data. */
+  syncedAt: string;
+  /** SHA-256 of the other data files, to tell whether a sync changed anything. */
+  dataHash: string;
+  /** Wiki pages the data came from, for attribution. Monster and drop data comes from every monster page. */
+  sources: string[];
 }
 
 /** public/data/drops/<slug>.json */

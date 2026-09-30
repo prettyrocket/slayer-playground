@@ -1,4 +1,5 @@
 import type { WikiClient } from '../lib/wiki-client.ts';
+import { MASTER_PAGES } from './masters.ts';
 
 /**
  * Raw Bucket fetches. Every field is named (Bucket rejects `select('*')`), and
@@ -80,6 +81,42 @@ export async function fetchTaskOnlyPages(client: WikiClient): Promise<Set<string
     'page_name',
   );
   return new Set(rows.map((row) => row.page_name));
+}
+
+export const SUPERIORS_PAGE = 'Superior slayer monster';
+export const REWARDS_PAGE = 'Slayer Rewards';
+export const EQUIPMENT_PAGE = 'Slayer equipment';
+
+/** Every page sync-data reads as wikitext: the master pages plus three reference pages. */
+export const WIKITEXT_PAGES = [
+  ...MASTER_PAGES.map((m) => m.page),
+  SUPERIORS_PAGE,
+  REWARDS_PAGE,
+  EQUIPMENT_PAGE,
+];
+
+/**
+ * The wikitext of WIKITEXT_PAGES in one batched request, as a lookup. Throws
+ * if any page is missing, before anything is written.
+ */
+export async function fetchPages(client: WikiClient): Promise<(page: string) => string> {
+  const text = await client.wikitext(WIKITEXT_PAGES);
+  const missing = WIKITEXT_PAGES.filter((page) => !text.get(page));
+  if (missing.length > 0) throw new Error(`Missing wiki pages: ${missing.join(', ')}`);
+  return (page) => text.get(page)!;
+}
+
+/** Titles of the wiki's "Slayer task/..." guide pages, without redirects (about 80, one request). */
+export async function fetchTaskPageTitles(client: WikiClient): Promise<string[]> {
+  const res = await client.get<{ query?: { allpages?: { title: string }[] } }>({
+    action: 'query',
+    list: 'allpages',
+    apprefix: 'Slayer task/',
+    apnamespace: '0',
+    apfilterredir: 'nonredirects',
+    aplimit: '500',
+  });
+  return (res.query?.allpages ?? []).map((page) => page.title).sort();
 }
 
 /**

@@ -88,6 +88,21 @@ React Query Devtools (a floating button, bottom-left) appear in `npm run dev` on
 (committed, so `git diff` shows what changed on the wiki). The site never calls
 the wiki itself. Node runs the TypeScript directly (22.18+).
 
+| File                | From                                                                    |
+| ------------------- | ----------------------------------------------------------------------- |
+| `monsters.json`     | every `infobox_monster` row with a Slayer category, plus superior links |
+| `drops/<slug>.json` | `dropsline` rows, one file per monster                                  |
+| `masters.json`      | each master's assignment table (weights, amounts, requirements)         |
+| `categories.json`   | every Slayer category: monsters, masters, unlocks, extend, items        |
+| `unlocks.json`      | the Slayer Rewards unlocks and extends, with costs                      |
+| `meta.json`         | when the data last changed, and the wiki pages it came from             |
+
+Types for all of them are in `src/data/types.ts`. The sync prints a `!` line
+for anything it couldn't match (a new master row, a renamed column, a page the
+equipment table links that isn't a monster); read them before committing.
+`meta.json` keeps a hash of the other files, and its timestamp only moves when
+that hash changes, so a sync with nothing new leaves no diff.
+
 All requests go through `scripts/lib/wiki-client.ts`, which is built to be a
 good citizen:
 
@@ -108,9 +123,9 @@ Tests live next to the code as `*.test.ts(x)`. Helpers in `src/test/render.tsx`:
 - `renderRoute('/about')` renders the whole app (layout + routes) at a path,
   and returns the `router` so you can assert on `router.state.location`.
 
-`fetch` is stubbed in every test, so tests never hit the network. It serves a
-small `monsters.json` fixture (`src/test/monsters.ts`) and answers 404 for
-anything else, unless you mock it:
+`fetch` is stubbed in every test, so tests never hit the network. It serves
+small `monsters.json` and `categories.json` fixtures (`src/test/monsters.ts`) and
+answers 404 for anything else, unless you mock it:
 
 ```tsx
 vi.mocked(fetch).mockResolvedValueOnce(Response.json([{ id: 1 }]));

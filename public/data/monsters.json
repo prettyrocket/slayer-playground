@@ -15,6 +15,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -95,6 +97,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "abhorrent-spectre",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -184,6 +188,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "aberrant-spectre"
+      ],
       "versions": [
         {
           "version": null,
@@ -268,6 +276,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "greater-abyssal-demon",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -465,6 +475,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Phase 1",
@@ -724,6 +736,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -801,6 +815,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -889,6 +905,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -968,6 +986,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -1045,6 +1065,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Serpentine",
@@ -1318,6 +1340,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -1395,6 +1419,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Post-quest",
@@ -1536,6 +1562,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -1613,6 +1641,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "elder-custodian-stalker"
+      ],
       "versions": [
         {
           "version": null,
@@ -1691,6 +1723,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -1776,6 +1810,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -1857,6 +1893,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 75",
@@ -2189,6 +2227,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "elder-aquanite",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Lure",
@@ -2324,6 +2364,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "In combat",
@@ -2469,6 +2511,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "dreadborn-araxyte",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 96",
@@ -2607,6 +2651,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Melee (invasion)",
@@ -2761,6 +2807,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Melee",
@@ -2909,6 +2957,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Melee, 1",
@@ -3538,6 +3588,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -3619,6 +3671,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -3762,6 +3816,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -3839,6 +3895,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Shade",
@@ -3981,6 +4039,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -4063,6 +4123,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 69",
@@ -4996,6 +5058,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -5136,6 +5200,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -5459,6 +5525,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -5659,6 +5727,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -5736,6 +5806,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -5813,6 +5885,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 22",
@@ -5944,6 +6018,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "screaming-banshee",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6028,6 +6104,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "monstrous-basilisk",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6108,6 +6186,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "basilisk-sentinel",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6189,6 +6269,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "basilisk-knight"
+      ],
       "versions": [
         {
           "version": null,
@@ -6270,6 +6354,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Adult",
@@ -6410,6 +6496,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6489,6 +6577,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6566,6 +6656,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6645,6 +6737,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -6725,6 +6819,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Awake",
@@ -6861,6 +6957,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "White Wolf Mountain",
@@ -6996,6 +7094,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 5",
@@ -7134,6 +7234,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -7213,6 +7315,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 172",
@@ -7488,6 +7592,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -7630,6 +7736,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -7711,6 +7819,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -7791,6 +7901,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 227",
@@ -7947,6 +8059,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 25, 1",
@@ -8412,6 +8526,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Red",
@@ -8597,6 +8713,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -8669,6 +8787,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Hostile, male",
@@ -8911,6 +9031,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -9044,6 +9166,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -9170,7 +9294,8 @@
       "page": "Blood-starved venator",
       "slayerLevel": 74,
       "categories": [
-        "vampyres"
+        "vampyres",
+        "venators"
       ],
       "assignedBy": [
         "mazchna",
@@ -9184,6 +9309,10 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "venator"
+      ],
       "versions": [
         {
           "version": null,
@@ -9261,6 +9390,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9333,6 +9464,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9407,6 +9540,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9485,6 +9620,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9562,6 +9699,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9638,6 +9777,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9715,6 +9856,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9793,6 +9936,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9865,6 +10010,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -9941,6 +10088,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10013,6 +10162,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10092,6 +10243,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10168,6 +10321,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10240,6 +10395,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10317,6 +10474,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10391,6 +10550,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10467,6 +10628,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10542,6 +10705,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10616,6 +10781,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10694,6 +10861,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10770,6 +10939,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10845,6 +11016,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10921,6 +11094,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -10997,6 +11172,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Idle",
@@ -11133,6 +11310,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -11209,6 +11388,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -11285,6 +11466,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -11363,6 +11546,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -11438,6 +11623,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -11516,6 +11703,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "insatiable-bloodveld",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -11655,6 +11844,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -11734,6 +11925,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -12522,6 +12715,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -12599,6 +12794,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -12683,6 +12880,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -12759,6 +12958,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -12906,6 +13107,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -12993,6 +13196,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Catacombs of Kourend",
@@ -13141,6 +13346,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -13224,6 +13431,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -13301,6 +13510,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -13379,6 +13590,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -13458,6 +13671,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -13544,6 +13759,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -13624,6 +13841,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -13758,6 +13977,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 49",
@@ -13948,6 +14169,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "cave-horror"
+      ],
       "versions": [
         {
           "version": null,
@@ -14022,6 +14247,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 6",
@@ -14159,6 +14386,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "chasm-crawler",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Icy (1)",
@@ -14518,6 +14747,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 24",
@@ -14650,6 +14881,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -15139,6 +15372,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Blue",
@@ -15394,6 +15629,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "cave-abomination",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Worker",
@@ -15708,6 +15945,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Cave kraken",
@@ -15841,6 +16080,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -15921,6 +16162,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16007,6 +16250,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -16211,6 +16456,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16290,6 +16537,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16361,6 +16610,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16434,6 +16685,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16509,6 +16762,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16589,6 +16844,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16666,6 +16923,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -16742,6 +17001,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "cave-crawler"
+      ],
       "versions": [
         {
           "version": "Standard",
@@ -16874,6 +17137,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -17125,6 +17390,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "vitreous-chilled-jelly",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17205,6 +17472,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "dust-devil"
+      ],
       "versions": [
         {
           "version": null,
@@ -17281,6 +17552,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17355,6 +17628,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17430,6 +17705,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17504,6 +17781,11 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "cockatrice",
+        "moonlight-cockatrice"
+      ],
       "versions": [
         {
           "version": null,
@@ -17578,6 +17860,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "cockathrice",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17651,6 +17935,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17724,6 +18010,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "hydra"
+      ],
       "versions": [
         {
           "version": null,
@@ -17801,6 +18091,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -17877,6 +18169,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -18119,6 +18413,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -18195,6 +18491,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -18270,6 +18568,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -18404,6 +18704,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -18483,6 +18785,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -18616,6 +18920,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -18913,6 +19219,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -19099,6 +19407,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 21",
@@ -19236,6 +19546,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "crushing-hand",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 7",
@@ -19835,6 +20147,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -19909,6 +20223,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Water",
@@ -20105,6 +20421,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "crawling-hand"
+      ],
       "versions": [
         {
           "version": null,
@@ -20180,6 +20500,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -20255,6 +20577,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -20331,6 +20655,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 56",
@@ -20525,6 +20851,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -20598,6 +20926,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 56",
@@ -20727,6 +21057,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Green",
@@ -20858,6 +21190,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -20936,6 +21270,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -21074,6 +21410,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -21153,6 +21491,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 74 (1)",
@@ -21413,6 +21753,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -21492,6 +21834,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -21581,6 +21925,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -21734,6 +22080,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -21814,6 +22162,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -22068,6 +22418,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22143,6 +22495,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22220,6 +22574,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22300,6 +22656,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -22554,6 +22912,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22629,6 +22989,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22705,6 +23067,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22785,6 +23149,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -22865,6 +23231,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -23111,6 +23479,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -23186,6 +23556,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -23262,6 +23634,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 88",
@@ -23403,6 +23777,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -23484,6 +23860,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -23562,6 +23940,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "night-beast",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -23640,6 +24020,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 8",
@@ -23942,6 +24324,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24024,6 +24408,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24099,6 +24485,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24177,6 +24565,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24253,6 +24643,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24329,6 +24721,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24402,6 +24796,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24475,6 +24871,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24550,6 +24948,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -24701,6 +25101,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -24779,6 +25181,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Green",
@@ -24966,6 +25370,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -25154,6 +25560,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -25237,6 +25645,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -25382,6 +25792,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "repugnant-spectre",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -25463,6 +25875,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -25543,6 +25957,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -25804,6 +26220,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -25883,6 +26301,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "gryphon"
+      ],
       "versions": [
         {
           "version": null,
@@ -25960,6 +26382,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 88",
@@ -26146,6 +26570,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -26218,6 +26644,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -26288,6 +26716,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Delve 1",
@@ -27698,6 +28128,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "guardian-drake",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -27785,6 +28217,10 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "araxyte"
+      ],
       "versions": [
         {
           "version": null,
@@ -27865,6 +28301,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -27938,6 +28376,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Male",
@@ -28067,6 +28507,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -28140,6 +28582,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -28214,6 +28658,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Awakened, Awake",
@@ -28785,6 +29231,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Short tail",
@@ -28984,6 +29432,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "First form",
@@ -29131,6 +29581,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -29213,6 +29665,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "choke-devil",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Smoke Dungeon",
@@ -29410,6 +29864,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Mining Guild (1)",
@@ -30211,6 +30667,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 44",
@@ -30395,6 +30853,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -30468,6 +30928,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -30672,6 +31134,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "aquanite"
+      ],
       "versions": [
         {
           "version": "Lure",
@@ -30802,6 +31268,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -30876,6 +31344,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "ancient-custodian",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -30953,6 +31423,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -31032,6 +31504,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -31163,6 +31637,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -31289,6 +31765,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -31368,6 +31846,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -31510,6 +31990,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -31582,6 +32064,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Wilderness",
@@ -31717,6 +32201,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -31793,6 +32279,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -31866,6 +32354,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -31995,6 +32485,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -32072,6 +32564,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 61",
@@ -32554,6 +33048,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -32635,6 +33131,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 86",
@@ -32844,6 +33342,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Shade",
@@ -32987,6 +33487,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "pyrefiend"
+      ],
       "versions": [
         {
           "version": null,
@@ -33064,6 +33568,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 28",
@@ -33260,6 +33766,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -33340,6 +33848,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -33419,6 +33929,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -33564,6 +34076,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -33642,6 +34156,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -33720,6 +34236,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -33798,6 +34316,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -33875,6 +34395,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Active",
@@ -34012,6 +34534,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -34093,6 +34617,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -34178,6 +34704,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "marble-gargoyle",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Upstairs",
@@ -34320,6 +34848,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -34399,6 +34929,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -34650,6 +35182,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -34726,6 +35260,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 19",
@@ -34955,6 +35491,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -35035,6 +35573,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -35362,6 +35902,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -35436,6 +35978,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -35572,6 +36116,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -35648,6 +36194,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -35725,6 +36273,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -35801,6 +36351,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -36043,6 +36595,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -36121,6 +36675,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -36195,6 +36751,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -36272,6 +36830,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -36348,6 +36908,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 3",
@@ -36548,6 +37110,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -36623,6 +37187,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -36701,6 +37267,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -36841,6 +37409,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "2",
@@ -36976,6 +37546,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "rockslug"
+      ],
       "versions": [
         {
           "version": null,
@@ -37051,6 +37625,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -37130,6 +37706,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -37270,6 +37848,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -37348,6 +37928,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -37489,6 +38071,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -37568,6 +38152,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 2",
@@ -37762,6 +38348,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 2",
@@ -38042,6 +38630,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Red",
@@ -38183,6 +38773,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 12 (banner)",
@@ -38480,6 +39072,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -38553,6 +39147,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 5",
@@ -38850,6 +39446,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -38924,6 +39522,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -39004,6 +39604,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "abyssal-demon"
+      ],
       "versions": [
         {
           "version": null,
@@ -39082,6 +39686,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -39334,6 +39940,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 92",
@@ -39668,6 +40276,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -39751,6 +40361,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "nechryarch",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Regular",
@@ -39891,6 +40503,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -39976,6 +40590,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -40053,6 +40669,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 79",
@@ -40198,7 +40816,7 @@
       "page": "Grimy Lizard",
       "slayerLevel": 44,
       "categories": [
-        "lizard"
+        "lizards"
       ],
       "assignedBy": [
         "turael",
@@ -40208,6 +40826,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -40284,6 +40904,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 21",
@@ -40420,6 +41042,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 33",
@@ -40557,6 +41181,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -40636,6 +41262,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "dire-gryphon",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -40716,6 +41344,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -40791,6 +41421,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -40864,6 +41496,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Bone club",
@@ -40994,6 +41628,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -41123,6 +41759,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -41257,6 +41895,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -41669,6 +42309,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "drake"
+      ],
       "versions": [
         {
           "version": null,
@@ -41750,6 +42394,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -41827,6 +42473,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -41904,6 +42552,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Ghost",
@@ -41987,6 +42637,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 122",
@@ -42187,6 +42839,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -42974,6 +43628,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Hobgoblin",
@@ -43383,6 +44039,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -43456,6 +44114,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "colossal-hydra",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -43535,6 +44195,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -44143,6 +44805,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -44339,6 +45003,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 120",
@@ -44605,6 +45271,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Variant 1",
@@ -44742,6 +45410,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -44821,6 +45491,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -44904,6 +45576,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -45044,6 +45718,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Variant 1",
@@ -45182,6 +45858,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Variant 1",
@@ -45318,6 +45996,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -45572,6 +46252,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 96",
@@ -45714,6 +46396,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 13",
@@ -45853,6 +46537,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Melee, 1",
@@ -46106,6 +46792,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "malevolent-mage",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -46184,6 +46872,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "pyrelord"
+      ],
       "versions": [
         {
           "version": null,
@@ -46263,6 +46955,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "bloodveld"
+      ],
       "versions": [
         {
           "version": null,
@@ -46342,6 +47038,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "mutated-bloodveld"
+      ],
       "versions": [
         {
           "version": null,
@@ -46419,6 +47119,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Female",
@@ -46550,6 +47252,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Iorwerth Camp",
@@ -46682,6 +47386,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -46830,6 +47536,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -46908,6 +47616,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -46987,6 +47697,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47064,6 +47776,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47141,6 +47855,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47218,6 +47934,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47295,6 +48013,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -47546,6 +48266,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47623,6 +48345,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47700,6 +48424,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47777,6 +48503,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47857,6 +48585,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -47937,6 +48667,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -48020,6 +48752,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "vitreous-jelly",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Regular",
@@ -48688,6 +49422,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -48765,6 +49501,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Worker",
@@ -49077,6 +49815,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -49155,6 +49895,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -49232,6 +49974,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -49309,6 +50053,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -49392,6 +50138,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -49599,6 +50347,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Crawling",
@@ -49751,6 +50501,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Crawling",
@@ -49894,6 +50646,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Crawling",
@@ -50037,6 +50791,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Kalphite Lair",
@@ -50182,6 +50938,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -50262,6 +51020,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -50340,6 +51100,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal Mode",
@@ -50480,6 +51242,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -50559,6 +51323,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -50697,6 +51463,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Idle",
@@ -50840,6 +51608,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -50924,6 +51694,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -51188,6 +51960,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -51265,6 +52039,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -51347,6 +52123,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "kurask"
+      ],
       "versions": [
         {
           "version": null,
@@ -51423,6 +52203,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Active",
@@ -51560,6 +52342,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -51638,6 +52422,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Human",
@@ -51939,6 +52725,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -52018,6 +52806,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Kraken",
@@ -52153,6 +52943,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -52238,6 +53030,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Armageddon",
@@ -52373,6 +53167,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -52453,6 +53249,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -52537,6 +53335,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -52790,6 +53590,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -52872,6 +53674,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -52952,6 +53756,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "king-kurask",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -53085,6 +53891,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -53157,6 +53965,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -53241,6 +54051,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "magma-strykewyrm",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -53322,6 +54134,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 82",
@@ -53593,6 +54407,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -53672,6 +54488,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 39",
@@ -53995,6 +54813,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -54070,6 +54890,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 53",
@@ -54206,6 +55028,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -54341,6 +55165,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -54478,6 +55304,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -54615,6 +55443,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Shade",
@@ -54758,6 +55588,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -54833,6 +55665,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Ranger",
@@ -55096,6 +55930,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -55179,6 +56015,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Far",
@@ -55381,6 +56219,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -55513,6 +56353,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "lava-strykewyrm"
+      ],
       "versions": [
         {
           "version": null,
@@ -55592,6 +56436,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "infernal-mage"
+      ],
       "versions": [
         {
           "version": null,
@@ -55664,6 +56512,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -55737,6 +56587,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -55810,6 +56662,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -55887,6 +56741,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "gargoyle"
+      ],
       "versions": [
         {
           "version": null,
@@ -55971,6 +56829,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56048,6 +56908,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 12",
@@ -56234,6 +57096,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56310,6 +57174,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56398,6 +57264,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56475,6 +57343,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56548,6 +57418,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56624,6 +57496,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Ape Atoll gate",
@@ -56755,6 +57629,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Unbearded",
@@ -56884,6 +57760,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -56957,6 +57835,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Common",
@@ -57088,6 +57968,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 82",
@@ -57292,6 +58174,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "basilisk"
+      ],
       "versions": [
         {
           "version": null,
@@ -57368,6 +58254,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -57446,6 +58334,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "cockathrice",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -57519,6 +58409,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 42",
@@ -57721,6 +58613,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -57800,6 +58694,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -57878,6 +58774,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 69",
@@ -58022,6 +58920,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 31",
@@ -58156,6 +59056,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "level 11",
@@ -58289,6 +59191,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "insatiable-mutated-bloodveld",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -58367,6 +59271,10 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "warped-terrorbird"
+      ],
       "versions": [
         {
           "version": null,
@@ -58444,6 +59352,10 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "warped-tortoise"
+      ],
       "versions": [
         {
           "version": null,
@@ -58523,6 +59435,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Zombie",
@@ -58729,6 +59643,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "nechryarch",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -58866,6 +59782,11 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "greater-nechryael",
+        "nechryael"
+      ],
       "versions": [
         {
           "version": null,
@@ -58943,6 +59864,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "dark-beast"
+      ],
       "versions": [
         {
           "version": null,
@@ -59018,6 +59943,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -59269,6 +60196,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "smoke-devil"
+      ],
       "versions": [
         {
           "version": null,
@@ -59345,6 +60276,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -59422,6 +60355,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 53",
@@ -59617,6 +60552,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -59692,6 +60629,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -59768,6 +60707,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -59903,6 +60844,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -59976,6 +60919,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -60048,6 +60993,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -60126,6 +61073,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -60201,6 +61150,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -60277,6 +61228,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -60354,6 +61307,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Ranged",
@@ -60683,6 +61638,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Shade",
@@ -60824,6 +61781,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Brimhaven",
@@ -61190,6 +62149,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -61267,6 +62228,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -61344,6 +62307,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 64",
@@ -61481,6 +62446,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -61559,6 +62526,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -61639,6 +62608,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -61897,6 +62868,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "flaming-pyrelord",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 43",
@@ -62042,6 +63015,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "infernal-pyrelord",
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -62185,6 +63160,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "A Taste of Hope",
@@ -62324,6 +63301,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Regular",
@@ -62463,6 +63442,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62541,6 +63522,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62617,6 +63600,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62692,6 +63677,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62766,6 +63753,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62841,6 +63830,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62915,6 +63906,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -62991,6 +63984,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63066,6 +64061,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63139,6 +64136,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63212,6 +64211,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63289,6 +64290,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63364,6 +64367,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63439,6 +64444,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63514,6 +64521,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63587,6 +64596,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63659,6 +64670,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63732,6 +64745,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63807,6 +64822,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63881,6 +64898,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -63955,6 +64974,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -64297,6 +65318,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64376,6 +65399,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "deviant-spectre"
+      ],
       "versions": [
         {
           "version": null,
@@ -64459,6 +65486,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64535,6 +65564,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64619,6 +65650,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64703,6 +65736,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64787,6 +65822,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64871,6 +65908,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -64955,6 +65994,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65039,6 +66080,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65123,6 +66166,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65207,6 +66252,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65291,6 +66338,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65371,6 +66420,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65455,6 +66506,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -65538,6 +66591,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 14",
@@ -65911,6 +66966,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 14",
@@ -66252,6 +67309,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Shade",
@@ -66394,6 +67453,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -66474,6 +67535,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Active",
@@ -66613,6 +67676,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -66689,6 +67754,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "giant-rockslug",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Adult",
@@ -66824,6 +67891,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 15",
@@ -66953,6 +68022,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 2",
@@ -67083,6 +68154,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -67173,6 +68246,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -67246,6 +68321,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -67320,6 +68397,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Active",
@@ -67461,6 +68540,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -67537,6 +68618,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 66 (Contact!)",
@@ -67736,6 +68819,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -67874,6 +68959,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -67958,6 +69045,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -68036,6 +69125,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -68112,6 +69203,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -68190,6 +69283,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 14",
@@ -68505,6 +69600,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "banshee"
+      ],
       "versions": [
         {
           "version": null,
@@ -68586,6 +69685,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "twisted-banshee"
+      ],
       "versions": [
         {
           "version": null,
@@ -68665,6 +69768,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Solo",
@@ -68807,6 +69912,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -68882,6 +69989,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -68958,6 +70067,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 2",
@@ -69094,6 +70205,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69170,6 +70283,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69243,6 +70358,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69316,6 +70433,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69389,6 +70508,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Stronghold of Security",
@@ -69527,6 +70648,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69607,6 +70730,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69681,6 +70806,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69757,6 +70884,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -69833,6 +70962,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "wyrm"
+      ],
       "versions": [
         {
           "version": "Idle",
@@ -69979,6 +71112,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -70059,6 +71194,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -70133,6 +71270,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -70276,6 +71415,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -70555,6 +71696,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 21, 1",
@@ -71610,6 +72753,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -71689,6 +72834,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Unarmed",
@@ -71952,6 +73099,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -72031,6 +73180,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -72110,6 +73261,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -72189,6 +73342,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -72503,6 +73658,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 40",
@@ -72711,6 +73868,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -72791,6 +73950,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -72876,6 +74037,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -72961,6 +74124,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -73041,6 +74206,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -73120,6 +74287,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -73382,6 +74551,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 16",
@@ -73523,6 +74694,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -73604,6 +74777,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -73805,6 +74980,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Melee",
@@ -74006,6 +75183,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -74437,6 +75616,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 40",
@@ -75004,6 +76185,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -75084,6 +76267,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -75164,6 +76349,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -75244,6 +76431,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -75690,6 +76879,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -75766,6 +76957,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -75960,6 +77153,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76040,6 +77235,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76117,6 +77314,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Green",
@@ -76246,6 +77445,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76326,6 +77527,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": "nuclear-smoke-devil",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76404,6 +77607,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76481,6 +77686,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76556,6 +77763,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Jacket",
@@ -76688,6 +77897,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76763,6 +77974,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 68",
@@ -76891,6 +78104,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -76965,6 +78180,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Common",
@@ -77160,6 +78377,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -77237,6 +78456,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -77317,6 +78538,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "turoth"
+      ],
       "versions": [
         {
           "version": null,
@@ -77397,6 +78622,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -77480,6 +78707,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Zamorak",
@@ -77805,6 +79034,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Zamorak",
@@ -78131,6 +79362,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Zamorak",
@@ -78456,6 +79689,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -78539,6 +79774,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 246",
@@ -78750,6 +79987,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -78827,6 +80066,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -78906,6 +80147,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -78983,6 +80226,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -79059,6 +80304,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -79244,6 +80491,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -79322,6 +80571,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -79397,6 +80648,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -79475,6 +80728,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -79913,6 +81168,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -80109,6 +81366,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -80192,6 +81451,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -80265,6 +81526,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -80340,6 +81603,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 100",
@@ -80469,6 +81734,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -80654,6 +81921,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -80735,6 +82004,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Post-quest",
@@ -80939,6 +82210,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -81018,6 +82291,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Post-quest",
@@ -81230,6 +82505,8 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -81308,6 +82585,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -81501,6 +82780,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -81580,6 +82861,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -81663,6 +82946,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -81744,6 +83029,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -81886,6 +83173,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -81965,6 +83254,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -82230,6 +83521,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 141",
@@ -82366,6 +83659,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -82443,6 +83738,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -82523,6 +83820,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "In combat",
@@ -82607,6 +83906,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Sword",
@@ -82803,6 +84104,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -82886,6 +84189,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -82967,6 +84272,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "spiked-turoth",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Baby",
@@ -83219,6 +84526,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Awake",
@@ -83356,6 +84665,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "screaming-twisted-banshee",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -83438,6 +84749,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -83514,6 +84827,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 45",
@@ -83653,6 +84968,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -83733,6 +85050,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -83821,6 +85140,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 149",
@@ -83964,6 +85285,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -84049,6 +85372,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Sword",
@@ -84249,6 +85574,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -84387,6 +85714,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -84464,6 +85793,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -84668,6 +85999,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -84742,6 +86075,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -84822,6 +86157,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -84899,6 +86236,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -84979,6 +86318,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -85059,6 +86400,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -85140,6 +86483,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 30",
@@ -85771,6 +87116,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 61",
@@ -86038,6 +87385,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -86111,6 +87460,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Shade",
@@ -86253,6 +87604,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -86330,6 +87683,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Burgh de Rott and Crombwick Manor",
@@ -86534,6 +87889,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 54 (Burgh de Rott)",
@@ -87095,6 +88452,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Sins of the Father",
@@ -87241,6 +88600,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Post-quest",
@@ -87443,6 +88804,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Permanent",
@@ -87640,6 +89003,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "blood-starved-venator",
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -87957,6 +89322,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -88042,6 +89409,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -88117,6 +89486,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -88202,6 +89573,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -88339,6 +89712,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "chilled-jelly"
+      ],
       "versions": [
         {
           "version": null,
@@ -88417,6 +89794,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "jelly"
+      ],
       "versions": [
         {
           "version": null,
@@ -88495,6 +89876,10 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [
+        "warped-jelly"
+      ],
       "versions": [
         {
           "version": null,
@@ -88579,6 +89964,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Post-quest",
@@ -88739,6 +90126,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Landed",
@@ -88878,6 +90267,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 87",
@@ -89248,6 +90639,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -89728,6 +91121,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Beast",
@@ -89861,6 +91256,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "vitreous-warped-jelly",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -89940,6 +91337,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "mutated-terrorbird",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 96",
@@ -90086,6 +91485,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "mutated-tortoise",
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -90162,6 +91563,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -90302,6 +91705,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Alexis",
@@ -91552,6 +92957,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 25",
@@ -91688,6 +93095,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Normal",
@@ -91819,6 +93228,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -91898,6 +93309,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 11",
@@ -92210,6 +93623,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -92286,6 +93701,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": "shadow-wyrm",
+      "superiorOf": [],
       "versions": [
         {
           "version": "Idle",
@@ -92432,6 +93849,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Idle (Neypotzli)",
@@ -92694,6 +94113,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 108",
@@ -92832,6 +94253,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Standard",
@@ -92967,6 +94390,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -93047,6 +94472,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -93134,6 +94561,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 18, 1",
@@ -94677,6 +96106,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -95001,6 +96432,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 56",
@@ -95263,6 +96696,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -95345,6 +96780,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 22",
@@ -95548,6 +96985,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -95932,6 +97371,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -97547,6 +98988,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "1",
@@ -97751,6 +99194,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -97827,6 +99272,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Melee",
@@ -98029,6 +99476,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 30, 1",
@@ -98596,6 +100045,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "3",
@@ -98980,6 +100431,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 40",
@@ -100096,6 +101549,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -100173,6 +101628,8 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 18, 1",
@@ -100923,6 +102380,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": null,
@@ -101002,6 +102461,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Serpentine",
@@ -101199,6 +102660,8 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "superior": null,
+      "superiorOf": [],
       "versions": [
         {
           "version": "Level 74",

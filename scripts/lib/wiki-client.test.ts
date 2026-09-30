@@ -236,6 +236,47 @@ describe('WikiClient errors and timeouts', () => {
   });
 });
 
+describe('WikiClient.wikitext', () => {
+  const page = (title: string, content: string) => ({
+    title,
+    revisions: [{ slots: { main: { content } } }],
+  });
+
+  it('keys results by the requested title through normalization and redirects', async () => {
+    const { client } = setup([
+      json({
+        query: {
+          normalized: [{ from: 'slayer task/nech', to: 'Slayer task/nech' }],
+          redirects: [{ from: 'Slayer task/nech', to: 'Slayer task/Nechryael' }],
+          pages: [
+            page('Slayer task/Nechryael', 'nech text'),
+            page('Vannaka', 'vannaka text'),
+            { title: 'Nope', missing: true },
+          ],
+        },
+      }),
+    ]);
+    const result = await client.wikitext(['slayer task/nech', 'Vannaka', 'Nope']);
+    expect(Object.fromEntries(result)).toEqual({
+      'slayer task/nech': 'nech text',
+      Vannaka: 'vannaka text',
+      Nope: null,
+    });
+  });
+
+  it('batches 50 titles per request and drops duplicates', async () => {
+    const titles = Array.from({ length: 120 }, (_, i) => `Page ${i}`);
+    const { client, urls } = setup(
+      [0, 1, 2].map(() => json({ query: { pages: [] } })),
+      { minIntervalMs: 0 },
+    );
+    await client.wikitext([...titles, 'Page 0']);
+    expect(urls().map((u) => u.searchParams.get('titles')!.split('|').length)).toEqual([
+      50, 50, 20,
+    ]);
+  });
+});
+
 describe('cacheKey', () => {
   const api = 'https://example.test/api.php';
 
