@@ -1,6 +1,7 @@
 import type {
   CategoriesFile,
   MasterKey,
+  MetaFile,
   Monster,
   MonstersFile,
   SlayerCategory,
@@ -64,4 +65,11 @@ export const categoriesFixture: CategoriesFile = {
     category('dust devils', ['dust-devil'], ['duradel']),
     category('wilderness bosses', [], ['krystilia']),
   ],
+};
+
+/** Served for data/meta.json in tests. */
+export const metaFixture: MetaFile = {
+  syncedAt: '2026-09-29T02:17:20.539Z',
+  dataHash: 'test',
+  sources: ['Bucket:Infobox_monster', 'Nieve/Slayer assignments', 'Slayer Rewards'],
 };
