@@ -1,18 +1,23 @@
-import { useState } from 'react';
-
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
-import { Link } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 
 import { CategoryList } from '@/components/CategoryList';
 import { getMasters } from '@/data/masters';
 import { masterPath } from '@/routing/paths';
 
+/**
+ * / — find your task. The search lives in the URL (`?q=`), so a search can be
+ * linked and survives a reload; typing replaces the history entry instead of
+ * adding one per keystroke.
+ */
 export function HomePage() {
-  const [query, setQuery] = useState('');
+  const [params, setParams] = useSearchParams();
+  const query = params.get('q') ?? '';
+  const setQuery = (q: string) => setParams(q ? { q } : {}, { replace: true });
 
   return (
     <>
@@ -25,7 +30,7 @@ export function HomePage() {
       <TextField
         type="search"
         label="Search tasks"
-        placeholder="Abyssal demons, dust devils, kalphite…"
+        placeholder="A task or monster: abyssal demons, kalphites, Vorkath…"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         fullWidth

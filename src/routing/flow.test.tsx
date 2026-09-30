@@ -10,7 +10,8 @@ describe('flow between pages', () => {
     const { user, router } = renderRoute('/');
     const main = screen.getByRole('main');
 
-    await user.click(await within(main).findByRole('link', { name: 'Abyssal demons' }));
+    // The list shows details under the name ("Slayer 85").
+    await user.click(await within(main).findByRole('link', { name: /^Abyssal demons/ }));
     expect(router.state.location.pathname).toBe('/categories/abyssal-demons');
 
     await user.click(within(main).getByRole('link', { name: 'Abyssal demon' }));

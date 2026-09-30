@@ -38,15 +38,23 @@ export const monstersFixture: MonstersFile = {
 };
 
 /** A categories.json entry with just what navigation reads. */
-function category(name: string, monsters: string[], masters: MasterKey[]): SlayerCategory {
+function category(
+  name: string,
+  monsters: string[],
+  masters: MasterKey[],
+  more: Partial<SlayerCategory> = {},
+): SlayerCategory {
   return {
     category: name,
+    aliases: [],
+    slayerLevel: null,
     page: null,
     monsters,
     masters,
     unlocks: [],
     extend: null,
     equipment: [],
+    ...more,
   };
 }
 
@@ -58,10 +66,15 @@ function category(name: string, monsters: string[], masters: MasterKey[]): Slaye
  */
 export const categoriesFixture: CategoriesFile = {
   categories: [
-    category('abyssal demons', ['abyssal-demon', 'abyssal-sire'], ['vannaka', 'duradel']),
+    category('abyssal demons', ['abyssal-demon', 'abyssal-sire'], ['vannaka', 'duradel'], {
+      slayerLevel: 85,
+    }),
     category('bosses', ['abyssal-sire'], ['duradel']),
     category('cows', ['cow'], ['turael']),
-    category('dust devils', ['dust-devil'], ['duradel']),
+    category('dust devils', ['dust-devil'], ['duradel'], {
+      aliases: ['dusties'],
+      slayerLevel: 65,
+    }),
     category('wilderness bosses', [], ['krystilia']),
   ],
 };

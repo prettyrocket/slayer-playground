@@ -214,6 +214,25 @@ describe('buildCategories', () => {
     expect(warnings.some((w) => w.startsWith('Boots'))).toBe(false);
   });
 
+  it('keeps other names as aliases, and the lowest Slayer level any master needs', () => {
+    const { categories } = build(
+      {
+        vannaka: [
+          row('Kalphites', { slayerLevel: 20 }),
+          row('Abyssal demons', { slayerLevel: 85 }),
+        ],
+        duradel: [row('Kalphite', { slayerLevel: 10 }), row('Abyssal Demons', { slayerLevel: 85 })],
+        turael: [row('Kalphite')],
+      },
+      { taskPages: ['Slayer task/Abyssal demons'] },
+    );
+    const find = (name: string) => categories.find((c) => c.category === name);
+    expect(find('kalphite')).toMatchObject({ aliases: ['kalphites'], slayerLevel: null });
+    expect(find('abyssal demons')).toMatchObject({ aliases: [], slayerLevel: 85 });
+    // Unassigned: no level.
+    expect(find('bears')).toMatchObject({ slayerLevel: null });
+  });
+
   it('warns about rows and categories it cannot match', () => {
     const { categories, warnings } = build({ turael: [row('Cows')] });
     expect(warnings).toContain('Turael: no category for "Cows"');

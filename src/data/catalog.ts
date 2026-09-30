@@ -10,6 +10,10 @@ export interface Category {
   monsters: Monster[];
   /** Masters with it in their assignment table, in MASTER_KEYS order. */
   masters: MasterKey[];
+  /** Other names for it, lowercased, e.g. ["kalphites"]. */
+  aliases: string[];
+  /** The lowest Slayer level any master needs to assign it; null for none. */
+  slayerLevel: number | null;
 }
 
 /** What navigation needs: every category and monster, by name. */
@@ -30,7 +34,7 @@ function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesF
     // which masters assign it, and categories no monster page has, like
     // Krystilia's wilderness bosses.
     categories: categories
-      .map(({ category, monsters: slugs, masters }) => ({
+      .map(({ category, monsters: slugs, masters, aliases, slayerLevel }) => ({
         slug: categorySlug(category),
         name: category.charAt(0).toUpperCase() + category.slice(1),
         monsters: slugs
@@ -38,6 +42,8 @@ function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesF
           .filter((m): m is Monster => m !== undefined)
           .toSorted((a, b) => a.page.localeCompare(b.page)),
         masters,
+        aliases,
+        slayerLevel,
       }))
       .toSorted((a, b) => a.name.localeCompare(b.name)),
     monsters,

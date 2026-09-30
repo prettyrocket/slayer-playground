@@ -160,6 +160,13 @@ export interface CategoriesFile {
 export interface SlayerCategory {
   /** Lowercased, as in Monster.categories and Assignment.category, e.g. "abyssal demons". */
   category: string;
+  /** Other names masters' tables and guide pages use, lowercased, e.g. ["kalphites"] for "kalphite". */
+  aliases: string[];
+  /**
+   * The lowest Slayer level any master needs to assign it; null when a master
+   * assigns it with no Slayer level, or none assigns it.
+   */
+  slayerLevel: number | null;
   /** The wiki's guide page, e.g. "Slayer task/Abyssal demons"; null when there is none. */
   page: string | null;
   /** Slugs of the monsters that count, superiors included; minigame and Deadman copies left out. */
