@@ -1,0 +1,503 @@
+{{confuse|Malignius Mortifer}}
+{{HasStrategy}}
+{{Infobox NPC
+|name = Mortimer
+|image = [[File:Mortimer.png|120px]]
+|release = [[29 July]] [[2026]]
+|update = Wyrmscraig Is Out Today!
+|members = Yes
+|race = [[Skeleton]]
+|location = [[Wyrmscraig Cavern]]
+|shop = [[Slayer Equipment (shop)|Slayer Equipment]], [[Slayer Rewards]]
+|gender = Male
+|options = Talk-to, Assignment, Trade, Rewards
+|examine = He looks dangerous, and boney!
+|map = {{Map|x=2589|y=8614|plane=0|r=4|mapID=-1|mtype=pin}} 
+|id = 16175,16294
+}}
+[[File:Mortimer chathead.png|left]]
+'''Mortimer''' is the highest level [[Slayer Master]], found in [[Wyrmscraig Cavern]]. To be assigned a [[Slayer task]] by Mortimer, the player must either have a [[combat level]] of 100 and a [[Slayer]] level of 70, or any combat level if the player has achieved 99 Slayer and shows him the [[Slayer cape]]. In addition, the player must have partially completed the [[Fallen From Grace]] quest.
+
+Mortimer has three unique traits that separate him from other Slayer Masters. The first is that, rather than granting [[Slayer point]]s by default, Mortimer has a unique system of unlockable modifiers called "Mortifiers" that affect his tasks. The second is that he only assigns tasks with a [[superior slayer monster|superior]] variant, making him ideal for players seeking drops from the superior slayer table such as the [[imbued heart]] and [[eternal gem]]. The third is that he offers a choice of tasks when getting an assignment from him. Because of this, skipping a task from Mortimer is significantly more expensive, costing 100 slayer points rather than the usual 30, and he only offers two block slots which cost 120 slayer points each. Additionally, Mortimer's tasks '''cannot be skipped''' by receiving a replacement assignment from [[Turael]].
+
+As with [[Krystilia]], tasks stored from Mortimer are shared alongside the rest of the Slayer Masters. The player should take note of this if they have a temporarily undesirable task from Mortimer and another undesirable task from another Slayer Master, as they will be forced to complete one of the two in order to free up storage.
+
+Mortimer is the only Slayer Master who can assign [[venator]]s directly, and shares several tasks that used to be exclusive to only a single other Slayer Master, namely [[hydra]]s from [[Konar quo Maten|Konar]], [[infernal mage]]s from [[Vannaka]], and [[rockslug]]s from [[Mazchna]]. While Mortimer is intended for superior slayer monsters, players can complete the task at their corresponding boss if applicable.
+
+==Tasks==
+<!-- Unlock Requirement sort value is in the format {slayer req}{combat req}
+So an Aberrant Spectre has a sort value of 6065 because it has a 60 Slayer req and a 65 combat req.
+A Crocodile only has a combat req of 50, so its sort value is 50
+Lizards have a slayer req of 22 with no combat req, so their sort value is 2200, with the 0s at the end to make sure it sorts correctly-->
+
+[[File:Mortimer Options.png|right|thumb|The interface when selecting an assignment from Mortimer with at least 50 tasks completed, showcasing three tasks to choose from with different modifiers.]]
+
+Unlike other [[Slayer Master]]s, Mortimer offers a choice of two potential tasks when approached for an assignment. This increases to three options after the player has completed 50 Slayer tasks with him. Each task can only be offered once per prompt. For example, a player cannot be given a choice of tasks in which two or more options are [[crawling hand]]s. However, players can get the same monster back-to-back, even without the [[slayer cape]] effect going off.
+
+Similarly to [[Krystilia]], Mortimer's task streaks are counted separately from that of normal tasks. If Mortimer has offered you a task, you cannot get a task from another Slayer Master. If you attempt to do so, you will receive the message, "Hmm... It appears as though Mortimer has provided you with a task choice, you must go to them in order to pick." 
+
+Alongside the option to pick a task, each of Mortimer's tasks have a modifier to potentially incentivise one task over another. A modifier can be applied to one or more offered tasks at a time. For example, two tasks might offer more Slayer experience while the third offers a quantity modifier.  
+
+{| class="wikitable"
+|+
+!Tasks Completed
+! colspan="2" |Task Modifier
+|-
+|0
+|Slayer Point Modifier
+|Task awards a number of [[Slayer reward point]]s upon completion. Points awarded are dependent on task, with lower slayer level monsters awarding fewer points.
+
+When completing a task with this modifier as Partner Slayer, both players obtain the same amount of points, since his original points value is 0. If the contribution ratio is notably different the higher contributor may get an additional slayer point.
+|-
+|0
+|Task Quantity Modifier
+|Task modifies amount of slayer creatures assigned. Modifier is dependent on task, with lower slayer level monsters having a reduced quantity and higher level monsters having an increased quantity.
+eg. If task is for Abyssal Demons 200 - 250, and modifier adds 75 additional kills, your task could range from 275 - 325 kills.
+|-
+|15
+|Clue Scroll Modifier
+|[[Clue scroll]] drop rates are increased. 
+|-
+|25
+|Superior Drop Rate Modifier
+|Task modifies how often [[Superior slayer monster|Superior slayer creatures]] access their '''Superior Slayer tertiary''' drop table.
+|-
+|40
+|Slayer XP Modifier
+|Slayer creatures award more Slayer experience. Note that the experience modifier applies to both the Slayer creature as well as their superiors.
+|-
+|50
+|Third Task Choice
+|Adds a third choice for task selection during new slayer assignment from Mortimer.
+|}
+
+The Slayer cape, if it activates on one of Mortimer's tasks, will retain the assigned task and modifier. This can be used to retain a preferred task and modifier combo, e.g hydras with a 150% drop rate increase for superior slayer drops.
+
+If the player is unsure of what modifier the task has, they may check their [[enchanted gem]], [[slayer ring]] (or [[Slayer ring (eternal)|eternal slayer ring]]) for the overall benefit. However if the player logs out, they will no longer be able to check the task's modifier. If looking for the exact modifier for clue scrolls, slayer experience or superior drop rate increase, they must head to a Slayer Master. 
+
+Below is the list of tasks Mortimer can assign along with the proposed minimum and maximum values that can roll for that creature's modifiers. The modifier values increase in increments of five, for example: 25%, 30%, 35% and so on.
+
+{| class="wikitable sortable lighttable qc-active" style="text-align:center;"
+!Monster
+!Amount
+!Extended amount
+![[Task weight|Weight]]
+!Unlock Requirement 
+!Quantity Modifier
+!Points Modifier
+!Clue Scroll Modifier
+!Clues Dropped{{note|Clues listed are for regular slayer monsters, not for any boss monsters that may be killable on a given task. For example, the Grotesque Guardians can be killed on a Gargoyles slayer task and drop Elite clues, but are not considered here}}
+!XP% Modifier
+!|Superior Unique% Modifier
+|-
+|[[Crawling Hand|Crawling hands]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|5}}, completion of [[Priest in Peril]]
+| -15-30
+|5-15
+|{{NA}}
+|{{NA}}
+|25%-100%
+|50%-100%
+|-
+|[[Slayer task/Cave crawlers|Cave crawlers]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|10}}, {{SCP|Combat|10}}
+| -15-30
+|5-15
+|{{NA}}
+|{{NA}}
+|25%-100%
+|50%-100%
+|-
+|[[Slayer task/Banshees|Banshees]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|15}}, {{SCP|Combat|20}}, completion of [[Priest in Peril]]
+| -15-30
+|5-15
+|75%-150%
+|{{ilink|Clue scroll (easy)|txt=Easy clues|pic=Clue_scroll_(easy)}} <sup>([[Banshee|Slayer Tower Banshees]] only)</sup></br>{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}} <sup>([[Twisted Banshee]]s only)</sup>
+|25%-100%
+|50%-100%
+|-
+|[[Rockslug|Rockslugs]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|20}}, {{SCP|Combat|20}}
+| -15-30
+|5-15
+|{{NA}}
+|{{NA}}
+|25%-100%
+|50%-100%
+|-
+|[[Cockatrice]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|25}}, {{SCP|Combat|25}}, {{SCP|Defence|20}}
+| -15-30
+|5-15
+|75%-150%
+|{{ilink|Clue scroll (medium)|txt=Medium clues|pic=Clue_scroll_(medium)}}
+|25%-100%
+|50%-100%
+|-
+|[[Slayer task/Pyrefiends|Pyrefiends]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|30}}, {{SCP|Combat|25}}
+| -15-30
+|5-15
+|75%-150%
+|{{ilink|Clue scroll (medium)|txt=Medium clues|pic=Clue_scroll_(medium)}}
+|25%-100%
+|50%-100%
+|-
+|[[Slayer task/Basilisks|Basilisks]]
+|40-60
+|200-250
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|40}}, {{SCP|Combat|40}}, {{SCP|Defence|20}}
+|50-100
+|25-40
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}<br /><sup>(Basilisk knights only)</sup>
+|35%-75%
+|200%-300%
+|-
+|[[Infernal Mage|Infernal mages]]
+|35-50
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|45}}, {{SCP|Combat|40}}, completion of [[Priest in Peril]]
+| -15-30
+|5-15
+|{{NA}}
+|{{NA}}
+|25%-100%
+|50%-100%
+|-
+|[[Slayer task/Bloodvelds|Bloodvelds]]
+|120-180
+|200-250
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|50}}, {{SCP|Combat|50}}, completion of [[Priest in Peril]]
+|50-100
+|10-15
+|35%-75%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|5%-15%
+|100%-150%
+|-
+|[[Slayer task/Gryphons|Gryphons]]
+|80-120
+|160-200
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|51}}, {{SCP|Sailing|45}}, completion of [[Troubled Tortugans]]
+|50-100
+|10-25
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|20%-50%
+|100%-150%
+|-
+|[[Slayer task/Jellies|Jellies]]
+|80-120
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|52}}, {{SCP|Combat|57}}
+|50-100
+|10-15
+|35%-75%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|10%-25%
+|100%-150%
+|-
+|[[Slayer task/Custodian stalker|Custodian stalkers]]
+|80-120
+|200-250
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|54}}, completion of [[Shadows of Custodia]]
+|50-100
+|10-15
+|{{NA}}
+|{{NA}}
+|10%-25%
+|100%-150%
+|-
+|[[Slayer task/Turoth|Turoth]]
+|80-120
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|55}}, {{SCP|Combat|60}}
+|30-80
+|15-30
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Warped creatures|Warped creatures]]
+|80-120
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|56}}, completion of [[The Path of Glouphrie]]
+|50-100
+|15-30
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Cave horrors|Cave horrors]]
+|80-120
+|200-250
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|58}}, {{SCP|Combat|85}}, completion of [[Cabin Fever]]
+|30-80
+|15-30
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Aberrant spectres|Aberrant spectres]]
+|80-120
+|200-250
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|60}}, {{SCP|Combat|65}}, completion of [[Priest in Peril]]
+|30-80
+|15-30
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Wyrms|Wyrms]]
+|80-120
+|200-250
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|62}}
+|50-100
+|25-40
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}<br /><sup>(Wyrms, Strykewyrms only)</sup>
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Dust devils|Dust devils]]
+|120-180
+|200-250
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|65}}, {{SCP|Combat|70}}, partial completion of [[Desert Treasure I]]
+|50-150
+|10-15
+|{{NA}}
+|{{NA}}
+|10%-20%
+|100%-150%
+|-
+|[[Slayer task/Kurasks|Kurask]]
+|40-60
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|70}}, {{SCP|Combat|65}}
+|30-80
+|25-40
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Venators|Venators]]
+|120-180
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|74}}, {{SCP|Combat|60}}, completion of [[The Blood Moon Rises]]
+|50-100
+|10-25
+|75%-150%
+|{{ilink|Clue scroll (elite)|txt=Elite clues|pic=Clue_scroll_(elite)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Gargoyles|Gargoyles]]
+|120-180
+|200-250
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|75}}, {{SCP|Combat|80}}, completion of [[Priest in Peril]]
+|50-100
+|15-30
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Aquanites|Aquanites]]
+|40-60
+|150-200
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|78}}, {{SCP|Sailing|73}}
+|50-100
+|25-40
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Nechryael|Nechryael]]
+|150-200
+|200-250
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|80}}, {{SCP|Combat|85}}, completion of [[Priest in Peril]]
+|50-100
+|10-20
+|35%-75%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|15%-30%
+|70%-120%
+|-
+|[[Slayer task/Drakes|Drakes]]
+|40-60
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|84}}
+|30-80
+|25-40
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|25%-75%
+|75%-150%
+|-
+|[[Slayer task/Abyssal demons|Abyssal demons]]
+|120-180
+|200-250
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|85}}, {{SCP|Combat|85}}, completion of [[Priest in Peril]] or [[Fairytale II - Cure a Queen]] {{CiteTwitter|url=https://twitter.com/JagexAsh/status/1122846921331224576|quote=(...) Abyssal demons will accept Fairy Tale II for abyss access.|author=Mod Ash|date=29 April 2019|archiveurl=https://reldo.runescape.wiki/i/108660|archivedate=4 March 2023}}
+|50-100
+|10-25
+|35%-75%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}<br />{{ilink|Clue scroll (elite)|txt=Elite clues|pic=Clue_scroll_(elite)}}
+|10%-25%
+|30%-60%
+|-
+|[[Slayer task/Dark beast|Dark beasts]]
+|40-60
+|110-135
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|90}}, {{SCP|Combat|90}}, started [[Mourning's End Part II]]
+|30-80
+|10-25
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}<br />{{ilink|Clue scroll (elite)|txt=Elite clues|pic=Clue_scroll_(elite)}}
+|35%-75%
+|200%-300%
+|-
+|[[Slayer task/Araxytes|Araxytes]]
+|120-180
+|200-250
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|92}}, Completion of [[Priest in Peril]]
+|50-100
+|10-20
+|35%-75%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}
+|5%-15%
+|10%-25%
+|-
+|[[Slayer task/Smoke devils|Smoke devils]]
+|80-120
+|{{NA}}
+|{{+=|weight|8|echo=2}}
+|{{SCP|Slayer|93}}, {{SCP|Combat|85}}
+|50-100
+|10-20
+|35%-75%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}<br />{{ilink|Clue scroll (elite)|txt=Elite clues|pic=Clue_scroll_(elite)}}
+|5%-15%
+|10%-25%
+|-
+|[[Slayer task/Hydras|Hydras]]
+|150-200
+|{{NA}}
+|{{+=|weight|10|echo=2}}
+|{{SCP|Slayer|95}}
+|50-100
+|15-30
+|75%-150%
+|{{ilink|Clue scroll (hard)|txt=Hard clues|pic=Clue_scroll_(hard)}}<br />{{ilink|Clue scroll (elite)|txt=Elite clues|pic=Clue_scroll_(elite)}}
+|10%-30%
+|75%-150%
+|-
+!colspan="3"|Total [[task weight]]
+!{{#var:weight}}
+!colspan="7"|
+|}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 September 2026
+|update = Summer Sweep-Up Pet Improvements & More
+|change = Fixed an issue where certain Mortimer Partner Slayer scenarios could lock players out from Slayer. Players affected by this issue should now be able to get Slayer tasks again.
+}}
+{{Subject changes
+|date = 19 August 2026
+|update = Summer Sweep Up - Hunter & Skilling
+|change = * You can no longer partner with another player if you have 'rolled' tasks with Mortimer and have not selected one yet.
+* If your Slayer Partner is offline when your tasks are 'rolled', they will no longer be considered your Slayer Partner.
+* Mortimer tasks can no longer be shared with other players that haven't unlocked Mortimer.
+}}
+{{Subject changes
+|date = 5 August 2026
+|update = Wyrmscraig & Sailing Changes
+|change = Mortimer's dialogue has been updated to clarify the effects of his perks.
+}}
+{{Subject changes footer}}
+
+==Gallery==
+<gallery mode="packed" heights="200" style="text-align:left">
+File:Sailing Player Designed Island Winner (8).jpg|Mortimer as featured in ''ScreteMonge''{{'}}s submission to the Player Designed Island Competition.
+File:Wyrmscraig - Activities & Lock In Poll (5).png|Mortimer concept art by [[Mod Jerv]].
+</gallery>
+
+==Development history==
+As with many aspects of Wyrmscraig, Mortimer was designed by the player ''ScreteMonge'' as part of the Player Designed Island Competition. Mortimer would have allowed players to choose their next Slayer task from another Slayer Master for a "hefty cost" of Slayer reward points, which was intended to bring traditional Slayer task-streaking in line with [[Turael#Task changing|Turael skipping]]. The ability to buy desired Slayer tasks was scrapped by Jagex due to it being too difficult to balance, along with feeling that it would only reinforce Turael skipping instead of offering an alternative.{{CiteNews|url=https://secure.runescape.com/m=news/wyrmscraig---activities--lock-in-poll?oldschool=1|title=Wyrmscraig - Activities & Lock In Poll|newsdate=29 May 2026|quote=In Gnome's original design, Mortimer would have allowed players to directly choose any Slayer task in exchange for a large number of Slayer Points. While we understand the appeal of this idea, particularly for those of you who want to see an alternative to established methods like Turael skipping, we felt that implementing this exact design would be difficult to balance appropriately. Additionally, we feel the original design may also have negatively impacted the core identity of Slayer as a RNG-based task system and would have resulted in Turael boosting being even more meta than it is currently.}}
+
+Jagex's initial proposal required the following amount of Mortimer task completions to unlock each modifier. They were roughly halved due to player feedback that the amount of time required to reach 100 Mortimer tasks would outweigh his benefits.{{CiteNews|url=https://secure.runescape.com/m=news/meet-mortimer-your-newest-slayer-master?oldschool=1|title=Meet Mortimer: Your Newest Slayer Master|newsdate=27 July 2026|quote=Thanks for all of your feedback over the weekend. Based on your feedback, we'll be reducing the number of tasks required to unlock Mortimer's modifiers on launch by around half. [...] We understand that the current unlock requirements can eat into the time players would otherwise spend progressing towards Imbued Heart rewards, making the system feel like it's competing with that goal. Reducing these thresholds should help you unlock the most impactful modifiers earlier and get the most out of the system sooner.}}
+* 0 tasks - Slayer Point Modifier
+* 0 tasks - Task Quantity Modifier
+* 25 tasks - Clue Scroll Modifier
+* 50 tasks - Slayer XP Modifier
+* 75 tasks - Superior Drop Rate Modifier
+* 100 tasks - Third Task Choice
+
+==Trivia==
+*"[https://en.wiktionary.org/wiki/Mortimer Mortimer]" is an English name derived from the Old French ''morte'', meaning dead, and ''mer'', meaning sea. Mortimer's designer did not intend for the name to be a pun, though they did realise it could be interpreted as one shortly after conceiving the character.{{CiteDiscord|author=Gnome|date=30 July 2026|quote=So the irony of Mortimer is that when I first put the name to paper, I didn't consciously do it because it was a pun. I just thought it was a very fitting name. I did realize it shortly after, of course. So there must be some subconscious memory of association between a character Mortimer and it being a dead guy that I have and simply can't consciously recall.|url=https://discord.com/channels/177206626514632704/269673599554551808/1532379151213002762}}
+* Mortimer's cloak has the symbol of [[Saradomin]] on it, implying that he is a Saradominist.
+** He also proclaims himself to be the oldest [[Slayer Master]] in [[Gielinor]].{{CiteNPC|npc=Mortimer|quote=The name's Mortimer, and I'm the oldest Slayer Master across all of the seas of Gielinor.|loc=Fallen From Grace|notes=|name=oldestslayer}} He is at least a few centuries old, as he says that's how long ago he coined the term "mortifiers" for his modifiers.{{CiteNPC|npc=Mortimer|quote=Modifiers? You mean mortifiers! Coined that term myself a few centuries ago.|loc=Fallen From Grace|notes=|name=}}
+** It is possible that Mortimer could be thousands of years old, as Saradominists led by [[Elessia]] first settled on [[Wyrmscraig]] during the [[Third Age]].
+
+==See also==
+* [[Update:Wyrmscraig - Activities & Lock In Poll]]
+* [[Update:Meet Mortimer: Your Newest Slayer Master]]
+
+==References==
+{{Reflist}}
+
+{{Slayer Master}}
+{{Fallen From Grace}}
+{{Wyrmscraig}}
+{{Astral Contact}}

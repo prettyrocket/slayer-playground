@@ -1,0 +1,768 @@
+{{External|rs}}
+{{Infobox Shop
+|version1 = Turael/Aya
+|version2 = Spria
+|version3 = Krystilia
+|version4 = Mazchna/Achtryn
+|version5 = Vannaka
+|version6 = Chaeldar
+|version7 = Konar quo Maten
+|version8 = Nieve/Steve
+|version9 = Duradel/Kuradal
+|version10 = Mortimer
+|name = Slayer Rewards
+|image1 = [[File:Slayer Equipment (Burthorpe).png|300px]]
+|image2 = [[File:Slayer Equipment (Draynor Village).png|300px]]
+|image3 = [[File:Slayer Equipment (Edgeville).png|300px]]
+|image4 = [[File:Slayer Equipment (Canifis).png|300px]]
+|image5 = [[File:Slayer Equipment (Edgeville Dungeon).png|300px]]
+|image6 = [[File:Slayer Equipment (Zanaris).png|300px]]
+|image7 = [[File:Slayer Equipment (Mount Karuulm).png|300px]]
+|image8 = [[File:Slayer Equipment (Tree Gnome Stronghold).png|300px]]
+|image9 = [[File:Slayer Equipment (Shilo Village).png|300px]]
+|image10 = 
+|release = [[12 December]] [[2013]]
+|update = First Slayer Batch
+|members = Yes
+|icon = [[File:Slayer Master icon.png]]
+|location1 = [[Burthorpe]]
+|location2 = [[Draynor Village]]
+|location3 = [[Edgeville]]
+|location4 = [[Canifis]]
+|location5 = [[Edgeville Dungeon]]
+|location6 = [[Zanaris]]
+|location7 = [[Mount Karuulm]]
+|location8 = [[Tree Gnome Stronghold]]
+|location9 = [[Shilo Village (location)|Shilo Village]]
+|location10 = [[Wyrmscraig Cavern]]
+|owner1 = [[Turael]]/[[Aya]]
+|owner2 = [[Spria]]
+|owner3 = [[Krystilia]]
+|owner4 = [[Mazchna]]/[[Achtryn]]
+|owner5 = [[Vannaka]]
+|owner6 = [[Chaeldar]]
+|owner7 = [[Konar quo Maten]]
+|owner8 = [[Nieve]]/[[Steve]]
+|owner9 = [[Duradel]]/[[Kuradal]]
+|owner10 = [[Mortimer]]
+|special = Slayer Master
+|map1 = {{Map|name=Slayer Rewards|x=2931|y=3537|r=3|zoom=3|mtype=square|bucket=yes}}
+|map2 = {{Map|name=Slayer Rewards|x=3092|y=3268|r=3|zoom=3|mtype=square|bucket=yes}}
+|map3 = {{Map|name=Slayer Rewards|x=3109|y=3516|r=3|zoom=3|mtype=square|bucket=yes}}
+|map4 = {{Map|name=Slayer Rewards|x=3511|y=3508|r=3|zoom=3|mtype=square|bucket=yes}}
+|map5 = {{Map|name=Slayer Rewards|x=3147|y=9914|r=3|zoom=3|mapID=12|mtype=square|bucket=yes}}
+|map6 = {{Map|name=Slayer Rewards|x=2444|y=4433|r=3|zoom=3|mapID=28|mtype=square|bucket=yes}}
+|map7 = {{Map|name=Slayer Rewards|x=1309|y=3784|r=2|zoom=3|mtype=square|bucket=yes}}
+|map8 = {{Map|name=Slayer Rewards|x=2432|y=3424|r=2|zoom=3|mtype=square|bucket=yes}}
+|map9 = {{Map|name=Slayer Rewards|x=2869|y=2982|r=3|plane=1|zoom=3|mtype=square|bucket=yes}}
+|map10 = {{Map|name=Slayer Rewards|x=2589|y=8614|r=3|zoom=3|mapID=-1|mtype=square|bucket=yes}}
+|shopversion1 = (1)
+|shopversion2 = (2)
+|shopversion3 = (3)
+|shopversion4 = (4)
+|shopversion5 = (5)
+|shopversion6 = (6)
+|shopversion7 = (7)
+|shopversion8 = (8)
+|shopversion9 = (9)
+|shopversion10 = (10)
+|leagueRegion1 = Asgarnia
+|leagueRegion2 = Misthalin
+|leagueRegion3 = Misthalin
+|leagueRegion4 = Morytania
+|leagueRegion5 = Misthalin
+|leagueRegion6 = General
+|leagueRegion7 = Kourend
+|leagueRegion8 = Kandarin
+|leagueRegion9 = Karamja
+|leagueRegion10 = No
+}}
+'''Slayer Rewards''' shops are run by [[Slayer Master]]s. They provide rewards to be exchanged for [[Slayer reward point]]s. Purchasing each unlock and extend reward once costs 15,510 points; however, some toggleable rewards must be paid for each time they are toggled.
+
+==Locations==
+*[[Burthorpe]]
+*[[Draynor Village]]
+*[[Edgeville]]
+*[[Canifis]]
+*[[Edgeville Dungeon]]
+*[[Zanaris]]
+*[[Mount Karuulm]]
+*[[Tree Gnome Stronghold]]
+*[[Shilo Village (location)|Shilo Village]]
+*[[Wyrmscraig Cavern]]
+
+==Rewards==
+===Unlock===
+{| class="wikitable sortable lighttable align-center-1 align-center-3"
+! class="unsortable" |
+!Unlock
+!Points cost
+!Toggle<ref name="toggle" group="n">Some unlocks can be toggled freely, some are permanent unlocks, and some must be paid again to reactivate once disabled.</ref>
+!Notes
+|-
+|[[File:Gargoyle icon.png|link=]]
+|Gargoyle Smasher
+|120
+| {{Yes|Permanent}}
+|[[Gargoyle]]s are automatically dealt the finishing blow if the player has a [[rock hammer]] in their inventory.
+|-
+|[[File:Rockslug icon.png|link=]]
+|Slug Salter
+|10
+| {{Yes|Permanent}}
+|[[Rock slug]]s are automatically dealt the finishing blow if the player has a [[bag of salt]] in their inventory.
+|-
+|[[File:Desert Lizard icon.png|link=]]
+|Reptile Freezer
+|10
+| {{Yes|Permanent}}
+|[[Desert lizard]]s are automatically dealt the finishing blow if the player has an [[ice cooler]] in their inventory.
+|-
+|[[File:Mutated zygomite icon.png|link=]]
+|'Shroom Sprayer 
+|110
+| {{Yes|Permanent}}
+|[[Mutated zygomite]]s are automatically dealt the finishing blow if the player has [[fungicide spray]] and [[fungicide]] in their inventory.
+|-
+|[[File:Slayer helmet.png|link=]]
+|Malevolent Masquerade 
+|400
+| {{Yes|Permanent}}
+|Learn to assemble a [[Slayer helmet]], which requires level 55 [[Crafting]].
+|-
+|[[File:Slayer ring.png|link=]]
+|Ring Bling
+|150
+| {{Yes|Permanent}}
+|Learn to craft a [[Slayer ring]], which requires level 75 [[Crafting]].
+|- id="Broader Fletching"
+|[[File:Broad arrowheads 5.png|link=]]
+|Broader Fletching
+|300
+| {{Yes|Permanent}}
+|Learn to fletch [[broad arrows]] (level 52 [[Fletching]]), [[broad bolts]] (level 55 [[Fletching]]), and [[amethyst broad bolts]] (level 76 [[Fletching]]).
+|-
+|[[File:Red dragon icon.png|link=]]
+|Seeing Red
+|50 
+| {{No}}
+|[[Konar]], [[Duradel]], and [[Nieve]] will be able to assign you [[red dragon]]s as your task.
+|-
+|
+[[File:Aviansie icon.png|link=]]
+|Watch the Birdie
+|80
+| {{No}}
+|[[Konar]], [[Duradel]], [[Nieve]], [[Chaeldar]], and [[Krystilia]] will be able to assign you [[Aviansie]] as your task. Requires level 60 [[Agility]] or 60 [[Strength]] to unlock.
+|-
+|
+[[File:Tok-Xil (Construction) icon.png|link=]]
+|Hot Stuff
+| 100
+| {{No}}
+|[[Duradel]], [[Nieve]], and [[Chaeldar]] will be able to assign [[TzHaar]] as your task. You will be offered a chance to slay [[TzTok-Jad]].<ref name="tzhaar task" group="n">When assigned a TzHaar task, there will be an option to kill TzTok-Jad instead of TzHaar. With at least 1 [[TzKal-Zuk]] kill, it will be offered in addition to TzTok-Jad. In these cases, all monsters in the challenge will grant Slayer experience and be affected by the [[Slayer helmet]], though only the final bosses count for task completion. Failing to kill either boss will cancel the task and exit you from the caves. Because the maximum amount of [[TzHaar]] that can be assigned in a single standard TzHaar task is 199, such a task can last only until wave 48 in the Fight Caves. Thus, if the player wishes to complete the Fight Caves, it is recommended to accept the TzTok-Jad task.</ref>
+|-
+|
+[[File:Like a boss.png|link=]]
+|Like a Boss
+|200
+| {{No}}
+|[[Konar]], [[Duradel]], [[Krystilia]], and [[Nieve]] will be able to assign various [[Boss#Boss slayer|boss monsters]] as your task.
+|-
+|
+[[File:Lizardmen icon.png|link=]]
+|Reptile Got Ripped
+|75
+| {{No}}
+|[[Konar]], [[Duradel]], [[Nieve]], and [[Chaeldar]] will be able to assign [[Lizardmen]] as your task.
+|-
+|[[File:Bigger and Badder.png|link=]]
+| Bigger and Badder
+|50
+| {{Yes}}
+|Certain Slayer monsters will have the chance of spawning a [[Superior slayer monster|superior version]] whilst on a Slayer task.
+|-
+|[[File:Duly noted.png|link=]]
+|Duly Noted
+| 200
+| {{Yes|Permanent}}
+|[[Mithril dragon]]s drop [[mithril bar]]s in [[banknote]] form while killed on assignment.
+|-
+|[[File:Wyvern bones.png|link=]]
+|Stop the Wyvern
+|500
+| {{Yes}}
+|Stops you getting [[Fossil Island]] [[Wyvern]] tasks, without counting towards your blocked task limit. This does not cancel a current fossil wyvern task.
+|-
+|[[File:Midnight.png|link=]]
+| Double Trouble
+|500
+| {{No}}
+|Slaying [[Dusk]] and [[Dawn]] now counts for two kills towards your task rather than one.
+|-
+|[[File:Basilisk icon.png|link=]]
+|Basilocked
+|80 
+| {{No}}
+|[[Konar]], [[Duradel]], and [[Nieve]] will be able to assign [[Basilisk]]s as your task.
+|-
+|[[File:Vampyre icon.png|link=]]
+|Actual Vampyre Slayer
+|80
+| {{No}}
+|[[Konar]], [[Duradel]], [[Nieve]], and [[Chaeldar]] will be able to assign [[Vampyre]]s as your task.
+{{bug|Although the ingame menu lists [[Mortimer]], it doesn't affect him. He will assign venators regardless and doesn't assign vampyres}}
+|-
+|[[File:Barrel (The Tourist Trap).png|link=]]
+|Task Storage
+|500
+| {{Yes|Permanent}}
+|Gain the ability to store your task.
+
+Once unlocked the operation is controlled by the [[Slayer Rewards#Tasks|tasks]] tab of the reward option.
+
+You can freely swap between your current task and stored task by using the reward talk option on any slayer master.
+|-
+|[[File:Larran's_key_4.png|link=]]
+|I Wildy More Slayer
+|0
+| {{Yes}}
+| [[Krystilia]] will be able to assign Jellies, Dust Devils, Nechryaels, and Abyssal Demons as your task.
+|-
+|[[File:Warped Terrorbird icon.png|link=]]
+|Warped Reality
+|60
+| {{No}}
+|[[Konar]], [[Duradel]], [[Nieve]], and [[Chaeldar]] will be able to assign [[Slayer task/Warped creatures|Warped creatures]] as your task.<ref name="warped task" group="n">After completion of [[The Path of Glouphrie]].</ref>
+|-
+|[[File:Aquanite icon.png|link=]]
+|Lured In
+|80
+| {{No}}
+|[[Nieve]] and [[Duradel]] will be able to assign [[Slayer task/Aquanites|Aquanites]] as your task.
+|-
+|[[File:Gryphon icon.png|link=]]
+|Wings Spread
+|80
+| {{No}}
+|[[Nieve]] and [[Duradel]] will be able to assign [[Slayer task/Gryphons|Gryphons]] as your task.<ref group="n">After completion of [[Troubled Tortugans]].</ref>
+|-
+|[[File:Frost dragon bones.png|link=]]
+|Chance of Heavy Frost
+|100
+| {{No}}
+|Weighting increased from 5 to 8 for [[Frost dragon]] tasks from [[Nieve]] and [[Duradel]].
+|}
+<references group="n" />
+
+===Extend===
+Extending a task will increase the amount assigned across all slayer masters that can assign it regardless of the quantity they can originally assign. Players can also use the button to extend every remaining task at once, offering a 5% discount.
+
+{| class="wikitable sortable lighttable align-center-1 align-center-3"
+! class="unsortable" |
+!Unlock
+!Points cost
+!Toggle<ref group="n">Some unlocks can be toggled freely, some are permanent unlocks, and some must be paid again to reactivate once disabled.</ref>
+!Notes
+|-
+|[[File:Dark beast icon.png|link=]]
+|Need More Darkness
+| 100
+| {{No}}
+|Number of [[dark beast]]s assigned is increased to 110-135.
+|-
+|[[File:Ankou icon.png|link=]]
+|Ankou Very Much
+|100 
+| {{No}}
+|Number of [[ankou]] assigned is increased to 91-150.
+|-
+|[[File:Suqah leather.png|link=]]
+|Suq-a-nother One
+|100
+| {{No}}
+| Number of [[suqah]]s assigned is increased to 186-250.
+|-
+|[[File:Black dragon icon.png|link=]]
+|Fire & Darkness
+|50 
+| {{No}}
+|Number of [[black dragon]]s assigned is increased to 40-60.
+|-
+|[[File:Steel dragon (Construction) icon.png|link=]]
+|Pedal to the Metals
+|200
+| {{No}}
+|Number of [[metal dragon]]s assigned is increased to 150-200.
+|-
+|[[File:Spiritual mage icon.png|link=]]
+|Spiritual Fervour
+|100
+| {{No}}
+| Number of [[spiritual creature]]s assigned is increased to 181-250.
+|-
+|[[File:Abyssal demon icon.png|link=]]
+| Augment my Abbies
+|100
+| {{No}}
+|Number of [[abyssal demon]]s assigned is increased to 200-250.
+|-
+|[[File:Black demon icon.png|link=]]
+|It's Dark in Here
+|100
+| {{No}}
+|Number of [[black demon]]s assigned is increased to 200-250.
+|-
+|[[File:Greater demon icon.png|link=]]
+|Greater Challenge
+|100
+| {{No}}
+|Number of [[greater demon]]s assigned is increased to 200-250.
+|-
+|[[File:Bloodveld icon.png|link=]]
+|Bleed Me Dry
+|75 
+| {{No}}
+|Number of [[bloodveld]] assigned is increased to 200-250.
+|-
+|[[File:Aberrant spectre icon.png|link=]]
+|Smell Ya Later
+| 100
+| {{No}}
+|Number of [[aberrant spectre]]s assigned is increased to 200-250.
+|-
+|[[File:Aviansie icon.png|link=]]
+|Birds of a Feather
+|100
+| {{No}}
+|Number of [[aviansie]] assigned is increased to 200-250.
+|-
+|[[File:Cave horror icon.png|link=]]
+|Horrorific 
+|100
+| {{No}}
+|Number of [[cave horror]]s assigned is increased to 200-250. 
+|-
+|[[File:Dust devil icon.png|link=]]
+|To Dust You Shall Return 
+|100
+| {{No}}
+|Number of [[dust devil]]s assigned is increased to 200-250.
+|-
+|[[File:Skeletal Wyvern icon.png|link=]]
+|Wyver-nother One
+|100
+| {{No}}
+|Number of [[Skeletal Wyvern]]s assigned is increased to 50-75.
+|-
+|[[File:Gargoyle icon.png|link=]]
+|Get Smashed
+|100
+| {{No}}
+|Number of [[gargoyle]]s assigned is increased to 200-250.
+|-
+|[[File:Nechryael icon.png|link=]]
+|Nechs Please
+|100
+| {{No}}
+|Number of [[nechryael]] assigned is increased to 200-250.
+|-
+|[[File:Cave kraken icon.png|link=]]
+|Krack On 
+|100
+| {{No}}
+| Number of [[cave kraken]] assigned is increased to 150-200.
+|-
+|[[File:Locust rider icon.png|link=]]
+|Get Scabaright on It
+|50
+| {{No}}
+|Number of [[scabarite]]s assigned is increased to 130-170.
+|-
+|[[File:Fossil Island wyverns icon.png|link=]]
+|Wyver-nother Two
+|100
+| {{No}}
+|Number of [[Fossil Island Wyvern]]s assigned is increased to 55-75.
+|-
+|[[File:Basilisk icon.png|link=]]
+|Basilonger 
+|100
+| {{No}}
+|Number of [[basilisk]]s assigned is increased to 200-250.
+|-
+|[[File:Vampyre icon.png|link=]]
+|More at Stake
+|100 
+| {{No}}
+|Number of [[vampyre]]s assigned is increased to 200-250.
+|-
+|[[File:Revenant icon.png|link=]]
+|Revenenenenenants
+|100 
+| {{Yes}}
+|Number of [[revenant]]s assigned is increased to 100-150.
+|-
+|[[File:Araxyte icon.png|link=]]
+|More eyes than sense
+|150
+| {{No}}
+|Number of [[araxyte]]s assigned is increased to 200-250.
+|-
+|[[File:Mature custodian stalker icon.png|link=]]
+|Un-restraining Order
+|100
+| {{No}}
+|Number of [[custodian stalker]]s assigned is increased to 200-250.
+|-
+|[[File:Aquanite icon.png|link=]]
+|Let's Stay All Aquanite
+|100
+| {{No}}
+|Number of [[aquanite]]s assigned is increased to 150-200.
+|-
+|[[File:Wyrm icon.png|link=]]
+|Can of Wyrms
+|100
+| {{No}}
+|Number of [[wyrm]]s assigned is increased to 200-250.
+|-
+|[[File:Gryphon icon.png|link=]]
+|Gryphon and on
+|50
+| {{No}}
+|Number of [[gryphon]]s assigned is increased by 80.
+|-
+|[[File:Frost dragon bones.png|link=]]
+|I see Dragons
+|100
+| {{No}}
+|Number of [[frost dragon]]s assigned is increased to 180-240
+|}
+<references group="n" />
+
+===Buy===
+{{StoreTableHead|delta=0|currency=Points|hidecaption=yes|hidestock=yes|hiderestock=yes|hidebuy=yes|column1=GP/point|column2=Notes|shopversion=(1),(2),(3),(4),(5),(6),(7),(8),(9),(10)}}
+{{StoreLine|name=Slayer ring (8)|image=Slayer ring.png|stock=inf|sell=75|buy=N/A|restock=|gemw=no|column1=N/A|column2=An equippable ring that provides all the functions of an [[Enchanted gem]], and provides 8 charges for teleporting to useful [[Slayer ring#Teleports|Slayer sites]].}}
+{{StoreLine|name=Broad bolts|displayname=Broad bolts (x250)|stock=inf|restock=|sell=35|buy=N/A|column1={{Coins|{{GEP|Broad bolts|250}}/35 round 0}}|column2=Bolts that can damage [[Turoth]]s and [[Kurask]]. Level 55 [[Slayer]] and 61 [[Ranged]], alongside a suitable crossbow, are required to fire these bolts.}}
+{{StoreLine|name=Broad arrows|displayname=Broad arrows (x250)|stock=inf|sell=35|buy=N/A|restock=|gemw=no|column1=N/A|column2=Arrows that can damage [[Turoth]]s and [[Kurask]]. Level 55 [[Slayer]] and 50 [[Ranged]], alongside a suitable bow, are required to fire these arrows.}}
+{{StoreLine|name=Herb sack|stock=inf|sell=750|buy=N/A|restock=|gemw=no|column1=N/A|column2=Stores up to 30 of each type of '''grimy''' herb (for a total of 450 herbs). Level 58 [[Herblore]] is required to use it.}}
+{{StoreLine|name=Rune pouch|stock=inf|restock=|sell=750|buy=N/A|column1=N/A|column2=Stores up to 16,000 of three types of [[runes]]. Only one can be owned. Can also be obtained by exchanging a [[rune pouch note]] at a bank.}}
+{{StoreLine|name=Looting bag|stock=inf|restock=|sell=10|buy=N/A|column1=N/A|column2=Within the [[Wilderness]] and certain other [[PvP]] areas, [[Items#Tradeability|tradeable]] items can be stored in the looting bag, enabling you to carry more loot.}}
+{{StoreTableBottom}}
+
+===Tasks===
+{| class="wikitable"
+!Action
+! style="white-space:nowrap;" |Points cost
+!Notes
+|-
+| style="white-space:nowrap;" |Cancel task
+|30-100
+|Cancels the player's current assignment without penalties.
+|-
+| style="white-space:nowrap;" |Block task
+|40-120
+|Skips the player's current assignment without penalties '''and''' permanently removes the assignment from the player's list of possible assignments - the player will not be assigned that monster again, unless they cancel the block. The cost varies between each Slayer master, with each master also having their own block list. 
+
+Players can block the task as they obtain it, or they can block it straight from the "View List" option in the interface. Blocks will only be given for tasks that the player can access (indicated with a check mark); tasks that are not assigned, either due to not being toggled or players without the requirements cannot be blocked. This can also help players determine which tasks to block as each task has their own specific percentage of being assigned.
+
+Blocking a task that is currently in [[Task Storage]] does not also skip it. If you wish to block and skip an undesired task, you should unstore it first.
+
+There is a maximum limit of 7 types of assignments that can be blocked on one account - one block slot is given for every 50 quest points the player has. For most slayer masters - with [[Mortimer]] being the exception - there are six slots for a total of 300 points needed to use all of them. Additionally, one block slot is available once the player has completed the Elite tier of the [[Lumbridge & Draynor Diary]], which requires a [[quest cape]]. In Mortimer's case, there are two block slots available. 
+:'''Note:''' Cancelling the removal of monsters allows the monster to be assigned again, but '''does not''' refund points spent removing the monster.
+|-
+| style="white-space:nowrap;" |Store task<ref name="storage" group="n">Storage must be unlocked in the unlock tab for 500 points before use.</ref>
+|0
+|With [[Task Storage]] unlocked, you may store your current Slayer task for free to use at a later date. A task may not be stored if you already have an existing stored task. You can still be assigned creatures you have stored.
+|-
+| style="white-space:nowrap;" |Unstore/Swap task<ref name="storage" group="n"></ref>
+|0
+|If you have a stored task, it can be unstored (if the player has no current active task) or swapped with their current task for free. 
+|}
+<references group="n" />
+
+===Cosmetics===
+Learn how to combine certain items with your Slayer helmet to upgrade it into a cosmetic variant.
+
+{| class="wikitable sortable lighttable align-center-1 align-center-3"
+! class="unsortable" |
+!Unlock
+!Points cost
+!Toggle<ref group="n">Some unlocks can be toggled freely, some are permanent unlocks, and some must be paid again to reactivate once disabled.</ref>
+!Notes
+|-
+|{{plinkp|Black slayer helmet}}
+|King Black Bonnet
+|1,000
+| {{Yes|Permanent}}
+|Learn how to combine a [[Kbd heads|KBD head]] with your Slayer helmet to colour it [[Black slayer helmet|black]].
+|-
+|{{plinkp|Green slayer helmet}}
+|Kalphite Khat
+|1,000
+| {{Yes|Permanent}}
+|Learn how to combine a [[Kq head|Kalphite Queen head]] with your Slayer helmet to colour it [[Green slayer helmet|green]].
+|-
+|{{plinkp|Red slayer helmet}}
+|Unholy Helmet
+|1,000 
+| {{Yes|Permanent}}
+|Learn how to combine an [[Abyssal head|Abyssal Demon head]] with your Slayer helmet to colour it [[Red slayer helmet|red]]. 
+|-
+|{{plinkp|Purple slayer helmet}}
+|Dark Mantle
+|1,000
+| {{Yes|Permanent}}
+|Learn how to combine a [[Dark Claw]] with your Slayer helm to colour it [[Purple slayer helmet|purple]].
+|-
+|{{plinkp|Turquoise slayer helmet}}
+|Undead Head
+|1,000
+| {{Yes|Permanent}}
+|Learn how to combine [[Vorkath's head]] with your Slayer helmet to colour it [[Turquoise slayer helmet|turquoise]].
+|-
+|{{plinkp|Hydra slayer helmet}}
+|Use More Head
+|1,000
+| {{Yes|Permanent}}
+|Learn how to combine a [[Alchemical hydra heads|Hydra head]] with your Slayer helmet to [[Hydra slayer helmet|theme it]] like the [[Alchemical Hydra]].
+|-
+|{{plinkp|Araxyte slayer helmet}}
+|Eye see you
+|1,000
+| {{Yes|Permanent}}
+|Learn how to combine an [[Araxyte head]] with your Slayer helmet to [[Araxyte slayer helmet|theme it]] like the [[Araxxor]].
+|-
+|{{plinkp|Twisted slayer helmet}}
+|Twisted Vision
+|200
+|{{Yes|Permanent}}
+|Learn how to combine [[Twisted Horns]] with your Slayer helmet to [[twisted slayer helmet|theme it]] like the [[Great Olm]].
+|-
+|{{plinkp|Hooded slayer helmet}}
+|Absolutely Slayin'
+|1,000
+|{{Yes|Permanent}}
+|Learn how to combine the [[Slayer hood|Slayer skillcape hood]] (with level 99 Slayer) with your Slayer helmet to [[hooded slayer helmet|show your mastery]] while slaying. Does not work with cosmetic Slayer helm variants.
+|-
+|{{plinkp|Oathplate slayer helmet}}
+|Oath Breaker
+|200
+|{{Yes|Permanent}}
+|Learn how to combine a [[Demonic quill]] with your Slayer helmet to [[Oathplate slayer helmet|theme it]] like [[Oathplate]].
+|}
+<references group="n" />
+
+==Transcript==
+{{Hastranscript}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 22 July 2026
+|update = Summer Sweep-Up Gear & PvM Changes
+|change = The points needed to unlock Oath Breaker and Twisted Vision has been reduced from 1,000 to 200. Players that had the unlocks before the update will be refunded 800 points upon login.
+}}
+{{Subject changes
+|date = 17 June 2026
+|update = Bank Tags, Trouver System Rework & More!
+|poll = Sailing Buffs, Changes & More
+|change = Added weighting increase and task extension unlocks for frost dragons. 
+}}
+{{Subject changes
+|date = 7 January 2026
+|update = QoL Tweaks & Fixes
+|change =
+* The Slayer Rewards interface now has a separate "Cosmetics" tab for Slayer helm recolours, instead of having them located under the "Unlock" tab.
+* Metal dragon tasks now correctly require 150–200 kills instead of 90–120 when "Pedal to the Metals" is unlocked.
+}}
+{{Subject changes
+|date = 5 November 2025
+|update = Sailing Technical Pre-Release
+|change = * Unlocks for Aquanites and Gryphons were added to the shop, but were unavailable.
+* Task extensions for Aquanites and Wyrms were added to the shop, but the extension for Aquanites was unavailable.
+}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = * The following Slayer point unlocks have been adjusted.  Any previously purchased unlocks were refunded automatically upon login:
+** Slug Salter has been reduced from 80 to 10 points.
+** The Reptile Freezer has been reduced from 90 to 10 points.
+** Ring Bling has been reduced from 300 to 150 points.
+** Bigger and Badder has been reduced from 150 to 50 points.
+** Task Storage has been reduced from 1000 points 500 points.
+** Pedal to the Metals has been increased from 100 to 200 points, to account for all metal dragons now that they are under one task. The previous unlocks and extensions for mithril, adamant and rune dragons (I Hope You Mith Me, I really Mith You, Ada'mind Some More and RUUUUUNE) were removed.
+* Each [[Slayer Master]] now has their own individual block list for tasks with varying costs:
+** [[Turael]], [[Aya]] and [[Spria]] blocked tasks now cost 40 points.
+** [[Mazchna]]/[[Achtryn]] blocked tasks now cost 50 points.
+** [[Vannaka]] blocked tasks now cost 60 points.
+** [[Chaeldar]] blocked tasks now cost 70 points.
+** [[Konar]] blocked tasks now cost 80 points.
+** [[Nieve]]/[[Steve]] blocked tasks now cost 90 points.
+** [[Duradel]]/[[Kuradal]] blocked tasks now cost 100 points.
+** [[Krystilia]] blocked tasks now cost 100 points.
+* Blocking a task prevents that specific master from assigning it again, without affecting other Slayer masters.
+* There is now a warning if you attempt to block a task that the selected Slayer master does not assign.
+* Points for previously blocked tasks were automatically refunded upon login.
+* Shared block lists only apply to Turael, Aya and Spria, with all other masters having unique block lists.
+* The Task Storage can now store [[Krystilia|Wilderness tasks]].
+}}
+{{Subject changes
+|date = 28 August 2024
+|update = Araxxor
+|change = Added Slayer point unlocks Eye see you and More eyes than sense.
+}}
+{{Subject changes
+|date = 15 May 2024
+|update = Further Project Rebalance (Skilling) & Varlamore Changes
+|change = Players can now unstore their stored task without needing to complete or cancel their current one.
+}}
+{{Subject changes
+|date = 8 May 2024
+|update = Project Rebalance: Skilling & Poll 81 MTA Changes
+|change = Storing tasks with the Task Storage unlock is now free. Previously, it cost 50 [[Slayer reward points]] per task stored.
+}}
+{{Subject changes
+|date = 1 November 2023
+|update = Forestry Tweaks, Security & More
+|poll = The Hunter Guild and Misc
+|change = An additional block slot has been added for the 300 quest point milestone.
+}}
+{{Subject changes
+|update = The Path of Glouphrie
+|date = 13 September 2023
+|change = Added Slayer point unlock [[Warped Reality]].
+}}
+{{Subject changes
+|date = 3 May 2023
+|update = Points-Based Combat Achievements
+|poll = Old School Content Poll 79: Quality of Life
+|change = Players can now purchase [[looting bag]]s from any Slayer master for 10 [[Slayer reward points]].
+}}
+{{Subject changes
+|date = 12 April 2023
+|update = Bounty Hunter Rewards Beta & More
+|change = [[Slayer Masters]] are now selling the option to increase the number of [[Revenants]] received per task to between 100 to 150, up from 40 to 100.
+}}
+{{Subject changes
+|date = 11 January 2023
+|update = Secrets of the North & More!
+|change = The Slayer Rewards interface has had its capitalisation made more consistent with other in-game interfaces.
+}}
+{{Subject changes
+|date = 18 May 2022
+|update = Poll 76 Improvements
+|change = The icon for the Bigger and Badder Slayer unlock has been reverted to the icon of a [[Nechryarch]].
+}}
+{{Subject changes
+|date = 30 March 2022
+|update = Guardians of the Rift Improvements
+|change = The icon for the Bigger and Badder Slayer unlock has been replaced with the icon of a [[pumpkin pie]].
+}}
+{{Subject changes
+|date = 9 February 2022
+|update = Land of the Goblins
+|poll = 
+|change = Added a free toggleable option in the Slayer Reward Shop to let players opt out of the new [[Krystilia|Wilderness tasks]].
+}}
+{{Subject changes
+|change = [[Slayer Master]]s now sell the unlock Task Storage for 1000 [[Slayer reward point]]s, allowing players to store tasks for 50 [[Slayer reward point]]s.
+|date = 14 July 2021
+|poll = A Night At The Theatre and Old School Content Poll 75: PvM
+|update = Slayer Improvements - Poll 75
+}}
+{{Subject changes
+|date = 7 November 2019
+|update = Bounty Hunter Rework
+|poll = Rune Pouch, Looting Bag & Abyssal Sire
+|change = [[Slayer Master]]s no longer sell the rune pouch for coins, and the [[Slayer reward point]]s cost has been reduced from 1,250 to 750.
+}}
+{{Subject changes
+|update = The Fremennik Exiles
+|date = 26 September 2019
+|change = *[[Basilocked]] is added to the Slayer Rewards unlock table.
+*[[Basilonger]] is added to the Slayer Rewards extend table.
+}}
+{{Subject changes
+|date = 17 January 2019
+|update = Kebos Graphical Changes and Other Fixes
+|change = Slayer reward unlocks that apply to [[Konar quo Maten]] now correctly say so on the Slayer Unlock menu.
+}}
+{{Subject changes
+|date = 15 November 2018
+|update = POH Portals, DHCB Recolour and Planned Changes
+|poll = Old School Content Poll 61: QoL and Content Poll
+|change = Players can now buy a rune pouch from a [[Slayer Master]] for 1,250 [[Slayer reward point]]s.
+}}
+{{Subject changes
+|update = Dragon Slayer II
+|date = 4 January 2018
+|change = *Ada'mind Some More is added to the Slayer Rewards extend table.
+*RUUUUUNE is added to the Slayer Rewards extend table.
+}}
+{{Subject changes
+|date = 26 October 2017
+|update = Grotesque Guardians
+|change = *[[Double Trouble]] is added to the Slayer Rewards unlock table.
+}}
+{{Subject changes
+|date = 7 September 2017
+|update = Fossil Island
+|change = *[[Stop the Wyvern]] is added to the Slayer Rewards block table.
+*[[Wyver-nother Two]] is added to the Slayer Rewards extend table.
+}}
+{{Subject changes
+|date = 4 May 2017
+|update = Skotos & Dark Claws
+|poll = Old School Content Poll 51: Slayer & Dungeons
+|change = * The Dark Mantle unlock can be purchased from Slayer Masters for 1000 Slayer Points for the ability to make a purple skotizo-themed slayer helmet costmetic upgrade by using dark claws on a slayer helmet or slayer helmet (i).
+* The 'Ring bling' Slayer reward can be purchased from a Slayer Master for 300 reward points to be able to make an eternal Slayer ring.
+}}
+{{Subject changes
+|date = 24 March 2016
+|update = White & Black Graceful
+|change = It is now possible to unlock the possibility of receiving a Lizardmen slayer task from Duradel, Nieve and Chaeldar. Unlocking this task costs 75 [[Slayer reward point|Slayer points]].
+}}
+{{Subject changes
+|date = 20 August 2015
+|update = Boss slayer & total worlds
+|change = Added ''Like a boss'' unlock and boss Slayer tasks.
+}}
+{{Subject changes
+|date = 11 June 2015
+|update = Clear Private Chat & More
+|change = Added requirement information to the 5th slayer block slot.
+}}
+{{Subject changes
+|date = 5 March 2015
+|update = Achievement Diaries
+|poll = Old School Achievement Diary Rewards Poll
+|change = There is now a 5th slot to block Slayer tasks if players have completed the [[Elite Lumbridge|Elite Lumbridge & Draynor Diary]] and own a [[quest point cape]].
+}}
+{{Subject changes
+|date = 30 January 2014
+|update = Release the Kraken!
+|poll = Old School feature poll 15: Rejuvenating the Wilderness
+|change = [[Mithril dragon]] and [[Aviansie]] tasks can now be unlocked by paying [[Slayer reward point|Slayer points]], provided they have the requirements to visit those creatures.
+}}
+{{Subject changes
+|date = 23 January 2014
+|update = Slayer Cave & High Risk Worlds
+|change = Players may exchange their [[Slayer reward point|Slayer points]] to unlock longer tasks against [[Ankou]], [[Suqah]], [[Spiritual mage]]s, [[Black dragon|Black]] & [[Metal dragons|Metal]] dragons and [[Abyssal demon|Abyssal]], [[Greater demon|Greater]] & [[Black demon]]s.
+}}
+{{Subject changes
+|date = 6 January 2014
+|update = Second Slayer Batch: The Helm
+|poll = Content Poll 13: Slayer & Christmas
+|change = *Players can cancel or block unwanted assignments by spending [[Slayer reward point|reward points]].
+*Slayer Masters now sell [[Broad bolts|broad crossbow bolts]] in exchange for reward points.
+*Players can unlock the ability to make [[broad-tipped ammunition]] by spending reward points.
+*Players can buy [[Slayer rings]] or unlock the ability to craft them with reward points.
+*Players can unlock the ability to make [[slayer helmet]]s by spending reward points.
+}}
+{{Subject changes footer}}
+
+{{Slayer Master}}
+{{Slayer equipment}}
+{{Shops}}
