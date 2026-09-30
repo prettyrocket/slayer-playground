@@ -16,47 +16,118 @@ import { Link as RouterLink, useParams } from 'react-router';
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconTile } from '@/components/IconCard';
 import { MasterCards } from '@/components/MasterCards';
-import { findCategory, findMonster, useCatalog } from '@/data/catalog';
+import { type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import type { Monster } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { monsterPath } from '@/routing/paths';
 import { useNavLocation } from '@/routing/useNavLocation';
 
-/** Combat level across a monster's versions: "124", or "21–84" when they differ. */
+/** Combat level across a monster's versions: [lowest, highest]. */
 function combatRange(monster: Monster): [number, number] | null {
   const levels = monster.versions.map((v) => v.combatLevel).filter((l): l is number => l !== null);
   return levels.length ? [Math.min(...levels), Math.max(...levels)] : null;
 }
-const showRange = (range: [number, number] | null) =>
-  !range ? '—' : range[0] === range[1] ? `${range[0]}` : `${range[0]}–${range[1]}`;
+const range = (r: [number, number] | null) =>
+  !r ? '—' : r[0] === r[1] ? `${r[0]}` : `${r[0]}–${r[1]}`;
 
-type SortBy = 'monster' | 'combat';
+// Attack styles folded into what you'd pray against; anything else (Dragonfire) as written.
+const PRAYER: Record<string, string> = {
+  stab: 'Melee',
+  slash: 'Melee',
+  crush: 'Melee',
+  melee: 'Melee',
+  magic: 'Magic',
+  ranged: 'Ranged',
+};
+function attacks(monster: Monster): string {
+  const styles = monster.versions[0]?.attackStyles ?? [];
+  const folded = styles.map((s) => PRAYER[s.toLowerCase()] ?? s);
+  return [...new Set(folded)].join(', ') || '—';
+}
+
+/** Items the category's equipment list ties to this monster ("Earmuffs"), or "—". */
+function needs(category: Category, monster: Monster): string {
+  const items = [
+    ...new Set(
+      category.equipment.filter((e) => e.monsters.includes(monster.slug)).map((e) => e.item),
+    ),
+  ];
+  if (items.length === 0) return '—';
+  return items.length > 1 ? `${items[0]} +${items.length - 1}` : items[0];
+}
+
+/** A comparison column: heading, cell text, and optionally how to sort by it. */
+interface Column {
+  key: string;
+  label: string;
+  cell: (m: Monster) => string | number;
+  sort?: (m: Monster) => number | null;
+  /** Largest first when sorting (e.g. XP); smallest first otherwise. */
+  descending?: boolean;
+}
+
+const COLUMNS: Column[] = [
+  { key: 'slayer', label: 'Slayer', cell: (m) => m.slayerLevel ?? '—', sort: (m) => m.slayerLevel },
+  {
+    key: 'combat',
+    label: 'Combat',
+    cell: (m) => range(combatRange(m)),
+    sort: (m) => combatRange(m)?.[0] ?? null,
+  },
+  {
+    key: 'hp',
+    label: 'HP',
+    cell: (m) => m.versions[0]?.hitpoints ?? '—',
+    sort: (m) => m.versions[0]?.hitpoints ?? null,
+  },
+  {
+    key: 'def',
+    label: 'Def',
+    cell: (m) => m.versions[0]?.levels.defence ?? '—',
+    sort: (m) => m.versions[0]?.levels.defence ?? null,
+  },
+  {
+    key: 'xp',
+    label: 'Slayer XP',
+    cell: (m) => m.versions[0]?.slayerXp ?? '—',
+    sort: (m) => m.versions[0]?.slayerXp ?? null,
+    descending: true,
+  },
+  { key: 'maxhit', label: 'Max hit', cell: (m) => m.versions[0]?.maxHit.join(', ') || '—' },
+  { key: 'attacks', label: 'Attacks', cell: attacks },
+];
 
 /**
- * /categories/:slug — "I got this task, which monster do I kill?": one row per
- * monster that counts (superiors show on their base monster's row), with its
- * combat and Slayer level; then the masters who assign it (the others, when
- * the user came from one).
+ * /categories/:slug — "I got this task, which monster do I kill?": the monsters
+ * that count, compared on what decides it: requirements, how fast and how
+ * dangerous, and what they need. Superiors show under their base monster.
+ * Then the masters who assign it (the others, when the user came from one).
  */
 export function CategoryPage() {
   const { slug = '' } = useParams();
   const { data: catalog } = useCatalog();
   const { master: current } = useNavLocation();
-  const [sortBy, setSortBy] = useState<SortBy>('monster');
+  const [sortBy, setSortBy] = useState('monster');
   if (!catalog) return <CatalogStatus />;
   const category = findCategory(catalog, slug);
   if (!category) return <NotFoundPage />;
 
+  const column = COLUMNS.find((c) => c.key === sortBy);
   const rows = category.monsters
     .filter((m) => m.superiorOf.length === 0)
     .toSorted((a, b) => {
-      if (sortBy === 'combat') {
-        const diff = (combatRange(a)?.[0] ?? Infinity) - (combatRange(b)?.[0] ?? Infinity);
-        if (diff !== 0) return diff;
+      if (column?.sort) {
+        // Missing values last, whichever way it sorts.
+        const [x, y] = [column.sort(a), column.sort(b)];
+        if (x !== y) {
+          if (x === null) return 1;
+          if (y === null) return -1;
+          return column.descending ? y - x : x - y;
+        }
       }
       return a.page.localeCompare(b.page);
     });
-  const hasSuperiors = rows.some((m) => m.superior);
+  const hasNeeds = rows.some((m) => needs(category, m) !== '—');
   const others = category.masters.filter((key) => key !== current?.key);
 
   return (
@@ -82,13 +153,27 @@ export function CategoryPage() {
                   Monster
                 </TableSortLabel>
               </TableCell>
-              <TableCell align="right" sortDirection={sortBy === 'combat' ? 'asc' : false}>
-                <TableSortLabel active={sortBy === 'combat'} onClick={() => setSortBy('combat')}>
-                  Combat
-                </TableSortLabel>
-              </TableCell>
-              <TableCell align="right">Slayer</TableCell>
-              {hasSuperiors && <TableCell>Superior</TableCell>}
+              {COLUMNS.map((c) => (
+                <TableCell
+                  key={c.key}
+                  align="right"
+                  sortDirection={sortBy === c.key ? (c.descending ? 'desc' : 'asc') : false}
+                  sx={{ whiteSpace: 'nowrap' }}
+                >
+                  {c.sort ? (
+                    <TableSortLabel
+                      active={sortBy === c.key}
+                      direction={c.descending ? 'desc' : 'asc'}
+                      onClick={() => setSortBy(c.key)}
+                    >
+                      {c.label}
+                    </TableSortLabel>
+                  ) : (
+                    c.label
+                  )}
+                </TableCell>
+              ))}
+              {hasNeeds && <TableCell>Needs</TableCell>}
             </TableRow>
           </TableHead>
           <TableBody>
@@ -101,34 +186,36 @@ export function CategoryPage() {
                   <TableCell>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
                       <IconTile icon={monster.icon} name={monster.page} size={32} />
-                      <Link
-                        component={RouterLink}
-                        to={monsterPath(monster.slug, category.slug, current?.key)}
-                        underline="hover"
-                        sx={{ fontWeight: 500 }}
-                      >
-                        {monster.page}
-                      </Link>
+                      <Box sx={{ minWidth: 0 }}>
+                        <Link
+                          component={RouterLink}
+                          to={monsterPath(monster.slug, category.slug, current?.key)}
+                          underline="hover"
+                          sx={{ fontWeight: 500 }}
+                        >
+                          {monster.page}
+                        </Link>
+                        {superior && (
+                          <Typography variant="caption" color="text.secondary" component="div">
+                            Superior:{' '}
+                            <Link
+                              component={RouterLink}
+                              to={monsterPath(superior.slug, category.slug, current?.key)}
+                              color="inherit"
+                            >
+                              {superior.page}
+                            </Link>
+                          </Typography>
+                        )}
+                      </Box>
                     </Box>
                   </TableCell>
-                  <TableCell align="right">{showRange(combatRange(monster))}</TableCell>
-                  <TableCell align="right">{monster.slayerLevel ?? '—'}</TableCell>
-                  {hasSuperiors && (
-                    <TableCell>
-                      {superior && (
-                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                          <IconTile icon={superior.icon} name={superior.page} size={24} />
-                          <Link
-                            component={RouterLink}
-                            to={monsterPath(superior.slug, category.slug, current?.key)}
-                            underline="hover"
-                          >
-                            {superior.page}
-                          </Link>
-                        </Box>
-                      )}
+                  {COLUMNS.map((c) => (
+                    <TableCell key={c.key} align="right" sx={{ whiteSpace: 'nowrap' }}>
+                      {c.cell(monster)}
                     </TableCell>
-                  )}
+                  ))}
+                  {hasNeeds && <TableCell>{needs(category, monster)}</TableCell>}
                 </TableRow>
               );
             })}

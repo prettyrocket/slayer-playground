@@ -9,8 +9,46 @@ import type {
   SlayerCategory,
 } from '@/data/types';
 
-/** A version with just a combat level; the pages under test read nothing else. */
-const version = (combatLevel: number) => ({ combatLevel }) as MonsterVersion;
+/** A version with a combat level; every other stat empty. */
+const version = (combatLevel: number, more: Partial<MonsterVersion> = {}): MonsterVersion => ({
+  version: null,
+  isDefault: false,
+  name: '',
+  image: null,
+  npcIds: [],
+  examine: null,
+  combatLevel,
+  hitpoints: null,
+  maxHit: [],
+  attackStyles: [],
+  attackSpeed: null,
+  size: null,
+  attributes: [],
+  slayerLevel: null,
+  slayerXp: null,
+  levels: { attack: null, strength: null, defence: null, ranged: null, magic: null },
+  offence: {
+    attack: null,
+    strength: null,
+    magic: null,
+    magicDamage: null,
+    ranged: null,
+    rangedStrength: null,
+  },
+  defence: {
+    stab: null,
+    slash: null,
+    crush: null,
+    magic: null,
+    ranged: null,
+    lightRanged: null,
+    standardRanged: null,
+    heavyRanged: null,
+  },
+  weakness: null,
+  immunities: { poison: null, venom: null, cannon: null, thrall: null, burn: null, freeze: null },
+  ...more,
+});
 
 /** A monster with just what navigation reads; everything else empty. */
 function monster(
@@ -48,7 +86,15 @@ export const monstersFixture: MonstersFile = {
       slayerLevel: 85,
       icon: 'icons/monsters/abyssal-demon.png',
       superior: 'greater-abyssal-demon',
-      versions: [version(124)],
+      versions: [
+        version(124, {
+          hitpoints: 150,
+          slayerXp: 150,
+          maxHit: ['8'],
+          attackStyles: ['Stab'],
+          levels: { attack: 97, strength: 67, defence: 135, ranged: 1, magic: 1 },
+        }),
+      ],
     }),
     monster('greater-abyssal-demon', 'Greater abyssal demon', ['abyssal demons'], [], {
       superiorOf: ['abyssal-demon'],
@@ -56,7 +102,16 @@ export const monstersFixture: MonstersFile = {
     }),
     monster('abyssal-sire', 'Abyssal Sire', ['abyssal demons', 'bosses'], ['vannaka', 'duradel'], {
       slayerLevel: 85,
-      versions: [version(350), version(116)],
+      versions: [
+        version(350, {
+          hitpoints: 425,
+          slayerXp: 478,
+          maxHit: ['40'],
+          attackStyles: ['Magic', 'Crush', 'Slash'],
+          levels: { attack: 180, strength: 136, defence: 250, ranged: 1, magic: 200 },
+        }),
+        version(116),
+      ],
     }),
     monster('dust-devil', 'Dust devil', ['dust devils'], ['duradel']),
     monster('cow', 'Cow', ['cows'], ['turael']),
@@ -108,6 +163,9 @@ export const categoriesFixture: CategoriesFile = {
     category('dust devils', ['dust-devil'], ['duradel'], {
       aliases: ['dusties'],
       slayerLevel: 65,
+      equipment: [
+        { item: 'Facemask', use: 'Protecting against Dust devils', monsters: ['dust-devil'] },
+      ],
     }),
     category('wilderness bosses', [], ['krystilia']),
   ],
