@@ -1,6 +1,8 @@
 import type {
+  Assignment,
   CategoriesFile,
   MasterKey,
+  MastersFile,
   Monster,
   MonstersFile,
   SlayerCategory,
@@ -78,5 +80,79 @@ export const categoriesFixture: CategoriesFile = {
       slayerLevel: 65,
     }),
     category('wilderness bosses', [], ['krystilia']),
+  ],
+};
+
+/** A row of a master's table; everything the tests don't set is empty. */
+function assignment(category: string, weight: number, more: Partial<Assignment> = {}): Assignment {
+  return {
+    category,
+    weight,
+    amount: [120, 170],
+    extended: null,
+    slayerLevel: null,
+    combatLevel: null,
+    requirements: null,
+    unlocks: [],
+    excludes: [],
+    locations: [],
+    ...more,
+  };
+}
+
+/**
+ * Served for data/masters.json in tests. Duradel's weights make round chances
+ * (12 / 30 = 40%); Konar has locations; Mortimer offers choices, not chances.
+ */
+export const mastersFixture: MastersFile = {
+  masters: [
+    {
+      key: 'vannaka',
+      name: 'Vannaka',
+      page: 'Vannaka',
+      alternates: [],
+      totalWeight: 5,
+      assignments: [assignment('abyssal demons', 5, { amount: [40, 90] })],
+    },
+    {
+      key: 'duradel',
+      name: 'Duradel',
+      page: 'Duradel/Slayer assignments',
+      alternates: ['Kuradal'],
+      totalWeight: 30,
+      assignments: [
+        assignment('abyssal demons', 12, { amount: [130, 200], extended: [200, 250] }),
+        assignment('bosses', 12, { amount: [3, 35] }),
+        assignment('dust devils', 6, { amount: [50, 50] }),
+      ],
+    },
+    {
+      key: 'konar',
+      name: 'Konar quo Maten',
+      page: 'Konar quo Maten',
+      alternates: [],
+      totalWeight: 9,
+      assignments: [
+        assignment('abyssal demons', 9, {
+          locations: ['Catacombs of Kourend', 'Troll Stronghold (location)'],
+        }),
+      ],
+    },
+    {
+      key: 'krystilia',
+      name: 'Krystilia',
+      page: 'Krystilia',
+      alternates: [],
+      totalWeight: 8,
+      assignments: [assignment('wilderness bosses', 8, { amount: [3, 35] })],
+    },
+    {
+      key: 'mortimer',
+      name: 'Mortimer',
+      page: 'Mortimer',
+      alternates: [],
+      totalWeight: 10,
+      assignments: [assignment('abyssal demons', 10)],
+    },
   ],
 };
