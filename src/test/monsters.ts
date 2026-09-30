@@ -29,10 +29,7 @@ function monster(slug: string, page: string, categories: string[], assignedBy: M
  */
 export const monstersFixture: MonstersFile = {
   monsters: [
-    {
-      ...monster('abyssal-demon', 'Abyssal demon', ['abyssal demons'], ['vannaka', 'duradel']),
-      superior: 'greater-abyssal-demon',
-    },
+    monster('abyssal-demon', 'Abyssal demon', ['abyssal demons'], ['vannaka', 'duradel']),
     monster('abyssal-sire', 'Abyssal Sire', ['abyssal demons', 'bosses'], ['vannaka', 'duradel']),
     monster('dust-devil', 'Dust devil', ['dust devils'], ['duradel']),
     monster('cow', 'Cow', ['cows'], ['turael']),
@@ -74,14 +71,11 @@ export const categoriesFixture: CategoriesFile = {
       slayerLevel: 85,
       icon: 'icons/abyssal-demons.png',
     }),
-    category('bosses', ['abyssal-sire'], ['duradel'], { unlocks: ['Like a Boss'] }),
+    category('bosses', ['abyssal-sire'], ['duradel']),
     category('cows', ['cow'], ['turael']),
     category('dust devils', ['dust-devil'], ['duradel'], {
       aliases: ['dusties'],
       slayerLevel: 65,
-      equipment: [
-        { item: 'Facemask', use: 'Protecting against Dust devils', monsters: ['dust-devil'] },
-      ],
     }),
     category('wilderness bosses', [], ['krystilia']),
   ],
