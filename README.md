@@ -95,6 +95,7 @@ the wiki itself. Node runs the TypeScript directly (22.18+).
 | `masters.json`      | each master's assignment table (weights, amounts, requirements)                         |
 | `categories.json`   | every Slayer category: monsters, masters, aliases, Slayer level, unlocks, extend, items |
 | `unlocks.json`      | the Slayer Rewards unlocks and extends, with costs                                      |
+| `icons/<slug>.png`  | a picture per category: its in-game Slayer icon, or a small render of a typical monster |
 | `meta.json`         | when the data last changed, and the wiki pages it came from                             |
 
 Types for all of them are in `src/data/types.ts`. The sync prints a `!` line

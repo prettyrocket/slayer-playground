@@ -1,4 +1,4 @@
-import type { WikiClient } from '../lib/wiki-client.ts';
+import { MAX_TITLES_PER_REQUEST, type WikiClient } from '../lib/wiki-client.ts';
 import { MASTER_PAGES } from './masters.ts';
 
 /**
@@ -12,6 +12,7 @@ export const MONSTER_FIELDS = [
   'default_version',
   'version_anchor',
   'name',
+  'image',
   'id',
   'examine',
   'is_members_only',
@@ -104,6 +105,56 @@ export async function fetchPages(client: WikiClient): Promise<(page: string) => 
   const missing = WIKITEXT_PAGES.filter((page) => !text.get(page));
   if (missing.length > 0) throw new Error(`Missing wiki pages: ${missing.join(', ')}`);
   return (page) => text.get(page)!;
+}
+
+/** File titles in Category:Slayer icons, the in-game Slayer task icons (about 75, one request). */
+export async function fetchSlayerIcons(client: WikiClient): Promise<string[]> {
+  const res = await client.get<{ query?: { categorymembers?: { title: string }[] } }>({
+    action: 'query',
+    list: 'categorymembers',
+    cmtitle: 'Category:Slayer icons',
+    cmtype: 'file',
+    cmlimit: '500',
+  });
+  return (res.query?.categorymembers ?? []).map((m) => m.title).sort();
+}
+
+/**
+ * Download URLs for file titles, keyed by the title as given, `MAX_TITLES_PER_REQUEST`
+ * per request. Images wider than `width` get a thumbnail of that width instead.
+ * Missing files are left out.
+ */
+export async function fetchImageUrls(
+  client: WikiClient,
+  titles: string[],
+  width: number,
+): Promise<Map<string, string>> {
+  const out = new Map<string, string>();
+  for (let i = 0; i < titles.length; i += MAX_TITLES_PER_REQUEST) {
+    const chunk = titles.slice(i, i + MAX_TITLES_PER_REQUEST);
+    const { query } = await client.get<{
+      query?: {
+        normalized?: { from: string; to: string }[];
+        pages?: {
+          title: string;
+          imageinfo?: { url: string; width: number; thumburl?: string }[];
+        }[];
+      };
+    }>({
+      action: 'query',
+      titles: chunk.join('|'),
+      prop: 'imageinfo',
+      iiprop: 'url|size',
+      iiurlwidth: String(width),
+    });
+    const renamed = new Map((query?.normalized ?? []).map(({ from, to }) => [from, to]));
+    const byTitle = new Map((query?.pages ?? []).map((p) => [p.title, p.imageinfo?.[0]]));
+    for (const title of chunk) {
+      const info = byTitle.get(renamed.get(title) ?? title);
+      if (info) out.set(title, info.width > width && info.thumburl ? info.thumburl : info.url);
+    }
+  }
+  return out;
 }
 
 /** Titles of the wiki's "Slayer task/..." guide pages, without redirects (about 80, one request). */

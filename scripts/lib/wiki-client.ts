@@ -211,9 +211,47 @@ export class WikiClient {
     return body;
   }
 
+  /**
+   * The bytes of a file on the wiki, e.g. an image URL from `prop=imageinfo`,
+   * through the same queue, User-Agent and retries. Cached on disk by URL even
+   * with `refresh`: the wiki versions file URLs (`...png?cd34f`), so a changed
+   * file is a new URL, and refetching every image would be wasted requests.
+   */
+  async download(url: string): Promise<Buffer> {
+    const origin = new URL(this.opts.apiUrl).origin;
+    if (new URL(url).origin !== origin) throw new Error(`Not a wiki file: ${url}`);
+    const file = path.join(
+      this.opts.cacheDir,
+      'files',
+      `${createHash('sha256').update(url).digest('hex').slice(0, 32)}.bin`,
+    );
+    const hit = await readFile(file).catch(() => undefined);
+    if (hit) {
+      this.stats.cached++;
+      return hit;
+    }
+    const name = decodeURIComponent(new URL(url).pathname.split('/').pop() ?? url);
+    const body = await this.enqueue(() =>
+      this.fetchWithRetry(url, `file ${name}`, 'image/*', async (res) =>
+        Buffer.from(await res.arrayBuffer()),
+      ),
+    );
+    await mkdir(path.dirname(file), { recursive: true });
+    await writeFile(file, body);
+    return body;
+  }
+
   /** One request through the queue, with retries. Rejects on an error payload, so it is never cached. */
   private async fetchJson<T>(params: Params): Promise<T> {
-    const body = await this.enqueue(() => this.fetchWithRetry<T>(params));
+    const url = `${this.opts.apiUrl}?${new URLSearchParams(params)}`;
+    const body = await this.enqueue(() =>
+      this.fetchWithRetry(
+        url,
+        describe(params),
+        'application/json',
+        (res) => res.json() as Promise<T>,
+      ),
+    );
     const error = (body as { error?: unknown } | null)?.error;
     if (error !== undefined) {
       const info = typeof error === 'string' ? error : (error as { info?: string }).info;
@@ -231,8 +269,12 @@ export class WikiClient {
     return run;
   }
 
-  private async fetchWithRetry<T>(params: Params): Promise<T> {
-    const url = `${this.opts.apiUrl}?${new URLSearchParams(params)}`;
+  private async fetchWithRetry<T>(
+    url: string,
+    label: string,
+    accept: string,
+    read: (res: Response) => Promise<T>,
+  ): Promise<T> {
     for (let attempt = 1; ; attempt++) {
       const wait = this.lastRequestAt + this.opts.minIntervalMs - this.opts.now();
       if (wait > 0) await this.opts.sleep(wait);
@@ -241,7 +283,7 @@ export class WikiClient {
 
       const res = await this.opts
         .fetch(url, {
-          headers: { 'User-Agent': this.opts.userAgent, Accept: 'application/json' },
+          headers: { 'User-Agent': this.opts.userAgent, Accept: accept },
           signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
         })
         .catch((error: unknown) => (error instanceof Error ? error : new Error(String(error))));
@@ -253,10 +295,10 @@ export class WikiClient {
         failure = res;
       } else {
         if (res.ok) {
-          this.opts.log(`  GET ${describe(params)} -> ${res.status}`);
-          return (await res.json()) as T;
+          this.opts.log(`  GET ${label} -> ${res.status}`);
+          return await read(res);
         }
-        failure = new WikiHttpError(res.status, `HTTP ${res.status} for ${describe(params)}`);
+        failure = new WikiHttpError(res.status, `HTTP ${res.status} for ${label}`);
         if (!RETRYABLE_STATUS.has(res.status)) throw failure;
         retryAfterMs = parseRetryAfter(res.headers.get('Retry-After'));
       }

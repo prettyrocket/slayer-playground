@@ -1,13 +1,19 @@
+import type { ReactElement } from 'react';
+
+import BackpackOutlined from '@mui/icons-material/BackpackOutlined';
+import LockOutlined from '@mui/icons-material/LockOutlined';
+import StarRounded from '@mui/icons-material/StarRounded';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
+import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
 
 import { Link } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
-import { useCatalog } from '@/data/catalog';
+import { type Category, useCatalog } from '@/data/catalog';
 import { type SearchResult, searchCategories } from '@/data/search';
 import { categoryPath } from '@/routing/paths';
 
@@ -31,51 +37,139 @@ const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
 
 // The Slayer skill icon, from the OSRS Wiki, served from public/ (never hotlinked).
 const SLAYER_ICON = `${import.meta.env.BASE_URL}icons/slayer.png`;
+// Synced data, including category icons (public/data/icons).
+const DATA_URL = `${import.meta.env.BASE_URL}data/`;
+
+/** A small badge on a card: what the task needs, or that a superior can spawn. */
+function Badge({ icon, label, title }: { icon: ReactElement; label: string; title?: string }) {
+  return (
+    <Chip
+      size="small"
+      variant="outlined"
+      icon={icon}
+      label={label}
+      title={title}
+      sx={{ height: 22, borderColor: 'divider', '& .MuiChip-label': { px: 0.75 } }}
+    />
+  );
+}
+
+/** Items the task needs: the first, plus how many alternatives ("Leaf-bladed spear +4"). */
+function itemsBadge(equipment: Category['equipment']) {
+  const items = [...new Set(equipment.map((e) => e.item))];
+  if (items.length === 0) return null;
+  const label = items.length > 1 ? `${items[0]} +${items.length - 1}` : items[0];
+  const title = equipment.map((e) => `${e.item}: ${e.use}`).join('\n');
+  return <Badge icon={<BackpackOutlined />} label={label} title={title} />;
+}
 
 function CategoryCard({ result }: { result: SearchResult }) {
   const { category } = result;
   const why = reason(result);
+  const items = itemsBadge(category.equipment);
+  const badges = items || category.unlocks.length > 0 || category.superior;
   return (
     <Card component="li" variant="outlined">
       <CardActionArea
         component={Link}
         to={categoryPath(category.slug)}
-        sx={{ height: '100%', p: 1.5, display: 'flex', flexDirection: 'column' }}
+        sx={{
+          height: '100%',
+          p: 1.5,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'stretch',
+        }}
       >
-        <Box sx={{ width: '100%', flexGrow: 1 }}>
-          <Typography component="span" sx={{ display: 'block', fontWeight: 600, lineHeight: 1.3 }}>
-            {category.name}
-          </Typography>
-          {why && (
-            <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
-              {why}
-            </Typography>
-          )}
-        </Box>
-        <Box
-          sx={{
-            width: '100%',
-            mt: 1,
-            display: 'flex',
-            alignItems: 'center',
-            gap: 1,
-            color: 'text.secondary',
-            typography: 'body2',
-          }}
-        >
-          {category.slayerLevel !== null && (
-            <Box
+        <Box sx={{ display: 'flex', gap: 1.5, alignItems: 'center' }}>
+          <Box
+            aria-hidden
+            sx={{
+              width: 48,
+              height: 48,
+              flexShrink: 0,
+              borderRadius: 1.5,
+              bgcolor: 'action.hover',
+              display: 'grid',
+              placeItems: 'center',
+              overflow: 'hidden',
+              color: 'text.secondary',
+              fontWeight: 600,
+            }}
+          >
+            {category.icon ? (
+              // In-game icons are about 20-30px and stay at their own size; renders
+              // (up to 64px) shrink to fit.
+              <Box
+                component="img"
+                src={`${DATA_URL}${category.icon}`}
+                alt=""
+                loading="lazy"
+                sx={{ maxWidth: 40, maxHeight: 40, objectFit: 'contain' }}
+              />
+            ) : (
+              category.name[0]
+            )}
+          </Box>
+          <Box sx={{ minWidth: 0 }}>
+            <Typography
               component="span"
-              title="Slayer level required"
-              sx={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'pre' }}
+              sx={{ display: 'block', fontWeight: 600, lineHeight: 1.3 }}
             >
-              {/* Native size: pixel art blurs when scaled by an odd amount. The space
-                  keeps "Slayer 85" apart for screen readers too. */}
-              <img src={SLAYER_ICON} alt="Slayer" width={23} height={24} /> {category.slayerLevel}
+              {category.name}
+            </Typography>
+            <Box
+              sx={{
+                mt: 0.25,
+                display: 'flex',
+                alignItems: 'center',
+                flexWrap: 'wrap',
+                columnGap: 1,
+                color: 'text.secondary',
+                typography: 'body2',
+              }}
+            >
+              {category.slayerLevel !== null && (
+                <Box
+                  component="span"
+                  title="Slayer level required"
+                  sx={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'pre' }}
+                >
+                  {/* Native size: pixel art blurs when scaled by an odd amount. The space
+                      keeps "Slayer 85" apart for screen readers too. */}
+                  <img src={SLAYER_ICON} alt="Slayer" width={23} height={24} />{' '}
+                  {category.slayerLevel}
+                </Box>
+              )}
+              <span>{plural(category.monsters.length, 'monster')}</span>
             </Box>
-          )}
-          <span>{plural(category.monsters.length, 'monster')}</span>
+          </Box>
         </Box>
+        {why && (
+          <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
+            {why}
+          </Typography>
+        )}
+        {badges && (
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 1.25 }}>
+            {items}
+            {category.unlocks.map((unlock) => (
+              <Badge
+                key={unlock}
+                icon={<LockOutlined />}
+                label={unlock}
+                title={`Needs the ${unlock} unlock from the Slayer Rewards shop`}
+              />
+            ))}
+            {category.superior && (
+              <Badge
+                icon={<StarRounded />}
+                label="Superior"
+                title="A superior can spawn on this task (Bigger and Badder unlock)"
+              />
+            )}
+          </Box>
+        )}
       </CardActionArea>
     </Card>
   );

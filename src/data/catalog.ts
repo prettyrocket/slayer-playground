@@ -1,7 +1,13 @@
 import { useQuery } from '@tanstack/react-query';
 
 import { fetchJson } from '@/api';
-import type { CategoriesFile, MasterKey, Monster, MonstersFile } from '@/data/types';
+import type {
+  CategoriesFile,
+  CategoryEquipment,
+  MasterKey,
+  Monster,
+  MonstersFile,
+} from '@/data/types';
 
 /** A Slayer category, e.g. "Abyssal demons": the monsters that count for a task of it. */
 export interface Category {
@@ -14,6 +20,14 @@ export interface Category {
   aliases: string[];
   /** The lowest Slayer level any master needs to assign it; null for none. */
   slayerLevel: number | null;
+  /** Picture path under public/data, e.g. "icons/cows.png"; null for none. */
+  icon: string | null;
+  /** Slayer shop unlocks some master needs before assigning it. */
+  unlocks: string[];
+  /** Slayer equipment its monsters need. */
+  equipment: CategoryEquipment[];
+  /** Whether a superior can spawn on it (with Bigger and Badder). */
+  superior: boolean;
 }
 
 /** What navigation needs: every category and monster, by name. */
@@ -34,17 +48,35 @@ function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesF
     // which masters assign it, and categories no monster page has, like
     // Krystilia's wilderness bosses.
     categories: categories
-      .map(({ category, monsters: slugs, masters, aliases, slayerLevel }) => ({
-        slug: categorySlug(category),
-        name: category.charAt(0).toUpperCase() + category.slice(1),
-        monsters: slugs
-          .map((slug) => bySlug.get(slug))
-          .filter((m): m is Monster => m !== undefined)
-          .toSorted((a, b) => a.page.localeCompare(b.page)),
-        masters,
-        aliases,
-        slayerLevel,
-      }))
+      .map(
+        ({
+          category,
+          monsters: slugs,
+          masters,
+          aliases,
+          slayerLevel,
+          icon,
+          unlocks,
+          equipment,
+        }) => {
+          const members = slugs
+            .map((slug) => bySlug.get(slug))
+            .filter((m): m is Monster => m !== undefined)
+            .toSorted((a, b) => a.page.localeCompare(b.page));
+          return {
+            slug: categorySlug(category),
+            name: category.charAt(0).toUpperCase() + category.slice(1),
+            monsters: members,
+            masters,
+            aliases,
+            slayerLevel,
+            icon,
+            unlocks,
+            equipment,
+            superior: members.some((m) => m.superior !== null),
+          };
+        },
+      )
       .toSorted((a, b) => a.name.localeCompare(b.name)),
     monsters,
   };

@@ -209,6 +209,8 @@ export function buildCategories(input: BuildInput): BuildResult {
           levels.length === 0 || levels.includes(null)
             ? null
             : Math.min(...levels.filter((l): l is number => l !== null)),
+        // Filled in by the icons step.
+        icon: null,
         page: pageByCategory.get(category) ?? null,
         monsters: [...new Set(monsters)].sort(byCodeUnit),
         masters: MASTER_KEYS.filter((key) => byMaster.some((b) => b.key === key)),
