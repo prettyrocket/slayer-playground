@@ -2,6 +2,8 @@
   "categories": [
     {
       "category": "aberrant spectres",
+      "aliases": [],
+      "slayerLevel": 60,
       "page": "Slayer task/Aberrant spectres",
       "monsters": [
         "aberrant-spectre",
@@ -33,6 +35,8 @@
     },
     {
       "category": "abyssal demons",
+      "aliases": [],
+      "slayerLevel": 85,
       "page": "Slayer task/Abyssal demons",
       "monsters": [
         "abyssal-demon",
@@ -57,6 +61,8 @@
     },
     {
       "category": "ankou",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Ankou",
       "monsters": [
         "ankou",
@@ -75,6 +81,10 @@
     },
     {
       "category": "aquanite",
+      "aliases": [
+        "aquanites"
+      ],
+      "slayerLevel": 78,
       "page": "Slayer task/Aquanites",
       "monsters": [
         "aquanite",
@@ -93,6 +103,8 @@
     },
     {
       "category": "araxytes",
+      "aliases": [],
+      "slayerLevel": 92,
       "page": "Slayer task/Araxytes",
       "monsters": [
         "acidic-araxyte",
@@ -113,6 +125,8 @@
     },
     {
       "category": "aviansie",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Aviansie",
       "monsters": [
         "aviansie",
@@ -137,6 +151,8 @@
     },
     {
       "category": "bandits",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Bandits",
       "monsters": [
         "bandit",
@@ -154,6 +170,8 @@
     },
     {
       "category": "banshees",
+      "aliases": [],
+      "slayerLevel": 15,
       "page": "Slayer task/Banshees",
       "monsters": [
         "banshee",
@@ -183,6 +201,8 @@
     },
     {
       "category": "basilisks",
+      "aliases": [],
+      "slayerLevel": 40,
       "page": "Slayer task/Basilisks",
       "monsters": [
         "basilisk",
@@ -221,6 +241,8 @@
     },
     {
       "category": "bats",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Bats",
       "monsters": [
         "albino-bat",
@@ -240,6 +262,8 @@
     },
     {
       "category": "bears",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Bears",
       "monsters": [
         "artio",
@@ -263,6 +287,8 @@
     },
     {
       "category": "birds",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Birds",
       "monsters": [
         "baby-roc",
@@ -296,6 +322,8 @@
     },
     {
       "category": "black demons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Black demons",
       "monsters": [
         "balfrug-kreeyath",
@@ -323,6 +351,8 @@
     },
     {
       "category": "black dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Black dragons",
       "monsters": [
         "baby-black-dragon",
@@ -342,6 +372,8 @@
     },
     {
       "category": "black knights",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "black-knight"
@@ -355,6 +387,10 @@
     },
     {
       "category": "bloodveld",
+      "aliases": [
+        "bloodvelds"
+      ],
+      "slayerLevel": 50,
       "page": "Slayer task/Bloodveld",
       "monsters": [
         "bloodthirsty-bloodveld",
@@ -380,6 +416,8 @@
     },
     {
       "category": "blue dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Blue dragons",
       "monsters": [
         "baby-blue-dragon",
@@ -400,6 +438,10 @@
     },
     {
       "category": "bosses",
+      "aliases": [
+        "boss"
+      ],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "abyssal-sire",
@@ -473,6 +515,8 @@
     },
     {
       "category": "brine rats",
+      "aliases": [],
+      "slayerLevel": 47,
       "page": null,
       "monsters": [
         "brine-rat"
@@ -489,6 +533,8 @@
     },
     {
       "category": "catablepon",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "catablepon"
@@ -502,6 +548,8 @@
     },
     {
       "category": "cave bugs",
+      "aliases": [],
+      "slayerLevel": 7,
       "page": null,
       "monsters": [
         "cave-bug"
@@ -517,6 +565,8 @@
     },
     {
       "category": "cave crawlers",
+      "aliases": [],
+      "slayerLevel": 10,
       "page": null,
       "monsters": [
         "bloodthirsty-crawler",
@@ -535,6 +585,8 @@
     },
     {
       "category": "cave horrors",
+      "aliases": [],
+      "slayerLevel": 58,
       "page": "Slayer task/Cave horrors",
       "monsters": [
         "bloodthirsty-abomination",
@@ -561,6 +613,10 @@
     },
     {
       "category": "cave kraken",
+      "aliases": [
+        "cave krakens"
+      ],
+      "slayerLevel": 87,
       "page": "Slayer task/Cave krakens",
       "monsters": [
         "cave-kraken",
@@ -578,6 +634,10 @@
     },
     {
       "category": "cave slimes",
+      "aliases": [
+        "cave slime"
+      ],
+      "slayerLevel": 17,
       "page": null,
       "monsters": [
         "cave-slime"
@@ -593,6 +653,8 @@
     },
     {
       "category": "chaos druids",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "chaos-druid",
@@ -610,6 +672,8 @@
     },
     {
       "category": "cockatrice",
+      "aliases": [],
+      "slayerLevel": 25,
       "page": null,
       "monsters": [
         "bloodthirsty-cockathrice",
@@ -636,6 +700,8 @@
     },
     {
       "category": "cows",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "brutus",
@@ -654,6 +720,8 @@
     },
     {
       "category": "crabs",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Crabs",
       "monsters": [
         "ammonite-crab",
@@ -676,6 +744,8 @@
     },
     {
       "category": "crawling hands",
+      "aliases": [],
+      "slayerLevel": 5,
       "page": null,
       "monsters": [
         "bloodthirsty-hand",
@@ -694,6 +764,8 @@
     },
     {
       "category": "crocodiles",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "crocodile"
@@ -707,6 +779,10 @@
     },
     {
       "category": "custodian stalker",
+      "aliases": [
+        "custodian stalkers"
+      ],
+      "slayerLevel": 54,
       "page": "Slayer task/Custodian stalker",
       "monsters": [
         "ancient-custodian",
@@ -726,6 +802,8 @@
     },
     {
       "category": "dagannoth",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Dagannoth",
       "monsters": [
         "blue-dagannoth",
@@ -752,6 +830,10 @@
     },
     {
       "category": "dark beasts",
+      "aliases": [
+        "dark beast"
+      ],
+      "slayerLevel": 90,
       "page": "Slayer task/Dark beast",
       "monsters": [
         "bloodthirsty-night-beast",
@@ -770,6 +852,8 @@
     },
     {
       "category": "dark warriors",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "dark-warrior"
@@ -783,6 +867,8 @@
     },
     {
       "category": "dogs",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Dogs",
       "monsters": [
         "guard-dog",
@@ -803,6 +889,8 @@
     },
     {
       "category": "drakes",
+      "aliases": [],
+      "slayerLevel": 84,
       "page": "Slayer task/Drakes",
       "monsters": [
         "bloodthirsty-drake",
@@ -821,6 +909,8 @@
     },
     {
       "category": "dust devils",
+      "aliases": [],
+      "slayerLevel": 65,
       "page": "Slayer task/Dust devils",
       "monsters": [
         "bloodthirsty-choke-devil",
@@ -850,6 +940,8 @@
     },
     {
       "category": "dwarves",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Dwarves",
       "monsters": [
         "black-guard",
@@ -869,6 +961,8 @@
     },
     {
       "category": "earth warriors",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Earth warriors",
       "monsters": [
         "earth-warrior"
@@ -882,6 +976,8 @@
     },
     {
       "category": "elves",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Elves",
       "monsters": [
         "elf-archer",
@@ -904,6 +1000,8 @@
     },
     {
       "category": "ents",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "ent"
@@ -917,6 +1015,8 @@
     },
     {
       "category": "fever spiders",
+      "aliases": [],
+      "slayerLevel": 42,
       "page": null,
       "monsters": [
         "fever-spider"
@@ -939,6 +1039,8 @@
     },
     {
       "category": "fire giants",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Fire giants",
       "monsters": [
         "branda-the-fire-queen",
@@ -958,6 +1060,8 @@
     },
     {
       "category": "flesh crawlers",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "flesh-crawler"
@@ -971,6 +1075,8 @@
     },
     {
       "category": "fossil island wyverns",
+      "aliases": [],
+      "slayerLevel": 66,
       "page": "Slayer task/Fossil Island wyverns",
       "monsters": [
         "ancient-wyvern",
@@ -990,6 +1096,8 @@
     },
     {
       "category": "frost dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "frost-dragon"
@@ -1004,6 +1112,8 @@
     },
     {
       "category": "gargoyles",
+      "aliases": [],
+      "slayerLevel": 75,
       "page": "Slayer task/Gargoyles",
       "monsters": [
         "bloodthirsty-gargoyle",
@@ -1042,6 +1152,8 @@
     },
     {
       "category": "ghosts",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Ghosts",
       "monsters": [
         "death-wing",
@@ -1078,6 +1190,8 @@
     },
     {
       "category": "ghouls",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "ghoul"
@@ -1092,6 +1206,8 @@
     },
     {
       "category": "goblins",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Goblins",
       "monsters": [
         "cave-goblin-guard",
@@ -1126,6 +1242,8 @@
     },
     {
       "category": "greater demons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Greater demons",
       "monsters": [
         "greater-demon",
@@ -1149,6 +1267,8 @@
     },
     {
       "category": "green dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Green dragons",
       "monsters": [
         "elvarg",
@@ -1163,6 +1283,8 @@
     },
     {
       "category": "gryphons",
+      "aliases": [],
+      "slayerLevel": 51,
       "page": "Slayer task/Gryphons",
       "monsters": [
         "dire-gryphon",
@@ -1194,6 +1316,8 @@
     },
     {
       "category": "harpie bug swarms",
+      "aliases": [],
+      "slayerLevel": 33,
       "page": null,
       "monsters": [
         "harpie-bug-swarm"
@@ -1215,6 +1339,8 @@
     },
     {
       "category": "hellhounds",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Hellhounds",
       "monsters": [
         "bouncer",
@@ -1241,6 +1367,8 @@
     },
     {
       "category": "hill giants",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Hill giants",
       "monsters": [
         "cyclops",
@@ -1262,6 +1390,8 @@
     },
     {
       "category": "hobgoblins",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Hobgoblins",
       "monsters": [
         "hobgoblin",
@@ -1277,6 +1407,8 @@
     },
     {
       "category": "hydras",
+      "aliases": [],
+      "slayerLevel": 95,
       "page": "Slayer task/Hydras",
       "monsters": [
         "alchemical-hydra",
@@ -1294,6 +1426,8 @@
     },
     {
       "category": "ice giants",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Ice giants",
       "monsters": [
         "eldric-the-ice-king",
@@ -1309,6 +1443,8 @@
     },
     {
       "category": "ice warriors",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "ice-warrior",
@@ -1326,6 +1462,8 @@
     },
     {
       "category": "icefiends",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Icefiends",
       "monsters": [
         "icefiend"
@@ -1340,6 +1478,8 @@
     },
     {
       "category": "infernal mages",
+      "aliases": [],
+      "slayerLevel": 45,
       "page": null,
       "monsters": [
         "bloodthirsty-mage",
@@ -1356,6 +1496,8 @@
     },
     {
       "category": "jellies",
+      "aliases": [],
+      "slayerLevel": 52,
       "page": "Slayer task/Jellies",
       "monsters": [
         "bloodthirsty-jelly",
@@ -1380,6 +1522,8 @@
     },
     {
       "category": "jungle horrors",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "jungle-horror",
@@ -1395,6 +1539,10 @@
     },
     {
       "category": "kalphite",
+      "aliases": [
+        "kalphites"
+      ],
+      "slayerLevel": null,
       "page": "Slayer task/Kalphites",
       "monsters": [
         "kalphite-guardian",
@@ -1419,6 +1567,8 @@
     },
     {
       "category": "killerwatts",
+      "aliases": [],
+      "slayerLevel": 37,
       "page": null,
       "monsters": [
         "killerwatt"
@@ -1440,6 +1590,10 @@
     },
     {
       "category": "kurask",
+      "aliases": [
+        "kurasks"
+      ],
+      "slayerLevel": 70,
       "page": "Slayer task/Kurasks",
       "monsters": [
         "bloodthirsty-kurask",
@@ -1496,6 +1650,8 @@
     },
     {
       "category": "lava dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "lava-dragon"
@@ -1509,6 +1665,10 @@
     },
     {
       "category": "lesser demons",
+      "aliases": [
+        "lesser demon"
+      ],
+      "slayerLevel": null,
       "page": "Slayer task/Lesser demon",
       "monsters": [
         "lesser-demon",
@@ -1528,6 +1688,8 @@
     },
     {
       "category": "lesser nagua",
+      "aliases": [],
+      "slayerLevel": 48,
       "page": "Slayer task/Lesser Nagua",
       "monsters": [
         "amoxliatl",
@@ -1546,6 +1708,8 @@
     },
     {
       "category": "lizardmen",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Lizardmen",
       "monsters": [
         "corrupt-lizardman",
@@ -1576,6 +1740,8 @@
     },
     {
       "category": "lizards",
+      "aliases": [],
+      "slayerLevel": 22,
       "page": "Slayer task/Lizards",
       "monsters": [
         "desert-lizard",
@@ -1603,6 +1769,8 @@
     },
     {
       "category": "magic axes",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "magic-axe"
@@ -1616,6 +1784,8 @@
     },
     {
       "category": "mammoths",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "mammoth"
@@ -1629,6 +1799,8 @@
     },
     {
       "category": "metal dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Metal dragons",
       "monsters": [
         "adamant-dragon",
@@ -1649,6 +1821,8 @@
     },
     {
       "category": "minotaurs",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "minotaur",
@@ -1664,6 +1838,8 @@
     },
     {
       "category": "mogres",
+      "aliases": [],
+      "slayerLevel": 32,
       "page": null,
       "monsters": [
         "mogre",
@@ -1687,6 +1863,8 @@
     },
     {
       "category": "molanisks",
+      "aliases": [],
+      "slayerLevel": 39,
       "page": "Slayer task/Molanisks",
       "monsters": [
         "molanisk"
@@ -1708,6 +1886,8 @@
     },
     {
       "category": "monkeys",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Monkeys",
       "monsters": [
         "demonic-gorilla",
@@ -1736,6 +1916,8 @@
     },
     {
       "category": "moss giants",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Moss giants",
       "monsters": [
         "bryophyta",
@@ -1752,6 +1934,10 @@
     },
     {
       "category": "mutated zygomites",
+      "aliases": [
+        "zygomites"
+      ],
+      "slayerLevel": 57,
       "page": "Slayer task/Zygomites",
       "monsters": [
         "ancient-zygomite",
@@ -1778,6 +1964,8 @@
     },
     {
       "category": "nechryael",
+      "aliases": [],
+      "slayerLevel": 80,
       "page": "Slayer task/Nechryael",
       "monsters": [
         "bloodthirsty-nechryarch",
@@ -1800,6 +1988,8 @@
     },
     {
       "category": "ogres",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Ogres",
       "monsters": [
         "city-guard",
@@ -1832,6 +2022,8 @@
     },
     {
       "category": "otherworldly beings",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "otherworldly-being"
@@ -1845,6 +2037,10 @@
     },
     {
       "category": "pirates",
+      "aliases": [
+        "pirate"
+      ],
+      "slayerLevel": null,
       "page": "Slayer task/Pirate",
       "monsters": [
         "pirate",
@@ -1859,6 +2055,8 @@
     },
     {
       "category": "pyrefiends",
+      "aliases": [],
+      "slayerLevel": 30,
       "page": "Slayer task/Pyrefiends",
       "monsters": [
         "bloodthirsty-infernal-pyrelord",
@@ -1879,6 +2077,8 @@
     },
     {
       "category": "rats",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Rats",
       "monsters": [
         "blessed-giant-rat",
@@ -1902,6 +2102,8 @@
     },
     {
       "category": "red dragons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Red dragons",
       "monsters": [
         "baby-red-dragon",
@@ -1921,6 +2123,8 @@
     },
     {
       "category": "revenants",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "revenant-cyclops",
@@ -1945,6 +2149,8 @@
     },
     {
       "category": "rockslugs",
+      "aliases": [],
+      "slayerLevel": 20,
       "page": null,
       "monsters": [
         "bloodthirst-rockslug",
@@ -1969,6 +2175,8 @@
     },
     {
       "category": "rogues",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "rogue"
@@ -1982,6 +2190,8 @@
     },
     {
       "category": "scabarites",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Scabarites",
       "monsters": [
         "giant-scarab",
@@ -2000,6 +2210,8 @@
     },
     {
       "category": "scorpions",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Scorpions",
       "monsters": [
         "giant-lobster",
@@ -2027,6 +2239,8 @@
     },
     {
       "category": "sea snakes",
+      "aliases": [],
+      "slayerLevel": 40,
       "page": "Slayer task/Sea snakes",
       "monsters": [
         "giant-sea-snake",
@@ -2042,6 +2256,8 @@
     },
     {
       "category": "shades",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Shades",
       "monsters": [
         "asyn-shade",
@@ -2065,6 +2281,8 @@
     },
     {
       "category": "shadow warriors",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "shadow-warrior"
@@ -2079,6 +2297,8 @@
     },
     {
       "category": "skeletal wyverns",
+      "aliases": [],
+      "slayerLevel": 72,
       "page": null,
       "monsters": [
         "skeletal-wyvern"
@@ -2095,6 +2315,8 @@
     },
     {
       "category": "skeletons",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Skeletons",
       "monsters": [
         "calvarion",
@@ -2151,6 +2373,8 @@
     },
     {
       "category": "smoke devils",
+      "aliases": [],
+      "slayerLevel": 93,
       "page": "Slayer task/Smoke devils",
       "monsters": [
         "bloodthirsty-smoke-devil",
@@ -2170,6 +2394,8 @@
     },
     {
       "category": "sourhogs",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "sourhog"
@@ -2191,6 +2417,8 @@
     },
     {
       "category": "spiders",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Spiders",
       "monsters": [
         "acidic-araxyte",
@@ -2230,6 +2458,8 @@
     },
     {
       "category": "spiritual creatures",
+      "aliases": [],
+      "slayerLevel": 63,
       "page": "Slayer task/Spiritual creatures",
       "monsters": [
         "spiritual-mage",
@@ -2249,6 +2479,10 @@
     },
     {
       "category": "suqahs",
+      "aliases": [
+        "suqah"
+      ],
+      "slayerLevel": null,
       "page": "Slayer task/Suqah",
       "monsters": [
         "suqah"
@@ -2263,6 +2497,8 @@
     },
     {
       "category": "terror dogs",
+      "aliases": [],
+      "slayerLevel": 40,
       "page": null,
       "monsters": [
         "terror-dog"
@@ -2276,6 +2512,8 @@
     },
     {
       "category": "trolls",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Trolls",
       "monsters": [
         "arrg",
@@ -2323,6 +2561,8 @@
     },
     {
       "category": "turoth",
+      "aliases": [],
+      "slayerLevel": 55,
       "page": "Slayer task/Turoth",
       "monsters": [
         "bloodthirsty-turoth",
@@ -2378,6 +2618,8 @@
     },
     {
       "category": "tzhaar",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/TzHaar",
       "monsters": [
         "jal-ak",
@@ -2419,6 +2661,8 @@
     },
     {
       "category": "undead druids",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "undead-druid"
@@ -2430,6 +2674,8 @@
     },
     {
       "category": "vampyres",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Vampyres",
       "monsters": [
         "blood-starved-venator",
@@ -2462,6 +2708,8 @@
     },
     {
       "category": "venators",
+      "aliases": [],
+      "slayerLevel": 74,
       "page": "Slayer task/Venators",
       "monsters": [
         "blood-starved-venator",
@@ -2476,6 +2724,10 @@
     },
     {
       "category": "wall beasts",
+      "aliases": [
+        "wall beast"
+      ],
+      "slayerLevel": 35,
       "page": "Slayer task/Wall beast",
       "monsters": [
         "wall-beast"
@@ -2497,6 +2749,8 @@
     },
     {
       "category": "warped creatures",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Warped creatures",
       "monsters": [
         "mutated-terrorbird",
@@ -2528,6 +2782,8 @@
     },
     {
       "category": "waterfiends",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Waterfiends",
       "monsters": [
         "waterfiend"
@@ -2542,6 +2798,8 @@
     },
     {
       "category": "werewolves",
+      "aliases": [],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "werewolf"
@@ -2555,6 +2813,10 @@
     },
     {
       "category": "wilderness bosses",
+      "aliases": [
+        "wilderness bosses / demi-bosses"
+      ],
+      "slayerLevel": null,
       "page": null,
       "monsters": [
         "artio",
@@ -2579,6 +2841,8 @@
     },
     {
       "category": "wolves",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Wolves",
       "monsters": [
         "big-wolf",
@@ -2601,6 +2865,8 @@
     },
     {
       "category": "wyrms",
+      "aliases": [],
+      "slayerLevel": 62,
       "page": "Slayer task/Wyrms",
       "monsters": [
         "bloodthirsty-shadow-wyrm",
@@ -2623,6 +2889,8 @@
     },
     {
       "category": "zombies",
+      "aliases": [],
+      "slayerLevel": null,
       "page": "Slayer task/Zombies",
       "monsters": [
         "a-corpse",
