@@ -77,71 +77,64 @@ export function MasterPage() {
       {masters.isError && <Alert severity="error">{masters.error.message}</Alert>}
       {!table && !masters.isError && <CircularProgress size={24} aria-label="Loading" />}
       {table && (
-        <>
-          <TableContainer>
-            <Table size="small" aria-label={`${master.name}'s tasks`}>
-              <TableHead>
-                <TableRow>
-                  <TableCell sortDirection={sortBy === 'task' ? 'asc' : false}>
-                    <TableSortLabel active={sortBy === 'task'} onClick={() => setSortBy('task')}>
-                      Task
+        <TableContainer>
+          <Table size="small" aria-label={`${master.name}'s tasks`}>
+            <TableHead>
+              <TableRow>
+                <TableCell sortDirection={sortBy === 'task' ? 'asc' : false}>
+                  <TableSortLabel active={sortBy === 'task'} onClick={() => setSortBy('task')}>
+                    Task
+                  </TableSortLabel>
+                </TableCell>
+                <TableCell align="right">Weight</TableCell>
+                {showChance && (
+                  <TableCell align="right" sortDirection={sortBy === 'chance' ? 'desc' : false}>
+                    <TableSortLabel
+                      active={sortBy === 'chance'}
+                      direction="desc"
+                      onClick={() => setSortBy('chance')}
+                    >
+                      Chance
                     </TableSortLabel>
                   </TableCell>
-                  <TableCell align="right">Weight</TableCell>
-                  {showChance && (
-                    <TableCell align="right" sortDirection={sortBy === 'chance' ? 'desc' : false}>
-                      <TableSortLabel
-                        active={sortBy === 'chance'}
-                        direction="desc"
-                        onClick={() => setSortBy('chance')}
+                )}
+                <TableCell align="right">Amount</TableCell>
+                <TableCell align="right">Extended</TableCell>
+                {showLocations && <TableCell>Location</TableCell>}
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {rows.map((a) => (
+                <TableRow key={a.category} hover>
+                  <TableCell>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+                      <IconTile icon={category(a)?.icon ?? null} name={name(a)} size={32} />
+                      <Link
+                        component={RouterLink}
+                        to={categoryPath(categorySlug(a.category), master.key)}
+                        underline="hover"
+                        sx={{ fontWeight: 500 }}
                       >
-                        Chance
-                      </TableSortLabel>
+                        {name(a)}
+                      </Link>
+                    </Box>
+                  </TableCell>
+                  <TableCell align="right">{a.weight}</TableCell>
+                  {showChance && (
+                    <TableCell align="right">
+                      {((a.weight / table.totalWeight) * 100).toFixed(1)}%
                     </TableCell>
                   )}
-                  <TableCell align="right">Amount</TableCell>
-                  <TableCell align="right">Extended</TableCell>
-                  {showLocations && <TableCell>Location</TableCell>}
+                  <TableCell align="right">{amount(a.amount)}</TableCell>
+                  <TableCell align="right">{amount(a.extended)}</TableCell>
+                  {showLocations && (
+                    <TableCell>{a.locations.map(placeName).join(', ') || '—'}</TableCell>
+                  )}
                 </TableRow>
-              </TableHead>
-              <TableBody>
-                {rows.map((a) => (
-                  <TableRow key={a.category} hover>
-                    <TableCell>
-                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-                        <IconTile icon={category(a)?.icon ?? null} name={name(a)} size={32} />
-                        <Link
-                          component={RouterLink}
-                          to={categoryPath(categorySlug(a.category), master.key)}
-                          underline="hover"
-                          sx={{ fontWeight: 500 }}
-                        >
-                          {name(a)}
-                        </Link>
-                      </Box>
-                    </TableCell>
-                    <TableCell align="right">{a.weight}</TableCell>
-                    {showChance && (
-                      <TableCell align="right">
-                        {((a.weight / table.totalWeight) * 100).toFixed(1)}%
-                      </TableCell>
-                    )}
-                    <TableCell align="right">{amount(a.amount)}</TableCell>
-                    <TableCell align="right">{amount(a.extended)}</TableCell>
-                    {showLocations && (
-                      <TableCell>{a.locations.map(placeName).join(', ') || '—'}</TableCell>
-                    )}
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-          <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-            {showChance
-              ? `Chance is a task's weight out of the total (${table.totalWeight}). A master skips tasks you can't be given yet (a level, quest or unlock you don't have), which raises the others' chances.`
-              : `Mortimer offers a choice of tasks, so his weights decide how likely each task is to be offered, not assigned. Total weight: ${table.totalWeight}.`}
-          </Typography>
-        </>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
       )}
     </>
   );

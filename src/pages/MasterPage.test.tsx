@@ -29,7 +29,6 @@ describe('MasterPage', () => {
       ['Dust devils', '6', '20.0%', '50', '—'],
     ]);
     expect(screen.getByText('3 tasks')).toBeInTheDocument();
-    expect(screen.getByText(/weight out of the total \(30\)/)).toBeInTheDocument();
   });
 
   it('sorts by task name', async () => {
@@ -56,11 +55,10 @@ describe('MasterPage', () => {
     expect(row.at(-1)).toBe('Catacombs of Kourend, Troll Stronghold');
   });
 
-  it("leaves out Mortimer's chances, since he offers a choice of tasks", async () => {
+  it("leaves out Mortimer's chances (he offers a choice of tasks)", async () => {
     renderRoute('/masters/mortimer');
     const [header] = await rows("Mortimer's tasks");
     expect(header).toEqual(['Task', 'Weight', 'Amount', 'Extended']);
-    expect(screen.getByText(/offers a choice of tasks/)).toBeInTheDocument();
   });
 
   it('links each task with the master as context', async () => {
