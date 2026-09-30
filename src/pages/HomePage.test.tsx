@@ -15,13 +15,7 @@ const expectCards = async (names: string[]) => {
 describe('HomePage', () => {
   it('lists every task as a card, grouped A–Z with letters to jump by', async () => {
     const { user } = renderRoute('/');
-    await expectCards([
-      'Abyssal demons Slayer 85 2 monsters',
-      'Bosses 1 monster',
-      'Cows 1 monster',
-      'Dust devils Slayer 65 1 monster',
-      'Wilderness bosses 0 monsters',
-    ]);
+    await expectCards(['Abyssal demons', 'Bosses', 'Cows', 'Dust devils', 'Wilderness bosses']);
     // The tile shows the synced icon, from the site's own data folder.
     const tile = within(screen.getByRole('main')).getByRole('link', { name: /^Abyssal demons/ });
     expect(tile.querySelector('img[src="/data/icons/abyssal-demons.png"]')).not.toBeNull();
@@ -45,15 +39,12 @@ describe('HomePage', () => {
     await user.click(within(letters).getByRole('button', { name: 'Jump to D' }));
   });
 
-  it('finds tasks by monster and alias, and says why', async () => {
+  it('finds tasks by monster and by alias', async () => {
     const { user } = renderRoute('/');
     const search = screen.getByRole('searchbox', { name: 'Search tasks' });
 
     await user.type(search, 'sire');
-    await expectCards([
-      'Abyssal demons Slayer 85 2 monsters Includes Abyssal Sire',
-      'Bosses 1 monster Includes Abyssal Sire',
-    ]);
+    await expectCards(['Abyssal demons', 'Bosses']);
     expect(screen.getByRole('status')).toHaveTextContent('2 tasks match “sire”');
     // Results only: no letter groups, no masters.
     expect(screen.queryByRole('navigation', { name: 'Jump to letter' })).not.toBeInTheDocument();
@@ -61,7 +52,7 @@ describe('HomePage', () => {
 
     await user.clear(search);
     await user.type(search, 'dusties');
-    await expectCards(['Dust devils Slayer 65 1 monster Also called “dusties”']);
+    await expectCards(['Dust devils']);
     expect(screen.getByRole('status')).toHaveTextContent('1 task matches “dusties”');
 
     await user.clear(search);
@@ -76,7 +67,7 @@ describe('HomePage', () => {
     const { user, router } = renderRoute('/?q=dust');
     const search = screen.getByRole('searchbox', { name: 'Search tasks' });
     expect(search).toHaveValue('dust');
-    await expectCards(['Dust devils Slayer 65 1 monster']);
+    await expectCards(['Dust devils']);
 
     await user.clear(search);
     await user.type(search, 'cow');

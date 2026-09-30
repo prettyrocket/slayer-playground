@@ -7,21 +7,9 @@ import Typography from '@mui/material/Typography';
 import { Link } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
-import { useCatalog } from '@/data/catalog';
-import { type SearchResult, searchCategories } from '@/data/search';
+import { type Category, useCatalog } from '@/data/catalog';
+import { searchCategories } from '@/data/search';
 import { categoryPath } from '@/routing/paths';
-
-// How many matching monsters to name before "and N more".
-const MONSTERS_SHOWN = 3;
-
-/** Why a result matched, when it wasn't by name. */
-function reason({ alias, monsters }: SearchResult): string | null {
-  if (alias) return `Also called “${alias}”`;
-  if (monsters.length === 0) return null;
-  const shown = monsters.slice(0, MONSTERS_SHOWN).map((m) => m.page);
-  const more = monsters.length - shown.length;
-  return `Includes ${shown.join(', ')}${more > 0 ? ` and ${more} more` : ''}`;
-}
 
 const plural = (n: number, word: string, words = `${word}s`) => `${n} ${n === 1 ? word : words}`;
 
@@ -29,25 +17,26 @@ const letterId = (letter: string) => `tasks-${letter.toLowerCase()}`;
 
 const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
 
-// The Slayer skill icon, from the OSRS Wiki, served from public/ (never hotlinked).
-const SLAYER_ICON = `${import.meta.env.BASE_URL}icons/slayer.png`;
 // Synced data, including category icons (public/data/icons).
 const DATA_URL = `${import.meta.env.BASE_URL}data/`;
 
-/**
- * A task card: its picture top left; beside it the name, then the Slayer level
- * (when a master requires one) and how many monsters count. While searching,
- * why it matched goes underneath.
- */
-function CategoryCard({ result }: { result: SearchResult }) {
-  const { category } = result;
-  const why = reason(result);
+/** A task card: its picture, then its name, left-aligned. */
+function CategoryCard({ category }: { category: Category }) {
   return (
     <Card component="li" variant="outlined">
       <CardActionArea
         component={Link}
         to={categoryPath(category.slug)}
-        sx={{ height: '100%', p: 1.5, display: 'flex', alignItems: 'flex-start', gap: 1.5 }}
+        // ButtonBase centres its content; cards read from the left.
+        sx={{
+          height: '100%',
+          p: 1.5,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-start',
+          textAlign: 'left',
+          gap: 1.5,
+        }}
       >
         <Box
           aria-hidden
@@ -78,38 +67,9 @@ function CategoryCard({ result }: { result: SearchResult }) {
             category.name[0]
           )}
         </Box>
-        <Box sx={{ minWidth: 0 }}>
-          <Typography component="span" sx={{ display: 'block', fontWeight: 600, lineHeight: 1.3 }}>
-            {category.name}
-          </Typography>
-          <Box
-            sx={{
-              mt: 0.25,
-              display: 'flex',
-              alignItems: 'center',
-              columnGap: 1,
-              color: 'text.secondary',
-              typography: 'body2',
-            }}
-          >
-            {category.slayerLevel !== null && (
-              <Box
-                component="span"
-                title="Slayer level required"
-                sx={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'pre' }}
-              >
-                {/* The space keeps "Slayer 85" apart for screen readers too. */}
-                <img src={SLAYER_ICON} alt="Slayer" width={16} height={17} /> {category.slayerLevel}
-              </Box>
-            )}
-            <span>{plural(category.monsters.length, 'monster')}</span>
-          </Box>
-          {why && (
-            <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
-              {why}
-            </Typography>
-          )}
-        </Box>
+        <Typography component="span" sx={{ fontWeight: 600, lineHeight: 1.3 }}>
+          {category.name}
+        </Typography>
       </CardActionArea>
     </Card>
   );
@@ -219,7 +179,7 @@ export function CategoryList({
                   </Typography>
                 </Box>
               ),
-              <CategoryCard key={result.category.slug} result={result} />,
+              <CategoryCard key={result.category.slug} category={result.category} />,
             ];
           })}
         </Box>
