@@ -97,8 +97,9 @@ export function CategoryList({
           aria-label="Jump to letter"
           sx={{
             display: 'grid',
-            gridTemplateColumns: `repeat(${ALPHABET.length}, minmax(24px, 1fr))`,
-            gap: 0.5,
+            gridTemplateColumns: `repeat(${ALPHABET.length}, minmax(20px, 1fr))`,
+            // Fits one line down to about 570px wide; narrower (phones) scrolls.
+            gap: '2px',
             overflowX: 'auto',
             mt: 1,
             mb: 3,
