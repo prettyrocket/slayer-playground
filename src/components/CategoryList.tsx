@@ -1,7 +1,7 @@
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardActionArea from '@mui/material/CardActionArea';
 import Typography from '@mui/material/Typography';
 
 import { Link } from 'react-router';
@@ -14,45 +14,140 @@ import { categoryPath } from '@/routing/paths';
 // How many matching monsters to name before "and N more".
 const MONSTERS_SHOWN = 3;
 
-/** Why a result matched, when not by name, then its Slayer level. */
-function details({ category, alias, monsters }: SearchResult): string | null {
+/** Why a result matched, when it wasn't by name. */
+function reason({ alias, monsters }: SearchResult): string | null {
+  if (alias) return `Also called “${alias}”`;
+  if (monsters.length === 0) return null;
   const shown = monsters.slice(0, MONSTERS_SHOWN).map((m) => m.page);
   const more = monsters.length - shown.length;
-  const reason = alias
-    ? `Also called “${alias}”`
-    : shown.length > 0
-      ? `Includes ${shown.join(', ')}${more > 0 ? ` and ${more} more` : ''}`
-      : null;
-  const level = category.slayerLevel ? `Slayer ${category.slayerLevel}` : null;
-  return [reason, level].filter(Boolean).join(' · ') || null;
+  return `Includes ${shown.join(', ')}${more > 0 ? ` and ${more} more` : ''}`;
+}
+
+const plural = (n: number, word: string, words = `${word}s`) => `${n} ${n === 1 ? word : words}`;
+
+const letterId = (letter: string) => `tasks-${letter.toLowerCase()}`;
+
+function CategoryCard({ result }: { result: SearchResult }) {
+  const { category } = result;
+  const why = reason(result);
+  return (
+    <Card component="li" variant="outlined">
+      <CardActionArea
+        component={Link}
+        to={categoryPath(category.slug)}
+        sx={{ height: '100%', p: 1.5, display: 'flex', flexDirection: 'column' }}
+      >
+        <Box sx={{ width: '100%', flexGrow: 1 }}>
+          <Typography component="span" sx={{ display: 'block', fontWeight: 600, lineHeight: 1.3 }}>
+            {category.name}
+          </Typography>
+          {why && (
+            <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
+              {why}
+            </Typography>
+          )}
+        </Box>
+        <Typography variant="caption" color="text.secondary" sx={{ width: '100%', mt: 1 }}>
+          {category.slayerLevel ? `Slayer ${category.slayerLevel}` : 'Any Slayer level'}
+          {' · '}
+          {category.masters.length > 0 ? plural(category.masters.length, 'master') : 'No master'}
+        </Typography>
+      </CardActionArea>
+    </Card>
+  );
 }
 
 /**
- * Every category matching `query` by name, alias or monster (see
- * searchCategories), with why it matched and its Slayer level.
+ * Every category matching `query` (by name, alias or monster; see
+ * searchCategories) as a grid of cards. With no query, the cards are grouped
+ * A–Z with a row of letters to jump by. `noun` is what the count calls them:
+ * players say "task" on Home, the Categories page says "category".
  */
-export function CategoryList({ query }: { query: string }) {
+export function CategoryList({
+  query,
+  noun = ['task', 'tasks'],
+}: {
+  query: string;
+  noun?: [string, string];
+}) {
   const { data: catalog } = useCatalog();
   if (!catalog) return <CatalogStatus />;
 
   const results = searchCategories(catalog, query);
-  if (results.length === 0) {
-    return (
-      <Typography color="text.secondary" sx={{ mt: 2 }}>
-        No categories match &ldquo;{query}&rdquo;.
-      </Typography>
-    );
-  }
+  const browsing = query.trim() === '';
+  const letters = [...new Set(results.map((r) => r.category.name[0].toUpperCase()))];
 
   return (
-    <List aria-label="Categories">
-      {results.map((result) => (
-        <ListItem key={result.category.slug} disablePadding>
-          <ListItemButton component={Link} to={categoryPath(result.category.slug)}>
-            <ListItemText primary={result.category.name} secondary={details(result)} />
-          </ListItemButton>
-        </ListItem>
-      ))}
-    </List>
+    <>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 1, mt: 1, mb: 2 }}>
+        {/* Empty while browsing; kept in place so screen readers announce search results. */}
+        <Typography role="status" color="text.secondary" sx={{ flexGrow: 1 }}>
+          {browsing
+            ? null
+            : results.length === 0
+              ? `No ${noun[1]} match “${query}”.`
+              : `${plural(results.length, ...noun)} match${results.length === 1 ? 'es' : ''} “${query}”`}
+        </Typography>
+        {browsing && (
+          <Box
+            component="nav"
+            aria-label="Jump to letter"
+            sx={{ display: 'flex', flexWrap: 'wrap' }}
+          >
+            {letters.map((letter) => (
+              <Button
+                key={letter}
+                size="small"
+                aria-label={`Jump to ${letter}`}
+                // Scroll without touching the URL, which holds the search.
+                onClick={() =>
+                  document
+                    .getElementById(letterId(letter))
+                    ?.scrollIntoView?.({ behavior: 'smooth', block: 'start' })
+                }
+                sx={{ minWidth: 28, px: 0.5 }}
+              >
+                {letter}
+              </Button>
+            ))}
+          </Box>
+        )}
+      </Box>
+      {results.length > 0 && (
+        <Box
+          component="ul"
+          aria-label="Categories"
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+            gap: 1.5,
+            listStyle: 'none',
+            p: 0,
+            m: 0,
+          }}
+        >
+          {results.map((result, i) => {
+            const letter = result.category.name[0].toUpperCase();
+            const first = i === 0 || results[i - 1].category.name[0].toUpperCase() !== letter;
+            return [
+              browsing && first && (
+                <Box
+                  component="li"
+                  key={`letter-${letter}`}
+                  id={letterId(letter)}
+                  // Full width, and clear of the sticky app bar when jumped to.
+                  sx={{ gridColumn: '1 / -1', scrollMarginTop: 80, mt: i === 0 ? 0 : 1 }}
+                >
+                  <Typography variant="overline" component="h3" color="text.secondary">
+                    {letter}
+                  </Typography>
+                </Box>
+              ),
+              <CategoryCard key={result.category.slug} result={result} />,
+            ];
+          })}
+        </Box>
+      )}
+    </>
   );
 }

@@ -3,57 +3,68 @@ import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
-describe('HomePage', () => {
-  it('filters the category list by name', async () => {
-    const { user } = renderRoute('/');
-    const list = await within(screen.getByRole('main')).findByRole('list', {
-      name: 'Categories',
-    });
-    expect(list).toHaveTextContent('Abyssal demons');
+// Data is src/test/monsters.ts: five categories, served by setup.ts.
+const cards = async () =>
+  within(await within(screen.getByRole('main')).findByRole('list', { name: 'Categories' }))
+    .getAllByRole('link')
+    .map((link) => link.textContent);
 
-    await user.type(screen.getByRole('searchbox', { name: 'Search tasks' }), 'zzz');
-    expect(screen.getByText(/No categories match/)).toBeInTheDocument();
+describe('HomePage', () => {
+  it('lists every task as a card, grouped A–Z with letters to jump by', async () => {
+    const { user } = renderRoute('/');
+    expect(await cards()).toEqual([
+      'Abyssal demonsSlayer 85 · 2 masters',
+      'BossesAny Slayer level · 1 master',
+      'CowsAny Slayer level · 1 master',
+      'Dust devilsSlayer 65 · 1 master',
+      'Wilderness bossesAny Slayer level · 1 master',
+    ]);
+    // No count while browsing.
+    expect(screen.getByRole('status')).toBeEmptyDOMElement();
+    expect(screen.getByRole('heading', { level: 3, name: 'D' })).toBeInTheDocument();
+
+    const letters = screen.getByRole('navigation', { name: 'Jump to letter' });
+    expect(
+      within(letters)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['A', 'B', 'C', 'D', 'W']);
+    // Jumping scrolls without changing the URL (jsdom can't scroll; it mustn't throw).
+    await user.click(within(letters).getByRole('button', { name: 'Jump to D' }));
   });
 
-  it('finds categories by monster and alias, and says why', async () => {
+  it('finds tasks by monster and alias, and says why', async () => {
     const { user } = renderRoute('/');
     const search = screen.getByRole('searchbox', { name: 'Search tasks' });
-    const results = async () =>
-      within(await within(screen.getByRole('main')).findByRole('list', { name: 'Categories' }))
-        .getAllByRole('link')
-        .map((link) => link.textContent);
 
     await user.type(search, 'sire');
-    expect(await results()).toEqual([
-      'Abyssal demonsIncludes Abyssal Sire · Slayer 85',
-      'BossesIncludes Abyssal Sire',
+    expect(await cards()).toEqual([
+      'Abyssal demonsIncludes Abyssal SireSlayer 85 · 2 masters',
+      'BossesIncludes Abyssal SireAny Slayer level · 1 master',
     ]);
+    expect(screen.getByRole('status')).toHaveTextContent('2 tasks match “sire”');
+    // Results only: no letter groups, no masters.
+    expect(screen.queryByRole('navigation', { name: 'Jump to letter' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('navigation', { name: 'Slayer masters' })).not.toBeInTheDocument();
 
     await user.clear(search);
     await user.type(search, 'dusties');
-    expect(await results()).toEqual(['Dust devilsAlso called “dusties” · Slayer 65']);
-  });
+    expect(await cards()).toEqual(['Dust devilsAlso called “dusties”Slayer 65 · 1 master']);
+    expect(screen.getByRole('status')).toHaveTextContent('1 task matches “dusties”');
 
-  it('shows each category’s Slayer level', async () => {
-    renderRoute('/');
-    const list = await within(screen.getByRole('main')).findByRole('list', {
-      name: 'Categories',
-    });
-    expect(within(list).getByRole('link', { name: /Dust devils/ })).toHaveTextContent('Slayer 65');
+    await user.clear(search);
+    await user.type(search, 'zzz');
+    expect(screen.getByRole('status')).toHaveTextContent('No tasks match “zzz”.');
+    expect(
+      within(screen.getByRole('main')).queryByRole('list', { name: 'Categories' }),
+    ).not.toBeInTheDocument();
   });
 
   it('keeps the search in the URL, so it can be linked', async () => {
     const { user, router } = renderRoute('/?q=dust');
     const search = screen.getByRole('searchbox', { name: 'Search tasks' });
     expect(search).toHaveValue('dust');
-    const list = await within(screen.getByRole('main')).findByRole('list', {
-      name: 'Categories',
-    });
-    expect(
-      within(list)
-        .getAllByRole('link')
-        .map((l) => l.textContent),
-    ).toEqual(['Dust devilsSlayer 65']);
+    expect(await cards()).toEqual(['Dust devilsSlayer 65 · 1 master']);
 
     await user.clear(search);
     await user.type(search, 'cow');
@@ -62,12 +73,18 @@ describe('HomePage', () => {
     expect(router.state.location.search).toBe('');
   });
 
-  it('links to every Slayer master', async () => {
+  it('links to every Slayer master, with how many tasks they give', async () => {
     const { user, router } = renderRoute('/');
     const masters = screen.getByRole('navigation', { name: 'Slayer masters' });
     expect(within(masters).getAllByRole('link')).toHaveLength(10);
+    // Counts appear once the catalog loads.
+    await within(masters).findByText('3 tasks');
+    expect(within(masters).getByRole('link', { name: /^Duradel/ })).toHaveTextContent(
+      'Duradel3 tasks',
+    );
+    expect(within(masters).getByRole('link', { name: /^Krystilia/ })).toHaveTextContent('1 task');
 
-    await user.click(within(masters).getByRole('link', { name: 'Duradel' }));
+    await user.click(within(masters).getByRole('link', { name: /^Duradel/ }));
     expect(router.state.location.pathname).toBe('/masters/duradel');
   });
 });
