@@ -91,14 +91,14 @@ export function HomePage() {
       {!query && (
         <Box component="section" sx={{ mb: 4 }}>
           <Typography variant="h6" component="h2" sx={{ mb: 1.5 }}>
-            Start from your Slayer master
+            Choose your slayer master
           </Typography>
           <MasterCards />
         </Box>
       )}
       <Box component="section">
         <Typography variant="h6" component="h2">
-          {query ? 'Results' : 'All tasks'}
+          {query ? 'Results' : 'Browse all Tasks'}
         </Typography>
         <CategoryList query={query} />
       </Box>
