@@ -1,6 +1,8 @@
 import type {
   Assignment,
   CategoriesFile,
+  Drop,
+  DropsFile,
   MasterKey,
   MastersFile,
   Monster,
@@ -86,14 +88,39 @@ export const monstersFixture: MonstersFile = {
       slayerLevel: 85,
       icon: 'icons/monsters/abyssal-demon.png',
       superior: 'greater-abyssal-demon',
+      hasDrops: true,
       versions: [
         version(124, {
+          version: 'Standard',
+          isDefault: true,
           hitpoints: 150,
-          slayerXp: 150,
           maxHit: ['8'],
           attackStyles: ['Stab'],
+          attackSpeed: 4,
+          size: 1,
+          slayerXp: 150,
+          weakness: { element: 'Fire', percent: 20 },
           levels: { attack: 97, strength: 67, defence: 135, ranged: 1, magic: 1 },
+          defence: {
+            stab: 20,
+            slash: 20,
+            crush: 20,
+            magic: 0,
+            ranged: null,
+            lightRanged: 20,
+            standardRanged: 20,
+            heavyRanged: 20,
+          },
+          immunities: {
+            poison: '0',
+            venom: '0',
+            cannon: false,
+            thrall: true,
+            burn: null,
+            freeze: 33,
+          },
         }),
+        version(124, { version: 'Catacombs of Kourend', hitpoints: 150 }),
       ],
     }),
     monster('greater-abyssal-demon', 'Greater abyssal demon', ['abyssal demons'], [], {
@@ -243,5 +270,31 @@ export const mastersFixture: MastersFile = {
       totalWeight: 10,
       assignments: [assignment('abyssal demons', 10)],
     },
+  ],
+};
+
+const drop = (item: string, dropVersion: string, more: Partial<Drop> = {}): Drop => ({
+  item,
+  dropVersion,
+  quantity: [1, 1],
+  noted: false,
+  rarity: '1/128',
+  chance: 1 / 128,
+  approx: false,
+  rolls: 1,
+  altRarity: null,
+  value: null,
+  type: 'combat',
+  ...more,
+});
+
+/** Served for data/drops/abyssal-demon.json: a table per version. */
+export const abyssalDemonDrops: DropsFile = {
+  page: 'Abyssal demon',
+  drops: [
+    drop('Ancient shard', 'Catacombs of Kourend', { rarity: '1/233' }),
+    drop('Pure essence', 'Standard', { quantity: [120, 180], noted: true, rarity: '1/10' }),
+    drop('Coins', 'Standard', { quantity: null, rarity: 'Always' }),
+    drop('Abyssal whip', 'Standard', { rarity: '1/512' }),
   ],
 };

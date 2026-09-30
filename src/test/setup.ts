@@ -2,7 +2,12 @@ import '@testing-library/jest-dom/vitest';
 import { cleanup } from '@testing-library/react';
 import { afterEach, beforeEach, vi } from 'vitest';
 
-import { categoriesFixture, mastersFixture, monstersFixture } from '@/test/monsters';
+import {
+  abyssalDemonDrops,
+  categoriesFixture,
+  mastersFixture,
+  monstersFixture,
+} from '@/test/monsters';
 
 // jsdom has no matchMedia; MUI's color scheme logic needs it. Report "light".
 window.matchMedia ??= (query: string) =>
@@ -24,6 +29,7 @@ window.matchMedia ??= (query: string) =>
 const fixtures: Record<string, unknown> = {
   'data/monsters.json': monstersFixture,
   'data/categories.json': categoriesFixture,
+  'data/drops/abyssal-demon.json': abyssalDemonDrops,
   'data/masters.json': mastersFixture,
 };
 
