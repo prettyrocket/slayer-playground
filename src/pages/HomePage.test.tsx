@@ -4,20 +4,23 @@ import { describe, expect, it } from 'vitest';
 import { renderRoute } from '@/test/render';
 
 // Data is src/test/monsters.ts: five categories, served by setup.ts.
-const cards = async () =>
-  within(await within(screen.getByRole('main')).findByRole('list', { name: 'Categories' }))
-    .getAllByRole('link')
-    .map((link) => link.textContent);
+/** Each task card, in order, by accessible name: what a screen reader announces for the link. */
+const expectCards = async (names: string[]) => {
+  const list = await within(screen.getByRole('main')).findByRole('list', { name: 'Categories' });
+  const links = within(list).getAllByRole('link');
+  expect(links.map((link) => link.textContent)).toHaveLength(names.length);
+  links.forEach((link, i) => expect(link).toHaveAccessibleName(names[i]));
+};
 
 describe('HomePage', () => {
   it('lists every task as a card, grouped A–Z with letters to jump by', async () => {
     const { user } = renderRoute('/');
-    expect(await cards()).toEqual([
-      'Abyssal demonsSlayer 85 · 2 masters',
-      'BossesAny Slayer level · 1 master',
-      'CowsAny Slayer level · 1 master',
-      'Dust devilsSlayer 65 · 1 master',
-      'Wilderness bossesAny Slayer level · 1 master',
+    await expectCards([
+      'Abyssal demons Slayer 85 2 monsters',
+      'Bosses 1 monster',
+      'Cows 1 monster',
+      'Dust devils Slayer 65 1 monster',
+      'Wilderness bosses 0 monsters',
     ]);
     // No count while browsing.
     expect(screen.getByRole('status')).toBeEmptyDOMElement();
@@ -44,9 +47,9 @@ describe('HomePage', () => {
     const search = screen.getByRole('searchbox', { name: 'Search tasks' });
 
     await user.type(search, 'sire');
-    expect(await cards()).toEqual([
-      'Abyssal demonsIncludes Abyssal SireSlayer 85 · 2 masters',
-      'BossesIncludes Abyssal SireAny Slayer level · 1 master',
+    await expectCards([
+      'Abyssal demons Includes Abyssal Sire Slayer 85 2 monsters',
+      'Bosses Includes Abyssal Sire 1 monster',
     ]);
     expect(screen.getByRole('status')).toHaveTextContent('2 tasks match “sire”');
     // Results only: no letter groups, no masters.
@@ -55,7 +58,7 @@ describe('HomePage', () => {
 
     await user.clear(search);
     await user.type(search, 'dusties');
-    expect(await cards()).toEqual(['Dust devilsAlso called “dusties”Slayer 65 · 1 master']);
+    await expectCards(['Dust devils Also called “dusties” Slayer 65 1 monster']);
     expect(screen.getByRole('status')).toHaveTextContent('1 task matches “dusties”');
 
     await user.clear(search);
@@ -70,7 +73,7 @@ describe('HomePage', () => {
     const { user, router } = renderRoute('/?q=dust');
     const search = screen.getByRole('searchbox', { name: 'Search tasks' });
     expect(search).toHaveValue('dust');
-    expect(await cards()).toEqual(['Dust devilsSlayer 65 · 1 master']);
+    await expectCards(['Dust devils Slayer 65 1 monster']);
 
     await user.clear(search);
     await user.type(search, 'cow');

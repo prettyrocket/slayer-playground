@@ -29,6 +29,9 @@ const letterId = (letter: string) => `tasks-${letter.toLowerCase()}`;
 
 const ALPHABET = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
 
+// The Slayer skill icon, from the OSRS Wiki, served from public/ (never hotlinked).
+const SLAYER_ICON = `${import.meta.env.BASE_URL}icons/slayer.png`;
+
 function CategoryCard({ result }: { result: SearchResult }) {
   const { category } = result;
   const why = reason(result);
@@ -49,11 +52,30 @@ function CategoryCard({ result }: { result: SearchResult }) {
             </Typography>
           )}
         </Box>
-        <Typography variant="caption" color="text.secondary" sx={{ width: '100%', mt: 1 }}>
-          {category.slayerLevel ? `Slayer ${category.slayerLevel}` : 'Any Slayer level'}
-          {' · '}
-          {category.masters.length > 0 ? plural(category.masters.length, 'master') : 'No master'}
-        </Typography>
+        <Box
+          sx={{
+            width: '100%',
+            mt: 1,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 1,
+            color: 'text.secondary',
+            typography: 'body2',
+          }}
+        >
+          {category.slayerLevel !== null && (
+            <Box
+              component="span"
+              title="Slayer level required"
+              sx={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'pre' }}
+            >
+              {/* Native size: pixel art blurs when scaled by an odd amount. The space
+                  keeps "Slayer 85" apart for screen readers too. */}
+              <img src={SLAYER_ICON} alt="Slayer" width={23} height={24} /> {category.slayerLevel}
+            </Box>
+          )}
+          <span>{plural(category.monsters.length, 'monster')}</span>
+        </Box>
       </CardActionArea>
     </Card>
   );
