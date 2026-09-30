@@ -4,12 +4,22 @@ import type {
   MasterKey,
   MastersFile,
   Monster,
+  MonsterVersion,
   MonstersFile,
   SlayerCategory,
 } from '@/data/types';
 
+/** A version with just a combat level; the pages under test read nothing else. */
+const version = (combatLevel: number) => ({ combatLevel }) as MonsterVersion;
+
 /** A monster with just what navigation reads; everything else empty. */
-function monster(slug: string, page: string, categories: string[], assignedBy: MasterKey[]) {
+function monster(
+  slug: string,
+  page: string,
+  categories: string[],
+  assignedBy: MasterKey[],
+  more: Partial<Monster> = {},
+): Monster {
   return {
     slug,
     page,
@@ -19,20 +29,35 @@ function monster(slug: string, page: string, categories: string[], assignedBy: M
     taskOnly: false,
     members: true,
     hasDrops: false,
+    icon: null,
     superior: null,
     superiorOf: [],
     versions: [],
-  } satisfies Monster;
+    ...more,
+  };
 }
 
 /**
  * Served for data/monsters.json in tests (see setup.ts). The Sire is in two
  * categories, and its assignedBy lists Vannaka, who assigns only one of them.
+ * The abyssal demon has a superior; the Sire's versions span two combat levels.
  */
 export const monstersFixture: MonstersFile = {
   monsters: [
-    monster('abyssal-demon', 'Abyssal demon', ['abyssal demons'], ['vannaka', 'duradel']),
-    monster('abyssal-sire', 'Abyssal Sire', ['abyssal demons', 'bosses'], ['vannaka', 'duradel']),
+    monster('abyssal-demon', 'Abyssal demon', ['abyssal demons'], ['vannaka', 'duradel'], {
+      slayerLevel: 85,
+      icon: 'icons/monsters/abyssal-demon.png',
+      superior: 'greater-abyssal-demon',
+      versions: [version(124)],
+    }),
+    monster('greater-abyssal-demon', 'Greater abyssal demon', ['abyssal demons'], [], {
+      superiorOf: ['abyssal-demon'],
+      versions: [version(342)],
+    }),
+    monster('abyssal-sire', 'Abyssal Sire', ['abyssal demons', 'bosses'], ['vannaka', 'duradel'], {
+      slayerLevel: 85,
+      versions: [version(350), version(116)],
+    }),
     monster('dust-devil', 'Dust devil', ['dust devils'], ['duradel']),
     monster('cow', 'Cow', ['cows'], ['turael']),
     monster('abyssal-sire-deadman', 'Abyssal Sire (Deadman)', ['bosses'], ['duradel']),
@@ -69,10 +94,15 @@ function category(
  */
 export const categoriesFixture: CategoriesFile = {
   categories: [
-    category('abyssal demons', ['abyssal-demon', 'abyssal-sire'], ['vannaka', 'duradel'], {
-      slayerLevel: 85,
-      icon: 'icons/abyssal-demons.png',
-    }),
+    category(
+      'abyssal demons',
+      ['abyssal-demon', 'abyssal-sire', 'greater-abyssal-demon'],
+      ['vannaka', 'duradel'],
+      {
+        slayerLevel: 85,
+        icon: 'icons/abyssal-demons.png',
+      },
+    ),
     category('bosses', ['abyssal-sire'], ['duradel']),
     category('cows', ['cow'], ['turael']),
     category('dust devils', ['dust-devil'], ['duradel'], {
@@ -112,7 +142,10 @@ export const mastersFixture: MastersFile = {
       page: 'Vannaka',
       alternates: [],
       totalWeight: 5,
-      assignments: [assignment('abyssal demons', 5, { amount: [40, 90] })],
+      // Not the real table: an exclusion to test with.
+      assignments: [
+        assignment('abyssal demons', 5, { amount: [40, 90], excludes: ['abyssal-sire'] }),
+      ],
     },
     {
       key: 'duradel',

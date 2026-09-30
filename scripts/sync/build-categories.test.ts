@@ -15,6 +15,7 @@ const monster = (page: string, categories: string[]): Monster => ({
   taskOnly: false,
   members: true,
   hasDrops: false,
+  icon: null,
   superior: null,
   superiorOf: [],
   versions: [],

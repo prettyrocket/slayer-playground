@@ -37,6 +37,8 @@ export interface Monster {
   members: boolean;
   /** Whether drops/<slug>.json exists. */
   hasDrops: boolean;
+  /** Picture under public/data, e.g. "icons/monsters/cow.png": a thumbnail of the default version's infobox image; null when there is none. */
+  icon: string | null;
   /** Slug of the superior that can spawn on task (needs Bigger and Badder), if any. */
   superior: string | null;
   /** For a superior: slugs of the monsters it spawns from. Empty otherwise. */
