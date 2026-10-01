@@ -30,10 +30,9 @@ describe('CategoryPage', () => {
   it('compares the monsters that count on what decides the pick', async () => {
     renderRoute('/categories/abyssal-demons');
     expect(await rows('Abyssal demons monsters')).toEqual([
-      ['Monster', 'Slayer', 'Combat', 'HP', 'Def', 'Slayer XP', 'Max hit', 'Attacks'],
-      ['Abyssal demon', '85', '124', '150', '135', '150', '8', 'Melee'],
-      // Styles fold into what you'd pray against; versions give a combat range.
-      ['Abyssal Sire', '85', '116–350', '425', '250', '478', '40', 'Magic, Melee'],
+      ['Monster', 'Slayer', 'Slayer XP'],
+      ['Abyssal demon', '85', '150'],
+      ['Abyssal Sire', '85', '478'],
     ]);
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
     expect(screen.getByText('2 monsters')).toBeInTheDocument();
@@ -56,11 +55,6 @@ describe('CategoryPage', () => {
     expect((await rows('Abyssal demons monsters')).slice(1).map((r) => r[0])).toEqual([
       'Abyssal Sire',
       'Abyssal demon',
-    ]);
-    await user.click(screen.getByRole('button', { name: 'Combat' }));
-    expect((await rows('Abyssal demons monsters')).slice(1).map((r) => r[2])).toEqual([
-      '116–350',
-      '124',
     ]);
   });
 

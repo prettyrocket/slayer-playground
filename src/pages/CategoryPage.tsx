@@ -18,19 +18,11 @@ import { IconTile } from '@/components/IconCard';
 import { MasterCards } from '@/components/MasterCards';
 import { WikiLink } from '@/components/WikiLink';
 import { type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
-import { neededItems, protectFrom } from '@/data/combat';
+import { neededItems } from '@/data/combat';
 import type { Monster } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { monsterPath } from '@/routing/paths';
 import { useNavLocation } from '@/routing/useNavLocation';
-
-/** Combat level across a monster's versions: [lowest, highest]. */
-function combatRange(monster: Monster): [number, number] | null {
-  const levels = monster.versions.map((v) => v.combatLevel).filter((l): l is number => l !== null);
-  return levels.length ? [Math.min(...levels), Math.max(...levels)] : null;
-}
-const range = (r: [number, number] | null) =>
-  !r ? '—' : r[0] === r[1] ? `${r[0]}` : `${r[0]}–${r[1]}`;
 
 /** Items the category's equipment list ties to this monster ("Earmuffs", "Leaf-bladed spear +4"). */
 function needs(category: Category, monster: Monster): string {
@@ -52,38 +44,18 @@ interface Column {
 const COLUMNS: Column[] = [
   { key: 'slayer', label: 'Slayer', cell: (m) => m.slayerLevel ?? '—', sort: (m) => m.slayerLevel },
   {
-    key: 'combat',
-    label: 'Combat',
-    cell: (m) => range(combatRange(m)),
-    sort: (m) => combatRange(m)?.[0] ?? null,
-  },
-  {
-    key: 'hp',
-    label: 'HP',
-    cell: (m) => m.versions[0]?.hitpoints ?? '—',
-    sort: (m) => m.versions[0]?.hitpoints ?? null,
-  },
-  {
-    key: 'def',
-    label: 'Def',
-    cell: (m) => m.versions[0]?.levels.defence ?? '—',
-    sort: (m) => m.versions[0]?.levels.defence ?? null,
-  },
-  {
     key: 'xp',
     label: 'Slayer XP',
     cell: (m) => m.versions[0]?.slayerXp ?? '—',
     sort: (m) => m.versions[0]?.slayerXp ?? null,
     descending: true,
   },
-  { key: 'maxhit', label: 'Max hit', cell: (m) => m.versions[0]?.maxHit.join(', ') || '—' },
-  { key: 'attacks', label: 'Attacks', cell: (m) => protectFrom(m.versions[0]) ?? '—' },
 ];
 
 /**
  * /categories/:slug — "I got this task, which monster do I kill?": the monsters
- * that count, compared on what decides it: requirements, how fast and how
- * dangerous, and what they need. Superiors show under their base monster.
+ * that count, compared on what decides it: the Slayer level and XP, and what
+ * they need. Superiors show under their base monster.
  * Then the masters who assign it (the others, when the user came from one).
  */
 export function CategoryPage() {
