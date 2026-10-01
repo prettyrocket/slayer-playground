@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/vitest';
 import { cleanup } from '@testing-library/react';
 import { afterEach, beforeEach, vi } from 'vitest';
 
-import { categoriesFixture, monstersFixture } from '@/test/monsters';
+import { categoriesFixture, metaFixture, monstersFixture } from '@/test/monsters';
 
 // jsdom has no matchMedia; MUI's color scheme logic needs it. Report "light".
 window.matchMedia ??= (query: string) =>
@@ -24,6 +24,7 @@ window.matchMedia ??= (query: string) =>
 const fixtures: Record<string, unknown> = {
   'data/monsters.json': monstersFixture,
   'data/categories.json': categoriesFixture,
+  'data/meta.json': metaFixture,
 };
 
 beforeEach(() => {

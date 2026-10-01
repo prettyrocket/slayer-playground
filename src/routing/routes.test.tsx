@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/react';
+import { screen, within } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
@@ -18,7 +18,7 @@ describe('routes', () => {
 
   it('navigates via the app bar links', async () => {
     const { user, router } = renderRoute('/');
-    await user.click(screen.getByRole('link', { name: 'About' }));
+    await user.click(within(screen.getByRole('banner')).getByRole('link', { name: 'About' }));
     expect(router.state.location.pathname).toBe('/about');
     expect(screen.getByRole('heading', { level: 1, name: 'About' })).toBeInTheDocument();
   });
