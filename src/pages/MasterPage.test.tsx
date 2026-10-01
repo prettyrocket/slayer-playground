@@ -70,6 +70,13 @@ describe('MasterPage', () => {
     );
   });
 
+  it("links to the master's wiki page", async () => {
+    renderRoute('/masters/konar');
+    expect(
+      await screen.findByRole('link', { name: 'Konar quo Maten on the OSRS Wiki' }),
+    ).toHaveAttribute('href', 'https://oldschool.runescape.wiki/w/Konar_quo_Maten');
+  });
+
   it('is not found for an unknown master', async () => {
     renderRoute('/masters/steve');
     expect(

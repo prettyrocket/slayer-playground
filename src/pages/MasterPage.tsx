@@ -16,6 +16,7 @@ import Typography from '@mui/material/Typography';
 import { Link as RouterLink, useParams } from 'react-router';
 
 import { IconTile } from '@/components/IconCard';
+import { WikiLink } from '@/components/WikiLink';
 import { categorySlug, useCatalog } from '@/data/catalog';
 import { getMaster, masterIcon, useMastersFile } from '@/data/masters';
 import type { Assignment } from '@/data/types';
@@ -71,6 +72,10 @@ export function MasterPage() {
           {table && (
             <Typography color="text.secondary">{table.assignments.length} tasks</Typography>
           )}
+        </Box>
+        <Box sx={{ ml: 'auto' }}>
+          {/* The master's NPC page, which has the same title as their name. */}
+          <WikiLink page={master.name} />
         </Box>
       </Box>
 
