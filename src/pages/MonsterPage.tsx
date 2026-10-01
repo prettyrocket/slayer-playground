@@ -22,6 +22,7 @@ import { Link as RouterLink, useParams } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconCard, IconTile } from '@/components/IconCard';
+import { WikiLink } from '@/components/WikiLink';
 import { type Catalog, categorySlug, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems, protectFrom } from '@/data/combat';
 import { useDrops } from '@/data/drops';
@@ -351,6 +352,9 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
             )}
           </Typography>
           <SuperiorLinks monster={monster} catalog={catalog} category={category?.slug} />
+        </Box>
+        <Box sx={{ ml: 'auto' }}>
+          <WikiLink page={monster.page} />
         </Box>
       </Box>
 

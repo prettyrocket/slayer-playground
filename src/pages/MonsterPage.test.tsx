@@ -139,6 +139,13 @@ describe('MonsterPage', () => {
     );
   });
 
+  it('links to its wiki page', async () => {
+    renderRoute('/monsters/greater-abyssal-demon');
+    expect(
+      await screen.findByRole('link', { name: 'Greater abyssal demon on the OSRS Wiki' }),
+    ).toHaveAttribute('href', 'https://oldschool.runescape.wiki/w/Greater_abyssal_demon');
+  });
+
   it('says when a monster has no drops', async () => {
     renderRoute('/monsters/cow');
     expect(await screen.findByText('No drops.')).toBeInTheDocument();
