@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
+import MuiLink from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -16,6 +17,7 @@ import { Link, Outlet, useLocation } from 'react-router';
 import { ColorModeToggle } from '@/components/ColorModeToggle';
 import { LocationBreadcrumbs } from '@/components/LocationBreadcrumbs';
 import { SideNav } from '@/components/SideNav';
+import { LICENSE_URL, WIKI_URL } from '@/data/meta';
 import { navItems } from '@/routing/routes';
 
 const SIDE_NAV_WIDTH = 260;
@@ -95,10 +97,27 @@ export function RootLayout() {
         >
           <SideNav onNavigate={() => setDrawerOpen(false)} />
         </Drawer>
-        <Container component="main" maxWidth="md" sx={{ py: 4, minWidth: 0 }}>
-          <LocationBreadcrumbs />
-          <Outlet />
-        </Container>
+        {/* Page, then the site footer, in one column beside the side nav. */}
+        <Box sx={{ flex: 1, minWidth: 0 }}>
+          <Container component="main" maxWidth="md" sx={{ pt: 4 }}>
+            <LocationBreadcrumbs />
+            <Outlet />
+          </Container>
+          {/* The wiki's licence asks for credit wherever its data is shown. */}
+          <Container component="footer" maxWidth="md" sx={{ pb: 4 }}>
+            <Typography
+              variant="caption"
+              color="text.secondary"
+              sx={{ display: 'block', mt: 6, pt: 2, borderTop: 1, borderColor: 'divider' }}
+            >
+              Data from the <MuiLink href={WIKI_URL}>Old School RuneScape Wiki</MuiLink> (
+              <MuiLink href={LICENSE_URL}>CC BY-NC-SA 3.0</MuiLink>). Not affiliated with Jagex.{' '}
+              <MuiLink component={Link} to="/about">
+                About
+              </MuiLink>
+            </Typography>
+          </Container>
+        </Box>
       </Box>
     </>
   );
