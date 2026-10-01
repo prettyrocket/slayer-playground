@@ -2,6 +2,7 @@ import { Fragment, type ReactNode, useState } from 'react';
 
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import StarIcon from '@mui/icons-material/Star';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
@@ -14,7 +15,7 @@ import TableRow from '@mui/material/TableRow';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
-import { Link as RouterLink, useParams } from 'react-router';
+import { Link as RouterLink, useParams, useSearchParams } from 'react-router';
 
 import { resolveUrl } from '@/api';
 import { CatalogStatus } from '@/components/CatalogStatus';
@@ -74,76 +75,54 @@ function PlaceFacts({ place }: { place: Place }) {
 }
 
 /**
- * The category's superiors, once: "Superior: Greater abyssal demon", or with
- * each one's base monster when there are several (aberrant spectres have two).
+ * How a card shows the monster's superior, while we try them out (?superior=):
+ * its picture inset on the monster's, a star badge in the card's corner, or a
+ * line naming it.
  */
-function Superiors({
-  monsters,
-  category,
-  catalog,
-}: {
-  monsters: Monster[];
-  category: Category;
-  catalog: Catalog;
-}) {
-  const { master } = useNavLocation();
-  const bases = new Map<string, string[]>();
-  for (const m of monsters) {
-    if (m.superior) bases.set(m.superior, [...(bases.get(m.superior) ?? []), m.page]);
-  }
-  const superiors = [...bases].flatMap(([slug, from]) => {
-    const superior = findMonster(catalog, slug);
-    return superior ? [{ superior, from }] : [];
-  });
-  if (superiors.length === 0) return null;
-  return (
-    <Typography color="text.secondary" variant="body2">
-      {superiors.length === 1 ? 'Superior' : 'Superiors'}:{' '}
-      {superiors.map(({ superior, from }, i) => (
-        <Fragment key={superior.slug}>
-          {i > 0 && ' · '}
-          <Link component={RouterLink} to={monsterPath(superior.slug, category.slug, master?.key)}>
-            {superior.page}
-          </Link>
-          {superiors.length > 1 && ` (${from.join(', ')})`}
-        </Fragment>
-      ))}
-    </Typography>
-  );
-}
+type SuperiorStyle = 'icon' | 'badge' | 'line';
+const SUPERIOR_STYLES: SuperiorStyle[] = ['icon', 'badge', 'line'];
 
 /**
- * A small card for a monster at a place: its picture and name, then its level
- * there, Slayer level and Slayer XP, and what it needs, if anything. How many
- * spawn there is a badge in the corner ("×14").
+ * A small card for a monster at a place. How many spawn there floats over its
+ * top left corner ("×14"); then its name, with its level there on the right;
+ * its Slayer level and XP; what it needs, if anything; and its superior, as
+ * `superiorStyle` says.
  */
 function MonsterCard({
   monster,
   location,
   category,
+  catalog,
+  superiorStyle,
 }: {
   monster: Monster;
   location: MonsterLocation | null;
   category: Category;
+  catalog: Catalog;
+  superiorStyle: SuperiorStyle;
 }) {
   const { master } = useNavLocation();
   const needed = needs(category, monster);
   const xp = monster.versions[0]?.slayerXp;
   const facts = [
-    location?.levels.length ? `Level ${location.levels.join(', ')}` : null,
     monster.slayerLevel !== null ? `Slayer ${monster.slayerLevel}` : null,
     xp != null ? `${xp} XP` : null,
   ].filter((f) => f !== null);
+  const superior = monster.superior ? findMonster(catalog, monster.superior) : undefined;
+  const superiorPath = superior && monsterPath(superior.slug, category.slug, master?.key);
   return (
     <Box
       sx={{
         position: 'relative',
-        display: 'inline-flex',
+        display: 'flex',
         alignItems: 'center',
         gap: 1.25,
-        py: 0.5,
-        pl: 0.5,
-        pr: location?.spawns ? 5 : 1.5,
+        width: '100%',
+        maxWidth: 380,
+        my: 1,
+        py: 0.75,
+        pl: 0.75,
+        pr: 1.5,
         border: 1,
         borderColor: 'divider',
         borderRadius: 2,
@@ -155,29 +134,86 @@ function MonsterCard({
           aria-label={`${location.spawns} spawn${location.spawns === 1 ? '' : 's'}`}
           sx={{
             position: 'absolute',
-            top: 4,
-            right: 4,
+            top: -10,
+            left: -10,
+            zIndex: 1,
             px: 0.75,
             borderRadius: 1,
-            bgcolor: 'action.selected',
+            bgcolor: 'primary.main',
+            color: 'primary.contrastText',
             typography: 'caption',
-            fontWeight: 600,
+            fontWeight: 700,
             lineHeight: 1.6,
+            boxShadow: 1,
           }}
         >
           ×{location.spawns}
         </Box>
       )}
-      <IconTile icon={monster.icon} name={monster.page} size={40} />
-      <Box sx={{ minWidth: 0 }}>
-        <Link
-          component={RouterLink}
-          to={monsterPath(monster.slug, category.slug, master?.key)}
-          underline="hover"
-          sx={{ fontWeight: 500 }}
-        >
-          {monster.page}
-        </Link>
+      {superior && superiorStyle === 'badge' && (
+        <Tooltip title={`Superior: ${superior.page}`}>
+          <Box
+            component={RouterLink}
+            to={superiorPath!}
+            aria-label={`Superior: ${superior.page}`}
+            sx={{
+              position: 'absolute',
+              top: -10,
+              right: -10,
+              zIndex: 1,
+              display: 'grid',
+              placeItems: 'center',
+              width: 22,
+              height: 22,
+              borderRadius: '50%',
+              bgcolor: 'warning.main',
+              color: 'warning.contrastText',
+              boxShadow: 1,
+            }}
+          >
+            <StarIcon sx={{ fontSize: 15 }} />
+          </Box>
+        </Tooltip>
+      )}
+      <Box sx={{ position: 'relative', flexShrink: 0 }}>
+        <IconTile icon={monster.icon} name={monster.page} size={40} />
+        {superior && superiorStyle === 'icon' && (
+          <Tooltip title={`Superior: ${superior.page}`}>
+            <Box
+              component={RouterLink}
+              to={superiorPath!}
+              aria-label={`Superior: ${superior.page}`}
+              sx={{
+                position: 'absolute',
+                right: -8,
+                bottom: -8,
+                borderRadius: 1.5,
+                outline: 2,
+                outlineColor: 'warning.main',
+                bgcolor: 'background.paper',
+              }}
+            >
+              <IconTile icon={superior.icon} name={superior.page} size={24} />
+            </Box>
+          </Tooltip>
+        )}
+      </Box>
+      <Box sx={{ minWidth: 0, flexGrow: 1 }}>
+        <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1 }}>
+          <Link
+            component={RouterLink}
+            to={monsterPath(monster.slug, category.slug, master?.key)}
+            underline="hover"
+            sx={{ fontWeight: 500, flexGrow: 1 }}
+          >
+            {monster.page}
+          </Link>
+          {location?.levels.length ? (
+            <Typography variant="body2" color="text.secondary" sx={{ whiteSpace: 'nowrap' }}>
+              Lvl {location.levels.join(', ')}
+            </Typography>
+          ) : null}
+        </Box>
         {facts.length > 0 && (
           <Typography variant="caption" color="text.secondary" component="div">
             {facts.join(' · ')}
@@ -188,24 +224,35 @@ function MonsterCard({
             Needs {needed}
           </Typography>
         )}
+        {superior && superiorStyle === 'line' && (
+          <Typography variant="caption" color="text.secondary" component="div">
+            Superior:{' '}
+            <Link component={RouterLink} to={superiorPath!} color="inherit">
+              {superior.page}
+            </Link>
+          </Typography>
+        )}
       </Box>
     </Box>
   );
+}
+
+/** What every monster card on the page shares. */
+interface CardContext {
+  category: Category;
+  catalog: Catalog;
+  superiorStyle: SuperiorStyle;
 }
 
 /** A monster's cell: its card. */
 function MonsterCells({
   monster,
   location,
-  category,
-}: {
-  monster: Monster;
-  location: MonsterLocation | null;
-  category: Category;
-}) {
+  ...context
+}: CardContext & { monster: Monster; location: MonsterLocation | null }) {
   return (
     <TableCell>
-      <MonsterCard monster={monster} location={location} category={category} />
+      <MonsterCard monster={monster} location={location} {...context} />
     </TableCell>
   );
 }
@@ -219,13 +266,12 @@ function PlaceRows({
   place,
   region,
   dim,
-  category,
-}: {
+  ...context
+}: CardContext & {
   place: Place;
   /** The region it shares, when it does. */
   region: Region | null;
   dim: boolean;
-  category: Category;
 }) {
   return place.monsters.map(({ monster, location }, i) => (
     <TableRow key={monster.slug} hover sx={{ opacity: dim ? 0.5 : 1 }}>
@@ -247,7 +293,7 @@ function PlaceRows({
           </TableCell>
         </>
       )}
-      <MonsterCells monster={monster} location={location} category={category} />
+      <MonsterCells monster={monster} location={location} {...context} />
     </TableRow>
   ));
 }
@@ -266,6 +312,8 @@ export function CategoryLocationsPage() {
   const { master } = useNavLocation();
   const masters = useMastersFile();
   const [showOthers, setShowOthers] = useState(false);
+  const [search] = useSearchParams();
+  const superiorStyle = SUPERIOR_STYLES.find((style) => style === search.get('superior')) ?? 'icon';
   if (!catalog) return <CatalogStatus />;
   const category = findCategory(catalog, slug);
   if (!category) return <NotFoundPage />;
@@ -291,6 +339,8 @@ export function CategoryLocationsPage() {
   const others = regions.length - theirs.length + (unplaced.length > 0 ? 1 : 0);
 
   // A region's places stay together.
+  const context = { category, catalog, superiorStyle };
+
   const regionRows = ({ region }: (typeof regions)[number]) => (
     <Fragment key={region.name}>
       {region.areas.map((area) => (
@@ -299,7 +349,7 @@ export function CategoryLocationsPage() {
           place={area}
           region={region.areas.length > 1 ? region : null}
           dim={dim(isListed(area, listedPlaces))}
-          category={category}
+          {...context}
         />
       ))}
     </Fragment>
@@ -313,7 +363,6 @@ export function CategoryLocationsPage() {
           <Typography variant="h4" component="h1">
             {category.name}
           </Typography>
-          <Superiors monsters={monsters} category={category} catalog={catalog} />
         </Box>
         <Box sx={{ ml: 'auto' }}>
           {category.page ? (
@@ -362,7 +411,7 @@ export function CategoryLocationsPage() {
                         <TableCell rowSpan={unplaced.length} />
                       </>
                     )}
-                    <MonsterCells monster={monster} location={null} category={category} />
+                    <MonsterCells monster={monster} location={null} {...context} />
                   </TableRow>
                 ))}
               </>

@@ -7,7 +7,10 @@ import { renderRoute } from '@/test/render';
 // the Catacombs (multicombat, 13 spawns, level 124) and the Abyssal Area (no
 // details); the Sire has no place.
 
-/** The table's rows as text; a cell with a link reads as its first link (not a picture or caption). */
+/**
+ * The table's rows as text; a cell with a link reads as its first named-by-text
+ * link (the place or monster, not a superior's picture, badge or caption).
+ */
 async function rows(name: string) {
   const table = await within(screen.getByRole('main')).findByRole('table', { name });
   return within(table)
@@ -15,9 +18,19 @@ async function rows(name: string) {
     .map((row) =>
       within(row)
         .getAllByRole(row.closest('thead') ? 'columnheader' : 'cell')
-        .map((cell) => (within(cell).queryAllByRole('link')[0] ?? cell).textContent),
+        .map(
+          (cell) =>
+            (
+              within(cell)
+                .queryAllByRole('link')
+                .find((link) => !link.hasAttribute('aria-label')) ?? cell
+            ).textContent,
+        ),
     );
 }
+
+const SUPERIOR = { name: 'Superior: Greater abyssal demon' };
+const SUPERIOR_PATH = '/monsters/greater-abyssal-demon?category=abyssal-demons';
 
 describe('CategoryLocationsPage', () => {
   it('lists places first, one row per monster there', async () => {
@@ -32,26 +45,43 @@ describe('CategoryLocationsPage', () => {
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
   });
 
-  it('shows each monster as a card: its level there, Slayer level and XP', async () => {
+  it('shows each monster as a card: spawns, level there, Slayer level and XP', async () => {
     renderRoute('/categories/abyssal-demons/locations');
     const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
     const [, catacombs, abyssalArea] = within(table).getAllByRole('row');
-    expect(within(catacombs).getByText('Level 124 · Slayer 85 · 150 XP')).toBeInTheDocument();
     expect(within(catacombs).getByLabelText('13 spawns')).toHaveTextContent('×13');
+    expect(within(catacombs).getByText('Lvl 124')).toBeInTheDocument();
+    expect(within(catacombs).getByText('Slayer 85 · 150 XP')).toBeInTheDocument();
     // No level or spawns given there.
-    expect(within(abyssalArea).getByText('Slayer 85 · 150 XP')).toBeInTheDocument();
     expect(within(abyssalArea).queryByText(/^×/)).not.toBeInTheDocument();
+    expect(within(abyssalArea).queryByText(/^Lvl/)).not.toBeInTheDocument();
   });
 
-  it('names the superior once, above the table', async () => {
-    renderRoute('/categories/abyssal-demons/locations?master=duradel');
+  it("puts the superior's picture on its base monster's card by default", async () => {
+    renderRoute('/categories/abyssal-demons/locations');
     const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
-    expect(screen.getByText(/^Superior:/)).toHaveTextContent('Superior: Greater abyssal demon');
-    expect(screen.getByRole('link', { name: 'Greater abyssal demon' })).toHaveAttribute(
+    const [, catacombs, , sire] = within(table).getAllByRole('row');
+    expect(within(catacombs).getByRole('link', SUPERIOR)).toHaveAttribute('href', SUPERIOR_PATH);
+    // The Sire has no superior.
+    expect(within(sire).queryByRole('link', { name: /^Superior/ })).not.toBeInTheDocument();
+  });
+
+  it('can show the superior as a badge instead', async () => {
+    renderRoute('/categories/abyssal-demons/locations?superior=badge');
+    const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
+    const [, catacombs] = within(table).getAllByRole('row');
+    expect(within(catacombs).getByRole('link', SUPERIOR)).toHaveAttribute('href', SUPERIOR_PATH);
+  });
+
+  it('can show the superior as a line instead', async () => {
+    renderRoute('/categories/abyssal-demons/locations?superior=line');
+    const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
+    const [, catacombs] = within(table).getAllByRole('row');
+    expect(within(catacombs).getByRole('link', { name: 'Greater abyssal demon' })).toHaveAttribute(
       'href',
-      '/monsters/greater-abyssal-demon?category=abyssal-demons&master=duradel',
+      SUPERIOR_PATH,
     );
-    expect(within(table).queryByText(/Superior/)).not.toBeInTheDocument();
+    expect(within(catacombs).getByText('Superior:', { exact: false })).toBeInTheDocument();
   });
 
   it("shows a place's facts as icons", async () => {
