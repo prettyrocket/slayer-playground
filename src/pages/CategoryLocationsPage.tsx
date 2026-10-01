@@ -72,8 +72,46 @@ const byNullLast = (a: number | null, b: number | null, flip = 1) =>
 
 interface Shared {
   category: Category;
-  catalog: Catalog;
   hasNeeds: boolean;
+}
+
+/**
+ * The category's superiors, once: "Superior: Greater abyssal demon", or with
+ * each one's base monster when there are several (aberrant spectres have two).
+ */
+function Superiors({
+  monsters,
+  category,
+  catalog,
+}: {
+  monsters: Monster[];
+  category: Category;
+  catalog: Catalog;
+}) {
+  const { master } = useNavLocation();
+  const bases = new Map<string, string[]>();
+  for (const m of monsters) {
+    if (m.superior) bases.set(m.superior, [...(bases.get(m.superior) ?? []), m.page]);
+  }
+  const superiors = [...bases].flatMap(([slug, from]) => {
+    const superior = findMonster(catalog, slug);
+    return superior ? [{ superior, from }] : [];
+  });
+  if (superiors.length === 0) return null;
+  return (
+    <Typography color="text.secondary" variant="body2">
+      {superiors.length === 1 ? 'Superior' : 'Superiors'}:{' '}
+      {superiors.map(({ superior, from }, i) => (
+        <Fragment key={superior.slug}>
+          {i > 0 && ' · '}
+          <Link component={RouterLink} to={monsterPath(superior.slug, category.slug, master?.key)}>
+            {superior.page}
+          </Link>
+          {superiors.length > 1 && ` (${from.join(', ')})`}
+        </Fragment>
+      ))}
+    </Typography>
+  );
 }
 
 /** A monster's cells: who, its level and spawns there, and what it takes. */
@@ -81,38 +119,22 @@ function MonsterCells({
   monster,
   location,
   category,
-  catalog,
   hasNeeds,
 }: Shared & { monster: Monster; location: MonsterLocation | null }) {
   const { master } = useNavLocation();
-  const superior = monster.superior ? findMonster(catalog, monster.superior) : undefined;
   return (
     <>
       <TableCell>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
           <IconTile icon={monster.icon} name={monster.page} size={32} />
-          <Box sx={{ minWidth: 0 }}>
-            <Link
-              component={RouterLink}
-              to={monsterPath(monster.slug, category.slug, master?.key)}
-              underline="hover"
-              sx={{ fontWeight: 500 }}
-            >
-              {monster.page}
-            </Link>
-            {superior && (
-              <Typography variant="caption" color="text.secondary" component="div">
-                Superior:{' '}
-                <Link
-                  component={RouterLink}
-                  to={monsterPath(superior.slug, category.slug, master?.key)}
-                  color="inherit"
-                >
-                  {superior.page}
-                </Link>
-              </Typography>
-            )}
-          </Box>
+          <Link
+            component={RouterLink}
+            to={monsterPath(monster.slug, category.slug, master?.key)}
+            underline="hover"
+            sx={{ fontWeight: 500 }}
+          >
+            {monster.page}
+          </Link>
         </Box>
       </TableCell>
       <TableCell align="right">{location?.levels.join(', ') || '—'}</TableCell>
@@ -209,7 +231,7 @@ export function CategoryLocationsPage() {
     );
   const unplaced = facts.length ? [] : monsters.filter((m) => m.locations.length === 0);
   const hasNeeds = monsters.some((m) => needs(category, m) !== '—');
-  const shared = { category, catalog, hasNeeds };
+  const shared = { category, hasNeeds };
   const width = 6 + (hasNeeds ? 1 : 0);
 
   return (
@@ -223,6 +245,7 @@ export function CategoryLocationsPage() {
           <Typography color="text.secondary">
             {places.length} location{places.length === 1 ? '' : 's'}
           </Typography>
+          <Superiors monsters={monsters} category={category} catalog={catalog} />
         </Box>
         <Box sx={{ ml: 'auto' }}>
           {category.page ? (

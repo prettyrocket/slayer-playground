@@ -33,6 +33,17 @@ describe('CategoryLocationsPage', () => {
     expect(screen.getByText('2 locations')).toBeInTheDocument();
   });
 
+  it('names the superior once, above the table', async () => {
+    renderRoute('/categories/abyssal-demons/locations?master=duradel');
+    const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
+    expect(screen.getByText(/^Superior:/)).toHaveTextContent('Superior: Greater abyssal demon');
+    expect(screen.getByRole('link', { name: 'Greater abyssal demon' })).toHaveAttribute(
+      'href',
+      '/monsters/greater-abyssal-demon?category=abyssal-demons&master=duradel',
+    );
+    expect(within(table).queryByText(/Superior/)).not.toBeInTheDocument();
+  });
+
   it("shows a place's facts as icons", async () => {
     renderRoute('/categories/abyssal-demons/locations');
     const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
