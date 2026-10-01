@@ -23,11 +23,11 @@ describe('CategoryLocationsPage', () => {
   it('lists places first, one row per monster there, with its level and spawns', async () => {
     renderRoute('/categories/abyssal-demons/locations');
     expect(await rows('Abyssal demons locations')).toEqual([
-      ['Location', 'Monster', 'Level', 'Spawns', 'Slayer', 'Slayer XP'],
-      ['Catacombs of Kourend', 'Abyssal demon', '124', '13', '85', '150'],
-      ['Abyssal Area', 'Abyssal demon', '—', '—', '85', '150'],
+      ['Location', '', 'Monster', 'Level', 'Spawns', 'Slayer', 'Slayer XP'],
+      ['Catacombs of Kourend', '', 'Abyssal demon', '124', '13', '85', '150'],
+      ['Abyssal Area', '', 'Abyssal demon', '—', '—', '85', '150'],
       // No place on the wiki: last.
-      ['—', 'Abyssal Sire', '—', '—', '85', '478'],
+      ['—', '', 'Abyssal Sire', '—', '—', '85', '478'],
     ]);
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
     expect(screen.getByText('2 locations')).toBeInTheDocument();

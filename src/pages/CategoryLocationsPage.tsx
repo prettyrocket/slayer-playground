@@ -161,22 +161,25 @@ function PlaceRows({
   return place.monsters.map(({ monster, location }, i) => (
     <TableRow key={monster.slug} hover sx={{ opacity: listed === false ? 0.5 : 1 }}>
       {i === 0 && (
-        <TableCell
-          rowSpan={place.monsters.length}
-          sx={{
-            verticalAlign: 'top',
-            pl: indent ? 4 : 2,
-            borderLeft: listed ? 3 : 0,
-            borderLeftColor: 'primary.main',
-          }}
-        >
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75, flexWrap: 'wrap' }}>
-            <Box component="span" sx={{ fontWeight: 500 }}>
-              {indent ? name : <PlaceName location={{ name, page: place.page }} />}
+        <>
+          <TableCell
+            rowSpan={place.monsters.length}
+            sx={{
+              verticalAlign: 'top',
+              fontWeight: 500,
+              pl: indent ? 4 : 2,
+              borderLeft: listed ? 3 : 0,
+              borderLeftColor: 'primary.main',
+            }}
+          >
+            {indent ? name : <PlaceName location={{ name, page: place.page }} />}
+          </TableCell>
+          <TableCell rowSpan={place.monsters.length} sx={{ verticalAlign: 'top' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+              <PlaceFacts place={place} />
             </Box>
-            <PlaceFacts place={place} />
-          </Box>
-        </TableCell>
+          </TableCell>
+        </>
       )}
       <MonsterCells monster={monster} location={location} {...shared} />
     </TableRow>
@@ -232,7 +235,7 @@ export function CategoryLocationsPage() {
   const unplaced = facts.length ? [] : monsters.filter((m) => m.locations.length === 0);
   const hasNeeds = monsters.some((m) => needs(category, m) !== '—');
   const shared = { category, hasNeeds };
-  const width = 6 + (hasNeeds ? 1 : 0);
+  const width = 7 + (hasNeeds ? 1 : 0);
 
   return (
     <>
@@ -291,6 +294,7 @@ export function CategoryLocationsPage() {
           <TableHead>
             <TableRow>
               <TableCell>Location</TableCell>
+              <TableCell />
               <TableCell>Monster</TableCell>
               {['Level', 'Spawns', 'Slayer', 'Slayer XP'].map((h) => (
                 <TableCell key={h} align="right" sx={{ whiteSpace: 'nowrap' }}>
@@ -334,9 +338,12 @@ export function CategoryLocationsPage() {
             {unplaced.map((monster, i) => (
               <TableRow key={monster.slug} hover>
                 {i === 0 && (
-                  <TableCell rowSpan={unplaced.length} sx={{ verticalAlign: 'top' }}>
-                    —
-                  </TableCell>
+                  <>
+                    <TableCell rowSpan={unplaced.length} sx={{ verticalAlign: 'top' }}>
+                      —
+                    </TableCell>
+                    <TableCell rowSpan={unplaced.length} />
+                  </>
                 )}
                 <MonsterCells monster={monster} location={null} {...shared} />
               </TableRow>
