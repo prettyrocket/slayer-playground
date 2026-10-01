@@ -12,6 +12,7 @@ const monster = (page: string, categories: string[], more: Partial<Monster> = {}
   taskOnly: false,
   members: true,
   hasDrops: true,
+  icon: null,
   superior: null,
   superiorOf: [],
   versions: [{ image: `${page}.png` } as Monster['versions'][number]],

@@ -146,6 +146,42 @@ export async function syncIcons(
 }
 
 /**
+ * Downloads a thumbnail of each monster's default infobox image into
+ * public/data/icons/monsters/<slug>.<ext> and sets `icon` on the monsters.
+ * About 650 files the first time, one polite request each; cached after that
+ * (see WikiClient.download). Icons of monsters that are gone are removed.
+ */
+export async function syncMonsterIcons(
+  client: WikiClient,
+  dataDir: string,
+  monsters: Monster[],
+): Promise<string[]> {
+  const warnings: string[] = [];
+  const file = (m: Monster) => (m.versions[0]?.image ? `File:${m.versions[0].image}` : null);
+  const titles = [...new Set(monsters.map(file).filter((t): t is string => t !== null))];
+  const urls = await fetchImageUrls(client, titles, ICON_WIDTH);
+
+  const dir = path.join(dataDir, 'icons', 'monsters');
+  await mkdir(dir, { recursive: true });
+  const written = new Set<string>();
+  for (const monster of monsters) {
+    const title = file(monster);
+    const url = title && urls.get(title);
+    if (title && !url) warnings.push(`No image for ${title} (${monster.page})`);
+    if (!url) continue;
+    const name = `${monster.slug}${path.extname(new URL(url).pathname).toLowerCase()}`;
+    await writeFile(path.join(dir, name), await client.download(url));
+    written.add(name);
+    monster.icon = `icons/monsters/${name}`;
+  }
+  for (const entry of await readdir(dir, { withFileTypes: true })) {
+    if (entry.isFile() && !written.has(entry.name)) await rm(path.join(dir, entry.name));
+  }
+  console.log(`  ${written.size} of ${monsters.length} monsters have an icon`);
+  return warnings;
+}
+
+/**
  * Downloads each master's chathead (their dialogue portrait) to
  * public/data/icons/masters/<key>.png, where the app looks for it.
  */

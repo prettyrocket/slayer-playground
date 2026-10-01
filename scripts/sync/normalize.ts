@@ -293,6 +293,8 @@ export function buildMonsters(
       taskOnly: taskOnlyPages.has(page),
       members: pageRows.some((r) => r.is_members_only === true),
       hasDrops: pagesWithDrops.has(page),
+      // Filled in by syncMonsterIcons.
+      icon: null,
       // Filled in by linkSuperiors.
       superior: null,
       superiorOf: [],

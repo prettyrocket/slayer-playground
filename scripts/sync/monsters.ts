@@ -4,6 +4,7 @@ import path from 'node:path';
 import type { DropsFile, Monster, MonstersFile } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { writeJson } from './files.ts';
+import { syncMonsterIcons } from './icons.ts';
 import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
 import { parseSuperiors } from './parsers.ts';
 import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
@@ -26,6 +27,10 @@ export async function syncMonsters(
   const drops = buildDrops(dropRows, slayerPages);
   const monsters = buildMonsters(rows, taskOnly, new Set(drops.keys()));
   for (const warning of linkSuperiors(monsters, parseSuperiors(superiorsPage))) {
+    console.warn(`  ! ${warning}`);
+  }
+
+  for (const warning of await syncMonsterIcons(client, dataDir, monsters)) {
     console.warn(`  ! ${warning}`);
   }
 

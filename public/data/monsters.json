@@ -15,6 +15,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/a-corpse.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -98,6 +99,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/aberrant-spectre.png",
       "superior": "abhorrent-spectre",
       "superiorOf": [],
       "versions": [
@@ -190,6 +192,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/abhorrent-spectre.png",
       "superior": null,
       "superiorOf": [
         "aberrant-spectre"
@@ -279,6 +282,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/abyssal-demon.png",
       "superior": "greater-abyssal-demon",
       "superiorOf": [],
       "versions": [
@@ -481,6 +485,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/abyssal-sire.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -746,6 +751,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/acidic-araxyte.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -826,6 +832,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/adamant-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -917,6 +924,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ahrim-the-blighted.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -999,6 +1007,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/albino-bat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1079,6 +1088,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/alchemical-hydra.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1358,6 +1368,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ammonite-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1438,6 +1449,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/amoxliatl.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1583,6 +1595,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/amoxliatl-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1663,6 +1676,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ancient-custodian.png",
       "superior": null,
       "superiorOf": [
         "elder-custodian-stalker"
@@ -1746,6 +1760,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ancient-wyvern.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1834,6 +1849,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ancient-zygomite.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -1918,6 +1934,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ankou.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -2257,6 +2274,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/aquanite.png",
       "superior": "elder-aquanite",
       "superiorOf": [],
       "versions": [
@@ -2396,6 +2414,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/araxxor.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -2545,6 +2564,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/araxyte.png",
       "superior": "dreadborn-araxyte",
       "superiorOf": [],
       "versions": [
@@ -2687,6 +2707,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/armoured-zombie-defender-of-varrock.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -2845,6 +2866,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/armoured-zombie-zemouregals-base.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -2997,6 +3019,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/armoured-zombie-zemouregals-fort.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -3638,6 +3661,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/arrg.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -3722,6 +3746,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/arrg-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -3869,6 +3894,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/artio.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -3949,6 +3975,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/asyn-shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -4095,6 +4122,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/asyn-shadow-temple-trekking.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -4180,6 +4208,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/aviansie.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -5130,6 +5159,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/baby-black-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -5274,6 +5304,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/baby-blue-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -5604,6 +5635,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/baby-red-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -5809,6 +5841,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/baby-roc.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -5889,6 +5922,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/balfrug-kreeyath.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -5969,6 +6003,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bandit.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -6104,6 +6139,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/banshee.png",
       "superior": "screaming-banshee",
       "superiorOf": [],
       "versions": [
@@ -6191,6 +6227,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/basilisk.png",
       "superior": "monstrous-basilisk",
       "superiorOf": [],
       "versions": [
@@ -6274,6 +6311,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/basilisk-knight.png",
       "superior": "basilisk-sentinel",
       "superiorOf": [],
       "versions": [
@@ -6358,6 +6396,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/basilisk-sentinel.png",
       "superior": null,
       "superiorOf": [
         "basilisk-knight"
@@ -6444,6 +6483,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/basilisk-the-fremennik-exiles.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -6588,6 +6628,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/basilisk-unused.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -6670,6 +6711,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/basilisk-youngling.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -6750,6 +6792,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -6832,6 +6875,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bear-cub.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -6915,6 +6959,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/berry.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7055,6 +7100,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/big-wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7194,6 +7240,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bird.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7336,6 +7383,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/black-bear.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7418,6 +7466,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/black-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7699,6 +7748,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/black-demon-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7845,6 +7895,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/black-demon-the-grand-tree.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -7929,6 +7980,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/black-demon-the-scar.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -8012,6 +8064,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/black-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -8172,6 +8225,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/black-guard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -8647,6 +8701,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/black-guard-berserker.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -8837,6 +8892,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/black-heather.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -8912,6 +8968,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/black-knight.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9160,6 +9217,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/blessed-giant-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9297,6 +9355,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/blessed-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9442,6 +9501,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/blood-starved-venator.png",
       "superior": null,
       "superiorOf": [
         "venator"
@@ -9524,6 +9584,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirst-rockslug.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9599,6 +9660,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-abomination.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9676,6 +9738,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-abyssal-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9757,6 +9820,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-banshee.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9837,6 +9901,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-basilisk.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9916,6 +9981,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-basilisk-sentinel.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -9996,6 +10062,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-bloodveld.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10077,6 +10144,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-choke-devil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10152,6 +10220,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-cockathrice.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10231,6 +10300,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-crawler.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10306,6 +10376,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-drake.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10388,6 +10459,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-gargoyle.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10467,6 +10539,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-hand.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10542,6 +10615,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bloodthirsty-hydra.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10622,6 +10696,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-infernal-pyrelord.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10699,6 +10774,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-jelly.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10778,6 +10854,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-kurask.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10856,6 +10933,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-mage.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -10933,6 +11011,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-mutated-bloodveld.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11014,6 +11093,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-nechryarch.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11093,6 +11173,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-night-beast.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11171,6 +11252,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-pyrelord.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11250,6 +11332,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-repugnant-spectre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11329,6 +11412,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-shadow-wyrm.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11469,6 +11553,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-smoke-devil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11548,6 +11633,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-spectre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11627,6 +11713,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-turoth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11708,6 +11795,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-twisted-banshee.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11786,6 +11874,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/bloodthirsty-warped-jelly.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -11867,6 +11956,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bloodveld.png",
       "superior": "insatiable-bloodveld",
       "superiorOf": [],
       "versions": [
@@ -12010,6 +12100,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/blue-dagannoth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -12092,6 +12183,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/blue-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -12894,6 +12986,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bouncer.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -12974,6 +13067,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/branda-the-fire-queen.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13061,6 +13155,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/brine-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13140,6 +13235,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/bronze-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13291,6 +13387,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/brutal-black-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13381,6 +13478,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/brutal-blue-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13533,6 +13631,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/brutal-red-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13619,6 +13718,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/brutus.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13699,6 +13799,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/bryophyta.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13780,6 +13881,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/buffalo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13862,6 +13964,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/callisto.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -13951,6 +14054,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/callisto-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -14034,6 +14138,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/calvarion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -14172,6 +14277,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/catablepon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -14367,6 +14473,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-abomination.png",
       "superior": null,
       "superiorOf": [
         "cave-horror"
@@ -14446,6 +14553,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-bug.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -14587,6 +14695,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-crawler.png",
       "superior": "chasm-crawler",
       "superiorOf": [],
       "versions": [
@@ -14954,6 +15063,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-goblin-guard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -15090,6 +15200,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-goblin-miner.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -15589,6 +15700,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-goblin-monster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -15850,6 +15962,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-horror.png",
       "superior": "cave-abomination",
       "superiorOf": [],
       "versions": [
@@ -16171,6 +16284,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-kraken.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16308,6 +16422,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cave-slime.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16391,6 +16506,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cerberus.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16480,6 +16596,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cerberus-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16689,6 +16806,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cerberus-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16771,6 +16889,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chaos-druid.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16845,6 +16964,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chaos-druid-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16921,6 +17041,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/chaos-dwarf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -16999,6 +17120,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chaos-elemental.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -17082,6 +17204,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/chaos-elemental-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -17162,6 +17285,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chaos-fanatic.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -17241,6 +17365,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chasm-crawler.png",
       "superior": null,
       "superiorOf": [
         "cave-crawler"
@@ -17379,6 +17504,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chicken.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -17636,6 +17762,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chilled-jelly.png",
       "superior": "vitreous-chilled-jelly",
       "superiorOf": [],
       "versions": [
@@ -17719,6 +17846,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/choke-devil.png",
       "superior": null,
       "superiorOf": [
         "dust-devil"
@@ -17800,6 +17928,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chompy-bird.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -17877,6 +18006,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/chuck-up.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -17955,6 +18085,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/city-guard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18032,6 +18163,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cockathrice.png",
       "superior": null,
       "superiorOf": [
         "cockatrice",
@@ -18112,6 +18244,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cockatrice.png",
       "superior": "cockathrice",
       "superiorOf": [],
       "versions": [
@@ -18188,6 +18321,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/cockatrice-unused.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18264,6 +18398,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/colossal-hydra.png",
       "superior": null,
       "superiorOf": [
         "hydra"
@@ -18346,6 +18481,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/commander-zilyana.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18425,6 +18561,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/commander-zilyana-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18673,6 +18810,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/commander-zilyana-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18752,6 +18890,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/corrupt-lizardman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18830,6 +18969,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/corrupt-lizardman-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -18968,6 +19108,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "icon": "icons/monsters/count-draynor.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -19050,6 +19191,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/count-draynor-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -19187,6 +19329,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cow.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -19491,6 +19634,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/cow-calf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -19682,6 +19826,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -19823,6 +19968,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/crawling-hand.png",
       "superior": "crushing-hand",
       "superiorOf": [],
       "versions": [
@@ -20434,6 +20580,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/crazy-archaeologist.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -20511,6 +20658,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/crocodile.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -20712,6 +20860,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/crushing-hand.png",
       "superior": null,
       "superiorOf": [
         "crawling-hand"
@@ -20792,6 +20941,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/crypt-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -20870,6 +21020,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/crypt-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -20949,6 +21100,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cyclops.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21148,6 +21300,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cyclops-ardougne-zoo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21224,6 +21377,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cyclops-catacombs-of-kourend.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21357,6 +21511,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/cyclops-god-wars-dungeon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21492,6 +21647,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dad.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21573,6 +21729,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dad-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21715,6 +21872,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/daddys-special-water.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -21797,6 +21955,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22063,6 +22222,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-fledgeling.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22145,6 +22305,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-mother.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22237,6 +22398,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-mother-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22394,6 +22556,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-prime.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22477,6 +22640,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-prime-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22737,6 +22901,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dagannoth-prime-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22815,6 +22980,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dagannoth-prime-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22895,6 +23061,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-rex.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -22978,6 +23145,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-rex-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23238,6 +23406,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dagannoth-rex-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23316,6 +23485,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dagannoth-rex-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23395,6 +23565,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-spawn.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23478,6 +23649,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-supreme.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23561,6 +23733,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-supreme-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23813,6 +23986,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dagannoth-supreme-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23891,6 +24065,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dagannoth-supreme-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -23970,6 +24145,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dagannoth-waterbirth-island.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24115,6 +24291,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/damien-leucurte.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24199,6 +24376,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dark-ankou.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24280,6 +24458,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dark-beast.png",
       "superior": "night-beast",
       "superiorOf": [],
       "versions": [
@@ -24361,6 +24540,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dark-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24670,6 +24850,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dawn.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24755,6 +24936,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dawn-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24833,6 +25015,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/deadly-red-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24914,6 +25097,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/death-wing.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -24993,6 +25177,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/definitely-not-dusk.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25072,6 +25257,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/demon-of-balance.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25148,6 +25334,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/demon-of-darkness.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25224,6 +25411,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/demon-of-light.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25302,6 +25490,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/demonic-gorilla.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25457,6 +25646,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/deranged-archaeologist.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25538,6 +25728,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/desert-lizard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25730,6 +25921,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/desert-wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -25923,6 +26115,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dessous.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -26009,6 +26202,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dessous-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -26158,6 +26352,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/deviant-spectre.png",
       "superior": "repugnant-spectre",
       "superiorOf": [],
       "versions": [
@@ -26242,6 +26437,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dharok-the-wretched.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -26325,6 +26521,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dharok-the-wretched-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -26592,6 +26789,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dinky-the-drink-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -26674,6 +26872,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dire-gryphon.png",
       "superior": null,
       "superiorOf": [
         "gryphon"
@@ -26756,6 +26955,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dire-wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -26947,6 +27147,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dire-wolf-alpha.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -27022,6 +27223,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/donny-the-lad.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -27095,6 +27297,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/doom-of-mokhaiotl.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -28530,6 +28733,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/drake.png",
       "superior": "guardian-drake",
       "superiorOf": [],
       "versions": [
@@ -28620,6 +28824,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dreadborn-araxyte.png",
       "superior": null,
       "superiorOf": [
         "araxyte"
@@ -28705,6 +28910,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/drink-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -28781,6 +28987,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "icon": "icons/monsters/duck.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -28914,6 +29121,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "icon": "icons/monsters/duckling.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -28990,6 +29198,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/duke-monkey.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -29067,6 +29276,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/duke-sucellus.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -29649,6 +29859,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dungeon-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -29853,6 +30064,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dusk.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -30004,6 +30216,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/dusk-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -30089,6 +30302,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dust-devil.png",
       "superior": "choke-devil",
       "superiorOf": [],
       "versions": [
@@ -30291,6 +30505,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dwarf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -31108,6 +31323,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/dwarf-gang-member.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -31297,6 +31513,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/earth-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -31373,6 +31590,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/earthen-nagua.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -31582,6 +31800,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/elder-aquanite.png",
       "superior": null,
       "superiorOf": [
         "aquanite"
@@ -31718,6 +31937,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/elder-chaos-druid.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -31795,6 +32015,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/elder-custodian-stalker.png",
       "superior": "ancient-custodian",
       "superiorOf": [],
       "versions": [
@@ -31875,6 +32096,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/eldric-the-ice-king.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -31957,6 +32179,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/elf-archer.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32092,6 +32315,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/elf-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32222,6 +32446,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "icon": "icons/monsters/elvarg.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32304,6 +32529,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/elvarg-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32450,6 +32676,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/enclave-guard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32525,6 +32752,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ent.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32664,6 +32892,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/entrana-firebird.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32743,6 +32972,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/evil-chicken.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32819,6 +33049,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/evil-chicken-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -32952,6 +33183,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/evil-chicken-recipe-for-disaster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -33032,6 +33264,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/feral-vampyre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -33524,6 +33757,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/fever-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -33608,6 +33842,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/fire-giant.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -33822,6 +34057,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/fiyr-shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -33969,6 +34205,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/flaming-pyrelord.png",
       "superior": null,
       "superiorOf": [
         "pyrefiend"
@@ -34051,6 +34288,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/flesh-crawler.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34252,6 +34490,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/flight-kilisa.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34335,6 +34574,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/flockleader-geerin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34417,6 +34657,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/forgotten-soul.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34566,6 +34807,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frenzied-ice-troll-female.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34647,6 +34889,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frenzied-ice-troll-grunt.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34728,6 +34971,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frenzied-ice-troll-male.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34809,6 +35053,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frenzied-ice-troll-runt.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -34889,6 +35134,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frost-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -35030,6 +35276,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frost-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -35114,6 +35361,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/frost-nagua.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -35202,6 +35450,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/gargoyle.png",
       "superior": "marble-gargoyle",
       "superiorOf": [],
       "versions": [
@@ -35348,6 +35597,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/general-graardor.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -35430,6 +35680,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/general-graardor-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -35687,6 +35938,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/general-graardor-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -35766,6 +36018,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/ghost.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36000,6 +36253,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ghost-grave-of-scorpius.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36083,6 +36337,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/ghost-melzars-maze.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36417,6 +36672,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ghoul.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36494,6 +36750,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-bat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36634,6 +36891,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-bat-brine-rat-cavern.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36713,6 +36971,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-crypt-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36793,6 +37052,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/giant-crypt-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -36872,6 +37132,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-goblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37120,6 +37381,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-lobster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37201,6 +37463,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-lobster-ghosts-ahoy.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37278,6 +37541,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-mole.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37358,6 +37622,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/giant-mole-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37437,6 +37702,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37642,6 +37908,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/giant-rat-scurrius.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37720,6 +37987,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-roc.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37801,6 +38069,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-roc-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -37945,6 +38214,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-rock-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38084,6 +38354,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-rockslug.png",
       "superior": null,
       "superiorOf": [
         "rockslug"
@@ -38164,6 +38435,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-scarab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38246,6 +38518,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/giant-scarab-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38390,6 +38663,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-sea-snake.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38471,6 +38745,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-skeleton-shadow-dungeon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38616,6 +38891,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-skeleton-tarns-lair.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38698,6 +38974,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/giant-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -38897,6 +39174,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/goblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -39183,6 +39461,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/goblin-goblin-village.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -39328,6 +39607,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/goblin-god-wars-dungeon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -39632,6 +39912,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/goblin-guard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -39708,6 +39989,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/goblin-vault-of-war.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -40012,6 +40294,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/gorad.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -40089,6 +40372,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/grave-scorpion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -40172,6 +40456,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/greater-abyssal-demon.png",
       "superior": null,
       "superiorOf": [
         "abyssal-demon"
@@ -40255,6 +40540,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/greater-abyssal-demon-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -40513,6 +40799,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/greater-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -40854,6 +41141,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/greater-demon-the-scar.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -40940,6 +41228,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/greater-nechryael.png",
       "superior": "nechryarch",
       "superiorOf": [],
       "versions": [
@@ -41084,6 +41373,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/greater-skeleton-hellhound-calvarion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41172,6 +41462,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/greater-skeleton-hellhound-vetion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41252,6 +41543,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/green-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41411,6 +41703,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/grimy-lizard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41490,6 +41783,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/grizzly-bear.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41630,6 +41924,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/grizzly-bear-cub.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41771,6 +42066,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/grizzly-bear-escape-caves.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -41853,6 +42149,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/gryphon.png",
       "superior": "dire-gryphon",
       "superiorOf": [],
       "versions": [
@@ -41936,6 +42233,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/gryphon-troubled-tortugans.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -42014,6 +42312,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/guard-bandit.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -42090,6 +42389,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/guard-cave-goblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -42224,6 +42524,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/guard-dog.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -42357,6 +42658,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/guard-dwarf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -42495,6 +42797,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/guard-prifddinas.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -42916,6 +43219,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/guardian-drake.png",
       "superior": null,
       "superiorOf": [
         "drake"
@@ -43002,6 +43306,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/guthan-the-infested.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -43082,6 +43387,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/harpie-bug-swarm.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -43162,6 +43468,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/haze.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -43248,6 +43555,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/hellhound.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -43453,6 +43761,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/hill-giant.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -44255,6 +44564,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/hobgoblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -44673,6 +44983,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/hobgoblin-the-slug-menace.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -44749,6 +45060,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/hydra.png",
       "superior": "colossal-hydra",
       "superiorOf": [],
       "versions": [
@@ -44831,6 +45143,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-giant.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -45451,6 +45764,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -45652,6 +45966,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -45924,6 +46239,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-troll-female.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46065,6 +46381,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-troll-grunt.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46147,6 +46464,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/ice-troll-king.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46233,6 +46551,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/ice-troll-king-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46377,6 +46696,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-troll-male.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46519,6 +46839,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-troll-runt.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46659,6 +46980,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -46919,6 +47241,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ice-wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -47065,6 +47388,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/icefiend.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -47208,6 +47532,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/icelord.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -47467,6 +47792,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/infernal-mage.png",
       "superior": "malevolent-mage",
       "superiorOf": [],
       "versions": [
@@ -47548,6 +47874,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/infernal-pyrelord.png",
       "superior": null,
       "superiorOf": [
         "pyrelord"
@@ -47632,6 +47959,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/insatiable-bloodveld.png",
       "superior": null,
       "superiorOf": [
         "bloodveld"
@@ -47716,6 +48044,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/insatiable-mutated-bloodveld.png",
       "superior": null,
       "superiorOf": [
         "mutated-bloodveld"
@@ -47798,6 +48127,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/iorwerth-archer.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -47933,6 +48263,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/iorwerth-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48069,6 +48400,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/iron-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48221,6 +48553,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jackal.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48302,6 +48635,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-ak.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48384,6 +48718,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-akrek-ket.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48464,6 +48799,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-akrek-mej.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48544,6 +48880,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-akrek-xil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48624,6 +48961,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-imkot.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48704,6 +49042,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jal-imkot-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -48961,6 +49300,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-mejjak.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -49041,6 +49381,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-mejrah.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -49121,6 +49462,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-nib.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -49201,6 +49543,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-xil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -49284,6 +49627,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jal-zek.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -49367,6 +49711,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/jaltok-jad.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -49453,6 +49798,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jelly.png",
       "superior": "vitreous-jelly",
       "superiorOf": [],
       "versions": [
@@ -50134,6 +50480,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/judge-of-yama-a-kingdom-divided.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -50214,6 +50561,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jungle-horror.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -50533,6 +50881,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jungle-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -50614,6 +50963,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jungle-spider-ape-atoll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -50694,6 +51044,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/jungle-wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -50774,6 +51125,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/juvenile-custodian-stalker.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -50860,6 +51212,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kalphite-guardian.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51072,6 +51425,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kalphite-queen.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51228,6 +51582,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kalphite-queen-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51375,6 +51730,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/kalphite-queen-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51522,6 +51878,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kalphite-soldier.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51671,6 +52028,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kalphite-worker.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51754,6 +52112,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kamil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51835,6 +52194,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kamil-nightmare-zone.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -51979,6 +52339,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/karil-the-tainted.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52061,6 +52422,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/ket-zek.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52203,6 +52565,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/killerwatt.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52350,6 +52713,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/king-black-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52437,6 +52801,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/king-black-dragon-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52707,6 +53072,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/king-black-dragon-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52787,6 +53153,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/king-black-dragon-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -52872,6 +53239,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/king-kurask.png",
       "superior": null,
       "superiorOf": [
         "kurask"
@@ -52953,6 +53321,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/king-sand-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53094,6 +53463,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/king-scorpion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53175,6 +53545,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/kolodion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53483,6 +53854,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kraka.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53565,6 +53937,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kraken.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53704,6 +54077,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kreearra.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53792,6 +54166,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kreearra-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -53931,6 +54306,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/kreearra-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54014,6 +54390,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kril-tsutsaroth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54101,6 +54478,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kril-tsutsaroth-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54360,6 +54738,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/kril-tsutsaroth-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54445,6 +54824,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/kroy.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54528,6 +54908,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/kurask.png",
       "superior": "king-kurask",
       "superiorOf": [],
       "versions": [
@@ -54665,6 +55046,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/large-chicken.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54740,6 +55122,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lava-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -54827,6 +55210,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lava-strykewyrm.png",
       "superior": "magma-strykewyrm",
       "superiorOf": [],
       "versions": [
@@ -54911,6 +55295,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lesser-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -55188,6 +55573,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/lesser-demon-melzars-maze.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -55270,6 +55656,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lesser-demon-the-scar.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -55600,6 +55987,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lizard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -55678,6 +56066,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lizardman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -55818,6 +56207,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lizardman-brute.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -55957,6 +56347,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lizardman-shaman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -56098,6 +56489,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lizardman-shaman-chambers-of-xeric.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -56239,6 +56631,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/loar-shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -56386,6 +56779,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/lobstrosity.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -56464,6 +56858,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/locust-rider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -56733,6 +57128,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/long-tailed-wyvern.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -56819,6 +57215,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/maggot-king.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57026,6 +57423,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/magic-axe.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57162,6 +57560,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/magma-strykewyrm.png",
       "superior": null,
       "superiorOf": [
         "lava-strykewyrm"
@@ -57246,6 +57645,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/malevolent-mage.png",
       "superior": null,
       "superiorOf": [
         "infernal-mage"
@@ -57323,6 +57723,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mammoth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57399,6 +57800,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/maniacal-monkey.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57475,6 +57877,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/maniacal-monkey-archer.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57555,6 +57958,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/marble-gargoyle.png",
       "superior": null,
       "superiorOf": [
         "gargoyle"
@@ -57644,6 +58048,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mature-custodian-stalker.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57724,6 +58129,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/minotaur.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57915,6 +58321,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/mirrorback-araxyte.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -57994,6 +58401,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mithril-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58085,6 +58493,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mogre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58165,6 +58574,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mogre-sea.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58241,6 +58651,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/molanisk.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58320,6 +58731,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/monkey-archer.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58455,6 +58867,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/monkey-guard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58588,6 +59001,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/monkey-guard-ninja.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58664,6 +59078,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/monkey-monster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -58799,6 +59214,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/monkey-zombie.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59008,6 +59424,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/monstrous-basilisk.png",
       "superior": null,
       "superiorOf": [
         "basilisk"
@@ -59089,6 +59506,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/monstrous-basilisk-the-fremennik-exiles.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59170,6 +59588,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/moonlight-cockatrice.png",
       "superior": "cockathrice",
       "superiorOf": [],
       "versions": [
@@ -59246,6 +59665,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/moss-giant.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59453,6 +59873,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/moss-giant-iorwerth-dungeon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59535,6 +59956,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mosschin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59616,6 +60038,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mountain-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59764,6 +60187,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mounted-terrorbird-gnome.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -59902,6 +60326,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mourner.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -60039,6 +60464,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mutated-bloodveld.png",
       "superior": "insatiable-mutated-bloodveld",
       "superiorOf": [],
       "versions": [
@@ -60120,6 +60546,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mutated-terrorbird.png",
       "superior": null,
       "superiorOf": [
         "warped-terrorbird"
@@ -60202,6 +60629,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/mutated-tortoise.png",
       "superior": null,
       "superiorOf": [
         "warped-tortoise"
@@ -60286,6 +60714,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/nazastarool.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -60497,6 +60926,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/nechryael.png",
       "superior": "nechryarch",
       "superiorOf": [],
       "versions": [
@@ -60638,6 +61068,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/nechryarch.png",
       "superior": null,
       "superiorOf": [
         "greater-nechryael",
@@ -60721,6 +61152,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/night-beast.png",
       "superior": null,
       "superiorOf": [
         "dark-beast"
@@ -60801,6 +61233,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/night-beast-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61058,6 +61491,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/nuclear-smoke-devil.png",
       "superior": null,
       "superiorOf": [
         "smoke-devil"
@@ -61139,6 +61573,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/obor.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61219,6 +61654,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ogre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61419,6 +61855,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ogre-chieftain.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61497,6 +61934,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/ogress-shaman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61576,6 +62014,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/ogress-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61715,6 +62154,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/oipuis.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61791,6 +62231,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/oomlie-bird.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61866,6 +62307,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/otherworldly-being.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -61947,6 +62389,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ouhai.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -62025,6 +62468,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/pee-hat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -62104,6 +62548,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/penguin-monster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -62184,6 +62629,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/phantom-muspah.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -62520,6 +62966,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/phrin-shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -62665,6 +63112,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/pirate.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63039,6 +63487,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/pit-scorpion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63119,6 +63568,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/poison-scorpion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63199,6 +63649,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/poison-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63340,6 +63791,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/poison-spider-escape-caves.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63421,6 +63873,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/porazdir.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63504,6 +63957,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/porazdir-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -63768,6 +64222,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/pyrefiend.png",
       "superior": "flaming-pyrelord",
       "superiorOf": [],
       "versions": [
@@ -63917,6 +64372,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/pyrelord.png",
       "superior": "infernal-pyrelord",
       "superiorOf": [],
       "versions": [
@@ -64064,6 +64520,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/ranis-drakan.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64207,6 +64664,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64350,6 +64808,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-abyssal.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64431,6 +64890,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-aviansie.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64510,6 +64970,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-bear.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64588,6 +65049,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-bloodveld.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64665,6 +65127,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-chaos-druid.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64743,6 +65206,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-dagannoth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64820,6 +65284,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64899,6 +65364,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-dog.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -64977,6 +65443,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-elf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65053,6 +65520,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-giant.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65129,6 +65597,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-goblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65209,6 +65678,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-hellhound.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65287,6 +65757,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-horror.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65365,6 +65836,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-kalphite.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65443,6 +65915,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-minotaur.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65519,6 +65992,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-monkey.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65594,6 +66068,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-ogre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65670,6 +66145,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-scorpion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65748,6 +66224,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/reanimated-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65825,6 +66302,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/reanimated-tzhaar.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -65902,6 +66380,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/red-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66251,6 +66730,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/redeyes.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66333,6 +66813,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/repugnant-spectre.png",
       "superior": null,
       "superiorOf": [
         "deviant-spectre"
@@ -66421,6 +66902,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/respiratory-system.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66500,6 +66982,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-cyclops.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66587,6 +67070,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-dark-beast.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66674,6 +67158,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66761,6 +67246,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66848,6 +67334,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-goblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -66935,6 +67422,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-hellhound.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67022,6 +67510,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-hobgoblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67109,6 +67598,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-imp.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67196,6 +67686,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-knight.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67283,6 +67774,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-maledictus.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67366,6 +67858,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-ork.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67453,6 +67946,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/revenant-pyrefiend.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67539,6 +68033,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/river-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -67920,6 +68415,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "icon": "icons/monsters/river-troll-random-event.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -68269,6 +68765,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/riyl-shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -68415,6 +68912,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/riyl-shadow-temple-trekking.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -68498,6 +68996,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/rock-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -68641,6 +69140,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/rock-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -68720,6 +69220,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/rockslug.png",
       "superior": "giant-rockslug",
       "superiorOf": [],
       "versions": [
@@ -68859,6 +69360,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/rogue.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -68992,6 +69494,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/rooster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69126,6 +69629,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/rune-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69219,6 +69723,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/ruptura-araxyte.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69295,6 +69800,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/salarin-the-twisted.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69372,6 +69878,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sand-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69517,6 +70024,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sarachnis.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69596,6 +70104,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scarab-mage.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69800,6 +70309,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scarab-swarm.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -69942,6 +70452,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/scarabs.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70029,6 +70540,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scorpia.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70110,6 +70622,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scorpias-guardian.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70189,6 +70702,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scorpias-offspring-monster.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70270,6 +70784,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scorpion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70592,6 +71107,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/screaming-banshee.png",
       "superior": null,
       "superiorOf": [
         "banshee"
@@ -70678,6 +71194,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/screaming-twisted-banshee.png",
       "superior": null,
       "superiorOf": [
         "twisted-banshee"
@@ -70762,6 +71279,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/scurrius.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70908,6 +71426,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sea-snake-hatchling.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -70986,6 +71505,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sea-snake-young.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71065,6 +71585,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/seagull.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71205,6 +71726,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/seagull-icyene-graveyard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71284,6 +71806,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sergeant-grimspike.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71360,6 +71883,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sergeant-steelwill.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71436,6 +71960,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sergeant-strongstack.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71512,6 +72037,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71654,6 +72180,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shade-temple-trekking.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71737,6 +72264,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shadow-hound.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71814,6 +72342,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shadow-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71893,6 +72422,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shadow-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -71972,6 +72502,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shadow-wyrm.png",
       "superior": null,
       "superiorOf": [
         "wyrm"
@@ -72124,6 +72655,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/shellbane-gryphon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -72207,6 +72739,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeletal-miner.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -72284,6 +72817,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeletal-mystic.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -72431,6 +72965,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeletal-wyvern.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -72716,6 +73251,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -73790,6 +74326,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-ape-atoll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -73872,6 +74409,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-barrows.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -74141,6 +74679,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-brute.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -74223,6 +74762,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-catacombs-of-kourend.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -74305,6 +74845,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": false,
+      "icon": "icons/monsters/skeleton-draynor-manor.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -74387,6 +74928,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-forthos-ruin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -74708,6 +75250,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-fremennik.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -74921,6 +75464,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-heavy.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75004,6 +75548,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/skeleton-hellhound.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75092,6 +75637,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-hellhound-calvarion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75180,6 +75726,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-hellhound-vetion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75263,6 +75810,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-hero.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75345,6 +75893,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-luciens-camp.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75613,6 +76162,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-mage.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75758,6 +76308,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-mage-a26b.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -75842,6 +76393,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-melzars-maze.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -76048,6 +76600,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-shayzien-crypts.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -76254,6 +76807,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-stronghold-of-security.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -76694,6 +77248,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-tarns-lair.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -77272,6 +77827,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-the-restless-ghost.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -77355,6 +77911,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-thug.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -77438,6 +77995,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-warlord.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -77521,6 +78079,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skeleton-wilderness-agility-course.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -77976,6 +78535,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/skoblin.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78055,6 +78615,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skogre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78254,6 +78815,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/skotizo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78337,6 +78899,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/slash-bash.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78417,6 +78980,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/small-lizard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78550,6 +79114,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/small-scarab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78633,6 +79198,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/smoke-devil.png",
       "superior": "nuclear-smoke-devil",
       "superiorOf": [],
       "versions": [
@@ -78714,6 +79280,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/snailfeet.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78794,6 +79361,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/snothead.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -78872,6 +79440,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sorebones.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79008,6 +79577,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sourhog.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79086,6 +79656,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/spawn-of-sarachnis.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79218,6 +79789,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/speedy-keith.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79295,6 +79867,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79495,6 +80068,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spider-ape-atoll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79575,6 +80149,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spider-ungael.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79658,6 +80233,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spiked-turoth.png",
       "superior": null,
       "superiorOf": [
         "turoth"
@@ -79743,6 +80319,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spindel.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -79829,6 +80406,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spiritual-mage.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -80161,6 +80739,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spiritual-ranger.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -80494,6 +81073,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spiritual-warrior.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -80826,6 +81406,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/spitting-wyvern.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -80912,6 +81493,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/steel-dragon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81128,6 +81710,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/stick.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81208,6 +81791,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/strange-creature-shadows-of-custodia.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81290,6 +81874,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/strongbones.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81370,6 +81955,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sulphur-lizard.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81449,6 +82035,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sulphur-lizard-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81639,6 +82226,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/sulphur-nagua.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81720,6 +82308,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/sulphur-nagua-perilous-moons.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81798,6 +82387,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/summoned-zombie.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -81879,6 +82469,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/suqah.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -82326,6 +82917,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/swamp-crab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -82527,6 +83119,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/taloned-wyvern.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -82613,6 +83206,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/temple-guardian.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -82689,6 +83283,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/temple-spider.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -82767,6 +83362,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/terror-dog.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -82900,6 +83496,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/terrorbird.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83090,6 +83687,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/the-jormungand.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83174,6 +83772,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/the-leviathan.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83383,6 +83982,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/the-rocks.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83465,6 +84065,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/the-whisperer.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83682,6 +84283,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/thermonuclear-smoke-devil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83763,6 +84365,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/thermonuclear-smoke-devil-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -83961,6 +84564,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/thermonuclear-smoke-devil-echo.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84043,6 +84647,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/thrower-troll.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84129,6 +84734,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/thrower-troll-trollheim.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84213,6 +84819,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/tok-xil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84359,6 +84966,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/torag-the-corrupted.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84441,6 +85049,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tormented-demon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84712,6 +85321,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tortured-gorilla.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84852,6 +85462,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tortured-soul.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -84932,6 +85543,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/tree-spirit-lost-city.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -85015,6 +85627,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/treus-dayth.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -85102,6 +85715,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/troll-general.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -85303,6 +85917,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/troll-spectator.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -85389,6 +86004,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tstanon-karlak.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -85473,6 +86089,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/turoth.png",
       "superior": "spiked-turoth",
       "superiorOf": [],
       "versions": [
@@ -85731,6 +86348,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/twig.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -85872,6 +86490,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/twisted-banshee.png",
       "superior": "screaming-twisted-banshee",
       "superiorOf": [],
       "versions": [
@@ -85957,6 +86576,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/typhor.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86036,6 +86656,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/tz-kek.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86179,6 +86800,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/tz-kih.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86262,6 +86884,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tzhaar-hur.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86353,6 +86976,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tzhaar-ket.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86500,6 +87124,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tzhaar-mej.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86588,6 +87213,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tzhaar-xil.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86793,6 +87419,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tzkal-zuk.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -86935,6 +87562,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tztok-jad.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87015,6 +87643,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/tztok-jad-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87224,6 +87853,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/tztok-jad-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87301,6 +87931,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/tztok-jad-rek.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87384,6 +88015,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/ulfric.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87464,6 +88096,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/undead-chicken.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87547,6 +88180,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/undead-cow.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87630,6 +88264,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/undead-druid.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -87714,6 +88349,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/undead-lumberjack.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -88356,6 +88992,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/undead-one.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -88629,6 +89266,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/uodai.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -88705,6 +89343,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/urium-shade.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -88851,6 +89490,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/uyoro.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -88931,6 +89571,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vampyre-juvenile.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -89140,6 +89781,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vampyre-juvinate.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -89712,6 +90354,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/vanstrom-klause.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -89862,6 +90505,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vardorvis.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -90069,6 +90713,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vardorvis-deadman.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -90271,6 +90916,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/venator.png",
       "superior": "blood-starved-venator",
       "superiorOf": [],
       "versions": [
@@ -90595,6 +91241,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/venenatis.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -90683,6 +91330,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/venenatis-pvm-arena.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -90761,6 +91409,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/verac-the-defiled.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -90849,6 +91498,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vetion.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -90990,6 +91640,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vitreous-chilled-jelly.png",
       "superior": null,
       "superiorOf": [
         "chilled-jelly"
@@ -91073,6 +91724,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vitreous-jelly.png",
       "superior": null,
       "superiorOf": [
         "jelly"
@@ -91156,6 +91808,7 @@
       "taskOnly": true,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vitreous-warped-jelly.png",
       "superior": null,
       "superiorOf": [
         "warped-jelly"
@@ -91245,6 +91898,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vorkath.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -91409,6 +92063,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vulture.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -91552,6 +92207,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vyrewatch.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -91929,6 +92585,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/vyrewatch-sentinel.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -92419,6 +93076,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/wall-beast.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -92556,6 +93214,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/warped-jelly.png",
       "superior": "vitreous-warped-jelly",
       "superiorOf": [],
       "versions": [
@@ -92638,6 +93297,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/warped-terrorbird.png",
       "superior": "mutated-terrorbird",
       "superiorOf": [],
       "versions": [
@@ -92788,6 +93448,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/warped-tortoise.png",
       "superior": "mutated-tortoise",
       "superiorOf": [],
       "versions": [
@@ -92867,6 +93528,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/waterfiend.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -93011,6 +93673,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/werewolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -94285,6 +94948,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/white-wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -94425,6 +95089,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/wild-dog.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -94560,6 +95225,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/wingman-skree.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -94642,6 +95308,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/wolf.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -94961,6 +95628,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/wormbrain.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -95040,6 +95708,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/wyrm.png",
       "superior": "shadow-wyrm",
       "superiorOf": [],
       "versions": [
@@ -95190,6 +95859,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/wyrmling.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -95458,6 +96128,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/yt-hurkot.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -95600,6 +96271,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": false,
+      "icon": "icons/monsters/yt-mejkot.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -95739,6 +96411,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zakln-gritch.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -95822,6 +96495,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zogre.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -95912,6 +96586,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -97482,6 +98157,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-entrana-dungeon.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -97813,6 +98489,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-kourend.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -98081,6 +98758,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-melzars-maze.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -98166,6 +98844,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-pirate.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -98374,6 +99053,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-pirate-braindeath-island.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -98766,6 +99446,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-pirate-harmony-island.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -100409,6 +101090,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-rat.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -100618,6 +101300,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-sepulchre-of-death.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -100697,6 +101380,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-shayzien-crypts.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -100904,6 +101588,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-stronghold-of-security.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -101482,6 +102167,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-swab.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -101874,6 +102560,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-tarns-lair.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -103010,6 +103697,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-temple-trekking.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -103090,6 +103778,7 @@
       "taskOnly": false,
       "members": false,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-wilderness.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -103854,6 +104543,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zombie-zogre-flesh-eaters.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -103936,6 +104626,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zulrah.png",
       "superior": null,
       "superiorOf": [],
       "versions": [
@@ -104138,6 +104829,7 @@
       "taskOnly": false,
       "members": true,
       "hasDrops": true,
+      "icon": "icons/monsters/zygomite.png",
       "superior": null,
       "superiorOf": [],
       "versions": [

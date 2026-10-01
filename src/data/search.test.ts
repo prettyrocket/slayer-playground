@@ -14,6 +14,8 @@ const category = (name: string, monsters: string[] = [], aliases: string[] = [])
   aliases,
   slayerLevel: null,
   icon: null,
+  equipment: [],
+  page: null,
 });
 
 const catalog: Catalog = {

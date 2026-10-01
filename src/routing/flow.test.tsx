@@ -5,6 +5,12 @@ import { renderRoute } from '@/test/render';
 
 // Data is src/test/monsters.ts, served for data/monsters.json and
 // data/categories.json by setup.ts.
+
+/** The monster in each row of a category's table (the row's first link). */
+async function monsterNames(table: string) {
+  const rows = within(await screen.findByRole('table', { name: table })).getAllByRole('row');
+  return rows.slice(1).map((row) => within(row).getAllByRole('link')[0].textContent);
+}
 describe('flow between pages', () => {
   it('goes from the category list to a monster, remembering the category', async () => {
     const { user, router } = renderRoute('/');
@@ -21,12 +27,10 @@ describe('flow between pages', () => {
 
   it("lists a category's monsters and the masters who assign it", async () => {
     renderRoute('/categories/abyssal-demons');
-    const monsters = await screen.findByRole('list', { name: 'Monsters' });
-    expect(
-      within(monsters)
-        .getAllByRole('link')
-        .map((link) => link.textContent),
-    ).toEqual(['Abyssal demon', 'Abyssal Sire']);
+    expect(await monsterNames('Abyssal demons monsters')).toEqual([
+      'Abyssal demon',
+      'Abyssal Sire',
+    ]);
     const main = screen.getByRole('main');
     expect(within(main).getByRole('link', { name: 'Vannaka' })).toHaveAttribute(
       'href',
@@ -62,12 +66,7 @@ describe('flow between pages', () => {
 
   it('lists only the monsters that count, and categories no monster page has', async () => {
     renderRoute('/categories/bosses');
-    const monsters = await screen.findByRole('list', { name: 'Monsters' });
-    expect(
-      within(monsters)
-        .getAllByRole('link')
-        .map((link) => link.textContent),
-    ).toEqual(['Abyssal Sire']);
+    expect(await monsterNames('Bosses monsters')).toEqual(['Abyssal Sire']);
 
     renderRoute('/masters/krystilia');
     const list = await within(screen.getAllByRole('main').at(-1)!).findByRole('table', {

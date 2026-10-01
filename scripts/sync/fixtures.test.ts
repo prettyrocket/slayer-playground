@@ -319,6 +319,8 @@ describe('Bucket rows', () => {
       taskOnly: false,
       members: true,
       hasDrops: true,
+      // Set by syncMonsterIcons, not by buildMonsters.
+      icon: null,
       superior: null,
       superiorOf: [],
     });
