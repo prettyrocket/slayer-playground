@@ -5,12 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Tooltip from '@mui/material/Tooltip';
@@ -25,7 +20,15 @@ import { PlaceName } from '@/components/PlaceName';
 import { WikiLink } from '@/components/WikiLink';
 import { type Catalog, type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems } from '@/data/combat';
-import { type Place, areaName, isListed, lowestLevel, placesOf, regionsOf } from '@/data/locations';
+import {
+  type Place,
+  type Region,
+  areaName,
+  isListed,
+  lowestLevel,
+  placesOf,
+  regionsOf,
+} from '@/data/locations';
 import { useMastersFile } from '@/data/masters';
 import type { Monster, MonsterLocation } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
@@ -33,9 +36,9 @@ import { monsterPath } from '@/routing/paths';
 import { useNavLocation } from '@/routing/useNavLocation';
 
 /** Items the category's equipment list ties to this monster ("Earmuffs", "Leaf-bladed spear +4"). */
-function needs(category: Category, monster: Monster): string {
+function needs(category: Category, monster: Monster): string | null {
   const items = neededItems([category], monster);
-  if (items.length === 0) return '—';
+  if (items.length === 0) return null;
   return items.length > 1 ? `${items[0]} +${items.length - 1}` : items[0];
 }
 
@@ -61,18 +64,17 @@ const FACTS: { key: Fact; label: string; icon: ReactNode }[] = [
 
 /** An icon for each fact that holds there. */
 function PlaceFacts({ place }: { place: Place }) {
-  return FACTS.filter((f) => place[f.key]).map((f) => (
-    <Tooltip key={f.key} title={f.label}>
-      <Box
-        component="span"
-        role="img"
-        aria-label={f.label}
-        sx={{ display: 'inline-flex', alignItems: 'center', color: 'text.secondary' }}
-      >
-        {f.icon}
-      </Box>
-    </Tooltip>
-  ));
+  return (
+    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+      {FACTS.filter((f) => place[f.key]).map((f) => (
+        <Tooltip key={f.key} title={f.label}>
+          <Box component="span" role="img" aria-label={f.label} sx={{ display: 'inline-flex' }}>
+            {f.icon}
+          </Box>
+        </Tooltip>
+      ))}
+    </Box>
+  );
 }
 
 type SortBy = 'spawns' | 'level';
@@ -121,7 +123,7 @@ function Superiors({
 
 /**
  * A small card for a monster at a place: its picture and name, then its level
- * there, Slayer level and Slayer XP, and what it needs, if anything.
+ * and spawns there, Slayer level and Slayer XP, and what it needs, if anything.
  */
 function MonsterCard({
   monster,
@@ -137,21 +139,24 @@ function MonsterCard({
   const xp = monster.versions[0]?.slayerXp;
   const facts = [
     location?.levels.length ? `Level ${location.levels.join(', ')}` : null,
+    location?.spawns ? `${location.spawns} spawn${location.spawns === 1 ? '' : 's'}` : null,
     monster.slayerLevel !== null ? `Slayer ${monster.slayerLevel}` : null,
     xp != null ? `${xp} XP` : null,
   ].filter((f) => f !== null);
   return (
     <Box
+      component="li"
       sx={{
-        display: 'inline-flex',
+        display: 'flex',
         alignItems: 'center',
         gap: 1.25,
-        py: 0.5,
-        pl: 0.5,
+        py: 0.75,
+        pl: 0.75,
         pr: 1.5,
         border: 1,
         borderColor: 'divider',
         borderRadius: 2,
+        bgcolor: 'background.paper',
       }}
     >
       <IconTile icon={monster.icon} name={monster.page} size={40} />
@@ -169,7 +174,7 @@ function MonsterCard({
             {facts.join(' · ')}
           </Typography>
         )}
-        {needed !== '—' && (
+        {needed && (
           <Typography variant="caption" color="text.secondary" component="div">
             Needs {needed}
           </Typography>
@@ -179,70 +184,88 @@ function MonsterCard({
   );
 }
 
-/** A monster's cells: its card, and how many spawn there. */
-function MonsterCells({
-  monster,
-  location,
+/** Monster cards in rows that wrap. */
+function MonsterCards({
+  monsters,
   category,
 }: {
-  monster: Monster;
-  location: MonsterLocation | null;
+  monsters: { monster: Monster; location: MonsterLocation | null }[];
   category: Category;
 }) {
   return (
-    <>
-      <TableCell>
-        <MonsterCard monster={monster} location={location} category={category} />
-      </TableCell>
-      <TableCell align="right">{location?.spawns ?? '—'}</TableCell>
-    </>
+    <Box
+      component="ul"
+      sx={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+        gap: 1,
+        listStyle: 'none',
+        p: 0,
+        m: 0,
+      }}
+    >
+      {monsters.map(({ monster, location }) => (
+        <MonsterCard key={monster.slug} monster={monster} location={location} category={category} />
+      ))}
+    </Box>
   );
 }
 
 /**
- * A place's rows: its name and facts spanning one row per monster there.
- * Indented under its region when it shares one; faded when the master gives
- * places and this isn't one of them.
+ * A location's card: its name and facts as the heading, then the monsters
+ * there. Places sharing a wiki page (the Slayer Tower's floors) each get a
+ * titled part of their region's card. Faded when the master gives places and
+ * these aren't theirs.
  */
-function PlaceRows({
-  place,
-  name,
-  indent,
+function LocationCard({
+  region,
   dim,
   category,
 }: {
-  place: Place;
-  name: string;
-  indent: boolean;
+  region: Region;
   dim: boolean;
   category: Category;
 }) {
-  return place.monsters.map(({ monster, location }, i) => (
-    <TableRow key={monster.slug} hover sx={{ opacity: dim ? 0.5 : 1 }}>
-      {i === 0 && (
-        <>
-          <TableCell rowSpan={place.monsters.length} sx={{ fontWeight: 500, pl: indent ? 4 : 2 }}>
-            {indent ? name : <PlaceName location={{ name, page: place.page }} />}
-          </TableCell>
-          <TableCell rowSpan={place.monsters.length}>
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
-              <PlaceFacts place={place} />
+  const [only] = region.areas.length === 1 ? region.areas : [];
+  return (
+    <Paper
+      component="section"
+      variant="outlined"
+      aria-label={only?.name ?? region.name}
+      sx={{ p: 2, borderRadius: 2, opacity: dim ? 0.5 : 1 }}
+    >
+      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 1.5 }}>
+        <Typography variant="h6" component="h2" sx={{ flexGrow: 1 }}>
+          <PlaceName location={only ?? region} />
+        </Typography>
+        {only && <PlaceFacts place={only} />}
+      </Box>
+      {only ? (
+        <MonsterCards monsters={only.monsters} category={category} />
+      ) : (
+        region.areas.map((area) => (
+          <Box key={area.name} sx={{ '& + &': { mt: 2 } }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 1 }}>
+              <Typography variant="subtitle2" component="h3" sx={{ flexGrow: 1 }}>
+                {areaName(region, area)}
+              </Typography>
+              <PlaceFacts place={area} />
             </Box>
-          </TableCell>
-        </>
+            <MonsterCards monsters={area.monsters} category={category} />
+          </Box>
+        ))
       )}
-      <MonsterCells monster={monster} location={location} category={category} />
-    </TableRow>
-  ));
+    </Paper>
+  );
 }
 
 /**
- * /categories/:slug/locations — the category by where its monsters spawn. Each
- * place shows whether it's multicombat, cannonable or safespottable, then the
- * monsters there with their level and spawns. Places sharing a wiki page (the
- * Slayer Tower's floors) group under it. Filters keep places with the chosen
- * facts; on Konar's or Krystilia's trail, their places come first and the rest
- * fade. Monsters the wiki gives no place for come last.
+ * /categories/:slug/locations — the category by where its monsters spawn, a
+ * card per location: whether it's multicombat, cannonable or safespottable, and
+ * the monsters there with their level and spawns. Places sharing a wiki page
+ * (the Slayer Tower's floors) share a card. Filters keep places with the chosen
+ * facts. On Konar's or Krystilia's trail only their places show, the rest
+ * folded away and faded. Monsters the wiki gives no place for come last.
  */
 export function CategoryLocationsPage() {
   const { slug = '' } = useParams();
@@ -261,8 +284,8 @@ export function CategoryLocationsPage() {
     masters.data?.masters
       .find((m) => m.key === master?.key)
       ?.assignments.find((a) => a.category === category.name.toLowerCase())?.locations ?? [];
-  // Faded: everything but the master's places, when the master gives places.
-  const dim = (theirs: boolean) => listedPlaces.length > 0 && !theirs;
+  // On a trail whose master gives places, only theirs show until the rest are opened.
+  const byMaster = listedPlaces.length > 0;
 
   const places = placesOf(monsters).filter((p) => facts.every((f) => p[f]));
   const regions = regionsOf(places)
@@ -278,47 +301,35 @@ export function CategoryLocationsPage() {
     }))
     .sort(
       (a, b) =>
-        Number(b.listed) - Number(a.listed) ||
         (sortBy === 'spawns'
           ? byNullLast(a.region.spawns, b.region.spawns, -1)
-          : byNullLast(a.lowest, b.lowest)) ||
-        a.region.name.localeCompare(b.region.name),
+          : byNullLast(a.lowest, b.lowest)) || a.region.name.localeCompare(b.region.name),
     );
   const unplaced = facts.length ? [] : monsters.filter((m) => m.locations.length === 0);
-  // On a trail whose master gives places, only theirs show until the rest are opened.
-  const byMaster = listedPlaces.length > 0;
-  const theirs = regions.filter((r) => r.listed);
-  const others = regions.length - theirs.length + (unplaced.length > 0 ? 1 : 0);
+  const theirs = byMaster ? regions.filter((r) => r.listed) : regions;
+  const others = byMaster ? regions.filter((r) => !r.listed) : [];
+  const folded = others.length + (byMaster && unplaced.length > 0 ? 1 : 0);
 
-  const regionRows = ({ region, listed }: (typeof regions)[number]) =>
-    region.areas.length === 1 ? (
-      <PlaceRows
-        key={region.name}
-        place={region.areas[0]}
-        name={region.areas[0].name}
-        indent={false}
-        dim={dim(listed)}
+  const cards = (list: typeof regions, dim: boolean) =>
+    list.map(({ region }) => (
+      <LocationCard key={region.name} region={region} dim={dim} category={category} />
+    ));
+  const unplacedCard = unplaced.length > 0 && (
+    <Paper
+      component="section"
+      variant="outlined"
+      aria-label="—"
+      sx={{ p: 2, borderRadius: 2, opacity: byMaster ? 0.5 : 1 }}
+    >
+      <Typography variant="h6" component="h2" sx={{ mb: 1.5 }}>
+        —
+      </Typography>
+      <MonsterCards
+        monsters={unplaced.map((monster) => ({ monster, location: null }))}
         category={category}
       />
-    ) : (
-      <Fragment key={region.name}>
-        <TableRow sx={{ bgcolor: 'action.hover', opacity: dim(listed) ? 0.5 : 1 }}>
-          <TableCell colSpan={4} sx={{ fontWeight: 500 }}>
-            <PlaceName location={region} />
-          </TableCell>
-        </TableRow>
-        {region.areas.map((area) => (
-          <PlaceRows
-            key={area.name}
-            place={area}
-            name={areaName(region, area)}
-            indent
-            dim={dim(isListed(area, listedPlaces))}
-            category={category}
-          />
-        ))}
-      </Fragment>
-    );
+    </Paper>
+  );
 
   return (
     <>
@@ -372,53 +383,26 @@ export function CategoryLocationsPage() {
         </ToggleButtonGroup>
       </Box>
 
-      <TableContainer>
-        <Table size="small" aria-label={`${category.name} locations`}>
-          <TableHead>
-            <TableRow>
-              <TableCell>Location</TableCell>
-              <TableCell />
-              <TableCell>Monster</TableCell>
-              <TableCell align="right">Spawns</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {(byMaster ? theirs : regions).map(regionRows)}
-            {byMaster && others > 0 && (
-              <TableRow>
-                <TableCell colSpan={4} sx={{ py: 0.5 }}>
-                  <Button
-                    size="small"
-                    color="inherit"
-                    onClick={() => setShowOthers(!showOthers)}
-                    aria-expanded={showOthers}
-                    endIcon={showOthers ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-                    sx={{ textTransform: 'none', color: 'text.secondary' }}
-                  >
-                    Other places ({others})
-                  </Button>
-                </TableCell>
-              </TableRow>
-            )}
-            {(!byMaster || showOthers) && (
-              <>
-                {byMaster && regions.filter((r) => !r.listed).map(regionRows)}
-                {unplaced.map((monster, i) => (
-                  <TableRow key={monster.slug} hover sx={{ opacity: dim(false) ? 0.5 : 1 }}>
-                    {i === 0 && (
-                      <>
-                        <TableCell rowSpan={unplaced.length}>—</TableCell>
-                        <TableCell rowSpan={unplaced.length} />
-                      </>
-                    )}
-                    <MonsterCells monster={monster} location={null} category={category} />
-                  </TableRow>
-                ))}
-              </>
-            )}
-          </TableBody>
-        </Table>
-      </TableContainer>
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        {cards(theirs, false)}
+        {!byMaster && unplacedCard}
+        {folded > 0 && (
+          <Box>
+            <Button
+              size="small"
+              color="inherit"
+              onClick={() => setShowOthers(!showOthers)}
+              aria-expanded={showOthers}
+              endIcon={showOthers ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+              sx={{ textTransform: 'none', color: 'text.secondary' }}
+            >
+              Other places ({folded})
+            </Button>
+          </Box>
+        )}
+        {showOthers && cards(others, true)}
+        {byMaster && showOthers && unplacedCard}
+      </Box>
     </>
   );
 }
