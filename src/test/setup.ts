@@ -6,6 +6,7 @@ import {
   abyssalDemonDrops,
   categoriesFixture,
   mastersFixture,
+  metaFixture,
   monstersFixture,
 } from '@/test/monsters';
 
@@ -31,6 +32,7 @@ const fixtures: Record<string, unknown> = {
   'data/categories.json': categoriesFixture,
   'data/drops/abyssal-demon.json': abyssalDemonDrops,
   'data/masters.json': mastersFixture,
+  'data/meta.json': metaFixture,
 };
 
 beforeEach(() => {
