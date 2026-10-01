@@ -1,30 +1,22 @@
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-import { Link } from 'react-router';
-
-import { getMasters } from '@/data/masters';
-import { masterPath } from '@/routing/paths';
+import { MasterCards } from '@/components/MasterCards';
+import { WikiLink } from '@/components/WikiLink';
 
 /** /masters — every Slayer master. */
 export function MastersPage() {
   return (
     <>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Slayer masters
-      </Typography>
-      <List aria-label="Slayer masters">
-        {getMasters().map((master) => (
-          <ListItem key={master.key} disablePadding>
-            <ListItemButton component={Link} to={masterPath(master.key)}>
-              <ListItemText primary={master.name} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+      <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
+        <Typography variant="h4" component="h1">
+          Slayer masters
+        </Typography>
+        <Box sx={{ ml: 'auto' }}>
+          <WikiLink page="Slayer Master" />
+        </Box>
+      </Box>
+      <MasterCards />
     </>
   );
 }

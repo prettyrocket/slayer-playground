@@ -9,9 +9,54 @@ import { Link } from 'react-router';
 const DATA_URL = `${import.meta.env.BASE_URL}data/`;
 
 /**
+ * A square picture tile. `icon` is a path under public/data; without one, the
+ * tile shows the name's first letter. Decorative: the name is shown beside it.
+ */
+export function IconTile({
+  icon,
+  name,
+  size = 48,
+}: {
+  icon: string | null;
+  name: string;
+  size?: number;
+}) {
+  return (
+    <Box
+      aria-hidden
+      sx={{
+        width: size,
+        height: size,
+        flexShrink: 0,
+        borderRadius: 1.5,
+        bgcolor: 'action.hover',
+        display: 'grid',
+        placeItems: 'center',
+        overflow: 'hidden',
+        color: 'text.secondary',
+        fontWeight: 600,
+      }}
+    >
+      {icon ? (
+        // In-game icons are about 20-30px and stay at their own size unless the
+        // tile is smaller; renders and chatheads (up to 64px) shrink to fit.
+        <Box
+          component="img"
+          src={`${DATA_URL}${icon}`}
+          alt=""
+          loading="lazy"
+          sx={{ maxWidth: size - 8, maxHeight: size - 8, objectFit: 'contain' }}
+        />
+      ) : (
+        name[0]
+      )}
+    </Box>
+  );
+}
+
+/**
  * A card in a grid list (render it inside a `<ul>`): a picture, then a name,
- * left-aligned, linking to `to`. `icon` is a path under public/data; without
- * one, the tile shows the name's first letter.
+ * left-aligned, linking to `to`.
  */
 export function IconCard({ to, name, icon }: { to: string; name: string; icon: string | null }) {
   return (
@@ -30,35 +75,7 @@ export function IconCard({ to, name, icon }: { to: string; name: string; icon: s
           gap: 1.5,
         }}
       >
-        <Box
-          aria-hidden
-          sx={{
-            width: 48,
-            height: 48,
-            flexShrink: 0,
-            borderRadius: 1.5,
-            bgcolor: 'action.hover',
-            display: 'grid',
-            placeItems: 'center',
-            overflow: 'hidden',
-            color: 'text.secondary',
-            fontWeight: 600,
-          }}
-        >
-          {icon ? (
-            // In-game icons are about 20-30px and stay at their own size; renders
-            // and chatheads (up to 64px) shrink to fit.
-            <Box
-              component="img"
-              src={`${DATA_URL}${icon}`}
-              alt=""
-              loading="lazy"
-              sx={{ maxWidth: 40, maxHeight: 40, objectFit: 'contain' }}
-            />
-          ) : (
-            name[0]
-          )}
-        </Box>
+        <IconTile icon={icon} name={name} />
         <Typography component="span" sx={{ fontWeight: 600, lineHeight: 1.3 }}>
           {name}
         </Typography>

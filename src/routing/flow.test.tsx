@@ -46,8 +46,8 @@ describe('flow between pages', () => {
 
   it("lists only a master's categories, with links that carry the master", async () => {
     renderRoute('/masters/duradel');
-    const list = await within(screen.getByRole('main')).findByRole('list', {
-      name: 'Categories',
+    const list = await within(screen.getByRole('main')).findByRole('table', {
+      name: "Duradel's tasks",
     });
     expect(
       within(list)
@@ -70,8 +70,8 @@ describe('flow between pages', () => {
     ).toEqual(['Abyssal Sire']);
 
     renderRoute('/masters/krystilia');
-    const list = await within(screen.getAllByRole('main').at(-1)!).findByRole('list', {
-      name: 'Categories',
+    const list = await within(screen.getAllByRole('main').at(-1)!).findByRole('table', {
+      name: "Krystilia's tasks",
     });
     expect(within(list).getByRole('link', { name: 'Wilderness bosses' })).toBeInTheDocument();
   });

@@ -7,37 +7,7 @@ import Typography from '@mui/material/Typography';
 import { useSearchParams } from 'react-router';
 
 import { CategoryList } from '@/components/CategoryList';
-import { IconCard } from '@/components/IconCard';
-import { getMasters } from '@/data/masters';
-import { masterPath } from '@/routing/paths';
-
-/** One card per master: their chathead (synced to public/data/icons/masters) and name. */
-function MasterCards() {
-  return (
-    <Box component="nav" aria-label="Slayer masters">
-      <Box
-        component="ul"
-        sx={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-          gap: 1.5,
-          listStyle: 'none',
-          p: 0,
-          m: 0,
-        }}
-      >
-        {getMasters().map((master) => (
-          <IconCard
-            key={master.key}
-            to={masterPath(master.key)}
-            name={master.name}
-            icon={`icons/masters/${master.key}.png`}
-          />
-        ))}
-      </Box>
-    </Box>
-  );
-}
+import { MasterCards } from '@/components/MasterCards';
 
 /**
  * / — find your task. The search lives in the URL (`?q=`), so a search can be
