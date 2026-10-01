@@ -175,45 +175,16 @@ function MonsterCard({
           </Box>
         </Tooltip>
       )}
-      <Box sx={{ position: 'relative', flexShrink: 0 }}>
-        <IconTile icon={monster.icon} name={monster.page} size={40} />
-        {superior && superiorStyle === 'icon' && (
-          <Tooltip title={`Superior: ${superior.page}`}>
-            <Box
-              component={RouterLink}
-              to={superiorPath!}
-              aria-label={`Superior: ${superior.page}`}
-              sx={{
-                position: 'absolute',
-                right: -8,
-                bottom: -8,
-                borderRadius: 1.5,
-                outline: 2,
-                outlineColor: 'warning.main',
-                bgcolor: 'background.paper',
-              }}
-            >
-              <IconTile icon={superior.icon} name={superior.page} size={24} />
-            </Box>
-          </Tooltip>
-        )}
-      </Box>
+      <IconTile icon={monster.icon} name={monster.page} size={40} />
       <Box sx={{ minWidth: 0, flexGrow: 1 }}>
-        <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1 }}>
-          <Link
-            component={RouterLink}
-            to={monsterPath(monster.slug, category.slug, master?.key)}
-            underline="hover"
-            sx={{ fontWeight: 500, flexGrow: 1 }}
-          >
-            {monster.page}
-          </Link>
-          {location?.levels.length ? (
-            <Typography variant="body2" color="text.secondary" sx={{ whiteSpace: 'nowrap' }}>
-              Lvl {location.levels.join(', ')}
-            </Typography>
-          ) : null}
-        </Box>
+        <Link
+          component={RouterLink}
+          to={monsterPath(monster.slug, category.slug, master?.key)}
+          underline="hover"
+          sx={{ fontWeight: 500 }}
+        >
+          {monster.page}
+        </Link>
         {facts.length > 0 && (
           <Typography variant="caption" color="text.secondary" component="div">
             {facts.join(' · ')}
@@ -231,6 +202,39 @@ function MonsterCard({
               {superior.page}
             </Link>
           </Typography>
+        )}
+      </Box>
+      {/* The level on the right of the name, and the superior's picture under it. */}
+      <Box
+        sx={{
+          alignSelf: 'stretch',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+          justifyContent: 'space-between',
+          gap: 0.5,
+          flexShrink: 0,
+        }}
+      >
+        <Typography variant="body2" color="text.secondary" sx={{ whiteSpace: 'nowrap' }}>
+          {location?.levels.length ? `Lvl ${location.levels.join(', ')}` : ''}
+        </Typography>
+        {superior && superiorStyle === 'icon' && (
+          <Tooltip title={`Superior: ${superior.page}`}>
+            <Box
+              component={RouterLink}
+              to={superiorPath!}
+              aria-label={`Superior: ${superior.page}`}
+              sx={{
+                display: 'block',
+                borderRadius: 1.5,
+                outline: 2,
+                outlineColor: 'warning.main',
+              }}
+            >
+              <IconTile icon={superior.icon} name={superior.page} size={24} />
+            </Box>
+          </Tooltip>
         )}
       </Box>
     </Box>
