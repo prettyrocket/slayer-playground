@@ -10,21 +10,36 @@ function wikiUrl(page: string): string {
   return `https://oldschool.runescape.wiki/w/${path}`;
 }
 
-/** The in-game "Wiki" lookup button, linking to the wiki page a page's data comes from. */
-export function WikiLink({ page }: { page: string }) {
-  const label = `${page} on the OSRS Wiki`;
+/**
+ * The in-game "Wiki" lookup button, linking to a page's wiki page. Without a
+ * page it's disabled, and its tooltip says what's missing.
+ */
+export function WikiLink(props: { page: string } | { page: null; missing: string }) {
+  const label = props.page === null ? props.missing : `${props.page} on the OSRS Wiki`;
+  const icon = (
+    <Box component="img" src={resolveUrl('icons/wiki.png')} alt="" sx={{ display: 'block' }} />
+  );
 
   return (
     <Tooltip title={label}>
-      <IconButton
-        href={wikiUrl(page)}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={label}
-        sx={{ borderRadius: 1 }}
-      >
-        <Box component="img" src={resolveUrl('icons/wiki.png')} alt="" sx={{ display: 'block' }} />
-      </IconButton>
+      {props.page === null ? (
+        // A disabled button gets no pointer events, so the tooltip hangs on a wrapper.
+        <Box component="span" tabIndex={0} aria-label={label} sx={{ display: 'inline-flex' }}>
+          <IconButton disabled sx={{ borderRadius: 1, filter: 'grayscale(1)', opacity: 0.4 }}>
+            {icon}
+          </IconButton>
+        </Box>
+      ) : (
+        <IconButton
+          href={wikiUrl(props.page)}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={label}
+          sx={{ borderRadius: 1 }}
+        >
+          {icon}
+        </IconButton>
+      )}
     </Tooltip>
   );
 }

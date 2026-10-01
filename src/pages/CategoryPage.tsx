@@ -16,6 +16,7 @@ import { Link as RouterLink, useParams } from 'react-router';
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconTile } from '@/components/IconCard';
 import { MasterCards } from '@/components/MasterCards';
+import { WikiLink } from '@/components/WikiLink';
 import { type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems, protectFrom } from '@/data/combat';
 import type { Monster } from '@/data/types';
@@ -123,6 +124,13 @@ export function CategoryPage() {
           <Typography color="text.secondary">
             {rows.length} monster{rows.length === 1 ? '' : 's'}
           </Typography>
+        </Box>
+        <Box sx={{ ml: 'auto' }}>
+          {category.page ? (
+            <WikiLink page={category.page} />
+          ) : (
+            <WikiLink page={null} missing="No Slayer task page on the OSRS Wiki" />
+          )}
         </Box>
       </Box>
 

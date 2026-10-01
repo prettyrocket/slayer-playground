@@ -156,6 +156,7 @@ export const categoriesFixture: CategoriesFile = {
       {
         slayerLevel: 85,
         icon: 'icons/abyssal-demons.png',
+        page: 'Slayer task/Abyssal demons',
       },
     ),
     category('bosses', ['abyssal-sire'], ['duradel']),

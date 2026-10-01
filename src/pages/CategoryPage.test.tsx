@@ -94,4 +94,18 @@ describe('CategoryPage', () => {
     await rows('Dust devils monsters');
     expect(screen.queryByRole('heading', { name: /assigned by/i })).not.toBeInTheDocument();
   });
+
+  it('links to its Slayer task page on the wiki', async () => {
+    renderRoute('/categories/abyssal-demons');
+    expect(
+      await screen.findByRole('link', { name: 'Slayer task/Abyssal demons on the OSRS Wiki' }),
+    ).toHaveAttribute('href', 'https://oldschool.runescape.wiki/w/Slayer_task/Abyssal_demons');
+  });
+
+  it("disables the wiki link when there's no Slayer task page", async () => {
+    renderRoute('/categories/bosses');
+    const missing = await screen.findByLabelText('No Slayer task page on the OSRS Wiki');
+    expect(within(missing).getByRole('button')).toBeDisabled();
+    expect(screen.queryByRole('link', { name: /OSRS Wiki/ })).not.toBeInTheDocument();
+  });
 });
