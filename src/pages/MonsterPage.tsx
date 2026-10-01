@@ -22,10 +22,12 @@ import { Link as RouterLink, useParams } from 'react-router';
 
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconCard, IconTile } from '@/components/IconCard';
+import { PlaceName } from '@/components/PlaceName';
 import { WikiLink } from '@/components/WikiLink';
 import { type Catalog, categorySlug, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems, protectFrom } from '@/data/combat';
 import { useDrops } from '@/data/drops';
+import { LOCATION_COLUMNS } from '@/data/locations';
 import type { Drop, Monster, MonsterVersion } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { categoryPath, monsterPath } from '@/routing/paths';
@@ -333,6 +335,40 @@ export function MonsterPage() {
   return <MonsterDetails key={monster.slug} monster={monster} catalog={catalog} />;
 }
 
+/** Where it spawns: one row per place, most spawns first. */
+function Locations({ monster }: { monster: Monster }) {
+  return (
+    <TableContainer>
+      <Table size="small" aria-label={`${monster.page} locations`}>
+        <TableHead>
+          <TableRow>
+            <TableCell>Location</TableCell>
+            {LOCATION_COLUMNS.map((c) => (
+              <TableCell key={c.label} align="right">
+                {c.label}
+              </TableCell>
+            ))}
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {monster.locations.map((location) => (
+            <TableRow key={location.name} hover>
+              <TableCell>
+                <PlaceName location={location} />
+              </TableCell>
+              {LOCATION_COLUMNS.map((c) => (
+                <TableCell key={c.label} align="right">
+                  {c.cell(location)}
+                </TableCell>
+              ))}
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+
 function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catalog }) {
   const { master, category } = useNavLocation();
   const [index, setIndex] = useState(0);
@@ -373,6 +409,12 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
       )}
 
       {version && <StatPanel title="Fight" rows={fightRows(version, monster, catalog)} />}
+
+      {monster.locations.length > 0 && (
+        <Section title="Locations">
+          <Locations monster={monster} />
+        </Section>
+      )}
 
       <Section title="Drops">
         <Drops monster={monster} version={version?.version ?? null} />

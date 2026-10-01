@@ -74,6 +74,7 @@ function monster(
     superior: null,
     superiorOf: [],
     versions: [],
+    locations: [],
     ...more,
   };
 }
@@ -89,6 +90,26 @@ export const monstersFixture: MonstersFile = {
       slayerLevel: 85,
       icon: 'icons/monsters/abyssal-demon.png',
       superior: 'greater-abyssal-demon',
+      locations: [
+        {
+          name: 'Catacombs of Kourend',
+          page: 'Catacombs of Kourend',
+          levels: [124],
+          spawns: 13,
+          multicombat: true,
+          cannon: false,
+          safespot: false,
+        },
+        {
+          name: 'Abyssal Area',
+          page: null,
+          levels: [],
+          spawns: null,
+          multicombat: null,
+          cannon: null,
+          safespot: null,
+        },
+      ],
       hasDrops: true,
       versions: [
         version(124, {

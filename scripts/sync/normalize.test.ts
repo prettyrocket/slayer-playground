@@ -244,6 +244,7 @@ describe('plainText', () => {
     ['[[Magic]] ]] and [[Fire', 'Magic and Fire'],
     ['1&thinsp;000 &#x2014; &#8212;', '1 000 — —'],
     ['1–12 (without Slayer gloves)', '1-12 (without Slayer gloves)'],
+    ['Fossil Island &ndash; south end', 'Fossil Island - south end'],
     ['a\x7fstrip marker\x7fb', 'ab'],
     ['* one\n** two', 'one\ntwo'],
   ])('%j', (input, expected) => {

@@ -17,7 +17,7 @@ import { WikiClient } from './lib/wiki-client.ts';
 import { syncCategories } from './sync/categories.ts';
 import { writeJson } from './sync/files.ts';
 import { syncMonsters } from './sync/monsters.ts';
-import { SUPERIORS_PAGE, WIKITEXT_PAGES, fetchPages } from './sync/sources.ts';
+import { SUPERIORS_PAGE, WIKITEXT_PAGES, fetchPages, fetchTaskPageTitles } from './sync/sources.ts';
 
 const root = path.resolve(import.meta.dirname, '..');
 const refresh = process.argv.includes('--refresh');
@@ -28,10 +28,11 @@ const client = new WikiClient({ cacheDir: path.join(root, '.cache', 'wiki'), ref
 
 // Every page first, so a missing one fails before anything is written.
 const page = await fetchPages(client);
-console.log('\nMonsters, drops and superiors');
-const monsters = await syncMonsters(client, dataDir, page(SUPERIORS_PAGE));
+const taskPages = await fetchTaskPageTitles(client);
+console.log('\nMonsters, drops, superiors and locations');
+const monsters = await syncMonsters(client, dataDir, page(SUPERIORS_PAGE), taskPages);
 console.log('\nMasters, categories and unlocks');
-await syncCategories(client, dataDir, monsters, page);
+await syncCategories(client, dataDir, monsters, page, taskPages);
 
 // The timestamp moves when the data differs from what the last meta.json
 // recorded, so an unchanged sync leaves no diff, and a sync that failed
@@ -44,7 +45,7 @@ const changed = old?.dataHash !== hash;
 const meta: MetaFile = {
   syncedAt: changed || !old ? new Date().toISOString() : old.syncedAt,
   dataHash: hash,
-  sources: ['Bucket:Dropsline', 'Bucket:Infobox_monster', ...WIKITEXT_PAGES].sort(),
+  sources: ['Bucket:Dropsline', 'Bucket:Infobox_monster', ...WIKITEXT_PAGES, ...taskPages].sort(),
 };
 await writeJson(metaFile, meta);
 

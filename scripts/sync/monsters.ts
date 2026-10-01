@@ -5,6 +5,7 @@ import type { DropsFile, Monster, MonstersFile } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { writeJson } from './files.ts';
 import { syncMonsterIcons } from './icons.ts';
+import { addLocations } from './locations.ts';
 import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
 import { parseSuperiors } from './parsers.ts';
 import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
@@ -12,12 +13,14 @@ import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
 /**
  * Writes public/data/monsters.json and public/data/drops/<slug>.json, and
  * returns the monsters for the steps after it. `superiorsPage` is the
- * wikitext of Superior slayer monster.
+ * wikitext of Superior slayer monster; `taskPages` the titles of the Slayer
+ * task/ pages, whose locations tables add multicombat, cannon and safespots.
  */
 export async function syncMonsters(
   client: WikiClient,
   dataDir: string,
   superiorsPage: string,
+  taskPages: string[],
 ): Promise<Monster[]> {
   const rows = await fetchMonsters(client);
   const taskOnly = await fetchTaskOnlyPages(client);
@@ -27,6 +30,12 @@ export async function syncMonsters(
   const drops = buildDrops(dropRows, slayerPages);
   const monsters = buildMonsters(rows, taskOnly, new Set(drops.keys()));
   for (const warning of linkSuperiors(monsters, parseSuperiors(superiorsPage))) {
+    console.warn(`  ! ${warning}`);
+  }
+  // Every monster page's wikitext (about 14 requests) and the task pages' (2).
+  const monsterText = await client.wikitext(monsters.map((m) => m.page));
+  const taskText = await client.wikitext(taskPages);
+  for (const warning of addLocations(monsters, monsterText, taskText)) {
     console.warn(`  ! ${warning}`);
   }
 
@@ -55,9 +64,13 @@ export async function syncMonsters(
   const versions = monsters.reduce((n, m) => n + m.versions.length, 0);
   const dropCount = [...drops.values()].reduce((n, d) => n + d.length, 0);
   const superiors = monsters.filter((m) => m.superior).length;
+  const placed = monsters.filter((m) => m.locations.length > 0);
+  const places = placed.flatMap((m) => m.locations);
   console.log(
     `  ${monsters.length} monsters (${versions} versions, ${monsters.filter((m) => m.taskOnly).length} task-only, ` +
-      `${superiors} with a superior), ${dropCount} drops for ${drops.size} of them`,
+      `${superiors} with a superior), ${dropCount} drops for ${drops.size} of them, ` +
+      `${places.length} locations for ${placed.length} of them ` +
+      `(${places.filter((l) => l.cannon !== null).length} matched to a task page)`,
   );
   return monsters;
 }

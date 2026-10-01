@@ -139,6 +139,24 @@ describe('MonsterPage', () => {
     );
   });
 
+  it('lists where it spawns, linking places to the wiki', async () => {
+    renderRoute('/monsters/abyssal-demon');
+    expect(await rows('Abyssal demon locations')).toEqual([
+      ['Catacombs of Kourend', '13', 'Yes', 'No', 'No'],
+      ['Abyssal Area', '—', '—', '—', '—'],
+    ]);
+    expect(screen.getByRole('link', { name: 'Catacombs of Kourend' })).toHaveAttribute(
+      'href',
+      'https://oldschool.runescape.wiki/w/Catacombs_of_Kourend',
+    );
+  });
+
+  it('has no locations section when the wiki gives none', async () => {
+    renderRoute('/monsters/cow');
+    await screen.findByText('No drops.');
+    expect(screen.queryByRole('heading', { name: 'Locations' })).not.toBeInTheDocument();
+  });
+
   it('links to its wiki page', async () => {
     renderRoute('/monsters/greater-abyssal-demon');
     expect(

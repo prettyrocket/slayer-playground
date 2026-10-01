@@ -5,7 +5,7 @@ import { renderRoute } from '@/test/render';
 
 // Data is src/test/monsters.ts, served by setup.ts.
 
-/** The table's rows: the monster cell reads as its link's text, the rest as text. */
+/** The table's rows: a monster cell reads as its link's text (not its picture's), the rest as text. */
 async function rows(name: string) {
   const table = await within(screen.getByRole('main')).findByRole('table', { name });
   return within(table)
@@ -15,7 +15,7 @@ async function rows(name: string) {
         .getAllByRole(row.closest('thead') ? 'columnheader' : 'cell')
         .map((cell, i) =>
           i === 0 && !row.closest('thead')
-            ? within(cell).getAllByRole('link')[0].textContent
+            ? (within(cell).queryAllByRole('link')[0] ?? cell).textContent
             : cell.textContent,
         ),
     );
@@ -30,9 +30,12 @@ describe('CategoryPage', () => {
   it('compares the monsters that count on what decides the pick', async () => {
     renderRoute('/categories/abyssal-demons');
     expect(await rows('Abyssal demons monsters')).toEqual([
-      ['Monster', 'Slayer', 'Slayer XP'],
-      ['Abyssal demon', '85', '150'],
-      ['Abyssal Sire', '85', '478'],
+      ['Monster', 'Slayer', 'Slayer XP', 'Spawns', 'Multi', 'Cannon', 'Safespot'],
+      ['Abyssal demon', '85', '150', '', '', '', ''],
+      // Where it spawns, under it.
+      ['Catacombs of Kourend', '', '', '13', 'Yes', 'No', 'No'],
+      ['Abyssal Area', '', '', '—', '—', '—', '—'],
+      ['Abyssal Sire', '85', '478', '', '', '', ''],
     ]);
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
     expect(screen.getByText('2 monsters')).toBeInTheDocument();
@@ -45,17 +48,30 @@ describe('CategoryPage', () => {
       'href',
       '/monsters/greater-abyssal-demon?category=abyssal-demons&master=duradel',
     );
-    expect(within(table).getAllByRole('row')).toHaveLength(3);
+    // The header, two monsters and the demon's two places.
+    expect(within(table).getAllByRole('row')).toHaveLength(5);
   });
 
-  it('sorts by Slayer XP, most first', async () => {
+  it('sorts by Slayer XP, most first, places staying under their monster', async () => {
     const { user } = renderRoute('/categories/abyssal-demons');
     await rows('Abyssal demons monsters');
     await user.click(screen.getByRole('button', { name: 'Slayer XP' }));
     expect((await rows('Abyssal demons monsters')).slice(1).map((r) => r[0])).toEqual([
       'Abyssal Sire',
       'Abyssal demon',
+      'Catacombs of Kourend',
+      'Abyssal Area',
     ]);
+  });
+
+  it('links a place to its wiki page when it has one', async () => {
+    renderRoute('/categories/abyssal-demons');
+    const table = await screen.findByRole('table', { name: 'Abyssal demons monsters' });
+    expect(within(table).getByRole('link', { name: 'Catacombs of Kourend' })).toHaveAttribute(
+      'href',
+      'https://oldschool.runescape.wiki/w/Catacombs_of_Kourend',
+    );
+    expect(within(table).queryByRole('link', { name: 'Abyssal Area' })).not.toBeInTheDocument();
   });
 
   it('shows what a monster needs, only when some monster needs something', async () => {

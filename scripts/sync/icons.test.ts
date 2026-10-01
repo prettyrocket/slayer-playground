@@ -16,6 +16,7 @@ const monster = (page: string, categories: string[], more: Partial<Monster> = {}
   superior: null,
   superiorOf: [],
   versions: [{ image: `${page}.png` } as Monster['versions'][number]],
+  locations: [],
   ...more,
 });
 

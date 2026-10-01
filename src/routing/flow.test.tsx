@@ -9,7 +9,11 @@ import { renderRoute } from '@/test/render';
 /** The monster in each row of a category's table (the row's first link). */
 async function monsterNames(table: string) {
   const rows = within(await screen.findByRole('table', { name: table })).getAllByRole('row');
-  return rows.slice(1).map((row) => within(row).getAllByRole('link')[0].textContent);
+  // A monster's row links it first; the rows of the places under it link the wiki.
+  return rows
+    .map((row) => within(row).queryAllByRole('link')[0])
+    .filter((link) => link?.getAttribute('href')?.startsWith('/monsters/'))
+    .map((link) => link.textContent);
 }
 describe('flow between pages', () => {
   it('goes from the category list to a monster, remembering the category', async () => {

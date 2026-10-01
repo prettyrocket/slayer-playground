@@ -19,6 +19,7 @@ const monster = (page: string, categories: string[]): Monster => ({
   superior: null,
   superiorOf: [],
   versions: [],
+  locations: [],
 });
 
 const row = (name: string, overrides: Partial<RawAssignment> = {}): RawAssignment => ({

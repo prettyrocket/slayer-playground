@@ -2,6 +2,8 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
+import type { Monster } from '../../src/data/types.ts';
+import { addLocations, parseLocLines, parseTaskLocations } from './locations.ts';
 import { MASTER_PAGES, parseMasterTable } from './masters.ts';
 import { buildDrops, buildMonsters } from './normalize.ts';
 import { parseEquipment, parseRewards, parseSuperiors, requiredUnlocks } from './parsers.ts';
@@ -209,6 +211,51 @@ describe('Superior slayer monster', () => {
   });
 });
 
+describe('locations', () => {
+  it("reads a monster page's LocLines", () => {
+    const places = parseLocLines(page('Black demon')).map((l) => [l.name, l.page, l.spawns.size]);
+    expect(places).toEqual([
+      ['Brimhaven Dungeon', 'Brimhaven Dungeon', 4],
+      ['Catacombs of Kourend', 'Catacombs of Kourend', 4],
+      ['Charred Dungeon', 'Charred Dungeon', 3],
+      ['Chasm of Fire (Bottom Level)', 'Chasm of Fire', 16],
+      ['Edgeville Dungeon (Wilderness)', 'Edgeville Dungeon', 3],
+      ['Taverley Dungeon', 'Taverley Dungeon', 24],
+      ['Wilderness Slayer Cave', 'Wilderness Slayer Cave', 4],
+    ]);
+  });
+
+  it.each([
+    ['Slayer task/Abyssal demons', 5],
+    ['Slayer task/Kurasks', 3],
+  ])("reads %s's locations table, with spawns", (title, rows) => {
+    const table = parseTaskLocations(page(title));
+    expect(table).toHaveLength(rows);
+    for (const row of table) expect(row.spawns.size).toBeGreaterThan(0);
+  });
+
+  it("matches every abyssal demon place to the task page's table", () => {
+    const demon = { page: 'Abyssal demon', locations: [] } as unknown as Monster;
+    const warnings = addLocations(
+      [demon],
+      new Map([['Abyssal demon', page('Abyssal demon')]]),
+      new Map([['Slayer task/Abyssal demons', page('Slayer task/Abyssal demons')]]),
+    );
+    expect(warnings).toEqual([]);
+    expect(
+      demon.locations.map((l) => [l.name, l.spawns, l.multicombat, l.cannon, l.safespot]),
+    ).toEqual([
+      ['Slayer Tower (basement)', 14, false, false, true],
+      ['Slayer Tower (floor 2)', 14, false, false, false],
+      ['Abyssal Area', 13, false, false, false],
+      ['Catacombs of Kourend', 13, true, false, false],
+      ['Wilderness Slayer Cave', 8, true, true, false],
+    ]);
+    // Level 124 everywhere.
+    expect(new Set(demon.locations.flatMap((l) => l.levels))).toEqual(new Set([124]));
+  });
+});
+
 describe('Slayer Rewards', () => {
   const rewards = () => parseRewards(page('Slayer Rewards'));
   const find = (name: string) => rewards().find((r) => r.name === name);
@@ -323,6 +370,8 @@ describe('Bucket rows', () => {
       icon: null,
       superior: null,
       superiorOf: [],
+      // Set by addLocations.
+      locations: [],
     });
     expect(versions[0]).toEqual({
       version: 'Standard',
