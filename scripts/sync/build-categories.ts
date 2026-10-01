@@ -21,6 +21,15 @@ const NAME_ALIASES: Record<string, string> = {
 /** Guide pages that cover several categories rather than one. */
 const OVERVIEW_PAGES = new Set(['Slayer task/Dragons', 'Slayer task/Giants']);
 
+/** Monsters of a linked monster's kind that don't need its equipment, by item. */
+const NOT_NEEDED: Record<string, string[]> = {
+  // "Additionally, sulphur lizards do not require ice coolers to finish off."
+  // "Unlike desert lizards, grimy lizards do not require ice coolers to finish off"
+  'Ice cooler': ['Sulphur Lizard', 'Grimy Lizard'],
+  // Its page says nothing of explosives; sea mogres aren't lured out of the water.
+  'Fishing explosive': ['Mogre (sea)'],
+};
+
 /**
  * Copies of monsters that can't be killed on a task: other game modes and
  * minigames, and pages the wiki marks unused. Quest and location copies can be,
@@ -170,12 +179,33 @@ export function buildCategories(input: BuildInput): BuildResult {
     }
   }
 
-  // Each equipment use applies to the monsters it links, or to a category it
-  // names ("Mutated Zygomite" redirects to Zygomite, in "mutated zygomites").
+  // Each equipment use applies to the monsters it links and their kin, or to a
+  // category it names ("Mutated Zygomite" redirects to Zygomite, in "mutated zygomites").
+  /**
+   * A linked monster, the monsters in its categories named for the same kind
+   * ("Aberrant spectre" -> Deviant spectre; "Basilisk" -> Basilisk Knight, but
+   * "Gargoyle" not Dusk), and their superiors: the equipment page links only
+   * the namesake ("Protecting against [[Aberrant spectre]]s").
+   */
+  const withKin = (slug: string): string[] => {
+    const linked = input.monsters.find((m) => m.slug === slug)!;
+    const kind = linked.page.toLowerCase().split(' ').at(-1)!;
+    const named = new RegExp(`\\b${kind.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+    const kin = onTask.filter(
+      (m) =>
+        m.slug === slug ||
+        (m.superiorOf.length === 0 &&
+          m.categories.some((c) => linked.categories.includes(c)) &&
+          named.test(m.page.toLowerCase())),
+    );
+    const slugs = new Set(kin.map((m) => m.slug));
+    for (const m of onTask) if (m.superiorOf.some((base) => slugs.has(base))) slugs.add(m.slug);
+    return [...slugs];
+  };
   const equipment = input.equipment.map((e) => {
     const slugs = e.links.flatMap((link) => {
       const slug = slugByPage.get(pageKey(link));
-      if (slug) return [slug];
+      if (slug) return withKin(slug);
       const category = resolveCategory(link, known);
       return category
         ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
@@ -185,7 +215,8 @@ export function buildCategories(input: BuildInput): BuildResult {
     if (slugs.length === 0 && !/\b(floor|dungeon)\b/i.test(e.use)) {
       warnings.push(`${e.item}: no monster for "${e.use}"`);
     }
-    return { item: e.item, use: e.use, slugs: new Set(slugs) };
+    const exempt = new Set((NOT_NEEDED[e.item] ?? []).map((page) => slugByPage.get(pageKey(page))));
+    return { item: e.item, use: e.use, slugs: new Set(slugs.filter((s) => !exempt.has(s))) };
   });
 
   const assigned = new Set(masters.flatMap((m) => m.assignments.map((a) => a.category)));

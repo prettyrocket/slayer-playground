@@ -215,6 +215,66 @@ describe('buildCategories', () => {
     expect(warnings.some((w) => w.startsWith('Boots'))).toBe(false);
   });
 
+  it('applies equipment for a linked monster to its kind and their superiors', () => {
+    const monsters = [
+      monster('Aberrant spectre', ['aberrant spectres']),
+      monster('Deviant spectre', ['aberrant spectres']),
+      monster('Abhorrent spectre', ['aberrant spectres']),
+      monster('Repugnant spectre', ['aberrant spectres']),
+      monster('Gargoyle', ['gargoyles']),
+      monster('Marble gargoyle', ['gargoyles']),
+      monster('Dusk', ['gargoyles', 'bosses']),
+    ];
+    linkSuperiors(
+      monsters,
+      new Map([
+        ['Aberrant spectre', 'Abhorrent spectre'],
+        ['Deviant spectre', 'Repugnant spectre'],
+        ['Gargoyle', 'Marble gargoyle'],
+      ]),
+    );
+    const { categories } = build(
+      { vannaka: [row('Aberrant spectres'), row('Gargoyles')] },
+      {
+        monsters,
+        equipment: [
+          {
+            item: 'Nose peg',
+            use: 'Protecting against Aberrant spectres',
+            links: ['Aberrant spectre'],
+          },
+          { item: 'Rock hammer', use: 'Finishing off Gargoyles', links: ['Gargoyle'] },
+        ],
+      },
+    );
+    const uses = (category: string) =>
+      categories.find((c) => c.category === category)!.equipment.map((e) => e.monsters);
+    // Deviant spectres too, and both superiors.
+    expect(uses('aberrant spectres')).toEqual([
+      ['aberrant-spectre', 'abhorrent-spectre', 'deviant-spectre', 'repugnant-spectre'],
+    ]);
+    // Not Dusk: "gargoyle" isn't in its name.
+    expect(uses('gargoyles')).toEqual([['gargoyle', 'marble-gargoyle']]);
+  });
+
+  it("leaves out a monster of the kind that doesn't need the item", () => {
+    const { categories } = build(
+      { vannaka: [row('Lizards')] },
+      {
+        monsters: [
+          monster('Desert Lizard', ['lizards']),
+          monster('Small Lizard', ['lizards']),
+          monster('Sulphur Lizard', ['lizards']),
+        ],
+        equipment: [{ item: 'Ice cooler', use: 'Finishing off Lizards', links: ['Desert Lizard'] }],
+      },
+    );
+    expect(categories.find((c) => c.category === 'lizards')!.equipment[0].monsters).toEqual([
+      'desert-lizard',
+      'small-lizard',
+    ]);
+  });
+
   it('keeps other names as aliases, and the lowest Slayer level any master needs', () => {
     const { categories } = build(
       {

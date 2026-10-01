@@ -29,7 +29,12 @@
           "item": "Nose peg",
           "use": "Protecting against Aberrant spectres",
           "monsters": [
-            "aberrant-spectre"
+            "aberrant-spectre",
+            "abhorrent-spectre",
+            "bloodthirsty-repugnant-spectre",
+            "bloodthirsty-spectre",
+            "deviant-spectre",
+            "repugnant-spectre"
           ]
         }
       ]
@@ -202,7 +207,12 @@
           "item": "Earmuffs",
           "use": "Protecting against Banshees",
           "monsters": [
-            "banshee"
+            "banshee",
+            "bloodthirsty-banshee",
+            "bloodthirsty-twisted-banshee",
+            "screaming-banshee",
+            "screaming-twisted-banshee",
+            "twisted-banshee"
           ]
         }
       ]
@@ -243,7 +253,15 @@
           "item": "Mirror shield",
           "use": "Protecting against Basilisks and Cockatrice",
           "monsters": [
-            "basilisk"
+            "basilisk",
+            "basilisk-knight",
+            "basilisk-sentinel",
+            "basilisk-the-fremennik-exiles",
+            "basilisk-youngling",
+            "bloodthirsty-basilisk",
+            "bloodthirsty-basilisk-sentinel",
+            "monstrous-basilisk",
+            "monstrous-basilisk-the-fremennik-exiles"
           ]
         }
       ]
@@ -629,6 +647,7 @@
           "item": "Witchwood icon",
           "use": "Protecting against Cave horrors",
           "monsters": [
+            "cave-abomination",
             "cave-horror"
           ]
         }
@@ -720,7 +739,9 @@
           "item": "Mirror shield",
           "use": "Protecting against Basilisks and Cockatrice",
           "monsters": [
-            "cockatrice"
+            "cockathrice",
+            "cockatrice",
+            "moonlight-cockatrice"
           ]
         }
       ]
@@ -971,6 +992,8 @@
           "item": "Facemask",
           "use": "Protecting against the environment within the Smoke Dungeon, and against Dust devils' attacks",
           "monsters": [
+            "bloodthirsty-choke-devil",
+            "choke-devil",
             "dust-devil"
           ]
         }
@@ -1186,14 +1209,18 @@
           "item": "Rock hammer",
           "use": "Finishing off Gargoyles (this item is not equipable)",
           "monsters": [
-            "gargoyle"
+            "bloodthirsty-gargoyle",
+            "gargoyle",
+            "marble-gargoyle"
           ]
         },
         {
           "item": "Rock thrownhammer",
           "use": "Finishing off Gargoyles (one per gargoyle - this item is not equipable)",
           "monsters": [
-            "gargoyle"
+            "bloodthirsty-gargoyle",
+            "gargoyle",
+            "marble-gargoyle"
           ]
         }
       ]
@@ -1363,6 +1390,8 @@
           "use": "Protection from Dire and Shellbane gryphon's devastating attacks",
           "monsters": [
             "dire-gryphon",
+            "gryphon",
+            "gryphon-troubled-tortugans",
             "shellbane-gryphon"
           ]
         }
@@ -1683,6 +1712,8 @@
           "item": "Leaf-bladed spear",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-kurask",
+            "king-kurask",
             "kurask"
           ]
         },
@@ -1690,6 +1721,8 @@
           "item": "Leaf-bladed sword",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-kurask",
+            "king-kurask",
             "kurask"
           ]
         },
@@ -1697,6 +1730,8 @@
           "item": "Leaf-bladed battleaxe",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-kurask",
+            "king-kurask",
             "kurask"
           ]
         },
@@ -1704,6 +1739,8 @@
           "item": "Broad arrows",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-kurask",
+            "king-kurask",
             "kurask"
           ]
         },
@@ -1711,6 +1748,8 @@
           "item": "Broad bolts",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-kurask",
+            "king-kurask",
             "kurask"
           ]
         }
@@ -1805,7 +1844,8 @@
           "item": "Shayzien armour",
           "use": "Protecting from the poison attack of the lizardman shamans",
           "monsters": [
-            "lizardman-shaman"
+            "lizardman-shaman",
+            "lizardman-shaman-chambers-of-xeric"
           ]
         }
       ]
@@ -1835,7 +1875,9 @@
           "item": "Ice cooler",
           "use": "Finishing off Desert lizards (one per lizard)",
           "monsters": [
-            "desert-lizard"
+            "desert-lizard",
+            "lizard",
+            "small-lizard"
           ]
         }
       ]
@@ -2259,6 +2301,8 @@
           "item": "Bag of salt",
           "use": "Finishing off Rock slugs (one per slug)",
           "monsters": [
+            "bloodthirst-rockslug",
+            "giant-rockslug",
             "rockslug"
           ]
         }
@@ -2690,6 +2734,8 @@
           "item": "Leaf-bladed spear",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-turoth",
+            "spiked-turoth",
             "turoth"
           ]
         },
@@ -2697,6 +2743,8 @@
           "item": "Leaf-bladed sword",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-turoth",
+            "spiked-turoth",
             "turoth"
           ]
         },
@@ -2704,6 +2752,8 @@
           "item": "Leaf-bladed battleaxe",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-turoth",
+            "spiked-turoth",
             "turoth"
           ]
         },
@@ -2711,6 +2761,8 @@
           "item": "Broad arrows",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-turoth",
+            "spiked-turoth",
             "turoth"
           ]
         },
@@ -2718,6 +2770,8 @@
           "item": "Broad bolts",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
+            "bloodthirsty-turoth",
+            "spiked-turoth",
             "turoth"
           ]
         }
@@ -2887,6 +2941,8 @@
           "item": "Crystal chime",
           "use": "Killing Warped Terrorbirds and Warped Tortoises",
           "monsters": [
+            "mutated-terrorbird",
+            "mutated-tortoise",
             "warped-terrorbird",
             "warped-tortoise"
           ]
