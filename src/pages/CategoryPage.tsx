@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
@@ -16,9 +16,11 @@ import { Link as RouterLink, useParams } from 'react-router';
 import { CatalogStatus } from '@/components/CatalogStatus';
 import { IconTile } from '@/components/IconCard';
 import { MasterCards } from '@/components/MasterCards';
+import { PlaceName } from '@/components/PlaceName';
 import { WikiLink } from '@/components/WikiLink';
 import { type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems } from '@/data/combat';
+import { LOCATION_COLUMNS } from '@/data/locations';
 import type { Monster } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { monsterPath } from '@/routing/paths';
@@ -55,7 +57,9 @@ const COLUMNS: Column[] = [
 /**
  * /categories/:slug — "I got this task, which monster do I kill?": the monsters
  * that count, compared on what decides it: the Slayer level and XP, and what
- * they need. Superiors show under their base monster.
+ * they need. Under each, the places it spawns, with how many spawn there and
+ * whether it's multi, cannonable or safespottable. Superiors show under their
+ * base monster.
  * Then the masters who assign it (the others, when the user came from one).
  */
 export function CategoryPage() {
@@ -135,6 +139,11 @@ export function CategoryPage() {
                   )}
                 </TableCell>
               ))}
+              {LOCATION_COLUMNS.map((c) => (
+                <TableCell key={c.label} align="right">
+                  {c.label}
+                </TableCell>
+              ))}
               {hasNeeds && <TableCell>Needs</TableCell>}
             </TableRow>
           </TableHead>
@@ -144,41 +153,63 @@ export function CategoryPage() {
                 ? findMonster(catalog, monster.superior)
                 : undefined;
               return (
-                <TableRow key={monster.slug} hover>
-                  <TableCell>
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-                      <IconTile icon={monster.icon} name={monster.page} size={32} />
-                      <Box sx={{ minWidth: 0 }}>
-                        <Link
-                          component={RouterLink}
-                          to={monsterPath(monster.slug, category.slug, current?.key)}
-                          underline="hover"
-                          sx={{ fontWeight: 500 }}
-                        >
-                          {monster.page}
-                        </Link>
-                        {superior && (
-                          <Typography variant="caption" color="text.secondary" component="div">
-                            Superior:{' '}
-                            <Link
-                              component={RouterLink}
-                              to={monsterPath(superior.slug, category.slug, current?.key)}
-                              color="inherit"
-                            >
-                              {superior.page}
-                            </Link>
-                          </Typography>
-                        )}
+                <Fragment key={monster.slug}>
+                  <TableRow hover>
+                    <TableCell>
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+                        <IconTile icon={monster.icon} name={monster.page} size={32} />
+                        <Box sx={{ minWidth: 0 }}>
+                          <Link
+                            component={RouterLink}
+                            to={monsterPath(monster.slug, category.slug, current?.key)}
+                            underline="hover"
+                            sx={{ fontWeight: 500 }}
+                          >
+                            {monster.page}
+                          </Link>
+                          {superior && (
+                            <Typography variant="caption" color="text.secondary" component="div">
+                              Superior:{' '}
+                              <Link
+                                component={RouterLink}
+                                to={monsterPath(superior.slug, category.slug, current?.key)}
+                                color="inherit"
+                              >
+                                {superior.page}
+                              </Link>
+                            </Typography>
+                          )}
+                        </Box>
                       </Box>
-                    </Box>
-                  </TableCell>
-                  {COLUMNS.map((c) => (
-                    <TableCell key={c.key} align="right" sx={{ whiteSpace: 'nowrap' }}>
-                      {c.cell(monster)}
                     </TableCell>
+                    {COLUMNS.map((c) => (
+                      <TableCell key={c.key} align="right" sx={{ whiteSpace: 'nowrap' }}>
+                        {c.cell(monster)}
+                      </TableCell>
+                    ))}
+                    {LOCATION_COLUMNS.map((c) => (
+                      <TableCell key={c.label} />
+                    ))}
+                    {hasNeeds && <TableCell>{needs(category, monster)}</TableCell>}
+                  </TableRow>
+                  {monster.locations.map((location) => (
+                    <TableRow key={location.name}>
+                      {/* Lined up with the monster's name, past its picture. */}
+                      <TableCell sx={{ pl: 7.5, color: 'text.secondary' }}>
+                        <PlaceName location={location} />
+                      </TableCell>
+                      {COLUMNS.map((c) => (
+                        <TableCell key={c.key} />
+                      ))}
+                      {LOCATION_COLUMNS.map((c) => (
+                        <TableCell key={c.label} align="right" sx={{ color: 'text.secondary' }}>
+                          {c.cell(location)}
+                        </TableCell>
+                      ))}
+                      {hasNeeds && <TableCell />}
+                    </TableRow>
                   ))}
-                  {hasNeeds && <TableCell>{needs(category, monster)}</TableCell>}
-                </TableRow>
+                </Fragment>
               );
             })}
           </TableBody>

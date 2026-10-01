@@ -3,12 +3,7 @@ import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 
 import { resolveUrl } from '@/api';
-
-/** "Slayer task/Abyssal demons" -> https://oldschool.runescape.wiki/w/Slayer_task/Abyssal_demons */
-function wikiUrl(page: string): string {
-  const path = encodeURIComponent(page.replaceAll(' ', '_')).replaceAll('%2F', '/');
-  return `https://oldschool.runescape.wiki/w/${path}`;
-}
+import { wikiUrl } from '@/data/wiki';
 
 /**
  * The in-game "Wiki" lookup button, linking to a page's wiki page. Without a
