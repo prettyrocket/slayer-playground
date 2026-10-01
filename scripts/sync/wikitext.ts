@@ -116,7 +116,7 @@ export function findTables(wikitext: string): string[] {
  * Split `text` on `separator` outside `{{ }}` and `[[ ]]`, so `{{NA|None}}`
  * and `[[a|b]]` stay whole.
  */
-function splitTopLevel(text: string, separator: string): string[] {
+export function splitTopLevel(text: string, separator: string): string[] {
   const parts: string[] = [];
   let depth = 0;
   let last = 0;

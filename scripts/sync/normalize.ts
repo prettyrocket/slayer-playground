@@ -299,6 +299,8 @@ export function buildMonsters(
       superior: null,
       superiorOf: [],
       versions,
+      // Filled in by addLocations.
+      locations: [],
     });
   }
   return monsters.sort((a, b) => a.slug.localeCompare(b.slug));

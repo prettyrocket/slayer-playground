@@ -44,6 +44,25 @@ export interface Monster {
   /** For a superior: slugs of the monsters it spawns from. Empty otherwise. */
   superiorOf: string[];
   versions: MonsterVersion[];
+  /** Where it spawns, from the page's {{LocLine}}s, most spawns first. Empty when the page has none. */
+  locations: MonsterLocation[];
+}
+
+/** One place a monster spawns. */
+export interface MonsterLocation {
+  /** As the wiki writes it, e.g. "Slayer Tower (floor 2)" or "Catacombs of Kourend". */
+  name: string;
+  /** The place's wiki page, e.g. "Slayer Tower"; null when it links none. */
+  page: string | null;
+  /** How many spawns the wiki maps there; null when it gives no coordinates. */
+  spawns: number | null;
+  /**
+   * From the locations table of a Slayer task/ page that lists this place
+   * (matched by spawn coordinates); null when none does.
+   */
+  multicombat: boolean | null;
+  cannon: boolean | null;
+  safespot: boolean | null;
 }
 
 export interface MonsterVersion {

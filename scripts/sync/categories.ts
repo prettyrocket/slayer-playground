@@ -13,20 +13,20 @@ import { writeJson } from './files.ts';
 import { syncIcons, syncMasterIcons } from './icons.ts';
 import { MASTER_PAGES, type RawAssignment, parseMasterTable } from './masters.ts';
 import { parseEquipment, parseRewards } from './parsers.ts';
-import { EQUIPMENT_PAGE, REWARDS_PAGE, fetchTaskPageTitles } from './sources.ts';
+import { EQUIPMENT_PAGE, REWARDS_PAGE } from './sources.ts';
 
 /**
  * Writes public/data/masters.json, categories.json and unlocks.json from the
  * master pages, Slayer Rewards and Slayer equipment (`page` reads fetched
- * wikitext), plus the list of Slayer task/ pages (one request).
+ * wikitext), plus the titles of the Slayer task/ pages.
  */
 export async function syncCategories(
   client: WikiClient,
   dataDir: string,
   monsters: Monster[],
   page: (title: string) => string,
+  taskPages: string[],
 ): Promise<void> {
-  const taskPages = await fetchTaskPageTitles(client);
   const warnings: string[] = [];
   const assignments = new Map<MasterKey, RawAssignment[]>(
     MASTER_PAGES.map(({ key, page: title }) => [

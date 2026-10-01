@@ -73,6 +73,7 @@ function monster(
     superior: null,
     superiorOf: [],
     versions: [],
+    locations: [],
     ...more,
   };
 }
