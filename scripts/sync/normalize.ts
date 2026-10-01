@@ -175,6 +175,8 @@ function version(row: RawMonster): MonsterVersion {
     version: versionLabel(row),
     isDefault: row.default_version === true,
     name: str(row.name) ?? String(row.page_name),
+    // "File:Cow (1).png" -> "Cow (1).png"
+    image: strings(row.image)[0]?.replace(/^file:/i, '') ?? null,
     npcIds: strings(row.id)
       .map(Number)
       .filter(Number.isInteger)

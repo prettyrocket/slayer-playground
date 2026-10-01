@@ -50,6 +50,8 @@ export interface MonsterVersion {
   /** Exactly one version per monster is the default, and it is first. */
   isDefault: boolean;
   name: string;
+  /** The infobox image's file name on the wiki, e.g. "Cow (1).png"; null when there is none. */
+  image: string | null;
   npcIds: number[];
   /** Plain text; several examines are separated by newlines. */
   examine: string | null;
@@ -160,6 +162,18 @@ export interface CategoriesFile {
 export interface SlayerCategory {
   /** Lowercased, as in Monster.categories and Assignment.category, e.g. "abyssal demons". */
   category: string;
+  /** Other names masters' tables and guide pages use, lowercased, e.g. ["kalphites"] for "kalphite". */
+  aliases: string[];
+  /**
+   * The lowest Slayer level any master needs to assign it; null when a master
+   * assigns it with no Slayer level, or none assigns it.
+   */
+  slayerLevel: number | null;
+  /**
+   * Picture for the category, relative to public/data, e.g. "icons/abyssal-demons.png":
+   * its in-game Slayer icon, or else its namesake monster's infobox image. Null when neither exists.
+   */
+  icon: string | null;
   /** The wiki's guide page, e.g. "Slayer task/Abyssal demons"; null when there is none. */
   page: string | null;
   /** Slugs of the monsters that count, superiors included; minigame and Deadman copies left out. */

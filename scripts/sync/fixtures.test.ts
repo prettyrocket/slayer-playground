@@ -326,6 +326,7 @@ describe('Bucket rows', () => {
       version: 'Standard',
       isDefault: true,
       name: 'Abyssal demon',
+      image: 'Abyssal demon.png',
       npcIds: [415, 416],
       examine: 'A denizen of the Abyss!',
       combatLevel: 124,

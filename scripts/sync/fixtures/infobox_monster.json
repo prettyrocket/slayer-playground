@@ -5,6 +5,9 @@
     "light_range_defence_bonus": 20,
     "crush_defence_bonus": 20,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Abyssal demon (Catacombs of Kourend).png"
+    ],
     "page_name_sub": "Abyssal demon#Catacombs of Kourend",
     "size": 1,
     "page_name": "Abyssal demon",
@@ -23,14 +26,12 @@
     "venom_resistance": "0",
     "slash_defence_bonus": 20,
     "magic_level": 1,
-    "default_version": false,
+    "slayer_level": 85,
     "attack_level": 97,
     "heavy_range_defence_bonus": 20,
     "magic_defence_bonus": 0,
-    "attribute": [
-      "demon"
-    ],
-    "slayer_level": 85,
+    "combat_level": 124,
+    "default_version": false,
     "slayer_experience": 150,
     "strength_level": 67,
     "defence_level": 135,
@@ -52,13 +53,15 @@
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "attack_speed": 4,
-    "is_members_only": true,
     "range_strength_bonus": 0,
+    "attack_speed": 4,
     "range_attack_bonus": 0,
+    "attribute": [
+      "demon"
+    ],
     "hitpoints": 150,
     "stab_defence_bonus": 20,
-    "combat_level": 124
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 20,
@@ -66,6 +69,9 @@
     "light_range_defence_bonus": 20,
     "crush_defence_bonus": 20,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Abyssal demon.png"
+    ],
     "page_name_sub": "Abyssal demon#Standard",
     "size": 1,
     "page_name": "Abyssal demon",
@@ -84,14 +90,12 @@
     "venom_resistance": "0",
     "slash_defence_bonus": 20,
     "magic_level": 1,
-    "default_version": true,
+    "slayer_level": 85,
     "attack_level": 97,
     "heavy_range_defence_bonus": 20,
     "magic_defence_bonus": 0,
-    "attribute": [
-      "demon"
-    ],
-    "slayer_level": 85,
+    "combat_level": 124,
+    "default_version": true,
     "slayer_experience": 150,
     "strength_level": 67,
     "defence_level": 135,
@@ -114,13 +118,15 @@
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "attack_speed": 4,
-    "is_members_only": true,
     "range_strength_bonus": 0,
+    "attack_speed": 4,
     "range_attack_bonus": 0,
+    "attribute": [
+      "demon"
+    ],
     "hitpoints": 150,
     "stab_defence_bonus": 20,
-    "combat_level": 124
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 20,
@@ -128,6 +134,9 @@
     "light_range_defence_bonus": 20,
     "crush_defence_bonus": 20,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Abyssal demon.png"
+    ],
     "page_name_sub": "Abyssal demon#Wilderness Slayer Cave",
     "size": 1,
     "page_name": "Abyssal demon",
@@ -146,14 +155,12 @@
     "venom_resistance": "0",
     "slash_defence_bonus": 20,
     "magic_level": 1,
-    "default_version": false,
+    "slayer_level": 85,
     "attack_level": 97,
     "heavy_range_defence_bonus": 20,
     "magic_defence_bonus": 0,
-    "attribute": [
-      "demon"
-    ],
-    "slayer_level": 85,
+    "combat_level": 124,
+    "default_version": false,
     "slayer_experience": 150,
     "strength_level": 67,
     "defence_level": 135,
@@ -175,19 +182,24 @@
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "attack_speed": 4,
-    "is_members_only": true,
     "range_strength_bonus": 0,
+    "attack_speed": 4,
     "range_attack_bonus": 0,
+    "attribute": [
+      "demon"
+    ],
     "hitpoints": 150,
     "stab_defence_bonus": 20,
-    "combat_level": 124
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 75,
     "strength_bonus": 10,
     "light_range_defence_bonus": 0,
     "crush_defence_bonus": 0,
+    "image": [
+      "File:Abyssal walker.png"
+    ],
     "page_name_sub": "Abyssal walker",
     "size": 1,
     "page_name": "Abyssal walker",
@@ -196,45 +208,50 @@
     "attack_style": [
       "Crush"
     ],
-    "strength_level": 100,
+    "range_strength_bonus": 0,
     "examine": "Apparently walks the Abyss.",
     "venom_resistance": "0",
     "slash_defence_bonus": 75,
     "hitpoints": 95,
     "default_version": true,
     "attack_level": 5,
-    "combat_level": 81,
+    "range_attack_bonus": 0,
     "poison_resistance": "0",
     "defence_level": 95,
     "magic_defence_bonus": 75,
     "id": [
       "2586"
     ],
-    "range_strength_bonus": 0,
-    "heavy_range_defence_bonus": 0,
-    "ranged_level": 1,
-    "magic_attack_bonus": 0,
-    "magic_level": 1,
-    "is_members_only": true,
     "attack_bonus": 5,
-    "range_attack_bonus": 0,
     "max_hit": [
       "13"
     ],
+    "ranged_level": 1,
+    "magic_attack_bonus": 0,
+    "heavy_range_defence_bonus": 0,
+    "is_members_only": true,
+    "strength_level": 100,
+    "magic_level": 1,
+    "combat_level": 81,
     "stab_defence_bonus": 75,
     "attack_speed": 5
   },
   {
     "strength_level": 77,
-    "examine": "The slime of greater evil.",
+    "slayer_category": [
+      "Rockslugs"
+    ],
     "venom_resistance": "100",
     "magic_level": 1,
-    "slayer_level": 20,
+    "image": [
+      "File:Bloodthirst rockslug.png"
+    ],
     "attack_level": 72,
     "page_name_sub": "Bloodthirst rockslug",
     "combat_level": 86,
     "size": 3,
     "page_name": "Bloodthirst rockslug",
+    "poison_resistance": "100",
     "defence_level": 77,
     "assigned_by": [
       "mazchna",
@@ -244,19 +261,17 @@
     "id": [
       "12561"
     ],
-    "poison_resistance": "100",
     "ranged_level": 1,
-    "slayer_category": [
-      "Rockslugs"
-    ],
+    "examine": "The slime of greater evil.",
     "attack_speed": 4,
+    "name": "Bloodthirst rockslug<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup>",
     "attack_style": [
       "Crush"
     ],
     "hitpoints": 77,
     "default_version": true,
-    "name": "Bloodthirst rockslug<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup>",
-    "is_members_only": true
+    "is_members_only": true,
+    "slayer_level": 20
   },
   {
     "standard_range_defence_bonus": 50,
@@ -264,6 +279,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (2).png"
+    ],
     "page_name_sub": "Blue dragon#1",
     "size": 4,
     "page_name": "Blue dragon",
@@ -289,13 +307,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 10,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -315,12 +333,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -328,6 +346,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (3).png"
+    ],
     "page_name_sub": "Blue dragon#2",
     "size": 4,
     "page_name": "Blue dragon",
@@ -353,13 +374,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 10,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -379,12 +400,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -392,6 +413,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (4).png"
+    ],
     "page_name_sub": "Blue dragon#3",
     "size": 4,
     "page_name": "Blue dragon",
@@ -417,13 +441,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 10,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -443,12 +467,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -456,6 +480,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (5).png"
+    ],
     "page_name_sub": "Blue dragon#4",
     "size": 4,
     "page_name": "Blue dragon",
@@ -481,13 +508,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 10,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -507,12 +534,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -520,6 +547,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon.png"
+    ],
     "page_name_sub": "Blue dragon#5",
     "size": 4,
     "page_name": "Blue dragon",
@@ -545,13 +575,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 10,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -571,12 +601,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -584,6 +614,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (Ruins of Tapoyauik, 1).png"
+    ],
     "page_name_sub": "Blue dragon#Ruins of Tapoyauik, 1",
     "size": 4,
     "page_name": "Blue dragon",
@@ -608,13 +641,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Fire",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -634,12 +667,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -647,6 +680,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (Ruins of Tapoyauik, 2).png"
+    ],
     "page_name_sub": "Blue dragon#Ruins of Tapoyauik, 2",
     "size": 4,
     "page_name": "Blue dragon",
@@ -671,13 +707,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Fire",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -697,12 +733,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -710,6 +746,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (2).png"
+    ],
     "page_name_sub": "Blue dragon#Task only, 1",
     "size": 4,
     "page_name": "Blue dragon",
@@ -734,13 +773,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -760,12 +799,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -773,6 +812,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (3).png"
+    ],
     "page_name_sub": "Blue dragon#Task only, 2",
     "size": 4,
     "page_name": "Blue dragon",
@@ -797,13 +839,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -823,12 +865,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -836,6 +878,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (4).png"
+    ],
     "page_name_sub": "Blue dragon#Task only, 3",
     "size": 4,
     "page_name": "Blue dragon",
@@ -860,13 +905,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -886,12 +931,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -899,6 +944,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon (5).png"
+    ],
     "page_name_sub": "Blue dragon#Task only, 4",
     "size": 4,
     "page_name": "Blue dragon",
@@ -923,13 +971,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -949,12 +997,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 50,
@@ -962,6 +1010,9 @@
     "light_range_defence_bonus": 50,
     "crush_defence_bonus": 70,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Blue dragon.png"
+    ],
     "page_name_sub": "Blue dragon#Task only, 5",
     "size": 4,
     "page_name": "Blue dragon",
@@ -986,13 +1037,13 @@
     "elemental_weakness_percent": 50,
     "elemental_weakness": "Water",
     "heavy_range_defence_bonus": 15,
+    "combat_level": 111,
+    "magic_defence_bonus": 60,
+    "slayer_experience": 105,
     "attribute": [
       "dragon",
       "fiery"
     ],
-    "magic_defence_bonus": 60,
-    "slayer_experience": 105,
-    "range_attack_bonus": 0,
     "defence_level": 95,
     "assigned_by": [
       "vannaka",
@@ -1012,12 +1063,12 @@
     "ranged_level": 1,
     "magic_attack_bonus": 0,
     "examine": "A mother dragon.",
-    "is_members_only": true,
     "attack_speed": 4,
     "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 105,
     "stab_defence_bonus": 0,
-    "combat_level": 111
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": -21,
@@ -1025,6 +1076,9 @@
     "light_range_defence_bonus": -21,
     "crush_defence_bonus": -21,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Cow (1).png"
+    ],
     "page_name_sub": "Cow#1",
     "size": 2,
     "page_name": "Cow",
@@ -1057,19 +1111,19 @@
     "id": [
       "2790"
     ],
-    "strength_level": 1,
+    "range_attack_bonus": 0,
     "max_hit": [
       "1"
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "examine": "Converts grass to beef.",
-    "is_members_only": false,
-    "range_strength_bonus": 0,
+    "strength_level": 1,
     "attack_speed": 4,
+    "examine": "Converts grass to beef.",
+    "range_strength_bonus": 0,
     "hitpoints": 8,
     "stab_defence_bonus": -21,
-    "range_attack_bonus": 0
+    "is_members_only": false
   },
   {
     "standard_range_defence_bonus": -21,
@@ -1077,6 +1131,9 @@
     "light_range_defence_bonus": -21,
     "crush_defence_bonus": -21,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Cow (2).png"
+    ],
     "page_name_sub": "Cow#2",
     "size": 2,
     "page_name": "Cow",
@@ -1109,19 +1166,19 @@
     "id": [
       "2791"
     ],
-    "strength_level": 1,
+    "range_attack_bonus": 0,
     "max_hit": [
       "1"
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "examine": "Beefy.",
-    "is_members_only": false,
-    "range_strength_bonus": 0,
+    "strength_level": 1,
     "attack_speed": 4,
+    "examine": "Beefy.",
+    "range_strength_bonus": 0,
     "hitpoints": 8,
     "stab_defence_bonus": -21,
-    "range_attack_bonus": 0
+    "is_members_only": false
   },
   {
     "standard_range_defence_bonus": -21,
@@ -1129,6 +1186,9 @@
     "light_range_defence_bonus": -21,
     "crush_defence_bonus": -21,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Cow (3).png"
+    ],
     "page_name_sub": "Cow#3",
     "size": 2,
     "page_name": "Cow",
@@ -1161,19 +1221,19 @@
     "id": [
       "2793"
     ],
-    "strength_level": 1,
+    "range_attack_bonus": 0,
     "max_hit": [
       "1"
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "examine": "Where beef comes from.",
-    "is_members_only": false,
-    "range_strength_bonus": 0,
+    "strength_level": 1,
     "attack_speed": 4,
+    "examine": "Where beef comes from.",
+    "range_strength_bonus": 0,
     "hitpoints": 8,
     "stab_defence_bonus": -21,
-    "range_attack_bonus": 0
+    "is_members_only": false
   },
   {
     "standard_range_defence_bonus": -21,
@@ -1181,6 +1241,9 @@
     "light_range_defence_bonus": -21,
     "crush_defence_bonus": -21,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Cow (Isle of Souls).png"
+    ],
     "page_name_sub": "Cow#Isle of Souls",
     "size": 2,
     "page_name": "Cow",
@@ -1213,19 +1276,19 @@
     "id": [
       "2795"
     ],
-    "strength_level": 1,
+    "range_attack_bonus": 0,
     "max_hit": [
       "1"
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "examine": "A cow by any other name would smell as sweet.",
-    "is_members_only": true,
-    "range_strength_bonus": 0,
+    "strength_level": 1,
     "attack_speed": 4,
+    "examine": "A cow by any other name would smell as sweet.",
+    "range_strength_bonus": 0,
     "hitpoints": 8,
     "stab_defence_bonus": -21,
-    "range_attack_bonus": 0
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": -21,
@@ -1233,6 +1296,9 @@
     "light_range_defence_bonus": -21,
     "crush_defence_bonus": -21,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Cow (Zanaris).png"
+    ],
     "page_name_sub": "Cow#Zanaris",
     "size": 2,
     "page_name": "Cow",
@@ -1265,25 +1331,28 @@
     "id": [
       "5842"
     ],
-    "strength_level": 1,
+    "range_attack_bonus": 0,
     "max_hit": [
       "1"
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "examine": "Converts grass to beef.",
-    "is_members_only": true,
-    "range_strength_bonus": 0,
+    "strength_level": 1,
     "attack_speed": 4,
+    "examine": "Converts grass to beef.",
+    "range_strength_bonus": 0,
     "hitpoints": 8,
     "stab_defence_bonus": -21,
-    "range_attack_bonus": 0
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 0,
     "strength_bonus": 0,
     "light_range_defence_bonus": 0,
     "crush_defence_bonus": 0,
+    "image": [
+      "File:Dawn.png"
+    ],
     "page_name_sub": "Dawn",
     "size": 4,
     "page_name": "Dawn",
@@ -1304,7 +1373,7 @@
     "venom_resistance": "100",
     "slash_defence_bonus": 0,
     "magic_level": 100,
-    "slayer_level": 75,
+    "default_version": true,
     "attack_level": 140,
     "heavy_range_defence_bonus": 0,
     "elemental_weakness": "Earth",
@@ -1313,7 +1382,7 @@
       "flying",
       "golem"
     ],
-    "range_attack_bonus": 0,
+    "slayer_level": 75,
     "slayer_experience": 0,
     "strength_level": 140,
     "defence_level": 100,
@@ -1337,13 +1406,13 @@
     ],
     "ranged_level": 140,
     "magic_attack_bonus": 0,
-    "range_strength_bonus": 0,
+    "attack_speed": 6,
     "is_members_only": true,
+    "range_strength_bonus": 0,
+    "range_attack_bonus": 0,
     "hitpoints": 450,
-    "default_version": true,
-    "combat_level": 228,
     "stab_defence_bonus": 0,
-    "attack_speed": 6
+    "combat_level": 228
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1351,6 +1420,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Deep Delve",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1362,40 +1434,40 @@
       "Ranged"
     ],
     "version_anchor": "Deep Delve",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 625,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 908,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "65 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 4,
+    "range_strength_bonus": 50,
+    "hitpoints": 625,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1403,6 +1475,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Deep Delve",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1414,40 +1489,40 @@
       "Ranged"
     ],
     "version_anchor": "Deep Delve",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 625,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 908,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "99"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 625,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1455,6 +1530,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Burrowed).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Deep Delve",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1466,41 +1544,41 @@
       "Ranged"
     ],
     "version_anchor": "Deep Delve",
-    "range_strength_bonus": 50,
-    "examine": "You can run, but it can dig.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "freeze_resistance": "100% resistance",
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 625,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 908,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14709"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "60 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "You can run, but it can dig.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 625,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1508,6 +1586,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 1",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1519,40 +1600,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 1",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 525,
+    "magic_level": 275,
     "default_version": true,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 558,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "47 <br/> 60 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 525,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1560,6 +1641,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 1",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1571,40 +1655,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 1",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 525,
+    "magic_level": 275,
     "default_version": true,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 558,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "60"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 525,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1612,6 +1696,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 2",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1623,40 +1710,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 2",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 550,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 608,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "50 <br/>60 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 550,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1664,6 +1751,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 2",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1675,40 +1765,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 2",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 550,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 608,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "60"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 550,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1716,6 +1806,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 3",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1727,40 +1820,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 3",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 575,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 658,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "50 <br/>80 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 5,
+    "range_strength_bonus": 50,
+    "hitpoints": 575,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1768,6 +1861,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 3",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1779,40 +1875,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 3",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 575,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 658,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "60"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 575,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1820,6 +1916,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 4",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1831,40 +1930,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 4",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 600,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 708,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "80 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 5,
+    "range_strength_bonus": 50,
+    "hitpoints": 600,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1872,6 +1971,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 4",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1883,40 +1985,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 4",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 600,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 708,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "80"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 600,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1924,6 +2026,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 5",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1935,40 +2040,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 5",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 625,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 758,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "53 <br/> 80 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 5,
+    "range_strength_bonus": 50,
+    "hitpoints": 625,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -1976,6 +2081,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 5",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -1987,40 +2095,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 5",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 625,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 758,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "80"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 625,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2028,6 +2136,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Burrowed).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 5",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2039,41 +2150,41 @@
       "Ranged"
     ],
     "version_anchor": "Delve 5",
-    "range_strength_bonus": 50,
-    "examine": "You can run, but it can dig.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "freeze_resistance": "100% resistance",
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 625,
+    "magic_level": 275,
     "default_version": true,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 758,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14709"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "You can run, but it can dig.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 625,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2081,6 +2192,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 6",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2092,40 +2206,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 6",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 650,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 808,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 5,
+    "range_strength_bonus": 50,
+    "hitpoints": 650,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2133,6 +2247,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 6",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2144,40 +2261,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 6",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 650,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 808,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "99"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 650,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2185,6 +2302,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Burrowed).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 6",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2196,41 +2316,41 @@
       "Ranged"
     ],
     "version_anchor": "Delve 6",
-    "range_strength_bonus": 50,
-    "examine": "You can run, but it can dig.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "freeze_resistance": "100% resistance",
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 650,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 808,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14709"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "55 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "You can run, but it can dig.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 650,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2238,6 +2358,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 7",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2249,40 +2372,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 7",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 650,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 858,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "57 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 4,
+    "range_strength_bonus": 50,
+    "hitpoints": 650,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2290,6 +2413,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 7",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2301,40 +2427,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 7",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 650,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 858,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "99"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 650,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2342,6 +2468,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Burrowed).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 7",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2353,41 +2482,41 @@
       "Ranged"
     ],
     "version_anchor": "Delve 7",
-    "range_strength_bonus": 50,
-    "examine": "You can run, but it can dig.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "freeze_resistance": "100% resistance",
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 650,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 858,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14709"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "56 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "You can run, but it can dig.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 650,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2395,6 +2524,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl.png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 8",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2406,40 +2538,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 8",
-    "range_strength_bonus": 50,
-    "examine": "A demonic digger.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 675,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 908,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14707"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "65 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "A demonic digger.",
     "attack_speed": 4,
+    "range_strength_bonus": 50,
+    "hitpoints": 675,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2447,6 +2579,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Shielded).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 8",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2458,40 +2593,40 @@
       "Ranged"
     ],
     "version_anchor": "Delve 8",
-    "range_strength_bonus": 50,
-    "examine": "It's protecting itself with a demonic shield!",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "venom_resistance": "100",
     "slash_defence_bonus": 300,
-    "hitpoints": 675,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "100",
     "combat_level": 908,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14708"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "99"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "It's protecting itself with a demonic shield!",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 675,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 160,
@@ -2499,6 +2634,9 @@
     "light_range_defence_bonus": 160,
     "crush_defence_bonus": 60,
     "thrall_immune": "Not immune",
+    "image": [
+      "File:Doom of Mokhaiotl (Burrowed).png"
+    ],
     "page_name_sub": "Doom of Mokhaiotl#Delve 8",
     "size": 5,
     "page_name": "Doom of Mokhaiotl",
@@ -2510,54 +2648,57 @@
       "Ranged"
     ],
     "version_anchor": "Delve 8",
-    "range_strength_bonus": 50,
-    "examine": "You can run, but it can dig.",
+    "attack_bonus": 210,
+    "slayer_category": [
+      "Bosses"
+    ],
     "freeze_resistance": "100% resistance",
     "venom_resistance": "Poisons",
     "slash_defence_bonus": 300,
-    "hitpoints": 675,
+    "magic_level": 275,
     "default_version": false,
     "attack_level": 300,
     "cannon_immune": "Immune",
     "poison_resistance": "0",
     "combat_level": 908,
     "heavy_range_defence_bonus": 160,
-    "attack_bonus": 210,
+    "range_attack_bonus": 120,
     "defence_level": 90,
     "magic_defence_bonus": 160,
     "id": [
       "14709"
     ],
-    "slayer_category": [
-      "Bosses"
-    ],
+    "strength_level": 190,
     "max_hit": [
       "58 <br/>99 (charge)"
     ],
     "ranged_level": 110,
     "magic_attack_bonus": 125,
-    "strength_level": 190,
-    "is_members_only": true,
-    "magic_level": 275,
+    "examine": "You can run, but it can dig.",
     "attack_speed": 6,
+    "range_strength_bonus": 50,
+    "hitpoints": 675,
     "attribute": [
       "demon"
     ],
     "stab_defence_bonus": 300,
-    "range_attack_bonus": 120
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 0,
     "strength_bonus": 0,
     "light_range_defence_bonus": 0,
     "crush_defence_bonus": 0,
+    "image": [
+      "File:Dusk.png"
+    ],
     "page_name_sub": "Dusk#First form",
     "size": 4,
     "page_name": "Dusk",
     "magic_damage_bonus": 0,
     "name": "Dusk",
     "attack_style": [
-      "Slash '\"`UNIQ--ref-0000006D-QINU`\"'"
+      "Slash '\"`UNIQ--ref-000000F5-QINU`\"'"
     ],
     "version_anchor": "First form",
     "attack_bonus": 0,
@@ -2570,15 +2711,13 @@
     "venom_resistance": "100",
     "slash_defence_bonus": 0,
     "magic_level": 140,
-    "default_version": true,
+    "slayer_level": 75,
     "attack_level": 200,
     "heavy_range_defence_bonus": 0,
     "elemental_weakness": "Earth",
     "magic_defence_bonus": 0,
-    "attribute": [
-      "golem"
-    ],
-    "slayer_level": 75,
+    "combat_level": 248,
+    "default_version": true,
     "slayer_experience": 1350,
     "strength_level": 140,
     "defence_level": 100,
@@ -2604,19 +2743,24 @@
     ],
     "ranged_level": 140,
     "magic_attack_bonus": 0,
-    "attack_speed": 6,
-    "is_members_only": true,
     "range_strength_bonus": 0,
+    "attack_speed": 6,
     "range_attack_bonus": 0,
+    "attribute": [
+      "golem"
+    ],
     "hitpoints": 450,
     "stab_defence_bonus": 0,
-    "combat_level": 248
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 0,
     "strength_bonus": 0,
     "light_range_defence_bonus": 0,
     "crush_defence_bonus": 0,
+    "image": [
+      "File:Dusk (2nd form).png"
+    ],
     "page_name_sub": "Dusk#Second form",
     "size": 6,
     "page_name": "Dusk",
@@ -2637,15 +2781,13 @@
     "venom_resistance": "100",
     "slash_defence_bonus": 0,
     "magic_level": 250,
-    "default_version": false,
+    "slayer_level": 75,
     "attack_level": 300,
     "heavy_range_defence_bonus": 0,
     "elemental_weakness": "Earth",
     "magic_defence_bonus": 0,
-    "attribute": [
-      "golem"
-    ],
-    "slayer_level": 75,
+    "combat_level": 328,
+    "default_version": false,
     "slayer_experience": 1350,
     "strength_level": 250,
     "defence_level": 150,
@@ -2668,19 +2810,24 @@
     ],
     "ranged_level": 250,
     "magic_attack_bonus": 0,
-    "attack_speed": 6,
-    "is_members_only": true,
     "range_strength_bonus": 0,
+    "attack_speed": 6,
     "range_attack_bonus": 0,
+    "attribute": [
+      "golem"
+    ],
     "hitpoints": 450,
     "stab_defence_bonus": 0,
-    "combat_level": 328
+    "is_members_only": true
   },
   {
     "standard_range_defence_bonus": 35,
     "strength_bonus": 0,
     "light_range_defence_bonus": 35,
     "crush_defence_bonus": 50,
+    "image": [
+      "File:Grimy Lizard.png"
+    ],
     "page_name_sub": "Grimy Lizard",
     "size": 2,
     "page_name": "Grimy Lizard",
@@ -2697,13 +2844,13 @@
     "venom_resistance": "100",
     "slash_defence_bonus": 15,
     "magic_level": 25,
-    "slayer_level": 44,
+    "default_version": true,
     "attack_level": 65,
     "heavy_range_defence_bonus": 35,
     "combat_level": 50,
     "magic_defence_bonus": 50,
     "slayer_experience": 75,
-    "strength_level": 25,
+    "range_attack_bonus": 0,
     "defence_level": 10,
     "assigned_by": [
       "turael",
@@ -2714,18 +2861,18 @@
       "13029",
       "14430"
     ],
-    "examine": "An ecosystem of a creature.",
+    "strength_level": 25,
     "max_hit": [
       "3"
     ],
     "ranged_level": 1,
     "magic_attack_bonus": 0,
-    "range_strength_bonus": 0,
+    "examine": "An ecosystem of a creature.",
+    "is_members_only": true,
     "attack_speed": 4,
+    "range_strength_bonus": 0,
     "hitpoints": 75,
-    "default_version": true,
-    "range_attack_bonus": 0,
     "stab_defence_bonus": 35,
-    "is_members_only": true
+    "slayer_level": 44
   }
 ]
