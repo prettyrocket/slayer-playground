@@ -25,7 +25,15 @@ import { PlaceName } from '@/components/PlaceName';
 import { WikiLink } from '@/components/WikiLink';
 import { type Catalog, type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems } from '@/data/combat';
-import { type Place, areaName, isListed, lowestLevel, placesOf, regionsOf } from '@/data/locations';
+import {
+  type Place,
+  type Region,
+  areaName,
+  isListed,
+  lowestLevel,
+  placesOf,
+  regionsOf,
+} from '@/data/locations';
 import { useMastersFile } from '@/data/masters';
 import type { Monster, MonsterLocation } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
@@ -200,20 +208,19 @@ function MonsterCells({
 }
 
 /**
- * A place's rows: its name and facts spanning one row per monster there.
- * Indented under its region when it shares one; faded when the master gives
- * places and this isn't one of them.
+ * A place's rows: its name and facts spanning one row per monster there. A
+ * place sharing a wiki page with others is named within it ("Slayer Tower ›
+ * Basement"). Faded when the master gives places and this isn't one of them.
  */
 function PlaceRows({
   place,
-  name,
-  indent,
+  region,
   dim,
   category,
 }: {
   place: Place;
-  name: string;
-  indent: boolean;
+  /** The region it shares, when it does. */
+  region: Region | null;
   dim: boolean;
   category: Category;
 }) {
@@ -221,8 +228,14 @@ function PlaceRows({
     <TableRow key={monster.slug} hover sx={{ opacity: dim ? 0.5 : 1 }}>
       {i === 0 && (
         <>
-          <TableCell rowSpan={place.monsters.length} sx={{ fontWeight: 500, pl: indent ? 4 : 2 }}>
-            {indent ? name : <PlaceName location={{ name, page: place.page }} />}
+          <TableCell rowSpan={place.monsters.length} sx={{ fontWeight: 500 }}>
+            {region ? (
+              <>
+                <PlaceName location={region} /> › {areaName(region, place)}
+              </>
+            ) : (
+              <PlaceName location={place} />
+            )}
           </TableCell>
           <TableCell rowSpan={place.monsters.length}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
@@ -240,7 +253,7 @@ function PlaceRows({
  * /categories/:slug/locations — the category by where its monsters spawn. Each
  * place shows whether it's multicombat, cannonable or safespottable, then the
  * monsters there with their level and spawns. Places sharing a wiki page (the
- * Slayer Tower's floors) group under it. Filters keep places with the chosen
+ * Slayer Tower's floors) stay together, each named within it. Filters keep places with the chosen
  * facts; on Konar's or Krystilia's trail, their places come first and the rest
  * fade. Monsters the wiki gives no place for come last.
  */
@@ -290,35 +303,20 @@ export function CategoryLocationsPage() {
   const theirs = regions.filter((r) => r.listed);
   const others = regions.length - theirs.length + (unplaced.length > 0 ? 1 : 0);
 
-  const regionRows = ({ region, listed }: (typeof regions)[number]) =>
-    region.areas.length === 1 ? (
-      <PlaceRows
-        key={region.name}
-        place={region.areas[0]}
-        name={region.areas[0].name}
-        indent={false}
-        dim={dim(listed)}
-        category={category}
-      />
-    ) : (
-      <Fragment key={region.name}>
-        <TableRow sx={{ bgcolor: 'action.hover', opacity: dim(listed) ? 0.5 : 1 }}>
-          <TableCell colSpan={4} sx={{ fontWeight: 500 }}>
-            <PlaceName location={region} />
-          </TableCell>
-        </TableRow>
-        {region.areas.map((area) => (
-          <PlaceRows
-            key={area.name}
-            place={area}
-            name={areaName(region, area)}
-            indent
-            dim={dim(isListed(area, listedPlaces))}
-            category={category}
-          />
-        ))}
-      </Fragment>
-    );
+  // A region's places stay together.
+  const regionRows = ({ region }: (typeof regions)[number]) => (
+    <Fragment key={region.name}>
+      {region.areas.map((area) => (
+        <PlaceRows
+          key={area.name}
+          place={area}
+          region={region.areas.length > 1 ? region : null}
+          dim={dim(isListed(area, listedPlaces))}
+          category={category}
+        />
+      ))}
+    </Fragment>
+  );
 
   return (
     <>
