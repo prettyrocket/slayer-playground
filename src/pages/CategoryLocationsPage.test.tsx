@@ -30,7 +30,6 @@ describe('CategoryLocationsPage', () => {
       ['—', '', 'Abyssal Sire'],
     ]);
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
-    expect(screen.getByText('2 locations')).toBeInTheDocument();
   });
 
   it('shows each monster as a card: its level there, Slayer level and XP', async () => {

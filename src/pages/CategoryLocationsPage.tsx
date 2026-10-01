@@ -313,9 +313,6 @@ export function CategoryLocationsPage() {
           <Typography variant="h4" component="h1">
             {category.name}
           </Typography>
-          <Typography color="text.secondary">
-            {places.length} location{places.length === 1 ? '' : 's'}
-          </Typography>
           <Superiors monsters={monsters} category={category} catalog={catalog} />
         </Box>
         <Box sx={{ ml: 'auto' }}>
