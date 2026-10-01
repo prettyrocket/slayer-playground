@@ -20,14 +20,14 @@ async function rows(name: string) {
 }
 
 describe('CategoryLocationsPage', () => {
-  it('lists places first, one row per monster there, with its spawns', async () => {
+  it('lists places first, one row per monster there', async () => {
     renderRoute('/categories/abyssal-demons/locations');
     expect(await rows('Abyssal demons locations')).toEqual([
-      ['Location', '', 'Monster', 'Spawns'],
-      ['Catacombs of Kourend', '', 'Abyssal demon', '13'],
-      ['Abyssal Area', '', 'Abyssal demon', '—'],
+      ['Location', '', 'Monster'],
+      ['Catacombs of Kourend', '', 'Abyssal demon'],
+      ['Abyssal Area', '', 'Abyssal demon'],
       // No place on the wiki: last.
-      ['—', '', 'Abyssal Sire', '—'],
+      ['—', '', 'Abyssal Sire'],
     ]);
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
     expect(screen.getByText('2 locations')).toBeInTheDocument();
@@ -38,8 +38,10 @@ describe('CategoryLocationsPage', () => {
     const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
     const [, catacombs, abyssalArea] = within(table).getAllByRole('row');
     expect(within(catacombs).getByText('Level 124 · Slayer 85 · 150 XP')).toBeInTheDocument();
-    // No level given there.
+    expect(within(catacombs).getByLabelText('13 spawns')).toHaveTextContent('×13');
+    // No level or spawns given there.
     expect(within(abyssalArea).getByText('Slayer 85 · 150 XP')).toBeInTheDocument();
+    expect(within(abyssalArea).queryByText(/^×/)).not.toBeInTheDocument();
   });
 
   it('names the superior once, above the table', async () => {

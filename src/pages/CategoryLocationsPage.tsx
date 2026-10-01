@@ -129,7 +129,8 @@ function Superiors({
 
 /**
  * A small card for a monster at a place: its picture and name, then its level
- * there, Slayer level and Slayer XP, and what it needs, if anything.
+ * there, Slayer level and Slayer XP, and what it needs, if anything. How many
+ * spawn there is a badge in the corner ("×14").
  */
 function MonsterCard({
   monster,
@@ -151,17 +152,37 @@ function MonsterCard({
   return (
     <Box
       sx={{
+        position: 'relative',
         display: 'inline-flex',
         alignItems: 'center',
         gap: 1.25,
         py: 0.5,
         pl: 0.5,
-        pr: 1.5,
+        pr: location?.spawns ? 5 : 1.5,
         border: 1,
         borderColor: 'divider',
         borderRadius: 2,
       }}
     >
+      {location?.spawns != null && (
+        <Box
+          component="span"
+          aria-label={`${location.spawns} spawn${location.spawns === 1 ? '' : 's'}`}
+          sx={{
+            position: 'absolute',
+            top: 4,
+            right: 4,
+            px: 0.75,
+            borderRadius: 1,
+            bgcolor: 'action.selected',
+            typography: 'caption',
+            fontWeight: 600,
+            lineHeight: 1.6,
+          }}
+        >
+          ×{location.spawns}
+        </Box>
+      )}
       <IconTile icon={monster.icon} name={monster.page} size={40} />
       <Box sx={{ minWidth: 0 }}>
         <Link
@@ -187,7 +208,7 @@ function MonsterCard({
   );
 }
 
-/** A monster's cells: its card, and how many spawn there. */
+/** A monster's cell: its card. */
 function MonsterCells({
   monster,
   location,
@@ -198,12 +219,9 @@ function MonsterCells({
   category: Category;
 }) {
   return (
-    <>
-      <TableCell>
-        <MonsterCard monster={monster} location={location} category={category} />
-      </TableCell>
-      <TableCell align="right">{location?.spawns ?? '—'}</TableCell>
-    </>
+    <TableCell>
+      <MonsterCard monster={monster} location={location} category={category} />
+    </TableCell>
   );
 }
 
@@ -377,14 +395,13 @@ export function CategoryLocationsPage() {
               <TableCell>Location</TableCell>
               <TableCell />
               <TableCell>Monster</TableCell>
-              <TableCell align="right">Spawns</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {(byMaster ? theirs : regions).map(regionRows)}
             {byMaster && others > 0 && (
               <TableRow>
-                <TableCell colSpan={4} sx={{ py: 0.5 }}>
+                <TableCell colSpan={3} sx={{ py: 0.5 }}>
                   <Button
                     size="small"
                     color="inherit"
