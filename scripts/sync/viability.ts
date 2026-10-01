@@ -43,6 +43,8 @@ const NOT_ON_TASK: Record<string, string> = {
   'Dinky the drink troll': 'fought during Prying Times',
   'Large chicken': 'fought during Scrambled!',
   'Strange creature (Shadows of Custodia)': 'fought during Shadows of Custodia',
+  // "They do not count towards the task, but do provide 50 Slayer experience each"
+  'Respiratory system': 'the Abyssal Sire’s vents; does not count',
   // "Araxxor's minions ... part of an araxyte task without decreasing the task count"
   'Mirrorback Araxyte': 'Araxxor’s minion; does not count',
   'Ruptura Araxyte': 'Araxxor’s minion; does not count',
