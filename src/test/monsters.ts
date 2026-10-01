@@ -3,6 +3,7 @@ import type {
   CategoriesFile,
   MasterKey,
   MastersFile,
+  MetaFile,
   Monster,
   MonsterVersion,
   MonstersFile,
@@ -244,4 +245,11 @@ export const mastersFixture: MastersFile = {
       assignments: [assignment('abyssal demons', 10)],
     },
   ],
+};
+
+/** Served for data/meta.json in tests. */
+export const metaFixture: MetaFile = {
+  syncedAt: '2026-09-29T02:17:20.539Z',
+  dataHash: 'test',
+  sources: ['Bucket:Infobox_monster', 'Nieve/Slayer assignments', 'Slayer Rewards'],
 };
