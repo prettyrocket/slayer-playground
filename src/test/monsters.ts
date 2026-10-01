@@ -93,6 +93,7 @@ export const monstersFixture: MonstersFile = {
         {
           name: 'Catacombs of Kourend',
           page: 'Catacombs of Kourend',
+          levels: [124],
           spawns: 13,
           multicombat: true,
           cannon: false,
@@ -101,6 +102,7 @@ export const monstersFixture: MonstersFile = {
         {
           name: 'Abyssal Area',
           page: null,
+          levels: [],
           spawns: null,
           multicombat: null,
           cannon: null,

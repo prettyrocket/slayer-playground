@@ -12,6 +12,8 @@ import {
 export interface RawLocation {
   name: string;
   page: string | null;
+  /** Combat levels found there. */
+  levels: Set<number>;
   spawns: Set<string>;
 }
 
@@ -86,10 +88,18 @@ export function parseLocLines(wikitext: string): RawLocation[] {
     const name = placeName(location);
     const known = byName.get(name);
     const spawns = spawnKeys(parts);
+    // "124" or "84, 92"; "N/A" or nothing gives none.
+    const levels = (params(parts).get('levels') ?? '').match(/\d+/g)?.map(Number) ?? [];
     if (known) {
       for (const key of spawns) known.spawns.add(key);
+      for (const level of levels) known.levels.add(level);
     } else {
-      byName.set(name, { name, page: linkTargets(location)[0] ?? null, spawns });
+      byName.set(name, {
+        name,
+        page: linkTargets(location)[0] ?? null,
+        levels: new Set(levels),
+        spawns,
+      });
     }
   }
   return [...byName.values()];
@@ -143,7 +153,7 @@ export function addLocations(
   const rows = [...taskText.values()].flatMap((text) => (text ? parseTaskLocations(text) : []));
   for (const monster of monsters) {
     monster.locations = parseLocLines(monsterText.get(monster.page) ?? '')
-      .map(({ name, page, spawns }): MonsterLocation => {
+      .map(({ name, page, levels, spawns }): MonsterLocation => {
         // The row sharing the most spawns: floors of a building can share an x and y.
         const shared = rows.map((row) => [...spawns].filter((key) => row.spawns.has(key)).length);
         const best = Math.max(0, ...shared);
@@ -158,6 +168,7 @@ export function addLocations(
         return {
           name,
           page,
+          levels: [...levels].sort((a, b) => a - b),
           spawns: spawns.size || null,
           multicombat: match?.multicombat ?? null,
           cannon: match?.cannon ?? null,

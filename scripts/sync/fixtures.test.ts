@@ -251,6 +251,8 @@ describe('locations', () => {
       ['Catacombs of Kourend', 13, true, false, false],
       ['Wilderness Slayer Cave', 8, true, true, false],
     ]);
+    // Level 124 everywhere.
+    expect(new Set(demon.locations.flatMap((l) => l.levels))).toEqual(new Set([124]));
   });
 });
 

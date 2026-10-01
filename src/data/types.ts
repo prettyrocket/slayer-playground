@@ -54,6 +54,8 @@ export interface MonsterLocation {
   name: string;
   /** The place's wiki page, e.g. "Slayer Tower"; null when it links none. */
   page: string | null;
+  /** Combat levels of the monster there, lowest first; empty when the wiki doesn't say. */
+  levels: number[];
   /** How many spawns the wiki maps there; null when it gives no coordinates. */
   spawns: number | null;
   /**

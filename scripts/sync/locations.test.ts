@@ -3,10 +3,10 @@ import { describe, expect, it } from 'vitest';
 import type { Monster } from '../../src/data/types.ts';
 import { addLocations, parseLocLines, parseTaskLocations } from './locations.ts';
 
-const locLine = (location: string, coords: string, plane = '') => `{{LocLine
+const locLine = (location: string, coords: string, plane = '', levels = '124') => `{{LocLine
 |name = Abyssal demon
 |location = ${location}
-|levels = 124
+|levels = ${levels}
 |members = Yes
 ${plane}${coords}
 |mtype = pin
@@ -23,26 +23,42 @@ describe('parseLocLines', () => {
       {
         name: 'Abyssal Area',
         page: 'Abyssal Area',
+        levels: new Set([124]),
         spawns: new Set(['3025,4916', '3016,4891']),
       },
-      { name: 'Slayer Tower (floor 2)', page: 'Slayer Tower', spawns: new Set(['3408,3573']) },
-      { name: 'Slayer Tower (basement)', page: 'Slayer Tower', spawns: new Set(['3427,9965']) },
+      {
+        name: 'Slayer Tower (floor 2)',
+        page: 'Slayer Tower',
+        levels: new Set([124]),
+        spawns: new Set(['3408,3573']),
+      },
+      {
+        name: 'Slayer Tower (basement)',
+        page: 'Slayer Tower',
+        levels: new Set([124]),
+        spawns: new Set(['3427,9965']),
+      },
     ]);
   });
 
-  it('merges repeats of a place', () => {
+  it('merges repeats of a place, with all their levels', () => {
     const text = [
-      locLine('[[Taverley Dungeon]]', '|x:1,y:2'),
-      locLine('[[Taverley Dungeon]]', '|x:3,y:4'),
+      locLine('[[Taverley Dungeon]]', '|x:1,y:2', '', '84, 92'),
+      locLine('[[Taverley Dungeon]]', '|x:3,y:4', '', '92'),
     ].join('\n');
     expect(parseLocLines(text)).toEqual([
-      { name: 'Taverley Dungeon', page: 'Taverley Dungeon', spawns: new Set(['1,2', '3,4']) },
+      {
+        name: 'Taverley Dungeon',
+        page: 'Taverley Dungeon',
+        levels: new Set([84, 92]),
+        spawns: new Set(['1,2', '3,4']),
+      },
     ]);
   });
 
-  it('keeps a place with no link or no coordinates', () => {
-    expect(parseLocLines(locLine('North of Slepe', ''))).toEqual([
-      { name: 'North of Slepe', page: null, spawns: new Set() },
+  it('keeps a place with no link, levels or coordinates', () => {
+    expect(parseLocLines(locLine('North of Slepe', '', '', 'N/A'))).toEqual([
+      { name: 'North of Slepe', page: null, levels: new Set(), spawns: new Set() },
     ]);
   });
 });
@@ -129,6 +145,7 @@ describe('addLocations', () => {
       {
         name: 'Catacombs of Kourend',
         page: 'Catacombs of Kourend',
+        levels: [124],
         spawns: 2,
         multicombat: true,
         cannon: false,
@@ -137,6 +154,7 @@ describe('addLocations', () => {
       {
         name: 'Slayer Tower (floor 2)',
         page: 'Slayer Tower',
+        levels: [124],
         spawns: 1,
         multicombat: false,
         cannon: null,
@@ -146,6 +164,7 @@ describe('addLocations', () => {
       {
         name: 'Abyssal Area',
         page: 'Abyssal Area',
+        levels: [124],
         spawns: null,
         multicombat: null,
         cannon: null,
