@@ -38,15 +38,22 @@ function needs(category: Category, monster: Monster): string {
 
 type Fact = 'multicombat' | 'cannon' | 'safespot';
 
-const sprite = (file: string) => (
-  <Box component="img" src={resolveUrl(`icons/${file}`)} alt="" sx={{ display: 'block' }} />
+/** A game sprite; `scale` enlarges a small one without smoothing its pixels. */
+const sprite = (file: string, scale = 1) => (
+  <Box
+    component="img"
+    src={resolveUrl(`icons/${file}`)}
+    alt=""
+    sx={{ display: 'block', zoom: scale, imageRendering: 'pixelated' }}
+  />
 );
 
 /** The place facts, as icons: the game's multiway, cannonball and clan hero sprites. */
 const FACTS: { key: Fact; label: string; icon: ReactNode }[] = [
   { key: 'multicombat', label: 'Multicombat', icon: sprite('multicombat.png') },
   { key: 'cannon', label: 'Cannon', icon: sprite('cannon.png') },
-  { key: 'safespot', label: 'Safespot', icon: sprite('safespot.png') },
+  // The clan icon is 13px; the others are about 20.
+  { key: 'safespot', label: 'Safespot', icon: sprite('safespot.png', 2) },
 ];
 
 /** An icon for each fact that holds there. */
