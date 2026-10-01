@@ -88,6 +88,8 @@ const ENTITIES: Record<string, string> = {
   gt: '>',
   nbsp: ' ',
   thinsp: ' ',
+  // As the en dash itself is: "Fossil Island &ndash; south end".
+  ndash: '-',
   // A marker before each of several examines; the line breaks already separate them.
   bull: '',
 };
