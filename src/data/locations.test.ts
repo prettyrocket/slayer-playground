@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { areaName, isListed, lowestLevel, placesOf, regionsOf } from '@/data/locations';
+import { areaName, isListed, placesOf, regionsOf } from '@/data/locations';
 import type { Monster, MonsterLocation } from '@/data/types';
 
 const at = (name: string, more: Partial<MonsterLocation> = {}): MonsterLocation => ({
@@ -66,14 +66,6 @@ describe('placesOf', () => {
     expect(isListed(tower, ['Slayer Tower (location)'])).toBe(true);
     expect(isListed(catacombs, ['catacombs of kourend'])).toBe(true);
     expect(isListed(catacombs, ['Slayer Tower'])).toBe(false);
-  });
-
-  it('gives the lowest level at a place', () => {
-    const [place] = placesOf([
-      monster('A', [at('Cave', { levels: [92, 104] })]),
-      monster('B', [at('Cave', { levels: [88] })]),
-    ]);
-    expect(lowestLevel(place)).toBe(88);
   });
 
   it('takes the first answer any monster has for multi, cannon and safespot', () => {

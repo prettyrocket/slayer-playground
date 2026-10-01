@@ -63,17 +63,6 @@ describe('CategoryLocationsPage', () => {
     expect(within(catacombs).queryByRole('img', { name: 'Cannon' })).not.toBeInTheDocument();
   });
 
-  it('keeps only places with the chosen facts', async () => {
-    const { user } = renderRoute('/categories/abyssal-demons/locations');
-    await rows('Abyssal demons locations');
-    await user.click(screen.getByRole('button', { name: 'Multicombat' }));
-    expect((await rows('Abyssal demons locations')).slice(1).map((r) => r[0])).toEqual([
-      'Catacombs of Kourend',
-    ]);
-    await user.click(screen.getByRole('button', { name: 'Cannon' }));
-    expect(await rows('Abyssal demons locations')).toHaveLength(1);
-  });
-
   it("shows only the master's places, with the rest folded away and faded", async () => {
     const { user } = renderRoute('/categories/abyssal-demons/locations?master=konar');
     expect((await rows('Abyssal demons locations')).map((r) => r[0])).toEqual([

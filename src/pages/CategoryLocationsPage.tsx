@@ -11,8 +11,6 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
@@ -25,15 +23,7 @@ import { PlaceName } from '@/components/PlaceName';
 import { WikiLink } from '@/components/WikiLink';
 import { type Catalog, type Category, findCategory, findMonster, useCatalog } from '@/data/catalog';
 import { neededItems } from '@/data/combat';
-import {
-  type Place,
-  type Region,
-  areaName,
-  isListed,
-  lowestLevel,
-  placesOf,
-  regionsOf,
-} from '@/data/locations';
+import { type Place, type Region, areaName, isListed, placesOf, regionsOf } from '@/data/locations';
 import { useMastersFile } from '@/data/masters';
 import type { Monster, MonsterLocation } from '@/data/types';
 import { NotFoundPage } from '@/pages/NotFoundPage';
@@ -82,11 +72,6 @@ function PlaceFacts({ place }: { place: Place }) {
     </Tooltip>
   ));
 }
-
-type SortBy = 'spawns' | 'level';
-
-const byNullLast = (a: number | null, b: number | null, flip = 1) =>
-  a === b ? 0 : a === null ? 1 : b === null ? -1 : (a - b) * flip;
 
 /**
  * The category's superiors, once: "Superior: Greater abyssal demon", or with
@@ -271,17 +256,15 @@ function PlaceRows({
  * /categories/:slug/locations — the category by where its monsters spawn. Each
  * place shows whether it's multicombat, cannonable or safespottable, then the
  * monsters there with their level and spawns. Places sharing a wiki page (the
- * Slayer Tower's floors) stay together, each named within it. Filters keep places with the chosen
- * facts; on Konar's or Krystilia's trail, their places come first and the rest
- * fade. Monsters the wiki gives no place for come last.
+ * Slayer Tower's floors) stay together, each named within it. Most spawns
+ * first. On Konar's or Krystilia's trail only their places show, the rest
+ * folded away and faded. Monsters the wiki gives no place for come last.
  */
 export function CategoryLocationsPage() {
   const { slug = '' } = useParams();
   const { data: catalog } = useCatalog();
   const { master } = useNavLocation();
   const masters = useMastersFile();
-  const [facts, setFacts] = useState<Fact[]>([]);
-  const [sortBy, setSortBy] = useState<SortBy>('spawns');
   const [showOthers, setShowOthers] = useState(false);
   if (!catalog) return <CatalogStatus />;
   const category = findCategory(catalog, slug);
@@ -295,27 +278,13 @@ export function CategoryLocationsPage() {
   // Faded: everything but the master's places, when the master gives places.
   const dim = (theirs: boolean) => listedPlaces.length > 0 && !theirs;
 
-  const places = placesOf(monsters).filter((p) => facts.every((f) => p[f]));
-  const regions = regionsOf(places)
-    .map((region) => ({
-      region,
-      listed: region.areas.some((a) => isListed(a, listedPlaces)),
-      lowest: region.areas
-        .map(lowestLevel)
-        .reduce<number | null>(
-          (min, l) => (l === null ? min : min === null ? l : Math.min(min, l)),
-          null,
-        ),
-    }))
-    .sort(
-      (a, b) =>
-        Number(b.listed) - Number(a.listed) ||
-        (sortBy === 'spawns'
-          ? byNullLast(a.region.spawns, b.region.spawns, -1)
-          : byNullLast(a.lowest, b.lowest)) ||
-        a.region.name.localeCompare(b.region.name),
-    );
-  const unplaced = facts.length ? [] : monsters.filter((m) => m.locations.length === 0);
+  const places = placesOf(monsters);
+  // regionsOf keeps placesOf's order: most spawns first.
+  const regions = regionsOf(places).map((region) => ({
+    region,
+    listed: region.areas.some((a) => isListed(a, listedPlaces)),
+  }));
+  const unplaced = monsters.filter((m) => m.locations.length === 0);
   // On a trail whose master gives places, only theirs show until the rest are opened.
   const byMaster = listedPlaces.length > 0;
   const theirs = regions.filter((r) => r.listed);
@@ -356,36 +325,6 @@ export function CategoryLocationsPage() {
             <WikiLink page={null} missing="No Slayer task page on the OSRS Wiki" />
           )}
         </Box>
-      </Box>
-
-      <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', mb: 2 }}>
-        <ToggleButtonGroup
-          size="small"
-          value={facts}
-          onChange={(_, value: Fact[]) => setFacts(value)}
-          aria-label="Only places with"
-        >
-          {FACTS.map((f) => (
-            <ToggleButton key={f.key} value={f.key} sx={{ gap: 0.75, textTransform: 'none' }}>
-              {f.icon}
-              {f.label}
-            </ToggleButton>
-          ))}
-        </ToggleButtonGroup>
-        <ToggleButtonGroup
-          size="small"
-          exclusive
-          value={sortBy}
-          onChange={(_, value: SortBy | null) => value && setSortBy(value)}
-          aria-label="Sort places by"
-        >
-          <ToggleButton value="spawns" sx={{ textTransform: 'none' }}>
-            Most spawns
-          </ToggleButton>
-          <ToggleButton value="level" sx={{ textTransform: 'none' }}>
-            Lowest level
-          </ToggleButton>
-        </ToggleButtonGroup>
       </Box>
 
       <TableContainer>

@@ -61,12 +61,6 @@ export function placesOf(monsters: Monster[]): Place[] {
   return places.sort((a, b) => bySpawns(a.spawns, b.spawns) || a.name.localeCompare(b.name));
 }
 
-/** A place's lowest monster level, or null when the wiki gives none. */
-export function lowestLevel(place: Place): number | null {
-  const levels = place.monsters.flatMap((m) => m.location.levels);
-  return levels.length ? Math.min(...levels) : null;
-}
-
 /**
  * Places that share a wiki page, like the floors of the Slayer Tower: `areas`
  * are its places, most spawns first. Most regions have one area.
