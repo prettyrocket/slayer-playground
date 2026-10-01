@@ -20,17 +20,26 @@ async function rows(name: string) {
 }
 
 describe('CategoryLocationsPage', () => {
-  it('lists places first, one row per monster there, with its level and spawns', async () => {
+  it('lists places first, one row per monster there, with its spawns', async () => {
     renderRoute('/categories/abyssal-demons/locations');
     expect(await rows('Abyssal demons locations')).toEqual([
-      ['Location', '', 'Monster', 'Level', 'Spawns', 'Slayer', 'Slayer XP'],
-      ['Catacombs of Kourend', '', 'Abyssal demon', '124', '13', '85', '150'],
-      ['Abyssal Area', '', 'Abyssal demon', '—', '—', '85', '150'],
+      ['Location', '', 'Monster', 'Spawns'],
+      ['Catacombs of Kourend', '', 'Abyssal demon', '13'],
+      ['Abyssal Area', '', 'Abyssal demon', '—'],
       // No place on the wiki: last.
-      ['—', '', 'Abyssal Sire', '—', '—', '85', '478'],
+      ['—', '', 'Abyssal Sire', '—'],
     ]);
     expect(screen.getByRole('heading', { level: 1, name: 'Abyssal demons' })).toBeInTheDocument();
     expect(screen.getByText('2 locations')).toBeInTheDocument();
+  });
+
+  it('shows each monster as a card: its level there, Slayer level and XP', async () => {
+    renderRoute('/categories/abyssal-demons/locations');
+    const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
+    const [, catacombs, abyssalArea] = within(table).getAllByRole('row');
+    expect(within(catacombs).getByText('Level 124 · Slayer 85 · 150 XP')).toBeInTheDocument();
+    // No level given there.
+    expect(within(abyssalArea).getByText('Slayer 85 · 150 XP')).toBeInTheDocument();
   });
 
   it('names the superior once, above the table', async () => {
@@ -63,13 +72,27 @@ describe('CategoryLocationsPage', () => {
     expect(await rows('Abyssal demons locations')).toHaveLength(1);
   });
 
-  it("puts the master's places first and fades the rest", async () => {
-    renderRoute('/categories/abyssal-demons/locations?master=konar');
-    const table = await screen.findByRole('table', { name: 'Abyssal demons locations' });
-    const [, catacombs, abyssalArea] = within(table).getAllByRole('row');
-    expect(catacombs).toHaveTextContent('Catacombs of Kourend');
+  it("shows only the master's places, with the rest folded away and faded", async () => {
+    const { user } = renderRoute('/categories/abyssal-demons/locations?master=konar');
+    expect((await rows('Abyssal demons locations')).map((r) => r[0])).toEqual([
+      'Location',
+      'Catacombs of Kourend',
+      // The Abyssal Area, and the Sire with no place.
+      'Other places (2)',
+    ]);
+    await user.click(screen.getByRole('button', { name: 'Other places (2)' }));
+    const table = screen.getByRole('table', { name: 'Abyssal demons locations' });
+    const [, catacombs, , abyssalArea, sire] = within(table).getAllByRole('row');
     expect(catacombs).toHaveStyle({ opacity: '1' });
+    expect(abyssalArea).toHaveTextContent('Abyssal Area');
     expect(abyssalArea).toHaveStyle({ opacity: '0.5' });
+    expect(sire).toHaveStyle({ opacity: '0.5' });
+  });
+
+  it('folds nothing away off a master’s trail', async () => {
+    renderRoute('/categories/abyssal-demons/locations?master=duradel');
+    await rows('Abyssal demons locations');
+    expect(screen.queryByRole('button', { name: /Other places/ })).not.toBeInTheDocument();
   });
 
   it('links places to the wiki and monsters to their page, keeping the category', async () => {
