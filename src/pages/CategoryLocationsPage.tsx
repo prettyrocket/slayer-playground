@@ -1,6 +1,5 @@
 import { Fragment, type ReactNode, useState } from 'react';
 
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Table from '@mui/material/Table';
@@ -43,11 +42,11 @@ const sprite = (file: string) => (
   <Box component="img" src={resolveUrl(`icons/${file}`)} alt="" sx={{ display: 'block' }} />
 );
 
-/** The place facts, as icons: the game's multiway and cannonball sprites, and a shield. */
+/** The place facts, as icons: the game's multiway, cannonball and clan hero sprites. */
 const FACTS: { key: Fact; label: string; icon: ReactNode }[] = [
   { key: 'multicombat', label: 'Multicombat', icon: sprite('multicombat.png') },
   { key: 'cannon', label: 'Cannon', icon: sprite('cannon.png') },
-  { key: 'safespot', label: 'Safespot', icon: <ShieldOutlinedIcon fontSize="small" /> },
+  { key: 'safespot', label: 'Safespot', icon: sprite('safespot.png') },
 ];
 
 /** An icon for each fact that holds there. */
