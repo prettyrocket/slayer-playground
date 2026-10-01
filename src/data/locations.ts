@@ -60,3 +60,63 @@ export function placesOf(monsters: Monster[]): Place[] {
   }
   return places.sort((a, b) => bySpawns(a.spawns, b.spawns) || a.name.localeCompare(b.name));
 }
+
+/** A place's lowest monster level, or null when the wiki gives none. */
+export function lowestLevel(place: Place): number | null {
+  const levels = place.monsters.flatMap((m) => m.location.levels);
+  return levels.length ? Math.min(...levels) : null;
+}
+
+/**
+ * Places that share a wiki page, like the floors of the Slayer Tower: `areas`
+ * are its places, most spawns first. Most regions have one area.
+ */
+export interface Region {
+  name: string;
+  page: string | null;
+  spawns: number | null;
+  areas: Place[];
+}
+
+/** `places` grouped by the wiki page they link, in the order of their first place. */
+export function regionsOf(places: Place[]): Region[] {
+  const byPage = new Map<string, Region>();
+  for (const place of places) {
+    const key = (place.page ?? place.name).toLowerCase();
+    const region = byPage.get(key) ?? {
+      name: place.page ?? place.name,
+      page: place.page,
+      spawns: null,
+      areas: [],
+    };
+    byPage.set(key, region);
+    region.areas.push(place);
+    if (place.spawns !== null) region.spawns = (region.spawns ?? 0) + place.spawns;
+  }
+  return [...byPage.values()];
+}
+
+/**
+ * A place's name within its region: "Slayer Tower (floor 2)" -> "Floor 2",
+ * "Brimhaven Dungeon upper level" -> "Upper level". The whole name when it
+ * doesn't start with the region's.
+ */
+export function areaName(region: Region, place: Place): string {
+  const lower = place.name.toLowerCase();
+  const prefix = region.name.toLowerCase();
+  if (!lower.startsWith(prefix) || lower === prefix) return place.name;
+  const rest = place.name
+    .slice(prefix.length)
+    .replace(/^[\s,:-]*\(?|\)?\s*$/g, '')
+    .trim();
+  return rest ? rest[0].toUpperCase() + rest.slice(1) : place.name;
+}
+
+/** "Troll Stronghold (location)" -> "troll stronghold": how masters' tables name places. */
+const placeKey = (page: string) => page.replace(/ \(location\)$/, '').toLowerCase();
+
+/** Whether a master's listed places (`Assignment.locations`) include this one. */
+export function isListed(place: Place, listed: string[]): boolean {
+  const keys = new Set(listed.map(placeKey));
+  return keys.has(place.name.toLowerCase()) || (!!place.page && keys.has(placeKey(place.page)));
+}

@@ -90,13 +90,13 @@ describe('CategoryPage', () => {
   it('shows who assigns it', async () => {
     renderRoute('/categories/abyssal-demons');
     await rows('Abyssal demons monsters');
-    expect(masterNames('Assigned by')).toEqual(['Vannaka', 'Duradel']);
+    expect(masterNames('Assigned by')).toEqual(['Vannaka', 'Konar quo Maten', 'Duradel']);
   });
 
   it('shows only the other masters when the user came from one', async () => {
     renderRoute('/categories/abyssal-demons?master=duradel');
     await screen.findAllByRole('table');
-    expect(masterNames('Also assigned by')).toEqual(['Vannaka']);
+    expect(masterNames('Also assigned by')).toEqual(['Vannaka', 'Konar quo Maten']);
   });
 
   it('has no masters section when no other master assigns it', async () => {

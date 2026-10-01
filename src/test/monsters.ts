@@ -201,7 +201,7 @@ export const categoriesFixture: CategoriesFile = {
     category(
       'abyssal demons',
       ['abyssal-demon', 'abyssal-sire', 'greater-abyssal-demon'],
-      ['vannaka', 'duradel'],
+      ['vannaka', 'konar', 'duradel'],
       {
         slayerLevel: 85,
         icon: 'icons/abyssal-demons.png',
