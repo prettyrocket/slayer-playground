@@ -42,7 +42,7 @@ export function categorySlug(name: string): string {
 function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesFile]): Catalog {
   const bySlug = new Map(monsters.map((m) => [m.slug, m]));
   return {
-    // From categories.json: which monsters count (no Deadman or minigame copies),
+    // From categories.json: which monsters count (none that can't be picked for a task),
     // which masters assign it, and categories no monster page has, like
     // Krystilia's wilderness bosses.
     categories: categories

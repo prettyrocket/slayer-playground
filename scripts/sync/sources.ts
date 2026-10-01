@@ -181,3 +181,51 @@ export function fetchDrops(client: WikiClient): Promise<RawDrop[]> {
     'page_name_sub',
   );
 }
+
+/**
+ * Each page's visible wiki categories ("Quest monsters", "Discontinued
+ * content", ...), `MAX_TITLES_PER_REQUEST` pages per request, following
+ * `clcontinue` when a batch has more than one response holds. Keyed by the
+ * title as given.
+ */
+export async function fetchPageCategories(
+  client: WikiClient,
+  pages: string[],
+): Promise<Map<string, string[]>> {
+  const out = new Map<string, string[]>();
+  for (let i = 0; i < pages.length; i += MAX_TITLES_PER_REQUEST) {
+    const chunk = pages.slice(i, i + MAX_TITLES_PER_REQUEST);
+    for (let next: string | undefined = undefined, first = true; first || next; first = false) {
+      const res: {
+        continue?: { clcontinue?: string };
+        query?: {
+          normalized?: { from: string; to: string }[];
+          redirects?: { from: string; to: string }[];
+          pages?: { title: string; categories?: { title: string }[] }[];
+        };
+      } = await client.get({
+        action: 'query',
+        prop: 'categories',
+        clshow: '!hidden',
+        cllimit: 'max',
+        redirects: '1',
+        titles: chunk.join('|'),
+        ...(next ? { clcontinue: next } : {}),
+      });
+      const asGiven = new Map<string, string>();
+      for (const { from, to } of [
+        ...(res.query?.normalized ?? []),
+        ...(res.query?.redirects ?? []),
+      ]) {
+        asGiven.set(to, asGiven.get(from) ?? from);
+      }
+      for (const page of res.query?.pages ?? []) {
+        const title = asGiven.get(page.title) ?? page.title;
+        const names = (page.categories ?? []).map((c) => c.title.replace(/^Category:/, ''));
+        out.set(title, [...(out.get(title) ?? []), ...names]);
+      }
+      next = res.continue?.clcontinue;
+    }
+  }
+  return out;
+}

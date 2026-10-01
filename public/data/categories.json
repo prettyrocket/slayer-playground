@@ -9,8 +9,6 @@
       "monsters": [
         "aberrant-spectre",
         "abhorrent-spectre",
-        "bloodthirsty-repugnant-spectre",
-        "bloodthirsty-spectre",
         "deviant-spectre",
         "repugnant-spectre"
       ],
@@ -31,8 +29,6 @@
           "monsters": [
             "aberrant-spectre",
             "abhorrent-spectre",
-            "bloodthirsty-repugnant-spectre",
-            "bloodthirsty-spectre",
             "deviant-spectre",
             "repugnant-spectre"
           ]
@@ -48,10 +44,8 @@
       "monsters": [
         "abyssal-demon",
         "abyssal-sire",
-        "bloodthirsty-abyssal-demon",
         "greater-abyssal-demon",
-        "reanimated-abyssal",
-        "respiratory-system"
+        "reanimated-abyssal"
       ],
       "masters": [
         "vannaka",
@@ -73,8 +67,7 @@
       "icon": "icons/ankou.png",
       "page": "Slayer task/Ankou",
       "monsters": [
-        "ankou",
-        "dark-ankou"
+        "ankou"
       ],
       "masters": [
         "vannaka",
@@ -120,9 +113,7 @@
         "acidic-araxyte",
         "araxxor",
         "araxyte",
-        "dreadborn-araxyte",
-        "mirrorback-araxyte",
-        "ruptura-araxyte"
+        "dreadborn-araxyte"
       ],
       "masters": [
         "nieve",
@@ -188,8 +179,6 @@
       "page": "Slayer task/Banshees",
       "monsters": [
         "banshee",
-        "bloodthirsty-banshee",
-        "bloodthirsty-twisted-banshee",
         "screaming-banshee",
         "screaming-twisted-banshee",
         "twisted-banshee"
@@ -208,8 +197,6 @@
           "use": "Protecting against Banshees",
           "monsters": [
             "banshee",
-            "bloodthirsty-banshee",
-            "bloodthirsty-twisted-banshee",
             "screaming-banshee",
             "screaming-twisted-banshee",
             "twisted-banshee"
@@ -227,14 +214,7 @@
         "basilisk",
         "basilisk-knight",
         "basilisk-sentinel",
-        "basilisk-the-fremennik-exiles",
-        "basilisk-youngling",
-        "bloodthirsty-basilisk",
-        "bloodthirsty-basilisk-sentinel",
-        "monstrous-basilisk",
-        "monstrous-basilisk-the-fremennik-exiles",
-        "the-jormungand",
-        "typhor"
+        "monstrous-basilisk"
       ],
       "masters": [
         "vannaka",
@@ -256,12 +236,7 @@
             "basilisk",
             "basilisk-knight",
             "basilisk-sentinel",
-            "basilisk-the-fremennik-exiles",
-            "basilisk-youngling",
-            "bloodthirsty-basilisk",
-            "bloodthirsty-basilisk-sentinel",
-            "monstrous-basilisk",
-            "monstrous-basilisk-the-fremennik-exiles"
+            "monstrous-basilisk"
           ]
         }
       ]
@@ -321,7 +296,6 @@
       "icon": "icons/birds.png",
       "page": "Slayer task/Birds",
       "monsters": [
-        "baby-roc",
         "bird",
         "chicken",
         "chompy-bird",
@@ -329,9 +303,6 @@
         "duckling",
         "entrana-firebird",
         "evil-chicken",
-        "evil-chicken-recipe-for-disaster",
-        "giant-roc",
-        "large-chicken",
         "mounted-terrorbird-gnome",
         "oomlie-bird",
         "penguin-monster",
@@ -359,14 +330,7 @@
       "monsters": [
         "balfrug-kreeyath",
         "black-demon",
-        "black-demon-the-grand-tree",
-        "black-demon-the-scar",
-        "demon-of-balance",
-        "demon-of-darkness",
-        "demon-of-light",
         "demonic-gorilla",
-        "kolodion",
-        "porazdir",
         "skotizo"
       ],
       "masters": [
@@ -427,8 +391,6 @@
       "icon": "icons/bloodveld.png",
       "page": "Slayer task/Bloodveld",
       "monsters": [
-        "bloodthirsty-bloodveld",
-        "bloodthirsty-mutated-bloodveld",
         "bloodveld",
         "insatiable-bloodveld",
         "insatiable-mutated-bloodveld",
@@ -497,7 +459,6 @@
         "dagannoth-rex",
         "dagannoth-supreme",
         "dawn",
-        "definitely-not-dusk",
         "deranged-archaeologist",
         "dharok-the-wretched",
         "doom-of-mokhaiotl",
@@ -514,7 +475,6 @@
         "kril-tsutsaroth",
         "maggot-king",
         "phantom-muspah",
-        "respiratory-system",
         "sarachnis",
         "scorpia",
         "shellbane-gryphon",
@@ -609,7 +569,6 @@
       "icon": "icons/cave-crawlers.png",
       "page": null,
       "monsters": [
-        "bloodthirsty-crawler",
         "cave-crawler",
         "chasm-crawler"
       ],
@@ -630,7 +589,6 @@
       "icon": "icons/cave-horrors.png",
       "page": "Slayer task/Cave horrors",
       "monsters": [
-        "bloodthirsty-abomination",
         "cave-abomination",
         "cave-horror"
       ],
@@ -722,7 +680,6 @@
       "icon": "icons/cockatrice.png",
       "page": null,
       "monsters": [
-        "bloodthirsty-cockathrice",
         "cockathrice",
         "cockatrice",
         "moonlight-cockatrice"
@@ -799,7 +756,6 @@
       "icon": "icons/crawling-hands.png",
       "page": null,
       "monsters": [
-        "bloodthirsty-hand",
         "crawling-hand",
         "crushing-hand"
       ],
@@ -841,8 +797,7 @@
         "ancient-custodian",
         "elder-custodian-stalker",
         "juvenile-custodian-stalker",
-        "mature-custodian-stalker",
-        "strange-creature-shadows-of-custodia"
+        "mature-custodian-stalker"
       ],
       "masters": [
         "chaeldar",
@@ -863,7 +818,6 @@
         "blue-dagannoth",
         "dagannoth",
         "dagannoth-fledgeling",
-        "dagannoth-mother",
         "dagannoth-prime",
         "dagannoth-rex",
         "dagannoth-spawn",
@@ -891,7 +845,6 @@
       "icon": "icons/dark-beasts.png",
       "page": "Slayer task/Dark beast",
       "monsters": [
-        "bloodthirsty-night-beast",
         "dark-beast",
         "night-beast"
       ],
@@ -951,7 +904,6 @@
       "icon": "icons/drakes.png",
       "page": "Slayer task/Drakes",
       "monsters": [
-        "bloodthirsty-drake",
         "drake",
         "guardian-drake"
       ],
@@ -972,7 +924,6 @@
       "icon": "icons/dust-devils.png",
       "page": "Slayer task/Dust devils",
       "monsters": [
-        "bloodthirsty-choke-devil",
         "choke-devil",
         "dust-devil"
       ],
@@ -992,7 +943,6 @@
           "item": "Facemask",
           "use": "Protecting against the environment within the Smoke Dungeon, and against Dust devils' attacks",
           "monsters": [
-            "bloodthirsty-choke-devil",
             "choke-devil",
             "dust-devil"
           ]
@@ -1187,9 +1137,7 @@
       "icon": "icons/gargoyles.png",
       "page": "Slayer task/Gargoyles",
       "monsters": [
-        "bloodthirsty-gargoyle",
         "dawn",
-        "definitely-not-dusk",
         "dusk",
         "gargoyle",
         "marble-gargoyle"
@@ -1209,7 +1157,6 @@
           "item": "Rock hammer",
           "use": "Finishing off Gargoyles (this item is not equipable)",
           "monsters": [
-            "bloodthirsty-gargoyle",
             "gargoyle",
             "marble-gargoyle"
           ]
@@ -1218,7 +1165,6 @@
           "item": "Rock thrownhammer",
           "use": "Finishing off Gargoyles (one per gargoyle - this item is not equipable)",
           "monsters": [
-            "bloodthirsty-gargoyle",
             "gargoyle",
             "marble-gargoyle"
           ]
@@ -1238,7 +1184,6 @@
         "ghost-grave-of-scorpius",
         "ghost-melzars-maze",
         "haze",
-        "nazastarool",
         "revenant-cyclops",
         "revenant-dark-beast",
         "revenant-demon",
@@ -1251,9 +1196,7 @@
         "revenant-maledictus",
         "revenant-ork",
         "revenant-pyrefiend",
-        "tortured-soul",
-        "tree-spirit-lost-city",
-        "treus-dayth"
+        "tortured-soul"
       ],
       "masters": [
         "turael",
@@ -1291,23 +1234,16 @@
         "cave-goblin-guard",
         "cave-goblin-miner",
         "cave-goblin-monster",
-        "giant-goblin",
         "goblin",
         "goblin-goblin-village",
         "goblin-god-wars-dungeon",
         "goblin-guard",
         "goblin-vault-of-war",
         "guard-cave-goblin",
-        "mosschin",
         "reanimated-goblin",
-        "redeyes",
         "sergeant-grimspike",
         "sergeant-steelwill",
         "sergeant-strongstack",
-        "skoblin",
-        "snailfeet",
-        "snothead",
-        "strongbones",
         "wormbrain"
       ],
       "masters": [
@@ -1326,8 +1262,6 @@
       "page": "Slayer task/Greater demons",
       "monsters": [
         "greater-demon",
-        "greater-demon-the-scar",
-        "judge-of-yama-a-kingdom-divided",
         "kril-tsutsaroth",
         "skotizo",
         "tormented-demon",
@@ -1351,7 +1285,6 @@
       "icon": "icons/green-dragons.png",
       "page": "Slayer task/Green dragons",
       "monsters": [
-        "elvarg",
         "green-dragon"
       ],
       "masters": [
@@ -1370,7 +1303,6 @@
       "monsters": [
         "dire-gryphon",
         "gryphon",
-        "gryphon-troubled-tortugans",
         "shellbane-gryphon"
       ],
       "masters": [
@@ -1391,7 +1323,6 @@
           "monsters": [
             "dire-gryphon",
             "gryphon",
-            "gryphon-troubled-tortugans",
             "shellbane-gryphon"
           ]
         }
@@ -1428,15 +1359,9 @@
       "icon": "icons/hellhounds.png",
       "page": "Slayer task/Hellhounds",
       "monsters": [
-        "bouncer",
         "cerberus",
-        "greater-skeleton-hellhound-calvarion",
-        "greater-skeleton-hellhound-vetion",
         "hellhound",
-        "reanimated-hellhound",
-        "skeleton-hellhound",
-        "skeleton-hellhound-calvarion",
-        "skeleton-hellhound-vetion"
+        "reanimated-hellhound"
       ],
       "masters": [
         "vannaka",
@@ -1500,7 +1425,6 @@
       "page": "Slayer task/Hydras",
       "monsters": [
         "alchemical-hydra",
-        "bloodthirsty-hydra",
         "colossal-hydra",
         "hydra"
       ],
@@ -1538,8 +1462,7 @@
       "page": null,
       "monsters": [
         "ice-warrior",
-        "icelord",
-        "kamil"
+        "icelord"
       ],
       "masters": [
         "mazchna",
@@ -1574,7 +1497,6 @@
       "icon": "icons/infernal-mages.png",
       "page": null,
       "monsters": [
-        "bloodthirsty-mage",
         "infernal-mage",
         "malevolent-mage"
       ],
@@ -1593,8 +1515,6 @@
       "icon": "icons/jellies.png",
       "page": "Slayer task/Jellies",
       "monsters": [
-        "bloodthirsty-jelly",
-        "bloodthirsty-warped-jelly",
         "chilled-jelly",
         "jelly",
         "vitreous-chilled-jelly",
@@ -1693,7 +1613,6 @@
       "icon": "icons/kurask.png",
       "page": "Slayer task/Kurasks",
       "monsters": [
-        "bloodthirsty-kurask",
         "king-kurask",
         "kurask"
       ],
@@ -1712,7 +1631,6 @@
           "item": "Leaf-bladed spear",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-kurask",
             "king-kurask",
             "kurask"
           ]
@@ -1721,7 +1639,6 @@
           "item": "Leaf-bladed sword",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-kurask",
             "king-kurask",
             "kurask"
           ]
@@ -1730,7 +1647,6 @@
           "item": "Leaf-bladed battleaxe",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-kurask",
             "king-kurask",
             "kurask"
           ]
@@ -1739,7 +1655,6 @@
           "item": "Broad arrows",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-kurask",
             "king-kurask",
             "kurask"
           ]
@@ -1748,7 +1663,6 @@
           "item": "Broad bolts",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-kurask",
             "king-kurask",
             "kurask"
           ]
@@ -1782,7 +1696,6 @@
       "monsters": [
         "lesser-demon",
         "lesser-demon-melzars-maze",
-        "lesser-demon-the-scar",
         "reanimated-demon",
         "zakln-gritch"
       ],
@@ -1805,8 +1718,7 @@
         "amoxliatl",
         "earthen-nagua",
         "frost-nagua",
-        "sulphur-nagua",
-        "sulphur-nagua-perilous-moons"
+        "sulphur-nagua"
       ],
       "masters": [
         "chaeldar",
@@ -1823,11 +1735,9 @@
       "icon": "icons/lizardmen.png",
       "page": "Slayer task/Lizardmen",
       "monsters": [
-        "corrupt-lizardman",
         "lizardman",
         "lizardman-brute",
-        "lizardman-shaman",
-        "lizardman-shaman-chambers-of-xeric"
+        "lizardman-shaman"
       ],
       "masters": [
         "chaeldar",
@@ -1844,8 +1754,7 @@
           "item": "Shayzien armour",
           "use": "Protecting from the poison attack of the lizardman shamans",
           "monsters": [
-            "lizardman-shaman",
-            "lizardman-shaman-chambers-of-xeric"
+            "lizardman-shaman"
           ]
         }
       ]
@@ -2013,7 +1922,6 @@
       "page": "Slayer task/Monkeys",
       "monsters": [
         "demonic-gorilla",
-        "duke-monkey",
         "maniacal-monkey",
         "maniacal-monkey-archer",
         "monkey-archer",
@@ -2093,7 +2001,6 @@
       "icon": "icons/nechryael.png",
       "page": "Slayer task/Nechryael",
       "monsters": [
-        "bloodthirsty-nechryarch",
         "greater-nechryael",
         "nechryael",
         "nechryarch"
@@ -2188,8 +2095,6 @@
       "icon": "icons/pyrefiends.png",
       "page": "Slayer task/Pyrefiends",
       "monsters": [
-        "bloodthirsty-infernal-pyrelord",
-        "bloodthirsty-pyrelord",
         "flaming-pyrelord",
         "infernal-pyrelord",
         "pyrefiend",
@@ -2217,7 +2122,6 @@
         "dungeon-rat",
         "giant-crypt-rat",
         "giant-rat",
-        "giant-rat-scurrius",
         "rat",
         "scurrius",
         "zombie-rat"
@@ -2286,7 +2190,6 @@
       "icon": "icons/rockslugs.png",
       "page": null,
       "monsters": [
-        "bloodthirst-rockslug",
         "giant-rockslug",
         "rockslug"
       ],
@@ -2301,7 +2204,6 @@
           "item": "Bag of salt",
           "use": "Finishing off Rock slugs (one per slug)",
           "monsters": [
-            "bloodthirst-rockslug",
             "giant-rockslug",
             "rockslug"
           ]
@@ -2331,7 +2233,6 @@
       "icon": "icons/scabarites.png",
       "page": "Slayer task/Scabarites",
       "monsters": [
-        "giant-scarab",
         "locust-rider",
         "scarab-mage",
         "scarab-swarm",
@@ -2353,7 +2254,6 @@
       "page": "Slayer task/Scorpions",
       "monsters": [
         "giant-lobster",
-        "giant-lobster-ghosts-ahoy",
         "grave-scorpion",
         "king-scorpion",
         "lobstrosity",
@@ -2361,7 +2261,6 @@
         "poison-scorpion",
         "reanimated-scorpion",
         "scorpia",
-        "scorpias-guardian",
         "scorpias-offspring-monster",
         "scorpion"
       ],
@@ -2382,7 +2281,6 @@
       "icon": "icons/sea-snakes.png",
       "page": "Slayer task/Sea snakes",
       "monsters": [
-        "giant-sea-snake",
         "sea-snake-hatchling",
         "sea-snake-young"
       ],
@@ -2401,14 +2299,11 @@
       "page": "Slayer task/Shades",
       "monsters": [
         "asyn-shade",
-        "asyn-shadow-temple-trekking",
         "fiyr-shade",
         "loar-shade",
         "phrin-shade",
         "riyl-shade",
-        "riyl-shadow-temple-trekking",
         "shade",
-        "shade-temple-trekking",
         "urium-shade"
       ],
       "masters": [
@@ -2465,13 +2360,7 @@
         "calvarion",
         "giant-skeleton-shadow-dungeon",
         "giant-skeleton-tarns-lair",
-        "greater-skeleton-hellhound-calvarion",
-        "greater-skeleton-hellhound-vetion",
-        "mosschin",
-        "nazastarool",
-        "redeyes",
         "skeletal-miner",
-        "skeletal-mystic",
         "skeleton",
         "skeleton-ape-atoll",
         "skeleton-barrows",
@@ -2481,8 +2370,6 @@
         "skeleton-forthos-ruin",
         "skeleton-fremennik",
         "skeleton-heavy",
-        "skeleton-hellhound-calvarion",
-        "skeleton-hellhound-vetion",
         "skeleton-hero",
         "skeleton-luciens-camp",
         "skeleton-mage",
@@ -2491,16 +2378,10 @@
         "skeleton-shayzien-crypts",
         "skeleton-stronghold-of-security",
         "skeleton-tarns-lair",
-        "skeleton-the-restless-ghost",
         "skeleton-thug",
         "skeleton-warlord",
         "skeleton-wilderness-agility-course",
-        "skoblin",
         "skogre",
-        "snailfeet",
-        "snothead",
-        "strongbones",
-        "ulfric",
         "undead-one",
         "vetion"
       ],
@@ -2521,7 +2402,6 @@
       "icon": "icons/smoke-devils.png",
       "page": "Slayer task/Smoke devils",
       "monsters": [
-        "bloodthirsty-smoke-devil",
         "nuclear-smoke-devil",
         "smoke-devil",
         "thermonuclear-smoke-devil"
@@ -2579,13 +2459,10 @@
         "ice-spider",
         "jungle-spider",
         "jungle-spider-ape-atoll",
-        "mirrorback-araxyte",
         "poison-spider",
         "poison-spider-escape-caves",
-        "ruptura-araxyte",
         "sarachnis",
         "shadow-spider",
-        "spawn-of-sarachnis",
         "spider",
         "spider-ape-atoll",
         "spider-ungael",
@@ -2666,13 +2543,9 @@
       "icon": "icons/trolls.png",
       "page": "Slayer task/Trolls",
       "monsters": [
-        "arrg",
         "berry",
         "chuck-up",
-        "dad",
         "daddys-special-water",
-        "dinky-the-drink-troll",
-        "drink-troll",
         "frenzied-ice-troll-female",
         "frenzied-ice-troll-grunt",
         "frenzied-ice-troll-male",
@@ -2680,7 +2553,6 @@
         "ice-troll",
         "ice-troll-female",
         "ice-troll-grunt",
-        "ice-troll-king",
         "ice-troll-male",
         "ice-troll-runt",
         "kraka",
@@ -2688,7 +2560,6 @@
         "pee-hat",
         "reanimated-troll",
         "river-troll",
-        "river-troll-random-event",
         "rock-troll",
         "stick",
         "the-rocks",
@@ -2716,7 +2587,6 @@
       "icon": "icons/turoth.png",
       "page": "Slayer task/Turoth",
       "monsters": [
-        "bloodthirsty-turoth",
         "spiked-turoth",
         "turoth"
       ],
@@ -2734,7 +2604,6 @@
           "item": "Leaf-bladed spear",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-turoth",
             "spiked-turoth",
             "turoth"
           ]
@@ -2743,7 +2612,6 @@
           "item": "Leaf-bladed sword",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-turoth",
             "spiked-turoth",
             "turoth"
           ]
@@ -2752,7 +2620,6 @@
           "item": "Leaf-bladed battleaxe",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-turoth",
             "spiked-turoth",
             "turoth"
           ]
@@ -2761,7 +2628,6 @@
           "item": "Broad arrows",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-turoth",
             "spiked-turoth",
             "turoth"
           ]
@@ -2770,7 +2636,6 @@
           "item": "Broad bolts",
           "use": "Killing Turoths and Kurasks",
           "monsters": [
-            "bloodthirsty-turoth",
             "spiked-turoth",
             "turoth"
           ]
@@ -2784,31 +2649,13 @@
       "icon": "icons/tzhaar.png",
       "page": "Slayer task/TzHaar",
       "monsters": [
-        "jal-ak",
-        "jal-akrek-ket",
-        "jal-akrek-mej",
-        "jal-akrek-xil",
-        "jal-imkot",
-        "jal-mejjak",
-        "jal-mejrah",
-        "jal-nib",
-        "jal-xil",
-        "jal-zek",
-        "jaltok-jad",
-        "ket-zek",
         "reanimated-tzhaar",
-        "tok-xil",
-        "tz-kek",
-        "tz-kih",
         "tzhaar-hur",
         "tzhaar-ket",
         "tzhaar-mej",
         "tzhaar-xil",
         "tzkal-zuk",
-        "tztok-jad",
-        "tztok-jad-rek",
-        "yt-hurkot",
-        "yt-mejkot"
+        "tztok-jad"
       ],
       "masters": [
         "chaeldar",
@@ -2843,15 +2690,10 @@
       "page": "Slayer task/Vampyres",
       "monsters": [
         "blood-starved-venator",
-        "count-draynor",
         "damien-leucurte",
-        "dessous",
         "feral-vampyre",
-        "kroy",
-        "ranis-drakan",
         "vampyre-juvenile",
         "vampyre-juvinate",
-        "vanstrom-klause",
         "venator",
         "vyrewatch",
         "vyrewatch-sentinel"
@@ -3043,7 +2885,6 @@
       "icon": "icons/wyrms.png",
       "page": "Slayer task/Wyrms",
       "monsters": [
-        "bloodthirsty-shadow-wyrm",
         "lava-strykewyrm",
         "magma-strykewyrm",
         "shadow-wyrm",
@@ -3073,15 +2914,12 @@
         "armoured-zombie-zemouregals-base",
         "armoured-zombie-zemouregals-fort",
         "monkey-zombie",
-        "nazastarool",
         "skogre",
-        "slash-bash",
         "sorebones",
         "summoned-zombie",
         "undead-chicken",
         "undead-cow",
         "undead-druid",
-        "undead-lumberjack",
         "undead-one",
         "vorkath",
         "zogre",
@@ -3098,9 +2936,7 @@
         "zombie-stronghold-of-security",
         "zombie-swab",
         "zombie-tarns-lair",
-        "zombie-temple-trekking",
-        "zombie-wilderness",
-        "zombie-zogre-flesh-eaters"
+        "zombie-wilderness"
       ],
       "masters": [
         "turael",

@@ -164,6 +164,14 @@ describe('MonsterPage', () => {
     ).toHaveAttribute('href', 'https://oldschool.runescape.wiki/w/Greater_abyssal_demon');
   });
 
+  it("has no Counts for when it can't be picked for a task", async () => {
+    renderRoute('/monsters/abyssal-sire-deadman');
+    expect(
+      await screen.findByRole('heading', { level: 1, name: /Abyssal Sire \(Deadman\)/ }),
+    ).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Counts for' })).not.toBeInTheDocument();
+  });
+
   it('says when a monster has no drops', async () => {
     renderRoute('/monsters/cow');
     expect(await screen.findByText('No drops.')).toBeInTheDocument();

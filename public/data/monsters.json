@@ -1710,69 +1710,6 @@
             "burn": null,
             "freeze": 100
           }
-        },
-        {
-          "version": "Quest",
-          "isDefault": false,
-          "name": "Amoxliatl",
-          "image": "Amoxliatl.png",
-          "npcIds": [
-            13686
-          ],
-          "examine": "A powerful frost nagua.",
-          "combatLevel": 226,
-          "hitpoints": 400,
-          "maxHit": [
-            "16 (standard)",
-            "? (Icicle Crash)"
-          ],
-          "attackStyles": [
-            "Magic"
-          ],
-          "attackSpeed": 8,
-          "size": 3,
-          "attributes": [
-            "spectral"
-          ],
-          "slayerLevel": 48,
-          "slayerXp": 420,
-          "levels": {
-            "attack": 0,
-            "strength": 0,
-            "defence": 60,
-            "ranged": 0,
-            "magic": 140
-          },
-          "offence": {
-            "attack": 0,
-            "strength": 0,
-            "magic": 140,
-            "magicDamage": 5,
-            "ranged": 0,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 100,
-            "slash": 100,
-            "crush": 40,
-            "magic": 100,
-            "ranged": null,
-            "lightRanged": 200,
-            "standardRanged": 200,
-            "heavyRanged": 200
-          },
-          "weakness": {
-            "element": "Fire",
-            "percent": 30
-          },
-          "immunities": {
-            "poison": "100",
-            "venom": "100",
-            "cannon": true,
-            "thrall": null,
-            "burn": null,
-            "freeze": 100
-          }
         }
       ],
       "locations": [
@@ -1793,9 +1730,7 @@
       "slug": "amoxliatl-echo",
       "page": "Amoxliatl (Echo)",
       "slayerLevel": 48,
-      "categories": [
-        "lesser nagua"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar"
@@ -4092,9 +4027,7 @@
       "slug": "arrg",
       "page": "Arrg",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -4190,9 +4123,7 @@
       "slug": "arrg-nightmare-zone",
       "page": "Arrg (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -4595,9 +4526,7 @@
       "slug": "asyn-shadow-temple-trekking",
       "page": "Asyn shadow (Temple Trekking)",
       "slayerLevel": null,
-      "categories": [
-        "shades"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka"
@@ -6507,9 +6436,7 @@
       "slug": "baby-roc",
       "page": "Baby Roc",
       "slayerLevel": null,
-      "categories": [
-        "birds"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -7236,9 +7163,7 @@
       "slug": "basilisk-the-fremennik-exiles",
       "page": "Basilisk (The Fremennik Exiles)",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -7382,9 +7307,7 @@
       "slug": "basilisk-unused",
       "page": "Basilisk (unused)",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -7466,9 +7389,7 @@
       "slug": "basilisk-youngling",
       "page": "Basilisk Youngling",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -8981,9 +8902,7 @@
       "slug": "black-demon-nightmare-zone",
       "page": "Black demon (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -9129,9 +9048,7 @@
       "slug": "black-demon-the-grand-tree",
       "page": "Black demon (The Grand Tree)",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -9215,9 +9132,7 @@
       "slug": "black-demon-the-scar",
       "page": "Black demon (The Scar)",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -11123,9 +11038,7 @@
       "slug": "bloodthirst-rockslug",
       "page": "Bloodthirst rockslug",
       "slayerLevel": 20,
-      "categories": [
-        "rockslugs"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -11200,9 +11113,7 @@
       "slug": "bloodthirsty-abomination",
       "page": "Bloodthirsty abomination",
       "slayerLevel": 58,
-      "categories": [
-        "cave horrors"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -11277,9 +11188,7 @@
       "slug": "bloodthirsty-abyssal-demon",
       "page": "Bloodthirsty abyssal demon",
       "slayerLevel": 85,
-      "categories": [
-        "abyssal demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -11360,9 +11269,7 @@
       "slug": "bloodthirsty-banshee",
       "page": "Bloodthirsty banshee",
       "slayerLevel": 15,
-      "categories": [
-        "banshees"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -11442,9 +11349,7 @@
       "slug": "bloodthirsty-basilisk",
       "page": "Bloodthirsty basilisk",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -11523,9 +11428,7 @@
       "slug": "bloodthirsty-basilisk-sentinel",
       "page": "Bloodthirsty Basilisk Sentinel",
       "slayerLevel": 60,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -11605,9 +11508,7 @@
       "slug": "bloodthirsty-bloodveld",
       "page": "Bloodthirsty Bloodveld",
       "slayerLevel": 50,
-      "categories": [
-        "bloodveld"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -11688,9 +11589,7 @@
       "slug": "bloodthirsty-choke-devil",
       "page": "Bloodthirsty choke devil",
       "slayerLevel": 65,
-      "categories": [
-        "dust devils"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -11767,9 +11666,7 @@
       "slug": "bloodthirsty-cockathrice",
       "page": "Bloodthirsty Cockathrice",
       "slayerLevel": 25,
-      "categories": [
-        "cockatrice"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -11846,9 +11743,7 @@
       "slug": "bloodthirsty-crawler",
       "page": "Bloodthirsty Crawler",
       "slayerLevel": 10,
-      "categories": [
-        "cave crawlers"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -11925,9 +11820,7 @@
       "slug": "bloodthirsty-drake",
       "page": "Bloodthirsty Drake",
       "slayerLevel": 84,
-      "categories": [
-        "drakes"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -12007,9 +11900,7 @@
       "slug": "bloodthirsty-gargoyle",
       "page": "Bloodthirsty gargoyle",
       "slayerLevel": 75,
-      "categories": [
-        "gargoyles"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -12089,9 +11980,7 @@
       "slug": "bloodthirsty-hand",
       "page": "Bloodthirsty hand",
       "slayerLevel": 5,
-      "categories": [
-        "crawling hands"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -12169,9 +12058,7 @@
       "slug": "bloodthirsty-hydra",
       "page": "Bloodthirsty Hydra",
       "slayerLevel": 95,
-      "categories": [
-        "hydras"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar"
       ],
@@ -12249,9 +12136,7 @@
       "slug": "bloodthirsty-infernal-pyrelord",
       "page": "Bloodthirsty Infernal pyrelord",
       "slayerLevel": 30,
-      "categories": [
-        "pyrefiends"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -12328,9 +12213,7 @@
       "slug": "bloodthirsty-jelly",
       "page": "Bloodthirsty Jelly",
       "slayerLevel": 52,
-      "categories": [
-        "jellies"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -12407,9 +12290,7 @@
       "slug": "bloodthirsty-kurask",
       "page": "Bloodthirsty kurask",
       "slayerLevel": 70,
-      "categories": [
-        "kurask"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -12490,9 +12371,7 @@
       "slug": "bloodthirsty-mage",
       "page": "Bloodthirsty Mage",
       "slayerLevel": 45,
-      "categories": [
-        "infernal mages"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar"
@@ -12566,9 +12445,7 @@
       "slug": "bloodthirsty-mutated-bloodveld",
       "page": "Bloodthirsty mutated Bloodveld",
       "slayerLevel": 50,
-      "categories": [
-        "bloodveld"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -12649,9 +12526,7 @@
       "slug": "bloodthirsty-nechryarch",
       "page": "Bloodthirsty Nechryarch",
       "slayerLevel": 80,
-      "categories": [
-        "nechryael"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -12732,9 +12607,7 @@
       "slug": "bloodthirsty-night-beast",
       "page": "Bloodthirsty Night beast",
       "slayerLevel": 90,
-      "categories": [
-        "dark beasts"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -12812,9 +12685,7 @@
       "slug": "bloodthirsty-pyrelord",
       "page": "Bloodthirsty pyrelord",
       "slayerLevel": 30,
-      "categories": [
-        "pyrefiends"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -12891,9 +12762,7 @@
       "slug": "bloodthirsty-repugnant-spectre",
       "page": "Bloodthirsty Repugnant spectre",
       "slayerLevel": 60,
-      "categories": [
-        "aberrant spectres"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -12973,9 +12842,7 @@
       "slug": "bloodthirsty-shadow-wyrm",
       "page": "Bloodthirsty Shadow Wyrm",
       "slayerLevel": 62,
-      "categories": [
-        "wyrms"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -13116,9 +12983,7 @@
       "slug": "bloodthirsty-smoke-devil",
       "page": "Bloodthirsty smoke devil",
       "slayerLevel": 93,
-      "categories": [
-        "smoke devils"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -13195,9 +13060,7 @@
       "slug": "bloodthirsty-spectre",
       "page": "Bloodthirsty spectre",
       "slayerLevel": 60,
-      "categories": [
-        "aberrant spectres"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -13277,9 +13140,7 @@
       "slug": "bloodthirsty-turoth",
       "page": "Bloodthirsty Turoth",
       "slayerLevel": 55,
-      "categories": [
-        "turoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -13359,9 +13220,7 @@
       "slug": "bloodthirsty-twisted-banshee",
       "page": "Bloodthirsty twisted banshee",
       "slayerLevel": 15,
-      "categories": [
-        "banshees"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -13441,9 +13300,7 @@
       "slug": "bloodthirsty-warped-jelly",
       "page": "Bloodthirsty Warped Jelly",
       "slayerLevel": 52,
-      "categories": [
-        "jellies"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -14711,9 +14568,7 @@
       "slug": "bouncer",
       "page": "Bouncer",
       "slayerLevel": null,
-      "categories": [
-        "hellhounds"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -15940,10 +15795,7 @@
       "slug": "callisto-pvm-arena",
       "page": "Callisto (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bears",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -18676,10 +18528,7 @@
       "slug": "cerberus-deadman",
       "page": "Cerberus (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "hellhounds"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -18887,10 +18736,7 @@
       "slug": "cerberus-echo",
       "page": "Cerberus (Echo)",
       "slayerLevel": 91,
-      "categories": [
-        "bosses",
-        "hellhounds"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -19428,9 +19274,7 @@
       "slug": "chaos-elemental-pvm-arena",
       "page": "Chaos Elemental (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -20959,9 +20803,7 @@
       "slug": "cockatrice-unused",
       "page": "Cockatrice (unused)",
       "slayerLevel": 25,
-      "categories": [
-        "cockatrice"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka"
@@ -21213,9 +21055,7 @@
       "slug": "commander-zilyana-deadman",
       "page": "Commander Zilyana (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -21463,9 +21303,7 @@
       "slug": "commander-zilyana-pvm-arena",
       "page": "Commander Zilyana (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -21544,9 +21382,7 @@
       "slug": "corrupt-lizardman",
       "page": "Corrupt Lizardman",
       "slayerLevel": null,
-      "categories": [
-        "lizardmen"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -21624,9 +21460,7 @@
       "slug": "corrupt-lizardman-nightmare-zone",
       "page": "Corrupt Lizardman (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "lizardmen"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -21762,9 +21596,7 @@
       "slug": "count-draynor",
       "page": "Count Draynor",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -21846,9 +21678,7 @@
       "slug": "count-draynor-nightmare-zone",
       "page": "Count Draynor (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -24752,9 +24582,7 @@
       "slug": "dad",
       "page": "Dad",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -24847,9 +24675,7 @@
       "slug": "dad-nightmare-zone",
       "page": "Dad (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -25475,9 +25301,7 @@
       "slug": "dagannoth-mother",
       "page": "Dagannoth mother",
       "slayerLevel": null,
-      "categories": [
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -25569,9 +25393,7 @@
       "slug": "dagannoth-mother-nightmare-zone",
       "page": "Dagannoth mother (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -25835,10 +25657,7 @@
       "slug": "dagannoth-prime-deadman",
       "page": "Dagannoth Prime (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -26097,10 +25916,7 @@
       "slug": "dagannoth-prime-echo",
       "page": "Dagannoth Prime (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -26177,10 +25993,7 @@
       "slug": "dagannoth-prime-pvm-arena",
       "page": "Dagannoth Prime (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -26367,10 +26180,7 @@
       "slug": "dagannoth-rex-deadman",
       "page": "Dagannoth Rex (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -26629,10 +26439,7 @@
       "slug": "dagannoth-rex-echo",
       "page": "Dagannoth Rex (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -26709,10 +26516,7 @@
       "slug": "dagannoth-rex-pvm-arena",
       "page": "Dagannoth Rex (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -26995,10 +26799,7 @@
       "slug": "dagannoth-supreme-deadman",
       "page": "Dagannoth Supreme (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -27249,10 +27050,7 @@
       "slug": "dagannoth-supreme-echo",
       "page": "Dagannoth Supreme (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -27329,10 +27127,7 @@
       "slug": "dagannoth-supreme-pvm-arena",
       "page": "Dagannoth Supreme (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "dagannoth"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -27704,9 +27499,7 @@
       "slug": "dark-ankou",
       "page": "Dark Ankou",
       "slayerLevel": null,
-      "categories": [
-        "ankou"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "konar",
@@ -28344,10 +28137,7 @@
       "slug": "dawn-echo",
       "page": "Dawn (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "gargoyles"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": true,
@@ -28700,10 +28490,7 @@
       "slug": "definitely-not-dusk",
       "page": "Definitely Not Dusk",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "gargoyles"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": true,
@@ -28777,9 +28564,7 @@
       "slug": "demon-of-balance",
       "page": "Demon of Balance",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -28855,9 +28640,7 @@
       "slug": "demon-of-darkness",
       "page": "Demon of Darkness",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -28933,9 +28716,7 @@
       "slug": "demon-of-light",
       "page": "Demon of Light",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -29711,9 +29492,7 @@
       "slug": "dessous",
       "page": "Dessous",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -29799,9 +29578,7 @@
       "slug": "dessous-nightmare-zone",
       "page": "Dessous (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -30135,9 +29912,7 @@
       "slug": "dharok-the-wretched-deadman",
       "page": "Dharok the Wretched (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -30402,9 +30177,7 @@
       "slug": "dinky-the-drink-troll",
       "page": "Dinky the drink troll",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -32635,9 +32408,7 @@
       "slug": "drink-troll",
       "page": "Drink troll",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -33096,9 +32867,7 @@
       "slug": "duke-monkey",
       "page": "Duke (monkey)",
       "slayerLevel": null,
-      "categories": [
-        "monkeys"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -33302,68 +33071,6 @@
             "lightRanged": 320,
             "standardRanged": 320,
             "heavyRanged": 320
-          },
-          "weakness": null,
-          "immunities": {
-            "poison": "0",
-            "venom": "Poisons",
-            "cannon": true,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Quest, Awake",
-          "isDefault": false,
-          "name": "Duke Sucellus",
-          "image": "Duke Sucellus.png",
-          "npcIds": [
-            12195
-          ],
-          "examine": "That's a lot of eyes...",
-          "combatLevel": 538,
-          "hitpoints": 330,
-          "maxHit": [
-            "36 (Melee)",
-            "28 (Magic)",
-            "99 (Gaze)"
-          ],
-          "attackStyles": [
-            "Magic",
-            "Crush"
-          ],
-          "attackSpeed": 6,
-          "size": 7,
-          "attributes": [
-            "demon"
-          ],
-          "slayerLevel": null,
-          "slayerXp": 360,
-          "levels": {
-            "attack": 250,
-            "strength": 280,
-            "defence": 215,
-            "ranged": 0,
-            "magic": 230
-          },
-          "offence": {
-            "attack": 200,
-            "strength": 16,
-            "magic": 150,
-            "magicDamage": 10,
-            "ranged": 0,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 210,
-            "slash": 30,
-            "crush": 160,
-            "magic": 400,
-            "ranged": null,
-            "lightRanged": 300,
-            "standardRanged": 300,
-            "heavyRanged": 300
           },
           "weakness": null,
           "immunities": {
@@ -33616,131 +33323,6 @@
             "lightRanged": 320,
             "standardRanged": 320,
             "heavyRanged": 320
-          },
-          "weakness": null,
-          "immunities": {
-            "poison": "0",
-            "venom": "Poisons",
-            "cannon": true,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Quest, Asleep",
-          "isDefault": false,
-          "name": "Duke Sucellus",
-          "image": "Duke Sucellus (asleep).png",
-          "npcIds": [
-            12193,
-            12194
-          ],
-          "examine": "He seems to be asleep.",
-          "combatLevel": 538,
-          "hitpoints": 330,
-          "maxHit": [
-            "36 (Melee)",
-            "28 (Magic)",
-            "99 (Gaze)"
-          ],
-          "attackStyles": [
-            "Magic",
-            "Crush"
-          ],
-          "attackSpeed": 6,
-          "size": 7,
-          "attributes": [
-            "demon"
-          ],
-          "slayerLevel": null,
-          "slayerXp": 360,
-          "levels": {
-            "attack": 250,
-            "strength": 280,
-            "defence": 215,
-            "ranged": 0,
-            "magic": 230
-          },
-          "offence": {
-            "attack": 200,
-            "strength": 16,
-            "magic": 150,
-            "magicDamage": 10,
-            "ranged": 0,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 210,
-            "slash": 30,
-            "crush": 160,
-            "magic": 400,
-            "ranged": null,
-            "lightRanged": 300,
-            "standardRanged": 300,
-            "heavyRanged": 300
-          },
-          "weakness": null,
-          "immunities": {
-            "poison": "0",
-            "venom": "Poisons",
-            "cannon": true,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Quest, Defeated",
-          "isDefault": false,
-          "name": "Duke Sucellus",
-          "image": "Duke Sucellus (defeated).png",
-          "npcIds": [
-            12196
-          ],
-          "examine": "Is he dead?",
-          "combatLevel": 538,
-          "hitpoints": 330,
-          "maxHit": [
-            "36 (Melee)",
-            "28 (Magic)",
-            "99 (Gaze)"
-          ],
-          "attackStyles": [
-            "Magic",
-            "Crush"
-          ],
-          "attackSpeed": 6,
-          "size": 7,
-          "attributes": [
-            "demon"
-          ],
-          "slayerLevel": null,
-          "slayerXp": 360,
-          "levels": {
-            "attack": 250,
-            "strength": 280,
-            "defence": 215,
-            "ranged": 0,
-            "magic": 230
-          },
-          "offence": {
-            "attack": 200,
-            "strength": 16,
-            "magic": 150,
-            "magicDamage": 10,
-            "ranged": 0,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 210,
-            "slash": 30,
-            "crush": 160,
-            "magic": 400,
-            "ranged": null,
-            "lightRanged": 300,
-            "standardRanged": 300,
-            "heavyRanged": 300
           },
           "weakness": null,
           "immunities": {
@@ -34169,10 +33751,7 @@
       "slug": "dusk-echo",
       "page": "Dusk (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "gargoyles"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": true,
@@ -36727,9 +36306,7 @@
       "slug": "elvarg",
       "page": "Elvarg",
       "slayerLevel": null,
-      "categories": [
-        "green dragons"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": false,
@@ -36821,9 +36398,7 @@
       "slug": "elvarg-nightmare-zone",
       "page": "Elvarg (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "green dragons"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka"
       ],
@@ -37415,9 +36990,7 @@
       "slug": "evil-chicken-nightmare-zone",
       "page": "Evil Chicken (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "birds"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -37550,9 +37123,7 @@
       "slug": "evil-chicken-recipe-for-disaster",
       "page": "Evil Chicken (Recipe for Disaster)",
       "slayerLevel": null,
-      "categories": [
-        "birds"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -40471,9 +40042,7 @@
       "slug": "general-graardor-deadman",
       "page": "General Graardor (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -40730,9 +40299,7 @@
       "slug": "general-graardor-pvm-arena",
       "page": "General Graardor (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -42493,9 +42060,7 @@
       "slug": "giant-goblin",
       "page": "Giant goblin",
       "slayerLevel": null,
-      "categories": [
-        "goblins"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -42859,9 +42424,7 @@
       "slug": "giant-lobster-ghosts-ahoy",
       "page": "Giant lobster (Ghosts Ahoy)",
       "slayerLevel": null,
-      "categories": [
-        "scorpions"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -43032,9 +42595,7 @@
       "slug": "giant-mole-pvm-arena",
       "page": "Giant Mole (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -43584,9 +43145,7 @@
       "slug": "giant-rat-scurrius",
       "page": "Giant rat (Scurrius)",
       "slayerLevel": null,
-      "categories": [
-        "rats"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -43664,9 +43223,7 @@
       "slug": "giant-roc",
       "page": "Giant Roc",
       "slayerLevel": null,
-      "categories": [
-        "birds"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -43747,9 +43304,7 @@
       "slug": "giant-roc-nightmare-zone",
       "page": "Giant Roc (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "birds"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -44184,9 +43739,7 @@
       "slug": "giant-scarab",
       "page": "Giant Scarab",
       "slayerLevel": null,
-      "categories": [
-        "scabarites"
-      ],
+      "categories": [],
       "assignedBy": [
         "nieve"
       ],
@@ -44268,9 +43821,7 @@
       "slug": "giant-scarab-nightmare-zone",
       "page": "Giant Scarab (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "scabarites"
-      ],
+      "categories": [],
       "assignedBy": [
         "nieve"
       ],
@@ -44414,9 +43965,7 @@
       "slug": "giant-sea-snake",
       "page": "Giant Sea Snake",
       "slayerLevel": 40,
-      "categories": [
-        "sea snakes"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka"
       ],
@@ -46934,9 +46483,7 @@
       "slug": "greater-abyssal-demon-deadman",
       "page": "Greater abyssal demon (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "abyssal demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -47661,9 +47208,7 @@
       "slug": "greater-demon-the-scar",
       "page": "Greater demon (The Scar)",
       "slayerLevel": null,
-      "categories": [
-        "greater demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -47925,10 +47470,7 @@
       "slug": "greater-skeleton-hellhound-calvarion",
       "page": "Greater Skeleton Hellhound (Calvar'ion)",
       "slayerLevel": null,
-      "categories": [
-        "hellhounds",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -48015,10 +47557,7 @@
       "slug": "greater-skeleton-hellhound-vetion",
       "page": "Greater Skeleton Hellhound (Vet'ion)",
       "slayerLevel": null,
-      "categories": [
-        "hellhounds",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -49135,9 +48674,7 @@
       "slug": "gryphon-troubled-tortugans",
       "page": "Gryphon (Troubled Tortugans)",
       "slayerLevel": 51,
-      "categories": [
-        "gryphons"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -54227,9 +53764,7 @@
       "slug": "ice-troll-king",
       "page": "Ice Troll King",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -54315,9 +53850,7 @@
       "slug": "ice-troll-king-nightmare-zone",
       "page": "Ice Troll King (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -56899,9 +56432,7 @@
       "slug": "jal-ak",
       "page": "Jal-Ak",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -56983,9 +56514,7 @@
       "slug": "jal-akrek-ket",
       "page": "Jal-AkRek-Ket",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57065,9 +56594,7 @@
       "slug": "jal-akrek-mej",
       "page": "Jal-AkRek-Mej",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57147,9 +56674,7 @@
       "slug": "jal-akrek-xil",
       "page": "Jal-AkRek-Xil",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57229,9 +56754,7 @@
       "slug": "jal-imkot",
       "page": "Jal-ImKot",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57311,9 +56834,7 @@
       "slug": "jal-imkot-deadman",
       "page": "Jal-ImKot (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57570,9 +57091,7 @@
       "slug": "jal-mejjak",
       "page": "Jal-MejJak",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57652,9 +57171,7 @@
       "slug": "jal-mejrah",
       "page": "Jal-MejRah",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57734,9 +57251,7 @@
       "slug": "jal-nib",
       "page": "Jal-Nib",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57816,9 +57331,7 @@
       "slug": "jal-xil",
       "page": "Jal-Xil",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57901,9 +57414,7 @@
       "slug": "jal-zek",
       "page": "Jal-Zek",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -57986,9 +57497,7 @@
       "slug": "jaltok-jad",
       "page": "JalTok-Jad",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -58790,9 +58299,7 @@
       "slug": "judge-of-yama-a-kingdom-divided",
       "page": "Judge of Yama (A Kingdom Divided)",
       "slayerLevel": null,
-      "categories": [
-        "greater demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -60045,10 +59552,7 @@
       "slug": "kalphite-queen-echo",
       "page": "Kalphite Queen (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "kalphite"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -60194,10 +59698,7 @@
       "slug": "kalphite-queen-pvm-arena",
       "page": "Kalphite Queen (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "kalphite"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -60632,9 +60133,7 @@
       "slug": "kamil",
       "page": "Kamil",
       "slayerLevel": null,
-      "categories": [
-        "ice warriors"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka"
@@ -60715,9 +60214,7 @@
       "slug": "kamil-nightmare-zone",
       "page": "Kamil (Nightmare Zone)",
       "slayerLevel": null,
-      "categories": [
-        "ice warriors"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka"
@@ -60944,9 +60441,7 @@
       "slug": "ket-zek",
       "page": "Ket-Zek",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -61349,10 +60844,7 @@
       "slug": "king-black-dragon-deadman",
       "page": "King Black Dragon (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "black dragons",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -61625,10 +61117,7 @@
       "slug": "king-black-dragon-echo",
       "page": "King Black Dragon (Echo)",
       "slayerLevel": null,
-      "categories": [
-        "black dragons",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": true,
@@ -61703,10 +61192,7 @@
       "slug": "king-black-dragon-pvm-arena",
       "page": "King Black Dragon (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "black dragons",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -62178,9 +61664,7 @@
       "slug": "kolodion",
       "page": "Kolodion",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -62848,10 +62332,7 @@
       "slug": "kreearra-deadman",
       "page": "Kree'arra (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "aviansie",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -62989,10 +62470,7 @@
       "slug": "kreearra-pvm-arena",
       "page": "Kree'arra (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "aviansie",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -63175,10 +62653,7 @@
       "slug": "kril-tsutsaroth-deadman",
       "page": "K'ril Tsutsaroth (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "greater demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -63436,10 +62911,7 @@
       "slug": "kril-tsutsaroth-pvm-arena",
       "page": "K'ril Tsutsaroth (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "greater demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar",
@@ -63522,9 +62994,7 @@
       "slug": "kroy",
       "page": "Kroy",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -63795,9 +63265,7 @@
       "slug": "large-chicken",
       "page": "Large chicken",
       "slayerLevel": null,
-      "categories": [
-        "birds"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -64645,9 +64113,7 @@
       "slug": "lesser-demon-the-scar",
       "page": "Lesser demon (The Scar)",
       "slayerLevel": null,
-      "categories": [
-        "lesser demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -65690,9 +65156,7 @@
       "slug": "lizardman-shaman-chambers-of-xeric",
       "page": "Lizardman shaman (Chambers of Xeric)",
       "slayerLevel": null,
-      "categories": [
-        "lizardmen"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -66211,130 +65675,6 @@
             "lightRanged": 0,
             "standardRanged": 0,
             "heavyRanged": 0
-          },
-          "weakness": {
-            "element": "Fire",
-            "percent": 40
-          },
-          "immunities": {
-            "poison": "0",
-            "venom": "0",
-            "cannon": false,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Lancer (Quest)",
-          "isDefault": false,
-          "name": "Locust rider",
-          "image": "Locust rider (melee).png",
-          "npcIds": [
-            800
-          ],
-          "examine": "A mounted lancer.",
-          "combatLevel": 68,
-          "hitpoints": 90,
-          "maxHit": [
-            "15"
-          ],
-          "attackStyles": [
-            "Crush"
-          ],
-          "attackSpeed": 4,
-          "size": 2,
-          "attributes": [
-            "kalphite"
-          ],
-          "slayerLevel": null,
-          "slayerXp": 92.5,
-          "levels": {
-            "attack": 100,
-            "strength": 90,
-            "defence": 90,
-            "ranged": 1,
-            "magic": 1
-          },
-          "offence": {
-            "attack": 0,
-            "strength": 0,
-            "magic": 0,
-            "magicDamage": 0,
-            "ranged": 0,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 90,
-            "slash": 90,
-            "crush": 40,
-            "magic": 0,
-            "ranged": null,
-            "lightRanged": 0,
-            "standardRanged": 0,
-            "heavyRanged": 0
-          },
-          "weakness": {
-            "element": "Fire",
-            "percent": 40
-          },
-          "immunities": {
-            "poison": "0",
-            "venom": "0",
-            "cannon": false,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Ranger (Quest)",
-          "isDefault": false,
-          "name": "Locust rider",
-          "image": "Locust rider (ranged).png",
-          "npcIds": [
-            801
-          ],
-          "examine": "A mounted archer.",
-          "combatLevel": 68,
-          "hitpoints": 90,
-          "maxHit": [
-            "22"
-          ],
-          "attackStyles": [
-            "Ranged"
-          ],
-          "attackSpeed": 6,
-          "size": 2,
-          "attributes": [
-            "kalphite"
-          ],
-          "slayerLevel": null,
-          "slayerXp": 92.5,
-          "levels": {
-            "attack": 105,
-            "strength": 90,
-            "defence": 50,
-            "ranged": 90,
-            "magic": 1
-          },
-          "offence": {
-            "attack": 0,
-            "strength": 0,
-            "magic": 0,
-            "magicDamage": 0,
-            "ranged": 80,
-            "rangedStrength": 80
-          },
-          "defence": {
-            "stab": 50,
-            "slash": 90,
-            "crush": 50,
-            "magic": 34,
-            "ranged": null,
-            "lightRanged": 66,
-            "standardRanged": 66,
-            "heavyRanged": 66
           },
           "weakness": {
             "element": "Fire",
@@ -67745,10 +67085,7 @@
       "slug": "mirrorback-araxyte",
       "page": "Mirrorback Araxyte",
       "slayerLevel": 92,
-      "categories": [
-        "araxytes",
-        "spiders"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -69204,9 +68541,7 @@
       "slug": "monstrous-basilisk-the-fremennik-exiles",
       "page": "Monstrous Basilisk (The Fremennik Exiles)",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -69860,10 +69195,7 @@
       "slug": "mosschin",
       "page": "Mosschin",
       "slayerLevel": null,
-      "categories": [
-        "goblins",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -70807,11 +70139,7 @@
       "slug": "nazastarool",
       "page": "Nazastarool",
       "slayerLevel": null,
-      "categories": [
-        "ghosts",
-        "skeletons",
-        "zombies"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -71366,9 +70694,7 @@
       "slug": "night-beast-deadman",
       "page": "Night beast (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "dark beasts"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -74547,9 +73873,7 @@
       "slug": "porazdir",
       "page": "Porazdir",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -74632,9 +73956,7 @@
       "slug": "porazdir-deadman",
       "page": "Porazdir (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "black demons"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -75286,9 +74608,7 @@
       "slug": "ranis-drakan",
       "page": "Ranis Drakan",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -78612,10 +77932,7 @@
       "slug": "redeyes",
       "page": "Redeyes",
       "slayerLevel": null,
-      "categories": [
-        "goblins",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -78784,10 +78101,7 @@
       "slug": "respiratory-system",
       "page": "Respiratory system",
       "slayerLevel": 85,
-      "categories": [
-        "abyssal demons",
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -80455,9 +79769,7 @@
       "slug": "river-troll-random-event",
       "page": "River troll (random event)",
       "slayerLevel": null,
-      "categories": [
-        "trolls"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -80968,9 +80280,7 @@
       "slug": "riyl-shadow-temple-trekking",
       "page": "Riyl shadow (Temple Trekking)",
       "slayerLevel": null,
-      "categories": [
-        "shades"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka"
@@ -82032,10 +81342,7 @@
       "slug": "ruptura-araxyte",
       "page": "Ruptura Araxyte",
       "slayerLevel": 92,
-      "categories": [
-        "araxytes",
-        "spiders"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -83110,9 +82417,7 @@
       "slug": "scorpias-guardian",
       "page": "Scorpia's guardian",
       "slayerLevel": null,
-      "categories": [
-        "scorpions"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -85151,9 +84456,7 @@
       "slug": "shade-temple-trekking",
       "page": "Shade (Temple Trekking)",
       "slayerLevel": null,
-      "categories": [
-        "shades"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka"
@@ -85852,9 +85155,7 @@
       "slug": "skeletal-mystic",
       "page": "Skeletal Mystic",
       "slayerLevel": null,
-      "categories": [
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -89056,9 +88357,7 @@
       "slug": "skeleton-hellhound",
       "page": "Skeleton Hellhound",
       "slayerLevel": null,
-      "categories": [
-        "hellhounds"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -89141,10 +88440,7 @@
       "slug": "skeleton-hellhound-calvarion",
       "page": "Skeleton Hellhound (Calvar'ion)",
       "slayerLevel": null,
-      "categories": [
-        "hellhounds",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -89231,10 +88527,7 @@
       "slug": "skeleton-hellhound-vetion",
       "page": "Skeleton Hellhound (Vet'ion)",
       "slayerLevel": null,
-      "categories": [
-        "hellhounds",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -91504,9 +90797,7 @@
       "slug": "skeleton-the-restless-ghost",
       "page": "Skeleton (The Restless Ghost)",
       "slayerLevel": null,
-      "categories": [
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -92251,10 +91542,7 @@
       "slug": "skoblin",
       "page": "Skoblin",
       "slayerLevel": null,
-      "categories": [
-        "goblins",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -92654,9 +91942,7 @@
       "slug": "slash-bash",
       "page": "Slash Bash",
       "slayerLevel": null,
-      "categories": [
-        "zombies"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -93085,10 +92371,7 @@
       "slug": "snailfeet",
       "page": "Snailfeet",
       "slayerLevel": null,
-      "categories": [
-        "goblins",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -93167,10 +92450,7 @@
       "slug": "snothead",
       "page": "Snothead",
       "slayerLevel": null,
-      "categories": [
-        "goblins",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -93502,9 +92782,7 @@
       "slug": "spawn-of-sarachnis",
       "page": "Spawn of Sarachnis",
       "slayerLevel": null,
-      "categories": [
-        "spiders"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria"
@@ -96245,9 +95523,7 @@
       "slug": "strange-creature-shadows-of-custodia",
       "page": "Strange creature (Shadows of Custodia)",
       "slayerLevel": 54,
-      "categories": [
-        "custodian stalker"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -96328,10 +95604,7 @@
       "slug": "strongbones",
       "page": "Strongbones",
       "slayerLevel": null,
-      "categories": [
-        "goblins",
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -96502,9 +95775,7 @@
       "slug": "sulphur-lizard-deadman",
       "page": "Sulphur Lizard (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "lizards"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -96792,9 +96063,7 @@
       "slug": "sulphur-nagua-perilous-moons",
       "page": "Sulphur Nagua (Perilous Moons)",
       "slayerLevel": 48,
-      "categories": [
-        "lesser nagua"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "konar"
@@ -98320,9 +97589,7 @@
       "slug": "the-jormungand",
       "page": "The Jormungand",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar"
@@ -98529,69 +97796,6 @@
             "slash": 190,
             "crush": 230,
             "magic": 280,
-            "ranged": null,
-            "lightRanged": 50,
-            "standardRanged": 50,
-            "heavyRanged": 25
-          },
-          "weakness": null,
-          "immunities": {
-            "poison": "0",
-            "venom": "Poisons",
-            "cannon": true,
-            "thrall": null,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Quest",
-          "isDefault": false,
-          "name": "The Leviathan",
-          "image": "The Leviathan.png",
-          "npcIds": [
-            12215,
-            12219
-          ],
-          "examine": "An unfathomably huge sea creature.",
-          "combatLevel": 593,
-          "hitpoints": 720,
-          "maxHit": [
-            "34 (Melee orb & Bite)",
-            "16 (Ranged orb)",
-            "22 (Magic orb)",
-            "41+ (Smoke Blast)"
-          ],
-          "attackStyles": [
-            "Melee",
-            "Ranged",
-            "Magic"
-          ],
-          "attackSpeed": 0,
-          "size": 7,
-          "attributes": [],
-          "slayerLevel": null,
-          "slayerXp": 720,
-          "levels": {
-            "attack": 250,
-            "strength": 270,
-            "defence": 200,
-            "ranged": 130,
-            "magic": 130
-          },
-          "offence": {
-            "attack": 170,
-            "strength": 14,
-            "magic": 130,
-            "magicDamage": 36,
-            "ranged": 230,
-            "rangedStrength": 10
-          },
-          "defence": {
-            "stab": 200,
-            "slash": 150,
-            "crush": 180,
-            "magic": 220,
             "ranged": null,
             "lightRanged": 50,
             "standardRanged": 50,
@@ -98859,71 +98063,6 @@
             "burn": null,
             "freeze": null
           }
-        },
-        {
-          "version": "Quest",
-          "isDefault": false,
-          "name": "The Whisperer",
-          "image": "The Whisperer.png",
-          "npcIds": [
-            12206,
-            12207
-          ],
-          "examine": "Dare you face the shadows?",
-          "combatLevel": 587,
-          "hitpoints": 660,
-          "maxHit": [
-            "30 (x2) (Melee)",
-            "28 (Ranged)",
-            "26 (Magic)",
-            "45 (Screech)",
-            "50 (Soul Siphon)"
-          ],
-          "attackStyles": [
-            "All"
-          ],
-          "attackSpeed": 10,
-          "size": 3,
-          "attributes": [],
-          "slayerLevel": null,
-          "slayerXp": 660,
-          "levels": {
-            "attack": 240,
-            "strength": 250,
-            "defence": 200,
-            "ranged": 130,
-            "magic": 130
-          },
-          "offence": {
-            "attack": 100,
-            "strength": 10,
-            "magic": 180,
-            "magicDamage": 54,
-            "ranged": 140,
-            "rangedStrength": 66
-          },
-          "defence": {
-            "stab": 150,
-            "slash": 250,
-            "crush": 180,
-            "magic": -10,
-            "ranged": null,
-            "lightRanged": 250,
-            "standardRanged": 250,
-            "heavyRanged": 250
-          },
-          "weakness": {
-            "element": "Earth",
-            "percent": 60
-          },
-          "immunities": {
-            "poison": "100",
-            "venom": "100",
-            "cannon": true,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
         }
       ],
       "locations": [
@@ -99042,10 +98181,7 @@
       "slug": "thermonuclear-smoke-devil-deadman",
       "page": "Thermonuclear smoke devil (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "smoke devils"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -99242,10 +98378,7 @@
       "slug": "thermonuclear-smoke-devil-echo",
       "page": "Thermonuclear smoke devil (Echo)",
       "slayerLevel": 93,
-      "categories": [
-        "bosses",
-        "smoke devils"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -99525,9 +98658,7 @@
       "slug": "tok-xil",
       "page": "Tok-Xil",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -100301,9 +99432,7 @@
       "slug": "tree-spirit-lost-city",
       "page": "Tree spirit (Lost City)",
       "slayerLevel": null,
-      "categories": [
-        "ghosts"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -100386,9 +99515,7 @@
       "slug": "treus-dayth",
       "page": "Treus Dayth",
       "slayerLevel": null,
-      "categories": [
-        "ghosts"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -101415,9 +100542,7 @@
       "slug": "typhor",
       "page": "Typhor",
       "slayerLevel": 40,
-      "categories": [
-        "basilisks"
-      ],
+      "categories": [],
       "assignedBy": [
         "vannaka",
         "chaeldar",
@@ -101498,9 +100623,7 @@
       "slug": "tz-kek",
       "page": "Tz-Kek",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -101643,9 +100766,7 @@
       "slug": "tz-kih",
       "page": "Tz-Kih",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -102557,9 +101678,7 @@
       "slug": "tztok-jad-deadman",
       "page": "TzTok-Jad (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": true,
@@ -102764,9 +101883,7 @@
       "slug": "tztok-jad-pvm-arena",
       "page": "TzTok-Jad (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -102847,9 +101964,7 @@
       "slug": "tztok-jad-rek",
       "page": "TzTok-Jad-Rek",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [],
       "taskOnly": false,
       "members": true,
@@ -102928,9 +102043,7 @@
       "slug": "ulfric",
       "page": "Ulfric",
       "slayerLevel": null,
-      "categories": [
-        "skeletons"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -103302,9 +102415,7 @@
       "slug": "undead-lumberjack",
       "page": "Undead Lumberjack",
       "slayerLevel": null,
-      "categories": [
-        "zombies"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -105441,9 +104552,7 @@
       "slug": "vanstrom-klause",
       "page": "Vanstrom Klause",
       "slayerLevel": null,
-      "categories": [
-        "vampyres"
-      ],
+      "categories": [],
       "assignedBy": [
         "mazchna",
         "vannaka",
@@ -105734,69 +104843,6 @@
             "burn": null,
             "freeze": null
           }
-        },
-        {
-          "version": "Quest",
-          "isDefault": false,
-          "name": "Vardorvis",
-          "image": "Vardorvis.png",
-          "npcIds": [
-            12224,
-            12228,
-            12425
-          ],
-          "examine": "How does he suck blood now?",
-          "combatLevel": 572,
-          "hitpoints": 500,
-          "maxHit": [
-            "30-37 (Melee)",
-            "?? (axes)"
-          ],
-          "attackStyles": [
-            "Slash"
-          ],
-          "attackSpeed": 5,
-          "size": 2,
-          "attributes": [],
-          "slayerLevel": null,
-          "slayerXp": 500,
-          "levels": {
-            "attack": 260,
-            "strength": null,
-            "defence": null,
-            "ranged": 0,
-            "magic": 180
-          },
-          "offence": {
-            "attack": 185,
-            "strength": 0,
-            "magic": 0,
-            "magicDamage": 0,
-            "ranged": 0,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 150,
-            "slash": 25,
-            "crush": 50,
-            "magic": 560,
-            "ranged": null,
-            "lightRanged": 560,
-            "standardRanged": 560,
-            "heavyRanged": 560
-          },
-          "weakness": {
-            "element": "Fire",
-            "percent": 35
-          },
-          "immunities": {
-            "poison": "100",
-            "venom": "100",
-            "cannon": true,
-            "thrall": false,
-            "burn": null,
-            "freeze": null
-          }
         }
       ],
       "locations": [
@@ -105820,9 +104866,7 @@
       "slug": "vardorvis-deadman",
       "page": "Vardorvis (Deadman)",
       "slayerLevel": null,
-      "categories": [
-        "bosses"
-      ],
+      "categories": [],
       "assignedBy": [
         "konar",
         "nieve",
@@ -106471,10 +105515,7 @@
       "slug": "venenatis-pvm-arena",
       "page": "Venenatis (PvM Arena)",
       "slayerLevel": null,
-      "categories": [
-        "bosses",
-        "spiders"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -107135,78 +106176,6 @@
             "lightRanged": 26,
             "standardRanged": 26,
             "heavyRanged": 26
-          },
-          "weakness": {
-            "element": "Fire",
-            "percent": 40
-          },
-          "immunities": {
-            "poison": "100",
-            "venom": "100",
-            "cannon": true,
-            "thrall": true,
-            "burn": null,
-            "freeze": null
-          }
-        },
-        {
-          "version": "Dragon Slayer II",
-          "isDefault": false,
-          "name": "Vorkath",
-          "image": "Vorkath.png",
-          "npcIds": [
-            8058,
-            8060
-          ],
-          "examine": "This won't be fun.",
-          "combatLevel": 392,
-          "hitpoints": 460,
-          "maxHit": [
-            "30 (Magic)",
-            "28 (Ranged)",
-            "32 (Melee)",
-            "72 (Dragonfire)",
-            "121 (Dragonfire Bomb/Special)"
-          ],
-          "attackStyles": [
-            "Slash",
-            "Magic",
-            "Ranged",
-            "Dragonfire"
-          ],
-          "attackSpeed": 5,
-          "size": 7,
-          "attributes": [
-            "dragon",
-            "undead",
-            "fiery"
-          ],
-          "slayerLevel": null,
-          "slayerXp": 460,
-          "levels": {
-            "attack": 560,
-            "strength": 268,
-            "defence": 164,
-            "ranged": 268,
-            "magic": 148
-          },
-          "offence": {
-            "attack": 14,
-            "strength": 0,
-            "magic": 148,
-            "magicDamage": 0,
-            "ranged": 96,
-            "rangedStrength": 0
-          },
-          "defence": {
-            "stab": 66,
-            "slash": 126,
-            "crush": 126,
-            "magic": 204,
-            "ranged": null,
-            "lightRanged": 80,
-            "standardRanged": 80,
-            "heavyRanged": 80
           },
           "weakness": {
             "element": "Fire",
@@ -111856,9 +110825,7 @@
       "slug": "yt-hurkot",
       "page": "Yt-HurKot",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -112000,9 +110967,7 @@
       "slug": "yt-mejkot",
       "page": "Yt-MejKot",
       "slayerLevel": null,
-      "categories": [
-        "tzhaar"
-      ],
+      "categories": [],
       "assignedBy": [
         "chaeldar",
         "nieve",
@@ -119875,9 +118840,7 @@
       "slug": "zombie-temple-trekking",
       "page": "Zombie (Temple Trekking)",
       "slayerLevel": null,
-      "categories": [
-        "zombies"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",
@@ -120759,9 +119722,7 @@
       "slug": "zombie-zogre-flesh-eaters",
       "page": "Zombie (Zogre Flesh Eaters)",
       "slayerLevel": null,
-      "categories": [
-        "zombies"
-      ],
+      "categories": [],
       "assignedBy": [
         "turael",
         "spria",

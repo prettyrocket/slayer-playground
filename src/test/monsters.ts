@@ -164,7 +164,8 @@ export const monstersFixture: MonstersFile = {
     }),
     monster('dust-devil', 'Dust devil', ['dust devils'], ['duradel']),
     monster('cow', 'Cow', ['cows'], ['turael']),
-    monster('abyssal-sire-deadman', 'Abyssal Sire (Deadman)', ['bosses'], ['duradel']),
+    // The sync empties the categories of monsters that can't be picked for a task.
+    monster('abyssal-sire-deadman', 'Abyssal Sire (Deadman)', [], ['duradel']),
   ],
 };
 

@@ -8,7 +8,8 @@ import { syncMonsterIcons } from './icons.ts';
 import { addLocations } from './locations.ts';
 import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
 import { parseSuperiors } from './parsers.ts';
-import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
+import { fetchDrops, fetchMonsters, fetchPageCategories, fetchTaskOnlyPages } from './sources.ts';
+import { applyViability } from './viability.ts';
 
 /**
  * Writes public/data/monsters.json and public/data/drops/<slug>.json, and
@@ -38,6 +39,12 @@ export async function syncMonsters(
   for (const warning of addLocations(monsters, monsterText, taskText)) {
     console.warn(`  ! ${warning}`);
   }
+  // Wiki categories (about 14 requests) tell quest fights, minigames and removed content apart.
+  const pageCategories = await fetchPageCategories(
+    client,
+    monsters.map((m) => m.page),
+  );
+  for (const line of applyViability(monsters, pageCategories)) console.log(`  ${line}`);
 
   for (const warning of await syncMonsterIcons(client, dataDir, monsters)) {
     console.warn(`  ! ${warning}`);
