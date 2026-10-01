@@ -29,7 +29,11 @@ export interface Monster {
   page: string;
   /** From the default version. Null when there is no Slayer level requirement. */
   slayerLevel: number | null;
-  /** Lowercased Slayer categories across all versions, e.g. "abyssal demons". */
+  /**
+   * Lowercased Slayer categories it counts for across all versions, e.g. "abyssal demons".
+   * Empty when it can't be picked for a task: a one-time quest fight, part of a minigame or
+   * raid, summoned during a boss fight, Leagues or Deadman only, or removed from the game.
+   */
   categories: string[];
   assignedBy: MasterKey[];
   /** In the wiki's "can only be fought on task" category. */
@@ -199,7 +203,7 @@ export interface SlayerCategory {
   icon: string | null;
   /** The wiki's guide page, e.g. "Slayer task/Abyssal demons"; null when there is none. */
   page: string | null;
-  /** Slugs of the monsters that count, superiors included; minigame and Deadman copies left out. */
+  /** Slugs of the monsters that count, superiors included; ones that can't be picked for a task left out. */
   monsters: string[];
   /** Masters who assign it, in MASTER_KEYS order; empty when none does. */
   masters: MasterKey[];

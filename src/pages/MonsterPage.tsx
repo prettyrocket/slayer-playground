@@ -447,34 +447,36 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
         </Accordion>
       )}
 
-      <Section title="Counts for">
-        <Box
-          component="ul"
-          aria-label="Counts for"
-          sx={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
-            gap: 1.5,
-            listStyle: 'none',
-            p: 0,
-            m: 0,
-          }}
-        >
-          {monster.categories.map((name) => {
-            const c = findCategory(catalog, categorySlug(name));
-            return (
-              c && (
-                <IconCard
-                  key={c.slug}
-                  to={categoryPath(c.slug, master?.key)}
-                  name={c.name}
-                  icon={c.icon}
-                />
-              )
-            );
-          })}
-        </Box>
-      </Section>
+      {monster.categories.length > 0 && (
+        <Section title="Counts for">
+          <Box
+            component="ul"
+            aria-label="Counts for"
+            sx={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+              gap: 1.5,
+              listStyle: 'none',
+              p: 0,
+              m: 0,
+            }}
+          >
+            {monster.categories.map((name) => {
+              const c = findCategory(catalog, categorySlug(name));
+              return (
+                c && (
+                  <IconCard
+                    key={c.slug}
+                    to={categoryPath(c.slug, master?.key)}
+                    name={c.name}
+                    icon={c.icon}
+                  />
+                )
+              );
+            })}
+          </Box>
+        </Section>
+      )}
     </>
   );
 }

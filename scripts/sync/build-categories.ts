@@ -31,13 +31,6 @@ const NOT_NEEDED: Record<string, string[]> = {
 };
 
 /**
- * Copies of monsters that can't be killed on a task: other game modes and
- * minigames, and pages the wiki marks unused. Quest and location copies can be,
- * so they stay.
- */
-const NOT_ON_TASK = /\((deadman|pvm arena|nightmare zone|echo|unused)\)$/i;
-
-/**
  * The category a name refers to: "Kalphites" -> "kalphite", "Boss" -> "bosses",
  * "Slayer task/Dark beast" -> "dark beasts". Masters and pages spell names with
  * other cases and plurals than the monsters' categories. Null when nothing matches.
@@ -81,7 +74,6 @@ export function buildCategories(input: BuildInput): BuildResult {
   // Categories as the monster pages give them.
   const known = new Set(input.monsters.flatMap((m) => m.categories));
   const slugByPage = new Map(input.monsters.map((m) => [pageKey(m.page), m.slug]));
-  const onTask = input.monsters.filter((m) => !NOT_ON_TASK.test(m.page));
 
   const masters: SlayerMaster[] = [];
   // Category -> monster pages a master lists for it, for ones no monster page has.
@@ -191,7 +183,7 @@ export function buildCategories(input: BuildInput): BuildResult {
     const linked = input.monsters.find((m) => m.slug === slug)!;
     const kind = linked.page.toLowerCase().split(' ').at(-1)!;
     const named = new RegExp(`\\b${kind.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
-    const kin = onTask.filter(
+    const kin = input.monsters.filter(
       (m) =>
         m.slug === slug ||
         (m.superiorOf.length === 0 &&
@@ -199,7 +191,8 @@ export function buildCategories(input: BuildInput): BuildResult {
           named.test(m.page.toLowerCase())),
     );
     const slugs = new Set(kin.map((m) => m.slug));
-    for (const m of onTask) if (m.superiorOf.some((base) => slugs.has(base))) slugs.add(m.slug);
+    for (const m of input.monsters)
+      if (m.superiorOf.some((base) => slugs.has(base))) slugs.add(m.slug);
     return [...slugs];
   };
   const equipment = input.equipment.map((e) => {
@@ -208,7 +201,7 @@ export function buildCategories(input: BuildInput): BuildResult {
       if (slug) return withKin(slug);
       const category = resolveCategory(link, known);
       return category
-        ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
+        ? input.monsters.filter((m) => m.categories.includes(category)).map((m) => m.slug)
         : [];
     });
     // Uses about a place, like boots for the Karuulm dungeon floor, name no monster.
@@ -224,7 +217,7 @@ export function buildCategories(input: BuildInput): BuildResult {
     .sort(byCodeUnit)
     .map((category) => {
       const monsters = known.has(category)
-        ? onTask.filter((m) => m.categories.includes(category)).map((m) => m.slug)
+        ? input.monsters.filter((m) => m.categories.includes(category)).map((m) => m.slug)
         : (listed.get(category) ?? [])
             .map((page) => slugByPage.get(pageKey(page)))
             .filter((slug) => slug !== undefined);

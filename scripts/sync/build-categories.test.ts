@@ -54,7 +54,8 @@ function build(
     monsters: [
       monster('Abyssal demon', ['abyssal demons']),
       monster('Abyssal Sire', ['abyssal demons', 'bosses']),
-      monster('Abyssal demon (Deadman)', ['abyssal demons']),
+      // applyViability empties the categories of monsters that can't be picked for a task.
+      monster('Abyssal demon (Deadman)', []),
       monster('Kalphite Queen', ['bosses', 'kalphite']),
       monster('Callisto', ['bears', 'bosses']),
       monster('Chaos Temple', ['nothing']),
