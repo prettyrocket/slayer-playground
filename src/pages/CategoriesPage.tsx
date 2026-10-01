@@ -22,7 +22,7 @@ export function CategoriesPage() {
         size="small"
         fullWidth
       />
-      <CategoryList query={query} />
+      <CategoryList query={query} noun={['category', 'categories']} />
     </>
   );
 }

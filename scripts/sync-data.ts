@@ -15,7 +15,8 @@ import path from 'node:path';
 import type { MetaFile } from '../src/data/types.ts';
 import { WikiClient } from './lib/wiki-client.ts';
 import { syncCategories } from './sync/categories.ts';
-import { syncMonsters, writeJson } from './sync/monsters.ts';
+import { writeJson } from './sync/files.ts';
+import { syncMonsters } from './sync/monsters.ts';
 import { SUPERIORS_PAGE, WIKITEXT_PAGES, fetchPages } from './sync/sources.ts';
 
 const root = path.resolve(import.meta.dirname, '..');

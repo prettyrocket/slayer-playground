@@ -1,23 +1,12 @@
-import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 
 import type { DropsFile, Monster, MonstersFile } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
+import { writeJson } from './files.ts';
 import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
 import { parseSuperiors } from './parsers.ts';
 import { fetchDrops, fetchMonsters, fetchTaskOnlyPages } from './sources.ts';
-
-/**
- * Pretty-printed with a trailing newline, so commits show line-level diffs.
- * An unchanged file is left untouched.
- */
-export async function writeJson(file: string, data: unknown): Promise<void> {
-  const text = `${JSON.stringify(data, null, 2)}\n`;
-  const old = await readFile(file, 'utf8').catch(() => null);
-  if (old === text) return;
-  await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, text);
-}
 
 /**
  * Writes public/data/monsters.json and public/data/drops/<slug>.json, and

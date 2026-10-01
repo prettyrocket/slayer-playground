@@ -277,6 +277,30 @@ describe('WikiClient.wikitext', () => {
   });
 });
 
+describe('WikiClient.download', () => {
+  const url = 'https://oldschool.runescape.wiki/images/Cow_(1).png?1a2b3';
+
+  it('fetches bytes politely once, then serves them from the cache, even with refresh', async () => {
+    const first = setup([new Response(new Uint8Array([1, 2, 3]))]);
+    expect([...(await first.client.download(url))]).toEqual([1, 2, 3]);
+    const init = first.fetchMock.mock.calls[0] as unknown as [string, RequestInit];
+    expect((init[1].headers as Record<string, string>)['User-Agent']).toBe(USER_AGENT);
+    expect((init[1].headers as Record<string, string>).Accept).toBe('image/*');
+
+    // A new client over the same cache, asked to refresh: the versioned URL is still cached.
+    const again = setup([], { refresh: true });
+    expect([...(await again.client.download(url))]).toEqual([1, 2, 3]);
+    expect(again.fetchMock).not.toHaveBeenCalled();
+    expect(again.client.stats.cached).toBe(1);
+  });
+
+  it('only downloads from the wiki', async () => {
+    const { client, fetchMock } = setup([]);
+    await expect(client.download('https://example.com/cow.png')).rejects.toThrow(/Not a wiki file/);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+});
+
 describe('cacheKey', () => {
   const api = 'https://example.test/api.php';
 

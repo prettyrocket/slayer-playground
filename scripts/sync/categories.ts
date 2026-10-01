@@ -9,8 +9,9 @@ import type {
 } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { buildCategories } from './build-categories.ts';
+import { writeJson } from './files.ts';
+import { syncIcons, syncMasterIcons } from './icons.ts';
 import { MASTER_PAGES, type RawAssignment, parseMasterTable } from './masters.ts';
-import { writeJson } from './monsters.ts';
 import { parseEquipment, parseRewards } from './parsers.ts';
 import { EQUIPMENT_PAGE, REWARDS_PAGE, fetchTaskPageTitles } from './sources.ts';
 
@@ -41,7 +42,13 @@ export async function syncCategories(
     equipment: parseEquipment(page(EQUIPMENT_PAGE)),
   });
   const { masters, categories, unlocks } = built;
-  for (const warning of [...warnings, ...built.warnings]) console.warn(`  ! ${warning}`);
+  const iconWarnings = [
+    ...(await syncIcons(client, dataDir, categories, monsters)),
+    ...(await syncMasterIcons(client, dataDir)),
+  ];
+  for (const warning of [...warnings, ...built.warnings, ...iconWarnings]) {
+    console.warn(`  ! ${warning}`);
+  }
 
   const mastersFile: MastersFile = { masters };
   const categoriesFile: CategoriesFile = { categories };

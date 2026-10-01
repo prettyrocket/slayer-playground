@@ -77,6 +77,10 @@ export function buildCategories(input: BuildInput): BuildResult {
   const masters: SlayerMaster[] = [];
   // Category -> monster pages a master lists for it, for ones no monster page has.
   const listed = new Map<string, string[]>();
+  // Category -> the names masters and guide pages call it ("Kalphites", "Boss").
+  const names = new Map<string, Set<string>>();
+  const addName = (category: string, text: string) =>
+    names.set(category, (names.get(category) ?? new Set()).add(text.trim().toLowerCase()));
   for (const { key, name, page, alternates } of MASTER_PAGES) {
     const rows = input.assignments.get(key) ?? [];
     const assignments: Assignment[] = [];
@@ -90,6 +94,7 @@ export function buildCategories(input: BuildInput): BuildResult {
       if (!known.has(category)) {
         listed.set(category, [...(listed.get(category) ?? []), ...row.alternatives]);
       }
+      addName(category, row.name);
       const unlocks = row.requirements ? requiredUnlocks(row.requirements, input.unlocks) : [];
       for (const unlock of unlocks) {
         if (!input.unlocks.some((u) => u.name === unlock)) {
@@ -128,8 +133,12 @@ export function buildCategories(input: BuildInput): BuildResult {
   for (const page of input.taskPages) {
     if (OVERVIEW_PAGES.has(page)) continue;
     const category = resolveCategory(page, known);
-    if (category) pageByCategory.set(category, page);
-    else warnings.push(`No category for ${page}`);
+    if (category) {
+      pageByCategory.set(category, page);
+      addName(category, page.replace(/^slayer task\//i, ''));
+    } else {
+      warnings.push(`No category for ${page}`);
+    }
   }
 
   const extendByCategory = new Map<string, string>();
@@ -191,8 +200,17 @@ export function buildCategories(input: BuildInput): BuildResult {
       const byMaster = masters.flatMap((m) =>
         m.assignments.filter((a) => a.category === category).map((a) => ({ key: m.key, a })),
       );
+      const levels = byMaster.map((b) => b.a.slayerLevel);
       return {
         category,
+        aliases: [...(names.get(category) ?? [])].filter((n) => n !== category).sort(byCodeUnit),
+        // A master with no Slayer level for it assigns it at any level.
+        slayerLevel:
+          levels.length === 0 || levels.includes(null)
+            ? null
+            : Math.min(...levels.filter((l): l is number => l !== null)),
+        // Filled in by the icons step.
+        icon: null,
         page: pageByCategory.get(category) ?? null,
         monsters: [...new Set(monsters)].sort(byCodeUnit),
         masters: MASTER_KEYS.filter((key) => byMaster.some((b) => b.key === key)),
