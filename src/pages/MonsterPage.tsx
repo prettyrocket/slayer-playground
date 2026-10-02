@@ -1,13 +1,12 @@
-import { type ReactNode, useState } from 'react';
+import { useState } from 'react';
 
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
 import Alert from '@mui/material/Alert';
+import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
+import Chip from '@mui/material/Chip';
 import CircularProgress from '@mui/material/CircularProgress';
 import Link from '@mui/material/Link';
+import MenuItem from '@mui/material/MenuItem';
 import Tab from '@mui/material/Tab';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -16,12 +15,14 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Tabs from '@mui/material/Tabs';
+import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
-import { Link as RouterLink, useParams } from 'react-router';
+import { Link as RouterLink, useParams, useSearchParams } from 'react-router';
 
+import { resolveUrl } from '@/api';
 import { CatalogStatus } from '@/components/CatalogStatus';
-import { IconCard, IconTile } from '@/components/IconCard';
+import { IconTile } from '@/components/IconCard';
 import { PlaceName } from '@/components/PlaceName';
 import { WikiLink } from '@/components/WikiLink';
 import { type Catalog, categorySlug, findCategory, findMonster, useCatalog } from '@/data/catalog';
@@ -229,17 +230,6 @@ function quantity(drop: Drop): string {
   return drop.noted ? `${amount} (noted)` : amount;
 }
 
-function Section({ title, children }: { title: string; children: ReactNode }) {
-  return (
-    <Box component="section" sx={{ mt: 4 }}>
-      <Typography variant="h6" component="h2" sx={{ mb: 1.5 }}>
-        {title}
-      </Typography>
-      {children}
-    </Box>
-  );
-}
-
 /** Its superior, or what it's the superior of, as small linked lines under the name. */
 function SuperiorLinks({
   monster,
@@ -322,8 +312,8 @@ function Drops({ monster, version }: { monster: Monster; version: string | null 
 }
 
 /**
- * /monsters/:slug — the monster picked for a task: its versions' stats, levels
- * and defences, its drops, and the tasks it counts for.
+ * /monsters/:slug — the monster picked for a task: its stats, where it spawns
+ * and its drops, a tab each, under a header with the tasks it counts for.
  */
 export function MonsterPage() {
   const { slug = '' } = useParams();
@@ -369,16 +359,78 @@ function Locations({ monster }: { monster: Monster }) {
   );
 }
 
+type TabKey = 'stats' | 'locations' | 'drops';
+
+/** The tasks it counts for, as small linked chips in the header. */
+function CountsFor({ monster, catalog }: { monster: Monster; catalog: Catalog }) {
+  const { master } = useNavLocation();
+  const categories = monster.categories
+    .map((name) => findCategory(catalog, categorySlug(name)))
+    .filter((c) => c !== undefined);
+  if (categories.length === 0) return null;
+  return (
+    <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 1 }}>
+      <Typography variant="body2" color="text.secondary">
+        Counts for
+      </Typography>
+      <Box
+        component="ul"
+        aria-label="Counts for"
+        sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, listStyle: 'none', p: 0, m: 0 }}
+      >
+        {categories.map((c) => (
+          <li key={c.slug}>
+            <Chip
+              component={RouterLink}
+              to={categoryPath(c.slug, master?.key)}
+              clickable
+              size="small"
+              variant="outlined"
+              label={c.name}
+              avatar={
+                c.icon ? (
+                  <Avatar variant="rounded" src={resolveUrl(`data/${c.icon}`)} alt="" />
+                ) : undefined
+              }
+            />
+          </li>
+        ))}
+      </Box>
+    </Box>
+  );
+}
+
+/**
+ * Like better-monster-examine's panel: a header that stays put — name, level,
+ * examine, version and the tasks it counts for — over Stats, Locations and
+ * Drops tabs. The tab rides in the URL (`?tab=`), so it survives a reload.
+ */
 function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catalog }) {
-  const { master, category } = useNavLocation();
+  const { category } = useNavLocation();
+  const [params, setParams] = useSearchParams();
   const [index, setIndex] = useState(0);
   const version = monster.versions[index];
 
+  const tabs: [TabKey, string][] = [['stats', 'Stats']];
+  if (monster.locations.length > 0) tabs.push(['locations', 'Locations']);
+  tabs.push(['drops', 'Drops']);
+  const tab = tabs.find(([key]) => key === params.get('tab'))?.[0] ?? 'stats';
+  const selectTab = (key: TabKey) =>
+    setParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (key === 'stats') next.delete('tab');
+        else next.set('tab', key);
+        return next;
+      },
+      { replace: true },
+    );
+
   return (
     <>
-      <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 3 }}>
+      <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2, mb: 2 }}>
         <IconTile icon={monster.icon} name={monster.page} size={64} />
-        <Box>
+        <Box sx={{ minWidth: 0, display: 'grid', gap: 0.5 }}>
           <Typography variant="h4" component="h1">
             {monster.page}
             {version?.combatLevel != null && (
@@ -387,6 +439,11 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
               </Typography>
             )}
           </Typography>
+          {version?.examine && (
+            <Typography color="text.secondary" sx={{ fontStyle: 'italic', whiteSpace: 'pre-line' }}>
+              {version.examine}
+            </Typography>
+          )}
           <SuperiorLinks monster={monster} catalog={catalog} category={category?.slug} />
         </Box>
         <Box sx={{ ml: 'auto' }}>
@@ -394,89 +451,62 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
         </Box>
       </Box>
 
-      {monster.versions.length > 1 && (
-        <Tabs
-          value={index}
-          onChange={(_, i: number) => setIndex(i)}
-          variant="scrollable"
-          aria-label="Versions"
-          sx={{ mb: 2 }}
-        >
-          {monster.versions.map((v, i) => (
-            <Tab key={i} label={v.version ?? v.name} />
-          ))}
-        </Tabs>
-      )}
+      <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 2, mb: 2 }}>
+        {monster.versions.length > 1 && (
+          <TextField
+            select
+            size="small"
+            label="Version"
+            value={index}
+            onChange={(e) => setIndex(Number(e.target.value))}
+            sx={{ minWidth: 200 }}
+          >
+            {monster.versions.map((v, i) => (
+              <MenuItem key={i} value={i}>
+                {v.version ?? v.name}
+              </MenuItem>
+            ))}
+          </TextField>
+        )}
+        <CountsFor monster={monster} catalog={catalog} />
+      </Box>
 
-      {version && <StatPanel title="Fight" rows={fightRows(version, monster, catalog)} />}
+      <Tabs
+        value={tab}
+        onChange={(_, key: TabKey) => selectTab(key)}
+        aria-label="Monster"
+        sx={{ borderBottom: 1, borderColor: 'divider', mb: 2 }}
+      >
+        {tabs.map(([key, label]) => (
+          <Tab
+            key={key}
+            value={key}
+            label={label}
+            id={`monster-tab-${key}`}
+            aria-controls={`monster-panel-${key}`}
+          />
+        ))}
+      </Tabs>
 
-      {monster.locations.length > 0 && (
-        <Section title="Locations">
-          <Locations monster={monster} />
-        </Section>
-      )}
-
-      <Section title="Drops">
-        <Drops monster={monster} version={version?.version ?? null} />
-      </Section>
-
-      {version && (
-        <Accordion
-          disableGutters
-          variant="outlined"
-          sx={{ mt: 4, borderRadius: 2, '&::before': { display: 'none' } }}
-        >
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="subtitle1" component="h2" sx={{ fontWeight: 500 }}>
-              All stats
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Box
-              sx={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-                gap: 1.5,
-              }}
-            >
-              {panels(version, monster).map(([title, rows]) => (
-                <StatPanel key={title} title={title} rows={rows} />
-              ))}
-            </Box>
-          </AccordionDetails>
-        </Accordion>
-      )}
-
-      {monster.categories.length > 0 && (
-        <Section title="Counts for">
+      <Box role="tabpanel" id={`monster-panel-${tab}`} aria-labelledby={`monster-tab-${tab}`}>
+        {tab === 'stats' && version && (
           <Box
-            component="ul"
-            aria-label="Counts for"
             sx={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
               gap: 1.5,
-              listStyle: 'none',
-              p: 0,
-              m: 0,
+              alignItems: 'start',
             }}
           >
-            {monster.categories.map((name) => {
-              const c = findCategory(catalog, categorySlug(name));
-              return (
-                c && (
-                  <IconCard
-                    key={c.slug}
-                    to={categoryPath(c.slug, master?.key)}
-                    name={c.name}
-                    icon={c.icon}
-                  />
-                )
-              );
-            })}
+            <StatPanel title="Fight" rows={fightRows(version, monster, catalog)} />
+            {panels(version, monster).map(([title, rows]) => (
+              <StatPanel key={title} title={title} rows={rows} />
+            ))}
           </Box>
-        </Section>
-      )}
+        )}
+        {tab === 'locations' && <Locations monster={monster} />}
+        {tab === 'drops' && <Drops monster={monster} version={version?.version ?? null} />}
+      </Box>
     </>
   );
 }

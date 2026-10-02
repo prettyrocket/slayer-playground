@@ -115,6 +115,7 @@ export const monstersFixture: MonstersFile = {
         version(124, {
           version: 'Standard',
           isDefault: true,
+          examine: 'A denizen of the Abyss!',
           hitpoints: 150,
           maxHit: ['8'],
           attackStyles: ['Stab'],
