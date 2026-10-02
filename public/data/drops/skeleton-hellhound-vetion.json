@@ -2,22 +2,6 @@
   "page": "Skeleton Hellhound (Vet'ion)",
   "drops": [
     {
-      "item": "Big bones",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
       "item": "Bones",
       "dropVersion": null,
       "quantity": [
@@ -31,7 +15,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Looting bag",
@@ -47,39 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/74",
-      "chance": 0.013513513513513514,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Slayer's enchantment",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/232",
-      "chance": 0.004310344827586207,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 720,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Skeleton champion scroll",
@@ -95,7 +69,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/74",
+      "chance": 0.013513513513513514,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/232",
+      "chance": 0.004310344827586207,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
     }
   ]
 }

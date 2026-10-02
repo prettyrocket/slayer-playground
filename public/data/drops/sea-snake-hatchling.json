@@ -15,231 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        44,
-        44
-      ],
-      "noted": false,
-      "rarity": "60/128",
-      "chance": 0.46875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        32,
-        32
-      ],
-      "noted": false,
-      "rarity": "11/128",
-      "chance": 0.0859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant dart tip",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 21,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        24,
-        24
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        23,
-        23
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Fishing bait",
-      "dropVersion": null,
-      "quantity": [
-        50,
-        50
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Pearl bolt tips",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Raw bass",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Water orb",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
-    },
-    {
-      "item": "Broad arrows",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Edible seaweed",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Mist rune",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Raw lobster",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 42,
-      "type": "combat"
-    },
-    {
-      "item": "Seaweed",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Water rune",
@@ -255,55 +33,261 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Water sapphire",
+      "item": "Mist rune",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/64",
+      "rarity": "2/128",
       "chance": 0.015625,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 12000,
-      "type": "combat"
-    },
-    {
-      "item": "Casket",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (medium)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Broad arrows",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        44,
+        44
+      ],
+      "noted": false,
+      "rarity": "60/128",
+      "chance": 0.46875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        32,
+        32
+      ],
+      "noted": false,
+      "rarity": "11/128",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        24,
+        24
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        23,
+        23
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
+    },
+    {
+      "item": "Adamant dart tip",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Fishing bait",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        50
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Pearl bolt tips",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Water orb",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Raw bass",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Raw lobster",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 42,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Seaweed",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Edible seaweed",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Oyster pearl",
@@ -319,7 +303,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 67,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Oyster pearls",
@@ -335,7 +321,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 840,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Casket",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -351,7 +357,9 @@
       "rolls": 1,
       "altRarity": "1/260",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -367,7 +375,9 @@
       "rolls": 1,
       "altRarity": "1/520",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -383,7 +393,9 @@
       "rolls": 1,
       "altRarity": "1/1,040",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -399,7 +411,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -415,23 +429,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -447,7 +447,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -463,7 +483,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -479,7 +501,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -495,7 +519,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -511,7 +537,45 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Water sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/64",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12000,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

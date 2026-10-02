@@ -451,6 +451,8 @@ describe('Bucket rows', () => {
       altRarity: null,
       value: 72000,
       type: 'combat',
+      group: null,
+      section: null,
     });
     // Noted drops and ranges come through too.
     expect(drops.get('Abyssal demon')!.filter((d) => d.noted).length).toBeGreaterThan(0);

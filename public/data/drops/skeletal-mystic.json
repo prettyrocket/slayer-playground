@@ -15,23 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Buchu seed",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        10
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Golpar seed",
@@ -47,7 +33,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
+    },
+    {
+      "item": "Buchu seed",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        10
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Noxifer seed",
@@ -63,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Long bone",
@@ -79,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Curved bone",
@@ -95,7 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

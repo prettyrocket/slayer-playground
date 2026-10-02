@@ -190,6 +190,8 @@ describe('normalizeDrop', () => {
       altRarity: null,
       value: 2,
       type: 'combat',
+      group: null,
+      section: null,
     });
   });
 
@@ -200,7 +202,7 @@ describe('normalizeDrop', () => {
 });
 
 describe('buildDrops', () => {
-  it('filters to the given pages, dedupes, and orders by version then chance', () => {
+  it("filters to the given pages and dedupes, keeping Bucket's order", () => {
     const drops = buildDrops(
       [
         dropRow({ 'Dropped item': 'Bones', Rarity: 'Always' }),

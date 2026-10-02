@@ -2,596 +2,22 @@
   "page": "The Leviathan",
   "drops": [
     {
-      "item": "Ancient blood ornament kit",
+      "item": "Venator vestige",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "Always",
-      "chance": 1,
+      "rarity": "1/768",
+      "chance": 0.0013020833333333333,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Prayer potion(3)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5.4",
-      "chance": 0.18518518518518517,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 91,
-      "type": "combat"
-    },
-    {
-      "item": "Ranging potion(2)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5.4",
-      "chance": 0.18518518518518517,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 129,
-      "type": "combat"
-    },
-    {
-      "item": "Sea turtle",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        4
-      ],
-      "noted": false,
-      "rarity": "1/5.4",
-      "chance": 0.18518518518518517,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Anglerfish",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        6
-      ],
-      "noted": false,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 270,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": null,
-      "quantity": [
-        195,
-        292
-      ],
-      "noted": true,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon javelin tips",
-      "dropVersion": null,
-      "quantity": [
-        54,
-        81
-      ],
-      "noted": false,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1170,
-      "type": "combat"
-    },
-    {
-      "item": "Gold ore",
-      "dropVersion": null,
-      "quantity": [
-        67,
-        101
-      ],
-      "noted": true,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 90,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": null,
-      "quantity": [
-        54,
-        81
-      ],
-      "noted": false,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Smoke rune",
-      "dropVersion": null,
-      "quantity": [
-        300,
-        450
-      ],
-      "noted": false,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        37,
-        56
-      ],
-      "noted": true,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        37,
-        56
-      ],
-      "noted": true,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Scarred tablet",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/25.8",
-      "chance": 0.03875968992248062,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Brimstone key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/50",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon bolts (unf)",
-      "dropVersion": null,
-      "quantity": [
-        150,
-        225
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 84,
-      "type": "combat"
-    },
-    {
-      "item": "Runite ore",
-      "dropVersion": null,
-      "quantity": [
-        27,
-        40
-      ],
-      "noted": true,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1920,
-      "type": "combat"
-    },
-    {
-      "item": "Soul rune",
-      "dropVersion": null,
-      "quantity": [
-        600,
-        900
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
-    },
-    {
-      "item": "Awakener's orb",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/53.6",
-      "chance": 0.018656716417910446,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 45000,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant arrow",
-      "dropVersion": null,
-      "quantity": [
-        63,
-        94
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 48,
-      "type": "combat"
-    },
-    {
-      "item": "Adamantite ore",
-      "dropVersion": null,
-      "quantity": [
-        57,
-        85
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Aether catalyst",
-      "dropVersion": null,
-      "quantity": [
-        1500,
-        2250
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Body rune",
-      "dropVersion": null,
-      "quantity": [
-        180,
-        270
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze arrow",
-      "dropVersion": null,
-      "quantity": [
-        63,
-        94
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": null,
-      "quantity": [
-        180,
-        270
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Emerald",
-      "dropVersion": null,
-      "quantity": [
-        25,
-        38
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
-    },
-    {
-      "item": "Iron ore",
-      "dropVersion": null,
-      "quantity": [
-        57,
-        85
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril arrow",
-      "dropVersion": null,
-      "quantity": [
-        63,
-        94
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 19,
-      "type": "combat"
-    },
-    {
-      "item": "Onyx bolt tips",
-      "dropVersion": null,
-      "quantity": [
-        90,
-        135
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 600,
-      "type": "combat"
-    },
-    {
-      "item": "Raw manta ray",
-      "dropVersion": null,
-      "quantity": [
-        180,
-        270
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Ruby",
-      "dropVersion": null,
-      "quantity": [
-        25,
-        38
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 600,
-      "type": "combat"
-    },
-    {
-      "item": "Sapphire",
-      "dropVersion": null,
-      "quantity": [
-        25,
-        38
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150,
-      "type": "combat"
-    },
-    {
-      "item": "Silver ore",
-      "dropVersion": null,
-      "quantity": [
-        57,
-        85
-      ],
-      "noted": true,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 45,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (easy)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/160",
-      "chance": 0.00625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (elite)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/160",
-      "chance": 0.00625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/160",
-      "chance": 0.00625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (medium)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/160",
-      "chance": 0.00625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Smoke quartz",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/206",
-      "chance": 0.0048543689320388345,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "value": 30000,
+      "type": "combat",
+      "group": null,
+      "section": "Uniques"
     },
     {
       "item": "Chromium ingot",
@@ -607,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Uniques"
     },
     {
       "item": "Leviathan's lure",
@@ -623,23 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30000,
-      "type": "combat"
-    },
-    {
-      "item": "Venator vestige",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/768",
-      "chance": 0.0013020833333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Uniques"
     },
     {
       "item": "Virtus mask",
@@ -655,23 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 120000,
-      "type": "combat"
-    },
-    {
-      "item": "Virtus robe bottom",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,304",
-      "chance": 0.00043402777777777775,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Uniques"
     },
     {
       "item": "Virtus robe top",
@@ -687,7 +87,675 @@
       "rolls": 1,
       "altRarity": null,
       "value": 360000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Uniques"
+    },
+    {
+      "item": "Virtus robe bottom",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,304",
+      "chance": 0.00043402777777777775,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240000,
+      "type": "combat",
+      "group": null,
+      "section": "Uniques"
+    },
+    {
+      "item": "Scarred tablet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25.8",
+      "chance": 0.03875968992248062,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Secondary uniques"
+    },
+    {
+      "item": "Awakener's orb",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/53.6",
+      "chance": 0.018656716417910446,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 45000,
+      "type": "combat",
+      "group": null,
+      "section": "Secondary uniques"
+    },
+    {
+      "item": "Smoke quartz",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/206",
+      "chance": 0.0048543689320388345,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Secondary uniques"
+    },
+    {
+      "item": "Prayer potion(3)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5.4",
+      "chance": 0.18518518518518517,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 91,
+      "type": "combat",
+      "group": null,
+      "section": "Supplies"
+    },
+    {
+      "item": "Ranging potion(2)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5.4",
+      "chance": 0.18518518518518517,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 129,
+      "type": "combat",
+      "group": null,
+      "section": "Supplies"
+    },
+    {
+      "item": "Sea turtle",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/5.4",
+      "chance": 0.18518518518518517,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Supplies"
+    },
+    {
+      "item": "Aether catalyst",
+      "dropVersion": null,
+      "quantity": [
+        1500,
+        2250
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Iron ore",
+      "dropVersion": null,
+      "quantity": [
+        57,
+        85
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Silver ore",
+      "dropVersion": null,
+      "quantity": [
+        57,
+        85
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 45,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        195,
+        292
+      ],
+      "noted": true,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Gold ore",
+      "dropVersion": null,
+      "quantity": [
+        67,
+        101
+      ],
+      "noted": true,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 90,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Adamantite ore",
+      "dropVersion": null,
+      "quantity": [
+        57,
+        85
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Runite ore",
+      "dropVersion": null,
+      "quantity": [
+        27,
+        40
+      ],
+      "noted": true,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1920,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Sapphire",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        38
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Emerald",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        38
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Ruby",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        38
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        37,
+        56
+      ],
+      "noted": true,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        37,
+        56
+      ],
+      "noted": true,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Dragon javelin tips",
+      "dropVersion": null,
+      "quantity": [
+        54,
+        81
+      ],
+      "noted": false,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1170,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Dragon bolts (unf)",
+      "dropVersion": null,
+      "quantity": [
+        150,
+        225
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 84,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Onyx bolt tips",
+      "dropVersion": null,
+      "quantity": [
+        90,
+        135
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Raw manta ray",
+      "dropVersion": null,
+      "quantity": [
+        180,
+        270
+      ],
+      "noted": true,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Anglerfish",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        6
+      ],
+      "noted": false,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 270,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Bronze arrow",
+      "dropVersion": null,
+      "quantity": [
+        63,
+        94
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Mithril arrow",
+      "dropVersion": null,
+      "quantity": [
+        63,
+        94
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Adamant arrow",
+      "dropVersion": null,
+      "quantity": [
+        63,
+        94
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": null,
+      "quantity": [
+        54,
+        81
+      ],
+      "noted": false,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": null,
+      "quantity": [
+        180,
+        270
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": null,
+      "quantity": [
+        180,
+        270
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Smoke rune",
+      "dropVersion": null,
+      "quantity": [
+        300,
+        450
+      ],
+      "noted": false,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Soul rune",
+      "dropVersion": null,
+      "quantity": [
+        600,
+        900
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/160",
+      "chance": 0.00625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/160",
+      "chance": 0.00625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/160",
+      "chance": 0.00625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (elite)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/160",
+      "chance": 0.00625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Lil'viathan",
@@ -703,7 +771,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ancient blood ornament kit",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 148,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Clue scroll (beginner)",
@@ -31,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

@@ -15,55 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Looting bag",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3",
-      "chance": 0.3333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "40/128",
-      "chance": 0.3125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Earth rune",
@@ -79,7 +33,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Chaos rune",
@@ -95,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Blood rune",
@@ -111,247 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Black axe",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 230,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/51.2",
-      "chance": 0.01953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/51.5",
-      "chance": 0.019417475728155338,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Strawberry seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/53.9",
-      "chance": 0.01855287569573284,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Marrentill seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/56.5",
-      "chance": 0.017699115044247787,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Ecumenical key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/60",
-      "chance": 0.016666666666666666,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/40",
-      "value": 61500,
-      "type": "combat"
-    },
-    {
-      "item": "Earth talisman",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/68.3",
-      "chance": 0.014641288433382138,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Jangerberry seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/76.7",
-      "chance": 0.013037809647979138,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Tarromin seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/83.1",
-      "chance": 0.012033694344163659,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Wildblood seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/85.1",
-      "chance": 0.011750881316098707,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/91",
-      "chance": 0.01098901098901099,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Watermelon seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/112.1",
-      "chance": 0.008920606601248885,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 33,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/117",
-      "chance": 0.008547008547008548,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Harralander seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/126.1",
-      "chance": 0.007930214115781126,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Blood rune",
@@ -367,39 +105,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
-      "item": "Clue scroll (medium)",
+      "item": "Grimy guam leaf",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "1/51.2",
+      "chance": 0.01953125,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/64",
-      "value": 12,
-      "type": "combat"
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
-      "item": "Uncut sapphire",
+      "item": "Grimy marrentill",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "1/68.3",
+      "chance": 0.014641288433382138,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/65",
-      "value": 15,
-      "type": "combat"
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/91",
+      "chance": 0.01098901098901099,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/117",
+      "chance": 0.008547008547008548,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Grimy ranarr weed",
@@ -415,39 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Snape grass seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/176.5",
-      "chance": 0.0056657223796034,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 56,
-      "type": "combat"
-    },
-    {
-      "item": "Ranarr seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/181",
-      "chance": 0.0055248618784530384,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -463,71 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Whiteberry seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/207.7",
-      "chance": 0.004814636494944632,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 79,
-      "type": "combat"
-    },
-    {
-      "item": "Mushroom spore",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/243.5",
-      "chance": 0.004106776180698152,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 51,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/256",
-      "chance": 0.00390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/130",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Toadflax seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/261.5",
-      "chance": 0.0038240917782026767,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -543,7 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -559,39 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Belladonna seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/392.2",
-      "chance": 0.0025497195308516064,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 106,
-      "type": "combat"
-    },
-    {
-      "item": "Irit seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/392.2",
-      "chance": 0.0025497195308516064,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -607,55 +267,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/260",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Poison ivy seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/543.1",
-      "chance": 0.0018412815319462344,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 99,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/546.1",
-      "chance": 0.0018311664530305805,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -671,7 +285,315 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/546.1",
+      "chance": 0.0018311664530305805,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Mushroom spore",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/243.5",
+      "chance": 0.004106776180698152,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 51,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Limpwurt seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/51.5",
+      "chance": 0.019417475728155338,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Strawberry seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/53.9",
+      "chance": 0.01855287569573284,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Marrentill seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/56.5",
+      "chance": 0.017699115044247787,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Jangerberry seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/76.7",
+      "chance": 0.013037809647979138,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Tarromin seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/83.1",
+      "chance": 0.012033694344163659,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Wildblood seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/85.1",
+      "chance": 0.011750881316098707,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Watermelon seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/112.1",
+      "chance": 0.008920606601248885,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Harralander seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/126.1",
+      "chance": 0.007930214115781126,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Snape grass seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/176.5",
+      "chance": 0.0056657223796034,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 56,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/181",
+      "chance": 0.0055248618784530384,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Whiteberry seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/207.7",
+      "chance": 0.004814636494944632,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 79,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Toadflax seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/261.5",
+      "chance": 0.0038240917782026767,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Belladonna seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/392.2",
+      "chance": 0.0025497195308516064,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 106,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Irit seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/392.2",
+      "chance": 0.0025497195308516064,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Poison ivy seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/543.1",
+      "chance": 0.0018412815319462344,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 99,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Avantoe seed",
@@ -687,7 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Cactus seed",
@@ -703,7 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 59,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Kwuarm seed",
@@ -719,7 +645,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Potato cactus seed",
@@ -735,39 +663,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 84,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos talisman",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,365.33",
-      "chance": 0.0007324236631437088,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/693.33",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Nature talisman",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,365.33",
-      "chance": 0.0007324236631437088,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/693.33",
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Snapdragon seed",
@@ -783,7 +681,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Cadantine seed",
@@ -799,23 +699,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,048",
-      "chance": 0.00048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,040",
-      "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Lantadyme seed",
@@ -831,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 5,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Dwarf weed seed",
@@ -847,55 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4,096",
-      "chance": 0.000244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,080",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/4,096",
-      "chance": 0.000244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,080",
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4,096",
-      "chance": 0.000244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,080",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Torstol seed",
@@ -911,7 +753,225 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "40/128",
+      "chance": 0.3125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Black axe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 230,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Earth talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/65",
+      "value": 15,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/130",
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/260",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Chaos talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,365.33",
+      "chance": 0.0007324236631437088,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/693.33",
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,365.33",
+      "chance": 0.0007324236631437088,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/693.33",
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,040",
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,080",
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,080",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,080",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -927,7 +987,9 @@
       "rolls": 1,
       "altRarity": "1/3,900",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -943,7 +1005,9 @@
       "rolls": 1,
       "altRarity": "1/7,800",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -959,7 +1023,63 @@
       "rolls": 1,
       "altRarity": "1/10,400",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/64",
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ecumenical key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60",
+      "chance": 0.016666666666666666,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/40",
+      "value": 61500,
+      "type": "combat",
+      "group": null,
+      "section": null
     }
   ]
 }

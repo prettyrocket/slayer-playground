@@ -15,39 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        8,
-        8
-      ],
-      "noted": false,
-      "rarity": "23/128",
-      "chance": 0.1796875,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "21/128",
-      "chance": 0.1640625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Leather gloves",
@@ -63,39 +33,9 @@
       "rolls": 3,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Gold ring",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 210,
-      "type": "combat"
-    },
-    {
-      "item": "Emerald ring",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 765,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gloves"
     },
     {
       "item": "Purple gloves",
@@ -111,55 +51,9 @@
       "rolls": 3,
       "altRarity": null,
       "value": 300,
-      "type": "combat"
-    },
-    {
-      "item": "Red gloves",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
-    },
-    {
-      "item": "Sapphire ring",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 540,
-      "type": "combat"
-    },
-    {
-      "item": "Teal gloves",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gloves"
     },
     {
       "item": "Yellow gloves",
@@ -175,263 +69,135 @@
       "rolls": 3,
       "altRarity": null,
       "value": 300,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gloves"
     },
     {
-      "item": "Uncut sapphire",
+      "item": "Red gloves",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/256",
-      "chance": 0.00390625,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
       "rolls": 3,
-      "altRarity": "1/130",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Dust battlestaff",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/393",
-      "chance": 0.002544529262086514,
-      "approx": false,
-      "rolls": 1,
       "altRarity": null,
-      "value": 9300,
-      "type": "combat"
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Gloves"
     },
     {
-      "item": "Mist battlestaff",
+      "item": "Teal gloves",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/393",
-      "chance": 0.002544529262086514,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
-      "rolls": 1,
+      "rolls": 3,
       "altRarity": null,
-      "value": 9300,
-      "type": "combat"
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Gloves"
     },
     {
-      "item": "Crawling hand (item)",
+      "item": "Gold ring",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/500",
-      "chance": 0.002,
+      "rarity": "3/128",
+      "chance": 0.0234375,
       "approx": false,
-      "rolls": 1,
+      "rolls": 3,
       "altRarity": null,
-      "value": 600,
-      "type": "combat"
+      "value": 210,
+      "type": "combat",
+      "group": null,
+      "section": "Jewellery"
     },
     {
-      "item": "Uncut emerald",
+      "item": "Sapphire ring",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
       "rolls": 3,
-      "altRarity": "1/260",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,024",
-      "chance": 0.0009765625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/520",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Eternal gem",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,376",
-      "chance": 0.0007267441860465116,
-      "approx": false,
-      "rolls": 1,
       "altRarity": null,
-      "value": 5700,
-      "type": "combat"
+      "value": 540,
+      "type": "combat",
+      "group": null,
+      "section": "Jewellery"
     },
     {
-      "item": "Imbued heart",
+      "item": "Emerald ring",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/1,376",
-      "chance": 0.0007267441860465116,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
-      "rolls": 1,
+      "rolls": 3,
       "altRarity": null,
-      "value": 300000,
-      "type": "combat"
+      "value": 765,
+      "type": "combat",
+      "group": null,
+      "section": "Jewellery"
     },
     {
-      "item": "Nature talisman",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,730.67",
-      "chance": 0.0003662104904657099,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/1,386.67",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4,096",
-      "chance": 0.000244140625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/2,080",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/4,160",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
+      "item": "Coins",
       "dropVersion": null,
       "quantity": [
         5,
         5
       ],
       "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
+      "rarity": "21/128",
+      "chance": 0.1640625,
       "approx": false,
       "rolls": 3,
-      "altRarity": "1/4,160",
-      "value": 240,
-      "type": "combat"
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
-      "item": "Tooth half of key",
+      "item": "Coins",
       "dropVersion": null,
       "quantity": [
-        1,
-        1
+        8,
+        8
       ],
       "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
+      "rarity": "23/128",
+      "chance": 0.1796875,
       "approx": false,
       "rolls": 3,
-      "altRarity": "1/4,160",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/131,072",
-      "chance": 0.00000762939453125,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/7,800",
-      "value": 12480,
-      "type": "combat"
-    },
-    {
-      "item": "Shield left half",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/262,144",
-      "chance": 0.000003814697265625,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/15,600",
-      "value": 66000,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/349,525.33",
-      "chance": 0.0000028610229765035913,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/20,800",
-      "value": 37440,
-      "type": "combat"
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Energy potion(2)",
@@ -447,7 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 43,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Energy potion(4)",
@@ -463,7 +231,297 @@
       "rolls": 1,
       "altRarity": null,
       "value": 87,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/130",
+      "value": 15,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/260",
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,024",
+      "chance": 0.0009765625,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/520",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,730.67",
+      "chance": 0.0003662104904657099,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/1,386.67",
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/2,080",
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/4,160",
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/4,160",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/4,160",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/131,072",
+      "chance": 0.00000762939453125,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/7,800",
+      "value": 12480,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/262,144",
+      "chance": 0.000003814697265625,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/15,600",
+      "value": 66000,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/349,525.33",
+      "chance": 0.0000028610229765035913,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/20,800",
+      "value": 37440,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Crawling hand (item)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/500",
+      "chance": 0.002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 600,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Mist battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/393",
+      "chance": 0.002544529262086514,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Dust battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/393",
+      "chance": 0.002544529262086514,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Eternal gem",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,376",
+      "chance": 0.0007267441860465116,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 5700,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Imbued heart",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,376",
+      "chance": 0.0007267441860465116,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300000,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
     }
   ]
 }

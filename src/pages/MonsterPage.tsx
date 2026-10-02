@@ -1,10 +1,13 @@
-import { useState } from 'react';
+import { type ReactNode, useState } from 'react';
 
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Alert from '@mui/material/Alert';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
+import ButtonBase from '@mui/material/ButtonBase';
 import Chip from '@mui/material/Chip';
 import CircularProgress from '@mui/material/CircularProgress';
+import Collapse from '@mui/material/Collapse';
 import Link from '@mui/material/Link';
 import MenuItem from '@mui/material/MenuItem';
 import Tab from '@mui/material/Tab';
@@ -260,55 +263,225 @@ function SuperiorLinks({
   });
 }
 
+/**
+ * How rare a drop is per kill, for its color, as in better-monster-examine:
+ * past 1/50 uncommon, past 1/500 rare, past 1/5000 ultra rare. "Always" and
+ * rarities without a number stay common.
+ */
+type Tier = 'common' | 'uncommon' | 'rare' | 'ultra';
+function tierOf(drop: Drop): Tier {
+  const p = drop.chance === null ? 0 : drop.chance * drop.rolls;
+  if (p <= 0 || p >= 1 / 50) return 'common';
+  if (p >= 1 / 500) return 'uncommon';
+  if (p >= 1 / 5000) return 'rare';
+  return 'ultra';
+}
+
+// Light and dark shades of green, blue and purple; common keeps the text color.
+const TIER_COLORS: Record<Exclude<Tier, 'common'>, [string, string]> = {
+  uncommon: ['#2e7d32', '#5fc96b'],
+  rare: ['#1565c0', '#5aa9e6'],
+  ultra: ['#7b1fa2', '#bb7fe0'],
+};
+
+function Rarity({ drop }: { drop: Drop }) {
+  const tier = tierOf(drop);
+  if (tier === 'common') return <>{drop.rarity}</>;
+  const [light, dark] = TIER_COLORS[tier];
+  return (
+    <Box
+      component="span"
+      sx={(theme) => ({
+        color: light,
+        fontWeight: 500,
+        ...theme.applyStyles('dark', { color: dark }),
+      })}
+    >
+      {drop.rarity}
+    </Box>
+  );
+}
+
+/** A heading that folds what's under it away, with a triangle saying which way. */
+function Disclosure({
+  id,
+  title,
+  count,
+  open,
+  onToggle,
+  band,
+  children,
+}: {
+  id: string;
+  title: string;
+  count?: number;
+  open: boolean;
+  onToggle: () => void;
+  band?: boolean;
+  children: ReactNode;
+}) {
+  return (
+    <Box
+      component="section"
+      aria-labelledby={`${id}-title`}
+      sx={band ? { mb: 2 } : { border: 1, borderColor: 'divider', borderRadius: 2, mb: 1 }}
+    >
+      <Typography
+        component={band ? 'h2' : 'h3'}
+        variant={band ? 'subtitle1' : 'subtitle2'}
+        sx={{ m: 0 }}
+      >
+        <ButtonBase
+          id={`${id}-title`}
+          aria-expanded={open}
+          aria-controls={id}
+          onClick={onToggle}
+          sx={{
+            width: '100%',
+            justifyContent: 'flex-start',
+            gap: 1,
+            px: 1.5,
+            py: band ? 1 : 0.75,
+            borderRadius: 2,
+            font: 'inherit',
+            fontWeight: band ? 600 : 500,
+            textAlign: 'left',
+            ...(band && { bgcolor: 'action.selected' }),
+            '&:hover': { bgcolor: 'action.hover' },
+          }}
+        >
+          <ExpandMoreIcon
+            fontSize="small"
+            sx={{ transition: 'transform 150ms', transform: open ? 'none' : 'rotate(-90deg)' }}
+          />
+          {title}
+          {count !== undefined && (
+            <Typography component="span" variant="body2" color="text.secondary" sx={{ ml: 'auto' }}>
+              {count}
+            </Typography>
+          )}
+        </ButtonBase>
+      </Typography>
+      <Collapse in={open} id={id} unmountOnExit>
+        <Box sx={band ? { pt: 1 } : undefined}>{children}</Box>
+      </Collapse>
+    </Box>
+  );
+}
+
+function DropRows({ label, drops }: { label: string; drops: Drop[] }) {
+  return (
+    <TableContainer>
+      <Table size="small" aria-label={label}>
+        <TableHead>
+          <TableRow>
+            <TableCell>Item</TableCell>
+            <TableCell align="right">Quantity</TableCell>
+            <TableCell align="right">Rarity</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {drops.map((drop, i) => (
+            <TableRow key={`${drop.item}-${i}`} hover sx={{ '&:last-child td': { border: 0 } }}>
+              <TableCell>{drop.item}</TableCell>
+              <TableCell align="right">{quantity(drop)}</TableCell>
+              <TableCell align="right">
+                <Rarity drop={drop} />
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}
+
+interface DropGroup {
+  label: string | null;
+  sections: { label: string; drops: Drop[] }[];
+}
+
+/**
+ * Drops in the wiki's own tables, in its order: groups (a location or combat
+ * level the page splits its drops by), then sections ("Herbs", "Tertiary").
+ * Drops the sync couldn't file go under their drop version.
+ */
+function dropGroups(drops: Drop[]): DropGroup[] {
+  const groups: DropGroup[] = [];
+  for (const drop of drops) {
+    const label = drop.section === null ? null : drop.group;
+    const section = drop.section ?? drop.dropVersion ?? 'Drops';
+    let group = groups.find((g) => g.label === label);
+    if (!group) groups.push((group = { label, sections: [] }));
+    let s = group.sections.find((x) => x.label === section);
+    if (!s) group.sections.push((s = { label: section, drops: [] }));
+    s.drops.push(drop);
+  }
+  return groups;
+}
+
+const slug = (...parts: (string | null)[]) =>
+  parts
+    .filter(Boolean)
+    .join('-')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-');
+
+/**
+ * Its drops as better-monster-examine lays them out: a band per location or
+ * combat level, each folding away, and a table per wiki section under it, each
+ * folding on its own. Bands for other versions than the picked one start folded.
+ */
 function Drops({ monster, version }: { monster: Monster; version: string | null }) {
   const { data, isError, error } = useDrops(monster);
-  const tables = [...new Set(data?.drops.map((d) => d.dropVersion) ?? [])];
-  // The drop table named like the chosen version, else the first.
-  const [picked, setPicked] = useState<string | null | undefined>(undefined);
-  const table = picked !== undefined ? picked : tables.includes(version) ? version : tables[0];
+  const [toggled, setToggled] = useState<Record<string, boolean>>({});
 
   if (!monster.hasDrops) return <Typography color="text.secondary">No drops.</Typography>;
   if (isError) return <Alert severity="error">{error.message}</Alert>;
   if (!data) return <CircularProgress size={24} aria-label="Loading drops" />;
 
-  const drops = data.drops.filter((d) => d.dropVersion === table);
-  return (
-    <>
-      {tables.length > 1 && (
-        <Tabs
-          value={tables.indexOf(table ?? null)}
-          onChange={(_, i: number) => setPicked(tables[i])}
-          variant="scrollable"
-          aria-label="Drop tables"
-          sx={{ mb: 1 }}
+  const groups = dropGroups(data.drops);
+  const hasVersion = (g: DropGroup) =>
+    g.sections.some((s) => s.drops.some((d) => d.dropVersion === version));
+  const anyMatch = groups.some(hasVersion);
+  const isOpen = (key: string, byDefault: boolean) => toggled[key] ?? byDefault;
+  const toggle = (key: string, byDefault: boolean) =>
+    setToggled((t) => ({ ...t, [key]: !(t[key] ?? byDefault) }));
+
+  const sections = (group: DropGroup) =>
+    group.sections.map((s) => {
+      const key = slug('drops', group.label, s.label);
+      return (
+        <Disclosure
+          key={key}
+          id={key}
+          title={s.label}
+          count={s.drops.length}
+          open={isOpen(key, true)}
+          onToggle={() => toggle(key, true)}
         >
-          {tables.map((t) => (
-            <Tab key={t ?? ''} label={t ?? 'Drops'} />
-          ))}
-        </Tabs>
-      )}
-      <TableContainer>
-        <Table size="small" aria-label={`${monster.page} drops`}>
-          <TableHead>
-            <TableRow>
-              <TableCell>Item</TableCell>
-              <TableCell align="right">Quantity</TableCell>
-              <TableCell align="right">Rarity</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {drops.map((drop, i) => (
-              <TableRow key={`${drop.item}-${i}`} hover>
-                <TableCell>{drop.item}</TableCell>
-                <TableCell align="right">{quantity(drop)}</TableCell>
-                <TableCell align="right">{drop.rarity}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </>
-  );
+          <DropRows label={`${s.label} drops`} drops={s.drops} />
+        </Disclosure>
+      );
+    });
+
+  return groups.map((group) => {
+    if (group.label === null) return <Box key="-">{sections(group)}</Box>;
+    const key = slug('drops', group.label);
+    const byDefault = !anyMatch || hasVersion(group);
+    return (
+      <Disclosure
+        key={key}
+        id={key}
+        title={group.label}
+        open={isOpen(key, byDefault)}
+        onToggle={() => toggle(key, byDefault)}
+        band
+      >
+        {sections(group)}
+      </Disclosure>
+    );
+  });
 }
 
 /**
@@ -452,7 +625,7 @@ function MonsterDetails({ monster, catalog }: { monster: Monster; catalog: Catal
       </Box>
 
       <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 2, mb: 2 }}>
-        {monster.versions.length > 1 && (
+        {monster.versions.length > 1 && tab !== 'drops' && (
           <TextField
             select
             size="small"

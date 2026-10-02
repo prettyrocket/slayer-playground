@@ -15,39 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Evil chicken's egg",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Feather",
-      "dropVersion": null,
-      "quantity": [
-        50,
-        250
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Raw chicken",
@@ -63,7 +33,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
+    },
+    {
+      "item": "Feather",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        250
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "100%"
+    },
+    {
+      "item": "Evil chicken's egg",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     }
   ]
 }

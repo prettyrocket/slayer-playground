@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Raw t-bone steak",
@@ -31,215 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        60,
-        80
-      ],
-      "noted": false,
-      "rarity": "15/81",
-      "chance": 0.18518518518518517,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": null,
-      "quantity": [
-        29,
-        29
-      ],
-      "noted": false,
-      "rarity": "10/81",
-      "chance": 0.12345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Cowhide",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "10/81",
-      "chance": 0.12345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": null,
-      "quantity": [
-        14,
-        14
-      ],
-      "noted": false,
-      "rarity": "10/81",
-      "chance": 0.12345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Potato seed",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "10/81",
-      "chance": 0.12345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Raw t-bone steak",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": true,
-      "rarity": "10/81",
-      "chance": 0.12345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Mind rune",
-      "dropVersion": null,
-      "quantity": [
-        18,
-        18
-      ],
-      "noted": false,
-      "rarity": "8/81",
-      "chance": 0.09876543209876543,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/15",
-      "chance": 0.06666666666666667,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Acorn",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "5/81",
-      "chance": 0.06172839506172839,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        80,
-        100
-      ],
-      "noted": false,
-      "rarity": "5/81",
-      "chance": 0.06172839506172839,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        120
-      ],
-      "noted": false,
-      "rarity": "5/81",
-      "chance": 0.06172839506172839,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Logs",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "5/81",
-      "chance": 0.06172839506172839,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Oak logs",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "5/81",
-      "chance": 0.06172839506172839,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Mooleta",
@@ -255,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
     },
     {
       "item": "Bottomless milk bucket (empty)",
@@ -271,103 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9000,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (easy)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/40",
-      "chance": 0.025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "2/81",
-      "chance": 0.024691358024691357,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Iron full helm",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/81",
-      "chance": 0.024691358024691357,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 92,
-      "type": "combat"
-    },
-    {
-      "item": "Iron platebody",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/81",
-      "chance": 0.024691358024691357,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 336,
-      "type": "combat"
-    },
-    {
-      "item": "Iron platelegs",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/81",
-      "chance": 0.012345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 168,
-      "type": "combat"
-    },
-    {
-      "item": "Iron plateskirt",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/81",
-      "chance": 0.012345679012345678,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 168,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
     },
     {
       "item": "Cow slippers",
@@ -383,7 +87,351 @@
       "rolls": 1,
       "altRarity": null,
       "value": 600,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Iron full helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/81",
+      "chance": 0.024691358024691357,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 92,
+      "type": "combat",
+      "group": null,
+      "section": "Armour"
+    },
+    {
+      "item": "Iron platebody",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/81",
+      "chance": 0.024691358024691357,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 336,
+      "type": "combat",
+      "group": null,
+      "section": "Armour"
+    },
+    {
+      "item": "Iron platelegs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/81",
+      "chance": 0.012345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 168,
+      "type": "combat",
+      "group": null,
+      "section": "Armour"
+    },
+    {
+      "item": "Iron plateskirt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/81",
+      "chance": 0.012345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 168,
+      "type": "combat",
+      "group": null,
+      "section": "Armour"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": null,
+      "quantity": [
+        14,
+        14
+      ],
+      "noted": false,
+      "rarity": "10/81",
+      "chance": 0.12345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": null,
+      "quantity": [
+        29,
+        29
+      ],
+      "noted": false,
+      "rarity": "10/81",
+      "chance": 0.12345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Mind rune",
+      "dropVersion": null,
+      "quantity": [
+        18,
+        18
+      ],
+      "noted": false,
+      "rarity": "8/81",
+      "chance": 0.09876543209876543,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "2/81",
+      "chance": 0.024691358024691357,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Potato seed",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "10/81",
+      "chance": 0.12345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Acorn",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "5/81",
+      "chance": 0.06172839506172839,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Raw t-bone steak",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": true,
+      "rarity": "10/81",
+      "chance": 0.12345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Cowhide",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/81",
+      "chance": 0.12345679012345678,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Oak logs",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "5/81",
+      "chance": 0.06172839506172839,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Logs",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "5/81",
+      "chance": 0.06172839506172839,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        60,
+        80
+      ],
+      "noted": false,
+      "rarity": "15/81",
+      "chance": 0.18518518518518517,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        80,
+        100
+      ],
+      "noted": false,
+      "rarity": "5/81",
+      "chance": 0.06172839506172839,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        120
+      ],
+      "noted": false,
+      "rarity": "5/81",
+      "chance": 0.06172839506172839,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/15",
+      "chance": 0.06666666666666667,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/40",
+      "chance": 0.025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Beef",
@@ -399,7 +447,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

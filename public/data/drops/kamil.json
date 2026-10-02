@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Super restore(4)",
@@ -31,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 180,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     }
   ]
 }

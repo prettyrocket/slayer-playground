@@ -274,4 +274,11 @@ export interface Drop {
   value: number | null;
   /** "combat" for kills; "reward", "thieving", … for other sources on the page. */
   type: string;
+  /**
+   * The location or combat level the wiki files this drop's table under, e.g.
+   * "Wilderness Slayer Cave"; null when the page doesn't split its drops.
+   */
+  group: string | null;
+  /** The wiki's drop table it's in, e.g. "Herbs" or "Tertiary"; null when unknown. */
+  section: string | null;
 }

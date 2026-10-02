@@ -15,23 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Oyster",
-      "dropVersion": "Level 21",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/10",
-      "chance": 0.1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 21)",
+      "section": "100%"
     },
     {
       "item": "Fresh crab claw",
@@ -47,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 21)",
+      "section": "Other"
     },
     {
       "item": "Fresh crab shell",
@@ -63,7 +51,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 21)",
+      "section": "Other"
+    },
+    {
+      "item": "Oyster",
+      "dropVersion": "Level 21",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/10",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Drops (Level 21)",
+      "section": "Other"
     },
     {
       "item": "Giant crab meat",
@@ -79,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 23)",
+      "section": "100%"
     },
     {
       "item": "Fresh crab claw",
@@ -95,7 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 23)",
+      "section": "Other"
     },
     {
       "item": "Fresh crab shell",
@@ -111,7 +123,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 23)",
+      "section": "Other"
     },
     {
       "item": "Oyster",
@@ -127,7 +141,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 23)",
+      "section": "Other"
     }
   ]
 }

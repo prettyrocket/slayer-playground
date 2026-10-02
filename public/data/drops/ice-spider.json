@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Clue scroll (beginner)",
@@ -31,55 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/208",
-      "chance": 0.004807692307692308,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Slayer's enchantment",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/268",
-      "chance": 0.0037313432835820895,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 720,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key (moon key)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/964",
-      "chance": 0.001037344398340249,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Frozen tear",
@@ -95,7 +51,63 @@
       "rolls": 1,
       "altRarity": null,
       "value": 300,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Tooth half of key (moon key)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/964",
+      "chance": 0.001037344398340249,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/208",
+      "chance": 0.004807692307692308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/268",
+      "chance": 0.0037313432835820895,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
     }
   ]
 }

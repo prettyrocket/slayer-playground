@@ -2,182 +2,6 @@
   "page": "Skeleton Mage",
   "drops": [
     {
-      "item": "Uncut sapphire",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/52",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/204.8",
-      "chance": 0.0048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/104",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/409.6",
-      "chance": 0.00244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/208",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Nature talisman",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,092.27",
-      "chance": 0.0009155245497908026,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/554.67",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,638.4",
-      "chance": 0.0006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/832",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/52,428.8",
-      "chance": 0.000019073486328125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/3,120",
-      "value": 12480,
-      "type": "combat"
-    },
-    {
-      "item": "Shield left half",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/104,857.6",
-      "chance": 0.0000095367431640625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/6,240",
-      "value": 66000,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/139,810.13",
-      "chance": 0.000007152557543577136,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 37440,
-      "type": "combat"
-    },
-    {
       "item": "Bones",
       "dropVersion": "Level 16",
       "quantity": [
@@ -191,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 16 drops",
+      "section": "100%"
     },
     {
       "item": "Skeleton champion scroll",
@@ -207,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 16 drops",
+      "section": "Tertiary"
     },
     {
       "item": "Ashes",
@@ -223,183 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 83",
-      "quantity": [
-        25,
-        54
-      ],
-      "noted": false,
-      "rarity": "33/128",
-      "chance": 0.2578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Level 83",
-      "quantity": [
-        2,
-        3
-      ],
-      "noted": false,
-      "rarity": "12/128",
-      "chance": 0.09375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Mind rune",
-      "dropVersion": "Level 83",
-      "quantity": [
-        7,
-        9
-      ],
-      "noted": false,
-      "rarity": "12/128",
-      "chance": 0.09375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        3
-      ],
-      "noted": false,
-      "rarity": "11/128",
-      "chance": 0.0859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Level 83",
-      "quantity": [
-        3,
-        4
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Pot of flour",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": true,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut opal",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Big bones",
-      "dropVersion": "Level 83",
-      "quantity": [
-        2,
-        4
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Iron bar",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 16,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/42.7",
-      "chance": 0.023419203747072598,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/56.9",
-      "chance": 0.01757469244288225,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "100%"
     },
     {
       "item": "Pink skirt",
@@ -415,7 +69,171 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mind rune",
+      "dropVersion": "Level 83",
+      "quantity": [
+        7,
+        9
+      ],
+      "noted": false,
+      "rarity": "12/128",
+      "chance": 0.09375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "Level 83",
+      "quantity": [
+        3,
+        4
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Level 83",
+      "quantity": [
+        2,
+        3
+      ],
+      "noted": false,
+      "rarity": "12/128",
+      "chance": 0.09375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "11/128",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,092.27",
+      "chance": 0.0009155245497908026,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/554.67",
+      "value": 2,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 240,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/52,428.8",
+      "chance": 0.000019073486328125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/3,120",
+      "value": 12480,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/42.7",
+      "chance": 0.023419203747072598,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/56.9",
+      "chance": 0.01757469244288225,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy tarromin",
@@ -431,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy harralander",
@@ -447,7 +267,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy ranarr weed",
@@ -463,7 +285,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -479,7 +303,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -495,7 +321,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -511,7 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -527,23 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Level 83",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/455.1",
-      "chance": 0.002197319270490002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -559,7 +375,261 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/455.1",
+      "chance": 0.002197319270490002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Uncut opal",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Materials"
+    },
+    {
+      "item": "Pot of flour",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Materials"
+    },
+    {
+      "item": "Iron bar",
+      "dropVersion": "Level 83",
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 16,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Materials"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 83",
+      "quantity": [
+        25,
+        54
+      ],
+      "noted": false,
+      "rarity": "33/128",
+      "chance": 0.2578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": "Level 83",
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/52",
+      "value": 15,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/204.8",
+      "chance": 0.0048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/104",
+      "value": 30,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/409.6",
+      "chance": 0.00244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/208",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,638.4",
+      "chance": 0.0006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/832",
+      "value": 120,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/104,857.6",
+      "chance": 0.0000095367431640625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/6,240",
+      "value": 66000,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/139,810.13",
+      "chance": 0.000007152557543577136,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 37440,
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Skeleton champion scroll",
@@ -575,7 +645,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 83 drops",
+      "section": "Tertiary"
     }
   ]
 }

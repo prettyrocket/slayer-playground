@@ -15,39 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Lizardman fang",
-      "dropVersion": "Level 53",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "10/87",
-      "chance": 0.11494252873563218,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Xerician fabric",
-      "dropVersion": "Level 53",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/87",
-      "chance": 0.06896551724137931,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "100%"
     },
     {
       "item": "Limpwurt seed",
@@ -63,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Strawberry seed",
@@ -79,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Marrentill seed",
@@ -95,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Jangerberry seed",
@@ -111,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Tarromin seed",
@@ -127,7 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Wildblood seed",
@@ -143,7 +123,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 8,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Watermelon seed",
@@ -159,7 +141,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 33,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Harralander seed",
@@ -175,7 +159,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Snape grass seed",
@@ -191,7 +177,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 56,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Ranarr seed",
@@ -207,7 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Whiteberry seed",
@@ -223,7 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 79,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Mushroom spore",
@@ -239,7 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 51,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Toadflax seed",
@@ -255,23 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Xeric's talisman (inert)",
-      "dropVersion": "Level 53",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/250",
-      "chance": 0.004,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/125",
-      "value": 210,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Belladonna seed",
@@ -287,7 +267,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 106,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Irit seed",
@@ -303,7 +285,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Poison ivy seed",
@@ -319,7 +303,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 99,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Avantoe seed",
@@ -335,7 +321,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Cactus seed",
@@ -351,23 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 59,
-      "type": "combat"
-    },
-    {
-      "item": "Brimstone key",
-      "dropVersion": "Level 53",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/541",
-      "chance": 0.0018484288354898336,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Kwuarm seed",
@@ -383,7 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Potato cactus seed",
@@ -399,7 +375,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 84,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Snapdragon seed",
@@ -415,7 +393,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Cadantine seed",
@@ -431,7 +411,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Lantadyme seed",
@@ -447,7 +429,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 5,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Dwarf weed seed",
@@ -463,7 +447,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
     },
     {
       "item": "Torstol seed",
@@ -479,7 +465,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Lizardman fang",
+      "dropVersion": "Level 53",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/87",
+      "chance": 0.11494252873563218,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Xerician fabric",
+      "dropVersion": "Level 53",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/87",
+      "chance": 0.06896551724137931,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Xeric's talisman (inert)",
+      "dropVersion": "Level 53",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/250",
+      "chance": 0.004,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/125",
+      "value": 210,
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": "Level 53",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/541",
+      "chance": 0.0018484288354898336,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 53 drops",
+      "section": "Tertiary"
     },
     {
       "item": "Bones",
@@ -495,39 +555,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Lizardman fang",
-      "dropVersion": "Level 62",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "14/78",
-      "chance": 0.1794871794871795,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Xerician fabric",
-      "dropVersion": "Level 62",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "8/78",
-      "chance": 0.10256410256410256,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "100%"
     },
     {
       "item": "Limpwurt seed",
@@ -543,7 +573,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Strawberry seed",
@@ -559,7 +591,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Marrentill seed",
@@ -575,7 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Jangerberry seed",
@@ -591,7 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Tarromin seed",
@@ -607,7 +645,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Wildblood seed",
@@ -623,7 +663,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 8,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Watermelon seed",
@@ -639,7 +681,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 33,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Harralander seed",
@@ -655,7 +699,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Snape grass seed",
@@ -671,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 56,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Ranarr seed",
@@ -687,7 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Whiteberry seed",
@@ -703,7 +753,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 79,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Mushroom spore",
@@ -719,7 +771,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 51,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Toadflax seed",
@@ -735,23 +789,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Xeric's talisman (inert)",
-      "dropVersion": "Level 62",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/250",
-      "chance": 0.004,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/125",
-      "value": 210,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Belladonna seed",
@@ -767,7 +807,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 106,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Irit seed",
@@ -783,23 +825,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Brimstone key",
-      "dropVersion": "Level 62",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/388",
-      "chance": 0.002577319587628866,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Poison ivy seed",
@@ -815,7 +843,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 99,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Avantoe seed",
@@ -831,7 +861,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Cactus seed",
@@ -847,7 +879,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 59,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Kwuarm seed",
@@ -863,7 +897,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Potato cactus seed",
@@ -879,7 +915,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 84,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Snapdragon seed",
@@ -895,7 +933,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Cadantine seed",
@@ -911,7 +951,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Lantadyme seed",
@@ -927,7 +969,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 5,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Dwarf weed seed",
@@ -943,7 +987,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
     },
     {
       "item": "Torstol seed",
@@ -959,7 +1005,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Lizardman fang",
+      "dropVersion": "Level 62",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "14/78",
+      "chance": 0.1794871794871795,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Xerician fabric",
+      "dropVersion": "Level 62",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "8/78",
+      "chance": 0.10256410256410256,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Xeric's talisman (inert)",
+      "dropVersion": "Level 62",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/250",
+      "chance": 0.004,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/125",
+      "value": 210,
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": "Level 62",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/388",
+      "chance": 0.002577319587628866,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 62 drops",
+      "section": "Tertiary"
     }
   ]
 }

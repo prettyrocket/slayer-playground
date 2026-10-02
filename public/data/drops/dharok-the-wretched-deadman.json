@@ -15,23 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Chitin",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": true,
-      "rarity": "1/2",
-      "chance": 0.5,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Trinket of advanced weaponry",
@@ -47,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Trinket of fairies",
@@ -63,39 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6000,
-      "type": "combat"
-    },
-    {
-      "item": "Morrigan's javelin (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        100
-      ],
-      "noted": false,
-      "rarity": "10/9,576",
-      "chance": 0.0010442773600668337,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2400,
-      "type": "combat"
-    },
-    {
-      "item": "Morrigan's throwing axe (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        100
-      ],
-      "noted": false,
-      "rarity": "10/9,576",
-      "chance": 0.0010442773600668337,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2400,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Trinket of avarice",
@@ -111,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Trinket of undead",
@@ -127,7 +87,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Morrigan's throwing axe (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        100
+      ],
+      "noted": false,
+      "rarity": "10/9,576",
+      "chance": 0.0010442773600668337,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2400,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Morrigan's javelin (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        100
+      ],
+      "noted": false,
+      "rarity": "10/9,576",
+      "chance": 0.0010442773600668337,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2400,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Statius's warhammer (Deadman Mode)",
@@ -143,39 +141,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 180000,
-      "type": "combat"
-    },
-    {
-      "item": "Vesta's longsword (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/9,576",
-      "chance": 0.0003132832080200501,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180000,
-      "type": "combat"
-    },
-    {
-      "item": "Vesta's spear (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/9,576",
-      "chance": 0.0003132832080200501,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Zuriel's staff (Deadman Mode)",
@@ -191,7 +159,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 180000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Vesta's spear (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/9,576",
+      "chance": 0.0003132832080200501,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180000,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Vesta's longsword (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/9,576",
+      "chance": 0.0003132832080200501,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180000,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Trinket of fortuity (inactive)",
@@ -207,55 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60000,
-      "type": "combat"
-    },
-    {
-      "item": "Morrigan's coif (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/145,728",
-      "chance": 0.0000068620992534036015,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Morrigan's leather body (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/145,728",
-      "chance": 0.0000068620992534036015,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300000,
-      "type": "combat"
-    },
-    {
-      "item": "Morrigan's leather chaps (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/145,728",
-      "chance": 0.0000068620992534036015,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Statius's full helm (Deadman Mode)",
@@ -271,7 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 150000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Statius's platebody (Deadman Mode)",
@@ -287,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Statius's platelegs (Deadman Mode)",
@@ -303,7 +267,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Vesta's chainbody (Deadman Mode)",
@@ -319,7 +285,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Vesta's plateskirt (Deadman Mode)",
@@ -335,7 +303,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Zuriel's hood (Deadman Mode)",
@@ -351,23 +321,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Zuriel's robe bottom (Deadman Mode)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/145,728",
-      "chance": 0.0000068620992534036015,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     },
     {
       "item": "Zuriel's robe top (Deadman Mode)",
@@ -383,7 +339,99 @@
       "rolls": 1,
       "altRarity": null,
       "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Zuriel's robe bottom (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/145,728",
+      "chance": 0.0000068620992534036015,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300000,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Morrigan's coif (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/145,728",
+      "chance": 0.0000068620992534036015,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Morrigan's leather body (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/145,728",
+      "chance": 0.0000068620992534036015,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300000,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Morrigan's leather chaps (Deadman Mode)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/145,728",
+      "chance": 0.0000068620992534036015,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300000,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
+    },
+    {
+      "item": "Chitin",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "1/2",
+      "chance": 0.5,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Drops"
     }
   ]
 }

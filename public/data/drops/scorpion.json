@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Looting bag",
@@ -31,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Ensouled scorpion head",
@@ -47,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 148,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Clue scroll (beginner)",
@@ -63,23 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Slayer's enchantment",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/307",
-      "chance": 0.003257328990228013,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 720,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Larran's key",
@@ -95,7 +87,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/307",
+      "chance": 0.003257328990228013,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
     }
   ]
 }

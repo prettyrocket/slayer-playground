@@ -15,87 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        200,
-        600
-      ],
-      "noted": false,
-      "rarity": "8/36",
-      "chance": 0.2222222222222222,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Bass",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "7/36",
-      "chance": 0.19444444444444445,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/36",
-      "chance": 0.16666666666666666,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt root",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/36",
-      "chance": 0.1111111111111111,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Red d'hide chaps",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/36",
-      "chance": 0.08333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3108,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Adamant axe",
@@ -111,39 +33,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 768,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
     },
     {
-      "item": "Adamant med helm",
+      "item": "Red d'hide chaps",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "2/36",
-      "chance": 0.05555555555555555,
+      "rarity": "3/36",
+      "chance": 0.08333333333333333,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 1152,
-      "type": "combat"
-    },
-    {
-      "item": "Pure essence",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        200
-      ],
-      "noted": true,
-      "rarity": "2/36",
-      "chance": 0.05555555555555555,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "value": 3108,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
     },
     {
       "item": "Adamant battleaxe",
@@ -159,7 +69,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2496,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant med helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/36",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1152,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/36",
+      "chance": 0.16666666666666666,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Bass",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "7/36",
+      "chance": 0.19444444444444445,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        200,
+        600
+      ],
+      "noted": false,
+      "rarity": "8/36",
+      "chance": 0.2222222222222222,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Pure essence",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        200
+      ],
+      "noted": true,
+      "rarity": "2/36",
+      "chance": 0.05555555555555555,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Limpwurt root",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/36",
+      "chance": 0.1111111111111111,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -175,7 +195,9 @@
       "rolls": 1,
       "altRarity": "1/73.12",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -191,7 +213,9 @@
       "rolls": 1,
       "altRarity": "1/146.25",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -207,7 +231,9 @@
       "rolls": 1,
       "altRarity": "1/292.5",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -223,7 +249,9 @@
       "rolls": 1,
       "altRarity": "1/780",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -239,23 +267,9 @@
       "rolls": 1,
       "altRarity": "1/1,170",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4,608",
-      "chance": 0.00021701388888888888,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,340",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -271,7 +285,27 @@
       "rolls": 1,
       "altRarity": "1/2,340",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,608",
+      "chance": 0.00021701388888888888,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,340",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -287,7 +321,9 @@
       "rolls": 1,
       "altRarity": "1/2,340",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -303,7 +339,9 @@
       "rolls": 1,
       "altRarity": "1/4,387.5",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -319,7 +357,9 @@
       "rolls": 1,
       "altRarity": "1/8,775",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -335,7 +375,9 @@
       "rolls": 1,
       "altRarity": "1/11,700",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     }
   ]
 }

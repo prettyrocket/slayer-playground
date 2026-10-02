@@ -2,6 +2,24 @@
   "page": "Ammonite Crab",
   "drops": [
     {
+      "item": "Iron pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 84,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons"
+    },
+    {
       "item": "Numulite",
       "dropVersion": null,
       "quantity": [
@@ -15,55 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Numulite",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        14
-      ],
-      "noted": false,
-      "rarity": "27/175",
-      "chance": 0.15428571428571428,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Oyster",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "12/128",
-      "chance": 0.09375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Oyster",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Fossilised currency"
     },
     {
       "item": "Numulite",
@@ -79,23 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Seaweed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Fossilised currency"
     },
     {
       "item": "Numulite",
@@ -111,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Fossilised currency"
     },
     {
       "item": "Volcanic ash",
@@ -127,119 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Iron pickaxe",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 84,
-      "type": "combat"
-    },
-    {
-      "item": "Tin ore",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Empty oyster",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Copper ore",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Edible seaweed",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Fishing bait",
-      "dropVersion": null,
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
     },
     {
       "item": "Iron ore",
@@ -255,7 +105,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Tin ore",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
     },
     {
       "item": "Opal bolt tips",
@@ -271,7 +141,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Copper ore",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Oyster",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "12/128",
+      "chance": 0.09375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
+    },
+    {
+      "item": "Oyster",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
+    },
+    {
+      "item": "Seaweed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
+    },
+    {
+      "item": "Empty oyster",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
     },
     {
       "item": "Seaweed",
@@ -287,87 +267,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
     },
     {
-      "item": "Unidentified small fossil",
+      "item": "Edible seaweed",
       "dropVersion": null,
       "quantity": [
-        1,
-        1
+        2,
+        2
       ],
       "noted": false,
-      "rarity": "3/350",
-      "chance": 0.008571428571428572,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Calcite",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Casket",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (easy)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Empty oyster",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
     },
     {
       "item": "Oyster pearl",
@@ -383,7 +303,63 @@
       "rolls": 1,
       "altRarity": null,
       "value": 67,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
+    },
+    {
+      "item": "Empty oyster",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Oysters and Seaweed"
+    },
+    {
+      "item": "Fishing bait",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Calcite",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Pyrophosphite",
@@ -399,7 +375,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Seaweed spore",
@@ -415,39 +393,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
-      "item": "Unidentified medium fossil",
+      "item": "Casket",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "3/700",
-      "chance": 0.004285714285714286,
+      "rarity": "1/128",
+      "chance": 0.0078125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Unidentified large fossil",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/875",
-      "chance": 0.0034285714285714284,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -463,7 +429,9 @@
       "rolls": 1,
       "altRarity": "1/260",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -479,23 +447,9 @@
       "rolls": 1,
       "altRarity": "1/520",
       "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Unidentified rare fossil",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/3,500",
-      "chance": 0.0008571428571428571,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 750,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -511,7 +465,9 @@
       "rolls": 1,
       "altRarity": "1/1,040",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -527,7 +483,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -543,7 +501,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -559,23 +519,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -591,7 +537,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -607,7 +573,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -623,7 +591,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -639,7 +609,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -655,7 +627,117 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Numulite",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        14
+      ],
+      "noted": false,
+      "rarity": "27/175",
+      "chance": 0.15428571428571428,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Unidentified small fossil",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/350",
+      "chance": 0.008571428571428572,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Unidentified medium fossil",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/700",
+      "chance": 0.004285714285714286,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Unidentified large fossil",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/875",
+      "chance": 0.0034285714285714284,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Unidentified rare fossil",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/3,500",
+      "chance": 0.0008571428571428571,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 750,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Baby dragon bone",
@@ -31,23 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Frozen tear",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Scaly blue dragonhide",
@@ -63,7 +51,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Frozen tear",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Brimstone key",
@@ -79,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Tooth half of key (moon key)",
@@ -95,7 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

@@ -3,10 +3,11 @@ import path from 'node:path';
 
 import type { DropsFile, Monster, MonstersFile } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
+import { addDropSections, parseDropSections } from './drop-sections.ts';
 import { writeJson } from './files.ts';
 import { syncMonsterIcons } from './icons.ts';
 import { addLocations } from './locations.ts';
-import { buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
+import { DROPS_PAGE, buildDrops, buildMonsters, linkSuperiors } from './normalize.ts';
 import { parseSuperiors } from './parsers.ts';
 import { fetchDrops, fetchMonsters, fetchPageCategories, fetchTaskOnlyPages } from './sources.ts';
 import { applyViability } from './viability.ts';
@@ -33,11 +34,19 @@ export async function syncMonsters(
   for (const warning of linkSuperiors(monsters, parseSuperiors(superiorsPage))) {
     console.warn(`  ! ${warning}`);
   }
-  // Every monster page's wikitext (about 14 requests) and the task pages' (2).
-  const monsterText = await client.wikitext(monsters.map((m) => m.page));
+  // Every monster page's wikitext (about 14 requests), drops pages included, and the task pages' (2).
+  const monsterText = await client.wikitext([
+    ...monsters.map((m) => m.page),
+    ...Object.values(DROPS_PAGE),
+  ]);
   const taskText = await client.wikitext(taskPages);
   for (const warning of addLocations(monsters, monsterText, taskText)) {
     console.warn(`  ! ${warning}`);
+  }
+  // File each drop under the wiki's drop tables, from the drops page's headings.
+  for (const [page, list] of drops) {
+    const text = monsterText.get(DROPS_PAGE[page] ?? page) ?? '';
+    drops.set(page, addDropSections(list, parseDropSections(text)));
   }
   // Wiki categories (about 14 requests) tell quest fights, minigames and removed content apart.
   const pageCategories = await fetchPageCategories(

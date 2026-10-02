@@ -2,54 +2,6 @@
   "page": "Bloodthirsty Hydra",
   "drops": [
     {
-      "item": "Uncut sapphire",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 9,
-      "altRarity": "1/260",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,024",
-      "chance": 0.0009765625,
-      "approx": false,
-      "rolls": 9,
-      "altRarity": "1/520",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,048",
-      "chance": 0.00048828125,
-      "approx": false,
-      "rolls": 9,
-      "altRarity": "1/1,040",
-      "value": 60,
-      "type": "combat"
-    },
-    {
       "item": "Nature talisman",
       "dropVersion": null,
       "quantity": [
@@ -63,39 +15,9 @@
       "rolls": 9,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
-      "approx": false,
-      "rolls": 9,
-      "altRarity": "1/4,160",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 9,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Rune javelin",
@@ -111,23 +33,9 @@
       "rolls": 9,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 9,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
     },
     {
       "item": "Rune spear",
@@ -143,7 +51,117 @@
       "rolls": 9,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 9,
+      "altRarity": "1/260",
+      "value": 15,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,024",
+      "chance": 0.0009765625,
+      "approx": false,
+      "rolls": 9,
+      "altRarity": "1/520",
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 9,
+      "altRarity": "1/1,040",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 9,
+      "altRarity": "1/4,160",
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 9,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 9,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Shield left half",
@@ -159,7 +177,9 @@
       "rolls": 9,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     },
     {
       "item": "Dragon spear",
@@ -175,7 +195,9 @@
       "rolls": 9,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
     }
   ]
 }

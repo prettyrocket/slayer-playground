@@ -3,70 +3,6 @@
   "drops": [
     {
       "item": "Bones",
-      "dropVersion": "Level 26",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Giant rat bone",
-      "dropVersion": "Level 26",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Rat's tail",
-      "dropVersion": "Level 26",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Rat bone",
-      "dropVersion": "Level 26",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4",
-      "chance": 0.25,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Bones",
       "dropVersion": "Low level",
       "quantity": [
         1,
@@ -79,23 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Giant rat bone",
-      "dropVersion": "Low level",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 3 and 6 drops",
+      "section": "100%"
     },
     {
       "item": "Raw rat meat",
@@ -111,7 +33,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 3 and 6 drops",
+      "section": "100%"
+    },
+    {
+      "item": "Giant rat bone",
+      "dropVersion": "Low level",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 3 and 6 drops",
+      "section": "Tertiary"
     },
     {
       "item": "Looting bag",
@@ -127,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 3 and 6 drops",
+      "section": "Tertiary"
     },
     {
       "item": "Clue scroll (beginner)",
@@ -143,7 +87,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 3 and 6 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Bones",
+      "dropVersion": "Level 26",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 26 drops",
+      "section": "100%"
+    },
+    {
+      "item": "Rat's tail",
+      "dropVersion": "Level 26",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 26 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Giant rat bone",
+      "dropVersion": "Level 26",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 26 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Rat bone",
+      "dropVersion": "Level 26",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 26 drops",
+      "section": "Tertiary"
     }
   ]
 }

@@ -2,454 +2,6 @@
   "page": "Maggot King",
   "drops": [
     {
-      "item": "Dull ancient medal",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "41/159",
-      "chance": 0.2578616352201258,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Stymphike tartare",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        4
-      ],
-      "noted": false,
-      "rarity": "41/159",
-      "chance": 0.2578616352201258,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        10,
-        13
-      ],
-      "noted": true,
-      "rarity": "15/159",
-      "chance": 0.09433962264150944,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "12/159",
-      "chance": 0.07547169811320754,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12000,
-      "type": "combat"
-    },
-    {
-      "item": "Adamantite ore",
-      "dropVersion": null,
-      "quantity": [
-        30,
-        40
-      ],
-      "noted": true,
-      "rarity": "10/159",
-      "chance": 0.06289308176100629,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Letvek",
-      "dropVersion": null,
-      "quantity": [
-        23,
-        34
-      ],
-      "noted": false,
-      "rarity": "10/159",
-      "chance": 0.06289308176100629,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Mort myre fungus",
-      "dropVersion": null,
-      "quantity": [
-        50,
-        76
-      ],
-      "noted": true,
-      "rarity": "10/159",
-      "chance": 0.06289308176100629,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Stymphike feather",
-      "dropVersion": null,
-      "quantity": [
-        51,
-        74
-      ],
-      "noted": false,
-      "rarity": "10/159",
-      "chance": 0.06289308176100629,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished ring",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/159",
-      "chance": 0.03773584905660377,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1800,
-      "type": "combat"
-    },
-    {
-      "item": "Blood sac",
-      "dropVersion": null,
-      "quantity": [
-        8,
-        11
-      ],
-      "noted": false,
-      "rarity": "5/159",
-      "chance": 0.031446540880503145,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Gold ore",
-      "dropVersion": null,
-      "quantity": [
-        24,
-        32
-      ],
-      "noted": true,
-      "rarity": "5/159",
-      "chance": 0.031446540880503145,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 90,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril ore",
-      "dropVersion": null,
-      "quantity": [
-        36,
-        41
-      ],
-      "noted": true,
-      "rarity": "5/159",
-      "chance": 0.031446540880503145,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 97,
-      "type": "combat"
-    },
-    {
-      "item": "Runite ore",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        15
-      ],
-      "noted": true,
-      "rarity": "5/159",
-      "chance": 0.031446540880503145,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1920,
-      "type": "combat"
-    },
-    {
-      "item": "Orikalkum gravel",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        5
-      ],
-      "noted": false,
-      "rarity": "4/159",
-      "chance": 0.025157232704402517,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 102000,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (elite)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/40",
-      "chance": 0.025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Brimstone key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/50",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished amulet",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/159",
-      "chance": 0.018867924528301886,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1800,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished bracelet",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/159",
-      "chance": 0.018867924528301886,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2100,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished necklace",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/159",
-      "chance": 0.018867924528301886,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2100,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished 2h sword",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/159",
-      "chance": 0.012578616352201259,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished battleaxe",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/159",
-      "chance": 0.012578616352201259,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24000,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished halberd",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/159",
-      "chance": 0.012578616352201259,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished longsword",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/159",
-      "chance": 0.012578616352201259,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18000,
-      "type": "combat"
-    },
-    {
-      "item": "Venator fang",
-      "dropVersion": null,
-      "quantity": [
-        112,
-        179
-      ],
-      "noted": false,
-      "rarity": "2/159",
-      "chance": 0.012578616352201259,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
-    },
-    {
-      "item": "Venator tooth",
-      "dropVersion": null,
-      "quantity": [
-        178,
-        219
-      ],
-      "noted": false,
-      "rarity": "2/159",
-      "chance": 0.012578616352201259,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150,
-      "type": "combat"
-    },
-    {
-      "item": "Elder venator fang",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/340",
-      "chance": 0.0029411764705882353,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120000,
-      "type": "combat"
-    },
-    {
-      "item": "Crimson kisten",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/520",
-      "chance": 0.0019230769230769232,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144000,
-      "type": "combat"
-    },
-    {
-      "item": "Maggot marquess",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,500",
-      "chance": 0.00028571428571428574,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
       "item": "Maggot egg (base)",
       "dropVersion": "Take-eggs",
       "quantity": [
@@ -463,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
     },
     {
       "item": "Maggot egg (sickly)",
@@ -479,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
     },
     {
       "item": "Maggot egg (warm)",
@@ -495,71 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Maggot egg (pulsating)",
-      "dropVersion": "Take-eggs",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/1,500",
-      "chance": 0.004,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Maggot egg (wriggling)",
-      "dropVersion": "Take-eggs",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/1,500",
-      "chance": 0.002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Maggot egg (writhing)",
-      "dropVersion": "Take-eggs",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,500",
-      "chance": 0.0006666666666666666,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Dull ancient medal",
-      "dropVersion": "Take-eggs",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Uncommon",
-      "chance": null,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
     },
     {
       "item": "Stymphike tartare",
@@ -575,7 +69,585 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
+    },
+    {
+      "item": "Dull ancient medal",
+      "dropVersion": "Take-eggs",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Uncommon",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
+    },
+    {
+      "item": "Maggot egg (pulsating)",
+      "dropVersion": "Take-eggs",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/1,500",
+      "chance": 0.004,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
+    },
+    {
+      "item": "Maggot egg (wriggling)",
+      "dropVersion": "Take-eggs",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/1,500",
+      "chance": 0.002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
+    },
+    {
+      "item": "Maggot egg (writhing)",
+      "dropVersion": "Take-eggs",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,500",
+      "chance": 0.0006666666666666666,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (take-eggs)",
+      "section": "Drops"
+    },
+    {
+      "item": "Elder venator fang",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/340",
+      "chance": 0.0029411764705882353,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Crimson kisten",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/520",
+      "chance": 0.0019230769230769232,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Stymphike tartare",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "41/159",
+      "chance": 0.2578616352201258,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Supplies"
+    },
+    {
+      "item": "Dull ancient medal",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "41/159",
+      "chance": 0.2578616352201258,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Supplies"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        13
+      ],
+      "noted": true,
+      "rarity": "15/159",
+      "chance": 0.09433962264150944,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Stymphike feather",
+      "dropVersion": null,
+      "quantity": [
+        51,
+        74
+      ],
+      "noted": false,
+      "rarity": "10/159",
+      "chance": 0.06289308176100629,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Mort myre fungus",
+      "dropVersion": null,
+      "quantity": [
+        50,
+        76
+      ],
+      "noted": true,
+      "rarity": "10/159",
+      "chance": 0.06289308176100629,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Letvek",
+      "dropVersion": null,
+      "quantity": [
+        23,
+        34
+      ],
+      "noted": false,
+      "rarity": "10/159",
+      "chance": 0.06289308176100629,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Runite ore",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        15
+      ],
+      "noted": true,
+      "rarity": "5/159",
+      "chance": 0.031446540880503145,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1920,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Blood sac",
+      "dropVersion": null,
+      "quantity": [
+        8,
+        11
+      ],
+      "noted": false,
+      "rarity": "5/159",
+      "chance": 0.031446540880503145,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Gold ore",
+      "dropVersion": null,
+      "quantity": [
+        24,
+        32
+      ],
+      "noted": true,
+      "rarity": "5/159",
+      "chance": 0.031446540880503145,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 90,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Mithril ore",
+      "dropVersion": null,
+      "quantity": [
+        36,
+        41
+      ],
+      "noted": true,
+      "rarity": "5/159",
+      "chance": 0.031446540880503145,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 97,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Adamantite ore",
+      "dropVersion": null,
+      "quantity": [
+        30,
+        40
+      ],
+      "noted": true,
+      "rarity": "10/159",
+      "chance": 0.06289308176100629,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Orikalkum gravel",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        5
+      ],
+      "noted": false,
+      "rarity": "4/159",
+      "chance": 0.025157232704402517,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 102000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Venator fang",
+      "dropVersion": null,
+      "quantity": [
+        112,
+        179
+      ],
+      "noted": false,
+      "rarity": "2/159",
+      "chance": 0.012578616352201259,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Venator tooth",
+      "dropVersion": null,
+      "quantity": [
+        178,
+        219
+      ],
+      "noted": false,
+      "rarity": "2/159",
+      "chance": 0.012578616352201259,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Resources"
+    },
+    {
+      "item": "Tarnished spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "12/159",
+      "chance": 0.07547169811320754,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished ring",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/159",
+      "chance": 0.03773584905660377,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1800,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished bracelet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/159",
+      "chance": 0.018867924528301886,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2100,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished necklace",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/159",
+      "chance": 0.018867924528301886,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2100,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished amulet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/159",
+      "chance": 0.018867924528301886,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1800,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/159",
+      "chance": 0.012578616352201259,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished longsword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/159",
+      "chance": 0.012578616352201259,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished halberd",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/159",
+      "chance": 0.012578616352201259,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/159",
+      "chance": 0.012578616352201259,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Maggot marquess",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,500",
+      "chance": 0.00028571428571428574,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (elite)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/40",
+      "chance": 0.025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (open-stomach)",
+      "section": "Tertiary"
     }
   ]
 }

@@ -2,52 +2,22 @@
   "page": "Icefiend",
   "drops": [
     {
-      "item": "Looting bag",
+      "item": "Air rune",
       "dropVersion": null,
       "quantity": [
         1,
-        1
+        5
       ],
       "noted": false,
-      "rarity": "1/8",
-      "chance": 0.125,
+      "rarity": "1/128",
+      "chance": 0.0078125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        30
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        20
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Water rune",
@@ -63,55 +33,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
-      "item": "Ecumenical key",
+      "item": "Coins",
       "dropVersion": null,
       "quantity": [
         1,
-        1
+        30
       ],
       "noted": false,
-      "rarity": "1/60",
-      "chance": 0.016666666666666666,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/40",
-      "value": 61500,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "4/128",
+      "chance": 0.03125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
-      "item": "Clue scroll (easy)",
+      "item": "Coins",
       "dropVersion": null,
       "quantity": [
         1,
-        1
+        20
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "4/128",
+      "chance": 0.03125,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/64",
-      "value": 12,
-      "type": "combat"
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -127,7 +87,9 @@
       "rolls": 1,
       "altRarity": "1/86.67",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -143,7 +105,9 @@
       "rolls": 1,
       "altRarity": "1/173.33",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -159,7 +123,9 @@
       "rolls": 1,
       "altRarity": "1/346.67",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -175,7 +141,9 @@
       "rolls": 1,
       "altRarity": "1/924.44",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -191,7 +159,9 @@
       "rolls": 1,
       "altRarity": "1/924.44",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -207,23 +177,9 @@
       "rolls": 1,
       "altRarity": "1/1,386.67",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,461.33",
-      "chance": 0.00018310558050877717,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,773.33",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -239,7 +195,27 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,461.33",
+      "chance": 0.00018310558050877717,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,773.33",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -255,7 +231,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -271,7 +249,9 @@
       "rolls": 1,
       "altRarity": "1/5,200",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -287,7 +267,9 @@
       "rolls": 1,
       "altRarity": "1/10,400",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -303,23 +285,45 @@
       "rolls": 1,
       "altRarity": "1/13,866.67",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
-      "item": "Frozen tear",
-      "dropVersion": "Level 13",
+      "item": "Looting bag",
+      "dropVersion": null,
       "quantity": [
-        5,
-        5
+        1,
+        1
       ],
       "noted": false,
-      "rarity": "1/150",
-      "chance": 0.006666666666666667,
+      "rarity": "1/8",
+      "chance": 0.125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 300,
-      "type": "combat"
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/64",
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Tooth half of key (moon key)",
@@ -335,7 +339,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Frozen tear",
+      "dropVersion": "Level 13",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/150",
+      "chance": 0.006666666666666667,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ecumenical key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60",
+      "chance": 0.016666666666666666,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/40",
+      "value": 61500,
+      "type": "combat",
+      "group": null,
+      "section": null
     }
   ]
 }

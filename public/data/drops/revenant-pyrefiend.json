@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 150,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Coins",
@@ -31,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Looting bag",
@@ -47,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted entangle sack",
@@ -63,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted anglerfish",
@@ -79,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted manta ray",
@@ -95,7 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted ancient ice sack",
@@ -111,7 +123,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 21,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted karambwan",
@@ -127,7 +141,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted teleport spell sack",
@@ -143,7 +159,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 19,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted vengeance sack",
@@ -159,7 +177,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Bracelet of ethereum (uncharged)",
@@ -175,7 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 43200,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted super restore(4)",
@@ -191,7 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Revenant cave teleport",
@@ -207,7 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Adamantite bar",
@@ -223,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 384,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Coal",
@@ -239,7 +267,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 27,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Battlestaff",
@@ -255,7 +285,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4200,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blood rune",
@@ -271,7 +303,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Death rune",
@@ -287,7 +321,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Law rune",
@@ -303,7 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 144,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Revenant cave teleport",
@@ -319,7 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Black dragonhide",
@@ -335,7 +375,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 90,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted manta ray",
@@ -351,7 +393,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Runite ore",
@@ -367,7 +411,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1920,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Yew logs",
@@ -383,7 +429,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 96,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Blighted super restore(4)",
@@ -399,7 +447,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Dragonstone bolt tips",
@@ -415,7 +465,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 400,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Mahogany plank",
@@ -431,7 +483,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 900,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Onyx bolt tips",
@@ -447,7 +501,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 600,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Runite bar",
@@ -463,7 +519,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Magic logs",
@@ -479,7 +537,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 192,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Rune full helm",
@@ -495,7 +555,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 21120,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Rune kiteshield",
@@ -511,7 +573,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 32640,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Rune platebody",
@@ -527,7 +591,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 39000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Rune platelegs",
@@ -543,7 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 38400,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Rune warhammer",
@@ -559,7 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24900,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Slayer's enchantment",
@@ -575,7 +645,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 720,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Larran's key",
@@ -591,7 +663,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Dragon dagger",
@@ -607,7 +681,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Dragon longsword",
@@ -623,7 +699,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Uncut dragonstone",
@@ -639,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 600,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Dragon platelegs",
@@ -655,7 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 162000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Dragon plateskirt",
@@ -671,7 +753,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 162000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Dragon med helm",
@@ -687,7 +771,9 @@
       "rolls": 1,
       "altRarity": "Never",
       "value": 60000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient emblem",
@@ -703,7 +789,9 @@
       "rolls": 1,
       "altRarity": "1/6,908",
       "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient totem",
@@ -719,7 +807,9 @@
       "rolls": 1,
       "altRarity": "1/1,727",
       "value": 600000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Magic seed",
@@ -735,7 +825,9 @@
       "rolls": 1,
       "altRarity": "1/1,727",
       "value": 253,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Yew seed",
@@ -751,7 +843,9 @@
       "rolls": 1,
       "altRarity": "1/1,727",
       "value": 85,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient crystal",
@@ -767,7 +861,9 @@
       "rolls": 1,
       "altRarity": "1/2,302.67",
       "value": 150000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient statuette",
@@ -783,7 +879,9 @@
       "rolls": 1,
       "altRarity": "1/3,454",
       "value": 1200000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient effigy",
@@ -799,7 +897,9 @@
       "rolls": 1,
       "altRarity": "1/6,908",
       "value": 4800000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient medallion",
@@ -815,7 +915,9 @@
       "rolls": 1,
       "altRarity": "1/6,908",
       "value": 2400000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Ancient relic",
@@ -831,7 +933,9 @@
       "rolls": 1,
       "altRarity": "1/6,908",
       "value": 9600000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Amulet of avarice",
@@ -847,7 +951,9 @@
       "rolls": 1,
       "altRarity": "1/11,513.6",
       "value": 27000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Craw's bow (u)",
@@ -863,7 +969,9 @@
       "rolls": 1,
       "altRarity": "1/23,027.19",
       "value": 72000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Thammaron's sceptre (u)",
@@ -879,7 +987,9 @@
       "rolls": 1,
       "altRarity": "1/23,027.19",
       "value": 72000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Viggora's chainmace (u)",
@@ -895,7 +1005,9 @@
       "rolls": 1,
       "altRarity": "1/23,027.19",
       "value": 72000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Amulet of avarice",
@@ -911,7 +1023,9 @@
       "rolls": 1,
       "altRarity": "1/2,302.41",
       "value": 27000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Craw's bow (u)",
@@ -927,7 +1041,9 @@
       "rolls": 1,
       "altRarity": "1/4,604.81",
       "value": 72000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Thammaron's sceptre (u)",
@@ -943,7 +1059,9 @@
       "rolls": 1,
       "altRarity": "1/4,604.81",
       "value": 72000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     },
     {
       "item": "Viggora's chainmace (u)",
@@ -959,7 +1077,9 @@
       "rolls": 1,
       "altRarity": "1/4,604.81",
       "value": 72000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": null
     }
   ]
 }

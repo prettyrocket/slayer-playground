@@ -2,70 +2,6 @@
   "page": "Ent",
   "drops": [
     {
-      "item": "Slayer's enchantment",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/236",
-      "chance": 0.00423728813559322,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 720,
-      "type": "combat"
-    },
-    {
-      "item": "Bird nest (egg)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Very rare",
-      "chance": null,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 271,
-      "type": "woodcutting"
-    },
-    {
-      "item": "Bird nest (ring)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Rare",
-      "chance": null,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 271,
-      "type": "woodcutting"
-    },
-    {
-      "item": "Bird nest (seeds)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Rare",
-      "chance": null,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 271,
-      "type": "woodcutting"
-    },
-    {
       "item": "Logs",
       "dropVersion": null,
       "quantity": [
@@ -79,39 +15,9 @@
       "rolls": 25,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Magic logs",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": true,
-      "rarity": "Varies",
-      "chance": null,
-      "approx": false,
-      "rolls": 25,
-      "altRarity": null,
-      "value": 192,
-      "type": "combat"
-    },
-    {
-      "item": "Maple logs",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": true,
-      "rarity": "Varies",
-      "chance": null,
-      "approx": false,
-      "rolls": 25,
-      "altRarity": null,
-      "value": 48,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Logs"
     },
     {
       "item": "Oak logs",
@@ -127,7 +33,9 @@
       "rolls": 25,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Logs"
     },
     {
       "item": "Willow logs",
@@ -143,7 +51,27 @@
       "rolls": 25,
       "altRarity": null,
       "value": 24,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Logs"
+    },
+    {
+      "item": "Maple logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 48,
+      "type": "combat",
+      "group": null,
+      "section": "Logs"
     },
     {
       "item": "Yew logs",
@@ -159,7 +87,99 @@
       "rolls": 25,
       "altRarity": null,
       "value": 96,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Logs"
+    },
+    {
+      "item": "Magic logs",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": true,
+      "rarity": "Varies",
+      "chance": null,
+      "approx": false,
+      "rolls": 25,
+      "altRarity": null,
+      "value": 192,
+      "type": "combat",
+      "group": null,
+      "section": "Logs"
+    },
+    {
+      "item": "Bird nest (egg)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Very rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 271,
+      "type": "woodcutting",
+      "group": null,
+      "section": "Bird nests"
+    },
+    {
+      "item": "Bird nest (seeds)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 271,
+      "type": "woodcutting",
+      "group": null,
+      "section": "Bird nests"
+    },
+    {
+      "item": "Bird nest (ring)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Rare",
+      "chance": null,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 271,
+      "type": "woodcutting",
+      "group": null,
+      "section": "Bird nests"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/236",
+      "chance": 0.00423728813559322,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
     }
   ]
 }

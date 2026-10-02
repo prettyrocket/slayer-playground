@@ -3,742 +3,6 @@
   "drops": [
     {
       "item": "Bones",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Armed",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "44/128",
-      "chance": 0.34375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "24/128",
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Armed",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "25/128",
-      "chance": 0.1953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Looting bag",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/14",
-      "chance": 0.07142857142857142,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/6",
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Armed",
-      "quantity": [
-        25,
-        25
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron med helm",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 50,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze bar",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/25.6",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Armed",
-      "quantity": [
-        45,
-        45
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron sword",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/34.1",
-      "chance": 0.029325513196480937,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": "Armed",
-      "quantity": [
-        12,
-        15
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Armed",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Armed",
-      "quantity": [
-        65,
-        65
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": "Armed",
-      "quantity": [
-        9,
-        9
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45.5",
-      "chance": 0.02197802197802198,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/58.5",
-      "chance": 0.017094017094017096,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": "Armed",
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron axe",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 33,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Armed",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/74.5",
-      "chance": 0.013422818791946308,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Cosmic rune",
-      "dropVersion": "Armed",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Iron scimitar",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 67,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/136.5",
-      "chance": 0.007326007326007326,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/163.8",
-      "chance": 0.006105006105006105,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy cadantine",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/204.8",
-      "chance": 0.0048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/256",
-      "chance": 0.00390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/130",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/273.1",
-      "chance": 0.0036616623947272058,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy lantadyme",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/273.1",
-      "chance": 0.0036616623947272058,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Slayer's enchantment",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/301",
-      "chance": 0.0033222591362126247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/273",
-      "value": 720,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/260",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,024",
-      "chance": 0.0009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/520",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,144",
-      "chance": 0.0008741258741258741,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/467",
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos talisman",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,730.67",
-      "chance": 0.0003662104904657099,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,386.67",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Nature talisman",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,730.67",
-      "chance": 0.0003662104904657099,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,386.67",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4,096",
-      "chance": 0.000244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,080",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Skeleton champion scroll",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/4,160",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
-      "dropVersion": "Armed",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/4,160",
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/8,192",
-      "chance": 0.0001220703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/4,160",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune spear",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/131,072",
-      "chance": 0.00000762939453125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/7,800",
-      "value": 12480,
-      "type": "combat"
-    },
-    {
-      "item": "Shield left half",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/262,144",
-      "chance": 0.000003814697265625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/15,600",
-      "value": 66000,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon spear",
-      "dropVersion": "Armed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/349,525.33",
-      "chance": 0.0000028610229765035913,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/20,800",
-      "value": 37440,
-      "type": "combat"
-    },
-    {
-      "item": "Bones",
       "dropVersion": "Plain",
       "quantity": [
         1,
@@ -751,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Plain)",
+      "section": "100%"
     },
     {
       "item": "Looting bag",
@@ -767,23 +33,27 @@
       "rolls": 1,
       "altRarity": "1/3",
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Plain)",
+      "section": "Tertiary"
     },
     {
-      "item": "Slayer's enchantment",
+      "item": "Skeleton champion scroll",
       "dropVersion": "Plain",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/301",
-      "chance": 0.0033222591362126247,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/273",
-      "value": 720,
-      "type": "combat"
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Plain)",
+      "section": "Tertiary"
     },
     {
       "item": "Larran's key",
@@ -799,23 +69,27 @@
       "rolls": 1,
       "altRarity": "1/467",
       "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Plain)",
+      "section": "Wilderness Slayer tertiary"
     },
     {
-      "item": "Skeleton champion scroll",
+      "item": "Slayer's enchantment",
       "dropVersion": "Plain",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
+      "rarity": "1/301",
+      "chance": 0.0033222591362126247,
       "approx": false,
       "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "altRarity": "1/273",
+      "value": 720,
+      "type": "combat",
+      "group": "Drops (Plain)",
+      "section": "Wilderness Slayer tertiary"
     },
     {
       "item": "Bones",
@@ -831,71 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "21/128",
-      "chance": 0.1640625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "18/128",
-      "chance": 0.140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "15/128",
-      "chance": 0.1171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Looting bag",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/14",
-      "chance": 0.07142857142857142,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/6",
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "100%"
     },
     {
       "item": "Bronze arrow",
@@ -911,55 +123,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron dagger",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 21,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/24.4",
-      "chance": 0.04098360655737705,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Bronze arrow",
@@ -975,55 +141,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        16,
-        16
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        25,
-        25
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        33,
-        33
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Iron arrow",
@@ -1039,55 +159,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/32.5",
-      "chance": 0.03076923076923077,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/43.3",
-      "chance": 0.023094688221709007,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/55.7",
-      "chance": 0.017953321364452424,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Air rune",
@@ -1103,23 +177,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Earth rune",
@@ -1135,7 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Fire rune",
@@ -1151,14 +213,16 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Fire talisman",
+      "item": "Chaos rune",
       "dropVersion": "Unarmed",
       "quantity": [
-        1,
-        1
+        3,
+        3
       ],
       "noted": false,
       "rarity": "2/128",
@@ -1166,104 +230,10 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/70.9",
-      "chance": 0.014104372355430182,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/97.5",
-      "chance": 0.010256410256410256,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        48,
-        48
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grain",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron ore",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Nature rune",
@@ -1279,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Steel arrow",
@@ -1295,7 +267,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/24.4",
+      "chance": 0.04098360655737705,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/32.5",
+      "chance": 0.03076923076923077,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/43.3",
+      "chance": 0.023094688221709007,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/55.7",
+      "chance": 0.017953321364452424,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/70.9",
+      "chance": 0.014104372355430182,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/97.5",
+      "chance": 0.010256410256410256,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -1311,7 +393,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -1327,7 +411,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -1343,23 +429,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/260.1",
-      "chance": 0.0038446751249519412,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -1375,23 +447,243 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
     },
     {
-      "item": "Slayer's enchantment",
+      "item": "Grimy dwarf weed",
       "dropVersion": "Unarmed",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/301",
-      "chance": 0.0033222591362126247,
+      "rarity": "1/260.1",
+      "chance": 0.0038446751249519412,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/273",
-      "value": 720,
-      "type": "combat"
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "21/128",
+      "chance": 0.1640625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "18/128",
+      "chance": 0.140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "15/128",
+      "chance": 0.1171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        16,
+        16
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        25,
+        25
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        33,
+        33
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        48,
+        48
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Iron dagger",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Other"
+    },
+    {
+      "item": "Fire talisman",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Other"
+    },
+    {
+      "item": "Iron ore",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Other"
+    },
+    {
+      "item": "Grain",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -1407,7 +699,9 @@
       "rolls": 1,
       "altRarity": "1/260",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -1423,23 +717,9 @@
       "rolls": 1,
       "altRarity": "1/520",
       "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,109",
-      "chance": 0.0009017132551848512,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/467",
-      "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -1455,23 +735,9 @@
       "rolls": 1,
       "altRarity": "1/1,040",
       "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Skeleton champion scroll",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -1487,7 +753,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -1503,7 +771,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -1519,23 +789,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Unarmed",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -1551,7 +807,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -1567,7 +843,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -1583,7 +861,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -1599,7 +879,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -1615,7 +897,927 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/14",
+      "chance": 0.07142857142857142,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/6",
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Skeleton champion scroll",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,109",
+      "chance": 0.0009017132551848512,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/467",
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": "Unarmed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/301",
+      "chance": 0.0033222591362126247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/273",
+      "value": 720,
+      "type": "combat",
+      "group": "Drops (Unarmed)",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Bones",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "100%"
+    },
+    {
+      "item": "Iron med helm",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 50,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Iron sword",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Iron axe",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Iron scimitar",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 67,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": "Armed",
+      "quantity": [
+        12,
+        15
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Armed",
+      "quantity": [
+        9,
+        9
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "Armed",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": "Armed",
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Armed",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Cosmic rune",
+      "dropVersion": "Armed",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25.6",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34.1",
+      "chance": 0.029325513196480937,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45.5",
+      "chance": 0.02197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/58.5",
+      "chance": 0.017094017094017096,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/74.5",
+      "chance": 0.013422818791946308,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/136.5",
+      "chance": 0.007326007326007326,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/163.8",
+      "chance": 0.006105006105006105,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy cadantine",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/204.8",
+      "chance": 0.0048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy lantadyme",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/273.1",
+      "chance": 0.0036616623947272058,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/273.1",
+      "chance": 0.0036616623947272058,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Armed",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "44/128",
+      "chance": 0.34375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "24/128",
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Armed",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "25/128",
+      "chance": 0.1953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Armed",
+      "quantity": [
+        25,
+        25
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Armed",
+      "quantity": [
+        45,
+        45
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Armed",
+      "quantity": [
+        65,
+        65
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Coins"
+    },
+    {
+      "item": "Bronze bar",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/130",
+      "value": 15,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/260",
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,024",
+      "chance": 0.0009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/520",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Chaos talisman",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,730.67",
+      "chance": 0.0003662104904657099,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,386.67",
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,730.67",
+      "chance": 0.0003662104904657099,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,386.67",
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,080",
+      "value": 120,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": "Armed",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,160",
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,160",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,192",
+      "chance": 0.0001220703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/4,160",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/131,072",
+      "chance": 0.00000762939453125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/7,800",
+      "value": 12480,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/262,144",
+      "chance": 0.000003814697265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/15,600",
+      "value": 66000,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/349,525.33",
+      "chance": 0.0000028610229765035913,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/20,800",
+      "value": 37440,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/14",
+      "chance": 0.07142857142857142,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/6",
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Skeleton champion scroll",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,144",
+      "chance": 0.0008741258741258741,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/467",
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": "Armed",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/301",
+      "chance": 0.0033222591362126247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/273",
+      "value": 720,
+      "type": "combat",
+      "group": "Drops (Armed)",
+      "section": "Wilderness Slayer tertiary"
     }
   ]
 }

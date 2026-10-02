@@ -2,500 +2,22 @@
   "page": "Branda the Fire Queen",
   "drops": [
     {
-      "item": "Giantsoul amulet",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3000,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/25",
-      "chance": 0.04,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Blood rune",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        150
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": null,
-      "quantity": [
-        200,
-        400
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": null,
-      "quantity": [
-        280,
-        320
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        10000,
-        30000
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": null,
-      "quantity": [
-        150,
-        300
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
       "item": "Desiccated page",
-      "dropVersion": null,
+      "dropVersion": "Take pages",
       "quantity": [
-        6,
-        24
+        10,
+        19
       ],
       "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
+      "rarity": "Always",
+      "chance": 1,
       "approx": false,
-      "rolls": 2,
+      "rolls": 1,
       "altRarity": null,
       "value": 300,
-      "type": "combat"
-    },
-    {
-      "item": "Fire battlestaff",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 9300,
-      "type": "combat"
-    },
-    {
-      "item": "Fire orb",
-      "dropVersion": null,
-      "quantity": [
-        20,
-        40
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
-    },
-    {
-      "item": "Fire rune",
-      "dropVersion": null,
-      "quantity": [
-        1500,
-        3000
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Gold ore",
-      "dropVersion": null,
-      "quantity": [
-        60,
-        100
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 90,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy cadantine",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy lantadyme",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        150
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Mystic fire staff",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": true,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 25500,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        150
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Prayer potion(4)",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        4
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 114,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        300
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Rune pickaxe",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 19200,
-      "type": "combat"
-    },
-    {
-      "item": "Rune plateskirt",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 38400,
-      "type": "combat"
-    },
-    {
-      "item": "Rune scimitar",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 15360,
-      "type": "combat"
-    },
-    {
-      "item": "Soul rune",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        150
-      ],
-      "noted": false,
-      "rarity": "2/55",
-      "chance": 0.03636363636363636,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
-    },
-    {
-      "item": "Maple seed",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        6
-      ],
-      "noted": false,
-      "rarity": "1/55",
-      "chance": 0.01818181818181818,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 28,
-      "type": "combat"
-    },
-    {
-      "item": "Palm tree seed",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/55",
-      "chance": 0.01818181818181818,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 152,
-      "type": "combat"
-    },
-    {
-      "item": "Yew seed",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/55",
-      "chance": 0.01818181818181818,
-      "approx": false,
-      "rolls": 2,
-      "altRarity": null,
-      "value": 85,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Fire element staff crown",
@@ -511,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
     },
     {
       "item": "Mystic vigour prayer scroll",
@@ -527,7 +51,567 @@
       "rolls": 1,
       "altRarity": "Never",
       "value": 3000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Giantsoul amulet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Mystic fire staff",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 25500,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Fire battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune plateskirt",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune scimitar",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 15360,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune pickaxe",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 19200,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": null,
+      "quantity": [
+        1500,
+        3000
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": null,
+      "quantity": [
+        200,
+        400
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": null,
+      "quantity": [
+        150,
+        300
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Soul rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Blood rune",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        150
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        300
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        280,
+        320
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Gold ore",
+      "dropVersion": null,
+      "quantity": [
+        60,
+        100
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 90,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Fire orb",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        40
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy cadantine",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy lantadyme",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": true,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": null,
+      "section": "Herbs"
+    },
+    {
+      "item": "Maple seed",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        6
+      ],
+      "noted": false,
+      "rarity": "1/55",
+      "chance": 0.01818181818181818,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 28,
+      "type": "combat",
+      "group": null,
+      "section": "Tree seeds"
+    },
+    {
+      "item": "Palm tree seed",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/55",
+      "chance": 0.01818181818181818,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 152,
+      "type": "combat",
+      "group": null,
+      "section": "Tree seeds"
+    },
+    {
+      "item": "Yew seed",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/55",
+      "chance": 0.01818181818181818,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 85,
+      "type": "combat",
+      "group": null,
+      "section": "Tree seeds"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        10000,
+        30000
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Prayer potion(4)",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 114,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Desiccated page",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        24
+      ],
+      "noted": false,
+      "rarity": "2/55",
+      "chance": 0.03636363636363636,
+      "approx": false,
+      "rolls": 2,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary drops"
     },
     {
       "item": "Clue scroll (elite)",
@@ -543,7 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary drops"
     },
     {
       "item": "Bran",
@@ -559,23 +645,9 @@
       "rolls": 1,
       "altRarity": "1/1,500",
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Desiccated page",
-      "dropVersion": "Take pages",
-      "quantity": [
-        10,
-        19
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary drops"
     }
   ]
 }

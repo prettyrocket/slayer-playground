@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 96,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "100%"
     },
     {
       "item": "Green dragonhide",
@@ -31,135 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 81,
-      "type": "combat"
-    },
-    {
-      "item": "Reward casket (elite)",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Looting bag",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3",
-      "chance": 0.3333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Regular",
-      "quantity": [
-        44,
-        44
-      ],
-      "noted": false,
-      "rarity": "29/128",
-      "chance": 0.2265625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Regular",
-      "quantity": [
-        132,
-        132
-      ],
-      "noted": false,
-      "rarity": "25/128",
-      "chance": 0.1953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Regular",
-      "quantity": [
-        200,
-        200
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": "Regular",
-      "quantity": [
-        75,
-        75
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Regular",
-      "quantity": [
-        11,
-        11
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Regular",
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "100%"
     },
     {
       "item": "Steel platelegs",
@@ -175,103 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 600,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/34.1",
-      "chance": 0.029325513196480937,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled dragon head",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/35",
-      "chance": 0.02857142857142857,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 390,
-      "type": "combat"
-    },
-    {
-      "item": "Adamantite ore",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Bass",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Regular",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril axe",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 312,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel battleaxe",
@@ -287,39 +69,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 390,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Grimy marrentill",
+      "item": "Mithril axe",
       "dropVersion": "Regular",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/45.5",
-      "chance": 0.02197802197802198,
+      "rarity": "3/128",
+      "chance": 0.0234375,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/60.7",
-      "chance": 0.016474464579901153,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
+      "value": 312,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril spear",
@@ -335,135 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 507,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/78",
-      "chance": 0.01282051282051282,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/99.3",
-      "chance": 0.010070493454179255,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/52",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant full helm",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2112,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/64",
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Regular",
-      "quantity": [
-        440,
-        440
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Fire rune",
-      "dropVersion": "Regular",
-      "quantity": [
-        37,
-        37
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril kiteshield",
@@ -479,7 +123,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1326,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant full helm",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2112,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Rune dagger",
@@ -495,7 +159,171 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4800,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Regular",
+      "quantity": [
+        75,
+        75
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": "Regular",
+      "quantity": [
+        37,
+        37
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Regular",
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Regular",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34.1",
+      "chance": 0.029325513196480937,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45.5",
+      "chance": 0.02197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60.7",
+      "chance": 0.016474464579901153,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/78",
+      "chance": 0.01282051282051282,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/99.3",
+      "chance": 0.010070493454179255,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -511,7 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -527,23 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/204.8",
-      "chance": 0.0048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/104",
-      "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -559,23 +375,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Slayer's enchantment",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/260",
-      "chance": 0.0038461538461538464,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 720,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -591,23 +393,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/364.1",
-      "chance": 0.0027464982147761604,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -623,7 +411,189 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/364.1",
+      "chance": 0.0027464982147761604,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Regular",
+      "quantity": [
+        44,
+        44
+      ],
+      "noted": false,
+      "rarity": "29/128",
+      "chance": 0.2265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Regular",
+      "quantity": [
+        132,
+        132
+      ],
+      "noted": false,
+      "rarity": "25/128",
+      "chance": 0.1953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Regular",
+      "quantity": [
+        200,
+        200
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Regular",
+      "quantity": [
+        11,
+        11
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Regular",
+      "quantity": [
+        440,
+        440
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Bass",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Adamantite ore",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/52",
+      "value": 15,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/204.8",
+      "chance": 0.0048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/104",
+      "value": 30,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -639,7 +609,9 @@
       "rolls": 1,
       "altRarity": "1/208",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -655,7 +627,9 @@
       "rolls": 1,
       "altRarity": "1/554.67",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -671,23 +645,9 @@
       "rolls": 1,
       "altRarity": "1/832",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Regular",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -703,7 +663,27 @@
       "rolls": 1,
       "altRarity": "1/1,664",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -719,7 +699,9 @@
       "rolls": 1,
       "altRarity": "1/1,664",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -735,7 +717,9 @@
       "rolls": 1,
       "altRarity": "1/3,120",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -751,7 +735,9 @@
       "rolls": 1,
       "altRarity": "1/6,240",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -767,7 +753,117 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Reward casket (elite)",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ensouled dragon head",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35",
+      "chance": 0.02857142857142857,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 390,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/64",
+      "value": 12,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": "Regular",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/260",
+      "chance": 0.0038461538461538464,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat",
+      "group": "Level 79 drops",
+      "section": "Wilderness Slayer tertiary"
     },
     {
       "item": "Dragon bones",
@@ -783,7 +879,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 96,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "100%"
     },
     {
       "item": "Green dragonhide",
@@ -799,247 +897,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 81,
-      "type": "combat"
-    },
-    {
-      "item": "Reward casket (elite)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Looting bag",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3",
-      "chance": 0.3333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        100,
-        199
-      ],
-      "noted": false,
-      "rarity": "29/128",
-      "chance": 0.2265625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        250,
-        499
-      ],
-      "noted": false,
-      "rarity": "25/128",
-      "chance": 0.1953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted entangle sack",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        10
-      ],
-      "noted": false,
-      "rarity": "1/9",
-      "chance": 0.1111111111111111,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        500,
-        749
-      ],
-      "noted": false,
-      "rarity": "14/128",
-      "chance": 0.109375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted anglerfish",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/11.9",
-      "chance": 0.08403361344537814,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted manta ray",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/11.9",
-      "chance": 0.08403361344537814,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted ancient ice sack",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        10
-      ],
-      "noted": false,
-      "rarity": "1/17.9",
-      "chance": 0.0558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 21,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted karambwan",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/17.9",
-      "chance": 0.0558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted teleport spell sack",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        10
-      ],
-      "noted": false,
-      "rarity": "1/17.9",
-      "chance": 0.0558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 19,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted vengeance sack",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        10
-      ],
-      "noted": false,
-      "rarity": "1/17.9",
-      "chance": 0.0558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Monkfish",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 138,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        110,
-        110
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        500,
-        999
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "100%"
     },
     {
       "item": "Mithril 2h sword",
@@ -1055,135 +915,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1560,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/34.1",
-      "chance": 0.029325513196480937,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled dragon head",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/35",
-      "chance": 0.02857142857142857,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 390,
-      "type": "combat"
-    },
-    {
-      "item": "Blighted super restore(4)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/35.8",
-      "chance": 0.02793296089385475,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Revenant cave teleport",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/35.8",
-      "chance": 0.02793296089385475,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        3,
-        10
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril ore",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": true,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 97,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45.5",
-      "chance": 0.02197802197802198,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/60.7",
-      "chance": 0.016474464579901153,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril platelegs",
@@ -1199,183 +933,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1560,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/78",
-      "chance": 0.01282051282051282,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/84",
-      "chance": 0.011904761904761904,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/99.3",
-      "chance": 0.010070493454179255,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/52",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant dagger",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 480,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant full helm",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2112,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant kiteshield",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3264,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant sword",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1248,
-      "type": "combat"
-    },
-    {
-      "item": "Blood rune",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/64",
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril battleaxe",
@@ -1391,7 +951,99 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1014,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant dagger",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 480,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant sword",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1248,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant full helm",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2112,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant kiteshield",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3264,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        3,
+        10
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Runes"
     },
     {
       "item": "Nature rune",
@@ -1407,7 +1059,135 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Blood rune",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34.1",
+      "chance": 0.029325513196480937,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45.5",
+      "chance": 0.02197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60.7",
+      "chance": 0.016474464579901153,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/78",
+      "chance": 0.01282051282051282,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/99.3",
+      "chance": 0.010070493454179255,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -1423,167 +1203,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Annakarl teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Carrallanger teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Dareeyak teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Ghorrock teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Kharyrll teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Lassar teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Paddewwa teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Senntisten teleport (tablet)",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Target teleport",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Wilderness crabs teleport",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/179",
-      "chance": 0.00558659217877095,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 37,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -1599,23 +1221,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/204.8",
-      "chance": 0.0048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/104",
-      "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -1631,23 +1239,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Slayer's enchantment",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/240",
-      "chance": 0.004166666666666667,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 720,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -1663,23 +1257,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/364.1",
-      "chance": 0.0027464982147761604,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -1695,7 +1275,189 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/364.1",
+      "chance": 0.0027464982147761604,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        100,
+        199
+      ],
+      "noted": false,
+      "rarity": "29/128",
+      "chance": 0.2265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        250,
+        499
+      ],
+      "noted": false,
+      "rarity": "25/128",
+      "chance": 0.1953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        500,
+        749
+      ],
+      "noted": false,
+      "rarity": "14/128",
+      "chance": 0.109375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        110,
+        110
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        500,
+        999
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Monkfish",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 138,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Other"
+    },
+    {
+      "item": "Mithril ore",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": true,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 97,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/52",
+      "value": 15,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/204.8",
+      "chance": 0.0048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/104",
+      "value": 30,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -1711,39 +1473,9 @@
       "rolls": 1,
       "altRarity": "1/208",
       "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Magic shortbow scroll",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/447.6",
-      "chance": 0.002234137622877569,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3000,
-      "type": "combat"
-    },
-    {
-      "item": "Ring of wealth scroll",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/447.6",
-      "chance": 0.002234137622877569,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -1759,7 +1491,9 @@
       "rolls": 1,
       "altRarity": "1/554.67",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -1775,55 +1509,9 @@
       "rolls": 1,
       "altRarity": "1/832",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Looting bag note",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,790.3",
-      "chance": 0.0005585656035301346,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Trouver parchment",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/1,790.3",
-      "chance": 0.0005585656035301346,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Wilderness Slayer Cave",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -1839,7 +1527,27 @@
       "rolls": 1,
       "altRarity": "1/1,664",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -1855,7 +1563,9 @@
       "rolls": 1,
       "altRarity": "1/1,664",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -1871,7 +1581,9 @@
       "rolls": 1,
       "altRarity": "1/3,120",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -1887,7 +1599,9 @@
       "rolls": 1,
       "altRarity": "1/6,240",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -1903,7 +1617,531 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Reward casket (elite)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ensouled dragon head",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35",
+      "chance": 0.02857142857142857,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 390,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/64",
+      "value": 12,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/84",
+      "chance": 0.011904761904761904,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Slayer's enchantment",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/240",
+      "chance": 0.004166666666666667,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 720,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted anglerfish",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/11.9",
+      "chance": 0.08403361344537814,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted manta ray",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/11.9",
+      "chance": 0.08403361344537814,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted karambwan",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/17.9",
+      "chance": 0.0558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted teleport spell sack",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/17.9",
+      "chance": 0.0558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted ancient ice sack",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/17.9",
+      "chance": 0.0558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted vengeance sack",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/17.9",
+      "chance": 0.0558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted entangle sack",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "1/9",
+      "chance": 0.1111111111111111,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Blighted super restore(4)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35.8",
+      "chance": 0.02793296089385475,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Revenant cave teleport",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35.8",
+      "chance": 0.02793296089385475,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Dareeyak teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Wilderness crabs teleport",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 37,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Carrallanger teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Paddewwa teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Annakarl teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Lassar teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Kharyrll teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Senntisten teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Ghorrock teleport (tablet)",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Target teleport",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/179",
+      "chance": 0.00558659217877095,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Magic shortbow scroll",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/447.6",
+      "chance": 0.002234137622877569,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Ring of wealth scroll",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/447.6",
+      "chance": 0.002234137622877569,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Trouver parchment",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/1,790.3",
+      "chance": 0.0005585656035301346,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
+    },
+    {
+      "item": "Looting bag note",
+      "dropVersion": "Wilderness Slayer Cave",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,790.3",
+      "chance": 0.0005585656035301346,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Wilderness Slayer Cave drops",
+      "section": "Wilderness Slayer tertiary"
     }
   ]
 }

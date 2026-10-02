@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Feather",
@@ -31,295 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1000,
-        1100
-      ],
-      "noted": false,
-      "rarity": "70/127",
-      "chance": 0.5511811023622047,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Crushed nest",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": true,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": true,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Manta ray",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Mushroom potato",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Smoke rune",
-      "dropVersion": null,
-      "quantity": [
-        10,
-        15
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Steel dart",
-      "dropVersion": null,
-      "quantity": [
-        91,
-        101
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": null,
-      "quantity": [
-        91,
-        101
-      ],
-      "noted": false,
-      "rarity": "7/127",
-      "chance": 0.05511811023622047,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Frozen key piece (Armadyl)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/20",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Brimstone key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/92",
-      "chance": 0.010869565217391304,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1000,
-        1100
-      ],
-      "noted": false,
-      "rarity": "124/16,129",
-      "chance": 0.007688015376030752,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1000,
-        1100
-      ],
-      "noted": false,
-      "rarity": "9/1,524",
-      "chance": 0.005905511811023622,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Godsword shard 1",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,524",
-      "chance": 0.0006561679790026247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Godsword shard 2",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,524",
-      "chance": 0.0006561679790026247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Godsword shard 3",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,524",
-      "chance": 0.0006561679790026247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Armadyl chainskirt",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,129",
-      "chance": 0.000062000124000248,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 173940,
-      "type": "combat"
-    },
-    {
-      "item": "Armadyl chestplate",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,129",
-      "chance": 0.000062000124000248,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 174000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Armadyl helmet",
@@ -335,7 +51,333 @@
       "rolls": 1,
       "altRarity": null,
       "value": 173400,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Armadyl chestplate",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,129",
+      "chance": 0.000062000124000248,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 174000,
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Armadyl chainskirt",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,129",
+      "chance": 0.000062000124000248,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 173940,
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1000,
+        1100
+      ],
+      "noted": false,
+      "rarity": "124/16,129",
+      "chance": 0.007688015376030752,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Godsword shard 1",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,524",
+      "chance": 0.0006561679790026247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Godsword shard 2",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,524",
+      "chance": 0.0006561679790026247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Godsword shard 3",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,524",
+      "chance": 0.0006561679790026247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1000,
+        1100
+      ],
+      "noted": false,
+      "rarity": "9/1,524",
+      "chance": 0.005905511811023622,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": null,
+      "quantity": [
+        91,
+        101
+      ],
+      "noted": false,
+      "rarity": "7/127",
+      "chance": 0.05511811023622047,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Steel dart",
+      "dropVersion": null,
+      "quantity": [
+        91,
+        101
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Smoke rune",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        15
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Manta ray",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Mushroom potato",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1000,
+        1100
+      ],
+      "noted": false,
+      "rarity": "70/127",
+      "chance": 0.5511811023622047,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Crushed nest",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": true,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": true,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Frozen key piece (Armadyl)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/20",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/92",
+      "chance": 0.010869565217391304,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

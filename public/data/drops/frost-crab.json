@@ -2,38 +2,6 @@
   "page": "Frost Crab",
   "drops": [
     {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "39/180",
-      "chance": 0.21666666666666667,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "16/180",
-      "chance": 0.08888888888888889,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
       "item": "Bronze pickaxe",
       "dropVersion": null,
       "quantity": [
@@ -47,39 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        24,
-        24
-      ],
-      "noted": false,
-      "rarity": "12/180",
-      "chance": 0.06666666666666667,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        36,
-        36
-      ],
-      "noted": false,
-      "rarity": "11/180",
-      "chance": 0.06111111111111111,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
     },
     {
       "item": "Iron pickaxe",
@@ -95,7 +33,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 84,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "16/180",
+      "chance": 0.08888888888888889,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "39/180",
+      "chance": 0.21666666666666667,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
     },
     {
       "item": "Coins",
@@ -111,23 +87,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
     },
     {
-      "item": "Tin ore",
+      "item": "Coins",
       "dropVersion": null,
       "quantity": [
-        3,
-        3
+        24,
+        24
       ],
       "noted": false,
-      "rarity": "8/180",
-      "chance": 0.044444444444444446,
+      "rarity": "12/180",
+      "chance": 0.06666666666666667,
       "approx": true,
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        36,
+        36
+      ],
+      "noted": false,
+      "rarity": "11/180",
+      "chance": 0.06111111111111111,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
     },
     {
       "item": "Water rune",
@@ -143,7 +141,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Water rune",
@@ -159,103 +159,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Bucket of water",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/180",
-      "chance": 0.03333333333333333,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Chisel",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/180",
-      "chance": 0.03333333333333333,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "4/180",
-      "chance": 0.022222222222222223,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Copper ore",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "4/180",
-      "chance": 0.022222222222222223,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron ore",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/180",
-      "chance": 0.022222222222222223,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Soft clay",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/180",
-      "chance": 0.022222222222222223,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Water rune",
@@ -271,7 +177,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Water rune",
@@ -287,7 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
       "item": "Water rune",
@@ -303,71 +213,63 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes"
     },
     {
-      "item": "Casket",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/180",
-      "chance": 0.011111111111111112,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/180",
-      "chance": 0.011111111111111112,
-      "approx": true,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
+      "item": "Tin ore",
       "dropVersion": null,
       "quantity": [
         3,
         3
       ],
       "noted": false,
-      "rarity": "2/180",
-      "chance": 0.011111111111111112,
+      "rarity": "8/180",
+      "chance": 0.044444444444444446,
       "approx": true,
       "rolls": 1,
       "altRarity": null,
-      "value": 27,
-      "type": "combat"
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
     },
     {
-      "item": "Frozen tear",
+      "item": "Copper ore",
       "dropVersion": null,
       "quantity": [
-        5,
-        5
+        3,
+        3
       ],
       "noted": false,
-      "rarity": "1/90",
-      "chance": 0.011111111111111112,
+      "rarity": "4/180",
+      "chance": 0.022222222222222223,
       "approx": true,
       "rolls": 1,
       "altRarity": null,
-      "value": 300,
-      "type": "combat"
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
+    },
+    {
+      "item": "Iron ore",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/180",
+      "chance": 0.022222222222222223,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
     },
     {
       "item": "Iron ore",
@@ -383,7 +285,99 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/180",
+      "chance": 0.011111111111111112,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "4/180",
+      "chance": 0.022222222222222223,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/180",
+      "chance": 0.011111111111111112,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": null,
+      "section": "Ore"
+    },
+    {
+      "item": "Chisel",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/180",
+      "chance": 0.03333333333333333,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Bucket of water",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/180",
+      "chance": 0.03333333333333333,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Spinach roll",
@@ -399,23 +393,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
-      "item": "Clue scroll (easy)",
+      "item": "Casket",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
+      "rarity": "2/180",
+      "chance": 0.011111111111111112,
+      "approx": true,
       "rolls": 1,
       "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Soft clay",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/180",
+      "chance": 0.022222222222222223,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -431,7 +447,9 @@
       "rolls": 1,
       "altRarity": "1/182.81",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -447,23 +465,9 @@
       "rolls": 1,
       "altRarity": "1/365.63",
       "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key (moon key)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,354",
-      "chance": 0.0007385524372230429,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -479,7 +483,9 @@
       "rolls": 1,
       "altRarity": "1/731.25",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -495,7 +501,9 @@
       "rolls": 1,
       "altRarity": "1/1,950",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -511,23 +519,9 @@
       "rolls": 1,
       "altRarity": "1/2,925",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/11,520",
-      "chance": 0.00008680555555555556,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/5,850",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -543,7 +537,27 @@
       "rolls": 1,
       "altRarity": "1/5,850",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/11,520",
+      "chance": 0.00008680555555555556,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/5,850",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -559,7 +573,9 @@
       "rolls": 1,
       "altRarity": "1/5,850",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -575,7 +591,9 @@
       "rolls": 1,
       "altRarity": "1/10,968.75",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -591,7 +609,9 @@
       "rolls": 1,
       "altRarity": "1/21,937.5",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -607,7 +627,63 @@
       "rolls": 1,
       "altRarity": "1/29,250",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Frozen tear",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/90",
+      "chance": 0.011111111111111112,
+      "approx": true,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Tooth half of key (moon key)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,354",
+      "chance": 0.0007385524372230429,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

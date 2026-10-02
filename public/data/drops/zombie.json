@@ -15,151 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Fishing bait",
-      "dropVersion": "Level 13",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "37/128",
-      "chance": 0.2890625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 13",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "36/128",
-      "chance": 0.28125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "11/128",
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Zombie bone (Unpolished)",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4",
-      "chance": 0.25,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": "Level 13",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/20.5",
-      "chance": 0.04878048780487805,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Body rune",
-      "dropVersion": "Level 13",
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Mind rune",
-      "dropVersion": "Level 13",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/27.3",
-      "chance": 0.03663003663003663,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": "Level 13",
-      "quantity": [
-        13,
-        13
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "100%"
     },
     {
       "item": "Bronze med helm",
@@ -175,199 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 13",
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": "Level 13",
-      "quantity": [
-        8,
-        8
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/36.4",
-      "chance": 0.027472527472527472,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 13",
-      "quantity": [
-        18,
-        18
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/46.8",
-      "chance": 0.021367521367521368,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/59.6",
-      "chance": 0.016778523489932886,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 13",
-      "quantity": [
-        13,
-        13
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 13",
-      "quantity": [
-        28,
-        28
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Copper ore",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": "Level 13",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/81.9",
-      "chance": 0.01221001221001221,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/109.2",
-      "chance": 0.009157509157509158,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Bronze longsword",
@@ -383,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Iron axe",
@@ -399,7 +69,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 33,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": "Level 13",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": "Level 13",
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Mind rune",
+      "dropVersion": "Level 13",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": "Level 13",
+      "quantity": [
+        13,
+        13
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": "Level 13",
+      "quantity": [
+        8,
+        8
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": "Level 13",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Nature rune",
@@ -415,7 +195,135 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/20.5",
+      "chance": 0.04878048780487805,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/27.3",
+      "chance": 0.03663003663003663,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/36.4",
+      "chance": 0.027472527472527472,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/46.8",
+      "chance": 0.021367521367521368,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/59.6",
+      "chance": 0.016778523489932886,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/81.9",
+      "chance": 0.01221001221001221,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/109.2",
+      "chance": 0.009157509157509158,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -431,7 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -447,23 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Level 13",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/218.5",
-      "chance": 0.004576659038901602,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -479,7 +375,153 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/218.5",
+      "chance": 0.004576659038901602,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 13",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "36/128",
+      "chance": 0.28125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "11/128",
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 13",
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 13",
+      "quantity": [
+        18,
+        18
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 13",
+      "quantity": [
+        13,
+        13
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 13",
+      "quantity": [
+        28,
+        28
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Coins"
+    },
+    {
+      "item": "Fishing bait",
+      "dropVersion": "Level 13",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "37/128",
+      "chance": 0.2890625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Other"
+    },
+    {
+      "item": "Copper ore",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Other"
     },
     {
       "item": "Zombie champion scroll",
@@ -495,7 +537,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 13)",
+      "section": "Tertiary"
     },
     {
       "item": "Bones",
@@ -511,23 +555,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Zombie bone (Unpolished)",
-      "dropVersion": "Level 18",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4",
-      "chance": 0.25,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 18)",
+      "section": "100%"
     },
     {
       "item": "Zombie champion scroll",
@@ -543,7 +573,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 18)",
+      "section": "Tertiary"
     },
     {
       "item": "Bones",
@@ -559,183 +591,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 24",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "40/128",
-      "chance": 0.3125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "10/128",
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Zombie bone (Unpolished)",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4",
-      "chance": 0.25,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Fishing bait",
-      "dropVersion": "Level 24",
-      "quantity": [
-        7,
-        7
-      ],
-      "noted": false,
-      "rarity": "26/128",
-      "chance": 0.203125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 24",
-      "quantity": [
-        18,
-        18
-      ],
-      "noted": false,
-      "rarity": "21/128",
-      "chance": 0.1640625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 24",
-      "quantity": [
-        26,
-        26
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/17.1",
-      "chance": 0.05847953216374269,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 24",
-      "quantity": [
-        35,
-        35
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/22.8",
-      "chance": 0.043859649122807015,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/30.3",
-      "chance": 0.033003300330033,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/39",
-      "chance": 0.02564102564102564,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": "Level 24",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "100%"
     },
     {
       "item": "Iron mace",
@@ -751,71 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 37,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril arrow",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 19,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/49.6",
-      "chance": 0.020161290322580645,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Body rune",
-      "dropVersion": "Level 24",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Iron dagger",
@@ -831,71 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 21,
-      "type": "combat"
-    },
-    {
-      "item": "Tinderbox",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/68.3",
-      "chance": 0.014641288433382138,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/91",
-      "chance": 0.01098901098901099,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/109.2",
-      "chance": 0.009157509157509158,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Bronze kiteshield",
@@ -911,7 +645,63 @@
       "rolls": 1,
       "altRarity": null,
       "value": 40,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril arrow",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": "Level 24",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": "Level 24",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Chaos rune",
@@ -927,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 54,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Cosmic rune",
@@ -943,23 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Eye of newt",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Fire rune",
@@ -975,23 +753,153 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Tin ore",
+      "item": "Grimy guam leaf",
       "dropVersion": "Level 24",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "1/17.1",
+      "chance": 0.05847953216374269,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/22.8",
+      "chance": 0.043859649122807015,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/30.3",
+      "chance": 0.033003300330033,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/39",
+      "chance": 0.02564102564102564,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/49.6",
+      "chance": 0.020161290322580645,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/68.3",
+      "chance": 0.014641288433382138,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/91",
+      "chance": 0.01098901098901099,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/109.2",
+      "chance": 0.009157509157509158,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -1007,23 +915,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/182",
-      "chance": 0.005494505494505495,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -1039,7 +933,189 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/182",
+      "chance": 0.005494505494505495,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 24",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "40/128",
+      "chance": 0.3125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "10/128",
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 24",
+      "quantity": [
+        18,
+        18
+      ],
+      "noted": false,
+      "rarity": "21/128",
+      "chance": 0.1640625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 24",
+      "quantity": [
+        26,
+        26
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 24",
+      "quantity": [
+        35,
+        35
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Coins"
+    },
+    {
+      "item": "Fishing bait",
+      "dropVersion": "Level 24",
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "26/128",
+      "chance": 0.203125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Other"
+    },
+    {
+      "item": "Tinderbox",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Other"
+    },
+    {
+      "item": "Eye of newt",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Other"
+    },
+    {
+      "item": "Tin ore",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -1055,7 +1131,9 @@
       "rolls": 1,
       "altRarity": "1/260",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -1071,7 +1149,9 @@
       "rolls": 1,
       "altRarity": "1/520",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -1087,23 +1167,9 @@
       "rolls": 1,
       "altRarity": "1/1,040",
       "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Zombie champion scroll",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -1119,7 +1185,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -1135,7 +1203,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -1151,23 +1221,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Level 24",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -1183,7 +1239,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -1199,7 +1275,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -1215,7 +1293,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -1231,7 +1311,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -1247,7 +1329,81 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Zombie bone (Unpolished)",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Zombie champion scroll",
+      "dropVersion": "Level 24",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (level 24)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Zombie bone (Unpolished)",
+      "dropVersion": "Level 13",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": null
+    },
+    {
+      "item": "Zombie bone (Unpolished)",
+      "dropVersion": "Level 18",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": null
     }
   ]
 }

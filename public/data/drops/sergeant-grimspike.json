@@ -15,327 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1400,
-        1500
-      ],
-      "noted": false,
-      "rarity": "66/127",
-      "chance": 0.5196850393700787,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Right eye patch",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6",
-      "chance": 0.16666666666666666,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Chilli potato",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Cosmic rune",
-      "dropVersion": null,
-      "quantity": [
-        25,
-        30
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt root",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": true,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": null,
-      "quantity": [
-        15,
-        20
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Shark",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 102,
-      "type": "combat"
-    },
-    {
-      "item": "Steel dart",
-      "dropVersion": null,
-      "quantity": [
-        95,
-        100
-      ],
-      "noted": false,
-      "rarity": "8/127",
-      "chance": 0.06299212598425197,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": null,
-      "quantity": [
-        95,
-        100
-      ],
-      "noted": false,
-      "rarity": "7/127",
-      "chance": 0.05511811023622047,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Frozen key piece (Bandos)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/20",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Combat potion(3)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/127",
-      "chance": 0.015748031496062992,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 96,
-      "type": "combat"
-    },
-    {
-      "item": "Super strength(3)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/127",
-      "chance": 0.015748031496062992,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 132,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1400,
-        1500
-      ],
-      "noted": false,
-      "rarity": "125/16,256",
-      "chance": 0.007689468503937008,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        1400,
-        1500
-      ],
-      "noted": false,
-      "rarity": "9/1,524",
-      "chance": 0.005905511811023622,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Godsword shard 1",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,524",
-      "chance": 0.0006561679790026247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Godsword shard 2",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,524",
-      "chance": 0.0006561679790026247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Godsword shard 3",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,524",
-      "chance": 0.0006561679790026247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150000,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin champion scroll",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Bandos boots",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,256",
-      "chance": 0.00006151574803149606,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 173406,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Bandos chestplate",
@@ -351,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 174006,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
     },
     {
       "item": "Bandos tassets",
@@ -367,7 +51,369 @@
       "rolls": 1,
       "altRarity": null,
       "value": 173946,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Bandos boots",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,256",
+      "chance": 0.00006151574803149606,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 173406,
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1400,
+        1500
+      ],
+      "noted": false,
+      "rarity": "125/16,256",
+      "chance": 0.007689468503937008,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Unique table"
+    },
+    {
+      "item": "Godsword shard 1",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,524",
+      "chance": 0.0006561679790026247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Godsword shard 2",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,524",
+      "chance": 0.0006561679790026247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Godsword shard 3",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,524",
+      "chance": 0.0006561679790026247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150000,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1400,
+        1500
+      ],
+      "noted": false,
+      "rarity": "9/1,524",
+      "chance": 0.005905511811023622,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Godsword shard table"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": null,
+      "quantity": [
+        95,
+        100
+      ],
+      "noted": false,
+      "rarity": "7/127",
+      "chance": 0.05511811023622047,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Steel dart",
+      "dropVersion": null,
+      "quantity": [
+        95,
+        100
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        20
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Cosmic rune",
+      "dropVersion": null,
+      "quantity": [
+        25,
+        30
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Shark",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 102,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Chilli potato",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Food and ammunition"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        1400,
+        1500
+      ],
+      "noted": false,
+      "rarity": "66/127",
+      "chance": 0.5196850393700787,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Limpwurt root",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": true,
+      "rarity": "8/127",
+      "chance": 0.06299212598425197,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Combat potion(3)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/127",
+      "chance": 0.015748031496062992,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Super strength(3)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/127",
+      "chance": 0.015748031496062992,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 132,
+      "type": "combat",
+      "group": "Regular drops",
+      "section": "Other"
+    },
+    {
+      "item": "Right eye patch",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6",
+      "chance": 0.16666666666666666,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Frozen key piece (Bandos)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/20",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Goblin champion scroll",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

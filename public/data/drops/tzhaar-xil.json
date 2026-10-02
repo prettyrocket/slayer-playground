@@ -2,86 +2,6 @@
   "page": "TzHaar-Xil",
   "drops": [
     {
-      "item": "Tokkul",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        32
-      ],
-      "noted": false,
-      "rarity": "72/128",
-      "chance": 0.5625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "16/512",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "16/384",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "8/512",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "8/384",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/512",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "4/384",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Obsidian cape",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/2,048",
-      "chance": 0.0029296875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
       "item": "Toktz-xil-ul",
       "dropVersion": null,
       "quantity": [
@@ -95,23 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 150,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/384",
-      "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
     },
     {
       "item": "Toktz-xil-ak",
@@ -127,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
     },
     {
       "item": "Toktz-xil-ek",
@@ -143,7 +51,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 15000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Obsidian cape",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/2,048",
+      "chance": 0.0029296875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "16/512",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "16/384",
+      "value": 15,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "8/512",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "8/384",
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/512",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "4/384",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/384",
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Materials"
+    },
+    {
+      "item": "Tokkul",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        32
+      ],
+      "noted": false,
+      "rarity": "72/128",
+      "chance": 0.5625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     }
   ]
 }
