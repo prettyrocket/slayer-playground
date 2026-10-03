@@ -168,17 +168,25 @@ describe('CategoryPage', () => {
   it('shows the unlock that extends it, with its cost and note', async () => {
     renderRoute('/categories/abyssal-demons');
     const unlock = await screen.findByRole('listitem', { name: 'Augment my Abbies' });
-    expect(unlock).toHaveTextContent('Extends it');
     expect(await within(unlock).findByText('100 points')).toBeInTheDocument();
     expect(unlock).toHaveTextContent('increased to 200-250');
   });
 
-  it('shows the unlock it needs, and which masters need it', async () => {
+  it('shows the unlock it needs, with its cost and note', async () => {
     renderRoute('/categories/bosses');
     const unlock = await screen.findByRole('listitem', { name: 'Like a Boss' });
-    expect(unlock).toHaveTextContent('Needed to get it');
-    expect(await within(unlock).findByText('Needed for Duradel')).toBeInTheDocument();
     expect(await within(unlock).findByText('200 points')).toBeInTheDocument();
+    expect(unlock).toHaveTextContent('can assign boss monster tasks');
+  });
+
+  it("shows an unlock's icon from the wiki", async () => {
+    renderRoute('/categories/abyssal-demons');
+    const unlock = await screen.findByRole('listitem', { name: 'Augment my Abbies' });
+    await within(unlock).findByText('100 points');
+    expect(unlock.querySelector('img')).toHaveAttribute(
+      'src',
+      '/data/icons/unlocks/augment-my-abbies.png',
+    );
   });
 
   it('has no unlocks section when nothing unlocks or extends it', async () => {

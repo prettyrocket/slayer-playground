@@ -30,6 +30,8 @@ export interface RawUnlock {
   notes: string;
   /** Link targets in the notes, used to find the task an extend applies to. */
   links: string[];
+  /** The row's icon on the wiki, e.g. "Like a boss.png"; null when it has none. */
+  image: string | null;
 }
 
 /** The Unlock and Extend tables on Slayer Rewards. */
@@ -57,6 +59,9 @@ export function parseRewards(wikitext: string): RawUnlock[] {
         kind,
         notes: wikiPlain(cells[notes] ?? ''),
         links: linkTargets(cells[notes] ?? ''),
+        // The icon sits in a cell of its own, before the name.
+        image:
+          cells.map((c) => c.match(/\[\[\s*File:([^|\]]+)/i)?.[1].trim()).find(Boolean) ?? null,
       });
     }
   }

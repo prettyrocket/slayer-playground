@@ -44,6 +44,7 @@ const unlock = (name: string, kind: RawUnlock['kind'], links: string[] = []): Ra
   kind,
   notes: '',
   links,
+  image: null,
 });
 
 function build(

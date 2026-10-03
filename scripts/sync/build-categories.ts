@@ -251,11 +251,13 @@ export function buildCategories(input: BuildInput): BuildResult {
     if (!assigned.has(category)) warnings.push(`No master assigns the category "${category}"`);
   }
 
+  // Icons are downloaded later (syncUnlockIcons), which sets `icon`.
   const unlocks: Unlock[] = input.unlocks.map(({ name, cost, kind, notes }) => ({
     name,
     cost,
     kind,
     notes,
+    icon: null,
   }));
   return { masters, categories, unlocks, warnings };
 }

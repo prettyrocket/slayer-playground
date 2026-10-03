@@ -4,319 +4,372 @@
       "name": "Gargoyle Smasher",
       "cost": 120,
       "kind": "unlock",
-      "notes": "Gargoyles are automatically dealt the finishing blow if the player has a rock hammer in their inventory."
+      "notes": "Gargoyles are automatically dealt the finishing blow if the player has a rock hammer in their inventory.",
+      "icon": "icons/unlocks/gargoyle-smasher.png"
     },
     {
       "name": "Slug Salter",
       "cost": 10,
       "kind": "unlock",
-      "notes": "Rock slugs are automatically dealt the finishing blow if the player has a bag of salt in their inventory."
+      "notes": "Rock slugs are automatically dealt the finishing blow if the player has a bag of salt in their inventory.",
+      "icon": "icons/unlocks/slug-salter.png"
     },
     {
       "name": "Reptile Freezer",
       "cost": 10,
       "kind": "unlock",
-      "notes": "Desert lizards are automatically dealt the finishing blow if the player has an ice cooler in their inventory."
+      "notes": "Desert lizards are automatically dealt the finishing blow if the player has an ice cooler in their inventory.",
+      "icon": "icons/unlocks/reptile-freezer.png"
     },
     {
       "name": "'Shroom Sprayer",
       "cost": 110,
       "kind": "unlock",
-      "notes": "Mutated zygomites are automatically dealt the finishing blow if the player has fungicide spray and fungicide in their inventory."
+      "notes": "Mutated zygomites are automatically dealt the finishing blow if the player has fungicide spray and fungicide in their inventory.",
+      "icon": "icons/unlocks/shroom-sprayer.png"
     },
     {
       "name": "Malevolent Masquerade",
       "cost": 400,
       "kind": "unlock",
-      "notes": "Learn to assemble a Slayer helmet, which requires level 55 Crafting."
+      "notes": "Learn to assemble a Slayer helmet, which requires level 55 Crafting.",
+      "icon": "icons/unlocks/malevolent-masquerade.png"
     },
     {
       "name": "Ring Bling",
       "cost": 150,
       "kind": "unlock",
-      "notes": "Learn to craft a Slayer ring, which requires level 75 Crafting."
+      "notes": "Learn to craft a Slayer ring, which requires level 75 Crafting.",
+      "icon": "icons/unlocks/ring-bling.png"
     },
     {
       "name": "Broader Fletching",
       "cost": 300,
       "kind": "unlock",
-      "notes": "Learn to fletch broad arrows (level 52 Fletching), broad bolts (level 55 Fletching), and amethyst broad bolts (level 76 Fletching)."
+      "notes": "Learn to fletch broad arrows (level 52 Fletching), broad bolts (level 55 Fletching), and amethyst broad bolts (level 76 Fletching).",
+      "icon": "icons/unlocks/broader-fletching.png"
     },
     {
       "name": "Seeing Red",
       "cost": 50,
       "kind": "unlock",
-      "notes": "Konar, Duradel, and Nieve will be able to assign you red dragons as your task."
+      "notes": "Konar, Duradel, and Nieve will be able to assign you red dragons as your task.",
+      "icon": "icons/unlocks/seeing-red.png"
     },
     {
       "name": "Watch the Birdie",
       "cost": 80,
       "kind": "unlock",
-      "notes": "Konar, Duradel, Nieve, Chaeldar, and Krystilia will be able to assign you Aviansie as your task. Requires level 60 Agility or 60 Strength to unlock."
+      "notes": "Konar, Duradel, Nieve, Chaeldar, and Krystilia will be able to assign you Aviansie as your task. Requires level 60 Agility or 60 Strength to unlock.",
+      "icon": "icons/unlocks/watch-the-birdie.png"
     },
     {
       "name": "Hot Stuff",
       "cost": 100,
       "kind": "unlock",
-      "notes": "Duradel, Nieve, and Chaeldar will be able to assign TzHaar as your task. You will be offered a chance to slay TzTok-Jad."
+      "notes": "Duradel, Nieve, and Chaeldar will be able to assign TzHaar as your task. You will be offered a chance to slay TzTok-Jad.",
+      "icon": "icons/unlocks/hot-stuff.png"
     },
     {
       "name": "Like a Boss",
       "cost": 200,
       "kind": "unlock",
-      "notes": "Konar, Duradel, Krystilia, and Nieve will be able to assign various boss monsters as your task."
+      "notes": "Konar, Duradel, Krystilia, and Nieve will be able to assign various boss monsters as your task.",
+      "icon": "icons/unlocks/like-a-boss.png"
     },
     {
       "name": "Reptile Got Ripped",
       "cost": 75,
       "kind": "unlock",
-      "notes": "Konar, Duradel, Nieve, and Chaeldar will be able to assign Lizardmen as your task."
+      "notes": "Konar, Duradel, Nieve, and Chaeldar will be able to assign Lizardmen as your task.",
+      "icon": "icons/unlocks/reptile-got-ripped.png"
     },
     {
       "name": "Bigger and Badder",
       "cost": 50,
       "kind": "unlock",
-      "notes": "Certain Slayer monsters will have the chance of spawning a superior version whilst on a Slayer task."
+      "notes": "Certain Slayer monsters will have the chance of spawning a superior version whilst on a Slayer task.",
+      "icon": "icons/unlocks/bigger-and-badder.png"
     },
     {
       "name": "Duly Noted",
       "cost": 200,
       "kind": "unlock",
-      "notes": "Mithril dragons drop mithril bars in banknote form while killed on assignment."
+      "notes": "Mithril dragons drop mithril bars in banknote form while killed on assignment.",
+      "icon": "icons/unlocks/duly-noted.png"
     },
     {
       "name": "Stop the Wyvern",
       "cost": 500,
       "kind": "unlock",
-      "notes": "Stops you getting Fossil Island Wyvern tasks, without counting towards your blocked task limit. This does not cancel a current fossil wyvern task."
+      "notes": "Stops you getting Fossil Island Wyvern tasks, without counting towards your blocked task limit. This does not cancel a current fossil wyvern task.",
+      "icon": "icons/unlocks/stop-the-wyvern.png"
     },
     {
       "name": "Double Trouble",
       "cost": 500,
       "kind": "unlock",
-      "notes": "Slaying Dusk and Dawn now counts for two kills towards your task rather than one."
+      "notes": "Slaying Dusk and Dawn now counts for two kills towards your task rather than one.",
+      "icon": "icons/unlocks/double-trouble.png"
     },
     {
       "name": "Basilocked",
       "cost": 80,
       "kind": "unlock",
-      "notes": "Konar, Duradel, and Nieve will be able to assign Basilisks as your task."
+      "notes": "Konar, Duradel, and Nieve will be able to assign Basilisks as your task.",
+      "icon": "icons/unlocks/basilocked.png"
     },
     {
       "name": "Actual Vampyre Slayer",
       "cost": 80,
       "kind": "unlock",
-      "notes": "Konar, Duradel, Nieve, and Chaeldar will be able to assign Vampyres as your task."
+      "notes": "Konar, Duradel, Nieve, and Chaeldar will be able to assign Vampyres as your task.",
+      "icon": "icons/unlocks/actual-vampyre-slayer.png"
     },
     {
       "name": "Task Storage",
       "cost": 500,
       "kind": "unlock",
-      "notes": "Gain the ability to store your task.\nOnce unlocked the operation is controlled by the tasks tab of the reward option.\nYou can freely swap between your current task and stored task by using the reward talk option on any slayer master."
+      "notes": "Gain the ability to store your task.\nOnce unlocked the operation is controlled by the tasks tab of the reward option.\nYou can freely swap between your current task and stored task by using the reward talk option on any slayer master.",
+      "icon": "icons/unlocks/task-storage.png"
     },
     {
       "name": "I Wildy More Slayer",
       "cost": 0,
       "kind": "unlock",
-      "notes": "Krystilia will be able to assign Jellies, Dust Devils, Nechryaels, and Abyssal Demons as your task."
+      "notes": "Krystilia will be able to assign Jellies, Dust Devils, Nechryaels, and Abyssal Demons as your task.",
+      "icon": "icons/unlocks/i-wildy-more-slayer.png"
     },
     {
       "name": "Warped Reality",
       "cost": 60,
       "kind": "unlock",
-      "notes": "Konar, Duradel, Nieve, and Chaeldar will be able to assign Warped creatures as your task."
+      "notes": "Konar, Duradel, Nieve, and Chaeldar will be able to assign Warped creatures as your task.",
+      "icon": "icons/unlocks/warped-reality.png"
     },
     {
       "name": "Lured In",
       "cost": 80,
       "kind": "unlock",
-      "notes": "Nieve and Duradel will be able to assign Aquanites as your task."
+      "notes": "Nieve and Duradel will be able to assign Aquanites as your task.",
+      "icon": "icons/unlocks/lured-in.png"
     },
     {
       "name": "Wings Spread",
       "cost": 80,
       "kind": "unlock",
-      "notes": "Nieve and Duradel will be able to assign Gryphons as your task."
+      "notes": "Nieve and Duradel will be able to assign Gryphons as your task.",
+      "icon": "icons/unlocks/wings-spread.png"
     },
     {
       "name": "Chance of Heavy Frost",
       "cost": 100,
       "kind": "unlock",
-      "notes": "Weighting increased from 5 to 8 for Frost dragon tasks from Nieve and Duradel."
+      "notes": "Weighting increased from 5 to 8 for Frost dragon tasks from Nieve and Duradel.",
+      "icon": "icons/unlocks/chance-of-heavy-frost.png"
     },
     {
       "name": "Need More Darkness",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of dark beasts assigned is increased to 110-135."
+      "notes": "Number of dark beasts assigned is increased to 110-135.",
+      "icon": "icons/unlocks/need-more-darkness.png"
     },
     {
       "name": "Ankou Very Much",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of ankou assigned is increased to 91-150."
+      "notes": "Number of ankou assigned is increased to 91-150.",
+      "icon": "icons/unlocks/ankou-very-much.png"
     },
     {
       "name": "Suq-a-nother One",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of suqahs assigned is increased to 186-250."
+      "notes": "Number of suqahs assigned is increased to 186-250.",
+      "icon": "icons/unlocks/suq-a-nother-one.png"
     },
     {
       "name": "Fire & Darkness",
       "cost": 50,
       "kind": "extend",
-      "notes": "Number of black dragons assigned is increased to 40-60."
+      "notes": "Number of black dragons assigned is increased to 40-60.",
+      "icon": "icons/unlocks/fire-darkness.png"
     },
     {
       "name": "Pedal to the Metals",
       "cost": 200,
       "kind": "extend",
-      "notes": "Number of metal dragons assigned is increased to 150-200."
+      "notes": "Number of metal dragons assigned is increased to 150-200.",
+      "icon": "icons/unlocks/pedal-to-the-metals.png"
     },
     {
       "name": "Spiritual Fervour",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of spiritual creatures assigned is increased to 181-250."
+      "notes": "Number of spiritual creatures assigned is increased to 181-250.",
+      "icon": "icons/unlocks/spiritual-fervour.png"
     },
     {
       "name": "Augment my Abbies",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of abyssal demons assigned is increased to 200-250."
+      "notes": "Number of abyssal demons assigned is increased to 200-250.",
+      "icon": "icons/unlocks/augment-my-abbies.png"
     },
     {
       "name": "It's Dark in Here",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of black demons assigned is increased to 200-250."
+      "notes": "Number of black demons assigned is increased to 200-250.",
+      "icon": "icons/unlocks/its-dark-in-here.png"
     },
     {
       "name": "Greater Challenge",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of greater demons assigned is increased to 200-250."
+      "notes": "Number of greater demons assigned is increased to 200-250.",
+      "icon": "icons/unlocks/greater-challenge.png"
     },
     {
       "name": "Bleed Me Dry",
       "cost": 75,
       "kind": "extend",
-      "notes": "Number of bloodveld assigned is increased to 200-250."
+      "notes": "Number of bloodveld assigned is increased to 200-250.",
+      "icon": "icons/unlocks/bleed-me-dry.png"
     },
     {
       "name": "Smell Ya Later",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of aberrant spectres assigned is increased to 200-250."
+      "notes": "Number of aberrant spectres assigned is increased to 200-250.",
+      "icon": "icons/unlocks/smell-ya-later.png"
     },
     {
       "name": "Birds of a Feather",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of aviansie assigned is increased to 200-250."
+      "notes": "Number of aviansie assigned is increased to 200-250.",
+      "icon": "icons/unlocks/birds-of-a-feather.png"
     },
     {
       "name": "Horrorific",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of cave horrors assigned is increased to 200-250."
+      "notes": "Number of cave horrors assigned is increased to 200-250.",
+      "icon": "icons/unlocks/horrorific.png"
     },
     {
       "name": "To Dust You Shall Return",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of dust devils assigned is increased to 200-250."
+      "notes": "Number of dust devils assigned is increased to 200-250.",
+      "icon": "icons/unlocks/to-dust-you-shall-return.png"
     },
     {
       "name": "Wyver-nother One",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of Skeletal Wyverns assigned is increased to 50-75."
+      "notes": "Number of Skeletal Wyverns assigned is increased to 50-75.",
+      "icon": "icons/unlocks/wyver-nother-one.png"
     },
     {
       "name": "Get Smashed",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of gargoyles assigned is increased to 200-250."
+      "notes": "Number of gargoyles assigned is increased to 200-250.",
+      "icon": "icons/unlocks/get-smashed.png"
     },
     {
       "name": "Nechs Please",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of nechryael assigned is increased to 200-250."
+      "notes": "Number of nechryael assigned is increased to 200-250.",
+      "icon": "icons/unlocks/nechs-please.png"
     },
     {
       "name": "Krack On",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of cave kraken assigned is increased to 150-200."
+      "notes": "Number of cave kraken assigned is increased to 150-200.",
+      "icon": "icons/unlocks/krack-on.png"
     },
     {
       "name": "Get Scabaright on It",
       "cost": 50,
       "kind": "extend",
-      "notes": "Number of scabarites assigned is increased to 130-170."
+      "notes": "Number of scabarites assigned is increased to 130-170.",
+      "icon": "icons/unlocks/get-scabaright-on-it.png"
     },
     {
       "name": "Wyver-nother Two",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of Fossil Island Wyverns assigned is increased to 55-75."
+      "notes": "Number of Fossil Island Wyverns assigned is increased to 55-75.",
+      "icon": "icons/unlocks/wyver-nother-two.png"
     },
     {
       "name": "Basilonger",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of basilisks assigned is increased to 200-250."
+      "notes": "Number of basilisks assigned is increased to 200-250.",
+      "icon": "icons/unlocks/basilonger.png"
     },
     {
       "name": "More at Stake",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of vampyres assigned is increased to 200-250."
+      "notes": "Number of vampyres assigned is increased to 200-250.",
+      "icon": "icons/unlocks/more-at-stake.png"
     },
     {
       "name": "Revenenenenenants",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of revenants assigned is increased to 100-150."
+      "notes": "Number of revenants assigned is increased to 100-150.",
+      "icon": "icons/unlocks/revenenenenenants.png"
     },
     {
       "name": "More eyes than sense",
       "cost": 150,
       "kind": "extend",
-      "notes": "Number of araxytes assigned is increased to 200-250."
+      "notes": "Number of araxytes assigned is increased to 200-250.",
+      "icon": "icons/unlocks/more-eyes-than-sense.png"
     },
     {
       "name": "Un-restraining Order",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of custodian stalkers assigned is increased to 200-250."
+      "notes": "Number of custodian stalkers assigned is increased to 200-250.",
+      "icon": "icons/unlocks/un-restraining-order.png"
     },
     {
       "name": "Let's Stay All Aquanite",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of aquanites assigned is increased to 150-200."
+      "notes": "Number of aquanites assigned is increased to 150-200.",
+      "icon": "icons/unlocks/lets-stay-all-aquanite.png"
     },
     {
       "name": "Can of Wyrms",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of wyrms assigned is increased to 200-250."
+      "notes": "Number of wyrms assigned is increased to 200-250.",
+      "icon": "icons/unlocks/can-of-wyrms.png"
     },
     {
       "name": "Gryphon and on",
       "cost": 50,
       "kind": "extend",
-      "notes": "Number of gryphons assigned is increased by 80."
+      "notes": "Number of gryphons assigned is increased by 80.",
+      "icon": "icons/unlocks/gryphon-and-on.png"
     },
     {
       "name": "I see Dragons",
       "cost": 100,
       "kind": "extend",
-      "notes": "Number of frost dragons assigned is increased to 180-240"
+      "notes": "Number of frost dragons assigned is increased to 180-240",
+      "icon": "icons/unlocks/i-see-dragons.png"
     }
   ]
 }

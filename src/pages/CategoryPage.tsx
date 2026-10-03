@@ -5,7 +5,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import StarIcon from '@mui/icons-material/Star';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Chip from '@mui/material/Chip';
 import Link from '@mui/material/Link';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -322,25 +321,13 @@ function PlaceRows({
 
 /**
  * The Slayer Rewards unlocks that matter for this task: the ones a master needs
- * before assigning it (and which masters), and the extend that makes it longer,
- * each with its points cost and the wiki's note.
+ * before assigning it, and the extend that makes it longer. Each as the wiki's
+ * Rewards page shows it: its icon, name, points cost and note.
  */
 function SlayerUnlocks({ category }: { category: Category }) {
   const { data: unlocks } = useUnlocks();
-  const { data: masters } = useMastersFile();
-  const wanted = [
-    ...category.unlocks.map((name) => ({ name, extend: false })),
-    ...(category.extend ? [{ name: category.extend, extend: true }] : []),
-  ];
-  if (wanted.length === 0) return null;
-  const neededBy = (name: string) =>
-    masters?.masters
-      .filter((m) =>
-        m.assignments.some(
-          (a) => a.category === category.name.toLowerCase() && a.unlocks.includes(name),
-        ),
-      )
-      .map((m) => m.name) ?? [];
+  const names = [...category.unlocks, ...(category.extend ? [category.extend] : [])];
+  if (names.length === 0) return null;
 
   return (
     <Box component="section" aria-labelledby="slayer-unlocks" sx={{ mt: 4 }}>
@@ -358,40 +345,48 @@ function SlayerUnlocks({ category }: { category: Category }) {
           m: 0,
         }}
       >
-        {wanted.map(({ name, extend }) => {
+        {names.map((name) => {
           const unlock = unlocks?.unlocks.find((u) => u.name === name);
-          const masterNames = extend ? [] : neededBy(name);
           return (
             <Box
               component="li"
               key={name}
               aria-label={name}
-              sx={{ border: 1, borderColor: 'divider', borderRadius: 2, p: 1.5 }}
+              sx={{
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: 1.5,
+                border: 1,
+                borderColor: 'divider',
+                borderRadius: 2,
+                p: 1.5,
+              }}
             >
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexWrap: 'wrap' }}>
-                <Typography sx={{ fontWeight: 500 }}>{name}</Typography>
-                <Chip
-                  size="small"
-                  label={extend ? 'Extends it' : 'Needed to get it'}
-                  color={extend ? 'default' : 'warning'}
-                  variant="outlined"
-                />
-                {unlock && (
-                  <Typography variant="body2" color="text.secondary" sx={{ ml: 'auto' }}>
-                    {unlock.cost} points
+              <Box sx={{ width: 32, flexShrink: 0, display: 'grid', placeItems: 'center' }}>
+                {unlock?.icon && (
+                  <Box
+                    component="img"
+                    src={resolveUrl(`data/${unlock.icon}`)}
+                    alt=""
+                    sx={{ display: 'block', maxWidth: 32, maxHeight: 32 }}
+                  />
+                )}
+              </Box>
+              <Box sx={{ minWidth: 0, flexGrow: 1 }}>
+                <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1 }}>
+                  <Typography sx={{ fontWeight: 500 }}>{name}</Typography>
+                  {unlock && (
+                    <Typography variant="body2" color="text.secondary" sx={{ ml: 'auto' }}>
+                      {unlock.cost} points
+                    </Typography>
+                  )}
+                </Box>
+                {unlock?.notes && (
+                  <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
+                    {unlock.notes}
                   </Typography>
                 )}
               </Box>
-              {unlock?.notes && (
-                <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
-                  {unlock.notes}
-                </Typography>
-              )}
-              {masterNames.length > 0 && (
-                <Typography variant="body2" sx={{ mt: 0.5 }}>
-                  Needed for {masterNames.join(', ')}
-                </Typography>
-              )}
             </Box>
           );
         })}

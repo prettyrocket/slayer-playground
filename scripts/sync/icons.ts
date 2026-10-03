@@ -1,12 +1,13 @@
 import { mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 
-import type { Monster, SlayerCategory } from '../../src/data/types.ts';
+import type { Monster, SlayerCategory, Unlock } from '../../src/data/types.ts';
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { resolveCategory } from './build-categories.ts';
 import { writeFile } from './files.ts';
 import { MASTER_PAGES } from './masters.ts';
-import { pageKey } from './normalize.ts';
+import { pageKey, slugify } from './normalize.ts';
+import type { RawUnlock } from './parsers.ts';
 import { fetchImageUrls, fetchSlayerIcons } from './sources.ts';
 
 /** Icons wider than this come from a thumbnail of this width; the card shows them at most 40px. */
@@ -201,6 +202,46 @@ export async function syncMasterIcons(client: WikiClient, dataDir: string): Prom
       continue;
     }
     await writeFile(path.join(dir, `${key}.png`), await client.download(url));
+  }
+  return warnings;
+}
+
+/**
+ * Downloads each Slayer Rewards unlock's icon, as the Rewards page shows it,
+ * to public/data/icons/unlocks/<slug>.<ext> and sets `icon` on the unlocks.
+ * Icons of unlocks that are gone are removed.
+ */
+export async function syncUnlockIcons(
+  client: WikiClient,
+  dataDir: string,
+  unlocks: Unlock[],
+  raw: RawUnlock[],
+): Promise<string[]> {
+  const warnings: string[] = [];
+  const title = (u: Unlock) => {
+    const image = raw.find((r) => r.name === u.name)?.image;
+    return image ? `File:${image}` : null;
+  };
+  const titles = [...new Set(unlocks.map(title).filter((t): t is string => t !== null))];
+  const urls = await fetchImageUrls(client, titles, ICON_WIDTH);
+
+  const dir = path.join(dataDir, 'icons', 'unlocks');
+  await mkdir(dir, { recursive: true });
+  const written = new Set<string>();
+  for (const unlock of unlocks) {
+    const file = title(unlock);
+    const url = file && urls.get(file);
+    if (!url) {
+      warnings.push(`No icon for the unlock ${unlock.name}${file ? ` (${file})` : ''}`);
+      continue;
+    }
+    const name = `${slugify(unlock.name)}${path.extname(new URL(url).pathname).toLowerCase()}`;
+    await writeFile(path.join(dir, name), await client.download(url));
+    written.add(name);
+    unlock.icon = `icons/unlocks/${name}`;
+  }
+  for (const entry of await readdir(dir, { withFileTypes: true })) {
+    if (entry.isFile() && !written.has(entry.name)) await rm(path.join(dir, entry.name));
   }
   return warnings;
 }

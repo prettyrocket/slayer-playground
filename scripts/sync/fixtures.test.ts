@@ -271,7 +271,11 @@ describe('Slayer Rewards', () => {
       kind: 'extend',
       notes: 'Number of abyssal demons assigned is increased to 200-250.',
       links: ['Abyssal demon'],
+      image: 'Abyssal demon icon.png',
     });
+    expect(find('Like a Boss')?.image).toBe('Like a boss.png');
+    // Every row has its icon.
+    expect(rewards().filter((r) => r.image === null)).toEqual([]);
   });
 
   it("matches the masters' requirement texts to unlock names", () => {

@@ -236,6 +236,8 @@ export interface Unlock {
   kind: 'unlock' | 'extend';
   /** Plain text of the wiki's notes. */
   notes: string;
+  /** Its icon on the Slayer Rewards page, relative to public/data, e.g. "icons/unlocks/like-a-boss.png"; null when none. */
+  icon: string | null;
 }
 
 /** public/data/meta.json */

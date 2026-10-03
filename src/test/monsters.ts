@@ -376,12 +376,14 @@ export const unlocksFixture: UnlocksFile = {
       cost: 100,
       kind: 'extend',
       notes: 'Number of abyssal demons assigned is increased to 200-250.',
+      icon: 'icons/unlocks/augment-my-abbies.png',
     },
     {
       name: 'Like a Boss',
       cost: 200,
       kind: 'unlock',
       notes: 'Konar, Duradel, Nieve and Krystilia can assign boss monster tasks.',
+      icon: null,
     },
   ],
 };
