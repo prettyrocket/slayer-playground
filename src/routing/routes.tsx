@@ -4,6 +4,7 @@ import { ErrorPage, RootErrorPage } from '@/components/ErrorPage';
 import { RootLayout } from '@/layouts/RootLayout';
 import { AboutPage } from '@/pages/AboutPage';
 import { CategoriesPage } from '@/pages/CategoriesPage';
+import { CategoryLocationsPage } from '@/pages/CategoryLocationsPage';
 import { CategoryPage } from '@/pages/CategoryPage';
 import { HomePage } from '@/pages/HomePage';
 import { MasterPage } from '@/pages/MasterPage';
@@ -31,6 +32,7 @@ export const routes: RouteObject[] = [
           { index: true, element: <HomePage /> },
           { path: 'categories', element: <CategoriesPage /> },
           { path: 'categories/:slug', element: <CategoryPage /> },
+          { path: 'categories/:slug/locations', element: <CategoryLocationsPage /> },
           { path: 'monsters/:slug', element: <MonsterPage /> },
           { path: 'masters', element: <MastersPage /> },
           { path: 'masters/:slug', element: <MasterPage /> },
