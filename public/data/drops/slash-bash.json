@@ -2,11 +2,11 @@
   "page": "Slash Bash",
   "drops": [
     {
-      "item": "Ogre artefact",
+      "item": "Zogre bones",
       "dropVersion": null,
       "quantity": [
-        1,
-        1
+        2,
+        2
       ],
       "noted": false,
       "rarity": "Always",
@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Ourg bones",
@@ -31,14 +33,16 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
-      "item": "Zogre bones",
+      "item": "Ogre artefact",
       "dropVersion": null,
       "quantity": [
-        2,
-        2
+        1,
+        1
       ],
       "noted": false,
       "rarity": "Always",
@@ -47,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Zogre bone",
@@ -63,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Zombie champion scroll",
@@ -79,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

@@ -10,7 +10,7 @@ import type {
 import type { WikiClient } from '../lib/wiki-client.ts';
 import { buildCategories } from './build-categories.ts';
 import { writeJson } from './files.ts';
-import { syncIcons, syncMasterIcons } from './icons.ts';
+import { syncIcons, syncMasterIcons, syncUnlockIcons } from './icons.ts';
 import { MASTER_PAGES, type RawAssignment, parseMasterTable } from './masters.ts';
 import { parseEquipment, parseRewards } from './parsers.ts';
 import { EQUIPMENT_PAGE, REWARDS_PAGE } from './sources.ts';
@@ -34,17 +34,19 @@ export async function syncCategories(
       parseMasterTable(page(title), title, (w) => warnings.push(w)),
     ]),
   );
+  const rawUnlocks = parseRewards(page(REWARDS_PAGE));
   const built = buildCategories({
     monsters,
     assignments,
     taskPages,
-    unlocks: parseRewards(page(REWARDS_PAGE)),
+    unlocks: rawUnlocks,
     equipment: parseEquipment(page(EQUIPMENT_PAGE)),
   });
   const { masters, categories, unlocks } = built;
   const iconWarnings = [
     ...(await syncIcons(client, dataDir, categories, monsters)),
     ...(await syncMasterIcons(client, dataDir)),
+    ...(await syncUnlockIcons(client, dataDir, unlocks, rawUnlocks)),
   ];
   for (const warning of [...warnings, ...built.warnings, ...iconWarnings]) {
     console.warn(`  ! ${warning}`);

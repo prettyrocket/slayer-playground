@@ -15,407 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Seaweed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/13",
-      "chance": 0.07692307692307693,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Snape grass",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        2
-      ],
-      "noted": false,
-      "rarity": "1/13",
-      "chance": 0.07692307692307693,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": null,
-      "quantity": [
-        150,
-        350
-      ],
-      "noted": false,
-      "rarity": "1/13",
-      "chance": 0.07692307692307693,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Avantoe seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Cadantine seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Irit seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Kwuarm seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Ranarr seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Elkhorn frag",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        4
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Pillar frag",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        3
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 31,
-      "type": "combat"
-    },
-    {
-      "item": "Pineapple seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 44,
-      "type": "combat"
-    },
-    {
-      "item": "Shark lure",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Snape grass seed",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        3
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 56,
-      "type": "combat"
-    },
-    {
-      "item": "Umbral frag",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 46,
-      "type": "combat"
-    },
-    {
-      "item": "Water battlestaff",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 9300,
-      "type": "combat"
-    },
-    {
-      "item": "Watermelon seed",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/22",
-      "chance": 0.045454545454545456,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 33,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        104,
-        188
-      ],
-      "noted": false,
-      "rarity": "1/32",
-      "chance": 0.03125,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/42",
-      "chance": 0.023809523809523808,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Rune cannonball",
-      "dropVersion": null,
-      "quantity": [
-        14,
-        22
-      ],
-      "noted": false,
-      "rarity": "1/64",
-      "chance": 0.015625,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 840,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon cannonball",
-      "dropVersion": null,
-      "quantity": [
-        9,
-        15
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 1080,
-      "type": "combat"
-    },
-    {
-      "item": "Dust battlestaff",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/135",
-      "chance": 0.007407407407407408,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9300,
-      "type": "combat"
-    },
-    {
-      "item": "Mist battlestaff",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/135",
-      "chance": 0.007407407407407408,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9300,
-      "type": "combat"
-    },
-    {
-      "item": "Long bone",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Eternal gem",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/472",
-      "chance": 0.00211864406779661,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 5700,
-      "type": "combat"
-    },
-    {
-      "item": "Imbued heart",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/472",
-      "chance": 0.00211864406779661,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Aquanite tendon",
@@ -431,23 +33,369 @@
       "rolls": 3,
       "altRarity": null,
       "value": 3000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Sailing resources"
     },
     {
-      "item": "Curved bone",
+      "item": "Dragon cannonball",
+      "dropVersion": null,
+      "quantity": [
+        9,
+        15
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 1080,
+      "type": "combat",
+      "group": null,
+      "section": "Sailing resources"
+    },
+    {
+      "item": "Rune cannonball",
+      "dropVersion": null,
+      "quantity": [
+        14,
+        22
+      ],
+      "noted": false,
+      "rarity": "1/64",
+      "chance": 0.015625,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 840,
+      "type": "combat",
+      "group": null,
+      "section": "Sailing resources"
+    },
+    {
+      "item": "Umbral frag",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/5,012.5",
-      "chance": 0.00019950124688279303,
-      "approx": false,
-      "rolls": 1,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 46,
+      "type": "combat",
+      "group": null,
+      "section": "Sailing resources"
+    },
+    {
+      "item": "Pillar frag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 31,
+      "type": "combat",
+      "group": null,
+      "section": "Sailing resources"
+    },
+    {
+      "item": "Elkhorn frag",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        4
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat",
+      "group": null,
+      "section": "Sailing resources"
+    },
+    {
+      "item": "Snape grass seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 56,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Irit seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Avantoe seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": true,
+      "rolls": 3,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Kwuarm seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Cadantine seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Watermelon seed",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Pineapple seed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 44,
+      "type": "combat",
+      "group": null,
+      "section": "Seeds"
+    },
+    {
+      "item": "Snape grass",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        2
+      ],
+      "noted": false,
+      "rarity": "1/13",
+      "chance": 0.07692307692307693,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Seaweed",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/13",
+      "chance": 0.07692307692307693,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Shark lure",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/42",
+      "chance": 0.023809523809523808,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": null,
+      "quantity": [
+        150,
+        350
+      ],
+      "noted": false,
+      "rarity": "1/13",
+      "chance": 0.07692307692307693,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Water battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/22",
+      "chance": 0.045454545454545456,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": null,
+      "quantity": [
+        104,
+        188
+      ],
+      "noted": false,
+      "rarity": "1/32",
+      "chance": 0.03125,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
     },
     {
       "item": "Clue scroll (hard)",
@@ -463,7 +411,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Mist battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/135",
+      "chance": 0.007407407407407408,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Dust battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/135",
+      "chance": 0.007407407407407408,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Eternal gem",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/472",
+      "chance": 0.00211864406779661,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 5700,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Imbued heart",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/472",
+      "chance": 0.00211864406779661,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300000,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
     }
   ]
 }

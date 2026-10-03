@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": "1/100",
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

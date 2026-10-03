@@ -15,151 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin skull",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "28/128",
-      "chance": 0.21875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Hammer",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "15/128",
-      "chance": 0.1171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Body rune",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        7,
-        7
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin mail",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze spear",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled goblin head",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/35",
-      "chance": 0.02857142857142857,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 31,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze bolts",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        8,
-        8
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "100%"
     },
     {
       "item": "Bronze sq shield",
@@ -175,14 +33,88 @@
       "rolls": 1,
       "altRarity": null,
       "value": 28,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Chef's hat",
+      "item": "Bronze spear",
       "dropVersion": "Drop table 1",
       "quantity": [
         1,
         1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Bronze bolts",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        8,
+        8
       ],
       "noted": false,
       "rarity": "3/128",
@@ -191,7 +123,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "28/128",
+      "chance": 0.21875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Coins"
     },
     {
       "item": "Coins",
@@ -207,7 +159,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Coins"
     },
     {
       "item": "Coins",
@@ -223,55 +177,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Beer",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/64",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Coins"
     },
     {
       "item": "Coins",
@@ -287,71 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin book",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Air talisman",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Brass necklace",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (easy)",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Coins"
     },
     {
       "item": "Coins",
@@ -367,23 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin champion scroll",
-      "dropVersion": "Drop table 1",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Coins"
     },
     {
       "item": "Energy potion(1)",
@@ -399,7 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 21,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
     },
     {
       "item": "Energy potion(2)",
@@ -415,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 43,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
     },
     {
       "item": "Energy potion(3)",
@@ -431,7 +267,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 66,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
     },
     {
       "item": "Energy potion(4)",
@@ -447,7 +285,225 @@
       "rolls": 1,
       "altRarity": null,
       "value": 87,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Hammer",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "15/128",
+      "chance": 0.1171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Goblin book",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Goblin mail",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Chef's hat",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Beer",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Brass necklace",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Air talisman",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Other"
+    },
+    {
+      "item": "Goblin skull",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ensouled goblin head",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35",
+      "chance": 0.02857142857142857,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 31,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/64",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Goblin champion scroll",
+      "dropVersion": "Drop table 1",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 1",
+      "section": "Tertiary"
     },
     {
       "item": "Bones",
@@ -463,183 +519,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin skull",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "34/128",
-      "chance": 0.265625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "13/128",
-      "chance": 0.1015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin mail",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze spear",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Hammer",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        16,
-        16
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled goblin head",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/30",
-      "chance": 0.03333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 31,
-      "type": "combat"
-    },
-    {
-      "item": "Body rune",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze arrow",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        7,
-        7
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "100%"
     },
     {
       "item": "Bronze axe",
@@ -655,119 +537,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        24,
-        24
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Mind rune",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze javelin",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Goblin book",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/80",
-      "chance": 0.0125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Weapons and armour"
     },
     {
       "item": "Bronze scimitar",
@@ -783,7 +555,117 @@
       "rolls": 1,
       "altRarity": null,
       "value": 19,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Bronze spear",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Bronze arrow",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Mind rune",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Bronze javelin",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Chaos rune",
@@ -799,39 +681,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (easy)",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grapes",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Nature rune",
@@ -847,39 +699,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Red cape",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Tin ore",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Grimy guam leaf",
@@ -895,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy marrentill",
@@ -911,7 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 8,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy tarromin",
@@ -927,7 +753,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy harralander",
@@ -943,7 +771,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy ranarr weed",
@@ -959,7 +789,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -975,7 +807,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -991,7 +825,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -1007,7 +843,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -1023,23 +861,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Drop table 2",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,730.7",
-      "chance": 0.0003662064672062109,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -1055,23 +879,135 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
     },
     {
-      "item": "Goblin champion scroll",
+      "item": "Grimy dwarf weed",
       "dropVersion": "Drop table 2",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
+      "rarity": "1/2,730.7",
+      "chance": 0.0003662064672062109,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "value": 14,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "34/128",
+      "chance": 0.265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "13/128",
+      "chance": 0.1015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        16,
+        16
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        24,
+        24
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Coins"
     },
     {
       "item": "Energy potion(1)",
@@ -1087,7 +1023,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 21,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
     },
     {
       "item": "Energy potion(2)",
@@ -1103,7 +1041,207 @@
       "rolls": 1,
       "altRarity": null,
       "value": 43,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Hammer",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Goblin book",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Goblin mail",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Grapes",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Red cape",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Tin ore",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Other"
+    },
+    {
+      "item": "Goblin skull",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ensouled goblin head",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/30",
+      "chance": 0.03333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 31,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/80",
+      "chance": 0.0125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Goblin champion scroll",
+      "dropVersion": "Drop table 2",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drop table 2",
+      "section": "Tertiary"
     }
   ]
 }

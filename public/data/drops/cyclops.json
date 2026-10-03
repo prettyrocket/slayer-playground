@@ -3,1366 +3,6 @@
   "drops": [
     {
       "item": "Big bones",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        96,
-        96
-      ],
-      "noted": false,
-      "rarity": "11/100",
-      "chance": 0.11,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        350,
-        449
-      ],
-      "noted": false,
-      "rarity": "8/100",
-      "chance": 0.08,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Lobster",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "7/100",
-      "chance": 0.07,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 42,
-      "type": "combat"
-    },
-    {
-      "item": "Steel chainbody",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "7/100",
-      "chance": 0.07,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 450,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril dart",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant dagger",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 480,
-      "type": "combat"
-    },
-    {
-      "item": "Black dagger",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Black full helm",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 633,
-      "type": "combat"
-    },
-    {
-      "item": "Black mace",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 259,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril kiteshield",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1326,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril scimitar",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 624,
-      "type": "combat"
-    },
-    {
-      "item": "Steel platebody",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/100",
-      "chance": 0.05,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1200,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant 2h sword",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/100",
-      "chance": 0.04,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3840,
-      "type": "combat"
-    },
-    {
-      "item": "Black knife",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        22,
-        22
-      ],
-      "noted": false,
-      "rarity": "4/100",
-      "chance": 0.04,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 11,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril platelegs",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/100",
-      "chance": 0.04,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1560,
-      "type": "combat"
-    },
-    {
-      "item": "Rune med helm",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/100",
-      "chance": 0.03,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 11520,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant sq shield",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2304,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon defender",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Rune full helm",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 21120,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/133.3",
-      "chance": 0.007501875468867216,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/177.8",
-      "chance": 0.00562429696287964,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/228.6",
-      "chance": 0.004374453193350831,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/255",
-      "chance": 0.00392156862745098,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/256",
-      "chance": 0.00390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Strawberry seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/266.7",
-      "chance": 0.0037495313085864268,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Marrentill seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/279.5",
-      "chance": 0.0035778175313059034,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/290.9",
-      "chance": 0.003437607425232039,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        3000,
-        3000
-      ],
-      "noted": false,
-      "rarity": "1/304.76",
-      "chance": 0.0032812705079406745,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/317.52",
-      "chance": 0.0031494079113126732,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/315.15",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/317.52",
-      "chance": 0.0031494079113126732,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/315.15",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Jangerberry seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/379.7",
-      "chance": 0.002633658151171978,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Long bone",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Tarromin seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/411",
-      "chance": 0.0024330900243309003,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Wildblood seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/420.9",
-      "chance": 0.0023758612497030173,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/533.3",
-      "chance": 0.0018751171948246767,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Watermelon seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/554.5",
-      "chance": 0.0018034265103697023,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 33,
-      "type": "combat"
-    },
-    {
-      "item": "Harralander seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/623.8",
-      "chance": 0.001603077909586406,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/640",
-      "chance": 0.0015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy cadantine",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/800",
-      "chance": 0.00125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Snape grass seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/873.3",
-      "chance": 0.0011450818733539448,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 56,
-      "type": "combat"
-    },
-    {
-      "item": "Ranarr seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/895.7",
-      "chance": 0.0011164452383610583,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Whiteberry seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,027.5",
-      "chance": 0.0009732360097323601,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 79,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,066.7",
-      "chance": 0.0009374707040404987,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy lantadyme",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,066.7",
-      "chance": 0.0009374707040404987,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Mushroom spore",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,204.6",
-      "chance": 0.0008301510874979247,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 51,
-      "type": "combat"
-    },
-    {
-      "item": "Runite bar",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,280",
-      "chance": 0.00078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3000,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,280",
-      "chance": 0.00078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/650",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Toadflax seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,293.8",
-      "chance": 0.000772916988715412,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Belladonna seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,940.7",
-      "chance": 0.0005152779924769413,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 106,
-      "type": "combat"
-    },
-    {
-      "item": "Irit seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,940.7",
-      "chance": 0.0005152779924769413,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        67,
-        67
-      ],
-      "noted": false,
-      "rarity": "1/2,133.33",
-      "chance": 0.0004687507324230194,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Rune 2h sword",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,133.33",
-      "chance": 0.0004687507324230194,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 38400,
-      "type": "combat"
-    },
-    {
-      "item": "Rune battleaxe",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,133.33",
-      "chance": 0.0004687507324230194,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24960,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,560",
-      "chance": 0.000390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,300",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Poison ivy seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,687.2",
-      "chance": 0.0003721345638582912,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 99,
-      "type": "combat"
-    },
-    {
-      "item": "Avantoe seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,911.1",
-      "chance": 0.0003435127614990897,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Cactus seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,911.1",
-      "chance": 0.0003435127614990897,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 59,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant javelin",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        20,
-        20
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 96,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        45,
-        45
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Dragonstone",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6000,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        45,
-        45
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        42,
-        42
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Rune sq shield",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 23040,
-      "type": "combat"
-    },
-    {
-      "item": "Silver ore",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        100,
-        100
-      ],
-      "noted": true,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 45,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        150,
-        150
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Kwuarm seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,881.5",
-      "chance": 0.0002576323586242432,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Potato cactus seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4,366.7",
-      "chance": 0.0002290058854512561,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 84,
-      "type": "combat"
-    },
-    {
-      "item": "Curved bone",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,012.5",
-      "chance": 0.00019950124688279303,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,120",
-      "chance": 0.0001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,600",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon med helm",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,400",
-      "chance": 0.00015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60000,
-      "type": "combat"
-    },
-    {
-      "item": "Rune kiteshield",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,400",
-      "chance": 0.00015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 32640,
-      "type": "combat"
-    },
-    {
-      "item": "Rune spear",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,756.29",
-      "chance": 0.00014801022454631165,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/783.92",
-      "value": 12480,
-      "type": "combat"
-    },
-    {
-      "item": "Snapdragon seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,986.7",
-      "chance": 0.00014312908812457955,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Cadantine seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/8,733.3",
-      "chance": 0.00011450425383302991,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Lantadyme seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/11,644.4",
-      "chance": 0.00008587819037477243,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 5,
-      "type": "combat"
-    },
-    {
-      "item": "Shield left half",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/13,512.58",
-      "chance": 0.00007400511227315583,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,567.84",
-      "value": 66000,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos talisman",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/13,653.33",
-      "chance": 0.0000732422053813978,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/6,933.33",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Dwarf weed seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/17,466.7",
-      "chance": 0.000057251799137787903,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon spear",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/18,016.77",
-      "chance": 0.000055503844473787475,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/2,090.45",
-      "value": 37440,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/20,480",
-      "chance": 0.000048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/10,400",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Torstol seed",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/34,933.3",
-      "chance": 0.000028625981513341138,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 42,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
-      "dropVersion": "Warriors' Guild Basement",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/40,960",
-      "chance": 0.0000244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/20,800",
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Big bones",
       "dropVersion": "Warriors' Guild Rooftop",
       "quantity": [
         1,
@@ -1375,23 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        3,
-        102
-      ],
-      "noted": false,
-      "rarity": "31/100",
-      "chance": 0.31,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "100%"
     },
     {
       "item": "Black knife",
@@ -1407,183 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 11,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        5,
-        204
-      ],
-      "noted": false,
-      "rarity": "10/100",
-      "chance": 0.1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Black defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Iron 2h sword",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 168,
-      "type": "combat"
-    },
-    {
-      "item": "Iron chainbody",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 126,
-      "type": "combat"
-    },
-    {
-      "item": "Iron defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Rune defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Steel 2h sword",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 600,
-      "type": "combat"
-    },
-    {
-      "item": "Steel battleaxe",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 390,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel chainbody",
@@ -1599,7 +51,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 450,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Iron 2h sword",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 168,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Iron chainbody",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 126,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel dagger",
@@ -1615,39 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 75,
-      "type": "combat"
-    },
-    {
-      "item": "Steel defender",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Steel longsword",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel mace",
@@ -1663,23 +123,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 135,
-      "type": "combat"
-    },
-    {
-      "item": "Steel med helm",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/100",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel sword",
@@ -1695,39 +141,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 195,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Adamant 2h sword",
+      "item": "Steel battleaxe",
       "dropVersion": "Warriors' Guild Rooftop",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
+      "rarity": "2/100",
+      "chance": 0.02,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 3840,
-      "type": "combat"
+      "value": 390,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Adamant mace",
+      "item": "Steel 2h sword",
       "dropVersion": "Warriors' Guild Rooftop",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
+      "rarity": "2/100",
+      "chance": 0.02,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 864,
-      "type": "combat"
+      "value": 600,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel longsword",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel med helm",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Black 2h sword",
@@ -1743,55 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1152,
-      "type": "combat"
-    },
-    {
-      "item": "Black dagger",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Black longsword",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 576,
-      "type": "combat"
-    },
-    {
-      "item": "Black sword",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 374,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril dagger",
@@ -1807,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 195,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril longsword",
@@ -1823,7 +267,225 @@
       "rolls": 1,
       "altRarity": null,
       "value": 780,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant mace",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 864,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black sword",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 374,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black longsword",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 576,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black dagger",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant 2h sword",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3840,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Bronze defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
+    },
+    {
+      "item": "Iron defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
+    },
+    {
+      "item": "Steel defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
+    },
+    {
+      "item": "Black defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
+    },
+    {
+      "item": "Mithril defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
+    },
+    {
+      "item": "Adamant defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
+    },
+    {
+      "item": "Rune defender",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/100",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Defenders"
     },
     {
       "item": "Grimy guam leaf",
@@ -1839,7 +501,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy marrentill",
@@ -1855,23 +519,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/200",
-      "chance": 0.005,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/101.56",
-      "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy tarromin",
@@ -1887,7 +537,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy harralander",
@@ -1903,7 +555,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy ranarr weed",
@@ -1919,55 +573,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Long bone",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/203.13",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -1983,7 +591,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -1999,71 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/765",
-      "chance": 0.00130718954248366,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Strawberry seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/800",
-      "chance": 0.00125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/800",
-      "chance": 0.00125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/406.25",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Marrentill seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/838.4",
-      "chance": 0.0011927480916030535,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -2079,7 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -2095,71 +645,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Jangerberry seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,139.1",
-      "chance": 0.0008778860503906593,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Tarromin seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,232.9",
-      "chance": 0.0008110957904128477,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Wildblood seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,262.7",
-      "chance": 0.0007919537499010057,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,422.2",
-      "chance": 0.000703135986499789,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -2175,119 +663,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
-      "item": "Watermelon seed",
+      "item": "Grimy dwarf weed",
       "dropVersion": "Warriors' Guild Rooftop",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/1,663.5",
-      "chance": 0.0006011421701232341,
+      "rarity": "1/1,422.2",
+      "chance": 0.000703135986499789,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 33,
-      "type": "combat"
-    },
-    {
-      "item": "Harralander seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,871.4",
-      "chance": 0.0005343593031954686,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Nature talisman",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,133.33",
-      "chance": 0.0004687507324230194,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,083.33",
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Snape grass seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,620",
-      "chance": 0.0003816793893129771,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 56,
-      "type": "combat"
-    },
-    {
-      "item": "Ranarr seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,687.2",
-      "chance": 0.0003721345638582912,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Whiteberry seed",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,082.4",
-      "chance": 0.00032442252790033737,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 79,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,200",
-      "chance": 0.0003125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,625",
-      "value": 120,
-      "type": "combat"
+      "value": 14,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
     },
     {
       "item": "Mushroom spore",
@@ -2303,7 +699,207 @@
       "rolls": 1,
       "altRarity": null,
       "value": 51,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Herbs"
+    },
+    {
+      "item": "Limpwurt seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/765",
+      "chance": 0.00130718954248366,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Strawberry seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/800",
+      "chance": 0.00125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Marrentill seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/838.4",
+      "chance": 0.0011927480916030535,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Jangerberry seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,139.1",
+      "chance": 0.0008778860503906593,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Tarromin seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,232.9",
+      "chance": 0.0008110957904128477,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Wildblood seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,262.7",
+      "chance": 0.0007919537499010057,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Watermelon seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,663.5",
+      "chance": 0.0006011421701232341,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Harralander seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,871.4",
+      "chance": 0.0005343593031954686,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Snape grass seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,620",
+      "chance": 0.0003816793893129771,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 56,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,687.2",
+      "chance": 0.0003721345638582912,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Whiteberry seed",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,082.4",
+      "chance": 0.00032442252790033737,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 79,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Toadflax seed",
@@ -2319,23 +915,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Curved bone",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,012.5",
-      "chance": 0.00019950124688279303,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Belladonna seed",
@@ -2351,7 +933,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 106,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Irit seed",
@@ -2367,55 +951,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,400",
-      "chance": 0.00015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/3,250",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/6,400",
-      "chance": 0.00015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/3,250",
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,400",
-      "chance": 0.00015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/3,250",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Poison ivy seed",
@@ -2431,7 +969,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 99,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Avantoe seed",
@@ -2447,7 +987,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Cactus seed",
@@ -2463,7 +1005,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 59,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Kwuarm seed",
@@ -2479,7 +1023,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Potato cactus seed",
@@ -2495,7 +1041,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 84,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Snapdragon seed",
@@ -2511,7 +1059,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Cadantine seed",
@@ -2527,7 +1077,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Lantadyme seed",
@@ -2543,7 +1095,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 5,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Dwarf weed seed",
@@ -2559,23 +1113,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Rune spear",
-      "dropVersion": "Warriors' Guild Rooftop",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/102,400",
-      "chance": 0.000009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/6,093.75",
-      "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
     },
     {
       "item": "Torstol seed",
@@ -2591,7 +1131,207 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Seeds"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        3,
+        102
+      ],
+      "noted": false,
+      "rarity": "31/100",
+      "chance": 0.31,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        5,
+        204
+      ],
+      "noted": false,
+      "rarity": "10/100",
+      "chance": 0.1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Coins"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/200",
+      "chance": 0.005,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/101.56",
+      "value": 15,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/203.13",
+      "value": 30,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/800",
+      "chance": 0.00125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/406.25",
+      "value": 60,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,133.33",
+      "chance": 0.0004687507324230194,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,083.33",
+      "value": 2,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,625",
+      "value": 120,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/6,400",
+      "chance": 0.00015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/3,250",
+      "value": 240,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,400",
+      "chance": 0.00015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/3,250",
+      "value": 60,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,400",
+      "chance": 0.00015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/3,250",
+      "value": 60,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102,400",
+      "chance": 0.000009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/6,093.75",
+      "value": 12480,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -2607,7 +1347,9 @@
       "rolls": 1,
       "altRarity": "1/12,187.5",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -2623,7 +1365,1593 @@
       "rolls": 1,
       "altRarity": "1/16,250",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": "Warriors' Guild Rooftop",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Warriors' Guild Top Floor",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "100%"
+    },
+    {
+      "item": "Dragon defender",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Adamant 2h sword",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/100",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3840,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril dart",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant dagger",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 480,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black full helm",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 633,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black mace",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 259,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril scimitar",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 624,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril kiteshield",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1326,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel platebody",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1200,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel chainbody",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "7/100",
+      "chance": 0.07,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 450,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black knife",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        22,
+        22
+      ],
+      "noted": false,
+      "rarity": "4/100",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 11,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril platelegs",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/100",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1560,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Black dagger",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/100",
+      "chance": 0.05,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune med helm",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/100",
+      "chance": 0.03,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 11520,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant sq shield",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2304,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune full helm",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21120,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/133.3",
+      "chance": 0.007501875468867216,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/177.8",
+      "chance": 0.00562429696287964,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/228.6",
+      "chance": 0.004374453193350831,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/290.9",
+      "chance": 0.003437607425232039,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/533.3",
+      "chance": 0.0018751171948246767,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/640",
+      "chance": 0.0015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy cadantine",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/800",
+      "chance": 0.00125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy lantadyme",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,066.7",
+      "chance": 0.0009374707040404987,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,066.7",
+      "chance": 0.0009374707040404987,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Mushroom spore",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,204.6",
+      "chance": 0.0008301510874979247,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 51,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Herbs"
+    },
+    {
+      "item": "Limpwurt seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/255",
+      "chance": 0.00392156862745098,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Strawberry seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/266.7",
+      "chance": 0.0037495313085864268,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Marrentill seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/279.5",
+      "chance": 0.0035778175313059034,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Jangerberry seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/379.7",
+      "chance": 0.002633658151171978,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Tarromin seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/411",
+      "chance": 0.0024330900243309003,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Wildblood seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/420.9",
+      "chance": 0.0023758612497030173,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Watermelon seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/554.5",
+      "chance": 0.0018034265103697023,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Harralander seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/623.8",
+      "chance": 0.001603077909586406,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Snape grass seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/873.3",
+      "chance": 0.0011450818733539448,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 56,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/895.7",
+      "chance": 0.0011164452383610583,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Whiteberry seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,027.5",
+      "chance": 0.0009732360097323601,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 79,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Toadflax seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,293.8",
+      "chance": 0.000772916988715412,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Belladonna seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,940.7",
+      "chance": 0.0005152779924769413,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 106,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Irit seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,940.7",
+      "chance": 0.0005152779924769413,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Poison ivy seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,687.2",
+      "chance": 0.0003721345638582912,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 99,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Avantoe seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,911.1",
+      "chance": 0.0003435127614990897,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Cactus seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,911.1",
+      "chance": 0.0003435127614990897,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 59,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Kwuarm seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,881.5",
+      "chance": 0.0002576323586242432,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Potato cactus seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,366.7",
+      "chance": 0.0002290058854512561,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 84,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Snapdragon seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,986.7",
+      "chance": 0.00014312908812457955,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Cadantine seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/8,733.3",
+      "chance": 0.00011450425383302991,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Lantadyme seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/11,644.4",
+      "chance": 0.00008587819037477243,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 5,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Dwarf weed seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/17,466.7",
+      "chance": 0.000057251799137787903,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Torstol seed",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34,933.3",
+      "chance": 0.000028625981513341138,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 42,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Seeds"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        96,
+        96
+      ],
+      "noted": false,
+      "rarity": "11/100",
+      "chance": 0.11,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        350,
+        449
+      ],
+      "noted": false,
+      "rarity": "8/100",
+      "chance": 0.08,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Coins"
+    },
+    {
+      "item": "Lobster",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "7/100",
+      "chance": 0.07,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 42,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Other"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        3000,
+        3000
+      ],
+      "noted": false,
+      "rarity": "1/304.76",
+      "chance": 0.0032812705079406745,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,280",
+      "chance": 0.00078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/650",
+      "value": 15,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/317.52",
+      "chance": 0.0031494079113126732,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/315.15",
+      "value": 60,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/317.52",
+      "chance": 0.0031494079113126732,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/315.15",
+      "value": 60,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,560",
+      "chance": 0.000390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,300",
+      "value": 30,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,120",
+      "chance": 0.0001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,600",
+      "value": 60,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Runite bar",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,280",
+      "chance": 0.00078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        67,
+        67
+      ],
+      "noted": false,
+      "rarity": "1/2,133.33",
+      "chance": 0.0004687507324230194,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune 2h sword",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,133.33",
+      "chance": 0.0004687507324230194,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 38400,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune battleaxe",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,133.33",
+      "chance": 0.0004687507324230194,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24960,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        45,
+        45
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        45,
+        45
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        150,
+        150
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        42,
+        42
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Adamant javelin",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune sq shield",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 23040,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Dragonstone",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6000,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Silver ore",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        100,
+        100
+      ],
+      "noted": true,
+      "rarity": "1/3,200",
+      "chance": 0.0003125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 45,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Chaos talisman",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/13,653.33",
+      "chance": 0.0000732422053813978,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/6,933.33",
+      "value": 2,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/20,480",
+      "chance": 0.000048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/10,400",
+      "value": 120,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune kiteshield",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,400",
+      "chance": 0.00015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 32640,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Dragon med helm",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,400",
+      "chance": 0.00015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60000,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,756.29",
+      "chance": 0.00014801022454631165,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/783.92",
+      "value": 12480,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/40,960",
+      "chance": 0.0000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/20,800",
+      "value": 240,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/13,512.58",
+      "chance": 0.00007400511227315583,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,567.84",
+      "value": 66000,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/18,016.77",
+      "chance": 0.000055503844473787475,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,090.45",
+      "value": 37440,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": "Warriors' Guild Basement",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Warriors' Guild Basement",
+      "section": "Tertiary"
     }
   ]
 }

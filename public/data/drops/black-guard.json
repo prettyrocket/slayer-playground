@@ -15,39 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 25",
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "20/128",
-      "chance": 0.15625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 25",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "15/128",
-      "chance": 0.1171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "100%"
     },
     {
       "item": "Bronze pickaxe",
@@ -63,55 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Hammer",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze bar",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze bolts",
-      "dropVersion": "Level 25",
-      "quantity": [
-        2,
-        12
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Bronze med helm",
@@ -127,103 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Level 25",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Iron ore",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Level 25",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Copper ore",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron bar",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 16,
-      "type": "combat"
-    },
-    {
-      "item": "Tin ore",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Bronze battleaxe",
@@ -239,55 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 31,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 25",
-      "quantity": [
-        30,
-        30
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/100",
-      "chance": 0.01,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Iron battleaxe",
@@ -303,7 +87,243 @@
       "rolls": 1,
       "altRarity": null,
       "value": 109,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Bronze bolts",
+      "dropVersion": "Level 25",
+      "quantity": [
+        2,
+        12
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "Level 25",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Level 25",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 25",
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "20/128",
+      "chance": 0.15625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 25",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "15/128",
+      "chance": 0.1171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 25",
+      "quantity": [
+        30,
+        30
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Coins"
+    },
+    {
+      "item": "Hammer",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
+    },
+    {
+      "item": "Bronze bar",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
+    },
+    {
+      "item": "Iron ore",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
+    },
+    {
+      "item": "Tin ore",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
+    },
+    {
+      "item": "Copper ore",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
+    },
+    {
+      "item": "Iron bar",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 16,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Other"
     },
     {
       "item": "Uncut sapphire",
@@ -319,7 +339,9 @@
       "rolls": 1,
       "altRarity": "1/260",
       "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -335,7 +357,9 @@
       "rolls": 1,
       "altRarity": "1/520",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -351,7 +375,9 @@
       "rolls": 1,
       "altRarity": "1/1,040",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -367,7 +393,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -383,7 +411,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -399,23 +429,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Level 25",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -431,7 +447,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -447,7 +483,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -463,7 +501,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -479,7 +519,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -495,7 +537,27 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Level 25",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/100",
+      "chance": 0.01,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (level 25)",
+      "section": "Tertiary"
     },
     {
       "item": "Bones",
@@ -511,103 +573,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 48",
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "45/128",
-      "chance": 0.3515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 48",
-      "quantity": [
-        22,
-        22
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron warhammer",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 103,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 48",
-      "quantity": [
-        17,
-        17
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Cake",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Keg of beer",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 150,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "100%"
     },
     {
       "item": "Bronze warhammer",
@@ -623,135 +591,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 28,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Coins",
-      "dropVersion": "Level 48",
-      "quantity": [
-        27,
-        27
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron ore",
-      "dropVersion": "Level 48",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Black warhammer",
+      "item": "Iron warhammer",
       "dropVersion": "Level 48",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
+      "rarity": "6/128",
+      "chance": 0.046875,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 588,
-      "type": "combat"
-    },
-    {
-      "item": "Copper ore",
-      "dropVersion": "Level 48",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Beer",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Bucket of water",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (medium)",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Ring mould",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
+      "value": 103,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel warhammer",
@@ -767,23 +627,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 384,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Tin ore",
+      "item": "Black warhammer",
       "dropVersion": "Level 48",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "value": 588,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Grimy guam leaf",
@@ -799,7 +663,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy marrentill",
@@ -815,7 +681,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 8,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy tarromin",
@@ -831,23 +699,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/260",
-      "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy harralander",
@@ -863,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy ranarr weed",
@@ -879,7 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -895,23 +753,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,024",
-      "chance": 0.0009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/520",
-      "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -927,7 +771,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -943,7 +789,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -959,39 +807,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,048",
-      "chance": 0.00048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,040",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,730.7",
-      "chance": 0.0003662064672062109,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -1007,7 +825,297 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,730.7",
+      "chance": 0.0003662064672062109,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Copper ore",
+      "dropVersion": "Level 48",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Materials"
+    },
+    {
+      "item": "Tin ore",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Materials"
+    },
+    {
+      "item": "Iron ore",
+      "dropVersion": "Level 48",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Materials"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 48",
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "45/128",
+      "chance": 0.3515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 48",
+      "quantity": [
+        17,
+        17
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 48",
+      "quantity": [
+        22,
+        22
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 48",
+      "quantity": [
+        27,
+        27
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Coins"
+    },
+    {
+      "item": "Beer",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Other"
+    },
+    {
+      "item": "Keg of beer",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 150,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Other"
+    },
+    {
+      "item": "Cake",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Other"
+    },
+    {
+      "item": "Bucket of water",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Other"
+    },
+    {
+      "item": "Ring mould",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/260",
+      "value": 15,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,024",
+      "chance": 0.0009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/520",
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,040",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Chaos talisman",
@@ -1023,7 +1131,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -1039,7 +1149,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -1055,23 +1167,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Level 48",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -1087,7 +1185,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -1103,7 +1221,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -1119,7 +1239,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -1135,7 +1257,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -1151,7 +1275,27 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": "Level 48",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (level 48)",
+      "section": "Tertiary"
     }
   ]
 }

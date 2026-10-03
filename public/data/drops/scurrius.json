@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "100%"
     },
     {
       "item": "Raw rat meat",
@@ -31,23 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant arrow",
-      "dropVersion": "MVP",
-      "quantity": [
-        20,
-        50
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 48,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "100%"
     },
     {
       "item": "Adamant platebody",
@@ -63,135 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9984,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "MVP",
-      "quantity": [
-        70,
-        125
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "MVP",
-      "quantity": [
-        1000,
-        9000
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Lobster",
-      "dropVersion": "MVP",
-      "quantity": [
-        1,
-        3
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 42,
-      "type": "combat"
-    },
-    {
-      "item": "Prayer potion(4)",
-      "dropVersion": "MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 114,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": "MVP",
-      "quantity": [
-        20,
-        50
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Rune battleaxe",
-      "dropVersion": "MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24960,
-      "type": "combat"
-    },
-    {
-      "item": "Rune chainbody",
-      "dropVersion": "MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30000,
-      "type": "combat"
-    },
-    {
-      "item": "Rune full helm",
-      "dropVersion": "MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/100",
-      "chance": 0.06,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 21120,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Rune med helm",
@@ -207,7 +69,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 11520,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune full helm",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 21120,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Rune sq shield",
@@ -223,14 +105,16 @@
       "rolls": 1,
       "altRarity": null,
       "value": 23040,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Trout",
+      "item": "Rune chainbody",
       "dropVersion": "MVP",
       "quantity": [
         1,
-        3
+        1
       ],
       "noted": false,
       "rarity": "6/100",
@@ -238,15 +122,17 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 6,
-      "type": "combat"
+      "value": 30000,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Tuna",
+      "item": "Rune battleaxe",
       "dropVersion": "MVP",
       "quantity": [
         1,
-        3
+        1
       ],
       "noted": false,
       "rarity": "6/100",
@@ -254,40 +140,64 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 24,
-      "type": "combat"
+      "value": 24960,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Clue scroll (medium)",
+      "item": "Adamant arrow",
       "dropVersion": "MVP",
       "quantity": [
-        1,
-        1
+        20,
+        50
       ],
       "noted": false,
-      "rarity": "1/25",
-      "chance": 0.04,
+      "rarity": "6/100",
+      "chance": 0.06,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "value": 48,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Scurrius' spine",
+      "item": "Rune arrow",
       "dropVersion": "MVP",
       "quantity": [
-        1,
-        1
+        20,
+        50
       ],
       "noted": false,
-      "rarity": "1/33",
-      "chance": 0.030303030303030304,
+      "rarity": "6/100",
+      "chance": 0.06,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "MVP",
+      "quantity": [
+        70,
+        125
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Death rune",
@@ -303,7 +213,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Law rune",
@@ -319,23 +231,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 144,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Ranging potion(1)",
+      "item": "Trout",
       "dropVersion": "MVP",
       "quantity": [
         1,
-        1
+        3
       ],
       "noted": false,
-      "rarity": "3/100",
-      "chance": 0.03,
+      "rarity": "6/100",
+      "chance": 0.06,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 86,
-      "type": "combat"
+      "value": 6,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Tuna",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
     },
     {
       "item": "Shark",
@@ -351,7 +285,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 102,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Lobster",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        3
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 42,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Ranging potion(1)",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/100",
+      "chance": 0.03,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 86,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
     },
     {
       "item": "Super strength(1)",
@@ -367,7 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 66,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
     },
     {
       "item": "Cheese",
@@ -383,7 +357,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Prayer potion(4)",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 114,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "MVP",
+      "quantity": [
+        1000,
+        9000
+      ],
+      "noted": false,
+      "rarity": "6/100",
+      "chance": 0.06,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Other"
+    },
+    {
+      "item": "Clue scroll (medium)",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Scurrius' spine",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/33",
+      "chance": 0.030303030303030304,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Tertiary"
     },
     {
       "item": "Long bone",
@@ -399,23 +447,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Scurry",
-      "dropVersion": "MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,000",
-      "chance": 0.0003333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Tertiary"
     },
     {
       "item": "Curved bone",
@@ -431,7 +465,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Scurry",
+      "dropVersion": "MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,000",
+      "chance": 0.0003333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (MVP/Solo)",
+      "section": "Tertiary"
     },
     {
       "item": "Big bones",
@@ -447,7 +501,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "100%"
     },
     {
       "item": "Adamant arrow",
@@ -463,87 +519,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 48,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "non-MVP",
-      "quantity": [
-        40,
-        70
-      ],
-      "noted": false,
-      "rarity": "3/33",
-      "chance": 0.09090909090909091,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": "non-MVP",
-      "quantity": [
-        30,
-        50
-      ],
-      "noted": false,
-      "rarity": "3/33",
-      "chance": 0.09090909090909091,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "non-MVP",
-      "quantity": [
-        5,
-        15
-      ],
-      "noted": false,
-      "rarity": "3/33",
-      "chance": 0.09090909090909091,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Lobster",
-      "dropVersion": "non-MVP",
-      "quantity": [
-        1,
-        3
-      ],
-      "noted": false,
-      "rarity": "3/33",
-      "chance": 0.09090909090909091,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 42,
-      "type": "combat"
-    },
-    {
-      "item": "Ranging potion(1)",
-      "dropVersion": "non-MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/33",
-      "chance": 0.09090909090909091,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 86,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Rune arrow",
@@ -559,14 +537,16 @@
       "rolls": 1,
       "altRarity": null,
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Super strength(1)",
+      "item": "Chaos rune",
       "dropVersion": "non-MVP",
       "quantity": [
-        1,
-        1
+        40,
+        70
       ],
       "noted": false,
       "rarity": "3/33",
@@ -574,8 +554,46 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 66,
-      "type": "combat"
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": "non-MVP",
+      "quantity": [
+        30,
+        50
+      ],
+      "noted": false,
+      "rarity": "3/33",
+      "chance": 0.09090909090909091,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "non-MVP",
+      "quantity": [
+        5,
+        15
+      ],
+      "noted": false,
+      "rarity": "3/33",
+      "chance": 0.09090909090909091,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Runes and ammunition"
     },
     {
       "item": "Trout",
@@ -591,7 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
     },
     {
       "item": "Tuna",
@@ -607,39 +627,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
     },
     {
-      "item": "Cheese",
+      "item": "Lobster",
       "dropVersion": "non-MVP",
       "quantity": [
         1,
-        1
+        3
       ],
       "noted": false,
-      "rarity": "1/33",
-      "chance": 0.030303030303030304,
+      "rarity": "3/33",
+      "chance": 0.09090909090909091,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Scurrius' spine",
-      "dropVersion": "non-MVP",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/33",
-      "chance": 0.030303030303030304,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "value": 42,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
     },
     {
       "item": "Shark",
@@ -655,7 +663,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 102,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Ranging potion(1)",
+      "dropVersion": "non-MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/33",
+      "chance": 0.09090909090909091,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 86,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Super strength(1)",
+      "dropVersion": "non-MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/33",
+      "chance": 0.09090909090909091,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 66,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Cheese",
+      "dropVersion": "non-MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/33",
+      "chance": 0.030303030303030304,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Consumables"
+    },
+    {
+      "item": "Scurrius' spine",
+      "dropVersion": "non-MVP",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/33",
+      "chance": 0.030303030303030304,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (non-MVP)",
+      "section": "Tertiary"
     }
   ]
 }

@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Steel cannonball",
@@ -31,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
     },
     {
       "item": "Air rune",
@@ -47,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
     },
     {
       "item": "Fire rune",
@@ -63,39 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": null,
-      "quantity": [
-        800,
-        1050
-      ],
-      "noted": false,
-      "rarity": "10/107",
-      "chance": 0.09345794392523364,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Pure essence",
-      "dropVersion": null,
-      "quantity": [
-        20,
-        20
-      ],
-      "noted": true,
-      "rarity": "10/107",
-      "chance": 0.09345794392523364,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
     },
     {
       "item": "Rune arrow",
@@ -111,39 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Monkfish",
-      "dropVersion": null,
-      "quantity": [
-        2,
-        3
-      ],
-      "noted": false,
-      "rarity": "8/107",
-      "chance": 0.07476635514018691,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 138,
-      "type": "combat"
-    },
-    {
-      "item": "Broken antler",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "7/107",
-      "chance": 0.06542056074766354,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 31,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
     },
     {
       "item": "Death rune",
@@ -159,7 +105,63 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Pure essence",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": true,
+      "rarity": "10/107",
+      "chance": 0.09345794392523364,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Monkfish",
+      "dropVersion": null,
+      "quantity": [
+        2,
+        3
+      ],
+      "noted": false,
+      "rarity": "8/107",
+      "chance": 0.07476635514018691,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 138,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
+    },
+    {
+      "item": "Broken antler",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "7/107",
+      "chance": 0.06542056074766354,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 31,
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
     },
     {
       "item": "Mithril bar",
@@ -175,7 +177,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 180,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
     },
     {
       "item": "Raw beef",
@@ -191,23 +195,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/69.52",
-      "chance": 0.014384349827387804,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/35.3",
-      "value": 15,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
     },
     {
       "item": "Huasca seed",
@@ -223,87 +213,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Resources"
     },
     {
-      "item": "Uncut emerald",
+      "item": "Coins",
       "dropVersion": null,
       "quantity": [
-        1,
-        1
+        800,
+        1050
       ],
       "noted": false,
-      "rarity": "1/139.05",
-      "chance": 0.007191657677094569,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/70.61",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/278.09",
-      "chance": 0.0035959581430472154,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/141.22",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Long bone",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
+      "rarity": "10/107",
+      "chance": 0.09345794392523364,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/523.62",
-      "chance": 0.001909781902906688,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/426.36",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/523.62",
-      "chance": 0.001909781902906688,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/426.36",
-      "value": 60,
-      "type": "combat"
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Coins"
     },
     {
       "item": "Coins",
@@ -319,71 +249,99 @@
       "rolls": 1,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
-      "item": "Nature talisman",
+      "item": "Uncut sapphire",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/741.58",
-      "chance": 0.0013484721810189055,
+      "rarity": "1/69.52",
+      "chance": 0.014384349827387804,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/376.58",
-      "value": 2,
-      "type": "combat"
+      "altRarity": "1/35.3",
+      "value": 15,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
-      "item": "Antler guard",
+      "item": "Loop half of key",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/800",
-      "chance": 0.00125,
+      "rarity": "1/523.62",
+      "chance": 0.001909781902906688,
       "approx": false,
       "rolls": 1,
-      "altRarity": null,
-      "value": 60000,
-      "type": "combat"
+      "altRarity": "1/426.36",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
-      "item": "Uncut diamond",
+      "item": "Tooth half of key",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/1,112.37",
-      "chance": 0.0008989814540126039,
+      "rarity": "1/523.62",
+      "chance": 0.001909781902906688,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/564.87",
-      "value": 120,
-      "type": "combat"
+      "altRarity": "1/426.36",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
-      "item": "Rune javelin",
+      "item": "Uncut emerald",
       "dropVersion": null,
       "quantity": [
-        5,
-        5
+        1,
+        1
       ],
       "noted": false,
-      "rarity": "1/2,224.73",
-      "chance": 0.00044949274743452016,
+      "rarity": "1/139.05",
+      "chance": 0.007191657677094569,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/1,129.75",
-      "value": 240,
-      "type": "combat"
+      "altRarity": "1/70.61",
+      "value": 30,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/278.09",
+      "chance": 0.0035959581430472154,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/141.22",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Runite bar",
@@ -399,7 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Nature rune",
@@ -415,7 +375,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Rune 2h sword",
@@ -431,7 +393,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 38400,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Rune battleaxe",
@@ -447,71 +411,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24960,
-      "type": "combat"
-    },
-    {
-      "item": "Curved bone",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,012.5",
-      "chance": 0.00019950124688279303,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant javelin",
-      "dropVersion": null,
-      "quantity": [
-        20,
-        20
-      ],
-      "noted": false,
-      "rarity": "1/6,848",
-      "chance": 0.00014602803738317756,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 96,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": null,
-      "quantity": [
-        45,
-        45
-      ],
-      "noted": false,
-      "rarity": "1/6,848",
-      "chance": 0.00014602803738317756,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Dragonstone",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,848",
-      "chance": 0.00014602803738317756,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Law rune",
@@ -527,14 +429,16 @@
       "rolls": 1,
       "altRarity": null,
       "value": 144,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
-      "item": "Rune arrow",
+      "item": "Death rune",
       "dropVersion": null,
       "quantity": [
-        42,
-        42
+        45,
+        45
       ],
       "noted": false,
       "rarity": "1/6,848",
@@ -542,40 +446,10 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Rune sq shield",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/6,848",
-      "chance": 0.00014602803738317756,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 23040,
-      "type": "combat"
-    },
-    {
-      "item": "Silver ore",
-      "dropVersion": null,
-      "quantity": [
-        100,
-        100
-      ],
-      "noted": true,
-      "rarity": "1/6,848",
-      "chance": 0.00014602803738317756,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 45,
-      "type": "combat"
+      "value": 108,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Steel arrow",
@@ -591,39 +465,135 @@
       "rolls": 1,
       "altRarity": null,
       "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
-      "item": "Rune spear",
+      "item": "Rune arrow",
       "dropVersion": null,
       "quantity": [
-        1,
-        1
+        42,
+        42
       ],
       "noted": false,
-      "rarity": "1/10,357.98",
-      "chance": 0.00009654392072585581,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/946.8",
-      "value": 12480,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon med helm",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/13,696",
-      "chance": 0.00007301401869158878,
+      "rarity": "1/6,848",
+      "chance": 0.00014602803738317756,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 60000,
-      "type": "combat"
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Adamant javelin",
+      "dropVersion": null,
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": false,
+      "rarity": "1/6,848",
+      "chance": 0.00014602803738317756,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 96,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune sq shield",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,848",
+      "chance": 0.00014602803738317756,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 23040,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Dragonstone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/6,848",
+      "chance": 0.00014602803738317756,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6000,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Silver ore",
+      "dropVersion": null,
+      "quantity": [
+        100,
+        100
+      ],
+      "noted": true,
+      "rarity": "1/6,848",
+      "chance": 0.00014602803738317756,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 45,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/741.58",
+      "chance": 0.0013484721810189055,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/376.58",
+      "value": 2,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,112.37",
+      "chance": 0.0008989814540126039,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/564.87",
+      "value": 120,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Rune kiteshield",
@@ -639,7 +609,63 @@
       "rolls": 1,
       "altRarity": null,
       "value": 32640,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Dragon med helm",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/13,696",
+      "chance": 0.00007301401869158878,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60000,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/10,357.98",
+      "chance": 0.00009654392072585581,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/946.8",
+      "value": 12480,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/2,224.73",
+      "chance": 0.00044949274743452016,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,129.75",
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Shield left half",
@@ -655,7 +681,9 @@
       "rolls": 1,
       "altRarity": "1/1,893.59",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
     },
     {
       "item": "Dragon spear",
@@ -671,7 +699,63 @@
       "rolls": 1,
       "altRarity": "1/2,524.79",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Rare drop table"
+    },
+    {
+      "item": "Antler guard",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/800",
+      "chance": 0.00125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60000,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     }
   ]
 }

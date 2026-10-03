@@ -390,6 +390,8 @@ export function normalizeDrop(raw: RawDrop): Drop | null {
     altRarity: str(json['Alt Rarity']),
     value: num(json['Drop Value']),
     type: str(json['Drop type'])?.toLowerCase() ?? 'combat',
+    group: null,
+    section: null,
   };
 }
 
@@ -404,8 +406,8 @@ export const DROPS_PAGE: Record<string, string> = {
 
 /**
  * Normalize drops for the given monster pages, keyed by monster page. Exact
- * duplicate rows (the wiki has a few dozen) are dropped. Order: drop version,
- * then most common first, then item.
+ * duplicate rows (the wiki has a few dozen) are dropped. Rows stay in
+ * Bucket's order, which is the page's, for addDropSections.
  */
 export function buildDrops(rows: RawDrop[], pages: Set<string>): Map<string, Drop[]> {
   const monstersOf = new Map<string, string[]>();
@@ -428,17 +430,6 @@ export function buildDrops(rows: RawDrop[], pages: Set<string>): Map<string, Dro
   }
 
   const out = new Map<string, Drop[]>();
-  for (const [page, drops] of byPage) {
-    out.set(
-      page,
-      [...drops.values()].sort(
-        (a, b) =>
-          (a.dropVersion ?? '').localeCompare(b.dropVersion ?? '') ||
-          (b.chance ?? -1) - (a.chance ?? -1) ||
-          a.item.localeCompare(b.item) ||
-          (a.quantity?.[0] ?? -1) - (b.quantity?.[0] ?? -1),
-      ),
-    );
-  }
+  for (const [page, drops] of byPage) out.set(page, [...drops.values()]);
   return out;
 }

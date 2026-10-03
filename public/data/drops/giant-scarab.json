@@ -15,7 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     }
   ]
 }

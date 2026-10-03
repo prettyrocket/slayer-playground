@@ -15,39 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Brimstone key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Venator heart",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "100%"
     },
     {
       "item": "Blood shard",
@@ -63,7 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 120000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Pre-roll"
     },
     {
       "item": "Coins",
@@ -79,7 +51,9 @@
       "rolls": 3,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
       "item": "Adamantite ore",
@@ -95,119 +69,9 @@
       "rolls": 3,
       "altRarity": null,
       "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril ore",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        7
-      ],
-      "noted": true,
-      "rarity": "12/131",
-      "chance": 0.0916030534351145,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 97,
-      "type": "combat"
-    },
-    {
-      "item": "Stymphike feather",
-      "dropVersion": null,
-      "quantity": [
-        15,
-        22
-      ],
-      "noted": false,
-      "rarity": "12/131",
-      "chance": 0.0916030534351145,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Mort myre fungus",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": true,
-      "rarity": "10/131",
-      "chance": 0.07633587786259542,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Venator fang",
-      "dropVersion": null,
-      "quantity": [
-        10,
-        20
-      ],
-      "noted": false,
-      "rarity": "7/131",
-      "chance": 0.05343511450381679,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 300,
-      "type": "combat"
-    },
-    {
-      "item": "Venator tooth",
-      "dropVersion": null,
-      "quantity": [
-        15,
-        30
-      ],
-      "noted": false,
-      "rarity": "7/131",
-      "chance": 0.05343511450381679,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 150,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "690/14,803",
-      "chance": 0.04661217320813349,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 12000,
-      "type": "combat"
-    },
-    {
-      "item": "Hard leather",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/131",
-      "chance": 0.04580152671755725,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
       "item": "Fish offcuts",
@@ -223,55 +87,63 @@
       "rolls": 3,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
-      "item": "Grapevine (item)",
+      "item": "Stymphike feather",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        22
+      ],
+      "noted": false,
+      "rarity": "12/131",
+      "chance": 0.0916030534351145,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Mithril ore",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        7
+      ],
+      "noted": true,
+      "rarity": "12/131",
+      "chance": 0.0916030534351145,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 97,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Hard leather",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "5/131",
-      "chance": 0.03816793893129771,
+      "rarity": "6/131",
+      "chance": 0.04580152671755725,
       "approx": true,
       "rolls": 3,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished ring",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "506/14,803",
-      "chance": 0.03418226035263122,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 1800,
-      "type": "combat"
-    },
-    {
-      "item": "Blood sac",
-      "dropVersion": null,
-      "quantity": [
-        6,
-        8
-      ],
-      "noted": false,
-      "rarity": "3/131",
-      "chance": 0.022900763358778626,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
       "item": "Fine fish offcuts",
@@ -287,135 +159,27 @@
       "rolls": 3,
       "altRarity": null,
       "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
-      "item": "Tarnished amulet",
+      "item": "Mort myre fungus",
       "dropVersion": null,
       "quantity": [
-        1,
-        1
+        5,
+        5
       ],
-      "noted": false,
-      "rarity": "253/14,803",
-      "chance": 0.01709113017631561,
+      "noted": true,
+      "rarity": "10/131",
+      "chance": 0.07633587786259542,
       "approx": true,
       "rolls": 3,
       "altRarity": null,
-      "value": 1800,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished bracelet",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "253/14,803",
-      "chance": 0.01709113017631561,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 2100,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished necklace",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "253/14,803",
-      "chance": 0.01709113017631561,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 2100,
-      "type": "combat"
-    },
-    {
-      "item": "Letvek",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/131",
-      "chance": 0.015267175572519083,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished 2h sword",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "115/14,803",
-      "chance": 0.007768695534688915,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished battleaxe",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "115/14,803",
-      "chance": 0.007768695534688915,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 24000,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished halberd",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "115/14,803",
-      "chance": 0.007768695534688915,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
-      "item": "Tarnished longsword",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "115/14,803",
-      "chance": 0.007768695534688915,
-      "approx": true,
-      "rolls": 3,
-      "altRarity": null,
-      "value": 18000,
-      "type": "combat"
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
       "item": "Jug of wine",
@@ -431,7 +195,99 @@
       "rolls": 3,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Grapevine (item)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/131",
+      "chance": 0.03816793893129771,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Blood sac",
+      "dropVersion": null,
+      "quantity": [
+        6,
+        8
+      ],
+      "noted": false,
+      "rarity": "3/131",
+      "chance": 0.022900763358778626,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Venator fang",
+      "dropVersion": null,
+      "quantity": [
+        10,
+        20
+      ],
+      "noted": false,
+      "rarity": "7/131",
+      "chance": 0.05343511450381679,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 300,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Venator tooth",
+      "dropVersion": null,
+      "quantity": [
+        15,
+        30
+      ],
+      "noted": false,
+      "rarity": "7/131",
+      "chance": 0.05343511450381679,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 150,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
+    },
+    {
+      "item": "Letvek",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/131",
+      "chance": 0.015267175572519083,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
       "item": "Orikalkum gravel",
@@ -447,7 +303,9 @@
       "rolls": 3,
       "altRarity": null,
       "value": 102000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
       "item": "Runite ore",
@@ -463,39 +321,171 @@
       "rolls": 3,
       "altRarity": null,
       "value": 1920,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Main drops"
     },
     {
-      "item": "Dust battlestaff",
+      "item": "Tarnished spear",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/153",
-      "chance": 0.006535947712418301,
-      "approx": false,
-      "rolls": 1,
+      "rarity": "690/14,803",
+      "chance": 0.04661217320813349,
+      "approx": true,
+      "rolls": 3,
       "altRarity": null,
-      "value": 9300,
-      "type": "combat"
+      "value": 12000,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
     },
     {
-      "item": "Mist battlestaff",
+      "item": "Tarnished ring",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/153",
-      "chance": 0.006535947712418301,
-      "approx": false,
-      "rolls": 1,
+      "rarity": "506/14,803",
+      "chance": 0.03418226035263122,
+      "approx": true,
+      "rolls": 3,
       "altRarity": null,
-      "value": 9300,
-      "type": "combat"
+      "value": 1800,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished amulet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "253/14,803",
+      "chance": 0.01709113017631561,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 1800,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished bracelet",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "253/14,803",
+      "chance": 0.01709113017631561,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 2100,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished necklace",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "253/14,803",
+      "chance": 0.01709113017631561,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 2100,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished 2h sword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "115/14,803",
+      "chance": 0.007768695534688915,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished battleaxe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "115/14,803",
+      "chance": 0.007768695534688915,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 24000,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished halberd",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "115/14,803",
+      "chance": 0.007768695534688915,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
+    },
+    {
+      "item": "Tarnished longsword",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "115/14,803",
+      "chance": 0.007768695534688915,
+      "approx": true,
+      "rolls": 3,
+      "altRarity": null,
+      "value": 18000,
+      "type": "combat",
+      "group": null,
+      "section": "Tarnished items"
     },
     {
       "item": "Uncut sapphire",
@@ -511,39 +501,9 @@
       "rolls": 3,
       "altRarity": "1/266.09",
       "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Eternal gem",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/536",
-      "chance": 0.0018656716417910447,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 5700,
-      "type": "combat"
-    },
-    {
-      "item": "Imbued heart",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/536",
-      "chance": 0.0018656716417910447,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 300000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -559,7 +519,9 @@
       "rolls": 3,
       "altRarity": "1/532.19",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -575,7 +537,9 @@
       "rolls": 3,
       "altRarity": "1/1,064.38",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -591,7 +555,9 @@
       "rolls": 3,
       "altRarity": "1/2,838.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -607,23 +573,9 @@
       "rolls": 3,
       "altRarity": "1/4,257.5",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,768",
-      "chance": 0.00005963740458015267,
-      "approx": false,
-      "rolls": 3,
-      "altRarity": "1/8,515",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -639,7 +591,27 @@
       "rolls": 3,
       "altRarity": "1/8,515",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,768",
+      "chance": 0.00005963740458015267,
+      "approx": false,
+      "rolls": 3,
+      "altRarity": "1/8,515",
+      "value": 60,
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -655,7 +627,9 @@
       "rolls": 3,
       "altRarity": "1/8,515",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -671,7 +645,9 @@
       "rolls": 3,
       "altRarity": "1/15,965.63",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -687,7 +663,9 @@
       "rolls": 3,
       "altRarity": "1/31,931.25",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -703,7 +681,45 @@
       "rolls": 3,
       "altRarity": "1/42,575",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Venator heart",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Brimstone key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
     },
     {
       "item": "Clue scroll (elite)",
@@ -719,7 +735,81 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Mist battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/153",
+      "chance": 0.006535947712418301,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Dust battlestaff",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/153",
+      "chance": 0.006535947712418301,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9300,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Eternal gem",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/536",
+      "chance": 0.0018656716417910447,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 5700,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
+    },
+    {
+      "item": "Imbued heart",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/536",
+      "chance": 0.0018656716417910447,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 300000,
+      "type": "combat",
+      "group": null,
+      "section": "Superior Slayer tertiary"
     }
   ]
 }

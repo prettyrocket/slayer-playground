@@ -61731,7 +61731,7 @@
           "immunities": {
             "poison": "0",
             "venom": "0",
-            "cannon": null,
+            "cannon": true,
             "thrall": null,
             "burn": null,
             "freeze": null
@@ -61788,7 +61788,7 @@
           "immunities": {
             "poison": "0",
             "venom": "0",
-            "cannon": null,
+            "cannon": true,
             "thrall": null,
             "burn": null,
             "freeze": null
@@ -61845,7 +61845,7 @@
           "immunities": {
             "poison": "0",
             "venom": "0",
-            "cannon": null,
+            "cannon": true,
             "thrall": null,
             "burn": null,
             "freeze": null
@@ -61902,7 +61902,7 @@
           "immunities": {
             "poison": "0",
             "venom": "0",
-            "cannon": null,
+            "cannon": true,
             "thrall": null,
             "burn": null,
             "freeze": null
@@ -61959,7 +61959,7 @@
           "immunities": {
             "poison": "0",
             "venom": "0",
-            "cannon": null,
+            "cannon": true,
             "thrall": null,
             "burn": null,
             "freeze": null

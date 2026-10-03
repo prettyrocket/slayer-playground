@@ -2,22 +2,6 @@
   "page": "Shade",
   "drops": [
     {
-      "item": "Shade robe",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "32/128",
-      "chance": 0.25,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
       "item": "Shade robe top",
       "dropVersion": null,
       "quantity": [
@@ -31,7 +15,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 24,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Shade robes"
+    },
+    {
+      "item": "Shade robe",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "32/128",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": null,
+      "section": "Shade robes"
     },
     {
       "item": "Ancient shard",
@@ -47,7 +51,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 122,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Catacombs tertiary"
     },
     {
       "item": "Dark totem base",
@@ -63,7 +69,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 123,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Catacombs tertiary"
     },
     {
       "item": "Dark totem middle",
@@ -79,7 +87,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 123,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Catacombs tertiary"
     },
     {
       "item": "Dark totem top",
@@ -95,7 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 123,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Catacombs tertiary"
     }
   ]
 }

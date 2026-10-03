@@ -10,6 +10,7 @@ import type {
   MonsterVersion,
   MonstersFile,
   SlayerCategory,
+  UnlocksFile,
 } from '@/data/types';
 
 /** A version with a combat level; every other stat empty. */
@@ -115,6 +116,7 @@ export const monstersFixture: MonstersFile = {
         version(124, {
           version: 'Standard',
           isDefault: true,
+          examine: 'A denizen of the Abyss!',
           hitpoints: 150,
           maxHit: ['8'],
           attackStyles: ['Stab'],
@@ -202,14 +204,15 @@ export const categoriesFixture: CategoriesFile = {
     category(
       'abyssal demons',
       ['abyssal-demon', 'abyssal-sire', 'greater-abyssal-demon'],
-      ['vannaka', 'duradel'],
+      ['vannaka', 'konar', 'duradel'],
       {
         slayerLevel: 85,
         icon: 'icons/abyssal-demons.png',
         page: 'Slayer task/Abyssal demons',
+        extend: 'Augment my Abbies',
       },
     ),
-    category('bosses', ['abyssal-sire'], ['duradel']),
+    category('bosses', ['abyssal-sire'], ['duradel'], { unlocks: ['Like a Boss'] }),
     category('cows', ['cow'], ['turael']),
     category('dust devils', ['dust-devil'], ['duradel'], {
       aliases: ['dusties'],
@@ -261,7 +264,7 @@ export const mastersFixture: MastersFile = {
       totalWeight: 30,
       assignments: [
         assignment('abyssal demons', 12, { amount: [130, 200], extended: [200, 250] }),
-        assignment('bosses', 12, { amount: [3, 35] }),
+        assignment('bosses', 12, { amount: [3, 35], unlocks: ['Like a Boss'] }),
         assignment('dust devils', 6, { amount: [50, 50] }),
       ],
     },
@@ -308,17 +311,80 @@ const drop = (item: string, dropVersion: string, more: Partial<Drop> = {}): Drop
   altRarity: null,
   value: null,
   type: 'combat',
+  group: null,
+  section: null,
   ...more,
 });
 
 /** Served for data/drops/abyssal-demon.json: a table per version. */
+// Two groups, as on the wiki: Standard and Catacombs share one, the Wilderness has its own.
+const MAIN = { group: 'Standard and Catacombs of Kourend' };
+const WILD = { group: 'Wilderness Slayer Cave' };
+
+/** Served for data/drops/abyssal-demon.json: the wiki's tables, in its order. */
 export const abyssalDemonDrops: DropsFile = {
   page: 'Abyssal demon',
   drops: [
-    drop('Ancient shard', 'Catacombs of Kourend', { rarity: '1/233' }),
-    drop('Pure essence', 'Standard', { quantity: [120, 180], noted: true, rarity: '1/10' }),
-    drop('Coins', 'Standard', { quantity: null, rarity: 'Always' }),
-    drop('Abyssal whip', 'Standard', { rarity: '1/512' }),
+    drop('Abyssal ashes', 'Standard', { ...MAIN, section: '100%', rarity: 'Always', chance: 1 }),
+    drop('Abyssal whip', 'Standard', {
+      ...MAIN,
+      section: 'Weapons and armour',
+      rarity: '1/512',
+      chance: 1 / 512,
+    }),
+    drop('Abyssal dagger', 'Standard', {
+      ...MAIN,
+      section: 'Weapons and armour',
+      rarity: '1/32,000',
+      chance: 1 / 32000,
+    }),
+    drop('Pure essence', 'Standard', {
+      ...MAIN,
+      section: 'Materials',
+      quantity: [120, 180],
+      noted: true,
+      rarity: '5/128',
+      chance: 5 / 128,
+    }),
+    drop('Coins', 'Standard', { ...MAIN, section: 'Coins', quantity: null, rarity: '35/128' }),
+    drop('Ancient shard', 'Catacombs of Kourend', {
+      ...MAIN,
+      section: 'Catacombs tertiary',
+      rarity: '1/233',
+      chance: 1 / 233,
+    }),
+    drop('Abyssal ashes', 'Wilderness Slayer Cave', {
+      ...WILD,
+      section: '100%',
+      rarity: 'Always',
+      chance: 1,
+    }),
+    drop('Looting bag', 'Wilderness Slayer Cave', {
+      ...WILD,
+      section: 'Tertiary',
+      rarity: '1/3',
+      chance: 1 / 3,
+    }),
+  ],
+};
+
+/** Served for data/unlocks.json in tests. */
+export const unlocksFixture: UnlocksFile = {
+  unlocks: [
+    {
+      name: 'Augment my Abbies',
+      cost: 100,
+      kind: 'extend',
+      notes: 'Number of abyssal demons assigned is increased to 200-250.',
+      icon: 'icons/unlocks/augment-my-abbies.png',
+    },
+    {
+      name: 'Like a Boss',
+      cost: 200,
+      kind: 'unlock',
+      notes: 'Konar, Duradel, Nieve and Krystilia can assign boss monster tasks.',
+      icon: null,
+    },
   ],
 };
 

@@ -2,52 +2,202 @@
   "page": "Iorwerth Warrior",
   "drops": [
     {
-      "item": "Uncut sapphire",
-      "dropVersion": null,
+      "item": "Bones",
+      "dropVersion": "Iorwerth Camp",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
+      "rarity": "Always",
+      "chance": 1,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/52",
-      "value": 15,
-      "type": "combat"
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "100%"
     },
     {
-      "item": "Uncut emerald",
-      "dropVersion": null,
+      "item": "Green d'hide chaps",
+      "dropVersion": "Iorwerth Camp",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/204.8",
-      "chance": 0.0048828125,
+      "rarity": "3/128",
+      "chance": 0.0234375,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/104",
-      "value": 30,
-      "type": "combat"
+      "altRarity": null,
+      "value": 2340,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Uncut ruby",
-      "dropVersion": null,
+      "item": "Green d'hide body",
+      "dropVersion": "Iorwerth Camp",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/409.6",
-      "chance": 0.00244140625,
+      "rarity": "4/128",
+      "chance": 0.03125,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/208",
-      "value": 60,
-      "type": "combat"
+      "altRarity": null,
+      "value": 4680,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril spear",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 507,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril kiteshield",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1326,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant full helm",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2112,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune dagger",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4800,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        70,
+        70
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Runes"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Runes"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Runes"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        37,
+        37
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Runes"
     },
     {
       "item": "Nature talisman",
@@ -63,39 +213,9 @@
       "rolls": 1,
       "altRarity": "1/554.67",
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,638.4",
-      "chance": 0.0006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/832",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
     },
     {
       "item": "Rune javelin",
@@ -111,23 +231,9 @@
       "rolls": 1,
       "altRarity": "1/1,664",
       "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
     },
     {
       "item": "Rune spear",
@@ -143,7 +249,315 @@
       "rolls": 1,
       "altRarity": "1/3,120",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34.1",
+      "chance": 0.029325513196480937,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45.5",
+      "chance": 0.02197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60.7",
+      "chance": 0.016474464579901153,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/78",
+      "chance": 0.01282051282051282,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/99.3",
+      "chance": 0.010070493454179255,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/136.5",
+      "chance": 0.007326007326007326,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/182",
+      "chance": 0.005494505494505495,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/218.5",
+      "chance": 0.004576659038901602,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy cadantine",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/273.1",
+      "chance": 0.0036616623947272058,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy lantadyme",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/364.1",
+      "chance": 0.0027464982147761604,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/364.1",
+      "chance": 0.0027464982147761604,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/52",
+      "value": 15,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/204.8",
+      "chance": 0.0048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/104",
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/409.6",
+      "chance": 0.00244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/208",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,638.4",
+      "chance": 0.0006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/832",
+      "value": 120,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Shield left half",
@@ -159,7 +573,9 @@
       "rolls": 1,
       "altRarity": "1/6,240",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Dragon spear",
@@ -175,151 +591,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 37440,
-      "type": "combat"
-    },
-    {
-      "item": "Bones",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        44,
-        44
-      ],
-      "noted": false,
-      "rarity": "29/128",
-      "chance": 0.2265625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        180,
-        180
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        132,
-        132
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        70,
-        70
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        20,
-        20
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Green d'hide body",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4680,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/34.1",
-      "chance": 0.029325513196480937,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Toadflax seed",
@@ -335,119 +609,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled elf head",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/40",
-      "chance": 0.025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 214,
-      "type": "combat"
-    },
-    {
-      "item": "Adamantite ore",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Bass",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Green d'hide chaps",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2340,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Shark",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 102,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45.5",
-      "chance": 0.02197802197802198,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Irit seed",
@@ -463,7 +627,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Belladonna seed",
@@ -479,55 +645,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 106,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/60.7",
-      "chance": 0.016474464579901153,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril spear",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 507,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/78",
-      "chance": 0.01282051282051282,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Poison ivy seed",
@@ -543,7 +663,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 99,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Avantoe seed",
@@ -559,7 +681,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Cactus seed",
@@ -575,23 +699,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 59,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/99.3",
-      "chance": 0.010070493454179255,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Potato cactus seed",
@@ -607,7 +717,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 84,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Kwuarm seed",
@@ -623,119 +735,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant full helm",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2112,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        440,
-        440
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Fire rune",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        37,
-        37
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril kiteshield",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1326,
-      "type": "combat"
-    },
-    {
-      "item": "Rune dagger",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4800,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/136.5",
-      "chance": 0.007326007326007326,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Snapdragon seed",
@@ -751,39 +753,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/182",
-      "chance": 0.005494505494505495,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/218.5",
-      "chance": 0.004576659038901602,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Cadantine seed",
@@ -799,23 +771,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy cadantine",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/273.1",
-      "chance": 0.0036616623947272058,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Lantadyme seed",
@@ -831,39 +789,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 5,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/364.1",
-      "chance": 0.0027464982147761604,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy lantadyme",
-      "dropVersion": "Iorwerth Camp",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/364.1",
-      "chance": 0.0027464982147761604,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Snape grass seed",
@@ -879,7 +807,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 56,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Dwarf weed seed",
@@ -895,7 +825,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
     },
     {
       "item": "Torstol seed",
@@ -911,7 +843,189 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Seeds"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        44,
+        44
+      ],
+      "noted": false,
+      "rarity": "29/128",
+      "chance": 0.2265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        132,
+        132
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        180,
+        180
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        440,
+        440
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Coins"
+    },
+    {
+      "item": "Bass",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Other"
+    },
+    {
+      "item": "Shark",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 102,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Other"
+    },
+    {
+      "item": "Adamantite ore",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Other"
+    },
+    {
+      "item": "Ensouled elf head",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/40",
+      "chance": 0.025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 214,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Iorwerth Camp",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Iorwerth Camp)",
+      "section": "Tertiary"
     },
     {
       "item": "Bones",
@@ -927,519 +1041,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        44,
-        44
-      ],
-      "noted": false,
-      "rarity": "29/128",
-      "chance": 0.2265625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Crystal teleport seed",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "25/128",
-      "chance": 0.1953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        180,
-        180
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        70,
-        70
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Crystal shard",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        3,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/24",
-      "chance": 0.041666666666666664,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        20,
-        20
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Green d'hide body",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4680,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/34.1",
-      "chance": 0.029325513196480937,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Bass",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Fire rune",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        37,
-        37
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Green d'hide chaps",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2340,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Shark",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 102,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy marrentill",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45.5",
-      "chance": 0.02197802197802198,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled elf head",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/50",
-      "chance": 0.02,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 214,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/60.7",
-      "chance": 0.016474464579901153,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril spear",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 507,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/78",
-      "chance": 0.01282051282051282,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/99.3",
-      "chance": 0.010070493454179255,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant full helm",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2112,
-      "type": "combat"
-    },
-    {
-      "item": "Adamantite ore",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril kiteshield",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1326,
-      "type": "combat"
-    },
-    {
-      "item": "Rune dagger",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4800,
-      "type": "combat"
-    },
-    {
-      "item": "Teleport crystal (1)",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/136.5",
-      "chance": 0.007326007326007326,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/182",
-      "chance": 0.005494505494505495,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy kwuarm",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/218.5",
-      "chance": 0.004576659038901602,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy cadantine",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/273.1",
-      "chance": 0.0036616623947272058,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/364.1",
-      "chance": 0.0027464982147761604,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy lantadyme",
-      "dropVersion": "Iorwerth Dungeon",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/364.1",
-      "chance": 0.0027464982147761604,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "100%"
     },
     {
       "item": "Enhanced crystal teleport seed",
@@ -1455,7 +1059,585 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Pre-roll"
+    },
+    {
+      "item": "Green d'hide chaps",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2340,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Green d'hide body",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4680,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril spear",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 507,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril kiteshield",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1326,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Adamant full helm",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2112,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Rune dagger",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4800,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        70,
+        70
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Runes"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Runes"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Runes"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        37,
+        37
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Runes"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/34.1",
+      "chance": 0.029325513196480937,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45.5",
+      "chance": 0.02197802197802198,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60.7",
+      "chance": 0.016474464579901153,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/78",
+      "chance": 0.01282051282051282,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/99.3",
+      "chance": 0.010070493454179255,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/136.5",
+      "chance": 0.007326007326007326,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/182",
+      "chance": 0.005494505494505495,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy kwuarm",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/218.5",
+      "chance": 0.004576659038901602,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy cadantine",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/273.1",
+      "chance": 0.0036616623947272058,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy lantadyme",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/364.1",
+      "chance": 0.0027464982147761604,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 13,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/364.1",
+      "chance": 0.0027464982147761604,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        20,
+        20
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        44,
+        44
+      ],
+      "noted": false,
+      "rarity": "29/128",
+      "chance": 0.2265625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        180,
+        180
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Coins"
+    },
+    {
+      "item": "Crystal teleport seed",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "25/128",
+      "chance": 0.1953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Other"
+    },
+    {
+      "item": "Bass",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Other"
+    },
+    {
+      "item": "Shark",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 102,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Other"
+    },
+    {
+      "item": "Adamantite ore",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Other"
+    },
+    {
+      "item": "Teleport crystal (1)",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Other"
+    },
+    {
+      "item": "Crystal shard",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        3,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/24",
+      "chance": 0.041666666666666664,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ensouled elf head",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50",
+      "chance": 0.02,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 214,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Iorwerth Dungeon",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Iorwerth Dungeon)",
+      "section": "Tertiary"
     }
   ]
 }

@@ -2,150 +2,6 @@
   "page": "Spiritual ranger",
   "drops": [
     {
-      "item": "Looting bag",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3",
-      "chance": 0.3333333333333333,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Bow string",
-      "dropVersion": null,
-      "quantity": [
-        7,
-        7
-      ],
-      "noted": false,
-      "rarity": "18/128",
-      "chance": 0.140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "15/128",
-      "chance": 0.1171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze arrow",
-      "dropVersion": null,
-      "quantity": [
-        16,
-        16
-      ],
-      "noted": false,
-      "rarity": "13/128",
-      "chance": 0.1015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrowtips",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "11/128",
-      "chance": 0.0859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril arrow(p+)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "11/128",
-      "chance": 0.0859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 19,
-      "type": "combat"
-    },
-    {
-      "item": "Headless arrow",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant arrowtips",
-      "dropVersion": null,
-      "quantity": [
-        13,
-        13
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24,
-      "type": "combat"
-    },
-    {
-      "item": "Oak longbow (u)",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 48,
-      "type": "combat"
-    },
-    {
       "item": "Oak shortbow",
       "dropVersion": null,
       "quantity": [
@@ -159,71 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Body rune",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Maple longbow",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 384,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant arrow(p++)",
-      "dropVersion": null,
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 48,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons"
     },
     {
       "item": "Steel crossbow",
@@ -239,135 +33,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 216,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons"
     },
     {
-      "item": "Ecumenical key",
+      "item": "Maple longbow",
       "dropVersion": null,
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/60",
-      "chance": 0.016666666666666666,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/40",
-      "value": 61500,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant fire arrow",
-      "dropVersion": null,
-      "quantity": [
-        4,
-        4
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
+      "rarity": "4/128",
+      "chance": 0.03125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Larran's key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/76",
-      "chance": 0.013157894736842105,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/90",
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant arrow",
-      "dropVersion": null,
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 48,
-      "type": "combat"
-    },
-    {
-      "item": "Broken arrow",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Bronze arrow(p+)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/64",
-      "value": 12,
-      "type": "combat"
+      "value": 384,
+      "type": "combat",
+      "group": null,
+      "section": "Weapons"
     },
     {
       "item": "Magic shortbow",
@@ -383,7 +69,351 @@
       "rolls": 1,
       "altRarity": null,
       "value": 960,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Weapons"
+    },
+    {
+      "item": "Mithril arrow(p+)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "11/128",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 19,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "15/128",
+      "chance": 0.1171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Bronze arrow",
+      "dropVersion": null,
+      "quantity": [
+        16,
+        16
+      ],
+      "noted": false,
+      "rarity": "13/128",
+      "chance": 0.1015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Bronze arrow(p+)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Body rune",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Adamant arrow",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Adamant arrow(p++)",
+      "dropVersion": null,
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Adamant fire arrow",
+      "dropVersion": null,
+      "quantity": [
+        4,
+        4
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Headless arrow",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Iron arrowtips",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "11/128",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Adamant arrowtips",
+      "dropVersion": null,
+      "quantity": [
+        13,
+        13
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Bow string",
+      "dropVersion": null,
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "18/128",
+      "chance": 0.140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Broken arrow",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Oak longbow (u)",
+      "dropVersion": null,
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48,
+      "type": "combat",
+      "group": null,
+      "section": "Other"
+    },
+    {
+      "item": "Looting bag",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3",
+      "chance": 0.3333333333333333,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/64",
+      "value": 12,
+      "type": "combat",
+      "group": null,
+      "section": "Tertiary"
+    },
+    {
+      "item": "Larran's key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/76",
+      "chance": 0.013157894736842105,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/90",
+      "value": 54,
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
     },
     {
       "item": "Slayer's enchantment",
@@ -399,471 +429,9 @@
       "rolls": 1,
       "altRarity": "1/216",
       "value": 720,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril longsword",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "15/128",
-      "chance": 0.1171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 780,
-      "type": "combat"
-    },
-    {
-      "item": "Ranging potion(2)",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "11/128",
-      "chance": 0.0859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 129,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Zaros",
-      "quantity": [
-        500,
-        500
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Prayer potion(2)",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "9/128",
-      "chance": 0.0703125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 68,
-      "type": "combat"
-    },
-    {
-      "item": "Adamantite bar",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        4
-      ],
-      "noted": true,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 384,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        10
-      ],
-      "noted": true,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Pure essence",
-      "dropVersion": "Zaros",
-      "quantity": [
-        23,
-        23
-      ],
-      "noted": true,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Adamant bolts",
-      "dropVersion": "Zaros",
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 34,
-      "type": "combat"
-    },
-    {
-      "item": "Blue dragon scale",
-      "dropVersion": "Zaros",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": true,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Green d'hide body",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "7/128",
-      "chance": 0.0546875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4680,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1300,
-        1337
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/40.96",
-      "chance": 0.0244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/51.2",
-      "chance": 0.01953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy snapdragon",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/51.2",
-      "chance": 0.01953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": "Zaros",
-      "quantity": [
-        12,
-        12
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Rune arrow",
-      "dropVersion": "Zaros",
-      "quantity": [
-        50,
-        50
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Super defence(1)",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 79,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy torstol",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/68.27",
-      "chance": 0.014647722279185588,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (hard)",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Nihil shard",
-      "dropVersion": "Zaros",
-      "quantity": [
-        2,
-        7
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3000,
-      "type": "combat"
-    },
-    {
-      "item": "Shark",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 102,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/260",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Ancient ceremonial boots",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/640",
-      "chance": 0.0015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24000,
-      "type": "combat"
-    },
-    {
-      "item": "Ancient ceremonial gloves",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/640",
-      "chance": 0.0015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 24000,
-      "type": "combat"
-    },
-    {
-      "item": "Ancient ceremonial legs",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/640",
-      "chance": 0.0015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 48000,
-      "type": "combat"
+      "type": "combat",
+      "group": null,
+      "section": "Wilderness Slayer tertiary"
     },
     {
       "item": "Ancient ceremonial mask",
@@ -879,7 +447,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Ancient ceremonial robes"
     },
     {
       "item": "Ancient ceremonial top",
@@ -895,7 +465,513 @@
       "rolls": 1,
       "altRarity": null,
       "value": 60000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Ancient ceremonial robes"
+    },
+    {
+      "item": "Ancient ceremonial legs",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/640",
+      "chance": 0.0015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 48000,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Ancient ceremonial robes"
+    },
+    {
+      "item": "Ancient ceremonial gloves",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/640",
+      "chance": 0.0015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24000,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Ancient ceremonial robes"
+    },
+    {
+      "item": "Ancient ceremonial boots",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/640",
+      "chance": 0.0015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 24000,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Ancient ceremonial robes"
+    },
+    {
+      "item": "Adamant bolts",
+      "dropVersion": "Zaros",
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 34,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": "Zaros",
+      "quantity": [
+        12,
+        12
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Rune arrow",
+      "dropVersion": "Zaros",
+      "quantity": [
+        50,
+        50
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/40.96",
+      "chance": 0.0244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/51.2",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy snapdragon",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/51.2",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy torstol",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/68.27",
+      "chance": 0.014647722279185588,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Zaros",
+      "quantity": [
+        500,
+        500
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1300,
+        1337
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Coins"
+    },
+    {
+      "item": "Prayer potion(2)",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "9/128",
+      "chance": 0.0703125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 68,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Potions"
+    },
+    {
+      "item": "Ranging potion(2)",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "11/128",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 129,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Potions"
+    },
+    {
+      "item": "Super defence(1)",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 79,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Potions"
+    },
+    {
+      "item": "Adamantite bar",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        4
+      ],
+      "noted": true,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 384,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Blue dragon scale",
+      "dropVersion": "Zaros",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": true,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": true,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Green d'hide body",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "7/128",
+      "chance": 0.0546875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4680,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Mithril longsword",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "15/128",
+      "chance": 0.1171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 780,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Nihil shard",
+      "dropVersion": "Zaros",
+      "quantity": [
+        2,
+        7
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3000,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Pure essence",
+      "dropVersion": "Zaros",
+      "quantity": [
+        23,
+        23
+      ],
+      "noted": true,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Shark",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 102,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/260",
+      "value": 15,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut emerald",
@@ -911,7 +987,9 @@
       "rolls": 1,
       "altRarity": "1/520",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut ruby",
@@ -927,7 +1005,9 @@
       "rolls": 1,
       "altRarity": "1/1,040",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Nature talisman",
@@ -943,7 +1023,9 @@
       "rolls": 1,
       "altRarity": "1/2,773.33",
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Uncut diamond",
@@ -959,23 +1041,9 @@
       "rolls": 1,
       "altRarity": "1/4,160",
       "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": "Zaros",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16,384",
-      "chance": 0.00006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -991,7 +1059,27 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16,384",
+      "chance": 0.00006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -1007,7 +1095,9 @@
       "rolls": 1,
       "altRarity": "1/8,320",
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -1023,7 +1113,9 @@
       "rolls": 1,
       "altRarity": "1/15,600",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -1039,7 +1131,9 @@
       "rolls": 1,
       "altRarity": "1/31,200",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -1055,7 +1149,45 @@
       "rolls": 1,
       "altRarity": "1/41,600",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (hard)",
+      "dropVersion": "Zaros",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Drops (Ancient Prison)",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ecumenical key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60",
+      "chance": 0.016666666666666666,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/40",
+      "value": 61500,
+      "type": "combat",
+      "group": null,
+      "section": null
     }
   ]
 }

@@ -2,20 +2,58 @@
   "page": "TzHaar-Ket",
   "drops": [
     {
-      "item": "Tokkul",
+      "item": "Tzhaar-ket-om",
       "dropVersion": "Level 149",
       "quantity": [
         1,
-        64
+        1
       ],
       "noted": false,
-      "rarity": "160/512",
-      "chance": 0.3125,
+      "rarity": "1/512",
+      "chance": 0.001953125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 0,
-      "type": "combat"
+      "value": 30000,
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Toktz-ket-xil",
+      "dropVersion": "Level 149",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27000,
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Obsidian cape",
+      "dropVersion": "Level 149",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Uncut sapphire",
@@ -31,23 +69,9 @@
       "rolls": 1,
       "altRarity": "16/384",
       "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled tzhaar head",
-      "dropVersion": "Level 149",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/35",
-      "chance": 0.02857142857142857,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 304,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Materials"
     },
     {
       "item": "Uncut emerald",
@@ -63,7 +87,9 @@
       "rolls": 1,
       "altRarity": "8/384",
       "value": 30,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Materials"
     },
     {
       "item": "Uncut ruby",
@@ -79,55 +105,9 @@
       "rolls": 1,
       "altRarity": "4/384",
       "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Obsidian cape",
-      "dropVersion": "Level 149",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
-      "item": "Toktz-ket-xil",
-      "dropVersion": "Level 149",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27000,
-      "type": "combat"
-    },
-    {
-      "item": "Tzhaar-ket-om",
-      "dropVersion": "Level 149",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Materials"
     },
     {
       "item": "Uncut diamond",
@@ -143,151 +123,45 @@
       "rolls": 1,
       "altRarity": "1/384",
       "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Materials"
     },
     {
       "item": "Tokkul",
-      "dropVersion": "Level 221",
+      "dropVersion": "Level 149",
       "quantity": [
-        20,
-        83
+        1,
+        64
       ],
       "noted": false,
-      "rarity": "192/512",
-      "chance": 0.375,
+      "rarity": "160/512",
+      "chance": 0.3125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Other"
     },
     {
       "item": "Ensouled tzhaar head",
-      "dropVersion": "Level 221",
+      "dropVersion": "Level 149",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/25",
-      "chance": 0.04,
+      "rarity": "1/35",
+      "chance": 0.02857142857142857,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
       "value": 304,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "16/512",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "16/384",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Onyx bolt tips",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        4
-      ],
-      "noted": false,
-      "rarity": "10/512",
-      "chance": 0.01953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "10/384",
-      "value": 600,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "8/512",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "8/384",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/512",
-      "chance": 0.01171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "6/384",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/512",
-      "chance": 0.005859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "3/384",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Obsidian cape",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36000,
-      "type": "combat"
-    },
-    {
-      "item": "Toktz-ket-xil",
-      "dropVersion": "Level 221",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 149)",
+      "section": "Tertiary"
     },
     {
       "item": "Tzhaar-ket-om",
@@ -303,7 +177,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 30000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Toktz-ket-xil",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27000,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Obsidian cape",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36000,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Obsidian helmet",
@@ -319,7 +231,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 33792,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Obsidian platebody",
@@ -335,7 +249,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 50400,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Weapons and armour"
     },
     {
       "item": "Obsidian platelegs",
@@ -351,7 +267,135 @@
       "rolls": 1,
       "altRarity": null,
       "value": 40200,
-      "type": "combat"
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "16/512",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "16/384",
+      "value": 15,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Materials"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "8/512",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "8/384",
+      "value": 30,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Materials"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/512",
+      "chance": 0.01171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "6/384",
+      "value": 60,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Materials"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/512",
+      "chance": 0.005859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "3/384",
+      "value": 120,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Materials"
+    },
+    {
+      "item": "Onyx bolt tips",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        4
+      ],
+      "noted": false,
+      "rarity": "10/512",
+      "chance": 0.01953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "10/384",
+      "value": 600,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Materials"
+    },
+    {
+      "item": "Tokkul",
+      "dropVersion": "Level 221",
+      "quantity": [
+        20,
+        83
+      ],
+      "noted": false,
+      "rarity": "192/512",
+      "chance": 0.375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Other"
+    },
+    {
+      "item": "Ensouled tzhaar head",
+      "dropVersion": "Level 221",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/25",
+      "chance": 0.04,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 304,
+      "type": "combat",
+      "group": "Drops (Level 221)",
+      "section": "Tertiary"
     }
   ]
 }

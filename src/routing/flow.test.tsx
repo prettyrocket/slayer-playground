@@ -9,11 +9,14 @@ import { renderRoute } from '@/test/render';
 /** The monster in each row of a category's table (the row's first link). */
 async function monsterNames(table: string) {
   const rows = within(await screen.findByRole('table', { name: table })).getAllByRole('row');
-  // A monster's row links it first; the rows of the places under it link the wiki.
-  return rows
-    .map((row) => within(row).queryAllByRole('link')[0])
-    .filter((link) => link?.getAttribute('href')?.startsWith('/monsters/'))
+  // Places first, a monster card per place it spawns: each monster once, by its name link
+  // (not a superior's picture, which is named by aria-label).
+  const names = rows
+    .flatMap((row) => within(row).queryAllByRole('link'))
+    .filter((link) => link.getAttribute('href')?.startsWith('/monsters/'))
+    .filter((link) => !link.hasAttribute('aria-label'))
     .map((link) => link.textContent);
+  return [...new Set(names)];
 }
 describe('flow between pages', () => {
   it('goes from the category list to a monster, remembering the category', async () => {
@@ -24,14 +27,15 @@ describe('flow between pages', () => {
     await user.click(await within(main).findByRole('link', { name: /^Abyssal demons/ }));
     expect(router.state.location.pathname).toBe('/categories/abyssal-demons');
 
-    await user.click(within(main).getByRole('link', { name: 'Abyssal demon' }));
+    // Its first card: the place with the most spawns.
+    await user.click((await within(main).findAllByRole('link', { name: 'Abyssal demon' }))[0]);
     expect(router.state.location.pathname).toBe('/monsters/abyssal-demon');
     expect(router.state.location.search).toBe('?category=abyssal-demons');
   });
 
   it("lists a category's monsters and the masters who assign it", async () => {
     renderRoute('/categories/abyssal-demons');
-    expect(await monsterNames('Abyssal demons monsters')).toEqual([
+    expect(await monsterNames('Abyssal demons locations')).toEqual([
       'Abyssal demon',
       'Abyssal Sire',
     ]);
@@ -70,7 +74,7 @@ describe('flow between pages', () => {
 
   it('lists only the monsters that count, and categories no monster page has', async () => {
     renderRoute('/categories/bosses');
-    expect(await monsterNames('Bosses monsters')).toEqual(['Abyssal Sire']);
+    expect(await monsterNames('Bosses locations')).toEqual(['Abyssal Sire']);
 
     renderRoute('/masters/krystilia');
     const list = await within(screen.getAllByRole('main').at(-1)!).findByRole('table', {

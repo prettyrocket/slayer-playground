@@ -26,6 +26,10 @@ export interface Category {
   equipment: CategoryEquipment[];
   /** The wiki's guide page, e.g. "Slayer task/Abyssal demons"; null when there is none. */
   page: string | null;
+  /** Slayer Rewards unlocks some master needs before assigning it. */
+  unlocks: string[];
+  /** The Slayer Rewards extend that lengthens it, if any. */
+  extend: string | null;
 }
 
 /** What navigation needs: every category and monster, by name. */
@@ -47,7 +51,18 @@ function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesF
     // Krystilia's wilderness bosses.
     categories: categories
       .map(
-        ({ category, monsters: slugs, masters, aliases, slayerLevel, icon, equipment, page }) => ({
+        ({
+          category,
+          monsters: slugs,
+          masters,
+          aliases,
+          slayerLevel,
+          icon,
+          equipment,
+          page,
+          unlocks,
+          extend,
+        }) => ({
           slug: categorySlug(category),
           name: category.charAt(0).toUpperCase() + category.slice(1),
           monsters: slugs
@@ -60,6 +75,8 @@ function buildCatalog([{ monsters }, { categories }]: [MonstersFile, CategoriesF
           icon,
           equipment,
           page,
+          unlocks,
+          extend,
         }),
       )
       .toSorted((a, b) => a.name.localeCompare(b.name)),

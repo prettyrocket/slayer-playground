@@ -1,11 +1,11 @@
-import { screen, within } from '@testing-library/react';
+import { screen, waitFor, within } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 
 import { renderRoute } from '@/test/render';
 
 // Data is src/test/monsters.ts (the abyssal demon and its drops), served by setup.ts.
 
-/** A stat panel (Combat, Aggressive, Defensive, Info) as label -> value. */
+/** A stat panel (Fight, Combat, Aggressive, Defensive, Info) as label -> value. */
 function panel(name: string) {
   const section = screen.getByRole('region', { name });
   const labels = within(section)
@@ -30,10 +30,28 @@ async function rows(name: string) {
     );
 }
 
+/** A location's band on the Drops tab: the button that folds it. */
+function band(name: string) {
+  return screen.getByRole('button', { name });
+}
+
+/** The page's Stats / Locations / Drops tabs. */
+function tabs() {
+  return within(screen.getByRole('tablist', { name: 'Monster' }));
+}
+
 describe('MonsterPage', () => {
-  it('leads with what matters for the fight', async () => {
+  it('heads the page with its name, level and examine', async () => {
+    renderRoute('/monsters/abyssal-demon');
+    const heading = await screen.findByRole('heading', { level: 1, name: /^Abyssal demon/ });
+    expect(heading).toHaveTextContent('(level 124)');
+    expect(screen.getByText('A denizen of the Abyss!')).toBeInTheDocument();
+  });
+
+  it('opens on Stats, leading with what matters for the fight', async () => {
     renderRoute('/monsters/abyssal-demon');
     await screen.findByRole('region', { name: 'Fight' });
+    expect(tabs().getByRole('tab', { name: 'Stats' })).toHaveAttribute('aria-selected', 'true');
     expect(panel('Fight')).toEqual({
       'Protect from': 'Melee',
       'Max hit': '8',
@@ -42,15 +60,11 @@ describe('MonsterPage', () => {
       // Only immunities that apply: thralls, not the cannon.
       Thralls: 'Immune',
     });
-    // The full stats wait behind "All stats".
-    expect(screen.queryByRole('region', { name: 'Combat' })).not.toBeInTheDocument();
   });
 
   it("shows the default version's full stats in panels, leaving out the missing ones", async () => {
-    const { user } = renderRoute('/monsters/abyssal-demon');
-    await user.click(await screen.findByRole('button', { name: 'All stats' }));
-    const heading = await screen.findByRole('heading', { level: 1, name: /^Abyssal demon/ });
-    expect(heading).toHaveTextContent('(level 124)');
+    renderRoute('/monsters/abyssal-demon');
+    await screen.findByRole('region', { name: 'Combat' });
     expect(panel('Combat')).toEqual({
       Hitpoints: '150',
       Attack: '97',
@@ -94,39 +108,80 @@ describe('MonsterPage', () => {
     );
   });
 
-  it("shows the drops of the version's drop table, with quantity and rarity", async () => {
-    renderRoute('/monsters/abyssal-demon');
-    expect(await rows('Abyssal demon drops')).toEqual([
-      ['Pure essence', '120–180 (noted)', '1/10'],
-      ['Coins', 'Varies', 'Always'],
+  it('keeps the tab in the URL, alongside how you got here', async () => {
+    const { user, router } = renderRoute('/monsters/abyssal-demon?category=abyssal-demons');
+    await screen.findByRole('region', { name: 'Fight' });
+    await user.click(tabs().getByRole('tab', { name: 'Drops' }));
+    expect(router.state.location.search).toBe('?category=abyssal-demons&tab=drops');
+    await user.click(tabs().getByRole('tab', { name: 'Stats' }));
+    expect(router.state.location.search).toBe('?category=abyssal-demons');
+  });
+
+  it("lays drops out in the wiki's tables, in its order, under a band per location", async () => {
+    renderRoute('/monsters/abyssal-demon?tab=drops');
+    expect(await rows('Weapons and armour drops')).toEqual([
       ['Abyssal whip', '1', '1/512'],
+      ['Abyssal dagger', '1', '1/32,000'],
     ]);
-    const tables = screen.getByRole('tablist', { name: 'Drop tables' });
-    expect(within(tables).getByRole('tab', { name: 'Standard' })).toHaveAttribute(
-      'aria-selected',
-      'true',
+    expect(await rows('Materials drops')).toEqual([['Pure essence', '120–180 (noted)', '5/128']]);
+    expect(await rows('Coins drops')).toEqual([['Coins', 'Varies', '35/128']]);
+    const main = band('Standard and Catacombs of Kourend');
+    expect(main).toHaveAttribute('aria-expanded', 'true');
+    // Sections in the wiki's order, each with how many drops it has.
+    const region = screen.getByRole('region', { name: 'Standard and Catacombs of Kourend' });
+    expect(
+      within(region)
+        .getAllByRole('heading', { level: 3 })
+        .map((h) => h.textContent),
+    ).toEqual(['100%1', 'Weapons and armour2', 'Materials1', 'Coins1', 'Catacombs tertiary1']);
+  });
+
+  it("starts the bands of locations it isn't picked for folded", async () => {
+    const { user } = renderRoute('/monsters/abyssal-demon?tab=drops');
+    await rows('Coins drops');
+    const wild = band('Wilderness Slayer Cave');
+    expect(wild).toHaveAttribute('aria-expanded', 'false');
+    expect(screen.queryByRole('table', { name: 'Tertiary drops' })).not.toBeInTheDocument();
+    await user.click(wild);
+    expect(await rows('Tertiary drops')).toEqual([['Looting bag', '1', '1/3']]);
+  });
+
+  it('folds a band, and a table on its own', async () => {
+    const { user } = renderRoute('/monsters/abyssal-demon?tab=drops');
+    await rows('Coins drops');
+    await user.click(screen.getByRole('button', { name: /^Coins/ }));
+    await waitFor(() =>
+      expect(screen.queryByRole('table', { name: 'Coins drops' })).not.toBeInTheDocument(),
+    );
+    expect(screen.getByRole('table', { name: 'Materials drops' })).toBeInTheDocument();
+    await user.click(band('Standard and Catacombs of Kourend'));
+    await waitFor(() =>
+      expect(screen.queryByRole('table', { name: 'Materials drops' })).not.toBeInTheDocument(),
     );
   });
 
-  it("switches version, and with it the version's drop table", async () => {
+  it('switches version from the header, and with it the stats', async () => {
     const { user } = renderRoute('/monsters/abyssal-demon');
-    await rows('Abyssal demon drops');
-    const versions = screen.getByRole('tablist', { name: 'Versions' });
-    await user.click(within(versions).getByRole('tab', { name: 'Catacombs of Kourend' }));
+    await screen.findByRole('region', { name: 'Fight' });
+    await user.click(screen.getByRole('combobox', { name: 'Version' }));
+    await user.click(screen.getByRole('option', { name: 'Catacombs of Kourend' }));
     // This version has only hitpoints; the Slayer level is the monster's.
     expect(panel('Fight')).toEqual({ 'Slayer level': '85' });
-    expect(await rows('Abyssal demon drops')).toEqual([['Ancient shard', '1', '1/233']]);
   });
 
-  it('switches drop table on its own', async () => {
-    const { user } = renderRoute('/monsters/abyssal-demon');
-    await rows('Abyssal demon drops');
-    const tables = screen.getByRole('tablist', { name: 'Drop tables' });
-    await user.click(within(tables).getByRole('tab', { name: 'Catacombs of Kourend' }));
-    expect(await rows('Abyssal demon drops')).toEqual([['Ancient shard', '1', '1/233']]);
+  it('has no version picker on the Drops tab, which shows every table', async () => {
+    renderRoute('/monsters/abyssal-demon?tab=drops');
+    await rows('Coins drops');
+    expect(screen.queryByRole('combobox', { name: 'Version' })).not.toBeInTheDocument();
   });
 
-  it('lists the tasks it counts for, keeping the master', async () => {
+  it('has no version picker for a single-version monster', async () => {
+    renderRoute('/monsters/greater-abyssal-demon');
+    await screen.findByRole('heading', { level: 1, name: /^Greater abyssal demon/ });
+    expect(screen.queryByRole('combobox', { name: 'Version' })).not.toBeInTheDocument();
+  });
+
+  it('lists the tasks it counts for in the header, keeping the master', async () => {
     renderRoute('/monsters/abyssal-sire?category=bosses&master=duradel');
     const counts = await screen.findByRole('list', { name: 'Counts for' });
     const links = within(counts).getAllByRole('link');
@@ -140,7 +195,8 @@ describe('MonsterPage', () => {
   });
 
   it('lists where it spawns, linking places to the wiki', async () => {
-    renderRoute('/monsters/abyssal-demon');
+    const { user } = renderRoute('/monsters/abyssal-demon');
+    await user.click(await screen.findByRole('tab', { name: 'Locations' }));
     expect(await rows('Abyssal demon locations')).toEqual([
       ['Catacombs of Kourend', '13', 'Yes', 'No', 'No'],
       ['Abyssal Area', '—', '—', '—', '—'],
@@ -151,10 +207,11 @@ describe('MonsterPage', () => {
     );
   });
 
-  it('has no locations section when the wiki gives none', async () => {
-    renderRoute('/monsters/cow');
-    await screen.findByText('No drops.');
-    expect(screen.queryByRole('heading', { name: 'Locations' })).not.toBeInTheDocument();
+  it('has no Locations tab when the wiki gives none, and falls back to Stats', async () => {
+    renderRoute('/monsters/cow?tab=locations');
+    await screen.findByRole('heading', { level: 1, name: /^Cow/ });
+    expect(tabs().queryByRole('tab', { name: 'Locations' })).not.toBeInTheDocument();
+    expect(tabs().getByRole('tab', { name: 'Stats' })).toHaveAttribute('aria-selected', 'true');
   });
 
   it('links to its wiki page', async () => {
@@ -169,11 +226,11 @@ describe('MonsterPage', () => {
     expect(
       await screen.findByRole('heading', { level: 1, name: /Abyssal Sire \(Deadman\)/ }),
     ).toBeInTheDocument();
-    expect(screen.queryByRole('heading', { name: 'Counts for' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('list', { name: 'Counts for' })).not.toBeInTheDocument();
   });
 
   it('says when a monster has no drops', async () => {
-    renderRoute('/monsters/cow');
+    renderRoute('/monsters/cow?tab=drops');
     expect(await screen.findByText('No drops.')).toBeInTheDocument();
   });
 });

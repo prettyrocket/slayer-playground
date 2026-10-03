@@ -2,260 +2,22 @@
   "page": "Cave bug",
   "drops": [
     {
-      "item": "Uncut sapphire",
-      "dropVersion": null,
+      "item": "Earth rune",
+      "dropVersion": "Level 6",
       "quantity": [
-        1,
-        1
+        6,
+        6
       ],
       "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
+      "rarity": "2/128",
+      "chance": 0.015625,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/52",
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/204.8",
-      "chance": 0.0048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/104",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/409.6",
-      "chance": 0.00244140625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/208",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Nature talisman",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,092.27",
-      "chance": 0.0009155245497908026,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/554.67",
+      "altRarity": null,
       "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,638.4",
-      "chance": 0.0006103515625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/832",
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Loop half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune javelin",
-      "dropVersion": null,
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Tooth half of key",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/3,276.8",
-      "chance": 0.00030517578125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,664",
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Rune spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/52,428.8",
-      "chance": 0.000019073486328125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/3,120",
-      "value": 12480,
-      "type": "combat"
-    },
-    {
-      "item": "Shield left half",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/104,857.6",
-      "chance": 0.0000095367431640625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/6,240",
-      "value": 66000,
-      "type": "combat"
-    },
-    {
-      "item": "Dragon spear",
-      "dropVersion": null,
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/139,810.13",
-      "chance": 0.000007152557543577136,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8,320",
-      "value": 37440,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "16/128",
-      "chance": 0.125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 6",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/22.3",
-      "chance": 0.04484304932735426,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Candle",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Runes"
     },
     {
       "item": "Water rune",
@@ -271,231 +33,27 @@
       "rolls": 1,
       "altRarity": null,
       "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Runes"
     },
     {
-      "item": "Grimy marrentill",
+      "item": "Nature rune",
       "dropVersion": "Level 6",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/29.7",
-      "chance": 0.03367003367003367,
+      "rarity": "5/128",
+      "chance": 0.0390625,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/39.6",
-      "chance": 0.025252525252525252,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 6",
-      "quantity": [
-        8,
-        8
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Tinderbox",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/50.9",
-      "chance": 0.019646365422396856,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Level 6",
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Eye of newt",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Red spiders' eggs",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Unicorn horn dust",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/64.8",
-      "chance": 0.0154320987654321,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/89",
-      "chance": 0.011235955056179775,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy avantoe",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/118.7",
-      "chance": 0.008424599831508003,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Empty candle lantern",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt root",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
+      "value": 108,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Runes"
     },
     {
       "item": "Nature rune",
@@ -511,23 +69,207 @@
       "rolls": 1,
       "altRarity": null,
       "value": 108,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Runes"
     },
     {
-      "item": "Snape grass",
+      "item": "Nature talisman",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,092.27",
+      "chance": 0.0009155245497908026,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/554.67",
+      "value": 2,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Rune javelin",
+      "dropVersion": null,
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 240,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Rune spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/52,428.8",
+      "chance": 0.000019073486328125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/3,120",
+      "value": 12480,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy guam leaf",
       "dropVersion": "Level 6",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
+      "rarity": "16/128",
+      "chance": 0.125,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 6,
-      "type": "combat"
+      "value": 7,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/22.3",
+      "chance": 0.04484304932735426,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/29.7",
+      "chance": 0.03367003367003367,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/39.6",
+      "chance": 0.025252525252525252,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/50.9",
+      "chance": 0.019646365422396856,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/64.8",
+      "chance": 0.0154320987654321,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/89",
+      "chance": 0.011235955056179775,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy avantoe",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/118.7",
+      "chance": 0.008424599831508003,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -543,7 +285,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -559,23 +303,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Level 6",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/237.4",
-      "chance": 0.004212299915754001,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -591,174 +321,34 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
     },
     {
-      "item": "Swamp weed",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        4
-      ],
-      "noted": false,
-      "rarity": "31/128",
-      "chance": 0.2421875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        10
-      ],
-      "noted": false,
-      "rarity": "15/128",
-      "chance": 0.1171875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        40
-      ],
-      "noted": false,
-      "rarity": "14/128",
-      "chance": 0.109375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Water rune",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        15
-      ],
-      "noted": false,
-      "rarity": "14/128",
-      "chance": 0.109375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Fire rune",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        20
-      ],
-      "noted": false,
-      "rarity": "13/128",
-      "chance": 0.1015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Swamp weed",
-      "dropVersion": "Level 96",
-      "quantity": [
-        5,
-        8
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Level 96",
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Level 6",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/26.9",
-      "chance": 0.03717472118959108,
+      "rarity": "1/237.4",
+      "chance": 0.004212299915754001,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 7,
-      "type": "combat"
+      "value": 14,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Herbs"
     },
     {
-      "item": "Grimy marrentill",
-      "dropVersion": "Level 96",
+      "item": "Unicorn horn dust",
+      "dropVersion": "Level 6",
       "quantity": [
         1,
         1
-      ],
-      "noted": false,
-      "rarity": "1/35.9",
-      "chance": 0.02785515320334262,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy tarromin",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/47.9",
-      "chance": 0.020876826722338204,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy harralander",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/61.6",
-      "chance": 0.016233766233766232,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        170
       ],
       "noted": false,
       "rarity": "2/128",
@@ -766,15 +356,17 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "value": 12,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Materials"
     },
     {
-      "item": "Fire rune",
-      "dropVersion": "Level 96",
+      "item": "Eye of newt",
+      "dropVersion": "Level 6",
       "quantity": [
         1,
-        170
+        1
       ],
       "noted": false,
       "rarity": "2/128",
@@ -782,60 +374,14 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 2,
-      "type": "combat"
+      "value": 1,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Materials"
     },
     {
-      "item": "Water rune",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        170
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy ranarr weed",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/78.4",
-      "chance": 0.012755102040816325,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy irit leaf",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/107.8",
-      "chance": 0.00927643784786642,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (easy)",
-      "dropVersion": "Level 96",
+      "item": "Limpwurt root",
+      "dropVersion": "Level 6",
       "quantity": [
         1,
         1
@@ -846,8 +392,136 @@
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 12,
-      "type": "combat"
+      "value": 4,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Materials"
+    },
+    {
+      "item": "Snape grass",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Materials"
+    },
+    {
+      "item": "Red spiders' eggs",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Materials"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 6",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 6",
+      "quantity": [
+        8,
+        8
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Tinderbox",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Empty candle lantern",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Candle",
+      "dropVersion": "Level 6",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 6 drops",
+      "section": "Other"
     },
     {
       "item": "Water battlestaff",
@@ -863,7 +537,225 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9300,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Weapons"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        10
+      ],
+      "noted": false,
+      "rarity": "15/128",
+      "chance": 0.1171875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        170
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        15
+      ],
+      "noted": false,
+      "rarity": "14/128",
+      "chance": 0.109375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Water rune",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        170
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        20
+      ],
+      "noted": false,
+      "rarity": "13/128",
+      "chance": 0.1015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Fire rune",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        170
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Runes"
+    },
+    {
+      "item": "Grimy guam leaf",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/26.9",
+      "chance": 0.03717472118959108,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy marrentill",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/35.9",
+      "chance": 0.02785515320334262,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy tarromin",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/47.9",
+      "chance": 0.020876826722338204,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy harralander",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/61.6",
+      "chance": 0.016233766233766232,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 9,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy ranarr weed",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/78.4",
+      "chance": 0.012755102040816325,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 18,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy irit leaf",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/107.8",
+      "chance": 0.00927643784786642,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -879,7 +771,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -895,7 +789,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -911,23 +807,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Level 96",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/287.4",
-      "chance": 0.003479471120389701,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -943,7 +825,243 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/287.4",
+      "chance": 0.003479471120389701,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        40
+      ],
+      "noted": false,
+      "rarity": "14/128",
+      "chance": 0.109375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Swamp weed",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        4
+      ],
+      "noted": false,
+      "rarity": "31/128",
+      "chance": 0.2421875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Swamp weed",
+      "dropVersion": "Level 96",
+      "quantity": [
+        5,
+        8
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/52",
+      "value": 15,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/204.8",
+      "chance": 0.0048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/104",
+      "value": 30,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/409.6",
+      "chance": 0.00244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/208",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,638.4",
+      "chance": 0.0006103515625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/832",
+      "value": 120,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Tooth half of key",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/3,276.8",
+      "chance": 0.00030517578125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,664",
+      "value": 60,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Shield left half",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/104,857.6",
+      "chance": 0.0000095367431640625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/6,240",
+      "value": 66000,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Dragon spear",
+      "dropVersion": null,
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/139,810.13",
+      "chance": 0.000007152557543577136,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8,320",
+      "value": 37440,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (easy)",
+      "dropVersion": "Level 96",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Level 96 drops",
+      "section": "Tertiary"
     }
   ]
 }

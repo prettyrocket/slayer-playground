@@ -2,486 +2,6 @@
   "page": "Bryophyta",
   "drops": [
     {
-      "item": "Big bones",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "Always",
-      "chance": 1,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        5,
-        5
-      ],
-      "noted": false,
-      "rarity": "35/128",
-      "chance": 0.2734375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        37,
-        37
-      ],
-      "noted": false,
-      "rarity": "19/128",
-      "chance": 0.1484375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "11/128",
-      "chance": 0.0859375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        119,
-        119
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Mossy key",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8",
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Steel bar",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Black sq shield",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 691,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        10,
-        10
-      ],
-      "noted": false,
-      "rarity": "5/128",
-      "chance": 0.0390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        18,
-        18
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        7,
-        7
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        27,
-        27
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45",
-      "chance": 0.022222222222222223,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        300,
-        300
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Cosmic rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Magic staff",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril sword",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 507,
-      "type": "combat"
-    },
-    {
-      "item": "Steel med helm",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Spinach roll",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        30,
-        30
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Steel kiteshield",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 510,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut sapphire",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 15,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/256",
-      "chance": 0.00390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Free-to-play",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,048",
-      "chance": 0.00048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 120,
-      "type": "combat"
-    },
-    {
       "item": "Giant bones",
       "dropVersion": "Members",
       "quantity": [
@@ -495,119 +15,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Moss giant bone",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/4",
-      "chance": 0.25,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Members",
-      "quantity": [
-        37,
-        37
-      ],
-      "noted": false,
-      "rarity": "19/128",
-      "chance": 0.1484375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Members",
-      "quantity": [
-        119,
-        119
-      ],
-      "noted": false,
-      "rarity": "10/128",
-      "chance": 0.078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Members",
-      "quantity": [
-        2,
-        2
-      ],
-      "noted": false,
-      "rarity": "8/128",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Mossy key",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/16",
-      "chance": 0.0625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/8",
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Steel bar",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "6/128",
-      "chance": 0.046875,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Ensouled giant head",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/24",
-      "chance": 0.041666666666666664,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 191,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "100%"
     },
     {
       "item": "Black sq shield",
@@ -623,263 +33,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 691,
-      "type": "combat"
-    },
-    {
-      "item": "Limpwurt seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/28",
-      "chance": 0.03571428571428571,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Strawberry seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/29.3",
-      "chance": 0.034129692832764506,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Marrentill seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/30.7",
-      "chance": 0.03257328990228013,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Law rune",
-      "dropVersion": "Members",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "4/128",
-      "chance": 0.03125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 144,
-      "type": "combat"
-    },
-    {
-      "item": "Jangerberry seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/41.7",
-      "chance": 0.023980815347721823,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
-    },
-    {
-      "item": "Air rune",
-      "dropVersion": "Members",
-      "quantity": [
-        18,
-        18
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Chaos rune",
-      "dropVersion": "Members",
-      "quantity": [
-        7,
-        7
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 54,
-      "type": "combat"
-    },
-    {
-      "item": "Earth rune",
-      "dropVersion": "Members",
-      "quantity": [
-        27,
-        27
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Nature rune",
-      "dropVersion": "Members",
-      "quantity": [
-        6,
-        6
-      ],
-      "noted": false,
-      "rarity": "3/128",
-      "chance": 0.0234375,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Clue scroll (beginner)",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45",
-      "chance": 0.022222222222222223,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Tarromin seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/45.1",
-      "chance": 0.022172949002217293,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Wildblood seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/46.2",
-      "chance": 0.021645021645021644,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Watermelon seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/60.8",
-      "chance": 0.01644736842105263,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 33,
-      "type": "combat"
-    },
-    {
-      "item": "Coins",
-      "dropVersion": "Members",
-      "quantity": [
-        300,
-        300
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
-    },
-    {
-      "item": "Cosmic rune",
-      "dropVersion": "Members",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Iron arrow",
-      "dropVersion": "Members",
-      "quantity": [
-        15,
-        15
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 1,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Magic staff",
@@ -895,7 +51,45 @@
       "rolls": 1,
       "altRarity": null,
       "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel med helm",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril sword",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 507,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Mithril spear",
@@ -911,199 +105,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 507,
-      "type": "combat"
-    },
-    {
-      "item": "Mithril sword",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 507,
-      "type": "combat"
-    },
-    {
-      "item": "Steel med helm",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "2/128",
-      "chance": 0.015625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 180,
-      "type": "combat"
-    },
-    {
-      "item": "Harralander seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/68.4",
-      "chance": 0.014619883040935672,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 2,
-      "type": "combat"
-    },
-    {
-      "item": "Snape grass seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/95.8",
-      "chance": 0.010438413361169102,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 56,
-      "type": "combat"
-    },
-    {
-      "item": "Ranarr seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/98.3",
-      "chance": 0.01017293997965412,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy guam leaf",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/102.4",
-      "chance": 0.009765625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
-    },
-    {
-      "item": "Whiteberry seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/112.7",
-      "chance": 0.008873114463176575,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 79,
-      "type": "combat"
-    },
-    {
-      "item": "Blood rune",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 240,
-      "type": "combat"
-    },
-    {
-      "item": "Coal",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 27,
-      "type": "combat"
-    },
-    {
-      "item": "Death rune",
-      "dropVersion": "Members",
-      "quantity": [
-        3,
-        3
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 108,
-      "type": "combat"
-    },
-    {
-      "item": "Spinach roll",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Steel arrow",
-      "dropVersion": "Members",
-      "quantity": [
-        30,
-        30
-      ],
-      "noted": false,
-      "rarity": "1/128",
-      "chance": 0.0078125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 7,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Weapons and armour"
     },
     {
       "item": "Steel kiteshield",
@@ -1119,10 +123,174 @@
       "rolls": 1,
       "altRarity": null,
       "value": 510,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Weapons and armour"
     },
     {
-      "item": "Uncut sapphire",
+      "item": "Law rune",
+      "dropVersion": "Members",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": "Members",
+      "quantity": [
+        18,
+        18
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": "Members",
+      "quantity": [
+        27,
+        27
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "Members",
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Members",
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Cosmic rune",
+      "dropVersion": "Members",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": "Members",
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": "Members",
+      "quantity": [
+        30,
+        30
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": "Members",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Blood rune",
       "dropVersion": "Members",
       "quantity": [
         1,
@@ -1133,25 +301,29 @@
       "chance": 0.0078125,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/65",
-      "value": 15,
-      "type": "combat"
+      "altRarity": null,
+      "value": 240,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Runes and ammunition"
     },
     {
-      "item": "Mushroom spore",
+      "item": "Grimy guam leaf",
       "dropVersion": "Members",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/132.2",
-      "chance": 0.007564296520423602,
+      "rarity": "1/102.4",
+      "chance": 0.009765625,
       "approx": false,
       "rolls": 1,
       "altRarity": null,
-      "value": 51,
-      "type": "combat"
+      "value": 7,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy marrentill",
@@ -1167,23 +339,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 8,
-      "type": "combat"
-    },
-    {
-      "item": "Toadflax seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/142",
-      "chance": 0.007042253521126761,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy tarromin",
@@ -1199,39 +357,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Belladonna seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/212.9",
-      "chance": 0.004697040864255519,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 106,
-      "type": "combat"
-    },
-    {
-      "item": "Irit seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/212.9",
-      "chance": 0.004697040864255519,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy harralander",
@@ -1247,39 +375,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 9,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut emerald",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/256",
-      "chance": 0.00390625,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/130",
-      "value": 30,
-      "type": "combat"
-    },
-    {
-      "item": "Poison ivy seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/294.8",
-      "chance": 0.0033921302578018993,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 99,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy ranarr weed",
@@ -1295,55 +393,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 18,
-      "type": "combat"
-    },
-    {
-      "item": "Avantoe seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/319.4",
-      "chance": 0.003130870381966187,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Cactus seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/319.4",
-      "chance": 0.003130870381966187,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 59,
-      "type": "combat"
-    },
-    {
-      "item": "Long bone",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/400",
-      "chance": 0.0025,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 3,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy irit leaf",
@@ -1359,55 +411,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
-    },
-    {
-      "item": "Kwuarm seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/425.9",
-      "chance": 0.0023479690068091102,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 6,
-      "type": "combat"
-    },
-    {
-      "item": "Potato cactus seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/479.1",
-      "chance": 0.002087246921310791,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 84,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut ruby",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/512",
-      "chance": 0.001953125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/260",
-      "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy avantoe",
@@ -1423,7 +429,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 10,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy kwuarm",
@@ -1439,23 +447,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 12,
-      "type": "combat"
-    },
-    {
-      "item": "Snapdragon seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/766.5",
-      "chance": 0.001304631441617743,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 36,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy cadantine",
@@ -1471,39 +465,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
-    },
-    {
-      "item": "Cadantine seed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/958.2",
-      "chance": 0.0010436234606553956,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
-    },
-    {
-      "item": "Grimy dwarf weed",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,092.3",
-      "chance": 0.0009154994049253868,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 14,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
     },
     {
       "item": "Grimy lantadyme",
@@ -1519,7 +483,423 @@
       "rolls": 1,
       "altRarity": null,
       "value": 13,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Grimy dwarf weed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,092.3",
+      "chance": 0.0009154994049253868,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 14,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Mushroom spore",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/132.2",
+      "chance": 0.007564296520423602,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 51,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Herbs"
+    },
+    {
+      "item": "Limpwurt seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/28",
+      "chance": 0.03571428571428571,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Strawberry seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/29.3",
+      "chance": 0.034129692832764506,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 10,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Marrentill seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/30.7",
+      "chance": 0.03257328990228013,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Jangerberry seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/41.7",
+      "chance": 0.023980815347721823,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Tarromin seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45.1",
+      "chance": 0.022172949002217293,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Wildblood seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/46.2",
+      "chance": 0.021645021645021644,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 8,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Watermelon seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/60.8",
+      "chance": 0.01644736842105263,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 33,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Harralander seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/68.4",
+      "chance": 0.014619883040935672,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Snape grass seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/95.8",
+      "chance": 0.010438413361169102,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 56,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Ranarr seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/98.3",
+      "chance": 0.01017293997965412,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Whiteberry seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/112.7",
+      "chance": 0.008873114463176575,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 79,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Toadflax seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/142",
+      "chance": 0.007042253521126761,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Belladonna seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/212.9",
+      "chance": 0.004697040864255519,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 106,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Irit seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/212.9",
+      "chance": 0.004697040864255519,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Poison ivy seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/294.8",
+      "chance": 0.0033921302578018993,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 99,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Avantoe seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/319.4",
+      "chance": 0.003130870381966187,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Cactus seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/319.4",
+      "chance": 0.003130870381966187,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 59,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Kwuarm seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/425.9",
+      "chance": 0.0023479690068091102,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 6,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Potato cactus seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/479.1",
+      "chance": 0.002087246921310791,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 84,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Snapdragon seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/766.5",
+      "chance": 0.001304631441617743,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 36,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
+    },
+    {
+      "item": "Cadantine seed",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/958.2",
+      "chance": 0.0010436234606553956,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
     },
     {
       "item": "Lantadyme seed",
@@ -1535,23 +915,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 5,
-      "type": "combat"
-    },
-    {
-      "item": "Nature talisman",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/1,365.33",
-      "chance": 0.0007324236631437088,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/693.33",
-      "value": 2,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
     },
     {
       "item": "Dwarf weed seed",
@@ -1567,23 +933,9 @@
       "rolls": 1,
       "altRarity": null,
       "value": 3,
-      "type": "combat"
-    },
-    {
-      "item": "Uncut diamond",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/2,048",
-      "chance": 0.00048828125,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": "1/1,040",
-      "value": 120,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
     },
     {
       "item": "Torstol seed",
@@ -1599,23 +951,225 @@
       "rolls": 1,
       "altRarity": null,
       "value": 42,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Seeds"
     },
     {
-      "item": "Loop half of key",
+      "item": "Coins",
+      "dropVersion": "Members",
+      "quantity": [
+        37,
+        37
+      ],
+      "noted": false,
+      "rarity": "19/128",
+      "chance": 0.1484375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Members",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "8/128",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Members",
+      "quantity": [
+        119,
+        119
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Members",
+      "quantity": [
+        300,
+        300
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Steel bar",
       "dropVersion": "Members",
       "quantity": [
         1,
         1
       ],
       "noted": false,
-      "rarity": "1/4,096",
-      "chance": 0.000244140625,
+      "rarity": "6/128",
+      "chance": 0.046875,
       "approx": false,
       "rolls": 1,
-      "altRarity": "1/2,080",
+      "altRarity": null,
       "value": 60,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Other"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Other"
+    },
+    {
+      "item": "Spinach roll",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/65",
+      "value": 15,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/130",
+      "value": 30,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/260",
+      "value": 60,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Nature talisman",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/1,365.33",
+      "chance": 0.0007324236631437088,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/693.33",
+      "value": 2,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/1,040",
+      "value": 120,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune javelin",
@@ -1631,7 +1185,27 @@
       "rolls": 1,
       "altRarity": "1/2,080",
       "value": 240,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Loop half of key",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4,096",
+      "chance": 0.000244140625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/2,080",
+      "value": 60,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Tooth half of key",
@@ -1647,39 +1221,9 @@
       "rolls": 1,
       "altRarity": "1/2,080",
       "value": 60,
-      "type": "combat"
-    },
-    {
-      "item": "Giant champion scroll",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,000",
-      "chance": 0.0002,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 0,
-      "type": "combat"
-    },
-    {
-      "item": "Curved bone",
-      "dropVersion": "Members",
-      "quantity": [
-        1,
-        1
-      ],
-      "noted": false,
-      "rarity": "1/5,012.5",
-      "chance": 0.00019950124688279303,
-      "approx": false,
-      "rolls": 1,
-      "altRarity": null,
-      "value": 4,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Rune spear",
@@ -1695,7 +1239,9 @@
       "rolls": 1,
       "altRarity": "1/3,900",
       "value": 12480,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Shield left half",
@@ -1711,7 +1257,9 @@
       "rolls": 1,
       "altRarity": "1/7,800",
       "value": 66000,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
     },
     {
       "item": "Dragon spear",
@@ -1727,7 +1275,675 @@
       "rolls": 1,
       "altRarity": "1/10,400",
       "value": 37440,
-      "type": "combat"
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Moss giant bone",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/4",
+      "chance": 0.25,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Ensouled giant head",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/24",
+      "chance": 0.041666666666666664,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 191,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45",
+      "chance": 0.022222222222222223,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Mossy key",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8",
+      "value": 0,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Long bone",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/400",
+      "chance": 0.0025,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 3,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Giant champion scroll",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,000",
+      "chance": 0.0002,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Curved bone",
+      "dropVersion": "Members",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/5,012.5",
+      "chance": 0.00019950124688279303,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 4,
+      "type": "combat",
+      "group": "Members' worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Big bones",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "Always",
+      "chance": 1,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "100%"
+    },
+    {
+      "item": "Black sq shield",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 691,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Magic staff",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel med helm",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 180,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Mithril sword",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 507,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Steel kiteshield",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 510,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Weapons and armour"
+    },
+    {
+      "item": "Law rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "4/128",
+      "chance": 0.03125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 144,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Air rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        18,
+        18
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Earth rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        27,
+        27
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 2,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Chaos rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        7,
+        7
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 54,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Nature rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        6,
+        6
+      ],
+      "noted": false,
+      "rarity": "3/128",
+      "chance": 0.0234375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Cosmic rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Iron arrow",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        15,
+        15
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Steel arrow",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        30,
+        30
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 7,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Death rune",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        3,
+        3
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 108,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Runes and ammunition"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        10,
+        10
+      ],
+      "noted": false,
+      "rarity": "5/128",
+      "chance": 0.0390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        5,
+        5
+      ],
+      "noted": false,
+      "rarity": "35/128",
+      "chance": 0.2734375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        37,
+        37
+      ],
+      "noted": false,
+      "rarity": "19/128",
+      "chance": 0.1484375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        2,
+        2
+      ],
+      "noted": false,
+      "rarity": "11/128",
+      "chance": 0.0859375,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        119,
+        119
+      ],
+      "noted": false,
+      "rarity": "10/128",
+      "chance": 0.078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Coins",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        300,
+        300
+      ],
+      "noted": false,
+      "rarity": "2/128",
+      "chance": 0.015625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 1,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Coins"
+    },
+    {
+      "item": "Steel bar",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "6/128",
+      "chance": 0.046875,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Other"
+    },
+    {
+      "item": "Coal",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 27,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Other"
+    },
+    {
+      "item": "Spinach roll",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 0,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Other"
+    },
+    {
+      "item": "Uncut sapphire",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/128",
+      "chance": 0.0078125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 15,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut emerald",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/256",
+      "chance": 0.00390625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 30,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut ruby",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/512",
+      "chance": 0.001953125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 60,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Uncut diamond",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/2,048",
+      "chance": 0.00048828125,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 120,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Gem drop table"
+    },
+    {
+      "item": "Clue scroll (beginner)",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/45",
+      "chance": 0.022222222222222223,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": null,
+      "value": 12,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Tertiary"
+    },
+    {
+      "item": "Mossy key",
+      "dropVersion": "Free-to-play",
+      "quantity": [
+        1,
+        1
+      ],
+      "noted": false,
+      "rarity": "1/16",
+      "chance": 0.0625,
+      "approx": false,
+      "rolls": 1,
+      "altRarity": "1/8",
+      "value": 0,
+      "type": "combat",
+      "group": "Free-to-play worlds drops",
+      "section": "Tertiary"
     }
   ]
 }
