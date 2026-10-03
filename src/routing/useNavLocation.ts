@@ -34,9 +34,7 @@ export function useNavLocation(): NavLocation {
     };
   }
 
-  const categoryParam = (
-    matchPath('/categories/:slug', pathname) ?? matchPath('/categories/:slug/locations', pathname)
-  )?.params.slug;
+  const categoryParam = matchPath('/categories/:slug', pathname)?.params.slug;
   if (categoryParam) return trail(findCategory(catalog, categoryParam));
 
   // A monster lives under the category it was chosen for, else its first one.

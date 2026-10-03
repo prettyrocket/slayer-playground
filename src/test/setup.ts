@@ -8,6 +8,7 @@ import {
   mastersFixture,
   metaFixture,
   monstersFixture,
+  unlocksFixture,
 } from '@/test/monsters';
 
 // jsdom has no matchMedia; MUI's color scheme logic needs it. Report "light".
@@ -33,6 +34,7 @@ const fixtures: Record<string, unknown> = {
   'data/drops/abyssal-demon.json': abyssalDemonDrops,
   'data/masters.json': mastersFixture,
   'data/meta.json': metaFixture,
+  'data/unlocks.json': unlocksFixture,
 };
 
 beforeEach(() => {

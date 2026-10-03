@@ -74,7 +74,7 @@ describe('master trail', () => {
     await user.click(await within(main).findByRole('link', { name: 'Abyssal demons' }));
     expect(await findCrumbs()).toHaveTextContent('Masters/Vannaka/Abyssal demons');
 
-    await user.click(within(main).getByRole('link', { name: 'Abyssal demon' }));
+    await user.click((await within(main).findAllByRole('link', { name: 'Abyssal demon' }))[0]);
     expect(await findCrumbs()).toHaveTextContent('Masters/Vannaka/Abyssal demons/Abyssal demon');
     const side = screen.getByRole('navigation', { name: 'Browse' });
     expect(within(side).getByRole('link', { name: 'Vannaka' })).toHaveClass('Mui-selected');

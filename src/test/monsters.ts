@@ -10,6 +10,7 @@ import type {
   MonsterVersion,
   MonstersFile,
   SlayerCategory,
+  UnlocksFile,
 } from '@/data/types';
 
 /** A version with a combat level; every other stat empty. */
@@ -208,9 +209,10 @@ export const categoriesFixture: CategoriesFile = {
         slayerLevel: 85,
         icon: 'icons/abyssal-demons.png',
         page: 'Slayer task/Abyssal demons',
+        extend: 'Augment my Abbies',
       },
     ),
-    category('bosses', ['abyssal-sire'], ['duradel']),
+    category('bosses', ['abyssal-sire'], ['duradel'], { unlocks: ['Like a Boss'] }),
     category('cows', ['cow'], ['turael']),
     category('dust devils', ['dust-devil'], ['duradel'], {
       aliases: ['dusties'],
@@ -262,7 +264,7 @@ export const mastersFixture: MastersFile = {
       totalWeight: 30,
       assignments: [
         assignment('abyssal demons', 12, { amount: [130, 200], extended: [200, 250] }),
-        assignment('bosses', 12, { amount: [3, 35] }),
+        assignment('bosses', 12, { amount: [3, 35], unlocks: ['Like a Boss'] }),
         assignment('dust devils', 6, { amount: [50, 50] }),
       ],
     },
@@ -363,6 +365,24 @@ export const abyssalDemonDrops: DropsFile = {
       rarity: '1/3',
       chance: 1 / 3,
     }),
+  ],
+};
+
+/** Served for data/unlocks.json in tests. */
+export const unlocksFixture: UnlocksFile = {
+  unlocks: [
+    {
+      name: 'Augment my Abbies',
+      cost: 100,
+      kind: 'extend',
+      notes: 'Number of abyssal demons assigned is increased to 200-250.',
+    },
+    {
+      name: 'Like a Boss',
+      cost: 200,
+      kind: 'unlock',
+      notes: 'Konar, Duradel, Nieve and Krystilia can assign boss monster tasks.',
+    },
   ],
 };
 
